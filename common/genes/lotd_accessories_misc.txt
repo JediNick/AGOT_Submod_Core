@@ -1,0 +1,164 @@
+﻿special_genes = {
+
+
+	accessory_genes = {
+
+	#####################################
+	#									#
+	# 		  	   PROPS  		        #
+	#									#
+	#####################################
+
+
+
+	  props_valyrian_lotd = {
+		
+			no_props = {
+				index = 0
+				male = {
+				}
+				female = {
+				}
+				boy = {
+				}
+				girl = {
+				}
+			}
+
+	    grid = {
+			index = 1
+			male = {
+				1 = debug_grid_01
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	      
+		darksister_prop = {
+			index = 2
+			male = {
+				1 = darksister_prop
+			}
+			female = {
+				1 = darksister_prop	
+			}
+			boy = male
+			girl = female
+		}
+
+		seafoam_prop = {
+			index = 3
+			male = {
+				1 = seafoam_prop
+			}
+			female = {
+				1 = seafoam_prop	
+			}
+			boy = male
+			girl = female
+		}
+
+		aegon_dagger_prop = {
+			index = 4
+			male = {
+				1 = aegon_dagger_prop
+			}
+			female = {
+				1 = aegon_dagger_prop
+			}
+			boy = male
+			girl = female
+		}
+
+		subterfuge_prop = {
+			index = 5
+			male = {
+				1 = subterfuge_prop
+			}
+			female = {
+				1 = subterfuge_prop	
+			}
+			boy = male
+			girl = female
+		}
+
+		
+		calamity_prop = {
+			index = 6
+			male = {
+				1 = calamity_prop
+			}
+			female = {
+				1 = calamity_prop
+			}
+			boy = male
+			girl = female
+		}
+
+		orys_hammer_prop = {
+			index = 7
+			male = {
+				1 = orys_hammer_prop
+			}
+			female = {
+				1 = orys_hammer_prop
+			}
+			boy = male
+			girl = female
+		}
+		
+		aegon_dagger_glow_prop = {
+			index = 8
+			male = {
+				1 = aegon_dagger_glow_prop
+			}
+			female = {
+				1 = aegon_dagger_glow_prop	
+			}
+			boy = male
+			girl = female
+		}
+		
+		blackfyre_prop = {
+			index = 9
+			male = {
+				1 = blackfyre_prop
+			}
+			female = {
+				1 = blackfyre_prop	
+			}
+			boy = male
+			girl = female
+		}
+
+		blackfyre_rehilt_prop = {
+			index = 10
+			male = {
+				1 = blackfyre_rehilt_prop
+			}
+			female = {
+				1 = blackfyre_rehilt_prop
+			}
+			boy = male
+			girl = female	
+		}
+
+		aegon_dagger_glow_prop = {
+			index = 11
+			male = {
+				1 = aegon_dagger_glow_prop
+			}
+			female = {
+				1 = aegon_dagger_glow_prop
+			}
+			boy = male
+			girl = female
+		}
+
+
+
+	
+	}
+  }
+}

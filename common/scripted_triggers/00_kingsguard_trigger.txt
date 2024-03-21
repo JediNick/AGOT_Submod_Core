@@ -1,0 +1,6 @@
+﻿portrait_valyrian_clothing_targ_trigger = {
+	OR = {
+		dynasty = dynasty:dynn_Targaryen
+		house = house:house_Blackfyre
+	}
+}

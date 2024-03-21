@@ -1,0 +1,42 @@
+﻿male_aegoncrown_01 = {
+	set_tags = "crown"
+	entity = { required_tags = "mask"			shared_pose_entity = head		 	 }
+	entity = { required_tags = ""			shared_pose_entity = head		  }		
+}
+
+female_aegoncrown_01 = {
+	set_tags = "crown,fit_over_headgear"	
+	entity = { required_tags = "mask"			shared_pose_entity = head		 	 }
+	entity = { required_tags = ""			shared_pose_entity = head		  }		
+}
+
+male_viserys_crown_01 = {
+	set_tags = "crown"
+	entity = { required_tags = "mask"			shared_pose_entity = head		 	 }
+	entity = { required_tags = ""			shared_pose_entity = head		  }		
+}
+
+female_viserys_crown_01 = {
+	set_tags = "crown,fit_over_headgear"	
+	entity = { required_tags = "mask"			shared_pose_entity = head		 	 }
+	entity = { required_tags = ""			shared_pose_entity = head		  }		
+}
+
+male_aegoncrown_02 = {
+	set_tags = "crown"
+	entity = { required_tags = "mask"			shared_pose_entity = head		 	 }
+	entity = { required_tags = ""			shared_pose_entity = head		  }		
+}
+
+female_aegoncrown_02 = {
+	set_tags = "crown,fit_over_headgear"
+	entity = { required_tags = "mask"			shared_pose_entity = head		 	 }
+	entity = { required_tags = ""			shared_pose_entity = head		  } 		
+}
+
+female_visenya_circlet_01 = {
+	set_tags = "crown,fit_over_headgear"	
+	entity = { required_tags = "mask"			shared_pose_entity = head		 }
+	entity = { required_tags = ""			shared_pose_entity = head		  } 		
+}
+

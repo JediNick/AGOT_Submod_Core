@@ -1,0 +1,53 @@
+﻿viserys_mask_01 = {	
+	#set_tags = "mask"
+	#set_tags = "no_hair"
+	set_tags = "no_beard"
+	entity = { required_tags = "stealth"		shared_pose_entity = head	 }
+	##entity = { required_tags = "mask_hat"		shared_pose_entity = head        	 }
+	entity = { required_tags = ""				shared_pose_entity = head		 		 }		
+}
+viserys_mask_02 = {	
+	set_tags = "no_beard"
+	entity = { required_tags = "stealth"		shared_pose_entity = head	 }
+	entity = { required_tags = ""				shared_pose_entity = head		 		 }		
+}
+viserys_mask_03 = {	
+	set_tags = "no_beard"
+	entity = { required_tags = "stealth"		shared_pose_entity = head	 }
+	entity = { required_tags = ""				shared_pose_entity = head		 		 }		
+}
+viserys_mask_04 = {	
+	set_tags = "no_beard"
+	entity = { required_tags = "stealth"		shared_pose_entity = head	 }
+	entity = { required_tags = ""				shared_pose_entity = head		 		 }		
+}
+viserys_mask_05 = {	
+	set_tags = "no_beard"
+	entity = { required_tags = "stealth"		shared_pose_entity = head	 }
+	entity = { required_tags = ""				shared_pose_entity = head		 		 }		
+}
+viserys_mask_01_female = {	
+	set_tags = "no_beard"
+	entity = { required_tags = "stealth"		shared_pose_entity = head	 }
+	entity = { required_tags = ""				shared_pose_entity = head		 		 }		
+}
+viserys_mask_02_female = {	
+	set_tags = "no_beard"
+	entity = { required_tags = "stealth"		shared_pose_entity = head	 }
+	entity = { required_tags = ""				shared_pose_entity = head		 		 }		
+}
+viserys_mask_03_female = {	
+	set_tags = "no_beard"
+	entity = { required_tags = "stealth"		shared_pose_entity = head	 }
+	entity = { required_tags = ""				shared_pose_entity = head		 		 }		
+}
+viserys_mask_04_female = {	
+	set_tags = "no_beard"
+	entity = { required_tags = "stealth"		shared_pose_entity = head	 }
+	entity = { required_tags = ""				shared_pose_entity = head		 		 }		
+}
+viserys_mask_05_female = {	
+	set_tags = "no_beard"
+	entity = { required_tags = "stealth"		shared_pose_entity = head	 }
+	entity = { required_tags = ""				shared_pose_entity = head		 		 }		
+}

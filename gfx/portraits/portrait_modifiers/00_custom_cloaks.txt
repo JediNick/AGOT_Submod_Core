@@ -1,0 +1,207 @@
+﻿custom_cloaks = {
+	usage = customization
+	interface_position = 3
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = no_cloak
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = fp4_cloak_western
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = sp3_cloak
+		is_valid_custom = {
+			has_dlc_feature = couture_of_the_capets
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = sp2_cloak_imperial
+		is_valid_custom = {
+			has_dlc_feature = elegance_of_the_empire
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_ep2_dlc_trigger = yes
+		}
+		template = ep2_cloak_western_travel
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_ep2_dlc_trigger = yes
+		}
+		template = ep2_cloak_mena_travel
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_ep2_dlc_trigger = yes
+		}
+		template = ep2_cloak_western_era1_low_nobility
+	}
+	
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_ep2_dlc_trigger = yes
+		}
+		template = ep2_cloak_western_era1_high_nobility
+	}
+	
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = western_royalty
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_fp1_dlc_trigger = yes
+		}
+		template = fp1_cloak
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_ep1_dlc_trigger = yes
+		}
+		template = ep1_cloak_adventurer
+	}
+	
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_afr_dlc_trigger = yes
+		}
+		template = afr_cloaks
+	}
+
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_ep1_dlc_trigger = yes
+		}
+		template = nw_fur_01
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_ep1_dlc_trigger = yes
+		}
+		template = kingsguard_cloak
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_ep1_dlc_trigger = yes
+		}
+		template = male_cloaks_secular_armorcape_01
+	}
+	
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_ep1_dlc_trigger = yes
+		}
+		template = male_goldcloak_01
+	}
+	
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_ep1_dlc_trigger = yes
+		}
+		template = male_cloaks_secular_shouldercape_01
+	}
+	
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_ep1_dlc_trigger = yes
+		}
+		template = male_cloaks_secular_halfcape_01
+	}
+	
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = unlikely_cape_01
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_fp1_dlc_trigger = yes
+		}
+		template = agot_coa_cloaks_fp1
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_ep1_dlc_trigger = yes
+		}
+		template = agot_coa_cloaks_ep1
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_ep2_dlc_trigger = yes
+		}
+		template = agot_coa_cloaks_ep2
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_dlc_feature = elegance_of_the_empire
+		}
+		template = agot_coa_cloaks_sp2
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = agot_coa_cloaks_western_royalty
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = male_cloaks_secular_shouldercape_coa_01
+	}
+	
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_ep1_dlc_trigger = yes
+		}
+		template = kingsguard_cloak
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			is_aotk_loaded_trigger = yes
+			has_ep1_dlc_trigger = yes
+		}
+		template = kingsguard_cloak_aotk
+	}
+}

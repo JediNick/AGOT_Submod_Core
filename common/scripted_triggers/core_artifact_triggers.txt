@@ -1,0 +1,91 @@
+﻿portrait_has_unique_sword_trigger = {
+		any_equipped_character_artifact = {
+			artifact_type = sword   						
+			OR = {
+				has_variable = vs_sword_1
+				has_variable = vs_sword_2
+				has_variable = vs_sword_3
+				has_variable = vs_sword_4
+				has_variable = blackfyre
+				has_variable = darksister
+				has_variable = seafoam
+				
+			}	
+		}
+	}
+
+portrait_has_unique_dagger_trigger = {
+		any_equipped_character_artifact = { 
+			artifact_type = dagger  						
+			OR = {
+				has_variable = vs_dagger_1
+				has_variable = aegon_dagger
+				has_variable = subterfuge
+			}	
+		}
+	}
+
+portrait_has_unique_spear_trigger = {
+		any_equipped_character_artifact = { 	
+			artifact_type = spear  					
+			OR = {
+				has_variable = vs_spear_1
+				
+			}	
+		}
+	}
+
+portrait_has_unique_mace_trigger = {
+		any_equipped_character_artifact = { 
+			artifact_type = mace  						
+			OR = {
+				has_variable = vs_mace
+				
+			}	
+		}
+	}
+
+portrait_has_unique_axe_trigger = {
+		any_equipped_character_artifact = { 		
+			artifact_type = axe  				
+			OR = {
+				has_variable = vs_axe
+				has_variable = calamity				
+			}	
+		}
+	}
+
+portrait_has_unique_hammer_trigger = {
+	any_equipped_character_artifact = { 
+		artifact_type = hammer  						
+		OR = {
+			has_variable = orys_hammer
+			
+		}	
+	}
+}
+
+portrait_should_wear_aegoncrown_trigger = {
+	trigger_if = {
+		limit = { any_equipped_character_artifact = { artifact_slot_type = helmet  } }
+		any_equipped_character_artifact = { 						
+			AND = {
+				NOT = { has_variable = aegoncrown_nogems }
+				has_variable = aegoncrown
+			}	
+		}
+	}
+}
+
+portrait_should_wear_aegoncrown_nogems_trigger = {
+	trigger_if = {
+		limit = { any_equipped_character_artifact = { artifact_slot_type = helmet  } }
+		any_equipped_character_artifact = {
+			AND = {
+				has_variable = aegoncrown_nogems
+				has_variable = aegoncrown
+			}		
+		}
+	}
+}
+

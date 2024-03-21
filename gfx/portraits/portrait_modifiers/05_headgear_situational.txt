@@ -1,0 +1,671 @@
+﻿headgear_situational = {
+
+	usage = game
+	selection_behavior = weighted_random
+	priority = 5
+
+
+	western_stealth = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = western_stealth
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = {
+			western_stealth
+			western_stealth_hood
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_stealth_trigger = yes
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_byzantine_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+	mena_stealth = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_stealth
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = {
+			mena_stealth
+			mena_stealth_hood
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_stealth_trigger = yes
+				OR = {
+					portrait_mena_clothing_trigger = yes
+					portrait_indian_clothing_trigger = yes
+					portrait_steppe_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+	jester_headgear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+
+				gene = headgear
+				template = ep1_jester
+				range = { 0 1 }
+			}
+		}
+		outfit_tags = { jester_outfit }
+		weight = {
+			base = -100
+			modifier = {
+				add = 1000
+				OR = {
+					portrait_jester_trigger = { CULTURE_INPUT = western }
+					portrait_jester_trigger = { CULTURE_INPUT = byzantine }
+					portrait_jester_trigger = { CULTURE_INPUT = northern }
+				}				
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}
+		}
+	}
+	
+	#AGOT Disabled
+	# hajj_headgear = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = headgear
+	# 			template = mena_common
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 	}	
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 500
+	# 			exists = this
+	# 			OR = {
+	# 				portrait_ep2_hajj_clothes_trigger = yes
+	# 				portrait_ep2_ihram_clothes_trigger = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
+
+	# EP2 - WEDDINGS
+
+	wedding_western_headgear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = western_wedding
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		outfit_tags = { spouse_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				has_ep2_dlc_trigger = yes
+				portrait_ep2_wedding_clothes_trigger = yes
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
+					#AGOT Added
+					portrait_byzantine_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+	wedding_mena_headgear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_wedding
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		outfit_tags = { spouse_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				has_ep2_dlc_trigger = yes
+				portrait_ep2_wedding_clothes_trigger = yes
+				OR = {
+					portrait_mena_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
+					portrait_indian_clothing_trigger = yes
+					portrait_steppe_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+	wedding_byz_headgear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = byzantine_wedding
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { spouse_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				has_ep2_dlc_trigger = yes
+				portrait_ep2_wedding_clothes_trigger = yes
+				#AGOT Modified
+				# portrait_byzantine_clothing_trigger = yes
+				always = no
+			}
+		}
+	}
+	
+	# BP2
+	university_teacher_headgear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_spectacles
+				template = spectacles
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { spectacles_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				OR = {
+					has_character_flag = teacher_1
+					has_character_flag = teacher_2
+					has_character_flag = has_reading_glasses
+				}
+			}
+		}
+	}
+
+
+	#AGOT Added
+	agot_headgear_kingsguard = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = Kingsguard_Helm_1
+				accessory = male_headgear_secular_kingsguard_war_01
+			}
+			morph = {
+				mode = add
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1
+			}
+			morph = {
+				mode = modify
+				gene = gene_chin_forward
+				template = chin_forward_neg
+				value = -1
+			}
+			morph = {
+				mode = modify
+				gene = gene_jaw_forward
+				template = jaw_forward_pos
+				value = -1
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_nose_forward
+				template = nose_forward_neg
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				AND = {
+					has_trait = kingsguard
+					portrait_wear_armor_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
+				NOT = {
+					OR = {
+						dynasty ?= dynasty:dynn_Targaryen
+						house = house:house_Blackfyre
+						this = character:Targaryen_89
+					}
+				}
+			}
+			##LOTD ADDED
+			modifier = {
+                factor = 0
+                is_aotk_loaded_trigger = yes
+				has_game_rule = show_armor_enabled
+            }
+		}
+	}
+	#AGOT Added
+	agot_headgear_dragonknight_kingsguard = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = Kingsguard_Helm_1
+				accessory = male_headgear_secular_kingsguard_war_02
+			}
+			morph = {
+				mode = add
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1
+			}
+			morph = {
+				mode = modify
+				gene = gene_chin_forward
+				template = chin_forward_neg
+				value = -1
+			}
+			morph = {
+				mode = modify
+				gene = gene_jaw_forward
+				template = jaw_forward_pos
+				value = -1
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_nose_forward
+				template = nose_forward_neg
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				AND = {
+					has_trait = kingsguard
+					portrait_wear_armor_trigger = yes
+					portrait_wear_helmet_trigger = yes
+					OR = {
+						dynasty ?= dynasty:dynn_Targaryen
+						house = house:house_Blackfyre
+						this = character:Targaryen_89
+					}
+				}
+			}
+			##LOTD ADDED
+			modifier = {
+                factor = 0
+                is_aotk_loaded_trigger = yes
+				has_game_rule = show_armor_enabled
+            }
+		}
+	}
+	agot_headgear_silent_sister = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep2_western_era3_common 
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				has_trait = silent_sister
+			}
+		}
+	}
+
+	
+	kingsguard_headgear_01 = {
+	    dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = KG_war_common 
+				range = { 0 0 }
+			}
+		}
+	    weight = {
+			base = -100
+			modifier = {
+				add = 1000
+				is_aotk_loaded_trigger = yes
+				has_trait = kingsguard
+				#portrait_wear_armor_trigger = yes
+				has_game_rule = show_armor_enabled
+				exists = title:e_the_iron_throne.holder
+				title:e_the_iron_throne.holder = {
+					primary_title = { 
+						has_variable = kingsguard 
+						OR = {
+							AND = {
+								has_variable = kingsguard_choice 
+								var:kingsguard_choice = 0
+							}
+							NOT = { has_variable = kingsguard_choice }
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					#is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}				
+		}
+	}
+	kingsguard_headgear_02 = {
+	    dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1
+			}
+			accessory = {
+				mode = add
+
+				gene = headgear
+				template = KG_war_common 
+				range = { 0.3 0.3 }
+			}
+		}
+	    weight = {
+			base = -100
+			modifier = {
+				add = 1002
+				is_aotk_loaded_trigger = yes
+				has_trait = kingsguard
+				#portrait_wear_armor_trigger = yes
+				has_game_rule = show_armor_enabled
+				exists = title:e_the_iron_throne.holder
+				title:e_the_iron_throne.holder = {
+					primary_title = { 
+						has_variable = kingsguard 
+						AND = {
+							has_variable = kingsguard_choice 
+							var:kingsguard_choice = 1
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					#is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}	
+			modifier = {
+				factor = 0
+				is_aotk_loaded_trigger = no
+			}		
+		}
+	}
+	kingsguard_headgear_03 = {
+	    dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1
+			}
+			accessory = {
+				mode = add
+
+				gene = headgear
+				template = KG_war_common 
+				range = { 0.5 0.5 }
+			}
+		}
+	    weight = {
+			base = -100
+			modifier = {
+				add = 1003
+				is_aotk_loaded_trigger = yes
+				has_trait = kingsguard
+				#portrait_wear_armor_trigger = yes
+				has_game_rule = show_armor_enabled
+				exists = title:e_the_iron_throne.holder
+				title:e_the_iron_throne.holder = {
+					primary_title = { 
+						has_variable = kingsguard 
+						AND = {
+							has_variable = kingsguard_choice 
+							var:kingsguard_choice = 2
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					#is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+	kingsguard_headgear_04 = {
+	    dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1
+			}
+			accessory = {
+				mode = add
+
+				gene = headgear
+				template = KG_war_common 
+				range = { 0.7 0.7 }
+			}
+		}
+	    weight = {
+			base = -100
+			modifier = {
+				add = 1004
+				is_aotk_loaded_trigger = yes
+				has_trait = kingsguard
+				#portrait_wear_armor_trigger = yes
+				has_game_rule = show_armor_enabled
+				exists = title:e_the_iron_throne.holder
+				title:e_the_iron_throne.holder = {
+					primary_title = { 
+						has_variable = kingsguard 
+						AND = {
+							has_variable = kingsguard_choice 
+							var:kingsguard_choice = 3
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					#is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+	kingsguard_headgear_05 = {
+	    dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1
+			}
+			accessory = {
+				mode = add
+
+				gene = headgear
+				template = KG_war_common 
+				range = { 1 1 }
+			}
+		}
+	    weight = {
+			base = -100
+			modifier = {
+				add = 1005
+				is_aotk_loaded_trigger = yes
+				has_trait = kingsguard
+				#portrait_wear_armor_trigger = yes
+				has_game_rule = show_armor_enabled
+				exists = title:e_the_iron_throne.holder
+				title:e_the_iron_throne.holder = {
+					primary_title = { 
+						has_variable = kingsguard 
+						AND = {
+							has_variable = kingsguard_choice 
+							var:kingsguard_choice = 4
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					#is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+
+
+	##Hardcode viserys mask
+	viserys_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = viserys_crown
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 301
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact }
+			}
+			modifier = {
+				add = 50000
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact } }
+				AND = {
+					#primary_title = title:e_the_iron_throne
+					OR = {
+						this = character:Targaryen_35 # Jaehaerys I
+						this = character:Targaryen_60 # Viserys I
+						this = character:Targaryen_63 # Rhaenyra
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT =  { is_lotd_loaded_trigger = yes }
+			}
+			modifier = {
+				factor = 0
+				NOT =  { has_game_rule = hotd_visuals }
+			}
+		}
+	}
+
+	viserys_mask = {
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_forehead_brow_curve
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_nose_forward
+				template = nose_forward_neg
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_forehead_brow_forward
+				value = 0.0
+			}
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_viserys
+				template = face_mask
+				range = { 0 0 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				AND = {
+					#primary_title = title:e_the_iron_throne
+					OR = {
+						this = character:Targaryen_60 # Viserys I
+					}
+				}
+			}
+			modifier = {
+				add = 500
+				any_equipped_character_artifact = { 
+					artifact_slot_type = miscellaneous
+					has_variable = viserys_mask
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT =  { is_lotd_loaded_trigger = yes }
+			}
+		}
+	}
+}

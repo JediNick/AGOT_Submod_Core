@@ -1,0 +1,36 @@
+﻿### These entries are all placeholder values, and will be overwritten by the respective submod they are used by.
+### This prevents errors spamming the logs, and if properly enforced will not be seen by the player.
+
+##LOTD
+# blackfyre_prop = {
+# 	entity = {	required_tags = ""        node = "bn_r_prop"	}	
+# }
+
+# darksister_prop = {
+# 	entity = {	required_tags = ""        node = "bn_r_prop"	 }	
+# }
+
+# seafoam_prop = {
+# 	entity = {	required_tags = ""        node = "bn_r_prop"     }	
+# }
+
+# aegon_dagger_prop = {
+# 	entity = {	required_tags = ""        node = "bn_r_prop"		}	
+# }
+
+# subterfuge_prop = {
+# 	entity = {	required_tags = ""        node = "bn_r_prop"		}	
+# }
+
+# calamity_prop = {
+# 	entity = {	required_tags = ""        node = "bn_r_prop"		}	
+# }
+
+# orys_hammer_prop = {
+# 	entity = {	required_tags = ""        node = "bn_r_prop"		}	
+# }
+
+# aegon_dagger_glow_prop = {
+# 	entity = {	required_tags = ""        node = "bn_r_prop"		 }	
+# }
+

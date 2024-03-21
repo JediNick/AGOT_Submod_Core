@@ -1,0 +1,10 @@
+﻿is_valyrian_steel_loaded_trigger = { 
+    #always = yes 
+    trigger_if = {  
+        limit = {
+            exists = global_var:valyrian_steel_enabled 
+        }
+    }
+    trigger_else = { always = no }
+}
+

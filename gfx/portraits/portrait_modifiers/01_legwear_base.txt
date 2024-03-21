@@ -1,0 +1,998 @@
+﻿legwear = {
+	# interface_position = 1
+	usage = game
+	selection_behavior = max
+	
+	no_legwear = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+		
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+		}
+        outfit_tags = { no_clothes }
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				AND = {
+					# Deliberately not the "fully naked" one since you'll wear a nightgown if we don't allow full nudity
+					should_be_naked_trigger = yes
+				}
+			}
+		}
+	}
+
+## No Leg wear for children under 4 ## 
+
+	children_no_headgear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				scope:age < 4
+			}
+		}
+	}
+
+	default_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = western_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 1
+		}
+
+	}
+
+	western_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = western_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				portrait_western_clothing_trigger = yes
+			}
+		}
+	}
+
+	western_war_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = western_war_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				portrait_wear_armor_trigger = yes
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_byzantine_clothing_trigger = yes
+				}
+			}
+            modifier = {
+                factor = 0   
+                portrait_western_clothing_trigger = yes   
+                has_ep2_dlc_trigger = yes   
+            }   
+		}
+	}
+
+	ep2_western_era1_war_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = western_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				portrait_wear_armor_trigger = yes
+				portrait_western_clothing_trigger = yes
+                has_ep2_dlc_trigger = yes   
+                portrait_era1_armor_trigger = yes  
+			}
+		}
+	}
+
+	ep2_western_era2_war_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = fp1_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				portrait_wear_armor_trigger = yes
+				portrait_western_clothing_trigger = yes
+                has_ep2_dlc_trigger = yes   
+                portrait_era2_armor_trigger = yes  
+			}
+		}
+	}
+
+	ep2_western_era3_war_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = western_war_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				portrait_wear_armor_trigger = yes
+				portrait_western_clothing_trigger = yes
+                has_ep2_dlc_trigger = yes   
+                portrait_era3_armor_trigger = yes  
+			}
+		}
+	}
+
+	ep2_western_era4_war_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = ep2_western_war_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				portrait_wear_armor_trigger = yes
+				portrait_western_clothing_trigger = yes
+                has_ep2_dlc_trigger = yes   
+                portrait_era4_armor_trigger = yes  
+			}
+		}
+	}
+
+	mena_common_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = mena_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				OR = {
+					portrait_mena_clothing_trigger = yes
+					portrait_indian_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
+					portrait_steppe_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+	mena_nobility_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = mena_nobility_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									government_has_flag = government_is_republic
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+							}
+							NOT = { AND = { is_ruler = yes government_has_flag = government_is_mercenary  } } # Blocked for mercenaries
+							OR = {
+								portrait_mena_clothing_trigger = yes
+								portrait_indian_clothing_trigger = yes
+								portrait_african_clothing_trigger = yes
+								portrait_steppe_clothing_trigger = yes
+							}
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier > tier_county
+									AND = {
+										government_has_flag = government_is_republic
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+								}
+								OR = {
+									portrait_mena_clothing_spouse_trigger = yes
+									portrait_indian_clothing_spouse_trigger = yes
+									portrait_african_clothing_spouse_trigger = yes
+									portrait_steppe_clothing_spouse_trigger = yes
+								}
+							}
+						}
+					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier > tier_county
+					OR = {
+						portrait_mena_clothing_trigger = yes
+						portrait_indian_clothing_trigger = yes
+						portrait_african_clothing_trigger = yes
+						portrait_steppe_clothing_trigger = yes
+					}
+				}
+			}
+		}
+	}
+
+	mena_war_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = mena_war_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		outfit_tags = { mena_war_legwear }
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_wear_armor_trigger = yes
+				OR = {
+					portrait_mena_clothing_trigger = yes
+					portrait_indian_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
+					portrait_steppe_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+	fighting_trousers = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = fp1_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				should_be_topless_portrait_trigger = yes
+			}
+		}
+	}
+
+
+	ep1_jester_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = ep1_jester_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 1000
+				is_male = yes
+				has_court_position = court_jester_court_position
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+	#AGOT Added
+
+	agot_legwear_siren = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = kingsguard_war_01_legwear
+				value = 1
+			}
+		}
+		weight = {
+			base = -100
+			modifier = {
+				add = 1000
+				exists = this
+				OR = {
+					has_character_flag = siren
+				}
+			}
+		}
+	}
+
+	agot_legwear_kingsguard_iron_throne = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = kingsguard_war_01_legwear
+				value = 1
+			}
+		}
+        weight = {
+            base = 0
+            modifier = {
+                add = 900
+				AND = {
+                has_trait = kingsguard
+				}
+            }
+            modifier = {
+                factor = 0
+                is_aotk_loaded_trigger = yes
+				has_game_rule = show_armor_enabled
+            }
+        }
+	}
+
+	agot_legwear_robert_baratheon = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = stormlands_war_04_legwear
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				exists = this
+				portrait_wear_robert_armor_trigger = yes
+			}
+		}
+	}
+
+	agot_legwear_stormlander_three = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = stormlands_war_03_legwear
+				accessory = male_legwear_secular_stormlands_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				exists = this
+				highest_held_title_tier >= tier_duchy
+				portrait_wear_armor_trigger = yes
+				portrait_stormlander_clothing_trigger = yes
+			}
+		}
+	}
+
+	agot_legwear_stormlander_baratheon_three = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = stormlands_war_03_legwear
+				accessory = male_legwear_secular_stormlands_baratheon_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 210
+				exists = this
+				highest_held_title_tier >= tier_duchy
+				portrait_wear_armor_trigger = yes
+				AND = {
+					portrait_stormlander_clothing_trigger = yes
+					dynasty ?= dynasty:dynn_Baratheon
+				}
+			}
+		}
+	}
+
+	agot_legwear_reachman_three = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = reach_war_03_legwear
+				accessory = male_legwear_secular_reach_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 250
+				exists = this
+				highest_held_title_tier >= tier_duchy
+				portrait_wear_armor_trigger = yes
+				portrait_reachman_clothing_trigger = yes
+			}
+		}
+	}
+
+	agot_legwear_reachman_tyrell_three = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = reach_war_03_legwear
+				accessory = male_legwear_secular_reach_tyrell_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 250
+				exists = this
+				highest_held_title_tier >= tier_duchy
+				portrait_wear_armor_trigger = yes
+				AND = {
+					portrait_reachman_clothing_trigger = yes
+					dynasty ?= dynasty:dynn_Tyrell
+				}
+			}
+		}
+	}
+
+	agot_legwear_high_valyrian = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = high_valyrian_war_legwear
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				exists = this
+				portrait_wear_armor_trigger = yes
+				portrait_valyrian_clothing_trigger = yes
+				portrait_wear_rhaegar_armor_trigger = yes
+			}
+		}
+	}
+
+	agot_legwear_valyrian = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = valyrian_war_legwear
+				accessory = male_legwear_secular_valyrian_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 250
+				exists = this
+				portrait_wear_armor_trigger = yes
+				portrait_valyrian_clothing_trigger = yes
+			}
+		}
+	}
+
+	agot_legwear_valyrian_targaryen = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = valyrian_war_legwear
+				accessory = male_legwear_secular_valyrian_targaryen_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 260
+				exists = this
+				portrait_wear_armor_trigger = yes
+				AND = {
+					portrait_valyrian_clothing_trigger = yes
+					dynasty ?= dynasty:dynn_Targaryen
+				}
+			}
+		}
+	}
+
+	agot_legwear_valyrian_blackfyre = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = valyrian_war_legwear
+				accessory = male_legwear_secular_valyrian_blackfyre_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 270
+				exists = this
+				portrait_wear_armor_trigger = yes
+				AND = {
+					portrait_valyrian_clothing_trigger = yes
+					house = house:house_Blackfyre
+				}
+			}
+		}
+	}
+
+	agot_legwear_westerman = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = westerlands_war_03_legwear
+				accessory = male_legwear_secular_westerlands_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 125
+				exists = this
+				highest_held_title_tier >= tier_duchy
+				portrait_wear_armor_trigger = yes
+				portrait_westerman_clothing_trigger = yes
+			}
+		}
+	}
+
+	agot_legwear_westerman_lannister = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = westerlands_war_03_legwear
+				accessory = male_legwear_secular_westerlands_lannister_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 125
+				exists = this
+				highest_held_title_tier >= tier_duchy
+				portrait_wear_armor_trigger = yes
+				AND = {
+					portrait_westerman_clothing_trigger = yes
+					dynasty ?= dynasty:dynn_Lannister
+				}
+			}
+		}
+	}
+
+	agot_legwear_ironborn = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = ironborn_war_03_legwear
+				accessory = male_legwear_secular_ironborn_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 250
+				exists = this
+				portrait_wear_armor_trigger = yes
+				portrait_ironborn_clothing_trigger = yes
+			}
+		}
+	}
+
+	agot_legwear_ironborn_greyjoy = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = ironborn_war_03_legwear
+				accessory = male_legwear_secular_ironborn_greyjoy_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 260
+				exists = this
+				portrait_wear_armor_trigger = yes
+				AND = {
+					portrait_ironborn_clothing_trigger = yes
+					dynasty ?= dynasty:dynn_Greyjoy
+				}
+			}
+		}
+	}
+
+	agot_legwear_dornish = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = dornish_war_03_legwear
+				accessory = male_legwear_secular_dornish_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 250
+				exists = this
+				highest_held_title_tier >= tier_duchy
+				portrait_wear_armor_trigger = yes
+				portrait_stone_dornish_clothing_trigger = yes
+			}
+		}
+	}
+
+	agot_legwear_dornish_copper = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = dornish_war_03_legwear
+				accessory = male_legwear_secular_dornish_martell_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 250
+				exists = this
+				highest_held_title_tier >= tier_duchy
+				portrait_wear_armor_trigger = yes
+				OR = {
+					portrait_salt_dornish_clothing_trigger = yes
+					portrait_sand_dornish_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+	agot_legwear_dornish_martell = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = dornish_war_03_legwear
+				accessory = male_legwear_secular_dornish_martell_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 260
+				exists = this
+				highest_held_title_tier >= tier_duchy
+				portrait_wear_armor_trigger = yes
+				AND = {
+					portrait_dornish_clothing_trigger = yes
+					dynasty ?= dynasty:dynn_Martell
+				}
+			}
+		}
+	}
+
+	agot_legwear_valeman = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = vale_war_03_legwear
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 250
+				exists = this
+				portrait_wear_armor_trigger = yes
+				portrait_valeman_clothing_trigger = yes
+			}
+		}
+	}
+
+	agot_legwear_northman = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = north_war_03_legwear
+				accessory = male_legwear_secular_north_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 105
+				portrait_wear_armor_trigger = yes
+				portrait_the_north_clothing_trigger = yes
+			}
+		}
+	}
+
+	agot_legwear_northman_stark = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = north_war_03_legwear
+				accessory = male_legwear_secular_north_stark_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_wear_armor_trigger = yes
+				AND = {
+					portrait_the_north_clothing_trigger = yes
+					dynasty ?= dynasty:dynn_Stark
+				}
+			}
+		}
+	}
+	
+	kingsguard_01_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = kingsguard_legwear_01
+				range = { 0 0 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 500
+				is_male = yes
+				is_aotk_loaded_trigger = yes
+                has_trait = kingsguard
+				has_game_rule = show_armor_enabled
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					#is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+	
+	kingsguard_02_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = kingsguard_legwear_01
+				range = { 1 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 1003
+				is_aotk_loaded_trigger = yes
+				has_game_rule = show_armor_enabled
+				has_trait = kingsguard
+				exists = title:e_the_iron_throne.holder
+				title:e_the_iron_throne.holder = {
+						primary_title = { 
+							has_variable = kingsguard 
+							AND = {
+								has_variable = kingsguard_choice 
+								var:kingsguard_choice = 4
+							}
+						}
+					}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					#is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+	lotd_legwear_high_valyrian = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = high_valyrian_war_legwear
+				range = { 0.6 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 250
+				exists = this
+				portrait_wear_armor_trigger = yes
+				portrait_valyrian_clothing_trigger = yes
+			}
+		}
+	}
+
+
+	lotd_valyrian_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = valyrian_nobility_legwear
+				range = { 0.6 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 150
+				is_lotd_loaded_trigger = yes
+				portrait_valyrian_clothing_trigger = yes
+				portrait_wear_armor_trigger = no
+			}
+		}
+	}
+
+
+	lotd_valyrian_legwear_nobility = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = valyrian_nobility_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 25
+				is_lotd_loaded_trigger = yes
+				portrait_valyrian_clothing_trigger = yes
+				portrait_wear_armor_trigger = no
+				OR = {
+					portrait_royalty_trigger = { 
+						CULTURE_INPUT = byzantine
+					}
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = byzantine
+					}   
+				}
+
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+﻿is_lotd_loaded_trigger = { 
+    trigger_if = {  
+        limit = {
+            exists = global_var:Lotd_enabled
+        }
+    }
+    trigger_else = { always = no }
+}
+

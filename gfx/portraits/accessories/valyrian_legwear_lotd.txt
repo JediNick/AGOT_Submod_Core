@@ -1,0 +1,16 @@
+﻿male_legwear_valyrian_nobility_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = ""		shared_pose_entity = torso		 }
+}
+
+male_legwear_valyrian_nobility_02 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = ""		shared_pose_entity = torso		 }
+}
+
+
+female_legwear_valyrian_nobility_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = ""		shared_pose_entity = torso		 }
+}
+

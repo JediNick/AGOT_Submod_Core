@@ -1,0 +1,62 @@
+﻿male_clothes_secular_valyrian_nobility_01_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+male_clothes_secular_valyrian_nobility_01_generic_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+female_clothes_secular_valyrian_dress_01_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+female_clothes_secular_valyrian_dress_01_generic_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+male_clothes_secular_valyrian_robes_01_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,shrink_hands"
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+male_clothes_secular_valyrian_robes_01_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,shrink_hands"
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+male_clothes_secular_valyrian_robes_no_gloves_01_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,shrink_hands"
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+male_clothes_secular_valyrian_robes_no_gloves_01_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,shrink_hands"
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+##Non Targ Variant
+male_clothes_secular_valyrian_robes_no_gloves_01_generic_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso 	 }
+}
+
+male_clothes_secular_valyrian_robes_no_gloves_01_generic_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso  }
+}
+
+
+male_clothes_secular_valyrian_robes_01_generic_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,shrink_hands"
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+male_clothes_secular_valyrian_robes_01_generic_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,shrink_hands"
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+

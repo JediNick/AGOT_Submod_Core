@@ -1,0 +1,6 @@
+﻿kingsguard_cloak_02 = {
+		entity = { required_tags = ""		shared_pose_entity = torso		}
+}
+kingsguard_cloak_03 = {
+		entity = { required_tags = ""		shared_pose_entity = torso		}
+}

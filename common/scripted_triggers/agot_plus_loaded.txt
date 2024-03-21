@@ -1,0 +1,9 @@
+﻿is_agot_plus_loaded_trigger = { 
+    trigger_if = {  
+        limit = {
+            exists = global_var:asoiaf_enabled
+        }
+    }
+    trigger_else = { always = no }
+}
+
