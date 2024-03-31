@@ -666,44 +666,6 @@
             }
         }
     }
-    
-     agot_clothing_maelys_blackfyre_let_jimmy_breathe_nw = {
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = clothes
-                template = maelys_blackfyre_nobility_clothes
-                accessory = male_clothes_secular_valyrian_war_05_black
-            }
-            accessory = {
-                mode = add
-                gene = legwear
-                template = maelys_war_legwear
-                accessory = male_legwear_secular_valyrian_war_05
-            }
-            accessory = {
-                mode = add
-                gene = cloaks
-                template = no_cloak
-                range = { 0 1 }
-            }
-            morph = {
-                mode = modify_multiply
-                gene = gene_bs_bust
-                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-                template = bust_clothes
-            }
-        }
-        weight = {
-            base = 0
-            modifier = {
-                add = 2000
-                exists = this
-                this = character:Blackfyre_14 #Maelys
-                has_trait = nightswatch
-            }
-        }
-    }
 	
 	kingsguard_armor_01 = {
 		dna_modifiers = {

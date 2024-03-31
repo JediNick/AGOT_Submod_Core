@@ -2610,8 +2610,6 @@ special_genes = {
 				index = 125
 
 				male = {
-					1 = male_clothes_reach_war_02
-					1 = male_clothes_reach_war_dynastic_02
 					1 = male_clothes_reach_war_03
 					1 = male_clothes_reach_tyrell_war_03
 				}
@@ -2790,7 +2788,6 @@ special_genes = {
 					1 = male_clothes_westerlands_war_dynastic_02
 					1 = male_clothes_westerlands_war_03
 					1 = male_clothes_westerlands_lannister_war_03
-					1 = male_clothes_westerlands_tywin_war
 				}
 				female = {
 					0 = f_clothes_sec_northern_war_nob_01_lo
@@ -3066,9 +3063,6 @@ special_genes = {
 				index = 154
 
 				male = {
-					1 = male_clothes_valyrian_war_02
-					1 = male_clothes_valyrian_war_blackfyre_02
-					1 = male_clothes_valyrian_war_dynastic_02
 					1 = male_clothes_valyrian_targaryen_war_03
 					1 = male_clothes_valyrian_blackfyre_war_03
 					1 = male_clothes_valyrian_war_03
@@ -3080,14 +3074,11 @@ special_genes = {
 					1 = male_clothes_westerlands_war_02
 					1 = male_clothes_westerlands_war_dynastic_02
 					1 = male_clothes_westerlands_lannister_war_03
-					1 = male_clothes_westerlands_tywin_war
 					1 = male_clothes_westerlands_war_03
 					1 = male_clothes_riverlands_tully_war_03
 					1 = male_clothes_riverlands_war_03
 					1 = male_clothes_ironborn_greyjoy_war_03
 					1 = male_clothes_ironborn_war_03
-					1 = male_clothes_reach_war_02
-					1 = male_clothes_reach_war_dynastic_02
 					1 = male_clothes_reach_tyrell_war_03
 					1 = male_clothes_reach_war_03
 					1 = male_clothes_stormlands_baratheon_war_03
@@ -3106,9 +3097,6 @@ special_genes = {
 					1 = male_clothes_stormlands_coa_war_04
 				}
 				female = {
-					1 = female_clothes_valyrian_war_02
-					1 = female_clothes_valyrian_war_blackfyre_02
-					1 = female_clothes_valyrian_war_dynastic_02
 					1 = female_clothes_valyrian_targaryen_war_03
 					1 = female_clothes_valyrian_blackfyre_war_03
 					1 = female_clothes_valyrian_war_03
@@ -3235,9 +3223,6 @@ special_genes = {
 				index = 158
 
 				male = {
-					1 = male_clothes_valyrian_war_02
-					1 = male_clothes_valyrian_war_blackfyre_02
-					1 = male_clothes_valyrian_war_dynastic_02
 					1 = male_clothes_valyrian_war_03
 					1 = male_clothes_valyrian_targaryen_war_03
 					1 = male_clothes_valyrian_blackfyre_war_03
