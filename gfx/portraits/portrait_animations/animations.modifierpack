@@ -145,6 +145,18 @@ one_handed_mace = {
 		animations = AI_vengeful_decal
 	}
 
+    portrait_modifier = {
+		trigger = {
+			is_valyrian_steel_loaded_trigger = yes
+			any_equipped_character_artifact = { 
+				artifact_type = mace  
+				has_variable = vs_mace_2
+			}
+		}			
+		animations_props = artifact_vs_mace_2_prop
+		animations = council_marshal_decal
+	}
+
     portrait_modifier = { # Equipped
         trigger = {
             any_equipped_character_artifact = { artifact_type = mace }
@@ -628,6 +640,18 @@ two_handed_spear = {
 	}
 
 	portrait_modifier = {
+		trigger = {
+			is_valyrian_steel_loaded_trigger = yes
+			any_equipped_character_artifact = { 
+				artifact_type = spear  
+				has_variable = vs_halberd 
+			}
+		}			
+		animations_props = artifact_vs_halberd_prop_right
+		animations = AI_vengeful_decal
+	}
+
+	portrait_modifier = {
 	    trigger = {
 			culture = { has_cultural_pillar = heritage_rhoynish }
         }
@@ -819,6 +843,18 @@ council_marshal = {
 			}
 		}			
 		animations_props = artifact_vs_mace_prop
+		animations = council_marshal_decal
+	}
+
+    portrait_modifier = {
+		trigger = {
+			is_valyrian_steel_loaded_trigger = yes
+			any_equipped_character_artifact = { 
+				artifact_type = mace  
+				has_variable = vs_mace_2
+			}
+		}			
+		animations_props = artifact_vs_mace_2_prop
 		animations = council_marshal_decal
 	}
 	
@@ -1111,6 +1147,18 @@ throneRoom_one_handed_passive_1 = {
 		animations = fat_additive
         animations = dwarf_additive
 	}
+
+    portrait_modifier = {
+		trigger = {
+			is_valyrian_steel_loaded_trigger = yes
+			any_equipped_character_artifact = { 
+				artifact_type = mace  
+				has_variable = vs_mace_2
+			}
+		}			
+		animations_props = artifact_vs_mace_2_prop
+		animations = council_marshal_decal
+	}
 	
 	
 	portrait_modifier = {
@@ -1377,6 +1425,18 @@ throneRoom_one_handed_passive_2 = {
 		animations = council_marshal_decal
 		animations = fat_additive
         animations = dwarf_additive
+	}
+
+    portrait_modifier = {
+		trigger = {
+			is_valyrian_steel_loaded_trigger = yes
+			any_equipped_character_artifact = { 
+				artifact_type = mace  
+				has_variable = vs_mace_2
+			}
+		}			
+		animations_props = artifact_vs_mace_2_prop
+		animations = council_marshal_decal
 	}
 
 	#AGOT Added
@@ -1846,6 +1906,18 @@ council_marshal_spear = {
 		animations_props = artifact_vs_spear_1_prop
 		animations = council_marshal_decal
 	}
+
+    portrait_modifier = {
+		trigger = {
+			is_valyrian_steel_loaded_trigger = yes
+			any_equipped_character_artifact = { 
+				artifact_type = spear  
+				has_variable = vs_halberd
+			}
+		}			
+		animations_props = artifact_vs_halberd_prop
+		animations = council_marshal_decal
+	}
 }
 
 council_marshal_mace = {
@@ -1859,6 +1931,18 @@ council_marshal_mace = {
 			}
 		}			
 		animations_props = artifact_vs_mace_prop
+		animations = council_marshal_decal
+	}
+
+    portrait_modifier = {
+		trigger = {
+			is_valyrian_steel_loaded_trigger = yes
+			any_equipped_character_artifact = { 
+				artifact_type = mace  
+				has_variable = vs_mace_2
+			}
+		}			
+		animations_props = artifact_vs_mace_2_prop
 		animations = council_marshal_decal
 	}
 }

@@ -132,6 +132,44 @@
 				boy = male
 				girl = female
 			}
+
+			vs_halberd_prop = {
+				index = 10
+				male = {
+					1 = vs_halberd_prop
+					1 = vs_halberd_prop_right
+				}
+				female = {
+					1 = vs_halberd_prop
+					1 = vs_halberd_prop_right
+				}
+				boy = male
+				girl = female
+			}
+
+			vs_mace_2_prop = {
+				index = 11
+				male = {
+					1 = vs_mace_2_prop
+				}
+				female = {
+					1 = vs_mace_2_prop
+				}
+				boy = male
+				girl = female
+			}
+
+			vs_sword_5_prop = {
+				index = 12
+				male = {
+					1 = vs_sword_5_prop
+				}
+				female = {
+					1 = vs_sword_5_prop	
+				}
+				boy = male
+				girl = female
+			}
 		}
 	
 	}

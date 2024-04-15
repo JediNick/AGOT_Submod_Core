@@ -2635,6 +2635,16 @@
 			}
 		}	
 	}
+	artifact_vs_sword_5_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = vs_sword_5_prop
+				value = 1.0
+			}
+		}	
+	}
 
 	artifact_vs_dagger_1_prop = {
 		dna_modifiers = {
@@ -2669,6 +2679,28 @@
 		}	
 	}
 
+	artifact_vs_halberd_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = vs_halberd_prop
+				value = 0.3
+			}
+		}	
+	}
+
+	artifact_vs_halberd_prop_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = vs_halberd_prop
+				value = 0.7
+			}
+		}	
+	}
+
 	artifact_vs_mace_prop = {
 		dna_modifiers = {
 			accessory = {
@@ -2679,6 +2711,18 @@
 			}
 		}	
 	}
+
+	artifact_vs_mace_2_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = vs_mace_2_prop
+				value = 0.3
+			}
+		}	
+	}
+	
 	
 	artifact_vs_axe_prop = {
 		dna_modifiers = {

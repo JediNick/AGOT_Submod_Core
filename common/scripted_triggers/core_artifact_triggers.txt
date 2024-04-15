@@ -6,6 +6,7 @@
 				has_variable = vs_sword_2
 				has_variable = vs_sword_3
 				has_variable = vs_sword_4
+				has_variable = vs_sword_5
 				has_variable = blackfyre
 				has_variable = darksister
 				has_variable = seafoam
@@ -30,6 +31,7 @@ portrait_has_unique_spear_trigger = {
 			artifact_type = spear  					
 			OR = {
 				has_variable = vs_spear_1
+				has_variable = vs_halberd
 				
 			}	
 		}
@@ -40,7 +42,7 @@ portrait_has_unique_mace_trigger = {
 			artifact_type = mace  						
 			OR = {
 				has_variable = vs_mace
-				
+				has_variable = vs_mace_2
 			}	
 		}
 	}
