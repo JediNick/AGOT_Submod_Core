@@ -1406,6 +1406,45 @@ special_genes = {
 
 		}
 		
+		#AGOT Added
+		special_headgear_face_mask_agot = {
+
+			agot_masks = {
+				index = 0
+				male = {
+					10 = male_headgear_special_archmaester_mask_01 #Silver
+					10 = male_headgear_special_archmaester_mask_02 # Gold - Not an archmaester type
+					10 = male_headgear_special_archmaester_mask_03 # Copper
+					10 = male_headgear_special_archmaester_mask_04 # Cast Iron
+					10 = male_headgear_special_archmaester_mask_05 # Iron
+					10 = male_headgear_special_archmaester_mask_06 # Lead
+					10 = male_headgear_special_archmaester_mask_07 # Brass
+					10 = male_headgear_special_archmaester_mask_08 # Bronze
+					10 = male_headgear_special_archmaester_mask_09 # Platinum
+					10 = male_headgear_special_archmaester_mask_10 # Red Gold
+					10 = male_headgear_special_archmaester_mask_11 # Steel
+					10 = male_headgear_special_archmaester_mask_12 # Tin
+					10 = male_headgear_special_archmaester_mask_13 # White Copper
+					10 = male_headgear_special_archmaester_mask_14 # Electrum
+					10 = male_headgear_special_archmaester_mask_15 # Yellow Gold
+					10 = male_headgear_special_archmaester_mask_16 # Zinc
+					10 = male_headgear_special_archmaester_mask_17 # Antimony
+					10 = male_headgear_special_archmaester_mask_18 # Black Iron
+					10 = male_headgear_special_archmaester_mask_19 # Nickel
+					10 = male_headgear_special_archmaester_mask_20 # Pewter
+					10 = male_headgear_special_archmaester_mask_aluminum # Aluminum
+					10 = male_headgear_special_archmaester_mask_valyrian # Valyrian Steel
+					10 = male_headgear_special_archmaester_mask_bismuth # Bismuth
+				}
+				female = {
+					10 = quaithe_mask
+				}
+				boy = male
+				girl = female
+			}
+		}
+
+		
 		special_headgear_face_mask_viserys = {
 
 			face_mask = {

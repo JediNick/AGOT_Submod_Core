@@ -254,15 +254,14 @@
 			base = 0
 			modifier = {
 				add = 500
-				AND = {
 					has_trait = kingsguard
 					portrait_wear_armor_trigger = yes
 					portrait_wear_helmet_trigger = yes
-				}
-				NOT = {
-					OR = {
+				NOR = {
 						dynasty ?= dynasty:dynn_Targaryen
 						house = house:house_Blackfyre
+					AND = {
+						exists = character:Targaryen_89
 						this = character:Targaryen_89
 					}
 				}
@@ -313,13 +312,14 @@
 			base = 0
 			modifier = {
 				add = 500
-				AND = {
 					has_trait = kingsguard
 					portrait_wear_armor_trigger = yes
 					portrait_wear_helmet_trigger = yes
 					OR = {
 						dynasty ?= dynasty:dynn_Targaryen
 						house = house:house_Blackfyre
+					AND = {
+						exists = character:Targaryen_89
 						this = character:Targaryen_89
 					}
 				}
@@ -346,6 +346,575 @@
 			modifier = {
 				add = 200
 				has_trait = silent_sister
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_silver = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:silver
+					}
+				}
+				has_inactive_trait = archmaester_silver
+				has_trait = archmaester
+			}
+		}
+
+	}
+	agot_headgear_archmaester_mask_gold = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 0
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_copper = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:copper
+					}
+				}
+				has_inactive_trait = archmaester_copper
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_cast_iron = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_04
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:cast_iron
+					}
+				}
+				has_inactive_trait = archmaester_cast_iron
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_iron = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_05
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				has_trait = archmaester
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:iron
+					}
+				}
+				has_inactive_trait = archmaester_iron
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_lead = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_06
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:lead
+					}
+				}
+				has_inactive_trait = archmaester_lead
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_brass = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_07
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:brass
+					}
+				}
+				has_inactive_trait = archmaester_brass
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_bronze = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_08
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:bronze
+					}
+				}
+				has_inactive_trait = archmaester_bronze
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_platinum = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_09
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:platinum
+					}
+				}
+				has_inactive_trait = archmaester_platinum
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_red_gold = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_10
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:red_gold
+					}
+				}
+				has_inactive_trait = archmaester_red_gold
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_steel = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_11
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:steel
+					}
+				}
+				has_inactive_trait = archmaester_steel
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_tin = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_12
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:tin
+					}
+				}
+				has_inactive_trait = archmaester_tin
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_white_copper = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_13
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:white_copper
+					}
+				}
+				has_inactive_trait = archmaester_white_copper
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_electrum = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_14
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:electrum
+					}
+				}
+				has_inactive_trait = archmaester_electrum
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_yellow_gold = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_15
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:yellow_gold
+					}
+				}
+				has_inactive_trait = archmaester_yellow_gold
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_zinc = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_16
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:zinc
+					}
+				}
+				has_inactive_trait = archmaester_zinc
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_antimony = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_17
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:antimony
+					}
+				}
+				has_inactive_trait = archmaester_antimony
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_black_iron = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_18
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:black_iron
+					}
+				}
+				has_inactive_trait = archmaester_black_iron
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_nickel = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_19
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:nickel
+					}
+				}
+				has_inactive_trait = archmaester_nickel
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_pewter = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_20
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:pewter
+					}
+				}
+				has_inactive_trait = archmaester_pewter
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_aluminum = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_aluminum
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:aluminum
+					}
+				}
+				has_inactive_trait = archmaester_aluminum
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_vs = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_valyrian
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:vs
+					}
+				}
+				has_inactive_trait = archmaester_vs
+				has_trait = archmaester
+			}
+		}
+	}
+	agot_headgear_archmaester_mask_bismuth = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				accessory = male_headgear_special_archmaester_mask_bismuth
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					is_alive = no
+					any_equipped_character_artifact = {
+						artifact_type = archmaester_mask
+						var:specialty ?= flag:bismuth
+					}
+				}
+				has_inactive_trait = archmaester_bismuth
+				has_trait = archmaester
 			}
 		}
 	}

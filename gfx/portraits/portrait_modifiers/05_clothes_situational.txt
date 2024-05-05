@@ -430,7 +430,10 @@
                     has_trait = nightswatch_temp
                     has_trait = nightswatch_historical
                 }
-                NOT = { has_trait = maester }
+                NOR = { 
+                    has_trait = maester 
+                    has_trait = maester_historical
+                }
             }
         }
     }
@@ -481,10 +484,9 @@
             modifier = {
                 add = 200
                 is_female = no
-                AND = {
                     OR = {
                         has_trait = maester
-                        # has_trait = archmaester 
+                    has_trait = maester_historical
                     }
                     OR = {
                         portrait_ironborn_clothing_trigger = no
@@ -492,11 +494,6 @@
                         portrait_valeman_clothing_trigger = no
                     }
                 }
-                NAND = {
-                    employer ?= title:e_the_iron_throne.holder
-                    has_court_position = maester_court_position
-                }
-            }
         }
     }
     
@@ -526,10 +523,9 @@
             modifier = {
                 add = 200
                 is_female = no
-                AND = {
                     OR = {
                         has_trait = maester
-                        # has_trait = archmaester 
+                    has_trait = maester_historical
                     }
                     OR = {
                         portrait_ironborn_clothing_trigger = yes
@@ -537,11 +533,6 @@
                         portrait_valeman_clothing_trigger = yes
                     }
                 }
-                NAND = {
-                    employer ?= title:e_the_iron_throne.holder
-                    has_court_position = maester_court_position
-                }
-            }
         }
     }
     
@@ -569,12 +560,11 @@
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 210
                 is_female = no
-                AND = {
                     OR = {
                         has_trait = maester
-                        # has_trait = archmaester 
+                    has_trait = maester_historical
                     }
                     OR = {
                         has_trait = nightswatch
@@ -582,11 +572,6 @@
                         has_trait = nightswatch_historical
                     }
                 }
-                NAND = {
-                    employer ?= title:e_the_iron_throne.holder
-                    has_court_position = maester_court_position
-                }
-            }
         }
     }
     
@@ -614,17 +599,17 @@
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 220
                 is_female = no
+                has_inactive_trait = grandmaester
                 OR = {
-                    has_trait = maester
-                    # has_trait = archmaester
-                }
                 AND = {
                     exists = title:e_the_iron_throne.holder
                     employer ?= title:e_the_iron_throne.holder
                     has_court_position = maester_court_position
                 }
+					is_alive = no
+				}
             }
         }
     }
@@ -661,7 +646,8 @@
             modifier = {
                 add = 2000
                 exists = this
-                this = character:Blackfyre_14 #Maelys
+                exists = character:Blackfyre_14
+                this = character:Blackfyre_14
                 NOT = { has_trait = nightswatch }
             }
         }
@@ -699,7 +685,8 @@
             modifier = {
                 add = 2000
                 exists = this
-                this = character:Blackfyre_14 #Maelys
+                exists = character:Blackfyre_14
+                this = character:Blackfyre_14
                 has_trait = nightswatch
             }
         }

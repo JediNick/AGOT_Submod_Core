@@ -868,13 +868,11 @@ cloaks = {
 			}
 			modifier = {
 				add = 500
-				AND = {
 					has_ep1_dlc_trigger = no
 					has_trait = kingsguard
 				}
 			}
 		}
-	}
 
 	# Night's Watch
 	agot_cloaks_nights_watch = {
@@ -1094,7 +1092,8 @@ cloaks = {
 				NOT = {
 					portrait_wear_ned_stark_armor_trigger = yes
 				}
-				this = character:Stark_3 #Ned Stark
+				exists = character:Stark_3
+				this = character:Stark_3
 			}
 		}
 	}

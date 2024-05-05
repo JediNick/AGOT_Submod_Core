@@ -282,8 +282,8 @@ accessory_genes = {
 				1 = male_legwear_secular_north_stark_war_03
 			}
 			female = {
-				0 = female_legwear_secular_ep1_jester_01
-				0 = female_legwear_secular_ep1_jester_01
+				1 = female_legwear_secular_north_war_03
+				1 = female_legwear_secular_north_stark_war_03
 			}
 			boy = male
 			girl = female
@@ -318,7 +318,7 @@ accessory_genes = {
 				1 = male_legwear_special_royce_war_03
 			}
 			female = {
-				0 = female_legwear_secular_ep1_jester_01
+				0 = female_legwear_special_royce_war_03
 			}
 			boy = male
 			girl = female
@@ -431,9 +431,31 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
-		agot_all_legwear = {
+		lydden_war_01_legwear = {
 			index = 32
+			male = {
+				1 = male_legwear_secular_lydden_war_01
+				1 = male_legwear_secular_lydden_war_dynastic_01
+			}
+			female = {
+				0 = female_legwear_secular_ep1_jester_01
+			}
+			boy = male
+			girl = female
+		}
+		rowan_war_01_legwear = {
+			index = 33
+			male = {
+				1 = male_legwear_secular_rowan_war_01
+			}
+			female = {
+				0 = female_legwear_secular_ep1_jester_01
+			}
+			boy = male
+			girl = female
+		}
+		agot_all_legwear = {
+			index = 34
 			male = {
 				1 = male_legwear_dragon_prince01
 				1 = male_legwear_dragon_prince03
@@ -454,6 +476,7 @@ accessory_genes = {
 				1 = male_legwear_secular_vale_war_02
 				1 = male_legwear_secular_vale_war_dynastic_02
 				1 = male_legwear_secular_vale_war_03
+				1 = male_legwear_secular_lydden_war_dynastic_01
 				1 = male_legwear_secular_westerlands_war_02
 				1 = male_legwear_secular_westerlands_lannister_war_03
 				1 = male_legwear_secular_westerlands_war_03
@@ -468,12 +491,13 @@ accessory_genes = {
 				1 = male_legwear_secular_stormlands_war_03
 				1 = male_legwear_secular_dornish_war_03
 				1 = male_legwear_secular_dornish_martell_war_03
-				1 = male_legwear_special_royce_war_03
-				1 = male_legwear_special_kingsguard_war_01
 				1 = male_legwear_secular_valyrian_steel_armor_01
 				1 = male_legwear_secular_valyrian_war_05
 				1 = male_legwear_secular_valyrian_war_04
 				1 = male_legwear_secular_stormlands_war_04
+				1 = male_legwear_special_royce_war_03
+				1 = male_legwear_secular_rowan_war_01
+				1 = male_legwear_special_kingsguard_war_01
 
 			}
 			female = {
@@ -490,6 +514,9 @@ accessory_genes = {
 				1 = female_legwear_secular_valyrian_war_03
 				1 = female_legwear_secular_valyrian_targaryen_war_03
 				1 = female_legwear_secular_valyrian_blackfyre_war_03
+				1 = female_legwear_secular_north_stark_war_03
+				1 = female_legwear_secular_north_war_03
+				1 = female_legwear_special_royce_war_03
 
 			}
 			boy = male
@@ -1005,9 +1032,49 @@ accessory_genes = {
 			girl = female
 		}
 		
+		agot_coa_cloaks_fp1_dynamic_low_war = {
+			index = 32
+			male = {
+				3 = male_cloaks_secular_fp1_nobility_01
+				1 = male_furs_secular_fp1_nobility_03
+				2 = empty
+			}
+			female = {
+				1 = female_furs_secular_fp1_nobility_03
+				2 = empty
+			}
+		}
+
+		agot_coa_cloaks_fp1_dynamic_high_war = {
+			index = 33
+			male = {
+				4 = male_cloaks_secular_fp1_nobility_01_agot
+				2 = male_cloaks_secular_fp1_agot_northern_01
+				1 = male_furs_secular_fp1_nobility_03
+				3 = empty
+			}
+			female = {
+				4 = female_cloaks_secular_fp1_nobility_01_agot
+				2 = female_cloaks_secular_fp1_agot_northern_01
+				3 = empty
+			}
+		}
+
+		agot_coa_cloaks_fp1_dynamic_stark_war = {
+			index = 34
+			male = {
+				2 = male_cloaks_secular_fp1_agot_northern_01
+				1 = male_cloaks_secular_fp1_nobility_01_agot
+				1 = empty
+			}
+			female = {
+				2 = female_cloaks_secular_fp1_agot_northern_01
+				1 = empty
+			}
+		
 		#AGOT Added
 		kingsguard_cloak_aotk = {
-			index = 32
+			index = 35
 			male = {
 				1 = kingsguard_cloak_02
 				1 = kingsguard_cloak_03

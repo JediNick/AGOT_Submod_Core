@@ -2885,8 +2885,8 @@ special_genes = {
 					1 = male_clothes_north_stark_war_03
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_north_war_03
+					1 = female_clothes_north_stark_war_03
 				}
 				boy = male
 				girl = female
@@ -3077,6 +3077,7 @@ special_genes = {
 					1 = male_clothes_vale_war_02
 					1 = male_clothes_vale_war_dynastic_02
 					1 = male_clothes_vale_war_03
+					1 = male_clothes_lydden_war_dynastic_01
 					1 = male_clothes_westerlands_war_02
 					1 = male_clothes_westerlands_war_dynastic_02
 					1 = male_clothes_westerlands_lannister_war_03
@@ -3096,6 +3097,7 @@ special_genes = {
 					1 = male_clothes_dornish_copper_war_03
 					1 = male_clothes_dornish_war_03
 					1 = male_clothes_royce_war_03
+					1 = male_clothes_rowan_war_01
 					1 = male_clothes_kingsguard_war_01
 					1 = male_clothes_secular_valyrian_steel_armor_01
 					1 = male_clothes_secular_valyrian_war_06
@@ -3112,11 +3114,14 @@ special_genes = {
 					1 = female_clothes_valyrian_targaryen_war_03
 					1 = female_clothes_valyrian_blackfyre_war_03
 					1 = female_clothes_valyrian_war_03
+					1 = female_clothes_north_stark_war_03
+					1 = female_clothes_north_war_03
 					1 = female_clothes_ironborn_greyjoy_war_03
 					1 = female_clothes_ironborn_war_03
 					1 = female_clothes_dornish_martell_war_03
 					1 = female_clothes_dornish_copper_war_03
 					1 = female_clothes_dornish_war_03
+					1 = female_clothes_royce_war_03
 				}
 				boy = male
 				girl = female
@@ -3243,6 +3248,9 @@ special_genes = {
 					1 = male_clothes_valyrian_blackfyre_war_03
 				}
 				female = {
+					1 = female_clothes_valyrian_war_02
+					1 = female_clothes_valyrian_war_blackfyre_02
+					1 = female_clothes_valyrian_war_dynastic_02
 					1 = female_clothes_valyrian_war_03
 					1 = female_clothes_valyrian_targaryen_war_03
 					1 = female_clothes_valyrian_blackfyre_war_03
@@ -3303,6 +3311,34 @@ special_genes = {
 					1 = male_clothes_royce_war_03
 				}
 				female = {
+					1 = female_clothes_royce_war_03
+				}
+				boy = male
+				girl = female
+			}
+
+			#AGOT Added
+			lydden_war_nobility_clothes = {
+				index = 163
+
+				male = {
+					1 = male_clothes_lydden_war_01
+					1 = male_clothes_lydden_war_dynastic_01
+				}
+				female = {
+					0 = f_clothes_sec_northern_war_nob_01_lo
+				}
+				boy = male
+				girl = female
+			}
+			#AGOT Added
+			rowan_war_nobility_clothes = {
+				index = 164
+
+				male = {
+					1 = male_clothes_rowan_war_01
+				}
+				female = {
 					0 = f_clothes_sec_northern_war_nob_01_lo
 				}
 				boy = male
@@ -3311,7 +3347,7 @@ special_genes = {
 
 			#AGOT Added
 			religious_fot7_high_clothes = {
-				index = 163
+				index = 165
 
 				male = {
 					1 = male_clothes_religious_orthodox_high_01

@@ -3611,7 +3611,6 @@ fp3_turkic_high_nobles = {
 			base = 0
 			modifier = {
 				add = 220
-				AND = {
 					primary_spouse ?= {
 						primary_title.tier = tier_empire
 						culture = { has_cultural_pillar = heritage_valyrian }
@@ -3619,7 +3618,6 @@ fp3_turkic_high_nobles = {
 				}
 			}
 		}
-	}
 
 	agot_headgear_first_man_crown = {
 		dna_modifiers = {
@@ -3634,13 +3632,11 @@ fp3_turkic_high_nobles = {
 			base = 0
 			modifier = {
 				add = 220
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					culture = { has_cultural_pillar = heritage_first_man }
 				}
 			}
 		}
-	}
 
 	# Crowns of the Iron Throne
 	agot_headgear_aegon_i_crown = {
@@ -3661,14 +3657,27 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aegon_i_artifact } }
-				AND = {
 					primary_title = title:e_the_iron_throne
 					OR = {
-						this = character:Targaryen_27 # Aegon I
-						# this = character:Targaryen_30 # Aenys I
-						this = character:Targaryen_31 # Maegor I
-						this = character:Targaryen_65 # Aegon II
-						this = character:Targaryen_81 # Daeron I
+					AND = {
+						exists = character:Targaryen_27
+						this = character:Targaryen_27
+					}
+					# AND = {
+						# exists = character:Targaryen_30
+						# this = character:Targaryen_30
+					# }
+					AND = {
+						exists = character:Targaryen_31
+						this = character:Targaryen_31
+					}
+					AND = {
+						exists = character:Targaryen_65
+						this = character:Targaryen_65
+					}
+					AND = {
+						exists = character:Targaryen_81
+						this = character:Targaryen_81
 					}
 				}
 			}
@@ -3693,12 +3702,16 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aenys_artifact } }
-				AND = {
 					primary_title = title:e_the_iron_throne
 					OR = {
-						this = character:Targaryen_30 # Aenys I
-						# this = character:Targaryen_35 # Jaehaerys I
+					AND = {
+						exists = character:Targaryen_30
+						this = character:Targaryen_30
 					}
+					# AND = {
+						# exists = character:Targaryen_35
+						# this = character:Targaryen_35
+					# }
 				}
 			}
 		}
@@ -3722,14 +3735,19 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact } }
-				AND = {
 					primary_title = title:e_the_iron_throne
 					OR = {
-						this = character:Targaryen_35 # Jaehaerys I
-						this = character:Targaryen_60 # Viserys I
-						this = character:Targaryen_63 # Rhaenyra
+					AND = {
+						exists = character:Targaryen_35
+						this = character:Targaryen_35
 					}
+					AND = {
+						exists = character:Targaryen_60
+						this = character:Targaryen_60
 				}
+					AND = {
+						exists = character:Targaryen_63
+						this = character:Targaryen_63
 			}
 			modifier = {
 				factor = 0
@@ -3759,12 +3777,19 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aegon_iii_artifact } }
-				AND = {
 					primary_title = title:e_the_iron_throne
 					OR = {
-						this = character:Targaryen_78 # Aegon III
-						this = character:Targaryen_79 # Viserys II
-						this = character:Targaryen_122 # Aegon V
+					AND = {
+						exists = character:Targaryen_78
+						this = character:Targaryen_78
+					}
+					AND = {
+						exists = character:Targaryen_79
+						this = character:Targaryen_79
+					}
+					AND = {
+						exists = character:Targaryen_122
+						this = character:Targaryen_122
 					}
 				}
 			}
@@ -3789,13 +3814,23 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aegon_iv_artifact } }
-				AND = {
 					primary_title = title:e_the_iron_throne
 					OR = {
-						this = character:Targaryen_88 # Aegon IV
-						this = character:Targaryen_91 # Daeron II
-						this = character:Targaryen_108 # Aegon IV
-						this = character:Targaryen_1 # Aerys I
+					AND = {
+						exists = character:Targaryen_88
+						this = character:Targaryen_88
+					}
+					AND = {
+						exists = character:Targaryen_91
+						this = character:Targaryen_91
+					}
+					AND = {
+						exists = character:Targaryen_108
+						this = character:Targaryen_108
+					}
+					AND = {
+						exists = character:Targaryen_1
+						this = character:Targaryen_1
 					}
 				}
 			}
@@ -3823,15 +3858,13 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_baelor_artifact } }
-				AND = {
 					primary_title = title:e_the_iron_throne
-					OR = {
-						this = character:Targaryen_82 # Baelor I
-					}
-				}
+				exists = character:Targaryen_82
+				this = character:Targaryen_82
 			}
 			modifier = {
 				add = 400
+				exists = character:Targaryen_rs_2
 				this = character:Targaryen_rs_2
 			}
 		}
@@ -3855,11 +3888,15 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_maekar_artifact }}
-				AND = {
 					primary_title = title:e_the_iron_throne
 					OR = {
-						this = character:Targaryen_110 # Maekar I
-						this = character:Targaryen_127 # Jaehaerys II
+					AND = {
+						exists = character:Targaryen_110
+						this = character:Targaryen_110
+					}
+					AND = {
+						exists = character:Targaryen_127
+						this = character:Targaryen_127
 					}
 				}
 			}
@@ -3884,16 +3921,13 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 280
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = robertI_crown_artifact } }
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					dynasty ?= dynasty:dynn_Baratheon
-					OR = {
+				exists = character:Baratheon_2
 						this = character:Baratheon_2
 					}
 				}
 			}
-		}
-	}
 
 	agot_headgear_joffrey_i_crown = {
 		dna_modifiers = {
@@ -3913,19 +3947,13 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 300
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = joffreyI_crown_artifact } }
-				AND = {
 					agot_default_wear_crown_trigger = yes
-					AND = {
 						dynasty ?= dynasty:dynn_Baratheon
-						AND = {
 							has_inactive_trait = gold_hair
 							has_inactive_trait = emerald_eyes
 						}
 					}
 				}
-			}
-		}
-	}
 
 ##########################
 ### AGOT CUSTOM CROWNS ###
@@ -3948,7 +3976,6 @@ fp3_turkic_high_nobles = {
 			}
 			modifier = {
 				add = 220
-				AND = {
 					primary_title.tier >= tier_empire
 					dynasty ?= dynasty:dynn_Targaryen
 					OR = {
@@ -3958,7 +3985,6 @@ fp3_turkic_high_nobles = {
 				}
 			}
 		}
-	}
 
 	agot_headgear_renly_crown = {
 		dna_modifiers = {
@@ -3977,11 +4003,9 @@ fp3_turkic_high_nobles = {
 			}
 			modifier = {
 				add = 250
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					exists = character:Baratheon_4
-					this = character:Baratheon_4 # Renly
-				}
+				this = character:Baratheon_4
 			}
 		}
 	}
@@ -4003,16 +4027,13 @@ fp3_turkic_high_nobles = {
 			}
 			modifier = {
 				add = 250
-				AND = {
 					agot_default_wear_crown_trigger = yes
-					AND = {
-						this = character:Baratheon_3 # Stannis Baratheon
+				exists = character:Baratheon_3
+				this = character:Baratheon_3
 						faith = faith:rhllor
 					}
 				}
 			}
-		}
-	}
 
 	agot_headgear_beyondthewall_crown = {
 		dna_modifiers = {
@@ -4032,13 +4053,11 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = beyondthewall_crown_artifact } }
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					portrait_wildling_clothing_trigger = yes
 				}
 			}
 		}
-	}
 
 	agot_headgear_stark_crown = {
 		dna_modifiers = {
@@ -4058,13 +4077,11 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_winter_artifact } }
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					dynasty ?= dynasty:dynn_Stark
 				}
 			}
 		}
-	}
 
 	agot_headgear_bolton_skin_crown = {
 		dna_modifiers = {
@@ -4084,13 +4101,11 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = bolton_crown_artifact } }
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					dynasty ?= dynasty:dynn_Bolton
 				}
 			}
 		}
-	}
 
 	agot_headgear_riverlands_crown = {
 		dna_modifiers = {
@@ -4110,13 +4125,11 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = riverlands_crown_artifact } }
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					culture = culture:riverlander
 				}
 			}
 		}
-	}
 
 	agot_headgear_iron_isles_crowns = {
 		dna_modifiers = {
@@ -4131,13 +4144,11 @@ fp3_turkic_high_nobles = {
 			base = 0
 			modifier = {
 				add = 240
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					portrait_ironborn_clothing_trigger = yes
 				}
 			}
 		}
-	}
 
 	agot_headgear_iron_isles_crown = {
 		dna_modifiers = {
@@ -4170,13 +4181,11 @@ fp3_turkic_high_nobles = {
 			base = 0
 			modifier = {
 				add = 240
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					culture = culture:westerman
 				}
 			}
 		}
-	}
 
 	agot_headgear_westerlands_crown = {
 		dna_modifiers = {
@@ -4232,13 +4241,11 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = stormlands_crown_artifact } }
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					culture = culture:stormlander
 				}
 			}
 		}
-	}
 
 	agot_headgear_falcon_crown = {
 		dna_modifiers = {
@@ -4258,13 +4265,11 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = falcon_crown_artifact } }
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					culture = culture:valeman
 				}
 			}
 		}
-	}
 
 	agot_headgear_reach_crown = {
 		dna_modifiers = {
@@ -4284,13 +4289,11 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = reach_crown_artifact } }
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					culture = culture:reachman
 				}
 			}
 		}
-	}
 
 	agot_headgear_tully_crown = {
 		dna_modifiers = {
@@ -4310,13 +4313,11 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = tully_crown_artifact } }
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					dynasty ?= dynasty:dynn_Tully
 				}
 			}
 		}
-	}
 
 	agot_headgear_umber_crown = {
 		dna_modifiers = {
@@ -4336,10 +4337,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = umber_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Umber
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Umber
 			}
 		}
 	}
@@ -4362,10 +4361,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = dustin_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Dustin
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Dustin
 			}
 		}
 	}
@@ -4388,10 +4385,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = manderly_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Manderly
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Manderly
 			}
 		}
 	}
@@ -4414,10 +4409,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = royce_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Royce
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Royce
 			}
 		}
 	}
@@ -4440,10 +4433,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = blackwood_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Blackwood
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Blackwood
 			}
 		}
 	}
@@ -4466,10 +4457,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = frey_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Frey
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Frey
 			}
 		}
 	}
@@ -4492,10 +4481,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = cargyll_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Cargyll
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Cargyll
 			}
 		}
 	}
@@ -4518,10 +4505,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = redwyne_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Redwyne
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Redwyne
 			}
 		}
 	}
@@ -4544,10 +4529,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = tarly_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Tarly
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Tarly
 			}
 		}
 	}
@@ -4570,10 +4553,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = hightower_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Hightower
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Hightower
 			}
 		}
 	}
@@ -4596,10 +4577,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = florent_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Florent
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Florent
 			}
 		}
 	}
@@ -4622,10 +4601,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = greyjoy_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Greyjoy
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Greyjoy
 			}
 		}
 	}
@@ -4648,10 +4625,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = tarth_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Tarth
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Tarth
 			}
 		}
 	}
@@ -4675,17 +4650,15 @@ fp3_turkic_high_nobles = {
 				add = 250
 				exists = this
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = dorne_crown_artifact } }
-				AND = {
-					portrait_dornish_clothing_trigger = yes
-					OR = {
-						agot_default_wear_crown_trigger = yes
-						AND = {
-							dynasty ?= dynasty:dynn_Martell
-							primary_title.tier >= tier_kingdom
-						}
+				portrait_dornish_clothing_trigger = yes
+				OR = {
+					agot_default_wear_crown_trigger = yes
+					AND = {
+						dynasty ?= dynasty:dynn_Martell
+						primary_title.tier >= tier_kingdom
 					}
-					NOT = { has_government = nights_watch_government }
 				}
+				NOT = { has_government = nights_watch_government }
 			}
 		}
 	}
@@ -4708,10 +4681,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 300
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = dayne_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Dayne
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Dayne
 			}
 		}
 	}
@@ -4734,10 +4705,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = reed_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Reed
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Reed
 			}
 		}
 	}
@@ -4760,14 +4729,12 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = harlaw_crown_artifact } }
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					dynasty ?= dynasty:dynn_Harlaw
-				}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Harlaw
 			}
 		}
 	}
-	
+
 	agot_headgear_rhaella_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -4785,12 +4752,13 @@ fp3_turkic_high_nobles = {
 			}
 			modifier = {
 				add = 240
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_rhaella_artifact }}
-				this = character:Targaryen_2 # Rhaella
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_rhaella_artifact } }
+				exists = character:Targaryen_2
+				this = character:Targaryen_2
 			}
 		}
 	}
-	
+
 	agot_headgear_alysannecrown = {
 		dna_modifiers = {
 			accessory = {
@@ -4808,12 +4776,13 @@ fp3_turkic_high_nobles = {
 			}
 			modifier = {
 				add = 240
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_alysanne_artifact }}
-				this = character:Targaryen_36 # Alysanne Targaryen
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_alysanne_artifact } }
+				exists = character:Targaryen_36
+				this = character:Targaryen_36
 			}
 		}
 	}
-	
+
 	agot_headgear_visenya_circlet = {
 		dna_modifiers = {
 			accessory = {
@@ -4831,12 +4800,13 @@ fp3_turkic_high_nobles = {
 			}
 			modifier = {
 				add = 240
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_visenya_artifact }}
-				this = character:Targaryen_28 # Visenya
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_visenya_artifact } }
+				exists = character:Targaryen_28
+				this = character:Targaryen_28
 			}
 		}
 	}
-	
+
 	agot_headgear_rhaenys_circlet = {
 		dna_modifiers = {
 			accessory = {
@@ -4854,12 +4824,13 @@ fp3_turkic_high_nobles = {
 			}
 			modifier = {
 				add = 240
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_rhaenys_artifact }}
-				this = character:Targaryen_29 # Queen Rhaenys Targaryen
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_rhaenys_artifact } }
+				exists = character:Targaryen_29
+				this = character:Targaryen_29
 			}
 		}
 	}
-	
+
 	agot_headgear_daemon_stepstone_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -4877,17 +4848,14 @@ fp3_turkic_high_nobles = {
 			}
 			modifier = {
 				add = 250
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					AND = {
-						this = character:Targaryen_61 # THE Daemon Targaryen
-						has_title = title:k_the_stepstones
-					}
-				}
+				agot_default_wear_crown_trigger = yes
+				exists = character:Targaryen_61
+				this = character:Targaryen_61
+				has_title = title:k_the_stepstones
 			}
 		}
 	}
-	
+
 	agot_headgear_daemon_queen_stepstone_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -4905,14 +4873,11 @@ fp3_turkic_high_nobles = {
 			}
 			modifier = {
 				add = 225
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					AND = {
-						is_spouse_of = character:Targaryen_61 # THE Daemon Targaryen
-						primary_spouse ?= {
-							has_title = title:k_the_stepstones
-						}
-					}
+				agot_default_wear_crown_trigger = yes
+				exists = character:Targaryen_61
+				is_spouse_of = character:Targaryen_61
+				primary_spouse ?= {
+					has_title = title:k_the_stepstones
 				}
 			}
 		}
@@ -4971,13 +4936,11 @@ fp3_turkic_high_nobles = {
 			}
 			modifier = {
 				add = 215
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					culture ?= { has_cultural_pillar = heritage_valyrian }
 				}
 			}
 		}
-	}
 
 	agot_headgear_westerosi_valyrian_crown1 = {
 		dna_modifiers = {
@@ -4996,14 +4959,12 @@ fp3_turkic_high_nobles = {
 			}
 			modifier = {
 				add = 215
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					dynasty ?= dynasty:dynn_Targaryen
 					NOT = { house = house:house_Blackfyre }
 				}
 			}
 		}
-	}
 
 	agot_headgear_westerosi_valyrian_crown2 = {
 		dna_modifiers = {
@@ -5022,13 +4983,11 @@ fp3_turkic_high_nobles = {
 			}
 			modifier = {
 				add = 220
-				AND = {
 					primary_title.tier = tier_empire
 					dynasty ?= dynasty:dynn_Essos
 				}
 			}
 		}
-	}
 
 	agot_headgear_iron_stag_crown = {
 		dna_modifiers = {
@@ -5084,13 +5043,11 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_westerling_artifact }}
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					dynasty ?= dynasty:dynn_Westerling
 				}
 			}
 		}
-	}
 
 	agot_headgear_crown_of_the_tides_crown = {
 		dna_modifiers = {
@@ -5110,13 +5067,11 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_tides_artifact }}
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					dynasty ?= dynasty:dynn_Velaryon
 				}
 			}
 		}
-	}
 	
 	agot_headgear_dead_crown_of_gardener_peace_crown = {
 		dna_modifiers = {
@@ -5132,13 +5087,11 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 241
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_gardener_peace_artifact }}
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					dynasty ?= dynasty:dynn_Gardener
 				}
 			}
 		}
-	}
 	
 	agot_headgear_crown_of_gardener_peace_crown = {
 		dna_modifiers = {
@@ -5161,14 +5114,12 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_gardener_peace_artifact }}
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					dynasty ?= dynasty:dynn_Gardener
 					days_of_continuous_peace >= 0
 				}
 			}
 		}
-	}
 
 	agot_headgear_crown_of_gardener_war_iron_crown = {
 		dna_modifiers = {
@@ -5188,14 +5139,12 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 255
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_gardener_war_iron_artifact }}
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					dynasty ?= dynasty:dynn_Gardener
 					days_of_continuous_war >= 1
 				}
 			}
 		}
-	}
 	
 	agot_headgear_crown_of_mudd_crown = {
 		dna_modifiers = {
@@ -5215,13 +5164,11 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_mudd_artifact }}
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					dynasty ?= dynasty:dynn_Mudd
 				}
 			}
 		}
-	}
 
 	agot_headgear_crown_of_the_grey_king_rusted_crown = {
 		dna_modifiers = {
@@ -5241,7 +5188,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 270
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_grey_king_rusted_artifact }}
-				this = character:Grey_King_2 # The Grey King
+				exists = character:Grey_King_2
+				this = character:Grey_King_2
 			}
 		}
 	}
@@ -5264,7 +5212,8 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 270
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_nights_king_artifact }}
-				this = character:Stark_13 # The Night's King
+				exists = character:Stark_13
+				this = character:Stark_13
 			}
 		}
 	}
@@ -5377,11 +5326,11 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 270
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_jeyne_westerling_artifact }}
-				AND = {
-					agot_default_wear_crown_trigger = yes
-					this = character:Westerling_2 # Jeyne Westerling
-					is_spouse_of_even_if_dead = character:Stark_6 # Robb Stark
-				}
+				agot_default_wear_crown_trigger = yes
+				exists = character:Westerling_2
+				exists = character:Stark_6
+				this = character:Westerling_2
+				is_spouse_of_even_if_dead = character:Stark_6
 			}
 		}
 	}
@@ -5574,10 +5523,8 @@ fp3_turkic_high_nobles = {
 			}
 			modifier = {
 				add = 250
-				AND = {
 					agot_default_wear_crown_trigger = yes
 					house = house:house_Blackfyre
-				}
 			}
 		}
 	}	
