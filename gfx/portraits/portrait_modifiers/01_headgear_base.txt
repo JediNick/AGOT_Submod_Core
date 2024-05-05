@@ -3744,10 +3744,12 @@ fp3_turkic_high_nobles = {
 					AND = {
 						exists = character:Targaryen_60
 						this = character:Targaryen_60
-				}
+					}
 					AND = {
 						exists = character:Targaryen_63
 						this = character:Targaryen_63
+					}
+				}
 			}
 			modifier = {
 				factor = 0
@@ -3756,8 +3758,8 @@ fp3_turkic_high_nobles = {
 					has_game_rule = hotd_visuals
 				}
 			}
-		}
-	}
+	  	}
+	}		
 
 	agot_headgear_aegon_iii_crown = {
 		dna_modifiers = {

@@ -1071,6 +1071,7 @@ accessory_genes = {
 				2 = female_cloaks_secular_fp1_agot_northern_01
 				1 = empty
 			}
+		}
 		
 		#AGOT Added
 		kingsguard_cloak_aotk = {
