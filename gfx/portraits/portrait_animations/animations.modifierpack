@@ -895,26 +895,19 @@ council_marshal = {
     }
     
     portrait_modifier = {   # AFR
-        trigger = {	
+        trigger = { 
             #AGOT MODIFIED
             # AND = {
             #     has_dlc_feature = north_african_attire
-			# 	OR = {
-			# 		culture = culture:butr
-			# 		culture = culture:baranis
-			# 		culture = culture:zaghawa
-			# 		culture = culture:maghrebi
-			# 	}
+            #   OR = {
+            #       culture = culture:butr
+            #       culture = culture:baranis
+            #       culture = culture:zaghawa
+            #       culture = culture:maghrebi
+            #   }
             # }
             culture = culture:rhoynish
-                has_dlc_feature = north_african_attire
-				OR = {
-					culture = culture:butr
-					culture = culture:baranis
-					culture = culture:zaghawa
-					culture = culture:maghrebi
-				}
-            }
+            has_dlc_feature = north_african_attire
         }
         animations_props = marshal_afr_prop
     }
