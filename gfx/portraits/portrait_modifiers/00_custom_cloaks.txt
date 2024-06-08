@@ -148,6 +148,11 @@
 
 	add_accessory_modifiers = {
 		gene = cloaks
+		template = stormcloak_01
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
 		is_valid_custom = {
 			has_fp1_dlc_trigger = yes
 		}

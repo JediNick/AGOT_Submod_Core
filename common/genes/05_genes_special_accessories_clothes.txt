@@ -2483,7 +2483,7 @@ special_genes = {
 				index = 117
 
 				male = {
-					1 = male_clothes_religious_catholic_devoted_02
+					1 = male_clothes_religious_catholic_devoted_02_franciscan
 				}
 				female = {
 					1 = female_clothes_religious_catholic_devoted_01_common
@@ -2579,15 +2579,23 @@ special_genes = {
 					1 = male_clothes_secular_unlikely_gown_02 #Aegon V variant
 					1 = male_clothes_westerland_doublet_03
 					1 = male_clothes_westerland_doublet_04
+					1 = male_clothes_stormland_overcoat_03 #Stannis Variant
+					1 = male_clothes_stormland_overcoat_04 #Baratheon Variant
+					1 = male_clothes_stormland_undercoat_03 #Renly Variant
+					1 = male_clothes_stormland_undercoat_05 #Tyrell Variant
 				}
 				female = {
 					1 = female_clothes_mourning_dress_03
 					1 = female_clothes_secular_agot_free_cities_dress_03
+					1 = female_clothes_secular_agot_summer_dress_05 # Elaena
+					1 = female_clothes_secular_agot_summer_dress_06 # Tyrell Summer
+					1 = female_clothes_secular_agot_maiden_dress_03 # Tyrell Maiden
 				}
 				boy = male
 				girl = {
 					1 = female_clothes_mourning_dress_03
 					1 = female_clothes_secular_agot_dany_dress_01
+					1 = female_clothes_secular_agot_summer_dress_06 # Tyrell Summer
 				}
 			}
 
@@ -2862,15 +2870,18 @@ special_genes = {
 			}
 
 			#AGOT Added
-			westerland_doublet_clothes = {
+			agot_stormlander_low_fabrics = {
 				index = 142
 
 				male = {
-					1 = male_clothes_westerland_doublet_01
-					1 = male_clothes_westerland_doublet_02
+					2 = male_clothes_stormland_overcoat_01
+					1 = male_clothes_stormland_overcoat_02
+					2 = male_clothes_stormland_undercoat_01
+					1 = male_clothes_stormland_undercoat_02
 				}
 				female = {
-					1 = female_clothes_secular_unlikely_gown_dynastic_01
+					1 = female_clothes_secular_agot_summer_dress_01
+					1 = female_clothes_secular_agot_summer_dress_02 #Dynastic High variant
 				}
 				boy = male
 				girl = female
@@ -3151,6 +3162,12 @@ special_genes = {
 					1 = male_clothes_dragonbane_doublet_03
 					1 = male_clothes_dragonbane_doublet_no_necklace_01
 					1 = male_clothes_dragonbane_doublet_no_necklace_02
+					1 = male_clothes_stormland_overcoat_01
+					1 = male_clothes_stormland_overcoat_02
+					1 = male_clothes_stormland_overcoat_05
+					1 = male_clothes_stormland_undercoat_01
+					1 = male_clothes_stormland_undercoat_02
+					1 = male_clothes_stormland_undercoat_04
 					1 = male_clothes_secular_free_cities_doublet_01
 					1 = male_clothes_secular_free_cities_doublet_02
 					1 = male_clothes_secular_free_cities_doublet_03
@@ -3374,6 +3391,23 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			#AGOT Added
+			agot_stormlander_high_fabrics = {
+				index = 166
+
+				male = {
+					1 = male_clothes_stormland_overcoat_05
+					1 = male_clothes_stormland_undercoat_04
+				}
+				female = {
+					1 = female_clothes_secular_agot_summer_dress_01 
+					1 = female_clothes_secular_agot_summer_dress_02 
+				}
+				boy = male
+				girl = female
+			}
+
 
 
 			#NOTAGOTADDED

@@ -358,21 +358,25 @@ accessory_genes = {
 			index = 25
 			male = {
 				1 = male_legwear_dragon_prince01
+				1 = male_legwear_dragon_prince02
 				1 = male_legwear_dragon_prince03
 			}
 			female = {
 				1 = female_legwear_dragon_prince01
+				1 = female_legwear_dragon_prince02
 				1 = female_legwear_dragon_prince03
 			}
 			boy = male
 			girl = female
 		}
-		agot_hidden_legwear = {
+		agot_boots_legwear = {
 			index = 26
 			male = {
 				1 = male_legwear_dragon_prince02
+				1 = male_legwear_stormlander_boots_01
 			}
 			female = {
+				1 = female_legwear_dragon_prince01
 				1 = female_legwear_dragon_prince02
 			}
 			boy = male
@@ -465,6 +469,8 @@ accessory_genes = {
 			male = {
 				1 = male_legwear_dragon_prince01
 				1 = male_legwear_dragon_prince03
+				1 = male_legwear_stormlander_boots_01
+				1 = male_legwear_stormlander_boots_02
 				1 = male_legwear_secular_agot_trousers_01
 				1 = male_legwear_secular_agot_trousers_black_01
 				1 = male_legwear_secular_agot_trousers_dynastic_01
@@ -886,6 +892,8 @@ accessory_genes = {
 			index = 19
 			male = {
 				1 = unlikely_cape_02
+				1 = male_cloaks_secular_stormcloak_02
+				1 = male_cloaks_secular_stormcloak_03
 			}
 			female = {
 				1 = empty
@@ -1085,9 +1093,37 @@ accessory_genes = {
 			}
 		}
 		
+		stormcloak_01 = {
+			index = 35
+			male = {
+				2 = male_cloaks_secular_stormcloak_01
+				1 = male_cloaks_secular_stormcloak_coa_01
+				8 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+		
+		agot_hidden_cloaks = {
+			index = 36
+			male = {
+				1 = male_cloaks_secular_stormcloak_01
+				1 = male_cloaks_secular_stormcloak_coa_01
+				1 = male_cloaks_secular_shouldercape_01
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+		
 		#AGOT Added
 		kingsguard_cloak_aotk = {
-			index = 35
+			index = 37
 			male = {
 				1 = kingsguard_cloak_02
 				1 = kingsguard_cloak_03

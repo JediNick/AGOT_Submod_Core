@@ -1653,7 +1653,7 @@ fp3_iranian_high_nobles = {
         }
     }
 
-    #AGOT Added
+     #AGOT Added
     agot_western_high_nobles_male_pants = {
         dna_modifiers = {
             accessory = {
@@ -1665,8 +1665,8 @@ fp3_iranian_high_nobles = {
             accessory = {
                 mode = add
                 gene = legwear
-                template = agot_hidden_legwear
-                accessory = male_legwear_dragon_prince02
+                template = agot_boots_legwear
+                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -1684,6 +1684,96 @@ fp3_iranian_high_nobles = {
                     CULTURE_INPUT = western
                 }
                 is_male = yes
+            }
+        }
+    }
+    
+    #AGOT Added
+    agot_stormlander_low_fabrics_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_stormlander_low_fabrics
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = agot_boots_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = cloaks
+                template = stormcloak_01
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = western
+                }
+                is_male = yes
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                is_male = yes
+            }
+            modifier = {
+                factor = 0
+                portrait_wear_armor_trigger = yes
+            }
+        }
+    }
+    
+    #AGOT Added
+    agot_stormlander_high_fabrics_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_stormlander_high_fabrics
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = agot_boots_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = cloaks
+                template = stormcloak_01
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = western
+                }
+                is_male = yes
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                is_male = yes
+            }
+            modifier = {
+                factor = 0
+                portrait_wear_armor_trigger = yes
             }
         }
     }
@@ -1699,7 +1789,7 @@ fp3_iranian_high_nobles = {
             accessory = {
                 mode = add
                 gene = legwear
-                template = agot_hidden_legwear
+                template = agot_boots_legwear
                 accessory = male_legwear_dragon_prince02
             }
         }
@@ -1721,6 +1811,116 @@ fp3_iranian_high_nobles = {
             }
         }
     }
+    
+    agot_tyrell_marcher_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_historic_characters
+                accessory = male_clothes_stormland_undercoat_05
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = agot_boots_legwear
+                accessory = male_legwear_dragon_prince02
+            }
+            accessory = {
+                mode = add
+                gene = cloaks
+                template = agot_historic_capes
+                accessory = male_cloaks_secular_stormcloak_03
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = reachman
+                }
+                dynasty = dynasty:dynn_Tyrell
+                is_male = yes
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = reachman
+                }
+                dynasty = dynasty:dynn_Tyrell
+                is_male = yes
+            }
+            modifier = {
+                factor = 0
+                portrait_wear_armor_trigger = yes
+            }
+        }
+    }
+    
+    agot_tyrell_maiden_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_historic_characters
+                accessory = female_clothes_secular_agot_maiden_dress_03
+                type = female
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = reachman
+                }
+                dynasty = dynasty:dynn_Tyrell
+                is_female = yes
+                age > 17
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = reachman
+                }
+                dynasty = dynasty:dynn_Tyrell
+                is_female = yes
+                age > 17
+            }
+        }
+    }
+    
+    agot_tyrell_summer_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_historic_characters
+                accessory = female_clothes_secular_agot_summer_dress_06
+                type = female
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = reachman
+                }
+                dynasty = dynasty:dynn_Tyrell
+                is_female = yes
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = reachman
+                }
+                dynasty = dynasty:dynn_Tyrell
+                is_female = yes
+            }
+        }
+    }
 
     agot_clothing_westerlander_lannister_doublet = {
         dna_modifiers = {
@@ -1733,7 +1933,7 @@ fp3_iranian_high_nobles = {
             accessory = {
                 mode = add
                 gene = legwear
-                template = agot_hidden_legwear
+                template = agot_boots_legwear
                 accessory = male_legwear_dragon_prince02
             }
         }
@@ -1744,7 +1944,7 @@ fp3_iranian_high_nobles = {
                 court_fashion_level_5_trigger = {
                     CULTURE_INPUT = western
                 }
-                dynasty = dynasty:dynn_Lannister
+                dynasty = dynasty:dynn_Reyne
                 is_male = yes
             }
             modifier = {
@@ -1752,7 +1952,7 @@ fp3_iranian_high_nobles = {
                 portrait_high_nobles_clothing_trigger = {
                     CULTURE_INPUT = western
                 }
-                dynasty = dynasty:dynn_Lannister
+                dynasty = dynasty:dynn_Reyne
                 is_male = yes
             }
         }
@@ -1769,7 +1969,7 @@ fp3_iranian_high_nobles = {
             accessory = {
                 mode = add
                 gene = legwear
-                template = agot_hidden_legwear
+                template = agot_boots_legwear
                 accessory = male_legwear_dragon_prince02
             }
         }
@@ -1789,6 +1989,42 @@ fp3_iranian_high_nobles = {
                     CULTURE_INPUT = western
                 }
                 dynasty = dynasty:dynn_Reyne
+                is_male = yes
+            }
+        }
+    }
+    
+     agot_clothing_stormlander_baratheon_overcoat = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_historic_characters
+                accessory = male_clothes_stormland_overcoat_04 
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = agot_boots_legwear
+                accessory = male_legwear_stormlander_boots_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = western
+                }
+                dynasty = dynasty:dynn_Baratheon
+                is_male = yes
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                dynasty = dynasty:dynn_Baratheon
                 is_male = yes
             }
         }
