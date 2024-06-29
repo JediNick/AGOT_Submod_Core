@@ -479,6 +479,7 @@
 			modifier = {
 				add = 250
 				exists = this
+				is_lotd_loaded_trigger = yes
 				portrait_wear_armor_trigger = yes
 				portrait_valyrian_clothing_trigger = yes
 			}

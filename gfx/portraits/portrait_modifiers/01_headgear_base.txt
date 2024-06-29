@@ -5957,10 +5957,6 @@ fp3_turkic_high_nobles = {
 						this = character:Targaryen_66 # Helaena
 					}
 					AND = {
-						exists = character:Martell_79
-						this = character:Martell_79 # Mariah
-					}
-					AND = {
 						exists = character:Penrose_35 # Aelinor
 						this = character:Penrose_35 # Aelinor
 					}
@@ -5993,10 +5989,6 @@ fp3_turkic_high_nobles = {
 					AND = {
 						exists = character:Targaryen_66
 						this = character:Targaryen_66 # Helaena
-					}
-					AND = {
-						exists = character:Martell_79
-						this = character:Martell_79 # Mariah
 					}
 					AND = {
 						exists = character:Penrose_35
@@ -6199,6 +6191,71 @@ fp3_turkic_high_nobles = {
 		}
 	}
 	
+	agot_headgear_cersei_tiara = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = canon_queens
+				accessory = cersei_tiara
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = cersei_tiara_artifact }
+			}
+			modifier = {
+				add = 280
+				is_crowns_westeros_loaded_trigger = yes
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = cersei_tiara_artifact }}
+				AND = {
+					agot_can_wear_crown_trigger = yes
+					OR = {
+						primary_title.tier = tier_empire
+						AND = {
+							primary_title.tier = tier_kingdom
+							agot_is_independent_ruler = yes
+						}
+						primary_spouse ?= {
+							primary_title.tier = tier_empire
+						}
+						primary_spouse ?= {
+							primary_title.tier = tier_kingdom
+							agot_is_independent_ruler = yes
+						}
+					}
+					this = character:Lannister_6 # Cersei
+				}
+			}
+		}
+	}
+
+	agot_headgear_cersei_tiara_dead = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = canon_queens
+				accessory = cersei_tiara
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 290
+				is_crowns_westeros_loaded_trigger = yes
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = cersei_tiara_artifact }}
+				AND = {
+					is_alive = no
+					this = character:Lannister_6 # Cersei
+				}
+			}
+		}
+	}
+	
 ### Crowns of Westeros - Main Nerdman Crowns ###
 	
 	agot_headgear_aliandra_martell_crown = {
@@ -6246,9 +6303,153 @@ fp3_turkic_high_nobles = {
 						exists = character:Martell_72
 						this = character:Martell_72 # Marence
 					}
+				}
+			}
+			modifier = {
+				add = 290
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aliandra_martell_artifact }}
+				is_alive = no
+				OR = {
+					AND = {
+						exists = character:Martell_69
+						this = character:Martell_69 # Aliandra
+					}
+					AND = {
+						exists = character:Martell_72
+						this = character:Martell_72 # Marence
+					}
+				}
+			}
+		}
+	}
+	
+	agot_headgear_mors_martell_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = mors_martell_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_mors_martell_artifact }
+			}
+			modifier = {
+				add = 250
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_mors_martell_artifact }}
+				agot_default_wear_crown_trigger = yes
+				OR = {
+					primary_title.tier = tier_empire
+					AND = {
+						primary_title.tier = tier_kingdom
+						agot_is_independent_ruler = yes
+					}
+					primary_spouse ?= {
+						primary_title.tier = tier_empire
+					}
+					primary_spouse ?= {
+						primary_title.tier = tier_kingdom
+						agot_is_independent_ruler = yes
+					}
+				}
+				OR = {
+					AND = {
+						exists = character:Martell_28
+						this = character:Martell_28 # Mors II
+					}
+					AND = {
+						exists = character:Martell_31
+						this = character:Martell_31 # Mors II
+					}
+					AND = {
+						exists = character:Martell_35
+						this = character:Martell_35 # Mors II
+					}
+					AND = {
+						exists = character:Martell_41
+						this = character:Martell_41 # Mors II
+					}
+					AND = {
+						exists = character:Martell_45
+						this = character:Martell_45 # Mors II
+					}
+					AND = {
+						exists = character:Martell_49
+						this = character:Martell_49 # Mors II
+					}
+					AND = {
+						exists = character:Martell_59
+						this = character:Martell_59 # Mors II
+					}
+					AND = {
+						exists = character:Martell_65
+						this = character:Martell_65 # Mors II
+					}
 					AND = {
 						exists = character:Martell_86
-						this = character:Martell_86 # Mors
+						this = character:Martell_86 # Mors II
+					}
+					AND = {
+						exists = character:Martell_1
+						this = character:Martell_1 # Lorenza
+					}
+				}
+			}
+			modifier = {
+				add = 290
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_mors_martell_artifact }}
+				is_alive = no
+				OR = {
+					AND = {
+						exists = character:Martell_28
+						this = character:Martell_28 # Mors II
+					}
+					AND = {
+						exists = character:Martell_31
+						this = character:Martell_31 # Mors II
+					}
+					AND = {
+						exists = character:Martell_35
+						this = character:Martell_35 # Mors II
+					}
+					AND = {
+						exists = character:Martell_41
+						this = character:Martell_41 # Mors II
+					}
+					AND = {
+						exists = character:Martell_45
+						this = character:Martell_45 # Mors II
+					}
+					AND = {
+						exists = character:Martell_49
+						this = character:Martell_49 # Mors II
+					}
+					AND = {
+						exists = character:Martell_59
+						this = character:Martell_59 # Mors II
+					}
+					AND = {
+						exists = character:Martell_65
+						this = character:Martell_65 # Mors II
+					}
+					AND = {
+						exists = character:Martell_86
+						this = character:Martell_86 # Mors II
+					}
+					AND = {
+						exists = character:Martell_1
+						this = character:Martell_1 # Lorenza
 					}
 				}
 			}
@@ -6371,6 +6572,35 @@ fp3_turkic_high_nobles = {
 		}
 	}
 	
+	agot_headgear_myrcella_circlet = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = myrcella_circlet
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = myrcella_circlet_artifact }
+			}
+			modifier = {
+				add = 250
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = myrcella_circlet_artifact }}
+				AND = {
+					agot_can_wear_crown_trigger = yes
+					has_character_flag = is_myrcella_baratheon
+				}
+			}
+		}
+	}
+	
 	agot_headgear_sharra_arryn_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -6473,13 +6703,13 @@ fp3_turkic_high_nobles = {
 		}
 	}
 	
-	agot_headgear_rhaegar_silver_crown = {
+	agot_headgear_viserys_son_of_aenys = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
 				template = crowns_of_westeros
-				accessory = rhaegar_silver_crown
+				accessory = viserys_son_of_aenys
 			}
 		}
 		weight = {
@@ -6487,7 +6717,26 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_rhaegar_silver_artifact }
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_viserys_son_of_aenys_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_viserys_son_of_aenys_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = viserys_son_of_aenys_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_viserys_son_of_aenys_02_artifact }
 			}
 		}
 	}
