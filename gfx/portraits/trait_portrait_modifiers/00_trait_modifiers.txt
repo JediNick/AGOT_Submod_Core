@@ -116,7 +116,7 @@
 }
 
 beauty = {
-	beauty = {
+	beauty_complexion = {
 		traits = {
 			beauty_good_1
 			beauty_good_2
@@ -124,12 +124,15 @@ beauty = {
 		}
 		dna_modifiers = {
 			morph = {
-				mode = replace
+				mode = add
+				gene = gene_beauty_details
+				value = 0.5
+				template = beauty_details
+			}
+			morph = {
+				mode = modify
 				gene = complexion
-				template = complexion_beauty_1
-				#AGOT Modified
-				# value = 1.0
-				value = 0
+				value = 1.0
 			}
 		}
 	}
@@ -1585,6 +1588,11 @@ blind = {
 	blind = {
 		traits = {
 			blind
+		}
+		#AGOT Added
+		trigger = {
+			exists = root
+			agot_blind = yes
 		}
 		dna_modifiers = {
 			accessory = {
