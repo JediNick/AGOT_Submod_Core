@@ -1216,7 +1216,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 500
+				add = 50000
 				AND = {
 					#primary_title = title:e_the_iron_throne
 					OR = {
