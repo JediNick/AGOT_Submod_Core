@@ -478,6 +478,9 @@ accessory_genes = {
 				1 = male_legwear_northernmaester_skirt_01
 				1 = male_legwear_grandmaester_skirt_01
 				1 = male_legwear_maester_kw_skirt_01
+				1 = male_legwear_special_dragon_rider_01
+				1 = male_legwear_special_dragon_rider_dynastic_01
+				1 = male_legwear_special_dragon_rider_dynastic_alt_01
 				1 = male_legwear_secular_valyrian_war_02
 				1 = male_legwear_secular_valyrian_war_blackfyre_02
 				1 = male_legwear_secular_valyrian_targaryen_war_03
@@ -523,6 +526,9 @@ accessory_genes = {
 				1 = female_legwear_secular_agot_trousers_black_01
 				1 = female_legwear_secular_agot_trousers_dynastic_01
 				1 = female_legwear_sandals
+				1 = female_legwear_special_dragon_rider_01
+				1 = female_legwear_special_dragon_rider_dynastic_01
+				1 = female_legwear_special_dragon_rider_dynastic_alt_01
 				1 = female_legwear_secular_dornish_war_03
 				1 = female_legwear_secular_dornish_martell_war_03
 				1 = female_legwear_secular_valyrian_war_02
@@ -540,12 +546,29 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
+		
+		dragon_rider_legwear = {
+			index = 35
+			male = {
+				1 = male_legwear_special_dragon_rider_01
+				1 = male_legwear_special_dragon_rider_dynastic_01
+				1 = male_legwear_special_dragon_rider_dynastic_alt_01
+			}
+			female = {
+				1 = female_legwear_special_dragon_rider_01
+				1 = female_legwear_special_dragon_rider_dynastic_01
+				1 = female_legwear_special_dragon_rider_dynastic_alt_01
+			}
+			boy = male
+			girl = female
+		}
 				
 		kingsguard_legwear_01 = {
 			index = 90
 			male = {
 				1 = male_legwear_KG_01
 				1 = male_legwear_KG_03
+				1 = male_legwear_KG_Blackfyre
 			}
 			female = {
 				1 = female_legwear_secular_fp1_common_01
@@ -2672,6 +2695,7 @@ props_left = {
 			index = 115
 			male = {
 				1 = dragon_egg_black_prop_01
+				1 = dragon_egg_blackDarkRed_prop_01
 				1 = dragon_egg_vhagar_prop_01
 				1 = dragon_egg_meraxes_prop_01
 				1 = dragon_egg_green_prop_01
@@ -2687,9 +2711,39 @@ props_left = {
 				1 = dragon_egg_blue_prop_01
 				1 = dragon_egg_tan_prop_01
 				1 = dragon_egg_rainbow_prop_01
+				1 = dragon_egg_gold_prop_01
+				1 = dragon_egg_whitegold_prop_01
+				1 = dragon_egg_purplegold_prop_01
+				1 = dragon_egg_flame_prop_01
+				1 = dragon_egg_blackred_prop_01
+				1 = dragon_egg_brownspots_prop_01
+				1 = dragon_egg_redblackgold_prop_01
+				1 = dragon_egg_palered_prop_01
+				1 = dragon_egg_darkblue_prop_01
+				1 = dragon_egg_darkred_prop_01
+				1 = dragon_egg_frost_prop_01
+				1 = dragon_egg_greengrey_prop_01
+				1 = dragon_egg_magma_prop_01
+				1 = dragon_egg_darkpurple_prop_01
+				1 = dragon_egg_palepink_prop_01
+				1 = dragon_egg_palebluepink_prop_01
+				1 = dragon_egg_pinkspot_prop_01
+				1 = dragon_egg_rainbowgold_prop_01
+				1 = dragon_egg_sunburst_prop_01
+				1 = dragon_egg_goldpink_prop_01
+				1 = dragon_egg_bluebronze_prop_01
+				1 = dragon_egg_greenorange_prop_01
+				1 = dragon_egg_bronze_prop_01
+				1 = dragon_egg_blackgreen_prop_01
+				1 = dragon_egg_greygreenyellow_prop_01
+				1 = dragon_egg_blackyellow_prop_01
+				1 = dragon_egg_yellowgreen_prop_01
+				1 = dragon_egg_silver_prop_01
+				1 = dragon_egg_iceFire_prop_01
 			}
 			female = {
 				1 = dragon_egg_black_prop_01
+				1 = dragon_egg_blackDarkRed_prop_01
 				1 = dragon_egg_vhagar_prop_01
 				1 = dragon_egg_meraxes_prop_01
 				1 = dragon_egg_green_prop_01
@@ -2705,6 +2759,35 @@ props_left = {
 				1 = dragon_egg_blue_prop_01
 				1 = dragon_egg_tan_prop_01
 				1 = dragon_egg_rainbow_prop_01
+				1 = dragon_egg_gold_prop_01
+				1 = dragon_egg_whitegold_prop_01
+				1 = dragon_egg_purplegold_prop_01
+				1 = dragon_egg_flame_prop_01
+				1 = dragon_egg_blackred_prop_01
+				1 = dragon_egg_brownspots_prop_01
+				1 = dragon_egg_redblackgold_prop_01
+				1 = dragon_egg_palered_prop_01
+				1 = dragon_egg_darkblue_prop_01
+				1 = dragon_egg_darkred_prop_01
+				1 = dragon_egg_frost_prop_01
+				1 = dragon_egg_greengrey_prop_01
+				1 = dragon_egg_magma_prop_01
+				1 = dragon_egg_darkpurple_prop_01
+				1 = dragon_egg_palepink_prop_01
+				1 = dragon_egg_palebluepink_prop_01
+				1 = dragon_egg_pinkspot_prop_01
+				1 = dragon_egg_rainbowgold_prop_01
+				1 = dragon_egg_sunburst_prop_01
+				1 = dragon_egg_goldpink_prop_01
+				1 = dragon_egg_bluebronze_prop_01
+				1 = dragon_egg_greenorange_prop_01
+				1 = dragon_egg_bronze_prop_01
+				1 = dragon_egg_blackgreen_prop_01
+				1 = dragon_egg_greygreenyellow_prop_01
+				1 = dragon_egg_blackyellow_prop_01
+				1 = dragon_egg_yellowgreen_prop_01
+				1 = dragon_egg_silver_prop_01
+				1 = dragon_egg_iceFire_prop_01
 			}
 			boy = male
 			girl = female
@@ -3210,3 +3293,6 @@ props_left = {
 			girl = female
 		}
 	}
+#AGOT Added, Vanilla Fix
+}
+}

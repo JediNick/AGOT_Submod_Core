@@ -170,6 +170,84 @@
 				boy = male
 				girl = female
 			}
+
+			dragon_horns_prop = {
+				index = 13
+				male = {
+					1 = dragon_horn_black_prop
+					1 = dragon_horn_red_prop
+					1 = dragon_horn_tan_prop
+					1 = dragon_horn_blackGold_prop
+					1 = dragon_horn_brown_prop
+					1 = dragon_horn_silver_prop
+
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			dragon_horns_glow_prop = {
+				index = 14
+				male = {
+					1 = dragon_horn_black_glow_prop
+					1 = dragon_horn_red_glow_prop
+					1 = dragon_horn_tan_glow_prop
+					1 = dragon_horn_blackGold_glow_prop
+					1 = dragon_horn_brown_glow_prop
+					1 = dragon_horn_silver_glow_prop
+					1 = dragon_horn_black_glow_right_prop
+					1 = dragon_horn_red_glow_right_prop
+					1 = dragon_horn_tan_glow_right_prop
+					1 = dragon_horn_blackGold_glow_right_prop
+					1 = dragon_horn_brown_glow_right_prop
+					1 = dragon_horn_silver_glow_right_prop
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			dragon_whip_prop = {
+				index = 15
+				male = {
+					1 = dragon_whip_black_prop
+					1 = dragon_whip_bronze_prop
+					1 = dragon_whip_silver_prop
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			vs_goblet_prop = {
+				index = 16
+				male = {
+					1 = vs_goblet_prop
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			valyrian_book_right = {
+				index = 17
+				male = {
+					1 = valyrian_book_01
+				}
+				female = male
+				boy = male
+				girl = female
+			}
+
+			valyrian_paged_book = {
+				index = 18
+				male = {
+					1 = valyrian_paged_book_01_a
+				}
+				female = male
+				boy = male
+				girl = female
+			}
 		}
 	
 	}

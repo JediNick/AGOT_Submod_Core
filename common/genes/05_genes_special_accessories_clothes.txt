@@ -429,6 +429,8 @@ special_genes = {
 					#AGOT Added, Keep these in sync with girl gene
 					1 = female_clothes_secular_unlikely_gown_01
 					1 = female_clothes_secular_unlikely_gown_dynastic_01
+					1 = female_clothes_secular_crownlands_dress_01
+					1 = female_clothes_secular_crownlands_dress_01_dynastic
 					1 = female_clothes_secular_agot_summer_dress_01
 					1 = female_clothes_secular_agot_maiden_dress_01
 					1 = female_clothes_mourning_dress_02
@@ -444,6 +446,8 @@ special_genes = {
 					1 = female_clothes_secular_dde_hre_nobility_01_high
 					1 = female_clothes_secular_unlikely_gown_01
 					1 = female_clothes_secular_unlikely_gown_dynastic_01
+					1 = female_clothes_secular_crownlands_dress_01
+					1 = female_clothes_secular_crownlands_dress_01_dynastic
 					1 = female_clothes_secular_agot_summer_dress_01
 					1 = female_clothes_secular_agot_summer_dress_01
 					1 = female_clothes_mourning_dress_02
@@ -2014,6 +2018,8 @@ special_genes = {
 					#AGOT Added, Keep these in sync with girl gene
 					1 = female_clothes_secular_unlikely_gown_01
 					1 = female_clothes_secular_unlikely_gown_dynastic_01
+					1 = female_clothes_secular_crownlands_dress_01
+					1 = female_clothes_secular_crownlands_dress_01_dynastic
 					1 = female_clothes_secular_agot_summer_dress_01
 					1 = female_clothes_secular_agot_maiden_dress_01
 					1 = female_clothes_mourning_dress_02
@@ -2026,6 +2032,8 @@ special_genes = {
 					2 = f_clothes_sec_ep2_western_era3_nob_02_hi
 					1 = female_clothes_secular_unlikely_gown_01
 					1 = female_clothes_secular_unlikely_gown_dynastic_01
+					1 = female_clothes_secular_crownlands_dress_01
+					1 = female_clothes_secular_crownlands_dress_01_dynastic
 					1 = female_clothes_secular_agot_summer_dress_01
 					1 = female_clothes_secular_agot_summer_dress_01
 					1 = female_clothes_mourning_dress_02
@@ -2590,12 +2598,18 @@ special_genes = {
 					1 = female_clothes_secular_agot_summer_dress_05 # Elaena
 					1 = female_clothes_secular_agot_summer_dress_06 # Tyrell Summer
 					1 = female_clothes_secular_agot_maiden_dress_03 # Tyrell Maiden
+					1 = female_clothes_secular_crownlands_dress_03 # Baratheon Variant
+					1 = female_clothes_secular_crownlands_dress_04 # Velaryon Variant
+					1 = female_clothes_secular_crownlands_dress_02 # Lannister Variant
 				}
 				boy = male
 				girl = {
 					1 = female_clothes_mourning_dress_03
 					1 = female_clothes_secular_agot_dany_dress_01
 					1 = female_clothes_secular_agot_summer_dress_06 # Tyrell Summer
+					1 = female_clothes_secular_crownlands_dress_03 # Baratheon Variant
+					1 = female_clothes_secular_crownlands_dress_04 # Velaryon Variant
+					1 = female_clothes_secular_crownlands_dress_02 # Lannister Variant
 				}
 			}
 
@@ -3176,15 +3190,23 @@ special_genes = {
 					1 = male_clothes_northern_maester_01
 					1 = male_clothes_maester_kw_01
 					1 = male_clothes_grandmaester_01
+					1 = male_clothes_special_dragon_rider_01
+					1 = male_clothes_special_dragon_rider_dynastic_01
+					1 = male_clothes_special_dragon_rider_dynastic_alt_01
 				}
 				female = {
 					1 = female_clothes_secular_unlikely_gown_01
 					1 = female_clothes_secular_unlikely_gown_royal_01
 					1 = female_clothes_secular_unlikely_gown_dynastic_01
+					1 = female_clothes_secular_crownlands_dress_01
+					1 = female_clothes_secular_crownlands_dress_01_dynastic
 					1 = female_clothes_secular_agot_summer_dress_01
 					1 = female_clothes_secular_agot_summer_dress_02 #Dynastic High variant
 					1 = female_clothes_secular_agot_summer_dress_03 #Low variant
 					1 = female_clothes_secular_agot_summer_dress_04 #Dynastic Low variant	
+					1 = female_clothes_secular_aelora_dress_01
+					1 = female_clothes_secular_aelora_dress_dynastic_01
+					1 = female_clothes_secular_aelora_dress_dynastic_02
 					1 = female_clothes_mourning_dress_01
 					1 = female_clothes_mourning_dress_02
 					1 = female_clothes_secular_agot_royal_doublet_01
@@ -3206,25 +3228,49 @@ special_genes = {
 					1 = female_clothes_secular_meereen_nobility_01
 					1 = female_clothes_secular_meereen_nobility_02
 					1 = female_clothes_secular_meereen_nobility_03
+					1 = female_clothes_special_dragon_rider_01
+					1 = female_clothes_special_dragon_rider_dynastic_01
+					1 = female_clothes_special_dragon_rider_dynastic_alt_01
 				}
 				boy = male
 				girl = {
 					1 = female_clothes_secular_unlikely_gown_01
 					1 = female_clothes_secular_unlikely_gown_royal_01
 					1 = female_clothes_secular_unlikely_gown_dynastic_01
+					1 = female_clothes_secular_crownlands_dress_01
+					1 = female_clothes_secular_crownlands_dress_01_dynastic
 					1 = female_clothes_secular_agot_summer_dress_01
 					1 = female_clothes_secular_agot_summer_dress_02 #Dynastic High variant
 					1 = female_clothes_secular_agot_summer_dress_03 #Low variant
 					1 = female_clothes_secular_agot_summer_dress_04 #Dynastic Low variant	
+					1 = female_clothes_secular_agot_summer_dress_04 #Dynastic Low variant	
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_aelora_dress_01
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_aelora_dress_dynastic_01
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_aelora_dress_dynastic_02
 					1 = female_clothes_mourning_dress_01
 					1 = female_clothes_mourning_dress_02
 					1 = female_clothes_secular_agot_royal_doublet_01
 					1 = female_clothes_secular_agot_royal_doublet_dynastic_01
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_agot_maiden_dress_01
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_agot_maiden_dress_02
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_agot_free_cities_dress_01
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_agot_free_cities_dress_02 #Dynastic variant
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_agot_free_cities_dress_04 #Low variant
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_lyseni_noblewoman_01
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_lyseni_noblewoman_01_dynamic
 					1 = female_clothes_secular_free_cities_doublet_01
 					1 = female_clothes_secular_free_cities_doublet_02
 					1 = female_clothes_secular_free_cities_doublet_03
 					1 = female_clothes_secular_free_cities_doublet_04
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_religious_redpreistess_01
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_religious_redpreistess_dynastic
 					1 = female_clothes_secular_valyrian_nobility_01
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_meereen_nobility_01
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_meereen_nobility_02
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_meereen_nobility_03
+					1 = female_clothes_special_dragon_rider_01
+					1 = female_clothes_special_dragon_rider_dynastic_01
+					1 = female_clothes_special_dragon_rider_dynastic_alt_01
 				}
 			}
 			
@@ -3407,7 +3453,36 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+						#AGOT Added
+			dragon_rider_clothes = {
+				index = 167
 
+				male = {
+					1 = male_clothes_special_dragon_rider_01
+					1 = male_clothes_special_dragon_rider_dynastic_01
+					1 = male_clothes_special_dragon_rider_dynastic_alt_01
+				}
+				female = {
+					1 = female_clothes_special_dragon_rider_01
+					1 = female_clothes_special_dragon_rider_dynastic_01
+					1 = female_clothes_special_dragon_rider_dynastic_alt_01
+				}
+				boy = male
+				girl = female
+			}
+
+			#AGOT Added, Dragons
+			no_clothes_forced = {
+				index = 168
+
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
 
 
 			#NOTAGOTADDED
@@ -3425,6 +3500,8 @@ special_genes = {
 					1 = male_clothes_secular_western_KG_armorTarg_04
 					1 = male_clothes_secular_western_KG_armor_05
 					1 = male_clothes_secular_western_KG_armorTarg_05
+					1 = male_clothes_secular_western_KG_armor_06
+					1 = male_clothes_secular_western_KG_armorTarg_06
 				}
 
 				female = {

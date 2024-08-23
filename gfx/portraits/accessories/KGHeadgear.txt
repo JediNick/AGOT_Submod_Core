@@ -27,3 +27,7 @@ male_headgear_secular_western_KG_helmet_05 = {
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		 	 }		
 }
+male_headgear_secular_western_KG_helmet_06 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		 	 }		
+}

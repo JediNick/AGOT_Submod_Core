@@ -3867,8 +3867,8 @@ fp3_turkic_high_nobles = {
 			}
 			modifier = {
 				add = 400
-				exists = character:Targaryen_rs_2
-				this = character:Targaryen_rs_2
+				exists = character:Targaryen_hh_10
+				this = character:Targaryen_hh_10
 			}
 		}
 	}
@@ -5582,7 +5582,23 @@ fp3_turkic_high_nobles = {
 				house = house:house_Blackfyre
 			}
 		}
+	}
+	
+		agot_headgear_qolab_crown_07 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_qolab
+				accessory = qolab_crown_07
+			}
+		}
+		weight = {
+			base = 0
+		}
 	}	
+	
+	
 	
 	agot_headgear_crown_of_castamere_crown = {
 		dna_modifiers = {
@@ -8781,6 +8797,7 @@ fp3_turkic_high_nobles = {
 				#primary_title = title:e_the_iron_throne
 				exists = character:Targaryen_60
 				this = character:Targaryen_60 # Viserys I
+				is_alive = no
 			}
 			modifier = {
 				factor = 0
@@ -8807,7 +8824,7 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 500
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact } }
-				#primary_title = title:e_the_iron_throne
+				is_alive = no
 				OR = {
 					AND = {
 						exists = character:Targaryen_35

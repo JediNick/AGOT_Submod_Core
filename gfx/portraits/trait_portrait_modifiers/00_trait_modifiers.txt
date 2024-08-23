@@ -123,23 +123,25 @@ beauty = {
 			beauty_good_3
 		}
 		dna_modifiers = {
+			#AGOT Added
 			morph = {
 				mode = add
 				gene = gene_beauty_details
-				value = 0.5
+				value = 0.1
 				template = beauty_details
 			}
-			#AGOT DISABLED
+			#AGOT Disabled
 			# morph = { #Disabled as this modifies all lip colors to be darker. We may want the diversity of lip tones while still having beauty.
 			# 	mode = modify
 			# 	gene = complexion
 			# 	value = 1.0
 			# }
+			#AGOT Added
 			accessory = {
 				mode = replace
 				gene = eyelashes_accessory
 				template = dark_eyelashes
-                range = { 0 0.5 } # For the randomness to work correctly
+				range = { 0 0.15 } # For the randomness to work correctly
 			}
 		}
 	}

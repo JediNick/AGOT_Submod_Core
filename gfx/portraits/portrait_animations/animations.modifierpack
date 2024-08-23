@@ -261,7 +261,7 @@ one_handed_mace = {
 
 one_handed_sword = {
 
-    ##AGOT ADDED
+    ##AGOT Added
     portrait_modifier = {
         trigger = {
             any_equipped_character_artifact = {
@@ -287,7 +287,7 @@ one_handed_sword = {
         animations = female_prop_fix_additive
     }
 
-    ##AGOT ADDED
+    ##AGOT Added
      portrait_modifier = {
         trigger = {
             culture = {
@@ -883,7 +883,7 @@ council_marshal = {
     #AGOT Ended
 
     
-    ##AGOT ADDED
+    ##AGOT Added
      portrait_modifier = {
         trigger = {
             culture = {
@@ -896,7 +896,7 @@ council_marshal = {
     
     portrait_modifier = {   # AFR
         trigger = { 
-            #AGOT MODIFIED
+            #AGOT Modified
             # AND = {
             #     has_dlc_feature = north_african_attire
             #   OR = {
@@ -921,7 +921,7 @@ council_marshal = {
         }						
         animations_props = marshal_fp1_prop
     }
-	##AGOT MODIFIED
+	##AGOT Modified
     #portrait_modifier = {	# FP2 Christian
     #    trigger = {					
     #        AND = {
@@ -940,7 +940,7 @@ council_marshal = {
     #    animations_props = marshal_fp2_christian_prop
     # }
 
-	##AGOT MODIFIED
+	##AGOT Modified
     #portrait_modifier = {	# FP2 Muslim
     #    trigger = {					
     #        AND = {

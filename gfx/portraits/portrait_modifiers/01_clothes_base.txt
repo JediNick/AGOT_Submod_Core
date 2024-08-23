@@ -1703,12 +1703,12 @@ fp3_iranian_high_nobles = {
                 template = agot_boots_legwear
                 range = { 0 1 } # For the randomness to work correctly
             }
-            accessory = {
-                mode = add
-                gene = cloaks
-                template = stormcloak_01
-                range = { 0 1 } # For the randomness to work correctly
-            }
+            # accessory = { #DISABLED UNTIL PROPER SPAWNING IS SET. THIS APPLIES TO TOO MANY CHARACTERS AND INTERFERES WITH HISTORICAL CLOTHES. LINKING MULTIPLE ITEMS NEEDS TO BE DONE SPARINGLY.
+            #     mode = add
+            #     gene = cloaks
+            #     template = stormcloak_01
+            #     range = { 0 1 } # For the randomness to work correctly
+            # }
         }
         weight = {
             base = 0
@@ -1748,12 +1748,12 @@ fp3_iranian_high_nobles = {
                 template = agot_boots_legwear
                 range = { 0 1 } # For the randomness to work correctly
             }
-            accessory = {
-                mode = add
-                gene = cloaks
-                template = stormcloak_01
-                range = { 0 1 } # For the randomness to work correctly
-            }
+            # accessory = { #DISABLED UNTIL PROPER SPAWNING IS SET. THIS APPLIES TO TOO MANY CHARACTERS AND INTERFERES WITH HISTORICAL CLOTHES. LINKING MULTIPLE ITEMS NEEDS TO BE DONE SPARINGLY.
+            #     mode = add
+            #     gene = cloaks
+            #     template = stormcloak_01
+            #     range = { 0 1 } # For the randomness to work correctly
+            # }
         }
         weight = {
             base = 0
@@ -2193,83 +2193,4 @@ fp3_iranian_high_nobles = {
             }
         }
     }
-
-    viserys_robes = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = valyrian_nobility_clothing
-				accessory = male_clothes_secular_valyrian_robes_01_high
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 500
-				AND = {
-					#primary_title = title:e_the_iron_throne
-					OR = {
-						this = character:Targaryen_60 # Viserys I
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				NOT =  { is_lotd_loaded_trigger = yes }
-			}
-		}
-	}
-
-	daemon_clothes = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = valyrian_nobility_clothing
-				accessory = male_clothes_secular_valyrian_nobility_01_high
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 500
-				AND = {
-					OR = {
-						this = character:Targaryen_61 # daemon I
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				NOT =  { is_lotd_loaded_trigger = yes }
-			}
-		}
-	}
-
-	rhaenerya_clothes = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = valyrian_nobility_clothing
-                range = { 0 1 } # For the randomness to work correctly
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 500
-				AND = {
-					OR = {
-						this = character:Targaryen_63 # daemon I
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				NOT =  { is_lotd_loaded_trigger = yes }
-			}
-		}
-	}
 }

@@ -691,6 +691,70 @@
             }
         }
     }
+    
+    agot_knight_of_the_laughing_tree = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = north_war_nobility_clothes
+                accessory = male_clothes_north_war_03
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = north_war_legwear
+                accessory = male_legwear_secular_north_war_03
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = agot_qolab
+                accessory = crown_of_winter_roses
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 2000
+                exists = this
+                has_character_flag = knight_of_the_laughing_tree
+            }
+        }
+    }
+    
+    dragonrider_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = dragon_rider_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = dragon_rider_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+
+            modifier = {
+                add = 1000
+                has_character_flag = currently_riding_dragon
+                portrait_wear_armor_trigger = no
+            }
+        }
+    }
 	
 	kingsguard_armor_01 = {
 		dna_modifiers = {
@@ -698,7 +762,7 @@
 				mode = add
 				gene = clothes
 				template = kingsguard_armor_clothes
-				range = { 0 0 } # For the randomness to work correctly
+				accessory = male_clothes_secular_western_KG_armor_01
 			}
 			morph = {
 				mode = modify_multiply
@@ -746,7 +810,7 @@
 				mode = add
 				gene = clothes
 				template = kingsguard_armor_clothes
-				range = { 0.12 0.12 } # For the randomness to work correctly
+				accessory = male_clothes_secular_western_KG_armorTarg_01
 			}
 			morph = {
 				mode = modify_multiply
@@ -794,7 +858,7 @@
 				mode = add
 				gene = clothes
 				template = kingsguard_armor_clothes
-				range = { 0.21 0.21 } # For the randomness to work correctly
+				accessory = male_clothes_secular_western_KG_armor_02
 			}
 			morph = {
 				mode = modify_multiply
@@ -839,7 +903,7 @@
 				mode = add
 				gene = clothes
 				template = kingsguard_armor_clothes
-				range = { 0.32 0.32 } # For the randomness to work correctly
+				accessory = male_clothes_secular_western_KG_armorTarg_02
 			}
 			morph = {
 				mode = modify_multiply
@@ -884,7 +948,7 @@
 				mode = add
 				gene = clothes
 				template = kingsguard_armor_clothes
-				range = { 0.42 0.42 } # For the randomness to work correctly
+				accessory = male_clothes_secular_western_KG_armor_03
 			}
 			morph = {
 				mode = modify_multiply
@@ -929,7 +993,7 @@
 				mode = add
 				gene = clothes
 				template = kingsguard_armor_clothes
-				range = { 0.53 0.53 } # For the randomness to work correctly
+				accessory = male_clothes_secular_western_KG_armorTarg_03
 			}
 			morph = {
 				mode = modify_multiply
@@ -974,7 +1038,7 @@
 				mode = add
 				gene = clothes
 				template = kingsguard_armor_clothes
-				range = { 0.6 0.6 } # For the randomness to work correctly
+				accessory = male_clothes_secular_western_KG_armor_04
 			}
 			morph = {
 				mode = modify_multiply
@@ -1019,7 +1083,7 @@
 				mode = add
 				gene = clothes
 				template = kingsguard_armor_clothes
-				range = { 0.71 0.71 } # For the randomness to work correctly
+				accessory = male_clothes_secular_western_KG_armorTarg_04
 			}
 			morph = {
 				mode = modify_multiply
@@ -1064,7 +1128,7 @@
 				mode = add
 				gene = clothes
 				template = kingsguard_armor_clothes
-				range = { 0.82 0.82 } # For the randomness to work correctly
+				accessory = male_clothes_secular_western_KG_armor_05
 			}
 			morph = {
 				mode = modify_multiply
@@ -1109,7 +1173,7 @@
 				mode = add
 				gene = clothes
 				template = kingsguard_armor_clothes
-				range = { 1.0 1.0 } # For the randomness to work correctly
+				accessory = male_clothes_secular_western_KG_armorTarg_05
 			}
 			morph = {
 				mode = modify_multiply
@@ -1134,6 +1198,96 @@
 							AND = {
 								has_variable = kingsguard_choice 
 								var:kingsguard_choice = 4
+							}
+						}
+					}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+    ##Blackfyre
+    kingsguard_armor_06 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = kingsguard_armor_clothes
+				accessory = male_clothes_secular_western_KG_armor_06
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 0.3 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = body_shape_average_clothed
+			}
+
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 1001
+				is_aotk_loaded_trigger = yes
+				has_trait = kingsguard
+				has_game_rule = show_armor_enabled
+				exists = title:e_the_iron_throne.holder
+				title:e_the_iron_throne.holder = {
+					portrait_valyrian_clothing_targ_trigger = no
+					primary_title = { 
+						has_variable = kingsguard 
+						AND = {
+							has_variable = kingsguard_choice 
+							var:kingsguard_choice = 5
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					#is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+	
+	kingsguard_armor_06_targ = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = kingsguard_armor_clothes
+				accessory = male_clothes_secular_western_KG_armorTarg_06
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 0.3 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = body_shape_average_clothed
+			}
+
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 1003
+				is_aotk_loaded_trigger = yes
+				has_game_rule = show_armor_enabled
+				has_trait = kingsguard
+				exists = title:e_the_iron_throne.holder
+				title:e_the_iron_throne.holder = {
+						portrait_valyrian_clothing_targ_trigger = yes
+						primary_title = { 
+							has_variable = kingsguard 
+							AND = {
+								has_variable = kingsguard_choice 
+								var:kingsguard_choice = 5
 							}
 						}
 					}

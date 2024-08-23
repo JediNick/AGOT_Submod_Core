@@ -975,6 +975,10 @@ cloaks = {
                 add = 1500
 				has_ep1_dlc_trigger = yes
 				has_court_position = goldcloaks_court_position
+				is_target_in_global_variable_list = {
+					name = agot_goldcloaks_founded
+					target = flag:goldcloaks_founded
+				}
 			}
         }
     }
@@ -1173,7 +1177,10 @@ cloaks = {
 							has_variable = kingsguard 
 							AND = {
 								has_variable = kingsguard_choice 
-								var:kingsguard_choice = 2
+								OR = {
+									var:kingsguard_choice = 2
+									var:kingsguard_choice = 5
+								}
 							}
 						}
 					}

@@ -2541,9 +2541,15 @@ special_genes = {
 					1 = male_headgear_secular_dorne_martell_war_03
 					1 = male_headgear_secular_dorne_copper_war_03
 					1 = male_headgear_secular_dorne_war_03
+					1 = male_headgear_secular_dorne_martell_war_04
+					1 = male_headgear_secular_dorne_war_04
 				}
 				female = {
-					0 = empty
+					1 = female_headgear_secular_dorne_martell_war_03
+					1 = female_headgear_secular_dorne_copper_war_03
+					1 = female_headgear_secular_dorne_war_03
+					1 = female_headgear_secular_dorne_martell_war_04
+					1 = female_headgear_secular_dorne_war_04
 				}
 				boy = male
 				girl = female
@@ -2874,6 +2880,8 @@ special_genes = {
 					1 = male_headgear_secular_dorne_martell_war_03
 					1 = male_headgear_secular_dorne_copper_war_03
 					1 = male_headgear_secular_dorne_war_03
+					1 = male_headgear_secular_dorne_martell_war_04
+					1 = male_headgear_secular_dorne_war_04
 					1 = male_headgear_secular_kingsguard_war_01
 					1 = male_headgear_secular_kingsguard_war_02
 					1 = male_headgear_secular_valyrian_war_04
@@ -2891,6 +2899,11 @@ special_genes = {
 					1 = female_headgear_secular_valyrian_war_03_high
 					1 = female_headgear_secular_valyrian_war_blackfyre_03_high
 					1 = female_headgear_secular_valyrian_war_dynastic_03_high
+					1 = female_headgear_secular_dorne_martell_war_03
+					1 = female_headgear_secular_dorne_copper_war_03
+					1 = female_headgear_secular_dorne_war_03
+					1 = female_headgear_secular_dorne_martell_war_04
+					1 = female_headgear_secular_dorne_war_04
 				}
 				boy = male
 				girl = female
@@ -2905,6 +2918,51 @@ special_genes = {
 				}
 				female = {
 					0 = empty
+				}
+				boy = male
+				girl = female
+			}
+			
+			#AGOT Added
+			Dorne_Helm_3_Dynamic = {
+				index = 168
+				male = {
+					1 = male_headgear_secular_dorne_war_03
+					1 = male_headgear_secular_dorne_war_04
+				}
+				female = {
+					1 = female_headgear_secular_dorne_war_03
+					1 = female_headgear_secular_dorne_war_04
+				}
+				boy = male
+				girl = female
+			}
+			
+				#AGOT Added
+			Dorne_Helm_3_Copper_Dynamic = {
+				index = 169
+				male = {
+					1 = male_headgear_secular_dorne_copper_war_03
+					1 = male_headgear_secular_dorne_copper_war_04
+				}
+				female = {
+					1 = female_headgear_secular_dorne_copper_war_03
+					1 = female_headgear_secular_dorne_copper_war_04
+				}
+				boy = male
+				girl = female
+			}
+
+			#AGOT Added
+			Dorne_Helm_3_Martell_Dynamic = {
+				index = 170
+				male = {
+					1 = male_headgear_secular_dorne_martell_war_03
+					1 = male_headgear_secular_dorne_martell_war_04
+				}
+				female = {
+					1 = female_headgear_secular_dorne_martell_war_03
+					1 = female_headgear_secular_dorne_martell_war_04
 				}
 				boy = male
 				girl = female
@@ -3147,7 +3205,7 @@ special_genes = {
 					1 = male_headgear_secular_western_KG_helmet_03
 					1 = male_headgear_secular_western_KG_helmet_04
 					1 = male_headgear_secular_western_KG_helmet_05
-
+					1 = male_headgear_secular_western_KG_helmet_06
 				}
 				female = {
 					1 = empty	

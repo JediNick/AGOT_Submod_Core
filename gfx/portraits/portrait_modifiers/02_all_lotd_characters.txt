@@ -1,0 +1,112 @@
+﻿historical_characters_accessories_2 = {
+	usage = game
+	selection_behavior = max
+	priority = 2
+
+    viserys_robes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = valyrian_nobility_clothing
+				accessory = male_clothes_secular_valyrian_robes_01_high
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 5000
+				this = character:Targaryen_60 # Viserys I
+				}
+			modifier = {
+				factor = 0
+				NOT =  { is_lotd_loaded_trigger = yes }
+			}
+		}
+	}
+
+	viserys_mask = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = valyrian_nobility_clothing
+				accessory = male_clothes_secular_valyrian_robes_01_high
+			}
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_viserys
+				template = face_mask
+				range = { 0 0 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 5000
+				exists = character:Targaryen_60
+				this = character:Targaryen_60 # Viserys I
+				character:Targaryen_60 = {
+					is_alive = no
+				}
+				}
+			modifier = {
+				factor = 0
+				NOT =  { is_lotd_loaded_trigger = yes }
+			}
+		}
+	}
+
+	daemon_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = valyrian_nobility_clothing
+				accessory = male_clothes_secular_valyrian_nobility_01_high
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 5000
+				AND = {
+					OR = {
+						this = character:Targaryen_61 # daemon I
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT =  { is_lotd_loaded_trigger = yes }
+			}
+		}
+	}
+
+	rhaenerya_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = valyrian_nobility_clothing
+                range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 5000
+				AND = {
+					OR = {
+						this = character:Targaryen_63
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT =  { is_lotd_loaded_trigger = yes }
+			}
+		}
+	}
+	
+}

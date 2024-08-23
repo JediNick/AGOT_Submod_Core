@@ -404,7 +404,7 @@
 				mode = add
 				gene = legwear
 				template = kingsguard_legwear_01
-				range = { 0 0 } # For the randomness to work correctly
+				accessory = male_legwear_KG_01
 			}
 		}	
 		weight = {
@@ -433,7 +433,7 @@
 				mode = add
 				gene = legwear
 				template = kingsguard_legwear_01
-				range = { 1 1 } # For the randomness to work correctly
+				accessory = male_legwear_KG_03
 			}
 		}	
 		weight = {
@@ -450,6 +450,45 @@
 							AND = {
 								has_variable = kingsguard_choice 
 								var:kingsguard_choice = 4
+							}
+						}
+					}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					#is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+		
+	kingsguard_blackfyre = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = kingsguard_legwear_01
+				accessory = male_legwear_KG_Blackfyre
+			}
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 1003
+				is_aotk_loaded_trigger = yes
+				has_game_rule = show_armor_enabled
+				has_trait = kingsguard
+				exists = title:e_the_iron_throne.holder
+				title:e_the_iron_throne.holder = {
+						primary_title = { 
+							has_variable = kingsguard 
+							AND = {
+								has_variable = kingsguard_choice 
+								var:kingsguard_choice = 5
 							}
 						}
 					}

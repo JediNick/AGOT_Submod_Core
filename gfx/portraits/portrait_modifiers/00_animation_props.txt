@@ -1587,6 +1587,29 @@
 		}
 	}
 
+	artifact_dragon_egg_blackDarkRed_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_dragon_egg_prop
+				accessory = dragon_egg_blackDarkRed_prop_01
+			}
+		}
+	}
+
+	artifact_dragon_egg_iceFire_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_dragon_egg_prop
+				accessory = dragon_egg_iceFire_prop_01
+			}
+		}
+	}
+
+
 	artifact_dragon_egg_vhagar_prop = {
 		dna_modifiers = {
 			accessory = {
@@ -1737,6 +1760,314 @@
 				gene = props_right
 				template = agot_dragon_egg_prop
 				accessory = dragon_egg_rainbow_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_gold_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_dragon_egg_prop
+				accessory = dragon_egg_gold_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_whitegold_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_dragon_egg_prop
+				accessory = dragon_egg_whitegold_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_purplegold_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_dragon_egg_prop
+				accessory = dragon_egg_purplegold_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_flame_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_flame_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_blackred_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_blackred_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_brownspots_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_brownspots_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_redblackgold_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_redblackgold_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_palered_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_palered_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_darkblue_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_darkblue_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_darkred_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_darkred_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_frost_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_frost_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_greengrey_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_greengrey_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_magma_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_magma_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_darkpurple_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_darkpurple_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_palepink_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_palepink_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_palebluepink_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_palebluepink_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_pinkspot_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_pinkspot_prop_01
+			}
+		}	
+	}
+	
+	artifact_dragon_egg_rainbowgold_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_rainbowgold_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_sunburst_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_sunburst_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_goldpink_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_goldpink_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_bluebronze_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_bluebronze_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_greenorange_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_greenorange_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_bronze_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_bronze_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_blackgreen_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_blackgreen_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_greygreenyellow_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_greygreenyellow_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_blackyellow_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_blackyellow_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_yellowgreen_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_yellowgreen_prop_01
+			}
+		}	
+	}
+
+	artifact_dragon_egg_silver_prop = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = props_right
+					template = agot_dragon_egg_prop
+					accessory = dragon_egg_silver_prop_01
 			}
 		}	
 	}
@@ -2589,6 +2920,30 @@
 			}
 		}
 	}
+	
+	AGOT_horse_gallop_spear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_cgallopl
+				range = {0 1}
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep1_artisan_spear_right_hand
+				range = {0 1}
+				
+			}
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep2_western_jousting_shield_01
+				value = 1.0
+			}
+		}	
+	}
 
 	##AGOT Submod Base entries
 	##If you want to add a prop, enter it below.
@@ -2735,6 +3090,265 @@
 		}	
 	}
 
+	##Dragon horns
+	artifact_dragon_horn_black_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_prop
+				accessory = dragon_horn_black_prop
+			}
+		}	
+	}
+
+	artifact_dragon_horn_red_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_prop
+				accessory = dragon_horn_red_prop
+			}
+		}	
+	}
+
+
+	artifact_dragon_horn_tan_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_prop
+				accessory = dragon_horn_tan_prop
+			}
+		}	
+	}
+
+
+	artifact_dragon_horn_blackGold_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_prop
+				accessory = dragon_horn_blackGold_prop
+			}
+		}	
+	}
+
+
+	artifact_dragon_horn_brown_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_prop
+				accessory = dragon_horn_brown_prop
+			}
+		}	
+	}
+
+
+	artifact_dragon_horn_silver_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_prop
+				accessory = dragon_horn_silver_prop
+			}
+		}	
+	}
+
+	##Dragon horns Glow
+	artifact_dragon_horn_black_glow_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_glow_prop
+				accessory = dragon_horn_black_glow_prop
+			}
+		}	
+	}
+
+	artifact_dragon_horn_red_glow_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_glow_prop
+				accessory = dragon_horn_red_glow_prop
+			}
+		}	
+	}
+
+
+	artifact_dragon_horn_tan_glow_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_glow_prop
+				accessory = dragon_horn_tan_glow_prop
+			}
+		}	
+	}
+
+
+	artifact_dragon_horn_blackGold_glow_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_glow_prop
+				accessory = dragon_horn_blackGold_glow_prop
+			}
+		}	
+	}
+
+
+	artifact_dragon_horn_brown_glow_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_glow_prop
+				accessory = dragon_horn_brown_glow_prop
+			}
+		}	
+	}
+
+
+	artifact_dragon_horn_silver_glow_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_glow_prop
+				accessory = dragon_horn_silver_glow_prop
+			}
+		}	
+	}
+
+	##Dragon horns Glow right handed
+	artifact_dragon_horn_black_glow_right_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_glow_prop
+				accessory = dragon_horn_black_glow_right_prop
+			}
+		}	
+	}
+
+	artifact_dragon_horn_red_glow_right_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_glow_prop
+				accessory = dragon_horn_red_glow_right_prop
+			}
+		}	
+	}
+
+
+	artifact_dragon_horn_tan_glow_right_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_glow_prop
+				accessory = dragon_horn_tan_glow_right_prop
+			}
+		}	
+	}
+
+
+	artifact_dragon_horn_blackGold_glow_right_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_glow_prop
+				accessory = dragon_horn_blackGold_glow_right_prop
+			}
+		}	
+	}
+
+
+	artifact_dragon_horn_brown_glow_right_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_glow_prop
+				accessory = dragon_horn_brown_glow_right_prop
+			}
+		}	
+	}
+
+
+	artifact_dragon_horn_silver_glow_right_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_horns_glow_prop
+				accessory = dragon_horn_silver_glow_right_prop
+			}
+		}	
+	}
+
+	artifact_dragon_whip_black_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_whip_prop
+				accessory = dragon_whip_black_prop
+			}
+		}	
+	}
+
+	artifact_dragon_whip_bronze_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_whip_prop
+				accessory = dragon_whip_bronze_prop
+			}
+		}	
+	}
+
+	artifact_dragon_whip_silver_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = dragon_whip_prop
+				accessory = dragon_whip_silver_prop
+			}
+		}	
+	}
+
+	
+	artifact_vs_goblet_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = vs_goblet_prop
+				value = 1.0
+			}
+		}	
+	}
+
+
 	##Lotd
 	artifact_blackfyre_prop = {
 		dna_modifiers = {
@@ -2878,5 +3492,33 @@
 				value = 0.85
 			}
 		}	
+	}
+
+	valyrian_paged_book_prop_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = valyrian_book_right
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ep1_tool_quill
+				value = 1.0
+			}
+		}
+	}
+
+	valyrian_paged_book_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_valyrian
+				template = valyrian_paged_book
+				value = 1.0
+			}
+		}
 	}
 }

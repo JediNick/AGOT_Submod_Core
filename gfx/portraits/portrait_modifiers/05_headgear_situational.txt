@@ -932,7 +932,7 @@
 				mode = add
 				gene = headgear
 				template = KG_war_common 
-				range = { 0 0 }
+				accessory = male_headgear_secular_western_KG_helmet_01
 			}
 		}
 	    weight = {
@@ -979,7 +979,7 @@
 
 				gene = headgear
 				template = KG_war_common 
-				range = { 0.3 0.3 }
+				accessory = male_headgear_secular_western_KG_helmet_02
 			}
 		}
 	    weight = {
@@ -1027,7 +1027,7 @@
 
 				gene = headgear
 				template = KG_war_common 
-				range = { 0.5 0.5 }
+				accessory = male_headgear_secular_western_KG_helmet_03
 			}
 		}
 	    weight = {
@@ -1071,7 +1071,7 @@
 
 				gene = headgear
 				template = KG_war_common 
-				range = { 0.7 0.7 }
+				accessory = male_headgear_secular_western_KG_helmet_04
 			}
 		}
 	    weight = {
@@ -1115,7 +1115,7 @@
 
 				gene = headgear
 				template = KG_war_common 
-				range = { 1 1 }
+				accessory = male_headgear_secular_western_KG_helmet_05
 			}
 		}
 	    weight = {
@@ -1147,7 +1147,50 @@
 		}
 	}
 
+	kingsguard_headgear_06 = {
+	    dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1
+			}
+			accessory = {
+				mode = add
 
+				gene = headgear
+				template = KG_war_common 
+				accessory = male_headgear_secular_western_KG_helmet_06
+			}
+		}
+	    weight = {
+			base = -100
+			modifier = {
+				add = 1006
+				is_aotk_loaded_trigger = yes
+				has_trait = kingsguard
+				#portrait_wear_armor_trigger = yes
+				has_game_rule = show_armor_enabled
+				exists = title:e_the_iron_throne.holder
+				title:e_the_iron_throne.holder = {
+					primary_title = { 
+						has_variable = kingsguard 
+						AND = {
+							has_variable = kingsguard_choice 
+							var:kingsguard_choice = 5
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					#is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
 
 	##Hardcode viserys mask
 	viserys_crown = {
@@ -1168,8 +1211,8 @@
 			modifier = {
 				add = 50000
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact } }
+				is_alive = no
 				AND = {
-					#primary_title = title:e_the_iron_throne
 					OR = {
 						this = character:Targaryen_35 # Jaehaerys I
 						this = character:Targaryen_60 # Viserys I
@@ -1216,9 +1259,10 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 50000
+				add = 500
 				AND = {
 					#primary_title = title:e_the_iron_throne
+					is_alive = no
 					OR = {
 						this = character:Targaryen_60 # Viserys I
 					}
