@@ -5618,7 +5618,7 @@ fp3_turkic_high_nobles = {
 
 			}
 			modifier = {
-				add = 250
+				add = 260
 				is_crowns_westeros_loaded_trigger = yes
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_castamere_artifact }}
 				agot_default_wear_crown_trigger = yes
@@ -6811,6 +6811,13 @@ fp3_turkic_high_nobles = {
 				is_crowns_westeros_loaded_trigger = yes
 				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = massey_crown_artifact }
 			}
+			modifier = {
+				add = 260
+				is_crowns_westeros_loaded_trigger = yes
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = massey_crown_artifact }}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Massey
+			}
 		}
 	}
 	
@@ -7394,7 +7401,7 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aegonblackfyre_artifact }}
 				agot_default_wear_crown_trigger = yes
-				dynasty ?= dynasty:dynn_Blackfyre
+				house = house:house_Blackfyre
 				exists = character:Targaryen_9
 				this = character:Targaryen_9 # Aegon Blackfyre
 			}
@@ -7777,6 +7784,11 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = garthgoldhand_crown_artifact }
+			}
 			modifier = {
 				add = 247
 				is_crowns_westeros_loaded_trigger = yes
@@ -8239,7 +8251,7 @@ fp3_turkic_high_nobles = {
 		}
 	}
 	
-### Crowns of Westeros - W Crowns ###
+### Crowns of Westeros - WW Crowns ###
 	
 	agot_headgear_crown_of_the_iron_throne_crown = {
 		dna_modifiers = {
@@ -8756,6 +8768,78 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 300
 				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = westerosi_valyrian_crown2_blackfyre_artifact }
+			}
+		}
+	}
+
+	agot_headgear_westerlands2_historic_ntc_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = westerlands2crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = westerlands2_crown_historic_artifact }
+			}
+		}
+	}
+
+	agot_headgear_stark_historic_ntc_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crownofwinter
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_winter_historic_artifact }
+			}
+		}
+	}
+
+	agot_headgear_falcon_historic_ntc_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = falcon_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = falcon_crown_historic_artifact }
+			}
+		}
+	}
+
+	agot_headgear_stormlands_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = stormlandscrown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = stormlands_crown_historic_artifact }
 			}
 		}
 	}
