@@ -1642,6 +1642,263 @@ special_genes = {
 				girl = female
 			}
 		}
+		
+		#AGOT Added
+		heterochromia_eye = {
+			heterochromia_eye_random = {
+				index = 0
+				male = {
+					10 = male_heterochromia_eye_green1
+					10 = male_heterochromia_eye_green2
+					10 = male_heterochromia_eye_blue1
+					10 = male_heterochromia_eye_blue2
+					7 = male_heterochromia_eye_grey
+					5 = male_heterochromia_eye_brown1
+					5 = male_heterochromia_eye_brown2
+					5 = male_heterochromia_eye_brown3
+					1 = male_heterochromia_eye_black1
+					1 = male_heterochromia_eye_black2
+				}
+				female = {
+					10 = female_heterochromia_eye_green1
+					10 = female_heterochromia_eye_green2
+					10 = female_heterochromia_eye_blue1
+					10 = female_heterochromia_eye_blue2
+					7 = female_heterochromia_eye_grey
+					5 = female_heterochromia_eye_brown1
+					5 = female_heterochromia_eye_brown2
+					5 = female_heterochromia_eye_brown3
+					1 = female_heterochromia_eye_black1
+					1 = female_heterochromia_eye_black2
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_green1 = {
+				index = 1
+				male = {
+					1 = male_heterochromia_eye_green1
+				}
+				female = {
+					1 = female_heterochromia_eye_green1
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_green2 = {
+				index = 2
+				male = {
+					1 = male_heterochromia_eye_green2
+				}
+				female = {
+					1 = female_heterochromia_eye_green2
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_blue1 = {
+				index = 3
+				male = {
+					1 = male_heterochromia_eye_blue1
+				}
+				female = {
+					1 = female_heterochromia_eye_blue1
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_blue2 = {
+				index = 4
+				male = {
+					1 = male_heterochromia_eye_blue2
+				}
+				female = {
+					1 = female_heterochromia_eye_blue2
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_grey = {
+				index = 5
+				male = {
+					1 = male_heterochromia_eye_grey
+				}
+				female = {
+					1 = female_heterochromia_eye_grey
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_brown1 = {
+				index = 6
+				male = {
+					1 = male_heterochromia_eye_brown1
+				}
+				female = {
+					1 = female_heterochromia_eye_brown1
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_brown2 = {
+				index = 7
+				male = {
+					1 = male_heterochromia_eye_brown2
+				}
+				female = {
+					1 = female_heterochromia_eye_brown2
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_brown3 = {
+				index = 8
+				male = {
+					1 = male_heterochromia_eye_brown3
+				}
+				female = {
+					1 = female_heterochromia_eye_brown3
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_purple1 = {
+				index = 9
+				male = {
+					1 = male_heterochromia_eye_purple1
+				}
+				female = {
+					1 = female_heterochromia_eye_purple1
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_purple2 = {
+				index = 10
+				male = {
+					1 = male_heterochromia_eye_purple2
+				}
+				female = {
+					1 = female_heterochromia_eye_purple2
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_black1 = {
+				index = 11
+				male = {
+					1 = male_heterochromia_eye_black1
+				}
+				female = {
+					1 = female_heterochromia_eye_black1
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_black2 = {
+				index = 12
+				male = {
+					1 = male_heterochromia_eye_black2
+				}
+				female = {
+					1 = female_heterochromia_eye_black2
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_red = {
+				index = 13
+				male = {
+					1 = male_heterochromia_eye_red
+				}
+				female = {
+					1 = female_heterochromia_eye_red
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_gold = {
+				index = 14
+				male = {
+					1 = male_heterochromia_eye_gold
+				}
+				female = {
+					1 = female_heterochromia_eye_gold
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_blind = {
+				index = 15
+				male = {
+					1 = male_heterochromia_eye_blind
+				}
+				female = {
+					1 = female_heterochromia_eye_blind
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_valyrian = {
+				index = 16
+				male = {
+					20 = male_heterochromia_eye_purple1
+					20 = male_heterochromia_eye_purple2
+					20 = male_heterochromia_eye_purple3
+					20 = male_heterochromia_eye_purple4
+					10 = male_heterochromia_eye_green1
+					10 = male_heterochromia_eye_green2
+					10 = male_heterochromia_eye_blue1
+					10 = male_heterochromia_eye_blue2
+					7 = male_heterochromia_eye_grey
+					5 = male_heterochromia_eye_brown1
+					5 = male_heterochromia_eye_brown2
+					5 = male_heterochromia_eye_brown3
+					1 = male_heterochromia_eye_black1
+					1 = male_heterochromia_eye_black2
+				}
+				female = {
+					20 = female_heterochromia_eye_purple1
+					20 = female_heterochromia_eye_purple2
+					20 = female_heterochromia_eye_purple3
+					20 = female_heterochromia_eye_purple4
+					10 = female_heterochromia_eye_green1
+					10 = female_heterochromia_eye_green2
+					10 = female_heterochromia_eye_blue1
+					10 = female_heterochromia_eye_blue2
+					7 = female_heterochromia_eye_grey
+					5 = female_heterochromia_eye_brown1
+					5 = female_heterochromia_eye_brown2
+					5 = female_heterochromia_eye_brown3
+					1 = female_heterochromia_eye_black1
+					1 = female_heterochromia_eye_black2
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_purple3 = {
+				index = 17
+				male = {
+					1 = male_heterochromia_eye_purple3
+				}
+				female = {
+					1 = female_heterochromia_eye_purple3
+				}
+				boy = male
+				girl = female
+			}
+			heterochromia_eye_purple4 = {
+				index = 18
+				male = {
+					1 = male_heterochromia_eye_purple4
+				}
+				female = {
+					1 = female_heterochromia_eye_purple4
+				}
+				boy = male
+				girl = female
+			}
+		}
 
 		#AGOT Added
 		heterochromia_eye = {

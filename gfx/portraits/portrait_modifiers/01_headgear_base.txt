@@ -6756,6 +6756,82 @@ fp3_turkic_high_nobles = {
 			}
 		}
 	}
+	
+	agot_headgear_wolfswood_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = wolfswood_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = wolfswood_crown_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_bracken_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = bracken_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = bracken_crown_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_massey_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = massey_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = massey_crown_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_duskendale_crown_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = duskendale_crown_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = duskendale_crown_01_artifact }
+			}
+		}
+	}
 
 	agot_headgear_aegonvi_crown = {
 		dna_modifiers = {
