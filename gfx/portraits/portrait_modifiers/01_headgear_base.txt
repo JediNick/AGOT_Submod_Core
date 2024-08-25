@@ -7153,6 +7153,34 @@ fp3_turkic_high_nobles = {
 		}
 	}
 	
+	agot_headgear_jacaerysvelaryon_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = jacaerysvelaryon_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jacaerysvelaryon_artifact }
+			}
+			modifier = {
+				add = 250
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jacaerysvelaryon_artifact }}
+				agot_default_wear_crown_trigger = yes
+				exists = character:Targaryen_75 # Jacaerys Velaryon
+				this = character:Targaryen_75 # Jacaerys Velaryon
+			}
+		}
+	}
+	
 	agot_headgear_seawyrm_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -7293,7 +7321,7 @@ fp3_turkic_high_nobles = {
 		}
 	}
 	
-		agot_headgear_shieraseastar_crown_crown = {
+	agot_headgear_shieraseastar_crown_crown = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -7323,13 +7351,13 @@ fp3_turkic_high_nobles = {
 	}
 	
 	
-	agot_headgear_aereatargaryen_crown = {
+	agot_headgear_aereatargaryen_crown_01 = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
 				template = crowns_of_westeros
-				accessory = male_aereatargaryen_crown
+				accessory = aereatargaryen_crown_01
 			}
 		}
 		weight = {
@@ -7337,16 +7365,72 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aereatargaryen_artifact }
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aereatargaryen_crown_01_artifact }
 			}
 			modifier = {
 				add = 250
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aereatargaryen_artifact }}
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aereatargaryen_crown_01_artifact }}
 				agot_default_wear_crown_trigger = yes
 				exists = character:Targaryen_41
 				this = character:Targaryen_41 # Aerea Targaryen
+			}
+		}
+	}
+	
+	agot_headgear_aereatargaryen_crown_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aereatargaryen_crown_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aereatargaryen_crown_02_artifact }
+			}
+			modifier = {
+				add = 250
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aereatargaryen_crown_02_artifact }}
+				agot_default_wear_crown_trigger = yes
+				exists = character:Targaryen_42
+				this = character:Targaryen_42 # Rhaella Targaryen
+			}
+		}
+	}
+	
+	agot_headgear_vaellatargaryen_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = vaellatargaryen_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = vaellatargaryen_crown_artifact }
+			}
+			modifier = {
+				add = 250
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = vaellatargaryen_crown_artifact }}
+				agot_default_wear_crown_trigger = yes
+				exists = character:Targaryen_124
+				this = character:Targaryen_124 # Vaella Targaryen
 			}
 		}
 	}
@@ -7357,7 +7441,7 @@ fp3_turkic_high_nobles = {
 				mode = add
 				gene = headgear
 				template = crowns_of_westeros
-				accessory = male_rhaenysvelaryon_crown
+				accessory = rhaenysvelaryon_crown
 			}
 		}
 		weight = {
@@ -7726,6 +7810,11 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = garlandgardener_crown_artifact }
+			}
 			modifier = {
 				add = 247
 				is_crowns_westeros_loaded_trigger = yes
