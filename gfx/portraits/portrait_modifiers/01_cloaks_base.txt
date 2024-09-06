@@ -1071,6 +1071,142 @@ cloaks = {
 		}
 	}
 
+	agot_cloak_northman_torrhen_stark = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = agot_historic_capes
+				accessory = male_cloaks_secular_north_high_winter_torrhen_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 230
+				has_fp1_dlc_trigger = yes
+				OR = {
+					portrait_high_nobles_clothing_trigger = {
+						CULTURE_INPUT = the_north
+					}
+					portrait_high_nobles_armor_trigger = {
+						CULTURE_INPUT = the_north
+					}
+				}
+				NOT = {
+					portrait_wear_ned_stark_armor_trigger = yes
+				}
+				is_character_stark_66 = yes
+			}
+		}
+	}
+
+	agot_cloak_northman_ned_stark = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = agot_historic_capes
+				accessory = male_cloaks_secular_north_high_winter_stark_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 230
+				has_fp1_dlc_trigger = no
+				OR = {
+					portrait_high_nobles_clothing_trigger = {
+						CULTURE_INPUT = the_north
+					}
+					portrait_high_nobles_armor_trigger = {
+						CULTURE_INPUT = the_north
+					}
+				}
+				NOT = {
+					portrait_wear_ned_stark_armor_trigger = yes
+				}
+				is_character_stark_3 = yes
+			}
+		}
+	}
+
+	agot_cloak_northman_ned_stark_dlc = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = agot_historic_capes
+				accessory = male_cloaks_secular_fp1_agot_northern_ned_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 230
+				has_fp1_dlc_trigger = yes
+				OR = {
+					portrait_high_nobles_clothing_trigger = {
+						CULTURE_INPUT = the_north
+					}
+					portrait_high_nobles_armor_trigger = {
+						CULTURE_INPUT = the_north
+					}
+				}
+				NOT = {
+					portrait_wear_ned_stark_armor_trigger = yes
+				}
+				is_character_stark_3 = yes
+			}
+		}
+	}
+
+	agot_cloak_riverman = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = male_cloaks_secular_shouldercape_coa_01
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 240
+				is_male = yes
+				portrait_high_nobles_armor_trigger = {
+					CULTURE_INPUT = riverlander
+				}
+			}
+		}
+	}
+
+	agot_cloak_valeman = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = agot_coa_cloaks_ep1
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 240
+				has_ep1_dlc_trigger = yes
+				is_male = yes
+				portrait_high_nobles_armor_trigger = {
+					CULTURE_INPUT = valeman
+				}
+				NOT = {
+					dynasty ?= dynasty:dynn_Royce
+				}
+			}
+		}
+	}
+	
 	agot_cloak_northman_ned_stark = {
 		dna_modifiers = {
 			accessory = {

@@ -511,6 +511,7 @@ scarred = {
 	scarred = {
 		trigger = {
 			scarred_trait_activation_1 = yes
+			is_character_baelish_2 = no #AGoT Added
 		}
 		traits = {
 			scarred

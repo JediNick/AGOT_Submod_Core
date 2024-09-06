@@ -1778,6 +1778,60 @@ fp3_iranian_high_nobles = {
         }
     }
 
+    #AGOT Added
+    agot_high_winter_tunic = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = north_high_winter_high_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = dragon_rider_legwear
+                accessory = male_legwear_special_dragon_rider_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+            }
+        }
+    }
+
+    #AGOT Added
+    agot_high_winter_low_tunic = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = north_high_winter_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = dragon_rider_legwear
+                accessory = male_legwear_special_dragon_rider_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+            }
+        }
+    }
+
     agot_byzantine_high_nobles_male_pants = {
         dna_modifiers = {
             accessory = {

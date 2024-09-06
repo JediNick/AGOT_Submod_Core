@@ -374,10 +374,12 @@ accessory_genes = {
 			male = {
 				1 = male_legwear_dragon_prince02
 				1 = male_legwear_stormlander_boots_01
+				1 = male_legwear_special_dragon_rider_01
 			}
 			female = {
 				1 = female_legwear_dragon_prince01
 				1 = female_legwear_dragon_prince02
+				1 = female_legwear_special_dragon_rider_01
 			}
 			boy = male
 			girl = female
@@ -917,6 +919,9 @@ accessory_genes = {
 				1 = unlikely_cape_02
 				1 = male_cloaks_secular_stormcloak_02
 				1 = male_cloaks_secular_stormcloak_03
+				1 = male_cloaks_secular_north_high_winter_torrhen_01
+				1 = male_cloaks_secular_north_high_winter_stark_01
+				1 = male_cloaks_secular_fp1_agot_northern_ned_01
 			}
 			female = {
 				1 = empty
@@ -941,11 +946,13 @@ accessory_genes = {
 			index = 21
 			male = {
 				3 = male_cloaks_secular_fp1_nobility_01
+				2 = male_cloaks_secular_north_high_winter_01
 				1 = male_furs_secular_fp1_nobility_03
 				2 = empty
 			}
 			female = {
 				3 = female_cloaks_secular_fp1_nobility_01
+				2 = female_cloaks_secular_north_high_winter_01
 				1 = female_furs_secular_fp1_nobility_03
 				2 = empty
 			}
@@ -955,12 +962,14 @@ accessory_genes = {
 			index = 22
 			male = {
 				4 = male_cloaks_secular_fp1_nobility_01_agot
+				2 = male_cloaks_secular_north_high_winter_01
 				2 = male_cloaks_secular_fp1_agot_northern_01
 				1 = male_furs_secular_fp1_nobility_03
 				3 = empty
 			}
 			female = {
 				4 = female_cloaks_secular_fp1_nobility_01_agot
+				2 = female_cloaks_secular_north_high_winter_01
 				2 = female_cloaks_secular_fp1_agot_northern_01
 				1 = female_furs_secular_fp1_nobility_03
 				3 = empty
@@ -971,11 +980,13 @@ accessory_genes = {
 			index = 23
 			male = {
 				2 = male_cloaks_secular_fp1_agot_northern_01
+				2 = male_cloaks_secular_north_high_winter_01
 				1 = male_cloaks_secular_fp1_nobility_01_agot
 				1 = empty
 			}
 			female = {
 				2 = female_cloaks_secular_fp1_agot_northern_01
+				2 = female_cloaks_secular_north_high_winter_01
 				1 = female_cloaks_secular_fp1_nobility_01_agot
 				1 = empty
 			}
@@ -1079,11 +1090,14 @@ accessory_genes = {
 			index = 32
 			male = {
 				3 = male_cloaks_secular_fp1_nobility_01
+				2 = male_cloaks_secular_north_high_winter_01
 				1 = male_furs_secular_fp1_nobility_03
+				3 = female_cloaks_secular_north_high_winter_01
 				2 = empty
 			}
 			female = {
 				1 = female_furs_secular_fp1_nobility_03
+				2 = female_cloaks_secular_north_high_winter_01
 				2 = empty
 			}
 		}
@@ -1092,12 +1106,14 @@ accessory_genes = {
 			index = 33
 			male = {
 				4 = male_cloaks_secular_fp1_nobility_01_agot
+				2 = male_cloaks_secular_north_high_winter_01
 				2 = male_cloaks_secular_fp1_agot_northern_01
 				1 = male_furs_secular_fp1_nobility_03
 				3 = empty
 			}
 			female = {
 				4 = female_cloaks_secular_fp1_nobility_01_agot
+				2 = female_cloaks_secular_north_high_winter_01
 				2 = female_cloaks_secular_fp1_agot_northern_01
 				3 = empty
 			}
@@ -1107,11 +1123,13 @@ accessory_genes = {
 			index = 34
 			male = {
 				2 = male_cloaks_secular_fp1_agot_northern_01
+				2 = male_cloaks_secular_north_high_winter_01
 				1 = male_cloaks_secular_fp1_nobility_01_agot
 				1 = empty
 			}
 			female = {
 				2 = female_cloaks_secular_fp1_agot_northern_01
+				2 = female_cloaks_secular_north_high_winter_01
 				1 = empty
 			}
 		}
@@ -1130,8 +1148,22 @@ accessory_genes = {
 			girl = female
 		}
 		
-		agot_hidden_cloaks = {
+		north_high_winter_cloaks = {
 			index = 36
+			male = {
+				1 = male_cloaks_secular_north_high_winter_01
+				1 = male_cloaks_secular_north_high_winter_dynastic_01
+			}
+			female = {
+				1 = female_cloaks_secular_north_high_winter_01
+				1 = female_cloaks_secular_north_high_winter_dynastic_01
+			}
+			boy = male
+			girl = female
+		}
+		
+		agot_hidden_cloaks = {
+			index = 37
 			male = {
 				1 = male_cloaks_secular_stormcloak_01
 				1 = male_cloaks_secular_stormcloak_coa_01
@@ -1144,9 +1176,47 @@ accessory_genes = {
 			girl = female
 		}
 		
+		agot_all_ep1_cloaks = {
+			index = 38
+			male = {
+				1 = nw_male_clothes_furs_nw_01
+				1 = kingsguard_cloak_01
+				1 = male_cloaks_secular_armorcape_01
+				1 = male_goldcloak_01
+				1 = male_cloaks_secular_shouldercape_01
+				1 = male_cloaks_secular_halfcape_01
+				1 = male_cloaks_secular_ep1_adventurer_01_agot
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+			girl = female
+		}
+
+		agot_all_no_dlc_cloaks = {
+			index = 39
+			male = {
+				1 = unlikely_cape_01
+				1 = male_cloaks_secular_stormcloak_01
+				1 = male_cloaks_secular_stormcloak_coa_01
+				1 = male_cloaks_secular_north_high_winter_01
+				1 = male_cloaks_secular_north_high_winter_dynastic_01
+				1 = male_cloaks_secular_western_royalty_01_agot
+				1 = male_cloaks_secular_shouldercape_coa_01
+			}
+			female = {
+				1 = female_cloaks_secular_north_high_winter_01
+				1 = female_cloaks_secular_north_high_winter_dynastic_01
+				1 = female_cloaks_secular_western_royalty_01_agot
+			}
+			boy = male
+			girl = female
+		}
+		
 		#AGOT Added
 		kingsguard_cloak_aotk = {
-			index = 37
+			index = 40
 			male = {
 				1 = kingsguard_cloak_02
 				1 = kingsguard_cloak_03
