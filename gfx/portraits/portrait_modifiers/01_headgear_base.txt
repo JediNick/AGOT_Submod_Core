@@ -921,7 +921,7 @@ headgear_base = {
 		}
 	}
 
-	ep1_western_royalty_era1 = {
+	ep1_western_era1_royalty = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -1334,6 +1334,46 @@ headgear_base = {
                     CULTURE_INPUT = byzantine
                 }
 			}
+            modifier = {
+                factor = 0     
+                has_ep3_dlc_trigger = yes   
+            }
+		}
+	}
+
+	ep3_byzantine_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep3_byzantine_era1_commoner
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+                portrait_commoner_headgear_fallback_trigger = {
+                    CULTURE_INPUT = byzantine
+                }
+				has_ep3_dlc_trigger = yes 
+				OR = {
+					portrait_era1_trigger = yes 
+					portrait_era2_trigger = yes 
+				}
+			}
+			modifier = {
+				add = 20
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = byzantine
+                }
+				has_ep3_dlc_trigger = yes 
+				OR = {
+					portrait_era1_trigger = yes 
+					portrait_era2_trigger = yes 
+				}
+			}
 		}
 	}
 
@@ -1355,6 +1395,122 @@ headgear_base = {
                     CULTURE_INPUT = byzantine 
                 }
 			}
+            modifier = {
+                factor = 0     
+                has_ep3_dlc_trigger = yes 
+                portrait_era1_trigger = yes   
+            }
+		}
+	}
+
+	ep3_byzantine_era1_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep3_byzantine_era1_low_nobility 
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+		    modifier = {
+		        add = 50
+		        court_fashion_level_4_headgear_trigger = {
+		            CULTURE_INPUT = byzantine
+		        }
+		        has_ep3_dlc_trigger = yes 
+		        portrait_era1_trigger = yes 
+		    }
+			modifier = {
+				add = 50
+                portrait_low_nobles_clothing_trigger = {  
+                    CULTURE_INPUT = byzantine 
+                }
+                has_ep3_dlc_trigger = yes
+                portrait_era1_trigger = yes  
+			}
+		}
+	}
+
+	ep3_byzantine_era1_bare_headed_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear 
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+		    modifier = {
+		        add = 50
+		        has_ep3_dlc_trigger = yes 
+		        portrait_era1_trigger = yes 
+		        OR = {
+	                portrait_low_nobles_clothing_trigger = {  
+	                    CULTURE_INPUT = byzantine 
+	                }
+	                portrait_high_nobles_clothing_trigger = {  
+	                    CULTURE_INPUT = byzantine 
+	                }
+		        }
+		        NOR = {
+	                portrait_royalty_trigger = {  
+	                    CULTURE_INPUT = byzantine 
+	                }	
+	                portrait_imperial_trigger = {  
+	                    CULTURE_INPUT = byzantine 
+	                }	        
+		        }
+		    }
+		    modifier = {
+		        add = 80
+		        has_ep3_dlc_trigger = yes 
+		        portrait_era1_trigger = yes 
+                portrait_commoner_clothing_trigger = {  
+                    CULTURE_INPUT = byzantine 
+                }
+		    }
+		}
+	}
+
+	ep3_byzantine_era2_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep3_byzantine_era2_low_nobility 
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+		    modifier = {
+		        add = 50
+		        court_fashion_level_4_headgear_trigger = {
+		            CULTURE_INPUT = byzantine
+		        }
+		        has_ep3_dlc_trigger = yes 
+                OR = {
+                    portrait_era2_trigger = yes  
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  
+                }  
+		    }
+			modifier = {
+				add = 50
+                portrait_low_nobles_clothing_trigger = {  
+                    CULTURE_INPUT = byzantine 
+                }
+                has_ep3_dlc_trigger = yes
+                OR = {
+                    portrait_era2_trigger = yes  
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  
+                }  
+			}
 		}
 	}
 
@@ -1374,6 +1530,59 @@ headgear_base = {
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = byzantine
                 }   
+			}
+            modifier = {
+                factor = 0 
+                has_ep3_dlc_trigger = yes 
+                portrait_era1_trigger = yes   
+            }
+		}
+	}
+
+	ep3_byzantine_era1_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep3_byzantine_era1_high_nobility 
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = byzantine
+                }   
+		        has_ep3_dlc_trigger = yes 
+                portrait_era1_trigger = yes 
+			}
+		}
+	}
+
+	ep3_byzantine_era2_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep3_byzantine_era2_high_nobility 
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = byzantine
+                }   
+		        has_ep3_dlc_trigger = yes 
+                OR = {
+                    portrait_era2_trigger = yes  
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  
+                }  
 			}
 		}
 	}
@@ -1395,6 +1604,59 @@ headgear_base = {
                     CULTURE_INPUT = byzantine
                 }   
 			}
+            modifier = {
+                factor = 0     
+                has_ep3_dlc_trigger = yes 
+                portrait_era1_trigger = yes   
+            }
+		}
+	}
+
+	ep3_byzantine_era1_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep3_byzantine_era1_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 85
+                portrait_royalty_trigger = {  
+                    CULTURE_INPUT = byzantine 
+                }
+                has_ep3_dlc_trigger = yes
+                portrait_era1_trigger = yes  
+			}
+		}
+	}
+
+    ep3_byzantine_era2_royalty = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = ep3_byzantine_era2_royalty
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 85
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = byzantine
+                }                
+                has_ep3_dlc_trigger = yes   
+                OR = {
+                    portrait_era2_trigger = yes  
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  
+                }     
+            }
 		}
 	}
 
@@ -1415,41 +1677,101 @@ headgear_base = {
                     CULTURE_INPUT = byzantine 
                 }
 			}
+            modifier = {
+                factor = 0     
+                has_ep3_dlc_trigger = yes 
+            }
 		}
 	}
 
+	ep1_byzantine_imperial = { # Crown of Justinian
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_byzantine_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_imperial_trigger = {
+					CULTURE_INPUT = byzantine 
+				}
+			}
 	#AGOT Disabled
-	# ep1_byzantine_imperial = { # Crown of Justinian
-	# 	dna_modifiers = {
-	# 		accessory = {
-	# 			mode = add
-	# 			gene = headgear
-	# 			template = ep1_byzantine_imperial
-	# 			range = { 0 1 } # For the randomness to work correctly
-	# 		}
-	# 	}
-	# 	weight = {
-	# 		base = 0
-	# 		modifier = {
-	# 			add = 50
-	# 			portrait_imperial_trigger = {
-	# 				CULTURE_INPUT = byzantine 
-	# 			}
-	# 		}
 	# 		modifier = {
 	# 			factor = 0
 	# 			NOT = {
 	# 				has_title = title:e_byzantium
 	# 			}
 	# 		}
-	# 		modifier = {
-	# 			factor = 0
-	# 			NOT = {
-	# 				has_ep1_dlc_trigger = yes
-	# 			}
-	# 		}
-	# 	}
-	# }
+			modifier = {
+				factor = 0
+				NOT = {
+					has_ep1_dlc_trigger = yes
+				}
+			}
+            modifier = {
+                factor = 0     
+                has_ep3_dlc_trigger = yes 
+                OR = {
+                	portrait_era3_trigger = yes
+                	portrait_era4_trigger = yes 
+                }
+            }
+		}
+	}
+
+	ep3_byzantine_era1_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep3_byzantine_era1_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 85
+                portrait_imperial_trigger = {  
+                    CULTURE_INPUT = byzantine 
+                }
+                has_ep3_dlc_trigger = yes
+                portrait_era1_trigger = yes  
+			}
+		}
+	}
+
+    ep3_byzantine_era2_imperial = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = ep3_byzantine_era2_imperial
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 85
+                portrait_imperial_trigger = { 
+                    CULTURE_INPUT = byzantine
+                }                
+                has_ep3_dlc_trigger = yes   
+                OR = {
+                    portrait_era2_trigger = yes  
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  
+                }     
+            }
+        }
+    }
 
 ## INDIAN ##
 
@@ -3626,12 +3948,16 @@ fp3_turkic_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = northern_high_nobility
-				value = 1
+				template = agot_crowns
+				accessory = crown_of_first_men
 			}
 		}
 		weight = {
 			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_first_men_artifact }
+			}
 			modifier = {
 				add = 230
 				agot_default_wear_crown_trigger = yes
@@ -3943,7 +4269,17 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 275
 				agot_default_wear_crown_trigger = yes
-				is_character_baratheon_4 = yes
+				is_character_baratheon_4 = yes # Renly Baratheon
+				OR = {
+					AND = {
+						exists = character:Tyrell_13
+						has_relation_lover = character:Tyrell_13
+					}
+					AND = {
+						exists = primary_spouse
+						primary_spouse.dynasty ?= dynasty:dynn_Tyrell
+					}
+				}
 			}
 		}
 	}
@@ -3996,7 +4332,7 @@ fp3_turkic_high_nobles = {
 		}
 	}
 
-	agot_headgear_northman_crown = {
+	agot_headgear_stark_crown = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -4011,26 +4347,6 @@ fp3_turkic_high_nobles = {
 				add = 300
 				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_winter_artifact }
 			}
-			modifier = {
-				add = 240
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_winter_artifact } }
-				agot_default_wear_crown_trigger = yes
-				culture = culture:northman
-			}
-		}
-	}
-
-	agot_headgear_stark_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = crownofwinter
-			}
-		}
-		weight = {
-			base = 0
 			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_winter_artifact } }
@@ -4080,7 +4396,7 @@ fp3_turkic_high_nobles = {
 				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = riverlands_crown_artifact }
 			}
 			modifier = {
-				add = 240
+				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = riverlands_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
 				culture = culture:riverlander
@@ -4100,7 +4416,7 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 240
+				add = 250
 				agot_default_wear_crown_trigger = yes
 				portrait_ironborn_clothing_trigger = yes
 			}
@@ -4148,17 +4464,21 @@ fp3_turkic_high_nobles = {
 		}
 	}
 
-	agot_headgear_westerlands_crowns = {
+	agot_headgear_westerlander_crown = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = westerlands_crowns
-				range = { 0 1 }
+				template = agot_crowns
+				accessory = westerlander2_crown
 			}
 		}
 		weight = {
 			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = westerlander2_crown_artifact }
+			}
 			modifier = {
 				add = 250
 				agot_default_wear_crown_trigger = yes
@@ -4222,20 +4542,20 @@ fp3_turkic_high_nobles = {
 		}
 	}
 
-	agot_headgear_stormlands_crown = {
+	agot_headgear_stormlander_crown = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
 				template = agot_crowns
-				accessory = stormlandscrown
+				accessory = stormlander_crown
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
 				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = stormlands_crown_artifact }
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = stormlander_crown_artifact }
 			}
 			modifier = {
 				add = 250
@@ -4257,6 +4577,10 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = stormlands_crown_artifact }
+			}
+			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = stormlands_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -4268,26 +4592,30 @@ fp3_turkic_high_nobles = {
 		}
 	}
 
-	agot_headgear_falcon_crown = {
+	agot_headgear_valeman_crown = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
 				template = agot_crowns
-				accessory = falcon_crown
+				accessory = valeman_crown
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
 				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = falcon_crown_artifact }
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = valeman_crown_artifact }
 			}
 			modifier = {
-				add = 240
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = falcon_crown_artifact } }
+				add = 250
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = valeman_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
-				culture = culture:valeman
+				OR = {
+					culture = culture:moonman
+					culture = culture:valeman
+					culture = culture:fingerman
+				}
 			}
 		}
 	}
@@ -4304,6 +4632,10 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = falcon_crown_artifact }
+			}
+			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = falcon_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -4318,20 +4650,25 @@ fp3_turkic_high_nobles = {
 				mode = add
 				gene = headgear
 				template = agot_crowns
-				accessory = reach_crown
+				accessory = reachman_crown
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
 				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = reach_crown_artifact }
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = reachman_crown_artifact }
 			}
 			modifier = {
 				add = 250
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = reach_crown_artifact } }
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = reachman_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
-				culture = culture:reachman
+				OR = {
+					culture = culture:reachman
+					culture = culture:shieldman
+					culture = culture:vineman
+					culture = culture:honeywiner
+				}
 			}
 		}
 	}
@@ -4347,6 +4684,10 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = reach_crown_artifact }
+			}
 			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = reach_crown_artifact } }
@@ -4692,7 +5033,61 @@ fp3_turkic_high_nobles = {
 		}
 	}
 
-	dorne_crown = {
+	agot_headgear_swann_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = swann_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = swann_crown_artifact }
+			}
+			modifier = {
+				add = 260
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = swann_crown_artifact } }
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Swann
+			}
+		}
+	}
+
+	dornish_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = dornish_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = dornish_crown_artifact }
+			}
+			modifier = {
+				add = 250
+				exists = this
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = dornish_crown_artifact } }
+				agot_default_wear_crown_trigger = yes
+				culture = {
+					OR = {
+						this = culture:stone_dornish
+						has_cultural_pillar = heritage_rhoynish
+					}
+				}
+			}
+		}
+	}
+
+	martell_crown = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -4711,16 +5106,12 @@ fp3_turkic_high_nobles = {
 				add = 260
 				exists = this
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = dorne_crown_artifact } }
-				portrait_dornish_clothing_trigger = yes
-				OR = {
-					agot_default_wear_crown_trigger = yes
+				agot_default_wear_crown_trigger = yes
 					AND = {
 						dynasty ?= dynasty:dynn_Martell
 						primary_title.tier >= tier_kingdom
 					}
 				}
-				NOT = { has_government = nights_watch_government }
-			}
 		}
 	}
 
@@ -5761,6 +6152,32 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_deep_den_artifact }}
 				agot_default_wear_crown_trigger = yes
 				dynasty ?= dynasty:dynn_Lydden
+			}
+		}
+	}
+
+	agot_headgear_crown_of_the_banefort_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_the_banefort
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_banefort_artifact }
+			}
+			modifier = {
+				add = 260
+				is_crowns_westeros_loaded_trigger = yes
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_banefort_artifact }}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Banefort
 			}
 		}
 	}
@@ -8259,6 +8676,32 @@ fp3_turkic_high_nobles = {
 		}
 	}
 
+	agot_headgear_crown_of_the_golden_tree_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_goldengrove
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_golden_tree_artifact }
+			}
+			modifier = {
+				add = 260
+				is_crowns_westeros_loaded_trigger = yes
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_golden_tree_artifact }}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Erdtree
+			}
+		}
+	}
+
 	agot_headgear_circlet_of_stark_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -8341,6 +8784,32 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_yronwood_artifact }}
 				agot_default_wear_crown_trigger = yes
 				dynasty ?= dynasty:dynn_Yronwood
+			}
+		}
+	}
+
+	agot_headgear_crown_of_hellholt_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_hellholt
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 310
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_hellholt_artifact }
+			}
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_hellholt_artifact }}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Uller
 			}
 		}
 	}

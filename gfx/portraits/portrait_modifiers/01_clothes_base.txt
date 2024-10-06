@@ -54,6 +54,16 @@ clothes_effect = { # Gene modifers to apply for characters wearing or not wearin
             base = 10
         }
     }
+
+    unclothed_body_event = {
+        dna_modifiers = {          
+        }
+        outfit_tags = { no_clothes }        
+        require_outfit_tags = yes
+        weight = {
+            base = 1000
+        }
+    }
 }
 
 clothes = { # Special group for the ruler designer only. The game expects this to be named "clothes"
@@ -423,7 +433,7 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                 is_female = yes # Currently this sub group only contains one female outfit
             }
             modifier = {
-                add = 50
+                add = 20
                 portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = western
                 } 
@@ -608,7 +618,7 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
         weight = {
             base = 0
             modifier = {
-                add = 50
+                add = 20
                 court_fashion_level_5_trigger = {
                     CULTURE_INPUT = western
                 }
@@ -721,6 +731,58 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = byzantine
                 }
             }
+            modifier = {
+                factor = 0     
+                has_ep3_dlc_trigger = yes   
+            }
+        }
+    }
+
+    ep3_byzantine_era1_commoners = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = ep3_byzantine_era1_commoner_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 75
+                portrait_commoner_clothing_trigger = { 
+                    CULTURE_INPUT = byzantine
+                } 
+                has_ep3_dlc_trigger = yes   
+                portrait_era1_trigger = yes     
+            }
+        }
+    }
+
+    ep3_byzantine_era2_commoners = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = ep3_byzantine_era1_commoner_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 75
+                portrait_commoner_clothing_trigger = { 
+                    CULTURE_INPUT = byzantine
+                } 
+                has_ep3_dlc_trigger = yes   
+                OR = {
+                    portrait_era2_trigger = yes  
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  
+                }   
+            }
         }
     }
 
@@ -742,6 +804,78 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = byzantine
                 }  
             }
+            modifier = {
+                factor = 0     
+                has_ep3_dlc_trigger = yes   
+            }
+        }
+    }
+
+    ep3_byzantine_era1_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = ep3_byzantine_era1_low_nobility_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 75
+                court_fashion_level_4_trigger = {
+                    CULTURE_INPUT = byzantine
+                }
+                has_ep3_dlc_trigger = yes 
+                portrait_era1_trigger = yes 
+            }
+            modifier = {
+                add = 75
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = byzantine
+                } 
+                has_ep3_dlc_trigger = yes   
+                portrait_era1_trigger = yes     
+            }
+        }
+    }
+
+    ep3_byzantine_era2_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = ep3_byzantine_era2_low_nobility_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 75
+                court_fashion_level_4_trigger = {
+                    CULTURE_INPUT = byzantine
+                }
+                has_ep3_dlc_trigger = yes 
+                OR = {
+                    portrait_era2_trigger = yes  
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  
+                }  
+            }
+            modifier = {
+                add = 75
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = byzantine
+                } 
+                has_ep3_dlc_trigger = yes   
+                OR = {
+                    portrait_era2_trigger = yes  
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  
+                }    
+            }
         }
     }
 
@@ -762,6 +896,171 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                 portrait_high_nobles_clothing_trigger = { 
                     CULTURE_INPUT = byzantine
                 } 
+            }
+            modifier = {
+                factor = 0     
+                has_ep3_dlc_trigger = yes   
+            }
+        }
+    }
+
+    ep3_byzantine_era1_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = ep3_byzantine_era1_high_nobility_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 75
+                court_fashion_level_4_trigger = {
+                    CULTURE_INPUT = byzantine
+                }
+                has_ep3_dlc_trigger = yes 
+                portrait_era1_trigger = yes  
+            }
+            modifier = {
+                add = 75
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = byzantine
+                } 
+                has_ep3_dlc_trigger = yes   
+                portrait_era1_trigger = yes       
+            }
+        }
+    }
+
+    ep3_byzantine_era2_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = ep3_byzantine_era2_high_nobility_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 75
+                court_fashion_level_4_trigger = {
+                    CULTURE_INPUT = byzantine
+                }
+                has_ep3_dlc_trigger = yes 
+                OR = {
+                    portrait_era2_trigger = yes  
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  
+                } 
+            }
+            modifier = {
+                add = 75
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = byzantine
+                } 
+                has_ep3_dlc_trigger = yes   
+                OR = {
+                    portrait_era2_trigger = yes  
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  
+                }      
+            }
+        }
+    }
+
+    ep3_byzantine_era2_royalty = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = ep3_byzantine_era2_royalty_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = cloaks
+                template = ep3_byzantine_era2_roy_01_loros
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 105
+                portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = byzantine
+                }                 
+                has_ep3_dlc_trigger = yes   
+                OR = {
+                    portrait_era2_trigger = yes  
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  
+                }     
+            }
+        }
+    }
+
+    ep3_byzantine_era1_imperial = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = ep3_byzantine_era1_imperial_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 105
+                OR = {
+                    portrait_imperial_clothing_trigger = { 
+                        CULTURE_INPUT = byzantine
+                    } 
+                    portrait_royalty_clothing_trigger = { 
+                        CULTURE_INPUT = byzantine
+                    }                 
+                }
+                has_ep3_dlc_trigger = yes   
+                portrait_era1_trigger = yes       
+            }
+        }
+    }
+
+    ep3_byzantine_era2_imperial = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = ep3_byzantine_era2_imperial_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = cloaks
+                template = ep3_byzantine_era2_imp_01_loros
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 105
+                OR = {
+                    portrait_imperial_clothing_trigger = { 
+                        CULTURE_INPUT = byzantine
+                    }                
+                }
+                has_ep3_dlc_trigger = yes   
+                OR = {
+                    portrait_era2_trigger = yes  
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  
+                }     
             }
         }
     }

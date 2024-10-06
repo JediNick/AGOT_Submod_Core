@@ -2,6 +2,7 @@
 	dwarfism = {
 		traits = { dwarf }
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = modify
 				gene = gene_head_top_width
@@ -64,10 +65,12 @@
 			}
 		}
 	}
+	}
 
 	gigantism = {
 		traits = { giant }
 		dna_modifiers = {
+			human = {
 			#AGOT Disabled
 			# morph = {
 			# 	mode = modify
@@ -114,8 +117,11 @@
 		}
 	}
 }
+}
 
 beauty = {
+	#AGOT Modified
+	#beauty = {
 	beauty_complexion = {
 		traits = {
 			beauty_good_1
@@ -123,6 +129,14 @@ beauty = {
 			beauty_good_3
 		}
 		dna_modifiers = {
+			human = {
+				#AGOT Disabled
+				#morph = {
+				#	mode = replace
+				#	gene = complexion
+				#	template = complexion_beauty_1
+				#	value = 1.0
+				#}
 			#AGOT Added
 			morph = {
 				mode = add
@@ -130,13 +144,6 @@ beauty = {
 				value = 0.1
 				template = beauty_details
 			}
-			#AGOT Disabled
-			# morph = { #Disabled as this modifies all lip colors to be darker. We may want the diversity of lip tones while still having beauty.
-			# 	mode = modify
-			# 	gene = complexion
-			# 	value = 1.0
-			# }
-			#AGOT Added
 			accessory = {
 				mode = replace
 				gene = eyelashes_accessory
@@ -144,6 +151,7 @@ beauty = {
 				range = { 0 0.15 } # For the randomness to work correctly
 			}
 		}
+	}
 	}
 
 	ugly = {
@@ -153,6 +161,7 @@ beauty = {
 			beauty_bad_3
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = replace
 				gene = complexion
@@ -162,11 +171,13 @@ beauty = {
 		}
 	}
 }
+}
 
 albino = {
 	albino = {
 		traits = { albino }
 		dna_modifiers = {
+			human = {
 			color = {
 				gene = skin_color
 				mode = modify
@@ -209,6 +220,7 @@ albino = {
 		}
 	}
 }
+}
 
 illness = {
 	illness = {
@@ -217,6 +229,7 @@ illness = {
 			ill
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_illness
@@ -236,6 +249,7 @@ illness = {
 				value = 0.5
 			}
 		}
+	}
 	}
 	replace_non_distrubing_traits = {
 		base = illness
@@ -264,6 +278,7 @@ bubonic_plague = {
 			spring_sickness
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_bubonic_plague
@@ -292,6 +307,7 @@ bubonic_plague = {
 		}
 	}
 }
+}
 
 great_pox = {
 	mild = {
@@ -302,6 +318,7 @@ great_pox = {
 			early_great_pox
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_great_pox
@@ -316,6 +333,7 @@ great_pox = {
 			}
 		}
 	}
+	}
 	severe = {
 		trigger = {
 			should_show_disturbing_portrait_modifiers = yes
@@ -324,6 +342,7 @@ great_pox = {
 			great_pox
 		}
 		dna_modifiers = {
+			human = {
 			color = {
 				gene = skin_color
 				mode = modify
@@ -351,6 +370,7 @@ great_pox = {
 		}
 	}
 }
+}
 
 measles = {
 	mild = {
@@ -361,6 +381,7 @@ measles = {
 			measles
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_measles
@@ -375,6 +396,7 @@ measles = {
 			}
 		}
 	}
+	}
 
 }
 leprosy = {
@@ -386,6 +408,7 @@ leprosy = {
 			leper
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_leprosy
@@ -425,6 +448,7 @@ leprosy = {
 		}
 	}
 }
+}
 
 lovers_pox = {
 	lovers_pox = {
@@ -435,6 +459,7 @@ lovers_pox = {
 			lovers_pox
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_lovers_pox
@@ -457,6 +482,7 @@ lovers_pox = {
 		}
 	}
 }
+}
 
 scaly = {
 	scaly = {
@@ -467,6 +493,7 @@ scaly = {
 			scaly
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_scaly
@@ -506,17 +533,20 @@ scaly = {
 		}
 	}
 }
+}
 
 scarred = {
 	scarred = {
 		trigger = {
 			scarred_trait_activation_1 = yes
-			is_character_baelish_2 = no #AGoT Added
+			#AGOT Added
+			is_character_baelish_2 = no
 		}
 		traits = {
 			scarred
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_scars_battle
@@ -524,6 +554,7 @@ scarred = {
 				template = scars_battle
 			}
 		}
+	}
 	}
 	scarred_2 = {
 		trigger = {
@@ -533,6 +564,7 @@ scarred = {
 			scarred
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_scars_battle_2
@@ -540,6 +572,7 @@ scarred = {
 				template = scars_battle_2
 			}
 		}
+	}
 	}
 	scarred_3 = {
 		trigger = {
@@ -549,6 +582,7 @@ scarred = {
 			scarred
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_scars_battle_3
@@ -557,6 +591,7 @@ scarred = {
 			}
 		}
 	}
+}
 }
 
 # scarred_disease = {
@@ -584,6 +619,7 @@ smallpox = {
 			smallpox
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_smallpox
@@ -612,6 +648,7 @@ smallpox = {
 		}
 	}
 }
+}
 
 tuberculosis = {
 	tuberculosis = {
@@ -619,6 +656,7 @@ tuberculosis = {
 			consumption
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_tuberculosis
@@ -647,6 +685,7 @@ tuberculosis = {
 		}
 	}
 }
+}
 
 typhus = {
 	typhus = {
@@ -654,6 +693,7 @@ typhus = {
 			typhus
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = modify
 				gene = gene_bs_body_type
@@ -682,6 +722,7 @@ typhus = {
 		}
 	}
 }
+}
 
 wounded = {
 	wounded_1 = {
@@ -689,6 +730,7 @@ wounded = {
 			wounded_1
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_wounded
@@ -702,6 +744,7 @@ wounded = {
 				value = 0.5
 			}
 		}
+	}
 	}
 	wounded_distrubing_replace = {
 		base = wounded_1
@@ -718,6 +761,7 @@ wounded = {
 			wounded_2
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_wounded
@@ -732,6 +776,7 @@ wounded = {
 			}
 		}
 	}
+	}
 	wounded_3 = {
 		trigger = {
 			should_show_disturbing_portrait_modifiers = yes
@@ -740,6 +785,7 @@ wounded = {
 			wounded_3
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_wounded
@@ -761,6 +807,7 @@ wounded = {
 		}
 	}
 }
+}
 
 maimed = {
 	maimed_left_arm = {
@@ -768,6 +815,7 @@ maimed = {
 			maimed
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_maimed_left_arm
@@ -777,6 +825,7 @@ maimed = {
 		}
 	}
 }
+}
 
 one_legged = {
 	no_left_leg = {
@@ -784,6 +833,7 @@ one_legged = {
 			one_legged
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_one_legged
@@ -798,6 +848,7 @@ one_legged = {
 			}
 		}
 	}
+}
 }
 
 # hunchbacked = {
@@ -822,6 +873,7 @@ clubfooted = {
 			clubfooted
 		}
 		dna_modifiers = {
+			human = {
 			morph = {
 				mode = add
 				gene = gene_clubfooted
@@ -831,8 +883,37 @@ clubfooted = {
 		}
 	}
 }
+}
 
 blind = {
+	disfigured_ep3_golden_nose = {
+		traits = {
+			disfigured
+		}
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = root
+				}
+				root = {
+					AND = {
+						portrait_byzantine_clothing_trigger = yes
+						has_ep3_dlc_trigger = yes
+					}
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				accessory = {
+					mode = add				
+					gene = special_headgear_face_mask
+					template = ep3_golden_nose
+					value = 0.5
+				}		
+			}
+		}
+	}
 	disfigured = {
 		traits = {
 			disfigured
@@ -859,6 +940,7 @@ blind = {
 			}
 		}
 		dna_modifiers = {
+			human = {
 			accessory = {
 				mode = add				
 				gene = special_headgear_face_mask
@@ -1083,7 +1165,7 @@ blind = {
 			}
 		}
 	}
-	
+	}
 	disfigured_fp3 = {
 		traits = {
 			disfigured
@@ -1102,6 +1184,7 @@ blind = {
 			}
 		}
 		dna_modifiers = {
+			human = {
 			accessory = {
 				mode = add				
 				gene = headgear_fp3_iranian_face_mask
@@ -1571,7 +1654,9 @@ blind = {
 		}
 	}
 
-	disfigured_replace_distrubing = {
+
+	
+	disfigured_replace_disturbing = {
 		base = disfigured
 		traits = {
 			leper
@@ -1587,11 +1672,13 @@ blind = {
 			aged
 		}
 		dna_modifiers = {
-			accessory = {
-				mode = replace
-				gene = eye_accessory
-				template = blind_eyes
-				value = 0.5
+			human = {
+				accessory = {
+					mode = replace
+					gene = eye_accessory
+					template = blind_eyes
+					value = 0.5
+				}
 			}
 		}
 	}
@@ -1605,11 +1692,13 @@ blind = {
 			agot_blind = yes
 		}
 		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = special_headgear_blindfold
-				template = blindfold
-				value = 0.5
+			human = {
+				accessory = {
+					mode = add
+					gene = special_headgear_blindfold
+					template = blindfold
+					value = 0.5
+				}
 			}
 		}
 	}
@@ -1644,14 +1733,17 @@ blind = {
 			}
 		}
 		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = special_headgear_eye_patch
-				template = eye_patch
-				value = 0.5
+			human = {
+				accessory = {
+					mode = add
+					gene = special_headgear_eye_patch
+					template = eye_patch
+					value = 0.5
+				}
 			}
 		}
 	}
+
 	#AGOT Added
 	one_eyed_red = {
 		traits = {
@@ -1664,17 +1756,19 @@ blind = {
 			}
 		}
 		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = gene_scars_eye
-				value = 1.0
-				template = scars_eye
-			}
-			accessory = {
-				mode = add
-				gene = eye_accessory_gem
-				template = one_eyed_gem_red
-				value = 1.0
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_red
+					value = 1.0
+				}
 			}
 		}
 	}
@@ -1689,17 +1783,19 @@ blind = {
 			}
 		}
 		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = gene_scars_eye
-				value = 1.0
-				template = scars_eye
-			}
-			accessory = {
-				mode = add
-				gene = eye_accessory_gem
-				template = one_eyed_gem_blue
-				value = 1.0
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_blue
+					value = 1.0
+				}
 			}
 		}
 	}
@@ -1714,17 +1810,19 @@ blind = {
 			}
 		}
 		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = gene_scars_eye
-				value = 1.0
-				template = scars_eye
-			}
-			accessory = {
-				mode = add
-				gene = eye_accessory_gem
-				template = one_eyed_gem_green
-				value = 1.0
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_green
+					value = 1.0
+				}
 			}
 		}
 	}
@@ -1739,17 +1837,19 @@ blind = {
 			}
 		}
 		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = gene_scars_eye
-				value = 1.0
-				template = scars_eye
-			}
-			accessory = {
-				mode = add
-				gene = eye_accessory_gem
-				template = one_eyed_gem_white
-				value = 1.0
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_white
+					value = 1.0
+				}
 			}
 		}
 	}
@@ -1764,17 +1864,19 @@ blind = {
 			}
 		}
 		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = gene_scars_eye
-				value = 1.0
-				template = scars_eye
-			}
-			accessory = {
-				mode = add
-				gene = eye_accessory_gem
-				template = one_eyed_gem_black
-				value = 1.0
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_black
+					value = 1.0
+				}
 			}
 		}
 	}
@@ -1789,17 +1891,19 @@ blind = {
 			}
 		}
 		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = gene_scars_eye
-				value = 1.0
-				template = scars_eye
-			}
-			accessory = {
-				mode = add
-				gene = eye_accessory_gem
-				template = one_eyed_gem_purple
-				value = 1.0
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_purple
+					value = 1.0
+				}
 			}
 		}
 	}
@@ -1814,17 +1918,19 @@ blind = {
 			}
 		}
 		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = gene_scars_eye
-				value = 1.0
-				template = scars_eye
-			}
-			accessory = {
-				mode = add
-				gene = eye_accessory_gem
-				template = one_eyed_gem_orange
-				value = 1.0
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_orange
+					value = 1.0
+				}
 			}
 		}
 	}
@@ -1839,17 +1945,19 @@ blind = {
 			}
 		}
 		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = gene_scars_eye
-				value = 1.0
-				template = scars_eye
-			}
-			accessory = {
-				mode = add
-				gene = eye_accessory_gem
-				template = one_eyed_gem_saphire
-				value = 1.0
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_saphire
+					value = 1.0
+				}
 			}
 		}
 	}
@@ -1864,17 +1972,19 @@ blind = {
 			}
 		}
 		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = gene_scars_eye
-				value = 1.0
-				template = scars_eye
-			}
-			accessory = {
-				mode = add
-				gene = eye_accessory_gem
-				template = one_eyed_gem_yellow
-				value = 1.0
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_yellow
+					value = 1.0
+				}
 			}
 		}
 	}
@@ -1893,35 +2003,37 @@ spindly = {
 			spindly
 		}
 		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = gene_spindly
-				value = 1.0
-				template = spindly
-			}
-			morph = {
-				mode = modify
-				gene = gene_neck_width
-				value = -0.5
-				# template = spindly
-			}
-			morph = {
-				mode = modify
-				gene = gene_height
-				value = 0.1
-				# template = spindly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_body_type
-				value = 0.6
-				# template = spindly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_body_shape
-				value = 0.5
-				# template = spindly
+			human = {
+				morph = {
+					mode = add
+					gene = gene_spindly
+					value = 1.0
+					template = spindly
+				}
+				morph = {
+					mode = modify
+					gene = gene_neck_width
+					value = -0.5
+					# template = spindly
+				}
+				morph = {
+					mode = modify
+					gene = gene_height
+					value = 0.1
+					# template = spindly
+				}
+				morph = {
+					mode = modify_multiply
+					gene = gene_bs_body_type
+					value = 0.6
+					# template = spindly
+				}
+				morph = {
+					mode = modify_multiply
+					gene = gene_bs_body_shape
+					value = 0.5
+					# template = spindly
+				}
 			}
 		}
 	}
@@ -1939,23 +2051,25 @@ drunkard = {
 			}
 		}
 		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = gene_drunkard
-				range = { 0.75 1.0 }
-				template = drunkard
-			}
-			morph = {
-				mode = modify
-				gene = gene_eye_shut
-				value = 0.2
-				template = eye_shut_pos
-			}
-			accessory = {
-				mode = modify
-				gene = eye_accessory
-				template = bloodshot_eyes
-				value = 0.5
+			human = {
+				morph = {
+					mode = add
+					gene = gene_drunkard
+					range = { 0.75 1.0 }
+					template = drunkard
+				}
+				morph = {
+					mode = modify
+					gene = gene_eye_shut
+					value = 0.2
+					template = eye_shut_pos
+				}
+				accessory = {
+					mode = modify
+					gene = eye_accessory
+					template = bloodshot_eyes
+					value = 0.5
+				}
 			}
 		}
 	}

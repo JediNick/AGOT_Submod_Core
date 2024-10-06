@@ -1,7 +1,7 @@
 ﻿### Cultural weapons ###
 
 one_handed_axe = {
-
+#Submod Core Added
 	portrait_modifier = {
 		trigger = {
 			is_valyrian_steel_loaded_trigger = yes
@@ -33,10 +33,9 @@ one_handed_axe = {
             any_equipped_character_artifact = { artifact_type = axe }
         }
         animations_props = artifact_axe_equipped_prop
-        animations = AI_vengeful_decal
+		animations = council_marshal_decal
         animations = fat_additive
         animations = dwarf_additive
-        animations = female_prop_fix_additive
         animations = female_prop_fix_additive
     }
 
@@ -46,7 +45,7 @@ one_handed_axe = {
             culture = { has_clothing_gfx = northern_clothing_gfx }
         }			
         animations_props = artisan_axe_northern_pagan_prop
-        animations = AI_vengeful_decal
+		animations = council_marshal_decal
         animations = fat_additive
         animations = dwarf_additive
         animations = female_prop_fix_additive
@@ -58,7 +57,7 @@ one_handed_axe = {
             culture = { has_clothing_gfx = mongol_clothing_gfx }
         }			
         animations_props = artisan_axe_steppe_prop
-        animations = AI_vengeful_decal
+		animations = council_marshal_decal
         animations = fat_additive
         animations = dwarf_additive
         animations = female_prop_fix_additive
@@ -76,7 +75,7 @@ one_handed_axe = {
             }
         }			
         animations_props = artisan_axe_mena_prop
-        animations = AI_vengeful_decal
+		animations = council_marshal_decal
         animations = fat_additive
         animations = dwarf_additive
         animations = female_prop_fix_additive
@@ -85,10 +84,10 @@ one_handed_axe = {
     portrait_modifier = { # Mediterranean
         trigger = {
             NOT = { any_equipped_character_artifact = { artifact_type = axe } }
-            culture = { has_clothing_gfx = mongol_clothing_gfx }
+			culture = { has_clothing_gfx = byzantine_clothing_gfx }
         }			
         animations_props = artisan_axe_mediterranean_prop
-        animations = AI_vengeful_decal
+		animations = council_marshal_decal
         animations = fat_additive
         animations = dwarf_additive
         animations = female_prop_fix_additive
@@ -100,7 +99,7 @@ one_handed_axe = {
             culture = {	has_clothing_gfx = african_clothing_gfx }
         }			
         animations_props = artisan_axe_african_prop
-        animations = AI_vengeful_decal
+		animations = council_marshal_decal
         animations = fat_additive
         animations = dwarf_additive
         animations = female_prop_fix_additive
@@ -112,7 +111,7 @@ one_handed_axe = {
             culture = {	has_clothing_gfx = indian_clothing_gfx }
         }			
         animations_props = artisan_axe_indian_prop
-        animations = AI_vengeful_decal
+		animations = council_marshal_decal
         animations = fat_additive
         animations = dwarf_additive
         animations = female_prop_fix_additive
@@ -124,7 +123,7 @@ one_handed_axe = {
             axe_unique_gfx_trigger = no
         }			
         animations_props = artifact_axe_equipped_prop
-        animations = AI_vengeful_decal
+		animations = council_marshal_decal
         animations = fat_additive
         animations = dwarf_additive
         animations = female_prop_fix_additive
@@ -132,7 +131,7 @@ one_handed_axe = {
 }
 
 one_handed_mace = {
-
+#Submod Core Added
 	portrait_modifier = {
 		trigger = {
 			is_valyrian_steel_loaded_trigger = yes
@@ -625,8 +624,8 @@ one_handed_dagger = {
 }
 
 two_handed_spear = {
-
 	#AGOT Added
+	###Submod Core added
 	portrait_modifier = {
 		trigger = {
 			is_valyrian_steel_loaded_trigger = yes
@@ -756,10 +755,121 @@ two_handed_hammer = {
     }
 }
 
+lefthanded_one_handed_sword = {
+
+	portrait_modifier = { # Equipped
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+		}
+		animations_props = artifact_sword_equipped_prop_left
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Berber
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = afr_berber_clothing_gfx }
+		}
+		animations_props = marshal_afr_prop_left
+		animations = council_marshal_decal
+	}
+	
+	portrait_modifier = { # Norse
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = northern_clothing_gfx }
+		}
+		animations_props = marshal_fp1_prop_left
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Iberian Christian
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = iberian_christian_clothing_gfx }
+		}
+		animations_props = marshal_fp2_christian_prop_left
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Iberian Muslim
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = iberian_muslim_clothing_gfx }
+		}
+		animations_props = marshal_fp2_muslim_prop_left
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Steppe
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = mongol_clothing_gfx }
+		}
+		animations_props = artisan_sword_steppe_prop_left
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Mediterranean
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = byzantine_clothing_gfx }
+		}
+		animations_props = artisan_sword_byzantine_prop_left
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Indian
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = indian_clothing_gfx }
+		}
+		animations_props = artisan_sword_indian_prop_left
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # African / MENA
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = {
+				OR = {
+					has_clothing_gfx = african_clothing_gfx
+					has_clothing_gfx = mena_clothing_gfx
+				}
+			}
+		}
+		animations_props = artisan_sword_mena_prop_left
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Western
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			trigger_if = {
+				limit = { exists = involved_activity }
+				NOT = {
+					involved_activity = { has_activity_type = activity_hunt }
+				}
+			}
+			sword_unique_gfx_trigger = no
+		}
+		animations_props = marshal_prop_left
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+}
 ### Council ###
 
 council_spymaster = {
-
+##Submod Core added
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = dagger }
@@ -833,7 +943,7 @@ council_spymaster = {
 }
 
 council_marshal = {
-
+##Submod Core added
 	portrait_modifier = {
 		trigger = {
 			is_valyrian_steel_loaded_trigger = yes
@@ -845,7 +955,7 @@ council_marshal = {
 		animations_props = artifact_vs_mace_prop
 		animations = council_marshal_decal
 	}
-
+##Submod Core added
     portrait_modifier = {
 		trigger = {
 			is_valyrian_steel_loaded_trigger = yes
@@ -880,10 +990,7 @@ council_marshal = {
         animations = fat_additive
         animations = dwarf_additive
     }
-    #AGOT Ended
-
     
-    ##AGOT Added
      portrait_modifier = {
         trigger = {
             culture = {
@@ -893,6 +1000,7 @@ council_marshal = {
         animations_props = agot_wildling_sword_prop
         animations = council_marshal_decal
     }
+	#AGOT Ended
     
     portrait_modifier = {   # AFR
         trigger = { 
@@ -910,6 +1018,8 @@ council_marshal = {
             has_dlc_feature = north_african_attire
         }
         animations_props = marshal_afr_prop
+		animations = council_marshal_decal
+		animations = cloak_additive
     }
 	
     portrait_modifier = {   # FP1
@@ -920,8 +1030,11 @@ council_marshal = {
 			culture = { agot_is_wildling_culture = yes }
         }						
         animations_props = marshal_fp1_prop
+		animations = council_marshal_decal
+		animations = cloak_additive
     }
-	##AGOT Modified
+
+	#AGOT Disabled
     #portrait_modifier = {	# FP2 Christian
     #    trigger = {					
     #        AND = {
@@ -938,9 +1051,11 @@ council_marshal = {
     #        }
     #    }						
     #    animations_props = marshal_fp2_christian_prop
+	# 	animations = council_marshal_decal
+	# 	animations = cloak_additive
     # }
 
-	##AGOT Modified
+	#AGOT Disabled
     #portrait_modifier = {	# FP2 Muslim
     #    trigger = {					
     #        AND = {
@@ -957,92 +1072,113 @@ council_marshal = {
     #        }
     #    }						
     #    animations_props = marshal_fp2_muslim_prop
-    #}
+	# 	animations = council_marshal_decal
+	# 	animations = cloak_additive
+	# }
 
-    portrait_modifier = { # Equipped
-        trigger = {
-            any_equipped_character_artifact = { artifact_type = sword }
-        }
-        animations_props = artifact_sword_equipped_prop
-    }
-    
-    portrait_modifier = { # Hunting
-        trigger = {
-            NOT = { any_equipped_character_artifact = { artifact_type = sword } }
-            involved_activity ?= { has_activity_type = activity_hunt }
-            sword_unique_gfx_trigger = no
-        }
-        animations_props = ep2_hunting_sword_right_attachment
-    }
-
-    portrait_modifier = { # Berber
-        trigger = {
-            NOT = { any_equipped_character_artifact = { artifact_type = sword } }
-            culture = { has_clothing_gfx = afr_berber_clothing_gfx }
-        }
-        animations_props = marshal_afr_prop
-    }
+	portrait_modifier = { # Equipped
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+		}
+		animations_props = artifact_sword_equipped_prop
+		animations = council_marshal_decal
+		animations = cloak_additive
+	}
 	
-    portrait_modifier = { # Norse
-        trigger = {
-            NOT = { any_equipped_character_artifact = { artifact_type = sword } }
-            culture = { has_clothing_gfx = northern_clothing_gfx }
-        }
-        animations_props = marshal_fp1_prop
-    }
+	portrait_modifier = { # Hunting
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			involved_activity ?= { has_activity_type = activity_hunt }
+			sword_unique_gfx_trigger = no
+		}
+		animations_props = ep2_hunting_sword_right_attachment
+		animations = council_marshal_decal
+	}
 
-    portrait_modifier = { # Iberian Christian
-        trigger = {
-            NOT = { any_equipped_character_artifact = { artifact_type = sword } }
-            culture = { has_clothing_gfx = iberian_christian_clothing_gfx }
-        }
-        animations_props = marshal_fp2_christian_prop
-    }
+	portrait_modifier = { # Berber
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = afr_berber_clothing_gfx }
+		}
+		animations_props = marshal_afr_prop
+		animations = council_marshal_decal
+		animations = cloak_additive
+	}
+	
+	portrait_modifier = { # Norse
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = northern_clothing_gfx }
+		}
+		animations_props = marshal_fp1_prop
+		animations = council_marshal_decal
+		animations = cloak_additive
+	}
 
-    portrait_modifier = { # Iberian Muslim
-        trigger = {
-            NOT = { any_equipped_character_artifact = { artifact_type = sword } }
-            culture = { has_clothing_gfx = iberian_muslim_clothing_gfx }
-        }
-        animations_props = marshal_fp2_muslim_prop
-    }
+	portrait_modifier = { # Iberian Christian
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = iberian_christian_clothing_gfx }
+		}
+		animations_props = marshal_fp2_christian_prop
+		animations = council_marshal_decal
+		animations = cloak_additive
+	}
 
-    portrait_modifier = { # Steppe
-        trigger = {
-            NOT = { any_equipped_character_artifact = { artifact_type = sword } }
-            culture = { has_clothing_gfx = mongol_clothing_gfx }
-        }
-        animations_props = artisan_sword_steppe_prop
-    }
+	portrait_modifier = { # Iberian Muslim
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = iberian_muslim_clothing_gfx }
+		}
+		animations_props = marshal_fp2_muslim_prop
+		animations = council_marshal_decal
+		animations = cloak_additive
+	}
 
-    portrait_modifier = { # Mediterranean
-        trigger = {
-            NOT = { any_equipped_character_artifact = { artifact_type = sword } }
-            culture = { has_clothing_gfx = byzantine_clothing_gfx }
-        }
-        animations_props = artisan_sword_byzantine_prop
-    }
+	portrait_modifier = { # Steppe
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = mongol_clothing_gfx }
+		}
+		animations_props = artisan_sword_steppe_prop
+		animations = council_marshal_decal
+		animations = cloak_additive
+	}
 
-    portrait_modifier = { # Indian
-        trigger = {
-            NOT = { any_equipped_character_artifact = { artifact_type = sword } }
-            culture = { has_clothing_gfx = indian_clothing_gfx }
-        }
-        animations_props = artisan_sword_indian_prop
-    }
+	portrait_modifier = { # Mediterranean
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = byzantine_clothing_gfx }
+		}
+		animations_props = artisan_sword_byzantine_prop
+		animations = council_marshal_decal
+		animations = cloak_additive
+	}
 
-    portrait_modifier = { # African / MENA
-        trigger = {
-            NOT = { any_equipped_character_artifact = { artifact_type = sword } }
-            culture = {
-                OR = {
-                    has_clothing_gfx = african_clothing_gfx
-                    has_clothing_gfx = mena_clothing_gfx
-                }
-            }
-        }
-        animations_props = artisan_sword_mena_prop
-    }
+	portrait_modifier = { # Indian
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = indian_clothing_gfx }
+		}
+		animations_props = artisan_sword_indian_prop
+		animations = council_marshal_decal
+		animations = cloak_additive
+	}
+
+	portrait_modifier = { # African / MENA
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = {
+				OR = {
+					has_clothing_gfx = african_clothing_gfx
+					has_clothing_gfx = mena_clothing_gfx
+				}
+			}
+		}
+		animations_props = artisan_sword_mena_prop
+		animations = council_marshal_decal
+		animations = cloak_additive
+	}
 
     portrait_modifier = { # Western
         trigger = {
@@ -1056,9 +1192,12 @@ council_marshal = {
             sword_unique_gfx_trigger = no
         }
         animations_props = marshal_prop
+        animations = council_marshal_decal
+		animations = cloak_additive
     }
 }
 
+##Submod Core added
 council_marshal_hammer = {
 
 	portrait_modifier = {
@@ -1070,6 +1209,7 @@ council_marshal_hammer = {
 		}			
 		animations_props = artifact_orys_hammer_prop
 		animations = council_marshal_decal
+		animations = cloak_additive
 	}
 }
 
@@ -1090,10 +1230,12 @@ council_steward = {
             }
         }						
         animations_props = steward_fp2_prop
+		animations = council_steward_decal
     }
 
     portrait_modifier = {	# Equipped						
         animations_props = steward_prop
+		animations = council_steward_decal
     }
 }
 
@@ -1109,6 +1251,7 @@ council_chancellor = {
             }
         }						
         animations_props = chancellor_fp1_prop
+		animations = council_chancellor_decal
     }
 
     portrait_modifier = {	# FP2
@@ -1126,13 +1269,237 @@ council_chancellor = {
             }
         }						
         animations_props = chancellor_fp2_prop
+		animations = council_chancellor_decal
     }
 
     portrait_modifier = {	# Equipped						
         animations_props = chancellor_prop
+		animations = council_chancellor_decal
     }
 }
+council_marshal_shield = {
+	portrait_modifier = {   # AFR
+		trigger = {	
+			AND = {
+				has_dlc_feature = north_african_attire
+				OR = {
+					culture = culture:butr
+					culture = culture:baranis
+					culture = culture:zaghawa
+					culture = culture:maghrebi
+				}
+			}
+		}
+		animations_props = marshal_afr_prop
+		animations_props = ep1_mena_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	
+	portrait_modifier = {   # FP1
+		trigger = {
+			has_dlc_feature = the_northern_lords
+			#AGOT Modified
+			#culture = culture:norse 
+			culture = { agot_is_wildling_culture = yes }
+		}
+		animations_props = marshal_fp1_prop
+		animations_props = ep1_western_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
 
+	portrait_modifier = {	# FP2 Christian
+		trigger = {
+			AND = {
+				has_dlc_feature = the_fate_of_iberia
+				OR = {
+					culture = { has_unit_gfx = iberian_christian_unit_gfx }
+					#AGOT Disabled
+					# AND = {
+					# 	any_character_struggle = {
+					# 		is_struggle_type = iberian_struggle
+					# 	}
+					# 	religion = religion:christianity_religion
+					# }
+				}
+			}
+		}
+		animations_props = marshal_fp2_christian_prop
+		animations_props = ep2_western_jousting_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = {	# FP2 Muslim
+		trigger = {
+			AND = {
+				has_dlc_feature = the_fate_of_iberia
+				OR = {
+					culture = { has_unit_gfx = iberian_muslim_unit_gfx }
+					#AGOT Disabled
+					# AND = {
+					# 	any_character_struggle = {
+					# 		is_struggle_type = iberian_struggle
+					# 	}
+					# 	religion = religion:islam_religion
+					# }
+				}
+			}
+		}
+		animations_props = marshal_fp2_muslim_prop
+		animations_props = ep1_mena_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # Equipped
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+		}
+		animations_props = artifact_sword_equipped_prop
+		animations_props = ep1_western_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	
+	portrait_modifier = { # Hunting
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			involved_activity ?= { has_activity_type = activity_hunt }
+			sword_unique_gfx_trigger = no
+		}
+		animations_props = ep2_hunting_sword_right_attachment
+		animations_props = ep2_western_jousting_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # Berber
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = afr_berber_clothing_gfx }
+		}
+		animations_props = marshal_afr_prop
+		animations_props = ep1_mena_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	
+	portrait_modifier = { # Norse
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = northern_clothing_gfx }
+		}
+		animations_props = marshal_fp1_prop
+		animations_props = ep1_western_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # Iberian Christian
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = iberian_christian_clothing_gfx }
+		}
+		animations_props = marshal_fp2_christian_prop
+		animations_props = ep2_western_jousting_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # Iberian Muslim
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = iberian_muslim_clothing_gfx }
+		}
+		animations_props = marshal_fp2_muslim_prop
+		animations_props = ep1_mena_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # Steppe
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = mongol_clothing_gfx }
+		}
+		animations_props = artisan_sword_steppe_prop
+		animations_props = ep1_mena_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # Mediterranean
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = byzantine_clothing_gfx }
+		}
+		animations_props = artisan_sword_byzantine_prop
+		animations_props = ep1_mediterranean_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # Indian
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = { has_clothing_gfx = indian_clothing_gfx }
+		}
+		animations_props = artisan_sword_indian_prop
+		animations_props = ep1_indian_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # African / MENA
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			culture = {
+				OR = {
+					has_clothing_gfx = african_clothing_gfx
+					has_clothing_gfx = mena_clothing_gfx
+				}
+			}
+		}
+		animations_props = artisan_sword_mena_prop
+		animations_props = ep1_mena_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # Western
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
+			trigger_if = {
+				limit = { exists = involved_activity }
+				NOT = {
+					involved_activity = { has_activity_type = activity_hunt }
+				}
+			}
+			sword_unique_gfx_trigger = no
+		}
+		animations_props = marshal_prop
+		animations_props = ep1_western_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+}
 ### Throne room passive ###
 
 throneRoom_one_handed_passive_1 = {
@@ -1226,6 +1593,17 @@ throneRoom_one_handed_passive_1 = {
         animations = council_marshal_decal
     }
     #AGOT End
+
+	portrait_modifier = { # Equipped
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+		}
+		animations_props = artifact_sword_equipped_prop
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
 
     portrait_modifier = { # Norse
         trigger = {
@@ -1533,7 +1911,7 @@ throneRoom_one_handed_passive_2 = {
     portrait_modifier = { # Mediterranean
         trigger = {
             NOT = { any_equipped_character_artifact = { artifact_type = axe } }
-            culture = { has_clothing_gfx = mongol_clothing_gfx }
+			culture = { has_clothing_gfx = byzantine_clothing_gfx }
         }
         animations_props = artisan_axe_mediterranean_prop
         animations = council_marshal_decal
@@ -1571,7 +1949,7 @@ throneRoom_one_handed_passive_2 = {
             NOT = { any_equipped_character_artifact = { artifact_type = axe } }
             axe_unique_gfx_trigger = no
         }
-        animations_props = artisan_axe_prop
+		animations_props = artifact_axe_equipped_prop
         animations = council_marshal_decal
         animations = fat_additive
         animations = dwarf_additive
@@ -1676,7 +2054,113 @@ throneRoom_two_handed_passive_1 = {
     }
 }
 
-### ShortBow ###
+throneRoom_two_handed_passive_shield = {
+
+	portrait_modifier = { # Equipped
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = spear }
+		}
+		animations_props = artifact_spear_equipped_prop_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+		animations_props = ep1_western_shield_right
+	}
+
+	portrait_modifier = { # Mediterranean
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = spear } }
+			culture = { has_clothing_gfx = byzantine_clothing_gfx }
+		}
+		animations_props = artifact_spear_equipped_prop_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations_props = ep1_mediterranean_shield_right
+	}
+
+	portrait_modifier = { # Indian
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = spear } }
+			culture = { has_clothing_gfx = indian_clothing_gfx }
+		}
+		animations_props = artisan_indian_spear_prop_left_hand
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+		animations_props = ep1_indian_shield_right
+	}
+
+	portrait_modifier = { # MENA / Steppe
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = spear } }
+			culture = {
+				OR = {
+					has_clothing_gfx = mena_clothing_gfx
+					has_clothing_gfx = mongol_clothing_gfx
+					has_clothing_gfx = iberian_christian_clothing_gfx
+					has_clothing_gfx = iberian_muslim_clothing_gfx
+				}
+			}
+		}
+		animations_props = artisan_mena_spear_prop_left_hand
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+		animations_props = ep1_mena_shield_right
+	}
+
+	portrait_modifier = { # African
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = spear } }
+			culture = {	has_clothing_gfx = african_clothing_gfx }
+		}
+		animations_props = artisan_african_spear_prop_left_hand
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+		animations_props = ep1_mena_shield_right
+	}
+
+	portrait_modifier = { # Western
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = spear } }
+			trigger_if = {
+				limit = { exists = involved_activity }
+				NOT = {
+					involved_activity = { has_activity_type = activity_hunt }
+				}
+			}
+			spear_unique_gfx_trigger = no
+		}
+		animations_props = artisan_spear_prop_left_hand
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+		animations_props = ep1_western_shield_right
+	}
+
+	portrait_modifier = { # Hunting
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = spear } }
+			involved_activity ?= { has_activity_type = activity_hunt }
+			spear_unique_gfx_trigger = no
+		}
+		animations_props = ep2_boar_spear_left_attachment
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+		animations_props = ep1_western_shield_right
+	}
+}
+
+### Shortbow ###
 
 hunting_shortbow_rest_bluntarrow = {
 
@@ -1830,7 +2314,7 @@ hunting_shortbow_aim_bluntarrow = {
     }
 }
 
-### LongBow ###
+### Longbow ###
 
 hunting_longbow_rest_bluntarrow = {
 
@@ -1896,6 +2380,95 @@ hunting_longbow_aim_bluntarrow = {
     }
 }
 
+one_handed_mace_no_additives = {
+
+	portrait_modifier = { # Equipped
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = mace }
+		}
+		animations_props = artifact_mace_equipped_prop
+		animations = AI_vengeful_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Norse
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = mace } }
+			culture = { has_clothing_gfx = northern_clothing_gfx }
+		}
+		animations_props = ep2_northern_mace_prop
+		animations = AI_vengeful_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Steppe
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = mace } }
+			culture = { has_clothing_gfx = mongol_clothing_gfx }
+		}
+		animations_props = artisan_mace_steppe_prop
+		animations = AI_vengeful_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # MENA
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = mace } }
+			culture = {
+				OR = {
+					has_clothing_gfx = mena_clothing_gfx
+					has_clothing_gfx = iberian_christian_clothing_gfx
+					has_clothing_gfx = iberian_muslim_clothing_gfx
+				}
+			}
+		}
+		animations_props = artisan_mace_mena_prop
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Mediterranean
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = mace } }
+			culture = { has_clothing_gfx = byzantine_clothing_gfx }
+		}
+		animations_props = artisan_mace_byzantine_prop
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # African
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = mace } }
+			culture = { has_clothing_gfx = african_clothing_gfx }
+		}
+		animations_props = artisan_mace_african_prop
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Indian
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = mace } }
+			culture = { has_clothing_gfx = indian_clothing_gfx }
+		}
+		animations_props = artisan_mace_indian_prop
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Western
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = mace } }
+			mace_unique_gfx_trigger = no
+		}
+		animations_props = artisan_mace_western_prop
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+}
+
+##Submod Core Added
 council_marshal_spear = {
 
 	portrait_modifier = {
@@ -1922,7 +2495,7 @@ council_marshal_spear = {
 		animations = council_marshal_decal
 	}
 }
-
+##Submod Core Added
 council_marshal_mace = {
 
 	portrait_modifier = {
@@ -1949,7 +2522,7 @@ council_marshal_mace = {
 		animations = council_marshal_decal
 	}
 }
-
+##Submod Core Added
 council_marshal_axe = {
 
 	portrait_modifier = {
@@ -1976,3 +2549,4 @@ council_marshal_axe = {
 		animations = council_marshal_decal
 	}
 }
+##Submod Core added end
