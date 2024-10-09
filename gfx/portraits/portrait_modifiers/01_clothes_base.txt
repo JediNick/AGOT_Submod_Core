@@ -2510,7 +2510,7 @@ fp3_iranian_high_nobles = {
         }       
         weight = {
             base = 0
-            court_fashion_level_5_modifier = { CULTURE_INPUT = western } 
+            court_fashion_level_5_modifier = { INPUT_PARAMETER = western } 
             modifier = {
                 add = 25
                 portrait_imperial_trigger = { 
