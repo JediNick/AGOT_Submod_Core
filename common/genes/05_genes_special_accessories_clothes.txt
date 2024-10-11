@@ -3144,7 +3144,7 @@ special_genes = {
 					1 = male_clothes_secular_byzantine_nobility_01_low
 				}
 				female = {
-					1 = female_clothes_religious_redpreistess_dynastic
+					1 = female_clothes_religious_redpriestess_dynastic
 				}
 				boy = male
 				girl = female
@@ -3465,6 +3465,9 @@ special_genes = {
 					1 = male_clothes_special_dragon_rider_01
 					1 = male_clothes_special_dragon_rider_dynastic_01
 					1 = male_clothes_special_dragon_rider_dynastic_alt_01
+					1 = male_clothes_religious_redpriest_01
+					1 = male_clothes_religious_redpriest_02
+					1 = male_clothes_religious_redpriest_03
 				}
 				female = {
 					1 = female_clothes_secular_unlikely_gown_01
@@ -3498,8 +3501,8 @@ special_genes = {
 					1 = female_clothes_secular_free_cities_doublet_02
 					1 = female_clothes_secular_free_cities_doublet_03
 					1 = female_clothes_secular_free_cities_doublet_04
-					1 = female_clothes_religious_redpreistess_01
-					1 = female_clothes_religious_redpreistess_dynastic
+					1 = female_clothes_religious_redpriestess_01
+					1 = female_clothes_religious_redpriestess_dynastic
 					1 = female_clothes_secular_valyrian_nobility_01
 					1 = female_clothes_secular_meereen_nobility_01
 					1 = female_clothes_secular_meereen_nobility_02
@@ -3541,8 +3544,8 @@ special_genes = {
 					1 = female_clothes_secular_free_cities_doublet_02
 					1 = female_clothes_secular_free_cities_doublet_03
 					1 = female_clothes_secular_free_cities_doublet_04
-					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_religious_redpreistess_01
-					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_religious_redpreistess_dynastic
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_religious_redpriestess_01
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_religious_redpriestess_dynastic
 					1 = female_clothes_secular_valyrian_nobility_01
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_meereen_nobility_01
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_meereen_nobility_02
@@ -3636,10 +3639,12 @@ special_genes = {
 				index = 175
 
 				male = {
-					1 = male_clothes_secular_byzantine_nobility_01_low
+					1 = male_clothes_religious_redpriest_01
+					1 = male_clothes_religious_redpriest_02
+					1 = male_clothes_religious_redpriest_03
 				}
 				female = {
-					1 = female_clothes_religious_redpreistess_01
+					1 = female_clothes_religious_redpriestess_01
 				}
 				boy = male
 				girl = female
