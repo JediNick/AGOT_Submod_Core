@@ -2165,12 +2165,12 @@ fp3_iranian_high_nobles = {
         }
     }
     
-    agot_tyrell_marcher_clothes = {
+       agot_tyrell_marcher_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = agot_historic_characters
+                template = agot_house_clothes
                 accessory = male_clothes_stormland_undercoat_05
             }
             accessory = {
@@ -2210,13 +2210,13 @@ fp3_iranian_high_nobles = {
             }
         }
     }
-    
+
     agot_tyrell_maiden_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = agot_historic_characters
+                template = agot_house_clothes
                 accessory = female_clothes_secular_agot_maiden_dress_03
                 type = female
             }
@@ -2230,7 +2230,7 @@ fp3_iranian_high_nobles = {
                 }
                 dynasty = dynasty:dynn_Tyrell
                 is_female = yes
-                age > 17
+                age >= 18
             }
             modifier = {
                 add = 50
@@ -2239,17 +2239,17 @@ fp3_iranian_high_nobles = {
                 }
                 dynasty = dynasty:dynn_Tyrell
                 is_female = yes
-                age > 17
+                age >= 18
             }
         }
     }
-    
+
     agot_tyrell_summer_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = agot_historic_characters
+                template = agot_house_clothes
                 accessory = female_clothes_secular_agot_summer_dress_06
                 type = female
             }
@@ -2280,7 +2280,7 @@ fp3_iranian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = agot_historic_characters
+                template = agot_house_clothes
                 accessory = male_clothes_westerland_doublet_03
             }
             accessory = {
@@ -2297,7 +2297,7 @@ fp3_iranian_high_nobles = {
                 court_fashion_level_5_trigger = {
                     CULTURE_INPUT = western
                 }
-                dynasty = dynasty:dynn_Reyne
+                dynasty = dynasty:dynn_Lannister
                 is_male = yes
             }
             modifier = {
@@ -2305,7 +2305,7 @@ fp3_iranian_high_nobles = {
                 portrait_high_nobles_clothing_trigger = {
                     CULTURE_INPUT = western
                 }
-                dynasty = dynasty:dynn_Reyne
+                dynasty = dynasty:dynn_Lannister
                 is_male = yes
             }
         }
@@ -2316,7 +2316,7 @@ fp3_iranian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = agot_historic_characters
+                template = agot_house_clothes
                 accessory = male_clothes_westerland_doublet_04
             }
             accessory = {
@@ -2346,14 +2346,248 @@ fp3_iranian_high_nobles = {
             }
         }
     }
-    
-     agot_clothing_stormlander_baratheon_overcoat = {
+
+    agot_clothing_westerlander_lannister_crownlands_dress = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = agot_historic_characters
-                accessory = male_clothes_stormland_overcoat_04 
+                template = agot_house_clothes
+                accessory = female_clothes_secular_crownlands_dress_02
+                type = female
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = western
+                }
+                dynasty = dynasty:dynn_Lannister
+                is_female = yes
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                dynasty = dynasty:dynn_Lannister
+                is_female = yes
+            }
+        }
+    }
+
+    agot_clothing_westerlander_Baratheon_crownlands_dress = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_house_clothes
+                accessory = female_clothes_secular_crownlands_dress_03
+                type = female
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    dynasty = dynasty:dynn_Baratheon
+                    dynasty = dynasty:dynn_Durrandon
+                }
+                is_female = yes
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    dynasty = dynasty:dynn_Baratheon
+                    dynasty = dynasty:dynn_Durrandon
+                }
+                is_female = yes
+            }
+        }
+    }
+
+    agot_clothing_westerlander_velaryon_crownlands_dress = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_house_clothes
+                accessory = female_clothes_secular_crownlands_dress_04
+                type = female
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = western
+                }
+                house = dynasty:dynn_Velaryon.dynasty_founder.house
+                is_female = yes
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                house = dynasty:dynn_Velaryon.dynasty_founder.house
+                is_female = yes
+            }
+        }
+    }
+
+    agot_clothing_crownlands_targaryen_bodice_dress = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_house_clothes
+                accessory = female_clothes_secular_crownlands_dress_05
+                type = female
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = western
+                }
+                house = dynasty:dynn_Targaryen.dynasty_founder.house
+                is_female = yes
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                house = dynasty:dynn_Targaryen.dynasty_founder.house
+                is_female = yes
+            }
+        }
+    }
+
+    agot_clothing_crownlands_targaryen_bodice_dress = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_house_clothes
+                accessory = female_clothes_secular_aelora_dress_02
+                type = female
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = western
+                }
+                house = dynasty:dynn_Targaryen.dynasty_founder.house
+                is_female = yes
+                age >= 18
+                has_trait = fashionable
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                house = dynasty:dynn_Targaryen.dynasty_founder.house
+                is_female = yes
+                age >= 18
+                has_trait = fashionable
+            }
+        }
+    }
+
+    agot_clothing_crownlands_sleeved_targaryen_bodice_dress = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_house_clothes
+                accessory = female_clothes_sleeved_bodice_dress_03
+                type = female
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = western
+                }
+               house = dynasty:dynn_Targaryen.dynasty_founder.house
+                is_female = yes
+                age >= 18
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                house = dynasty:dynn_Targaryen.dynasty_founder.house
+                is_female = yes
+                age >= 18
+            }
+        }
+    }
+
+    agot_clothing_westerlander_targaryen_doublet = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_house_clothes
+                accessory = male_clothes_westerland_doublet_no_cloak_03
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = agot_boots_legwear
+                accessory = male_legwear_dragon_prince02
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = western
+                }
+                house = dynasty:dynn_Targaryen.dynasty_founder.house
+                is_male = yes
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                house = dynasty:dynn_Targaryen.dynasty_founder.house
+                is_male = yes
+            }
+        }
+    }
+
+    agot_clothing_stormlander_baratheon_doublet = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_house_clothes
+                accessory = male_clothes_dragonbane_doublet_04
             }
             accessory = {
                 mode = add
@@ -2369,7 +2603,10 @@ fp3_iranian_high_nobles = {
                 court_fashion_level_5_trigger = {
                     CULTURE_INPUT = western
                 }
-                dynasty = dynasty:dynn_Baratheon
+                OR = {
+                    dynasty = dynasty:dynn_Baratheon
+                    dynasty = dynasty:dynn_Durrandon
+                }
                 is_male = yes
             }
             modifier = {
@@ -2377,7 +2614,52 @@ fp3_iranian_high_nobles = {
                 portrait_high_nobles_clothing_trigger = {
                     CULTURE_INPUT = western
                 }
-                dynasty = dynasty:dynn_Baratheon
+                OR = {
+                    dynasty = dynasty:dynn_Baratheon
+                    dynasty = dynasty:dynn_Durrandon
+                }
+                is_male = yes
+            }
+        }
+    }
+
+    agot_clothing_stormlander_baratheon_overcoat = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_house_clothes
+                accessory = male_clothes_stormland_overcoat_04
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = agot_boots_legwear
+                accessory = male_legwear_stormlander_boots_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    dynasty = dynasty:dynn_Baratheon
+                    dynasty = dynasty:dynn_Durrandon
+                }
+                is_male = yes
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    dynasty = dynasty:dynn_Baratheon
+                    dynasty = dynasty:dynn_Durrandon
+                }
                 is_male = yes
             }
         }
@@ -2420,7 +2702,7 @@ fp3_iranian_high_nobles = {
                 add = 50
                 portrait_high_nobles_clothing_trigger = {
                     CULTURE_INPUT = essosi_valyrian
-                } 
+                }
             }
         }
     }

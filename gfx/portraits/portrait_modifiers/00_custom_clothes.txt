@@ -7,6 +7,18 @@
 		gene = clothes
 		template = agot_all_clothes
 	}
+	
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = clothes
+		template = agot_house_clothes
+	}
+	
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = clothes
+		template = agot_historic_characters
+	}
 
 	#AGOT Added
 	add_accessory_modifiers = {

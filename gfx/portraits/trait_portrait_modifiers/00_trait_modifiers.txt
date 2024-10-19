@@ -1719,6 +1719,8 @@ blind = {
 				limit = { exists = root }
 				NOT = {
 					OR = {
+						#AGOT Added
+						is_character_targaryen_96 = yes # Bloodraven
 						has_character_flag = has_eyegem_red
 						has_character_flag = has_eyegem_saphire
 						has_character_flag = has_eyegem_white

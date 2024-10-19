@@ -1046,6 +1046,54 @@
 		}
 	}
 	
+	Targaryen_95_house_armor = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = all_hairstyles
+                accessory = male_hair_fp1_02
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = no_beard
+                value = 0
+            }
+            accessory = {
+                mode = add
+                gene = cloaks
+                template = no_cloak
+                value = 0
+            }
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_all_armors
+                accessory = male_clothes_north_war_ned_coa_01
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = north_war_legwear
+                accessory = male_legwear_secular_north_stark_war_03
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 102
+                age > 18
+                has_character_flag = bittersteel_house
+                is_character_targaryen_95 = yes
+                is_male = yes
+            }
+        }
+    }
+    
+    ##
+    ##AGOT Submod Core added
+	##
 	kingsguard_armor_01 = {
 		dna_modifiers = {
 			accessory = {

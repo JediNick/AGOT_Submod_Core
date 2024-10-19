@@ -1411,6 +1411,44 @@ special_genes = {
 
 		pose = { # Keeping this gene because the game expects it to be there
 		}
+		
+		#AGOT Added
+		gene_bloodraven = {
+			bloodraven_birthmark = {
+				index = 0
+				male = {
+					decal = {
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/visual_traits/agot_bloodraven_decal_diffuse.dds"
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						normal = overlay
+						properties = overlay
+						}
+						# age = {
+						# 	mode = multiply
+						# 	curve = {
+						# 		{ 0.0 0.0 }
+						# 		{ 0.38 0.0 }
+						# 		{ 0.7 0.8 }
+						# 	}
+						# }
+						priority = 13
+						decal_apply_order = post_skin_color # pre_skin_color | post_skin_color
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  0.95 }
+						}
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
 	}
 
 

@@ -2847,15 +2847,10 @@ special_genes = {
 				index = 138
 
 				male = {
-					1 = male_clothes_dragonbane_doublet_02
-					1 = male_clothes_dragonbane_doublet_04
-					1 = male_clothes_secular_unlikely_gown_02 #Aegon V variant
-					1 = male_clothes_westerland_doublet_03
-					1 = male_clothes_westerland_doublet_04
-					1 = male_clothes_stormland_overcoat_03 #Stannis Variant
-					1 = male_clothes_stormland_overcoat_04 #Baratheon Variant
-					1 = male_clothes_stormland_undercoat_03 #Renly Variant
-					1 = male_clothes_stormland_undercoat_05 #Tyrell Variant
+					1 = male_clothes_dragonbane_doublet_02					   
+					1 = male_clothes_secular_unlikely_gown_02 #Aegon V variant				   
+					1 = male_clothes_stormland_overcoat_03 #Stannis Variant										  
+					1 = male_clothes_stormland_undercoat_03 #Renly Variant										
 					1 = male_clothes_secular_north_high_winter_stark_01
 					1 = male_clothes_secular_north_high_winter_torrhen_01
 				}
@@ -2863,20 +2858,16 @@ special_genes = {
 					1 = female_clothes_mourning_dress_03
 					1 = female_clothes_secular_agot_free_cities_dress_03
 					1 = female_clothes_secular_agot_summer_dress_05 # Elaena
-					1 = female_clothes_secular_agot_summer_dress_06 # Tyrell Summer
-					1 = female_clothes_secular_agot_maiden_dress_03 # Tyrell Maiden
-					1 = female_clothes_secular_crownlands_dress_03 # Baratheon Variant
-					1 = female_clothes_secular_crownlands_dress_04 # Velaryon Variant
-					1 = female_clothes_secular_crownlands_dress_02 # Lannister Variant
+					1 = female_clothes_sleeved_bodice_dress_02 # Daella Variant
+					1 = female_clothes_secular_aelora_dress_03 # Queen Aemma Bodice Variant											   
 				}
 				boy = male
 				girl = {
 					1 = female_clothes_mourning_dress_03
 					1 = female_clothes_secular_agot_dany_dress_01
-					1 = female_clothes_secular_agot_summer_dress_06 # Tyrell Summer
-					1 = female_clothes_secular_crownlands_dress_03 # Baratheon Variant
-					1 = female_clothes_secular_crownlands_dress_04 # Velaryon Variant
-					1 = female_clothes_secular_crownlands_dress_02 # Lannister Variant
+					1 = female_clothes_secular_agot_summer_dress_05 # Elaena
+					1 = female_clothes_secular_crownlands_dress_01_dynastic
+					1 = female_clothes_secular_crownlands_dress_01_dynastic												   
 				}
 			}
 
@@ -3300,6 +3291,8 @@ special_genes = {
 				male = {
 					1 = male_clothes_westerland_doublet_01
 					1 = male_clothes_westerland_doublet_02
+					1 = male_clothes_westerland_doublet_no_cloak_01
+					1 = male_clothes_westerland_doublet_no_cloak_02
 				}
 				female = {
 					1 = female_clothes_secular_agot_summer_dress_01
@@ -3438,6 +3431,8 @@ special_genes = {
 					1 = male_clothes_secular_unlikely_gown_dynastic_01
 					1 = male_clothes_westerland_doublet_01
 					1 = male_clothes_westerland_doublet_02
+					1 = male_clothes_westerland_doublet_no_cloak_01
+					1 = male_clothes_westerland_doublet_no_cloak_02							
 					1 = male_clothes_secular_agot_royal_doublet_01
 					1 = male_clothes_secular_agot_royal_doublet_dynastic_01
 					1 = male_clothes_dragonbane_doublet_01
@@ -3482,6 +3477,9 @@ special_genes = {
 					1 = female_clothes_secular_aelora_dress_01
 					1 = female_clothes_secular_aelora_dress_dynastic_01
 					1 = female_clothes_secular_aelora_dress_dynastic_02
+					1 = female_clothes_sleeved_bodice_dress_01
+					1 = female_clothes_sleeved_bodice_dress_dynastic_01
+					1 = female_clothes_sleeved_bodice_dress_dynastic_02							
 					1 = female_clothes_mourning_dress_01
 					1 = female_clothes_mourning_dress_02
 					1 = female_clothes_secular_agot_royal_doublet_01
@@ -3525,6 +3523,9 @@ special_genes = {
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_aelora_dress_01
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_aelora_dress_dynastic_01
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_aelora_dress_dynastic_02
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_sleved_bodice
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_sleved_bodice_dynastic_01
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_sleved_bodice_dynastic_02																					  
 					1 = female_clothes_mourning_dress_01
 					1 = female_clothes_mourning_dress_02
 					1 = female_clothes_secular_agot_royal_doublet_01
@@ -3738,7 +3739,7 @@ special_genes = {
 				girl = female
 			}
 			
-						#AGOT Added
+			#AGOT Added
 			dragon_rider_clothes = {
 				index = 182
 
@@ -3818,6 +3819,42 @@ special_genes = {
 				female = male
 				boy = male
 				girl = male
+			}
+			
+			#AGOT Added
+			agot_house_clothes = {
+				index = 187
+
+				male = {
+					1 = male_clothes_dragonbane_doublet_02
+					1 = male_clothes_dragonbane_doublet_04
+					1 = male_clothes_westerland_doublet_03 #Lannister Variant
+					1 = male_clothes_westerland_doublet_04 #Reyne Variant
+					1 = male_clothes_stormland_overcoat_04 #Baratheon Variant
+					1 = male_clothes_stormland_undercoat_05 #Tyrell Variant
+					1 = male_clothes_westerland_doublet_no_cloak_03 #Targaryen Variant
+				}
+				female = {
+					1 = female_clothes_secular_agot_summer_dress_06 # Tyrell Summer
+					1 = female_clothes_secular_agot_maiden_dress_03 # Tyrell Maiden
+					1 = female_clothes_secular_crownlands_dress_02 # Lannister Variant
+					1 = female_clothes_secular_crownlands_dress_03 # Baratheon Variant
+					1 = female_clothes_secular_crownlands_dress_04 # Velaryon Variant
+					1 = female_clothes_secular_crownlands_dress_05 # Targaryen Variant
+					1 = female_clothes_secular_aelora_dress_02 # Targaryen Bodice Variant
+					1 = female_clothes_sleeved_bodice_dress_03 # Targaryen Variant
+				}
+				boy = male
+				girl = {
+					1 = female_clothes_secular_agot_summer_dress_06 # Tyrell Summer
+					1 = female_clothes_secular_agot_summer_dress_06 # Tyrell Summer
+					1 = female_clothes_secular_crownlands_dress_02 # Lannister Variant
+					1 = female_clothes_secular_crownlands_dress_03 # Baratheon Variant
+					1 = female_clothes_secular_crownlands_dress_04 # Velaryon Variant
+					1 = female_clothes_secular_crownlands_dress_05 # Targaryen Variant
+					1 = female_clothes_secular_crownlands_dress_05 # Targaryen Variant
+					1 = female_clothes_secular_crownlands_dress_05 # Targaryen Variant
+				}
 			}
 
 			#NOTAGOTADDED

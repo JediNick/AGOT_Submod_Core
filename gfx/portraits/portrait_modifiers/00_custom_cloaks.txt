@@ -44,6 +44,11 @@
 		}
 		template = agot_coa_cloaks_sp2
 	}
+	
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = agot_historic_capes
+	}
 
 	### AGOT Submod Core ###
 	add_accessory_modifiers = {
