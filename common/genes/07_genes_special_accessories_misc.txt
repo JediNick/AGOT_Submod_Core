@@ -1207,7 +1207,7 @@ accessory_genes = {
 				3 = male_cloaks_secular_fp1_nobility_01
 				2 = male_cloaks_secular_north_high_winter_01
 				1 = male_furs_secular_fp1_nobility_03
-				3 = female_cloaks_secular_north_high_winter_01
+				3 = male_cloaks_secular_north_high_winter_01
 				2 = empty
 			}
 			female = {
@@ -1857,6 +1857,16 @@ props_left = {
 			1 = ep2_long_bow_01_a_left_hand
 			1 = ep2_short_bow_01_a_left_hand
 			1 = ep2_short_bow_01_b_left_hand
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	bp3_walking_stick_01 = {
+		index = 53
+		male = {
+			1 = bp3_walking_stick_01_a
+			1 = bp3_walking_stick_01_b
 		}
 		female = male
 		boy = male

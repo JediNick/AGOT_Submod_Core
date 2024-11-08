@@ -1283,10 +1283,12 @@ council_marshal_shield = {
 			AND = {
 				has_dlc_feature = north_african_attire
 				OR = {
-					culture = culture:butr
-					culture = culture:baranis
-					culture = culture:zaghawa
-					culture = culture:maghrebi
+					# culture = culture:butr
+					# culture = culture:baranis
+					# culture = culture:zaghawa
+					# culture = culture:maghrebi
+					culture = culture:sand_dornish
+					culture = culture:rhoynish
 				}
 			}
 		}
