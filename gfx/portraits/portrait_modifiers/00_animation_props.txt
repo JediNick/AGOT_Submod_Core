@@ -2972,6 +2972,96 @@
 		}	
 	}
 	
+	agot_weirwood_longbow_left_attachment_no_arrow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = agot_weirwood_longbow_left
+				value = 1.0
+			}
+		}	
+	}	
+
+	agot_weirwood_longbow_left_attachment = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = agot_weirwood_longbow_left
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrow_right
+				range = {0 1}
+			}
+		}	
+	}	
+
+	agot_weirwood_longbow_drawn_left_attachment = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = agot_weirwood_longbow_drawn_left
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrow_right
+				range = {0 1}
+			}
+		}	
+	}	
+
+	agot_dragonbone_longbow_left_attachment_no_arrow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = agot_dragonbone_longbow_left
+				value = 1.0
+			}
+		}	
+	}	
+
+	agot_dragonbone_longbow_left_attachment = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = agot_dragonbone_longbow_left
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrow_right
+				range = {0 1}
+			}
+		}	
+	}	
+
+	agot_dragonbone_longbow_drawn_left_attachment = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = agot_dragonbone_longbow_drawn_left
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrow_right
+				range = {0 1}
+			}
+		}	
+	}	
+	
 		#########Left handed swords ################################################
 	artisan_sword_mena_prop_left = { # MENA
 		dna_modifiers = {
@@ -3203,6 +3293,96 @@
 			}
 		}	
 	}	
+	
+	#########AGOT Added - Miscellaneous Animation Props ################################################
+	
+	agot_dragon_doll_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = dragon_doll_prop_01
+				range = {0 1}
+			}
+		}	
+	}
+	
+	agot_dragon_doll_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = dragon_doll_prop_02
+				range = {0 1}
+			}
+		}	
+	}
+	
+	agot_dragon_doll_03 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = dragon_doll_prop_03
+				range = {0 1}
+			}
+		}	
+	}
+	
+	agot_dragon_doll_04 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = dragon_doll_prop_04
+				range = {0 1}
+			}
+		}	
+	}
+	
+	agot_dragon_doll_05 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = dragon_doll_prop_05
+				range = {0 1}
+			}
+		}	
+	}
+	
+	agot_mirror_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = agot_gold_mirror
+				range = {0 1}
+			}
+		}	
+	}
+	
+	agot_mirror_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = agot_silver_mirror
+				range = {0 1}
+			}
+		}	
+	}
+	
+	agot_mirror_03 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = agot_valyrian_mirror
+				range = {0 1}
+			}
+		}	
+	}
 
 	##AGOT Submod Base entries
 	##If you want to add a prop, enter it below.

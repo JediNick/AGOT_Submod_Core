@@ -6413,6 +6413,179 @@ fp3_turkic_high_nobles = {
 			}
 		}
 	}
+	
+### Crowns of Westeros - Variant Crowns ###
+
+	agot_headgear_showrhaenyra_crown_03 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = showrhaenyra_crown_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = showrhaenyra_crown_03_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aegon_variant_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aegon_variant_1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegon_variant_1_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aegon_variant_2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aegon_variant_2
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegon_variant_2_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aegon_variant_3 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aegon_variant_3
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegon_variant_3_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aegon_variant_4 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aegon_variant_4
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegon_variant_4_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_jaehaerys_valyrian_variant = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = jaehaerys_valyrian_variant
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = jaehaerys_valyrian_variant_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_jaehaerys_variant_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = jaehaerys_variant_1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = jaehaerys_variant_1_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_jaehaerys_variant_2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = jaehaerys_variant_2
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = jaehaerys_variant_2_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_cersei_red_tiara = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = cersei_red_tiara
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = cersei_red_tiara_artifact }
+			}
+		}
+	}
 
 ### Crowns of Westeros - Queen Crowns ###	
 

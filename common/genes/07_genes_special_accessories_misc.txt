@@ -1862,6 +1862,70 @@ props_left = {
 		boy = male
 		girl = female
 	}
+	#AGOT Added
+	agot_weirwood_longbow_left = {
+		index = 55
+		male = {
+			1 = agot_weirwood_longbow_left_hand
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	agot_weirwood_longbow_drawn_left = {
+		index = 56
+		male = {
+			1 = agot_weirwood_longbow_drawn_left_hand
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	agot_dragonbone_longbow_left = {
+		index = 57
+		male = {
+			1 = agot_dragonbone_longbow_left_hand
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	agot_dragonbone_longbow_drawn_left = {
+		index = 58
+		male = {
+			1 = agot_dragonbone_longbow_drawn_left_hand
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	agot_gold_mirror = {
+		index = 59
+		male = {
+			1 = mirror_gold
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	agot_silver_mirror = {
+		index = 60
+		male = {
+			1 = mirror_silver
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	agot_valyrian_mirror = {
+		index = 61
+		male = {
+			1 = mirror_valyrian
+		}
+		female = male
+		boy = male
+		girl = female
+	}
 }
 
 	#####################################
@@ -3445,6 +3509,56 @@ props_left = {
 			female = {
 				1 = blackfyre_artifact
 			}
+			boy = male
+			girl = female
+		}
+		
+		dragon_doll_prop_01 = {
+			index = 145
+			male = {
+				1 = dragon_doll_01
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		
+		dragon_doll_prop_02 = {
+			index = 146
+			male = {
+				1 = dragon_doll_02
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		
+		dragon_doll_prop_03 = {
+			index = 147
+			male = {
+				1 = dragon_doll_03
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		
+		dragon_doll_prop_04 = {
+			index = 148
+			male = {
+				1 = dragon_doll_04
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		
+		dragon_doll_prop_05 = {
+			index = 149
+			male = {
+				1 = dragon_doll_05
+			}
+			female = male
 			boy = male
 			girl = female
 		}
