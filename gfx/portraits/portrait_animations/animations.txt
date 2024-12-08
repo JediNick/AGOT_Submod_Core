@@ -40,8 +40,123 @@ idle = {
 			}
 		}
 
-		#AGOT Added, gives idle poses for swords if at war and or if you're a knight of a person at war
-		hold_sword_idle = {
+		
+		##AGOT Added
+        hold_hammer_idle = {
+			animation = { head = "council_marshal" torso = "throneRoom_oneHandedPassive1_entry" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 1000
+					has_character_flag = hammer_person
+					agot_should_be_knight_idle_trigger = yes
+					NOT = {
+						any_equipped_character_artifact = {
+							artifact_slot_type = primary_armament
+						}
+					}
+				}
+				modifier = {
+					add = 10000
+					agot_should_be_knight_idle_trigger = yes
+					any_equipped_character_artifact = { 	
+						artifact_type = hammer  	
+					}
+				}
+			}
+			portrait_modifier_pack = two_handed_hammer
+		}
+
+		##AGOT Added
+		hold_spearshield_idle = {
+			animation = { head = "throneRoom_twoHandedPassive1_shield_entry" torso = "throneRoom_twoHandedPassive1_shield_entry" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 1000
+					has_character_flag = spearshield_person
+					agot_should_be_knight_idle_trigger = yes
+					NOT = {
+						any_equipped_character_artifact = {
+							artifact_slot_type = primary_armament
+						}
+					}
+				}
+				modifier = {
+					add = 10000
+					agot_should_be_knight_idle_trigger = yes
+					any_equipped_character_artifact = { 	
+						artifact_type = spear  	
+					}
+					has_character_flag = spearshield_person
+				}
+			}
+			portrait_modifier_pack = throneRoom_two_handed_passive_shield  
+		}
+
+		##AGOT Added
+		hold_spear_idle = {
+			animation = { head = "throneRoom_twoHandedPassive1_entry" torso = "throneRoom_twoHandedPassive1_entry" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 1000
+					has_character_flag = spear_person
+					agot_should_be_knight_idle_trigger = yes
+					NOT = {
+						any_equipped_character_artifact = {
+							artifact_slot_type = primary_armament
+						}
+					}
+				}
+				modifier = {
+					add = 10000
+					agot_should_be_knight_idle_trigger = yes
+					any_equipped_character_artifact = { 	
+						artifact_type = spear  	
+					}
+				}
+			}
+			portrait_modifier_pack = throneRoom_two_handed_passive_1  
+		}
+
+		##AGOT Added
+		hold_maceshield_idle = {
+			animation = { head = "marshal_shield" torso = "marshal_shield" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 1000
+					has_character_flag = maceshield_person
+					agot_should_be_knight_idle_trigger = yes
+					NOT = {
+						any_equipped_character_artifact = {
+							artifact_slot_type = primary_armament
+						}
+					}
+				}
+				modifier = {
+					add = 10000
+					agot_should_be_knight_idle_trigger = yes
+					any_equipped_character_artifact = { 	
+						artifact_type = mace  	
+					}
+					has_character_flag = maceshield_person
+				}
+			}
+			portrait_modifier_pack = one_handed_mace_shield 
+		}
+
+		##AGOT Added
+		hold_mace_idle = {
 			animation = { head = "council_marshal" torso = "council_marshal" }
 
 			weight = {
@@ -49,28 +164,98 @@ idle = {
 
 				modifier = {
 					add = 1000
-					portrait_wear_armor_trigger = yes
+					has_character_flag = mace_person
+					agot_should_be_knight_idle_trigger = yes
 					NOT = {
-						OR = {
-							portrait_has_unique_sword_trigger = yes
-							portrait_has_unique_spear_trigger = yes
-							portrait_has_unique_mace_trigger = yes
-							portrait_has_unique_axe_trigger = yes
-							portrait_has_unique_hammer_trigger = yes
+						any_equipped_character_artifact = {
+							artifact_slot_type = primary_armament
 						}
 					}
-					OR = {
-						AND = {
-							portrait_wear_armor_trigger = yes
-							is_at_war = no
 						}
-						is_at_war = yes
-						AND = {
-							is_knight = yes
-							liege = {
-								is_at_war = yes
+				modifier = {
+					add = 10000
+					agot_should_be_knight_idle_trigger = yes
+					any_equipped_character_artifact = { 	
+						artifact_type = mace  	
+					}
+					##intentionally not a flag check here
+				}
+			}
+			portrait_modifier_pack = one_handed_mace 
+		}
+
+		#AGOT Added, gives idle poses for axes if at war and or if you're a knight of a person at war
+		hold_axe_idle = {
+			animation = { head = "council_marshal" torso = "throneRoom_oneHandedPassive1_entry" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 1000
+					has_character_flag = axe_person
+					agot_should_be_knight_idle_trigger = yes
+					NOT = {
+						any_equipped_character_artifact = {
+							artifact_slot_type = primary_armament
+						}
 							}
 						}
+				modifier = {
+					add = 10000
+					agot_should_be_knight_idle_trigger = yes
+					any_equipped_character_artifact = { 	
+						artifact_type = axe  	
+					}
+				}
+			}
+			portrait_modifier_pack = one_handed_axe    
+		}
+
+		#AGOT Added, gives idle poses for swords if at war and or if you're a knight of a person at war
+		##Hold a sword over shoulder
+		sword_idle_shield = {
+			animation = { head = "marshal_shield" torso = "marshal_shield" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 1000
+					has_character_flag = swordshield_person
+					agot_should_be_knight_idle_trigger = yes
+					NOT = {
+						any_equipped_character_artifact = {
+							artifact_slot_type = primary_armament
+						}
+					}
+				}
+				modifier = {
+					add = 10000
+					agot_should_be_knight_idle_trigger = yes
+
+					any_equipped_character_artifact = { 	
+						artifact_type = sword  	
+					}
+					has_character_flag = swordshield_person
+				}
+			}
+			portrait_modifier_pack = council_marshal_shield
+		}
+
+		#AGOT Added, gives idle poses for swords if at war and or if you're a knight of a person at war
+		sword_idle_shoulder = {
+			animation = { head = "council_marshal" torso = "council_marshal" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 1000
+					has_character_flag = sword_person
+					agot_should_be_knight_idle_trigger = yes
+				}
+				modifier = {
+					add = 10000
+					agot_should_be_knight_idle_trigger = yes
+					any_equipped_character_artifact = { 	
+						artifact_type = sword  	
 					}
 				}
 			}
@@ -311,151 +496,6 @@ idle = {
 		# 	}
 		# }
 		
-		
-		hold_sword_idle_vs = {
-			animation = { head = "council_marshal" torso = "council_marshal" }
-
-			weight = {
-				base = 0
-
-				modifier = {
-					add = 1001
-					portrait_wear_armor_trigger = yes
-                    portrait_has_unique_sword_trigger = yes
-					OR = {
-						AND = {
-							portrait_wear_armor_trigger = yes
-							is_at_war = no
-						}
-						is_at_war = yes
-						AND = {
-							is_knight = yes
-							liege = {
-								is_at_war = yes
-							}
-						}
-					}
-				}
-			}
-
-
-			  portrait_modifier = { # Equipped
-				trigger = {
-					any_equipped_character_artifact = { artifact_type = sword }
-				}
-				animations_props = artifact_sword_equipped_prop
-				animations = council_marshal_decal
-			}
-		}
-        hold_spear_idle = {
-			animation = { head = "throneRoom_twoHandedPassive1_entry" torso = "throneRoom_twoHandedPassive1_entry" }
-
-			weight = {
-				base = 0
-
-				modifier = {
-					add = 1001
-					portrait_wear_armor_trigger = yes
-                    portrait_has_unique_spear_trigger = yes
-					OR = {
-						AND = {
-							portrait_wear_armor_trigger = yes
-							is_at_war = no
-						}
-						is_at_war = yes
-						AND = {
-							is_knight = yes
-							liege = {
-								is_at_war = yes
-							}
-						}
-					}
-				}
-			}
-			portrait_modifier_pack = council_marshal_spear  
-		}
-        hold_mace_idle = {
-			animation = { head = "council_marshal" torso = "council_marshal" }
-
-			weight = {
-				base = 0
-
-				modifier = {
-					add = 1001
-					portrait_wear_armor_trigger = yes
-                    portrait_has_unique_mace_trigger = yes
-					OR = {
-						AND = {
-							portrait_wear_armor_trigger = yes
-							is_at_war = no
-						}
-						is_at_war = yes
-						AND = {
-							is_knight = yes
-							liege = {
-								is_at_war = yes
-							}
-						}
-					}
-				}
-			}
-			portrait_modifier_pack = council_marshal_mace 
-		}
-        hold_axe_idle = {
-			animation = { head = "council_marshal" torso = "throneRoom_oneHandedPassive1_entry" }
-
-			weight = {
-				base = 0
-
-				modifier = {
-					add = 1001
-					portrait_wear_armor_trigger = yes
-                    portrait_has_unique_axe_trigger = yes
-					OR = {
-						AND = {
-							portrait_wear_armor_trigger = yes
-							is_at_war = no
-						}
-						is_at_war = yes
-						AND = {
-							is_knight = yes
-							liege = {
-								is_at_war = yes
-							}
-						}
-					}
-				}
-			}
-			portrait_modifier_pack = council_marshal_axe    
-		}
-        hold_hammer_idle = {
-			animation = { head = "council_marshal" torso = "throneRoom_oneHandedPassive1_entry" }
-
-			weight = {
-				base = 0
-
-				modifier = {
-					add = 1001
-					portrait_wear_armor_trigger = yes
-                    portrait_has_unique_hammer_trigger = yes
-					OR = {
-						AND = {
-							portrait_wear_armor_trigger = yes
-							is_at_war = no
-						}
-						is_at_war = yes
-						AND = {
-							is_knight = yes
-							liege = {
-								is_at_war = yes
-							}
-						}
-					}
-				}
-			}
-			portrait_modifier_pack = council_marshal_hammer
-		}
-		
 		camp_purpose_mercenaries = {
 			animation = { head = "marshal_shield" torso = "marshal_shield" }
 			portrait_modifier_pack = council_marshal_shield
@@ -548,6 +588,50 @@ idle = {
 			}
 		}
 
+		#AGOT Added
+		dragon_egg_idle = {
+			animation = {  head = "hold_dragon_egg" torso = "hold_dragon_egg" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					AND = {
+						any_equipped_character_artifact = {
+							has_variable = dragon_egg
+						}
+						NOT = { has_trait = dragonwidowed }
+						NOT = { has_character_modifier = agot_dragon_disinterest }
+						NOT = {
+							any_relation = {
+								type = agot_dragon
+							}
+						}
+						OR = {
+							AND = {
+								any_equipped_character_artifact = {
+									has_variable = cradled_egg
+									NOT = {
+										has_variable = dud_egg
+									}
+									#exists = var:cradled_egg_year
+									#var:cradled_egg_year < current_year
+								}
+							}
+							any_equipped_character_artifact = {
+								OR = {
+									has_variable = selected_egg_for_hatching
+									has_variable = egg_status
+									has_variable = selected_artifact
+									has_variable = agot_artifact_cannot_gift
+									has_variable = selected_egg
+								}
+							}
+						}
+					}
+				}
+			}
+			portrait_modifier_pack = agot_idle_egg_anims
+		}
 		#AGOT Disabled
 		#idle_scepter = {
 		#	animation = { head = "scepter" torso = "scepter" }

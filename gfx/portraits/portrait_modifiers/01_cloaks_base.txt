@@ -1103,6 +1103,7 @@ cloaks = {
 			modifier = {
 				add = -500
 				has_trait = kingsguard
+				NOT = { has_character_flag = use_stealth_clothes }
 			}
 			modifier = {
 				add = 500
@@ -1157,6 +1158,7 @@ cloaks = {
 				##Don't want to make Paradox angry, don't remove this unless we replace the asset with a custom in house made cloak/cape
 				has_ep1_dlc_trigger = yes
 				has_trait = kingsguard
+				NOT = { has_character_flag = use_stealth_clothes }
 
 				OR = {
 					##Armor of the kingsguard is not loaded

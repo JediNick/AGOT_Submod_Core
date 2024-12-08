@@ -569,7 +569,10 @@
             modifier = {
                 add = 1000
                 has_trait = kingsguard
+                NOT = { has_character_flag = use_stealth_clothes }
+
             }
+            ##Submod core added
             modifier = {
                 factor = 0
                 is_aotk_loaded_trigger = yes
@@ -1003,72 +1006,6 @@
 			}
 		}
 	}
-    agot_Targaryen_122_squire = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = ep3_byzantine_era1_commoner_clothes
-				accessory = m_clothes_sec_ep3_byzantine_era1_com_01
-			}
-			accessory = {
-				mode = add
-				gene = headgear
-				template = fp4_western_era3_common
-				accessory = m_headgear_sec_fp4_western_era3_com_01
-			}
-            accessory = {
-				mode = add
-				gene = cloaks
-				template = no_cloak
-				value = 0
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 100
-				exists = this
-				age > 4
-				has_trait = squire
-				is_character_targaryen_122 = yes
-				is_male = yes
-			}
-		}
-	}
-    agot_Targaryen_122_prince_king = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = agot_historic_characters
-				accessory = male_clothes_secular_unlikely_gown_02
-			}
-			accessory = {
-				mode = add
-				gene = cloaks
-				template = agot_historic_capes
-				accessory = unlikely_cape_02
-			}
-            accessory = {
-				mode = add
-				gene = legwear
-				template = agot_trousers
-				accessory = male_legwear_secular_agot_trousers_01
-            }
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 101
-				exists = this
-				age > 18
-				is_character_targaryen_122 = yes
-				is_male = yes
-			}
-		}
-	}
-	
 	Targaryen_95_house_armor = {
         dna_modifiers = {
             accessory = {
@@ -1076,6 +1013,12 @@
                 gene = hairstyles
                 template = all_hairstyles
                 accessory = male_hair_fp1_02
+            }
+            accessory = {
+                mode = add
+                gene = secondary_headgears
+                template = no_headgear
+                value = 0
             }
             accessory = {
                 mode = add
