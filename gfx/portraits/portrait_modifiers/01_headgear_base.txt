@@ -6273,6 +6273,32 @@ fp3_turkic_high_nobles = {
 			}
 		}
 	}
+
+	agot_headgear_crown_of_crakehall_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_crakehall
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_crakehall_artifact }
+			}
+			modifier = {
+				add = 260
+				is_crowns_westeros_loaded_trigger = yes
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_crakehall_artifact }}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Crakehall
+			}
+		}
+	}
 	
 	agot_headgear_crown_of_the_grey_king_crown = {
 		dna_modifiers = {
@@ -9075,6 +9101,32 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_hellholt_artifact }}
 				agot_default_wear_crown_trigger = yes
 				dynasty ?= dynasty:dynn_Uller
+			}
+		}
+	}
+
+	agot_headgear_crown_of_hearts_home_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_hearts_home
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 310
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_hearts_home_artifact }
+			}
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_hearts_home_artifact }}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Corbray
 			}
 		}
 	}
