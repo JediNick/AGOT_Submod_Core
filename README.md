@@ -8,7 +8,7 @@ The intention for this mod is to be a center piece for submods that interact wit
 
 Please follow the load order below when using this mod.
 
-![Load Order](https://i.imgur.com/IQrmr9k.png)
+![Load Order](https://i.imgur.com/8CW03Ar.png)
 
 ### Supported Mods
 - [Crowns of Westeros](https://steamcommunity.com/workshop/filedetails/?id=2995674648)
