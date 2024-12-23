@@ -4008,6 +4008,62 @@ special_genes = {
 				girl = female
 			}
 
+			asoiaf_north_war_clothes = { #AGOT+ Added
+				index = 203
+
+				male = {
+					1 = male_clothes_secular_asoiaf_north_war_chainmail
+					1 = male_clothes_secular_asoiaf_north_war_padding
+					1 = male_clothes_secular_asoiaf_north_war_plate
+					1 = male_clothes_secular_asoiaf_north_war_plate_stark
+				}
+				female = {
+					1 = f_clothes_sec_northern_war_nob_01_lo
+				}
+				boy = male
+				girl = female
+			}
+			
+			asoiaf_lannister_war_clothes = { #AGOT+ Added
+				index = 204
+
+				male = {
+					1 = male_clothes_secular_asoiaf_lannister_war_plate_2
+					1 = male_clothes_secular_asoiaf_lannister_war_plate_2_sash
+					1 = male_clothes_secular_asoiaf_lannister_war_plate_2_sash_ceremonial
+				}
+				female = {
+					1 = f_clothes_sec_northern_war_nob_01_lo
+				}
+				boy = male
+				girl = female
+			}
+
+			asoiaf_gold_cloak_clothes = { #AGOT+ Added
+				index = 205
+
+				male = {
+					1 = male_clothes_asoiaf_crownlands_gold_cloak_chest
+				}
+				female = {
+					1 = f_clothes_sec_northern_war_nob_01_lo #female_clothes_asoiaf_crownlands_gold_cloak_chest
+				}
+				boy = male
+				girl = female
+			}
+			
+			asoiaf_kingsguard_default_clothes = { #AGOT+ Added
+				index = 206
+
+				male = {
+					1 = male_clothes_secular_asoiaf_kingsguard_default
+				}
+				female = {
+					1 = f_clothes_sec_northern_war_nob_01_lo
+				}
+				boy = male
+				girl = female
+			}
 		}	
 	}
 }

@@ -644,6 +644,55 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
+
+		asoiaf_north_war_legs = { #AGOT+ added
+			index = 92
+			male = {
+				1 = male_legwear_secular_asoiaf_kingsguard_default_legs
+				1 = male_legwear_secular_asoiaf_north_war_plate_legs
+			}
+			female = {
+				1 = female_legwear_secular_fp1_common_01
+			}
+			boy = male
+			girl = female
+		}
+
+		asoiaf_lannister_war_legs = { #AGOT+ added
+			index = 93
+			male = {
+				1 = male_legwear_secular_asoiaf_lannister_war_plate_2_legs
+			}
+			female = {
+				1 = female_legwear_secular_fp1_common_01
+			}
+			boy = male
+			girl = female
+		}
+
+		asoiaf_gold_cloak_legs = { #AGOT+ added
+			index = 94
+			male = {
+				1 = male_legwear_asoiaf_crownlands_gold_cloak_legs
+			}
+			female = {
+				1 = female_legwear_secular_fp1_common_01 #female_legwear_asoiaf_crownlands_gold_cloak_legs
+			}
+			boy = male
+			girl = female
+		}
+
+		asoiaf_kingsguard_default_legs = { #AGOT+ added
+			index = 95
+			male = {
+				1 = male_legwear_secular_asoiaf_kingsguard_default_legs
+			}
+			female = {
+				1 = female_legwear_secular_fp1_common_01
+			}
+			boy = male
+			girl = female
+		}
 	}
 
 	special_legwear = {
@@ -1334,6 +1383,66 @@ accessory_genes = {
 			}
 			female = {
 				0 = empty
+			}
+			boy = male
+			girl = female
+		}
+
+		asoiaf_lannister_war_cloak = { #AGOT+ Added
+			index = 91
+			male = {
+				1 = male_cloak_secular_asoiaf_lannister_war_plate_2_cloak
+			}
+			female = {
+				0 = empty
+			}
+			boy = male
+			girl = female
+		}
+
+		asoiaf_gold_cloak_cloaks = { #AGOT+ Added
+			index = 92
+			male = {
+				1 = male_cloak_asoiaf_crownlands_gold_cloak_cloak
+			}
+			female = {
+				0 = empty #female_cloak_asoiaf_crownlands_gold_cloak_cloak
+			}
+			boy = male
+			girl = female
+		}
+		
+		asoiaf_kingsguard_default_cloak = { #AGOT+ Added
+			index = 93
+			male = {
+				1 = male_cloak_secular_asoiaf_kingsguard_default_cloak
+			}
+			female = {
+				0 = empty
+			}
+			boy = male
+			girl = female
+		}
+		
+		asoiaf_northern_cloaks = { #AGOT+ Added
+			index = 94
+			male = {
+				4 = male_cloaks_secular_fp1_agot_northern_01
+				2 = male_cloaks_secular_north_high_winter_01
+				2 = male_cloaks_secular_north_high_winter_dynastic_01
+				2 = male_furs_secular_fp1_nobility_01
+				4 = male_furs_secular_fp1_nobility_02
+				1 = male_furs_secular_fp1_nobility_03
+				1 = empty
+			}
+			female = {
+				2 = female_cloaks_secular_fp1_agot_northern_01
+				2 = female_cloaks_secular_north_high_winter_01
+				2 = female_cloaks_secular_north_high_winter_dynastic_01
+				4 = female_furs_secular_fp1_nobility_01
+				4 = female_furs_secular_fp1_nobility_02
+				1 = female_furs_secular_fp1_nobility_03
+				1 = empty
 			}
 			boy = male
 			girl = female

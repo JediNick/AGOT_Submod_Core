@@ -60,6 +60,31 @@
 		template = kingsguard_cloak_aotk
 	}
 
+	add_accessory_modifiers = { #AGOT+
+		gene = cloaks
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_lannister_war_cloak
+	}
+
+	add_accessory_modifiers = { #AGOT+
+		gene = cloaks
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_gold_cloak_cloaks
+	}
+	
+	add_accessory_modifiers = { #AGOT+
+		gene = cloaks
+		is_valid_custom = {
+			exists = global_var:app_enabled
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_kingsguard_default_cloak
+	}
+
 	add_accessory_modifiers = {
 		gene = cloaks
 		template = ep3_byzantine_era1_nob

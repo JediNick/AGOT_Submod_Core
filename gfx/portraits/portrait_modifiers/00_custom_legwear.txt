@@ -30,6 +30,30 @@
 		template = valyrian_nobility_legwear
 	}
 
+	add_accessory_modifiers = { #AGOT+
+		gene = legwear
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_north_war_legs
+	}
+	
+	add_accessory_modifiers = { #AGOT+
+		gene = legwear
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_lannister_war_legs
+	}
+
+	add_accessory_modifiers = { #AGOT+
+		gene = legwear
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_gold_cloak_legs
+	}
+
 	add_accessory_modifiers = {
 		gene = legwear
 		template = western_common_legwear

@@ -77,6 +77,39 @@
 		template = valyrian_nobility_clothing_generic
 	}
 
+	add_accessory_modifiers = { #AGOT+
+		gene = clothes
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_north_war_clothes
+	}
+	
+	add_accessory_modifiers = { #AGOT+
+		gene = clothes
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_lannister_war_clothes
+	}
+
+	add_accessory_modifiers = { #AGOT+
+		gene = clothes
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_gold_cloak_clothes
+	}
+	
+	add_accessory_modifiers = { #AGOT+
+		gene = clothes
+		is_valid_custom = {
+			exists = global_var:app_enabled
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_kingsguard_default_clothes
+	}
+
 	add_accessory_modifiers = {
 		gene = clothes
 		template = sp3_western_royalty_clothes

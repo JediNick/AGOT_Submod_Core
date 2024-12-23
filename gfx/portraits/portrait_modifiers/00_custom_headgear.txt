@@ -126,6 +126,48 @@
 		template = viserys_crown
 	}
 
+	##AGOT+
+	add_accessory_modifiers = { #AGOT+
+		gene = headgear
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_crowns
+	}
+	
+	add_accessory_modifiers = { #AGOT+
+		gene = headgear
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_north_plate_helm
+	}
+	
+	add_accessory_modifiers = { #AGOT+
+		gene = headgear
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_lannister_plate_helm
+	}
+
+	add_accessory_modifiers = { #AGOT+
+		gene = headgear
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_gold_cloak_helms
+	}
+	
+	add_accessory_modifiers = { #AGOT+
+		gene = headgear
+		is_valid_custom = {
+			exists = global_var:app_enabled
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_kingsguard_default_helm
+	}
+
 	## Veils ##
 	add_accessory_modifiers = {
 		gene = headgear
