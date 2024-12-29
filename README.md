@@ -8,14 +8,15 @@ The intention for this mod is to be a center piece for submods that interact wit
 
 Please follow the load order below when using this mod.
 
-![Load Order](https://i.imgur.com/wxgYXrZ.png)
+![Load Order](https://i.imgur.com/8CW03Ar.png)
 
 ### Supported Mods
 - [Crowns of Westeros](https://steamcommunity.com/workshop/filedetails/?id=2995674648)
 - [Armor of the Kingsguard](https://github.com/JediNick/Armor_Of_The_Kingsguard)
 - [Legacy of the Dragon](https://github.com/JediNick/Legacy_Of_The_Dragon)
 - [Valyrian Steel](https://github.com/JediNick/Valyrian_Steel)
-- [AGOT+](https://steamcommunity.com/sharedfiles/filedetails/?id=2950245430) ( Soft support )
+- [AGOT+](https://steamcommunity.com/sharedfiles/filedetails/?id=2950245430)
+- The Golden Company
 
 ### Mod Compatability
 
