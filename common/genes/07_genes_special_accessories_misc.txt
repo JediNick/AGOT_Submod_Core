@@ -3690,6 +3690,17 @@ pol_marshal_sword_left = {
 			boy = male
 			girl = female
 		}
+		asoiaf_artifact_weapon_ice = { #AGOT+ added
+			index = 152
+			male = {
+				1 = asoiaf_sword_ice_prop
+			}
+			female = {
+				1 = asoiaf_sword_ice_prop
+			}
+			boy = male
+			girl = female
+		}
 	}
 	#####################################
 	#									#
