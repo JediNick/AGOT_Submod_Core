@@ -3159,6 +3159,7 @@ special_genes = {
 					1 = male_clothes_westerlands_war_03
 					1 = male_clothes_westerlands_lannister_war_03
 					1 = male_clothes_westerlands_tywin_war
+					1 = male_clothes_westerlands_jimothy_war
 				}
 				female = {
 					0 = f_clothes_sec_northern_war_nob_01_lo
@@ -3459,6 +3460,7 @@ special_genes = {
 					1 = male_clothes_westerlands_war_dynastic_02
 					1 = male_clothes_westerlands_lannister_war_03
 					1 = male_clothes_westerlands_tywin_war
+					1 = male_clothes_westerlands_jimothy_war
 					1 = male_clothes_westerlands_war_03
 					1 = male_clothes_riverlands_tully_war_03
 					1 = male_clothes_riverlands_war_03

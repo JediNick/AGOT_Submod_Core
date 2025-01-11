@@ -45,6 +45,17 @@
 		}
 	}
 
+	marshal_pol_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = pol_marshal_sword
+				value = 1.0
+			}
+		}
+	}
+	
 	marshal_fp2_muslim_prop = {
 		dna_modifiers = {
 			accessory = {
@@ -2915,6 +2926,17 @@
 		}
 	}
 
+	agot_artifact_weapon_maekarmace = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_maekarmace
+				value = 1.0
+			}
+		}
+	}
+
 	agot_artifact_high_septon_staff = {
 		dna_modifiers = {
 			accessory = {
@@ -3118,6 +3140,17 @@
 		}
 	}
 
+	marshal_pol_prop_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = pol_marshal_sword_left
+				value = 1.0
+			}
+		}
+	}
+	
 	marshal_fp2_muslim_prop_left = {
 		dna_modifiers = {
 			accessory = {

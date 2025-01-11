@@ -2983,6 +2983,7 @@ special_genes = {
 					1 = male_headgear_secular_vale_war_03
 					1 = male_headgear_secular_vale_war_04
 					1 = male_headgear_secular_westerlands_tywin_war
+					1 = male_headgear_secular_westerlands_jimothy_war
 					1 = male_headgear_secular_westerlands_lannister_war_03
 					1 = male_headgear_secular_westerlands_war_03
 					1 = male_headgear_secular_riverlands_war_03
@@ -3028,6 +3029,7 @@ special_genes = {
 				index = 172
 				male = {
 					1 = male_headgear_secular_westerlands_tywin_war
+					1 = male_headgear_secular_westerlands_jimothy_war
 					1 = male_headgear_secular_westerlands_lannister_war_03
 					1 = male_headgear_secular_westerlands_war_03
 				}
