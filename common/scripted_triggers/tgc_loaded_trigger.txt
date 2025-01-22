@@ -149,7 +149,7 @@ tgc_targaryen_equipment_trigger = {
                 title:e_targaryen_host_title.holder.house = house:house_Essos
 
             }
-            NOT = { title:e_targaryen_host_title.holder.house = house_Blackfyre }
+            NOT = { title:e_targaryen_host_title.holder.house = house:house_Blackfyre }
             OR = {
                 employer ?= title:e_targaryen_host_title.holder
                 liege ?= title:e_targaryen_host_title.holder

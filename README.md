@@ -16,7 +16,7 @@ Please follow the load order below when using this mod.
 - [Legacy of the Dragon](https://github.com/JediNick/Legacy_Of_The_Dragon)
 - [Valyrian Steel](https://github.com/JediNick/Valyrian_Steel)
 - [AGOT+](https://steamcommunity.com/sharedfiles/filedetails/?id=2950245430)
-- The Golden Company
+- [The Golden Company](https://github.com/JediNick/The-Golden-Company)
 
 ### Mod Compatability
 
