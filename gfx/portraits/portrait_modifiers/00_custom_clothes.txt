@@ -110,6 +110,31 @@
 		template = asoiaf_kingsguard_default_clothes
 	}
 
+	add_accessory_modifiers = { #TGC added
+		gene = clothes
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+		template = golden_company_armor
+	}
+
+	add_accessory_modifiers = { #TGC added
+		gene = clothes
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+		template = golden_company_armor_black
+	}
+
+	add_accessory_modifiers = { #TGC added
+		gene = clothes
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+		template = golden_company_armor_blackfyre
+	}
+
+
 	add_accessory_modifiers = {
 		gene = clothes
 		template = sp3_western_royalty_clothes

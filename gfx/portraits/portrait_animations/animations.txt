@@ -40,6 +40,32 @@ idle = {
 			}
 		}
 
+
+
+		##TGC Added
+		hold_bow_idle = {
+			animation = { head = "hunting_bow_aim_entry" torso = "hunting_bow_aim_entry" }
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 1000
+					agot_should_be_knight_idle_trigger = yes
+					OR = {
+						tgc_black_balaq_trigger = yes
+						has_court_position = archer_captain_camp_officer
+					}
+
+					NOT = {
+						any_equipped_character_artifact = {
+							artifact_slot_type = primary_armament
+						}
+					}
+				}
+			}
+			portrait_modifier_pack = hunting_longbow_aim_arrow
+		}
+
 		
 		##AGOT Added
         hold_hammer_idle = {

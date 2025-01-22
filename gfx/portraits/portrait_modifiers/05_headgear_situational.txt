@@ -1301,4 +1301,519 @@
 			}
 		}
 	}
+
+    goldenCompany_normal = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = tgc_helmets
+                range = { 0.33 1.00 }
+			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = tgc_mask
+				range = { 0.0 1.0 } # For the randomness to work correctly
+			}
+
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_forward
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_height
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_width
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_jaw_def
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_nose_forward
+				value = 0.5
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_nose_length
+				value = 0.5
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_head_shape
+				value = 0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = face_detail_cheek_fat
+				value = 0.0
+			}	
+			morph = {
+				mode = modify_multiply				
+				gene = face_detail_cheek_def
+				value = 0.0
+			}
+
+			##just so you know, a battle happened right here.
+
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 1003
+				portrait_wear_helmet_trigger = yes
+                tgc_standard_equipment_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+	goldenCompany_captain = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = tgc_helmets
+                range = { 0.0 0.33 }
+			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = tgc_mask
+				range = { 0.0 1.0 } # For the randomness to work correctly
+			}
+
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_forward
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_height
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_width
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_jaw_def
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_nose_forward
+				value = 0.5
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_nose_length
+				value = 0.5
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_head_shape
+				value = 0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = face_detail_cheek_fat
+				value = 0.0
+			}	
+			morph = {
+				mode = modify_multiply				
+				gene = face_detail_cheek_def
+				value = 0.0
+			}
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 2003
+				portrait_wear_helmet_trigger = yes
+                tgc_standard_equipment_trigger = yes
+				tgc_captain_equipment_trigger = yes
+
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+	goldenCompany_chains = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = tgc_helmets_chains
+                range = { 0.0 1.0 }
+			}
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 3003
+				portrait_wear_helmet_trigger = yes
+                tgc_standard_equipment_trigger = yes
+				tgc_chains_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+	goldenCompany_normal_black = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = tgc_helmets_black
+                accessory = male_headgear_tgc_helm_black_02
+			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = tgc_mask_black
+				range = { 0 0.1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_forward
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_height
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_width
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_jaw_def
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_nose_forward
+				value = 0.5
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_nose_length
+				value = 0.5
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_head_shape
+				value = 0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = face_detail_cheek_fat
+				value = 0.0
+			}	
+			morph = {
+				mode = modify_multiply				
+				gene = face_detail_cheek_def
+				value = 0.0
+			}
+
+			
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 1003
+				portrait_wear_armor_trigger = yes
+                tgc_standard_equipment_trigger = yes
+                tgc_black_balaq_trigger = yes
+
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+	goldenCompany_captain_black = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = tgc_helmets_black
+                accessory = male_headgear_tgc_helm_black_01
+			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = tgc_mask_black
+				range = { 0 0.1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_forward
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_height
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_width
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_jaw_def
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_nose_forward
+				value = 0.5
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_nose_length
+				value = 0.5
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_head_shape
+				value = 0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = face_detail_cheek_fat
+				value = 0.0
+			}	
+			morph = {
+				mode = modify_multiply				
+				gene = face_detail_cheek_def
+				value = 0.0
+			}
+
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 2003
+				portrait_wear_armor_trigger = yes
+                tgc_standard_equipment_trigger = yes
+				tgc_captain_equipment_trigger = yes
+                tgc_black_balaq_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+	goldenCompany_normal_blackfyre = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = tgc_helmets_blackfyre
+                range = { 0.31 1.00 }
+			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = tgc_mask_blackfyre
+				range = { 0.0 1.0 } # For the randomness to work correctly
+			}
+
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_forward
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_height
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_width
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_jaw_def
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_nose_forward
+				value = 0.5
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_nose_length
+				value = 0.5
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_head_shape
+				value = 0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = face_detail_cheek_fat
+				value = 0.0
+			}	
+			morph = {
+				mode = modify_multiply				
+				gene = face_detail_cheek_def
+				value = 0.0
+			}
+
+			##just so you know, a battle happened right here.
+
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 1003
+				portrait_wear_helmet_trigger = yes
+                OR = {
+					tgc_blackfyre_or_targ_equipment_trigger = yes
+					tgc_blackfyre_house_equipment_trigger = yes
+                }	
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+	goldenCompany_captain_blackfyre = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = tgc_helmets_blackfyre
+                range = { 0.0 0.3 }
+			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = tgc_mask
+				range = { 0.0 1.0 } # For the randomness to work correctly
+			}
+
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_forward
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_height
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_width
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_jaw_def
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_nose_forward
+				value = 0.5
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_nose_length
+				value = 0.5
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_head_shape
+				value = 0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = face_detail_cheek_fat
+				value = 0.0
+			}	
+			morph = {
+				mode = modify_multiply				
+				gene = face_detail_cheek_def
+				value = 0.0
+			}
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 2003
+				portrait_wear_helmet_trigger = yes
+                OR = {
+					tgc_blackfyre_or_targ_equipment_trigger = yes
+                    tgc_blackfyre_house_equipment_trigger = yes
+                }	
+				tgc_captain_equipment_trigger = yes
+
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
 }

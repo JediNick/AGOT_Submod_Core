@@ -1,0 +1,59 @@
+﻿tgc_shield = {
+	entity = {	required_tags = ""        node = "bn_l_prop"	 }	
+}
+
+tgc_shield_right = {
+	entity = {	required_tags = ""        node = "bn_r_prop"	 }	
+}
+
+tgc_blackfyre_shield = {
+	entity = {	required_tags = ""        node = "bn_l_prop"	 }	
+}
+
+tgc_blackfyre_shield_right = {
+	entity = {	required_tags = ""        node = "bn_r_prop"	 }	
+}
+
+tgc_targ_shield = {
+	entity = {	required_tags = ""        node = "bn_l_prop"	 }	
+}
+
+tgc_targ_shield_right = {
+	entity = {	required_tags = ""        node = "bn_r_prop"	 }	
+}
+
+tgc_sword = {
+	entity = {	required_tags = ""        node = "bn_r_prop" }	
+}
+
+tgc_sword_left = {
+	entity = {	required_tags = ""        node = "bn_l_prop" }	
+}
+
+tgc_sword_blackfyre = {
+	entity = {	required_tags = ""        node = "bn_r_prop" }	
+}
+
+tgc_sword_blackfyre_left = {
+	entity = {	required_tags = ""        node = "bn_l_prop" }	
+}
+
+tgc_sword_blackfyre_alt = {
+	entity = {	required_tags = ""        node = "bn_r_prop" }	
+}
+
+tgc_sword_blackfyre_left_alt = {
+	entity = {	required_tags = ""        node = "bn_l_prop" }	
+}
+
+tgc_banner = {
+	entity = {	required_tags = ""        node = "bn_l_prop" }	
+}
+
+tgc_banner_dyn = {
+	entity = {	required_tags = ""        node = "bn_l_prop" }	
+}
+
+tgc_skullPike = {
+	entity = {	required_tags = ""        node = "bn_l_prop" }	
+}

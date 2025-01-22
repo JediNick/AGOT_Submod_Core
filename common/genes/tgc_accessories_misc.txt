@@ -1,0 +1,111 @@
+﻿special_genes = {
+
+
+	accessory_genes = {
+
+	#####################################
+	#									#
+	# 		  	   PROPS  		        #
+	#									#
+	#####################################
+
+
+
+	  props_tgc = {
+		
+			no_props = {
+				index = 0
+				male = {
+				}
+				female = {
+				}
+				boy = {
+				}
+				girl = {
+				}
+			}
+
+	    grid = {
+			index = 1
+			male = {
+				1 = debug_grid_01
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	      
+		tgc_shield = {
+			index = 2
+			male = {
+				1 = tgc_shield
+				1 = tgc_shield_right
+				1 = tgc_blackfyre_shield
+				1 = tgc_blackfyre_shield_right
+				1 = tgc_targ_shield
+				1 = tgc_targ_shield_right
+			}
+			female = male
+			boy = male
+			girl = female
+		}	   
+		tgc_banner = {
+			index = 3
+			male = {
+				1 = tgc_banner
+				1 = tgc_banner_dyn
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgc_skullPike = {
+			index = 4
+			male = {
+				1 = tgc_skullPike
+			}
+			female = male
+			boy = male
+			girl = female
+		}	
+	}
+
+	props_tgc_sword = {
+		
+		no_props = {
+			index = 0
+			male = {
+			}
+			female = {
+			}
+			boy = {
+			}
+			girl = {
+			}
+		}		  
+		tgc_sword = {
+			index = 1
+			male = {
+				1 = tgc_sword
+				1 = tgc_sword_left
+
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgc_sword_blackfyre = {
+			index = 2
+			male = {
+				1 = tgc_sword_blackfyre
+				1 = tgc_sword_blackfyre_alt
+				1 = tgc_sword_blackfyre_left
+				1 = tgc_sword_blackfyre_left_alt
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+	}
+  }
+}

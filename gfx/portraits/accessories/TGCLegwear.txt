@@ -1,0 +1,30 @@
+﻿male_legwear_captainsPants_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		  }
+}
+male_legwear_standardPants_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		  }
+}
+male_legwear_twoSwordsPants_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		  }
+}
+
+male_legwear_captainsPants_black_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		  }
+}
+male_legwear_standardPants_black_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		  }
+}
+male_legwear_twoSwordsPants_black_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		  }
+}
+
+
+male_legwear_captainsPants_blackfyre_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		  }
+}
+male_legwear_standardPants_blackfyre_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		  }
+}
+male_legwear_twoSwordsPants_blackfyre_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		  }
+}

@@ -1,0 +1,65 @@
+﻿male_clothes_captainsArmor_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+
+male_clothes_captainsArmorMetal_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+
+male_clothes_ornateVest_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+
+male_clothes_standardVest_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+
+male_clothes_platedVest_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+
+male_clothes_platedVest_chains_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso       }		
+}
+
+##Black
+
+male_clothes_captainsArmor_black_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+
+male_clothes_captainsArmorMetal_black_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+
+male_clothes_ornateVest_black_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+
+male_clothes_standardVest_black_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+
+male_clothes_platedVest_black_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+
+male_clothes_captainsArmor_blackfyre_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+
+male_clothes_captainsArmorMetal_blackfyre_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+
+male_clothes_ornateVest_blackfyre_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+
+male_clothes_standardVest_blackfyre_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+
+male_clothes_platedVest_blackfyre_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}

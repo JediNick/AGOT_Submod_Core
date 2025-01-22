@@ -22,6 +22,29 @@
 		template = kingsguard_legwear_01
 	}
 
+	### AGOT Submod Core ###
+	add_accessory_modifiers = {
+		gene = legwear
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+		template = tgc_pants
+	}
+	### AGOT Submod Core ###
+	add_accessory_modifiers = {
+		gene = legwear
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+		template = tgc_pants_black
+	}	### AGOT Submod Core ###
+	add_accessory_modifiers = {
+		gene = legwear
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+		template = tgc_pants_blackfyre
+	}
 	add_accessory_modifiers = {
 		gene = legwear
 		is_valid_custom = {

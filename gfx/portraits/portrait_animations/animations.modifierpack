@@ -211,6 +211,7 @@ one_handed_mace = {
 ##AGOT ADDED, keep this in sync with any changes to one_handed_mace
 one_handed_mace_shield = {
 
+
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = mace }
@@ -222,6 +223,46 @@ one_handed_mace_shield = {
 		animations = dwarf_additive
 		animations = female_prop_fix_additive
 	}
+
+	##TGC ADDED START ##
+	portrait_modifier = {
+		trigger = {
+			OR = {
+				tgc_blackfyre_house_equipment_trigger = yes
+				tgc_blackfyre_equipment_trigger = yes
+			}
+		}
+		animations_props = artifact_mace_equipped_prop
+		animations_props = tgc_blackfyre_shield_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			OR = {
+				tgc_targaryen_equipment_trigger = yes
+			}
+		}
+		animations_props = artifact_mace_equipped_prop
+		animations_props = tgc_targ_shield_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	
+	portrait_modifier = {
+		trigger = {
+            tgc_standard_equipment_trigger = yes
+		}
+		animations_props = artifact_mace_equipped_prop
+		animations_props = tgc_shield_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	##TGC ADDED END ##
 
 	portrait_modifier = { # Norse
 		trigger = {
@@ -334,7 +375,26 @@ one_handed_sword = {
 		animations = dwarf_additive
 		animations = female_prop_fix_additive
 	}
-
+	##TGC ADDED START ##
+	portrait_modifier = {
+		trigger = {
+                tgc_standard_equipment_trigger = yes
+		}
+		animations_props = tgc_sword
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	portrait_modifier = {
+		trigger = {
+                tgc_blackfyre_or_targ_equipment_trigger = yes
+		}
+		animations_props = tgc_sword_blackfyre
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	##TGC ADDED END ##
 
     ##AGOT Added
      portrait_modifier = {
@@ -803,6 +863,30 @@ lefthanded_one_handed_sword = {
 		animations = female_prop_fix_additive
 	}
 
+	##TGC ADDED START ##
+	portrait_modifier = {
+		trigger = {
+            tgc_standard_equipment_trigger = yes
+		}
+		animations_props = tgc_sword_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	portrait_modifier = {
+		trigger = {
+			OR = {
+				tgc_blackfyre_house_equipment_trigger = yes
+				tgc_blackfyre_or_targ_equipment_trigger = yes
+			}		
+		}
+		animations_props = tgc_sword_blackfyre_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	##TGC ADDED END ##
+
 	portrait_modifier = { # West Slavic
 		trigger = {
 			NOT = { any_equipped_character_artifact = { artifact_type = sword } }
@@ -1003,6 +1087,30 @@ council_marshal = {
         animations = fat_additive
         animations = dwarf_additive
     }
+
+	##TGC ADDED START ##
+	portrait_modifier = {
+		trigger = {
+            tgc_standard_equipment_trigger = yes
+		}
+		animations_props = tgc_sword
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	portrait_modifier = {
+		trigger = {
+            OR = {
+				tgc_blackfyre_house_equipment_trigger = yes
+				tgc_blackfyre_or_targ_equipment_trigger = yes
+			}	
+		}
+		animations_props = tgc_sword_blackfyre
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	##TGC ADDED END ##
     
     ##SMC
     portrait_modifier = { # Equipped
@@ -1309,7 +1417,83 @@ council_chancellor = {
     }
 }
 council_marshal_shield = {
-	
+
+	##TGC ADDED START #
+	portrait_modifier = { # Equipped
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+			OR = {
+				tgc_blackfyre_house_equipment_trigger = yes
+				tgc_blackfyre_equipment_trigger = yes
+			}	
+		}
+		animations_props = artifact_sword_equipped_prop
+		animations_props = tgc_blackfyre_shield_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	portrait_modifier = { # Equipped
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+			OR = {
+				tgc_targaryen_equipment_trigger = yes
+			}	
+		}
+		animations_props = artifact_sword_equipped_prop
+		animations_props = tgc_targ_shield_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	portrait_modifier = {
+		trigger = {
+			OR = {
+				tgc_blackfyre_house_equipment_trigger = yes
+				tgc_blackfyre_equipment_trigger = yes
+			}			
+		}
+		animations_props = tgc_sword_blackfyre
+		animations_props = tgc_blackfyre_shield_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	portrait_modifier = {
+		trigger = {
+			OR = {
+				tgc_targaryen_equipment_trigger = yes
+			}			
+		}
+		animations_props = tgc_sword_blackfyre
+		animations_props = tgc_targ_shield_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	portrait_modifier = { # Equipped
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+			tgc_standard_equipment_trigger = yes
+		}
+		animations_props = artifact_sword_equipped_prop
+		animations_props = tgc_shield_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	portrait_modifier = {
+		trigger = {
+            tgc_standard_equipment_trigger = yes
+		}
+		animations_props = tgc_sword
+		animations_props = tgc_shield_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	##TGC ADDED END ##
+
 	portrait_modifier = {   # POL
 		trigger = {
 			has_dlc_feature = west_slavic_attire
@@ -1574,8 +1758,9 @@ throneRoom_one_handed_passive_1 = {
 		animations = dwarf_additive
 		animations = female_prop_fix_additive
 	}
+	
 
-		portrait_modifier = { # Equipped
+	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = sword }
 		}
@@ -1584,6 +1769,30 @@ throneRoom_one_handed_passive_1 = {
 		animations = fat_additive
 		animations = dwarf_additive
 	}
+	
+	##TGC ADDED START ##
+	portrait_modifier = {
+		trigger = {
+                tgc_standard_equipment_trigger = yes
+		}
+		animations_props = tgc_sword
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	portrait_modifier = {
+		trigger = {
+			OR = {
+				tgc_blackfyre_house_equipment_trigger = yes
+				tgc_blackfyre_or_targ_equipment_trigger = yes
+			}			
+		}
+		animations_props = tgc_sword_blackfyre
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	##TGC ADDED END ##
 
 	##AGOT ADDED
 	portrait_modifier = { # Equipped
@@ -1824,6 +2033,30 @@ throneRoom_one_handed_passive_2 = {
 		animations = fat_additive
 		animations = dwarf_additive
 	}
+
+	##TGC ADDED START ##
+	portrait_modifier = {
+		trigger = {
+                tgc_standard_equipment_trigger = yes
+		}
+		animations_props = tgc_sword
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	portrait_modifier = {
+		trigger = {
+			OR = {
+				tgc_blackfyre_house_equipment_trigger = yes
+				tgc_blackfyre_or_targ_equipment_trigger = yes
+			}			
+		}
+		animations_props = tgc_sword_blackfyre
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	##TGC ADDED END ##
 
 	##AGOT ADDED
 	portrait_modifier = { # Equipped
@@ -2069,6 +2302,90 @@ throneRoom_two_handed_passive_1 = {
 }
 
 throneRoom_two_handed_passive_shield = {
+
+	##TGC ADDED START ##
+	portrait_modifier = { # Equipped
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = spear }
+			OR = {
+				tgc_blackfyre_house_equipment_trigger = yes
+				tgc_blackfyre_equipment_trigger = yes
+			}			
+		}
+		animations_props = artifact_spear_equipped_prop_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+		animations_props = tgc_blackfyre_shield_right
+	}
+
+	portrait_modifier = { # Equipped
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = spear }
+			OR = {
+				tgc_targaryen_equipment_trigger = yes
+			}			
+		}
+		animations_props = artifact_spear_equipped_prop_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+		animations_props = tgc_targ_shield_right
+	}
+
+	portrait_modifier = {
+		trigger = {
+			OR = {
+				tgc_blackfyre_house_equipment_trigger = yes
+				tgc_blackfyre_equipment_trigger = yes
+			}			
+		}
+		animations_props = artifact_spear_equipped_prop_left
+		animations_props = tgc_blackfyre_shield_right
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			OR = {
+				tgc_targaryen_equipment_trigger = yes
+			}			
+		}
+		animations_props = artifact_spear_equipped_prop_left
+		animations_props = tgc_targ_shield_right
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	
+	portrait_modifier = { # Equipped
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = spear }
+			tgc_standard_equipment_trigger = yes
+		}
+		animations_props = artifact_spear_equipped_prop_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+		animations_props = tgc_shield_right
+	}
+
+	portrait_modifier = {
+		trigger = {
+            tgc_standard_equipment_trigger = yes
+		}
+		animations_props = artifact_spear_equipped_prop_left
+		animations_props = tgc_shield_right
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	##TGC ADDED END ##
 
 	portrait_modifier = { # Equipped
 		trigger = {

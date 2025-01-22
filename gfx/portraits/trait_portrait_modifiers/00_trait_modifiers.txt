@@ -960,6 +960,11 @@ blind = {
 			}
 			morph = {
 				mode = modify_multiply				
+				gene = gene_bs_cheek_forward
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
 				gene = gene_bs_cheek_height
 				value = 0.0
 			}
@@ -1431,6 +1436,7 @@ blind = {
 			}
 		}
 		dna_modifiers = {
+			human = {
 			accessory = {
 				mode = add				
 				gene = special_headgear_face_mask_viserys
@@ -1460,6 +1466,7 @@ blind = {
 				value = 0.5
 			}
 		}
+	  }
 	}
 	disfigured_valyrian_02 = {
 		traits = {
@@ -1479,6 +1486,7 @@ blind = {
 			}
 		}
 		dna_modifiers = {
+			human = {
 			accessory = {
 				mode = add				
 				gene = special_headgear_face_mask_viserys
@@ -1508,6 +1516,7 @@ blind = {
 				value = 0.0
 			}
 		}
+	  }
 	}
 	disfigured_valyrian_03 = {
 		traits = {
@@ -1527,6 +1536,7 @@ blind = {
 			}
 		}
 		dna_modifiers = {
+			human = {
 			accessory = {
 				mode = add				
 				gene = special_headgear_face_mask_viserys
@@ -1556,6 +1566,7 @@ blind = {
 				value = 0.0
 			}
 		}
+	  }
 	}
 	disfigured_valyrian_04 = {
 		traits = {
@@ -1575,6 +1586,7 @@ blind = {
 			}
 		}
 		dna_modifiers = {
+			human = {
 			accessory = {
 				mode = add				
 				gene = special_headgear_face_mask_viserys
@@ -1604,6 +1616,7 @@ blind = {
 				value = 0.0
 			}
 		}
+	  }
 	}
 	disfigured_valyrian_05 = {
 		traits = {
@@ -1623,6 +1636,7 @@ blind = {
 			}
 		}
 		dna_modifiers = {
+			human = {
 			accessory = {
 				mode = add				
 				gene = special_headgear_face_mask_viserys
@@ -1652,6 +1666,7 @@ blind = {
 				value = 0.0
 			}
 		}
+	 }
 	}
 
 

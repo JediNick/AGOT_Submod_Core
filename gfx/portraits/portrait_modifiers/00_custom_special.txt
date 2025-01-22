@@ -90,4 +90,27 @@
 			is_lotd_loaded_trigger = yes
 		}
 	}
+
+	add_accessory_modifiers = {
+		gene = additive_headgear
+		template = tgc_mask
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = additive_headgear
+		template = tgc_mask_black
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = additive_headgear
+		template = tgc_mask_blackfyre
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+	}
 }

@@ -1,0 +1,185 @@
+﻿is_tgc_loaded_trigger = {  
+    trigger_if = {  
+        limit = {
+            exists = global_var:tgc_enabled
+        }
+    }
+    trigger_else = { always = no }
+}
+
+tgc_standard_equipment_trigger = {
+    has_game_rule = tgc_enabled_enabled
+    is_male = yes
+    is_tgc_loaded_trigger = yes
+    portrait_wear_armor_trigger = yes
+    NOT = { house = house:house_Blackfyre }
+    OR = {
+        has_character_flag = mercenary_soldier_golden_company
+        AND = {
+            exists = title:d_laamp_merc_golden_company.holder
+            employer ?= title:d_laamp_merc_golden_company.holder
+        }
+        AND = { 
+            exists = global_var:dynamic_gc_formed
+            OR = {
+                has_title = global_var:dynamic_gc_formed
+                employer ?= {
+                    has_title = global_var:dynamic_gc_formed
+                }
+            }
+        }
+    }
+}
+
+tgc_black_balaq_trigger = {
+    AND = {
+        exists = character:Golden_Company_1
+        this = character:Golden_Company_1
+    }
+}
+
+tgc_swords_trigger = {
+    AND = {
+        exists = character:Golden_Company_8
+        this = character:Golden_Company_8
+    }
+}
+
+tgc_chains_trigger = {
+    AND = {
+        exists = character:Golden_Company_3
+        this = character:Golden_Company_3
+    }
+}
+
+
+tgc_captain_equipment_trigger = {
+    is_tgc_loaded_trigger = yes
+    is_male = yes
+    has_game_rule = tgc_enabled_enabled
+
+    OR = {
+        AND = {
+            exists = title:d_laamp_merc_golden_company.holder
+            this = title:d_laamp_merc_golden_company.holder
+            is_landless_adventurer = yes                
+        }
+        AND = { 
+            exists = global_var:dynamic_gc_formed
+            has_title = global_var:dynamic_gc_formed
+        }
+        has_court_position = second_camp_officer
+        has_court_position = quartermaster_camp_officer
+        has_court_position = armorer_camp_officer
+        has_court_position = chief_engineer_camp_officer
+        has_court_position = master_of_arms_camp_officer
+        has_court_position = light_cavalry_captain_camp_officer
+        has_court_position = camelry_captain_camp_officer
+        has_court_position = elephantry_captain_camp_officer
+        has_court_position = horse_archer_captain_camp_officer
+        has_court_position = pike_captain_camp_officer
+        has_court_position = archer_captain_camp_officer
+        has_court_position = heavy_infantry_captain_camp_officer
+        has_court_position = light_infantry_captain_camp_officer
+        has_court_position = archer_captain_camp_officer
+        has_court_position = archer_captain_camp_officer
+        has_court_position = archer_captain_camp_officer
+        this = title:e_blackfyre_rebellion.holder
+        this = title:e_targaryen_host_title.holder
+
+    }
+}
+
+tgc_blackfyre_or_targ_equipment_trigger = {
+    has_game_rule = tgc_enabled_enabled
+    OR = {
+        tgc_blackfyre_equipment_trigger = yes
+        tgc_targaryen_equipment_trigger = yes
+    }
+}
+
+tgc_blackfyre_equipment_trigger = {
+    OR = {
+        AND = {
+            has_game_rule = tgc_blackfyre_enabled
+            is_tgc_loaded_trigger = yes
+            is_male = yes
+            portrait_wear_armor_trigger = yes
+            OR = {
+                AND = {
+                    exists = title:e_blackfyre_rebellion.holder
+                    OR = {
+                        employer ?= title:e_blackfyre_rebellion.holder
+                        liege ?= title:e_blackfyre_rebellion.holder
+                        this = title:e_blackfyre_rebellion.holder
+                    }
+                }
+            }  
+        }
+        AND = {
+            has_game_rule = tgc_faegon_enabled
+            is_tgc_loaded_trigger = yes
+            is_male = yes
+            portrait_wear_armor_trigger = yes
+            OR = {
+                AND = {
+                    exists = title:e_targaryen_host_title.holder
+                    title:e_targaryen_host_title.holder.house = house_Blackfyre
+                    OR = {
+                        employer ?= title:e_targaryen_host_title.holder
+                        liege ?= title:e_targaryen_host_title.holder
+                        this = title:e_targaryen_host_title.holder
+                    }
+                }
+            }
+        }
+    }
+}
+
+tgc_targaryen_equipment_trigger = {
+    has_game_rule = tgc_faegon_enabled
+    is_tgc_loaded_trigger = yes
+    is_male = yes
+    portrait_wear_armor_trigger = yes
+    OR = {
+        AND = {
+            exists = title:e_targaryen_host_title.holder
+            OR = {
+                title:e_targaryen_host_title.holder.dynasty = dynasty:dynn_Targaryen
+                title:e_targaryen_host_title.holder.house = house:house_Essos
+
+            }
+            NOT = { title:e_targaryen_host_title.holder.house = house_Blackfyre }
+            OR = {
+                employer ?= title:e_targaryen_host_title.holder
+                liege ?= title:e_targaryen_host_title.holder
+                this = title:e_targaryen_host_title.holder
+            }
+        }
+    }
+}
+
+tgc_blackfyre_house_equipment_trigger = {
+    has_game_rule = tgc_enabled_enabled
+    has_game_rule = tgc_blackfyre_enabled
+    is_tgc_loaded_trigger = yes
+    is_male = yes
+    portrait_wear_armor_trigger = yes
+    house = house:house_Blackfyre
+    OR = {
+        has_character_flag = mercenary_soldier_golden_company
+        AND = {
+            exists = title:d_laamp_merc_golden_company.holder
+            employer ?= title:d_laamp_merc_golden_company.holder
+        }
+        AND = { 
+            exists = global_var:dynamic_gc_formed
+            OR = {
+                has_title = global_var:dynamic_gc_formed
+                employer ?= {
+                    has_title = global_var:dynamic_gc_formed
+                }
+            }
+        }
+    }
+}

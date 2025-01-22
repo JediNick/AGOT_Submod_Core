@@ -1,0 +1,41 @@
+﻿male_headgear_tgc_helm_01 = {
+	entity = { required_tags = ""		shared_pose_entity = head	  }
+}
+
+male_headgear_tgc_helm_02 = {
+	entity = { required_tags = ""		shared_pose_entity = head	 	  }
+}
+
+male_headgear_tgc_helm_03 = {
+	entity = { required_tags = ""		shared_pose_entity = head	  }
+}
+
+male_headgear_tgc_helm_black_01 = {
+	entity = { required_tags = ""		shared_pose_entity = head	  }
+}
+
+male_headgear_tgc_helm_black_02 = {
+	entity = { required_tags = ""		shared_pose_entity = head	 	  }
+}
+
+male_headgear_tgc_helm_black_03 = {
+	entity = { required_tags = ""		shared_pose_entity = head	  }
+}
+
+male_headgear_tgc_facemask_01 = {
+	entity = { required_tags = ""		shared_pose_entity = head	  }
+}
+
+male_headgear_tgc_facemask_black_01 = {
+	entity = { required_tags = ""		shared_pose_entity = head	  }
+}
+male_headgear_tgc_facemask_blackfyre_01 = {
+	entity = { required_tags = ""		shared_pose_entity = head	  }
+}
+male_headgear_tgc_facemask_blackfyreAlt_01 = {
+	entity = { required_tags = ""		shared_pose_entity = head	  }
+}
+
+male_headgear_chains_headgear = {	
+	entity = { required_tags = ""			shared_pose_entity = head	 }
+}

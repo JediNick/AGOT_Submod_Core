@@ -693,6 +693,52 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
+		
+		##TGC ADDED		
+		tgc_pants = {
+			index = 96
+			male = {
+				1 = male_legwear_captainsPants_01
+				1 = male_legwear_standardPants_01
+				1 = male_legwear_twoSwordsPants_01
+
+			}
+			female = {
+				1 = female_legwear_secular_fp1_common_01
+			}
+			boy = male
+			girl = female
+		}
+
+		tgc_pants_black = {
+			index = 97
+			male = {
+				1 = male_legwear_captainsPants_black_01
+				1 = male_legwear_standardPants_black_01
+				1 = male_legwear_twoSwordsPants_black_01
+			}
+			female = {
+				1 = female_legwear_secular_fp1_common_01
+			}
+			boy = male
+			girl = female
+		}
+		tgc_pants_blackfyre = {
+			index = 98
+			male = {
+				1 = male_legwear_captainsPants_blackfyre_01
+				1 = male_legwear_captainsPants_blackfyreAlt_01
+				1 = male_legwear_standardPants_blackfyre_01
+				1 = male_legwear_standardPants_blackfyreAlt_01
+				1 = male_legwear_twoSwordsPants_blackfyre_01
+				1 = male_legwear_twoSwordsPants_blackfyreAlt_01
+			}
+			female = {
+				1 = female_legwear_secular_fp1_common_01
+			}
+			boy = male
+			girl = female
+		}
 	}
 
 	special_legwear = {

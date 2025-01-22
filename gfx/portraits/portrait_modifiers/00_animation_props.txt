@@ -55,7 +55,7 @@
 			}
 		}
 	}
-	
+
 	marshal_fp2_muslim_prop = {
 		dna_modifiers = {
 			accessory = {
@@ -2926,17 +2926,6 @@
 		}
 	}
 
-	agot_artifact_weapon_maekarmace = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_right
-				template = agot_artifact_weapon_maekarmace
-				value = 1.0
-			}
-		}
-	}
-
 	agot_artifact_high_septon_staff = {
 		dna_modifiers = {
 			accessory = {
@@ -3150,7 +3139,7 @@
 			}
 		}
 	}
-	
+
 	marshal_fp2_muslim_prop_left = {
 		dna_modifiers = {
 			accessory = {
@@ -4001,6 +3990,153 @@
 				gene = props_valyrian
 				template = valyrian_paged_book
 				value = 1.0
+			}
+		}
+	}
+
+	tgc_shield_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_tgc
+				template = tgc_shield
+				accessory = tgc_shield
+			}
+		}
+	}
+
+	
+	tgc_shield_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_tgc
+				template = tgc_shield
+				accessory = tgc_shield_right
+			}
+		}
+	}
+
+	tgc_blackfyre_shield_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_tgc
+				template = tgc_shield
+				accessory = tgc_blackfyre_shield
+			}
+		}
+	}
+
+	
+	tgc_blackfyre_shield_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_tgc
+				template = tgc_shield
+				accessory = tgc_blackfyre_shield_right
+			}
+		}
+	}
+
+	tgc_targ_shield_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_tgc
+				template = tgc_shield
+				accessory = tgc_targ_shield
+			}
+		}
+	}
+
+	
+	tgc_targ_shield_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_tgc
+				template = tgc_shield
+				accessory = tgc_targ_shield_right
+			}
+		}
+	}
+
+	
+	tgc_sword = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_tgc_sword
+				template = tgc_sword
+				accessory = tgc_sword
+			}
+		}
+	}
+
+	tgc_sword_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_tgc_sword
+				template = tgc_sword
+				accessory = tgc_sword_left
+			}
+		}
+	}
+
+	tgc_sword_blackfyre = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_tgc_sword
+				template = tgc_sword_blackfyre
+				range = {0.0 0.5}
+			}
+		}
+	}
+
+	tgc_sword_blackfyre_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_tgc_sword
+				template = tgc_sword_blackfyre
+				range = {0.5 1.0}
+			}
+		}
+	}
+
+	tgc_banner = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_tgc
+				template = tgc_banner
+				accessory = tgc_banner
+			}
+		}
+	}
+
+	tgc_banner_dyn = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_tgc
+				template = tgc_banner
+				accessory = tgc_banner_dyn
+			}
+		}
+	}
+
+	tgc_skullPike = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_tgc
+				template = tgc_skullPike
+				range = {0.0 1.0}
 			}
 		}
 	}

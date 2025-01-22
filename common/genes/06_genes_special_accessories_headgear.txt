@@ -2983,7 +2983,6 @@ special_genes = {
 					1 = male_headgear_secular_vale_war_03
 					1 = male_headgear_secular_vale_war_04
 					1 = male_headgear_secular_westerlands_tywin_war
-					1 = male_headgear_secular_westerlands_jimothy_war
 					1 = male_headgear_secular_westerlands_lannister_war_03
 					1 = male_headgear_secular_westerlands_war_03
 					1 = male_headgear_secular_riverlands_war_03
@@ -3029,7 +3028,6 @@ special_genes = {
 				index = 172
 				male = {
 					1 = male_headgear_secular_westerlands_tywin_war
-					1 = male_headgear_secular_westerlands_jimothy_war
 					1 = male_headgear_secular_westerlands_lannister_war_03
 					1 = male_headgear_secular_westerlands_war_03
 				}
@@ -3667,6 +3665,64 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			tgc_helmets = { #TGC Added
+				index = 233
+				male = {
+					3 = male_headgear_tgc_helm_01
+					3 = male_headgear_tgc_helm_02
+					3 = male_headgear_tgc_helm_03
+				}
+				female = {
+					1 = f_headgear_sec_northern_war_nob_01_lo	
+				}
+				boy = male
+				girl = female
+			}
+
+			tgc_helmets_black = { #TGC Added
+				index = 234
+				male = {
+					3 = male_headgear_tgc_helm_black_01
+					3 = male_headgear_tgc_helm_black_02
+					3 = male_headgear_tgc_helm_black_03
+				}
+				female = {
+					1 = f_headgear_sec_northern_war_nob_01_lo	
+				}
+				boy = male
+				girl = female
+			}
+
+			
+			tgc_helmets_blackfyre = { #TGC Added
+				index = 235
+				male = {
+					3 = male_headgear_tgc_helm_blackfyre_01
+					3 = male_headgear_tgc_helm_blackfyreAlt_01
+					3 = male_headgear_tgc_helm_blackfyre_02
+					3 = male_headgear_tgc_helm_blackfyreAlt_02
+					3 = male_headgear_tgc_helm_blackfyre_03
+					3 = male_headgear_tgc_helm_blackfyreAlt_03
+				}
+				female = {
+					1 = f_headgear_sec_northern_war_nob_01_lo	
+				}
+				boy = male
+				girl = female
+			}
+
+			tgc_helmets_chains = {
+				index = 236
+				male = {
+					1 = male_headgear_chains_headgear
+				}
+				female = {
+					1 = f_headgear_sec_northern_war_nob_01_lo	
+				}
+				boy = male
+				girl = female
+			}
 		}
 
 		#--------------------------------------------------------------------------------------------------------
@@ -3855,6 +3911,48 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			tgc_mask = {
+				index = 9
+				male = {
+					10 = male_headgear_tgc_facemask_01
+					40 = empty				
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			tgc_mask_black = {
+				index = 10
+				male = {
+					10 = male_headgear_tgc_facemask_black_01
+					40 = empty				
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+
+			tgc_mask_blackfyre = {
+				index = 11
+				male = {
+					10 = male_headgear_tgc_facemask_blackfyre_01
+					10 = male_headgear_tgc_facemask_blackfyreAlt_01
+					80 = empty
+				}
+				female = {
+					1 = empty
+				}
+				boy = female
+				girl = female
+			}
+
 
 		}
 

@@ -102,6 +102,42 @@
 		template = KG_war_common
 	}
 
+	##Golden Company
+	add_accessory_modifiers = {
+		gene = headgear
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+		template = tgc_helmets
+	}
+
+	##Golden Company
+	add_accessory_modifiers = {
+		gene = headgear
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+			has_ep2_dlc_trigger = yes
+		}
+		template = tgc_helmets_chains
+	}
+	
+	##Golden Company
+	add_accessory_modifiers = {
+		gene = headgear
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+		template = tgc_helmets_black
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+		template = tgc_helmets_blackfyre
+	}
+
 	add_accessory_modifiers = {
 		gene = headgear
 		is_valid_custom = {
@@ -1196,5 +1232,4 @@
 		gene = special_headgear_spectacles
 		template = spectacles
 	}
-
 }

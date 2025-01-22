@@ -1606,4 +1606,235 @@
 		}
 	}
 
+    goldenCompany_normal = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = golden_company_armor
+                range = { 0.5 1 }
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 0.3 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = body_shape_average_clothed
+			}
+
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 750
+                tgc_standard_equipment_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+    goldenCompany_captain = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = golden_company_armor
+                range = { 0.18 0.49 }
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 0.3 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = body_shape_average_clothed
+			}
+
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 2000
+                tgc_standard_equipment_trigger = yes
+                tgc_captain_equipment_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+    goldenCompany_normal_black = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = golden_company_armor_black
+                accessory = male_clothes_ornateVest_black_01
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 0.3 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = body_shape_average_clothed
+			}
+
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 750
+                tgc_standard_equipment_trigger = yes
+                tgc_black_balaq_trigger = yes
+
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+    goldenCompany_captain_black = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = golden_company_armor_black
+                accessory = male_clothes_captainsArmorMetal_black_01
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 0.3 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = body_shape_average_clothed
+			}
+
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 2000
+                tgc_standard_equipment_trigger = yes
+                tgc_captain_equipment_trigger = yes
+                tgc_black_balaq_trigger = yes
+
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+    goldenCompany_normal_blackfyre = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = golden_company_armor_blackfyre
+                range = { 0.41 1 }
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 0.3 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = body_shape_average_clothed
+			}
+
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 750
+                OR = {
+					tgc_blackfyre_or_targ_equipment_trigger = yes
+					tgc_blackfyre_house_equipment_trigger = yes
+                }			
+            }
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+    goldenCompany_captain_blackfyre = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = golden_company_armor_blackfyre
+                range = { 0.0 0.39 }
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 0.3 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = body_shape_average_clothed
+			}
+
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 2000
+                tgc_captain_equipment_trigger = yes
+                OR = {
+					tgc_blackfyre_or_targ_equipment_trigger = yes
+					tgc_blackfyre_house_equipment_trigger = yes
+                }	
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
+
+    
+	goldenCompany_chains = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = golden_company_armor
+                accessory = male_clothes_platedVest_chains_01
+			}
+		}	
+		weight = {
+			base = -100
+			modifier = {
+				add = 3003
+                tgc_standard_equipment_trigger = yes
+				tgc_chains_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_adult = no
+					should_be_naked_trigger = yes
+				}
+			}			
+		}
+	}
 }
