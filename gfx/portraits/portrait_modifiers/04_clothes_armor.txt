@@ -2402,6 +2402,43 @@
         }
     }
 
+    agot_clothing_westerlander_jimothy_armor = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = westerlands_war_nobility_clothes
+                accessory = male_clothes_westerlands_jimothy_war
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = westerlands_war_legwear
+                accessory = male_legwear_secular_westerlands_lannister_war_03
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 145
+                OR = {
+                    AND = {
+                        exists = this
+                        is_character_lannister_7 = yes
+                        portrait_wear_armor_trigger = yes
+                    }
+                }
+            }
+        }
+    }
+
     agot_clothing_westerlander_armor_low = {
         dna_modifiers = {
             accessory = {

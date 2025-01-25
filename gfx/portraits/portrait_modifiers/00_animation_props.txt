@@ -2265,6 +2265,17 @@
 		}
 	}
 
+	agot_artifact_weapon_dark_moon = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_dark_moon
+				value = 1.0
+			}
+		}
+	}
+
 	agot_artifact_weapon_dark_sister = {
 		dna_modifiers = {
 			accessory = {
@@ -2926,6 +2937,17 @@
 		}
 	}
 
+	agot_artifact_weapon_maekarmace = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_maekarmace
+				value = 1.0
+			}
+		}
+	}
+
 	agot_artifact_high_septon_staff = {
 		dna_modifiers = {
 			accessory = {
@@ -2959,6 +2981,19 @@
 		}
 	}
 	
+
+
+	agot_artifact_weapon_emoBoy_sword = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_emoBoy_sword
+				value = 1.0
+			}
+		}
+	}
+
 	AGOT_horse_gallop_spear = {
 		dna_modifiers = {
 			accessory = {

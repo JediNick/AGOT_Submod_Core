@@ -2541,7 +2541,7 @@ fp3_iranian_high_nobles = {
         }
     }
 
-    agot_clothing_crownlands_targaryen_bodice_dress = {
+    agot_clothing_crownlands_targaryen_crownlands_dress = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -2585,7 +2585,7 @@ fp3_iranian_high_nobles = {
         weight = {
             base = 0
             modifier = {
-                add = 50
+                add = 55
                 court_fashion_level_5_trigger = {
                     CULTURE_INPUT = western
                 }
@@ -2595,7 +2595,7 @@ fp3_iranian_high_nobles = {
                 has_trait = fashionable
             }
             modifier = {
-                add = 50
+                add = 55
                 portrait_high_nobles_clothing_trigger = {
                     CULTURE_INPUT = western
                 }
@@ -2607,7 +2607,75 @@ fp3_iranian_high_nobles = {
         }
     }
 
-    agot_clothing_crownlands_sleeved_targaryen_bodice_dress = {
+    agot_clothing_crownlands_targaryen_delight_dress = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_all_clothes
+                accessory = female_clothes_secular_rhaenyra_dress_02
+                type = female
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = western
+                }
+                house = dynasty:dynn_Targaryen.dynasty_founder.house
+                is_female = yes
+                age >= 18
+                has_trait = fashionable
+            }
+            modifier = {
+                add = 55
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                house = dynasty:dynn_Targaryen.dynasty_founder.house
+                is_female = yes
+                age >= 18
+                has_trait = fashionable
+            }
+        }
+    }
+
+    agot_clothing_crownlands_realm_delight_dress_generic = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_all_clothes
+                accessory = female_clothes_secular_rhaenyra_dress_02
+                type = female
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = western
+                }
+                is_female = yes
+                age >= 18
+                has_trait = fashionable
+            }
+            modifier = {
+                add = 100
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                is_female = yes
+                age >= 18
+                has_trait = fashionable
+            }
+        }
+    }
+
+    agot_clothing_crownlands_targaryen_sleeved_bodice_dress = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -2774,6 +2842,12 @@ fp3_iranian_high_nobles = {
             court_fashion_level_4_modifier = { INPUT_PARAMETER = essosi_valyrian }
             modifier = {
                 add = 50
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = essosi_valyrian
+                }
+            }
+            modifier = {
+                add = 50
                 portrait_low_nobles_clothing_trigger = {
                     CULTURE_INPUT = essosi_valyrian
                 }
@@ -2793,6 +2867,12 @@ fp3_iranian_high_nobles = {
         weight = {
             base = 0
             court_fashion_level_5_modifier = { INPUT_PARAMETER = essosi_valyrian }
+            modifier = {
+                add = 50
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = essosi_valyrian
+                }
+            }
             modifier = {
                 add = 50
                 portrait_high_nobles_clothing_trigger = {

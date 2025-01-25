@@ -858,6 +858,7 @@ idle = {
 					scope:current_weight <= 20
 					NOT = { portrait_has_trait_trigger = { TRAIT = dwarf } }
 					NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }
+					NOT = { scope:ai_boldness >= high_positive_boldness }
 					portrait_wear_armor_trigger = no
 					portrait_mena_clothing_trigger = no                
 				}
@@ -885,6 +886,7 @@ idle = {
 					scope:current_weight >= 20
 					NOT = { portrait_has_trait_trigger = { TRAIT = dwarf } }
 					NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }
+					NOT = { scope:ai_boldness >= high_positive_boldness } 
 					portrait_wear_armor_trigger = no
 					portrait_mena_clothing_trigger = no  				
 				}

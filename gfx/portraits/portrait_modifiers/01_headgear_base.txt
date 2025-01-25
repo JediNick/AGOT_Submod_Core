@@ -4332,10 +4332,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = daenerys_crown_artifact }
-			}
-			modifier = {
 				add = 275
 				agot_default_wear_crown_trigger = yes
 				is_character_targaryen_9 = yes
@@ -4354,10 +4350,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = renly_crown_artifact }
-			}
 			modifier = {
 				add = 275
 				agot_default_wear_crown_trigger = yes
@@ -4388,10 +4380,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = stannis_crown_artifact }
-			}
-			modifier = {
 				add = 275
 				agot_default_wear_crown_trigger = yes
 				is_character_baratheon_3 = yes
@@ -4411,10 +4399,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = beyondthewall_crown_artifact }
-			}
 			modifier = {
 				add = 240
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = beyondthewall_crown_artifact } }
@@ -4436,10 +4420,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_winter_artifact }
-			}
-			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_winter_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -4460,10 +4440,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = bolton_crown_artifact }
-			}
-			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = bolton_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -4483,10 +4459,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = riverlands_crown_artifact }
-			}
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = riverlands_crown_artifact } }
@@ -4538,24 +4510,6 @@ fp3_turkic_high_nobles = {
 		}
 	}
 
-	agot_headgear_iron_isles_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = ironislescrown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = iron_isles_crown_artifact }
-			}
-		}
-	}
-
 	agot_headgear_westerlander_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -4567,10 +4521,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = westerlander2_crown_artifact }
-			}
 			modifier = {
 				add = 250
 				agot_default_wear_crown_trigger = yes
@@ -4598,42 +4548,6 @@ fp3_turkic_high_nobles = {
 		}
 	}
 
-	agot_headgear_westerlands_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = westerlandscrown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = westerlands_crown_artifact }
-			}
-		}
-	}
-
-	agot_headgear_westerlands2_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = westerlands2crown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = westerlands2_crown_artifact }
-			}
-		}
-	}
-
 	agot_headgear_stormlander_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -4645,10 +4559,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = stormlander_crown_artifact }
-			}
 			modifier = {
 				add = 250
 				agot_default_wear_crown_trigger = yes
@@ -4668,10 +4578,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = stormlands_crown_artifact }
-			}
 			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = stormlands_crown_artifact } }
@@ -4695,10 +4601,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = valeman_crown_artifact }
-			}
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = valeman_crown_artifact } }
@@ -4724,10 +4626,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = falcon_crown_artifact }
-			}
-			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = falcon_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -4747,10 +4645,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = reachman_crown_artifact }
-			}
 			modifier = {
 				add = 250
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = reachman_crown_artifact } }
@@ -4777,10 +4671,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = reach_crown_artifact }
-			}
-			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = reach_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -4800,10 +4690,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = tully_crown_artifact }
-			}
 			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = tully_crown_artifact } }
@@ -4825,10 +4711,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = umber_crown_artifact }
-			}
-			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = umber_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -4848,10 +4730,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = dustin_crown_artifact }
-			}
 			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = dustin_crown_artifact } }
@@ -4873,10 +4751,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = manderly_crown_artifact }
-			}
-			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = manderly_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -4896,10 +4770,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = royce_crown_artifact }
-			}
 			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = royce_crown_artifact } }
@@ -4921,10 +4791,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = blackwood_crown_artifact }
-			}
-			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = blackwood_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -4944,10 +4810,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = frey_crown_artifact }
-			}
 			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = frey_crown_artifact } }
@@ -4969,10 +4831,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = cargyll_crown_artifact }
-			}
-			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = cargyll_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -4992,10 +4850,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = redwyne_crown_artifact }
-			}
 			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = redwyne_crown_artifact } }
@@ -5017,10 +4871,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = tarly_crown_artifact }
-			}
-			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = tarly_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -5040,10 +4890,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = hightower_crown_artifact }
-			}
 			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = hightower_crown_artifact } }
@@ -5065,10 +4911,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = florent_crown_artifact }
-			}
-			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = florent_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -5088,10 +4930,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = greyjoy_crown_artifact }
-			}
 			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = greyjoy_crown_artifact } }
@@ -5113,10 +4951,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = tarth_crown_artifact }
-			}
-			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = tarth_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -5136,10 +4970,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = swann_crown_artifact }
-			}
 			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = swann_crown_artifact } }
@@ -5191,19 +5021,15 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = dorne_crown_artifact }
-			}
-			modifier = {
 				add = 260
 				exists = this
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = dorne_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
-					AND = {
-						dynasty ?= dynasty:dynn_Martell
-						primary_title.tier >= tier_kingdom
-					}
+				AND = {
+					dynasty ?= dynasty:dynn_Martell
+					primary_title.tier >= tier_kingdom
 				}
+			}
 		}
 	}
 
@@ -5218,10 +5044,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = dayne_crown_artifact }
-			}
 			modifier = {
 				add = 300
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = dayne_crown_artifact } }
@@ -5243,10 +5065,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = reed_crown_artifact }
-			}
-			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = reed_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -5266,10 +5084,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = harlaw_crown_artifact }
-			}
 			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = harlaw_crown_artifact } }
@@ -5291,10 +5105,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_rhaella_artifact }
-			}
-			modifier = {
 				add = 275
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_rhaella_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -5314,10 +5124,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_alysanne_artifact }
-			}
 			modifier = {
 				add = 275
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_alysanne_artifact } }
@@ -5339,10 +5145,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_visenya_artifact }
-			}
-			modifier = {
 				add = 275
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_visenya_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -5362,10 +5164,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_rhaenys_artifact }
-			}
 			modifier = {
 				add = 275
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_rhaenys_artifact } }
@@ -5387,10 +5185,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = daemon_stepstone_crown_artifact }
-			}
-			modifier = {
 				add = 275
 				agot_default_wear_crown_trigger = yes
 				is_character_targaryen_61 = yes
@@ -5410,10 +5204,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = daemon_queen_stepstone_crown_artifact }
-			}
 			modifier = {
 				add = 265
 				agot_default_wear_crown_trigger = yes
@@ -5437,10 +5227,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = driftwood_crown_1_artifact }
-			}
-			modifier = {
 				add = 270
 				agot_default_wear_crown_trigger = yes
 				OR = {
@@ -5451,24 +5237,6 @@ fp3_turkic_high_nobles = {
 					primary_title = title:k_the_iron_islands
 					primary_title = title:e_the_iron_islands
 				}
-			}
-		}
-	}
-
-	agot_headgear_valyrian_crown1_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = valyriancrown1
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = valyrian_crown1_artifact }
 			}
 		}
 	}
@@ -5484,10 +5252,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = valyrian_crown2_artifact }
-			}
 			modifier = {
 				add = 240
 				agot_default_wear_crown_trigger = yes
@@ -5508,10 +5272,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = westerosi_valyrian_crown1_artifact }
-			}
-			modifier = {
 				add = 250
 				agot_default_wear_crown_trigger = yes
 				dynasty ?= dynasty:dynn_Targaryen
@@ -5531,10 +5291,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = westerosi_valyrian_crown2_artifact }
-			}
 			modifier = {
 				add = 275
 				agot_default_wear_crown_trigger = yes
@@ -5567,42 +5323,6 @@ fp3_turkic_high_nobles = {
 		}
 	}
 
-	agot_headgear_iron_stag_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = ironstagcrown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = iron_stag_crown_artifact }
-			}
-		}
-	}
-
-	agot_headgear_crown_of_the_wall_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = crown_of_the_wall
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_wall_artifact }
-			}
-		}
-	}
-
 	agot_headgear_crown_of_westerling_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -5614,10 +5334,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_westerling_artifact }
-			}
 			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_westerling_artifact } }
@@ -5639,10 +5355,7 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_tides_artifact }
-			}
-			modifier = {
+
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_tides_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -5683,13 +5396,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				OR = {
-					agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_gardener_peace_artifact }
-					agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_qolab_gardener_artifact }
-				}
-			}
-			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_gardener_peace_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -5710,10 +5416,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_gardener_war_iron_artifact }
-			}
 			modifier = {
 				add = 265
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_gardener_war_iron_artifact } }
@@ -5736,10 +5438,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_mudd_artifact }
-			}
-			modifier = {
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_mudd_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -5759,10 +5457,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_grey_king_rusted_artifact }
-			}
 			modifier = {
 				add = 400
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_grey_king_rusted_artifact } }
@@ -5784,31 +5478,9 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_nights_king_artifact }
-			}
-			modifier = {
 				add = 290
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_nights_king_artifact } }
 				is_character_stark_13 = yes
-			}
-		}
-	}
-
-	agot_headgear_crown_of_true_winter_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = crown_of_true_winter
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_true_winter_artifact }
 			}
 		}
 	}
@@ -5824,10 +5496,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_seven_artifact }
-			}
 			modifier = {
 				add = 240
 				agot_default_wear_crown_trigger = yes
@@ -5849,10 +5517,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_old_gods_artifact }
-			}
-			modifier = {
 				add = 240
 				agot_default_wear_crown_trigger = yes
 				culture = { has_cultural_pillar = heritage_first_man }
@@ -5860,60 +5524,6 @@ fp3_turkic_high_nobles = {
 				NOT = { 
 					portrait_wildling_clothing_trigger = yes
 				}
-			}
-		}
-	}
-
-	agot_headgear_crown_of_rhllor_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = crown_of_rhllor
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_rhllor_artifact }
-			}
-		}
-	}
-
-	agot_headgear_circlet_of_rhllor_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = circlet_of_rhllor
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_of_rhllor_artifact }
-			}
-		}
-	}
-
-	agot_headgear_crown_of_hugor_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = crownofhugor
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_hugor_artifact }
 			}
 		}
 	}
@@ -5930,10 +5540,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_jeyne_westerling_artifact }
-			}
-			modifier = {
 				add = 275
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_jeyne_westerling_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -5941,63 +5547,6 @@ fp3_turkic_high_nobles = {
 				primary_spouse ?= {
 					dynasty ?= dynasty:dynn_Stark
 				}
-			}
-		}
-	}
-
-	agot_headgear_crown_of_winter_roses_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_qolab
-				accessory = crown_of_winter_roses
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				OR = {
-					agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_winter_roses_artifact }
-					agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_qolab_winter_roses_artifact }
-				}
-			}
-		}
-	}
-
-	agot_headgear_crown_of_qolab_generic = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = western_wedding
-				range = { 0 1 } # For the randomness to work correctly
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_qolab_generic_artifact }
-			}
-		}
-	}
-
-	agot_headgear_crown_of_deep_winter_roses_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_qolab
-				accessory = crown_of_deep_winter_roses
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_deep_winter_roses_artifact }
 			}
 		}
 	}
@@ -6030,78 +5579,6 @@ fp3_turkic_high_nobles = {
 		}
 	}
 
-	agot_headgear_qolab_crown_03 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_qolab
-				accessory = qolab_crown_03
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = qolab_crown_03_artifact }
-			}
-		}
-	}
-
-	agot_headgear_qolab_crown_04 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_qolab
-				accessory = qolab_crown_04
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = qolab_crown_04_artifact }
-			}
-		}
-	}
-
-	agot_headgear_qolab_crown_05 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_qolab
-				accessory = qolab_crown_05
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = qolab_crown_05_artifact }
-			}
-		}
-	}
-
-	agot_headgear_qolab_crown_06 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_qolab
-				accessory = qolab_crown_06
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = qolab_crown_06_artifact }
-			}
-		}
-	}
-
 	agot_headgear_qolab_crown_07 = {
 		dna_modifiers = {
 			accessory = {
@@ -6127,10 +5604,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_daemonblackfyre_artifact }
-			}
 			modifier = {
 				add = 260
 				agot_default_wear_crown_trigger = yes

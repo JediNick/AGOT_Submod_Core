@@ -2941,6 +2941,10 @@ special_genes = {
 					1 = male_clothes_stormland_undercoat_03 #Renly Variant
 					1 = male_clothes_secular_north_high_winter_stark_01
 					1 = male_clothes_secular_north_high_winter_torrhen_01
+					1 = male_clothes_secular_agot_myrish_clothes_03_jedi
+					1 = male_clothes_reach_ottos_outfit_01 #Otto's Doublet
+					1 = male_clothes_secular_viserys_doublet_01 #Viserys I
+					1 = male_clothes_jaehaerys_royal_attire_01 #Jaehaerys I
 				}
 				female = {
 					1 = female_clothes_mourning_dress_03
@@ -2948,6 +2952,10 @@ special_genes = {
 					1 = female_clothes_secular_agot_summer_dress_05 # Elaena
 					1 = female_clothes_sleeved_bodice_dress_02 # Daella Variant
 					1 = female_clothes_secular_aelora_dress_03 # Queen Aemma Bodice Variant
+					1 = female_clothes_secular_rhaenyra_dress_01 #Princess Rhaenyra's Dress
+					1 = female_clothes_secular_rhaenyra_dress_vis_01 #Princess Viserra's Dress
+					1 = female_clothes_secular_agot_myrish_clothes_03_jedi
+					1 = female_clothes_reach_hightower_green_dress_01 #Alicent Dress Temp
 				}
 				boy = male
 				girl = {
@@ -2956,6 +2964,10 @@ special_genes = {
 					1 = female_clothes_secular_agot_summer_dress_05 # Elaena
 					1 = female_clothes_secular_crownlands_dress_01_dynastic
 					1 = female_clothes_secular_crownlands_dress_01_dynastic
+					1 = female_clothes_secular_crownlands_dress_01_dynastic #Princess Rhaenyra's Dress
+					1 = female_clothes_secular_crownlands_dress_01_dynastic #Princess Viserra's Dress
+					1 = female_clothes_secular_agot_myrish_clothes_03_jedi
+					1 = female_clothes_reach_hightower_green_dress_01 #Alicent Dress Temp
 				}
 			}
 
@@ -3159,6 +3171,7 @@ special_genes = {
 					1 = male_clothes_westerlands_war_03
 					1 = male_clothes_westerlands_lannister_war_03
 					1 = male_clothes_westerlands_tywin_war
+					1 = male_clothes_westerlands_jimothy_war
 				}
 				female = {
 					0 = f_clothes_sec_northern_war_nob_01_lo
@@ -3270,6 +3283,10 @@ special_genes = {
 				male = {
 					1 = male_clothes_secular_free_cities_doublet_01
 					1 = male_clothes_secular_free_cities_doublet_02
+					1 = male_clothes_secular_agot_myrish_clothes_01
+					1 = male_clothes_secular_agot_myrish_clothes_02
+					1 = male_clothes_secular_agot_myrish_clothes_03
+					1 = male_clothes_secular_agot_myrish_clothes_04
 				}
 				female = {
 					1 = female_clothes_secular_agot_free_cities_dress_01
@@ -3278,6 +3295,10 @@ special_genes = {
 					1 = female_clothes_secular_free_cities_doublet_02
 					1 = female_clothes_lyseni_noblewoman_01
 					1 = female_clothes_lyseni_noblewoman_01_dynamic
+					1 = female_clothes_secular_agot_myrish_clothes_01
+					1 = female_clothes_secular_agot_myrish_clothes_02
+					1 = female_clothes_secular_agot_myrish_clothes_03
+					1 = female_clothes_secular_agot_myrish_clothes_04
 				}
 				boy = male
 				girl = {
@@ -3287,6 +3308,10 @@ special_genes = {
 					1 = female_clothes_secular_free_cities_doublet_02
 					1 = female_clothes_secular_free_cities_doublet_01
 					1 = female_clothes_secular_free_cities_doublet_02
+					1 = female_clothes_secular_agot_myrish_clothes_01
+					1 = female_clothes_secular_agot_myrish_clothes_01
+					1 = female_clothes_secular_agot_myrish_clothes_03
+					1 = female_clothes_secular_agot_myrish_clothes_04
 				}
 			}
 
@@ -3296,13 +3321,25 @@ special_genes = {
 
 				male = {
 					1 = male_clothes_secular_byzantine_nobility_02_low
+					1 = male_clothes_secular_agot_myrish_clothes_01_low
+					1 = male_clothes_secular_agot_myrish_clothes_02_low
+					1 = male_clothes_secular_agot_myrish_clothes_03_low
+					1 = male_clothes_secular_agot_myrish_clothes_04_low
 				}
 				female = {
 					1 = female_clothes_secular_agot_free_cities_dress_04 #Low variant
+					1 = female_clothes_secular_agot_myrish_clothes_01_low
+					1 = female_clothes_secular_agot_myrish_clothes_02_low
+					1 = female_clothes_secular_agot_myrish_clothes_03_low
+					1 = female_clothes_secular_agot_myrish_clothes_04_low
 				}
 				boy = male
 				girl = {
 					1 = female_clothes_secular_byzantine_nobility_02_low
+					1 = female_clothes_secular_agot_myrish_clothes_01_low
+					1 = female_clothes_secular_agot_myrish_clothes_01_low
+					1 = female_clothes_secular_agot_myrish_clothes_03_low
+					1 = female_clothes_secular_agot_myrish_clothes_04_low
 				}
 			}
 
@@ -3459,6 +3496,7 @@ special_genes = {
 					1 = male_clothes_westerlands_war_dynastic_02
 					1 = male_clothes_westerlands_lannister_war_03
 					1 = male_clothes_westerlands_tywin_war
+					1 = male_clothes_westerlands_jimothy_war
 					1 = male_clothes_westerlands_war_03
 					1 = male_clothes_riverlands_tully_war_03
 					1 = male_clothes_riverlands_war_03
@@ -3541,6 +3579,18 @@ special_genes = {
 					1 = male_clothes_secular_free_cities_doublet_02
 					1 = male_clothes_secular_free_cities_doublet_03
 					1 = male_clothes_secular_free_cities_doublet_04
+					1 = male_clothes_secular_agot_myrish_clothes_01_low
+					1 = male_clothes_secular_agot_myrish_clothes_02_low
+					1 = male_clothes_secular_agot_myrish_clothes_03_low
+					1 = male_clothes_secular_agot_myrish_clothes_04_low
+					1 = male_clothes_secular_agot_myrish_clothes_01
+					1 = male_clothes_secular_agot_myrish_clothes_dynastic_01
+					1 = male_clothes_secular_agot_myrish_clothes_02
+					1 = male_clothes_secular_agot_myrish_clothes_dynastic_02
+					1 = male_clothes_secular_agot_myrish_clothes_03
+					1 = male_clothes_secular_agot_myrish_clothes_dynastic_03
+					1 = male_clothes_secular_agot_myrish_clothes_04
+					1 = male_clothes_secular_agot_myrish_clothes_dynastic_04
 					1 = male_clothes_southern_maester_01
 					1 = male_clothes_northern_maester_01
 					1 = male_clothes_maester_kw_01
@@ -3568,6 +3618,10 @@ special_genes = {
 					1 = female_clothes_sleeved_bodice_dress_01
 					1 = female_clothes_sleeved_bodice_dress_dynastic_01
 					1 = female_clothes_sleeved_bodice_dress_dynastic_02							
+					1 = female_clothes_secular_rhaenyra_dress_02
+					1 = female_clothes_secular_rhaenyra_dress_03
+					1 = female_clothes_secular_rhaenyra_dress_04
+					1 = female_clothes_secular_rhaenyra_dress_05
 					1 = female_clothes_mourning_dress_01
 					1 = female_clothes_mourning_dress_02
 					1 = female_clothes_secular_agot_royal_doublet_01
@@ -3587,6 +3641,18 @@ special_genes = {
 					1 = female_clothes_secular_free_cities_doublet_02
 					1 = female_clothes_secular_free_cities_doublet_03
 					1 = female_clothes_secular_free_cities_doublet_04
+					1 = female_clothes_secular_agot_myrish_clothes_01_low
+					1 = female_clothes_secular_agot_myrish_clothes_02_low
+					1 = female_clothes_secular_agot_myrish_clothes_03_low
+					1 = female_clothes_secular_agot_myrish_clothes_04_low
+					1 = female_clothes_secular_agot_myrish_clothes_01
+					1 = female_clothes_secular_agot_myrish_clothes_dynastic_01
+					1 = female_clothes_secular_agot_myrish_clothes_02
+					1 = female_clothes_secular_agot_myrish_clothes_dynastic_02
+					1 = female_clothes_secular_agot_myrish_clothes_03
+					1 = female_clothes_secular_agot_myrish_clothes_dynastic_03
+					1 = female_clothes_secular_agot_myrish_clothes_04
+					1 = female_clothes_secular_agot_myrish_clothes_dynastic_04
 					1 = female_clothes_religious_redpriestess_01
 					1 = female_clothes_religious_redpriestess_dynastic
 					1 = female_clothes_secular_valyrian_nobility_01
@@ -3596,6 +3662,8 @@ special_genes = {
 					1 = female_clothes_special_dragon_rider_01
 					1 = female_clothes_special_dragon_rider_dynastic_01
 					1 = female_clothes_special_dragon_rider_dynastic_alt_01
+					1 = female_valyrian_high_noble_vestaments_01
+					1 = female_valyrian_high_noble_vestaments_01b
 				}
 				boy = male
 				girl = {
@@ -3614,6 +3682,10 @@ special_genes = {
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_sleved_bodice
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_sleved_bodice_dynastic_01
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_sleved_bodice_dynastic_02																					  
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_rhaenyra_dress_02
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_rhaenyra_dress_03
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_rhaenyra_dress_04
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_rhaenyra_dress_05
 					1 = female_clothes_mourning_dress_01
 					1 = female_clothes_mourning_dress_02
 					1 = female_clothes_secular_agot_royal_doublet_01
@@ -3633,6 +3705,18 @@ special_genes = {
 					1 = female_clothes_secular_free_cities_doublet_02
 					1 = female_clothes_secular_free_cities_doublet_03
 					1 = female_clothes_secular_free_cities_doublet_04
+					1 = female_clothes_secular_agot_myrish_clothes_01_low
+					1 = female_clothes_secular_agot_myrish_clothes_01_low #placeholder female_clothes_secular_agot_myrish_clothes_02_low
+					1 = female_clothes_secular_agot_myrish_clothes_03_low
+					1 = female_clothes_secular_agot_myrish_clothes_04_low
+					1 = female_clothes_secular_agot_myrish_clothes_01
+					1 = female_clothes_secular_agot_myrish_clothes_dynastic_01
+					1 = female_clothes_secular_agot_myrish_clothes_01 #placeholder female_clothes_secular_agot_myrish_clothes_02
+					1 = female_clothes_secular_agot_myrish_clothes_dynastic_01 #placeholder female_clothes_secular_agot_myrish_clothes_dynastic_02
+					1 = female_clothes_secular_agot_myrish_clothes_03
+					1 = female_clothes_secular_agot_myrish_clothes_dynastic_03
+					1 = female_clothes_secular_agot_myrish_clothes_04
+					1 = female_clothes_secular_agot_myrish_clothes_dynastic_04
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_religious_redpriestess_01
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_religious_redpriestess_dynastic
 					1 = female_clothes_secular_valyrian_nobility_01
@@ -3642,6 +3726,8 @@ special_genes = {
 					1 = female_clothes_special_dragon_rider_01
 					1 = female_clothes_special_dragon_rider_dynastic_01
 					1 = female_clothes_special_dragon_rider_dynastic_alt_01
+					1 = female_valyrian_high_noble_vestaments_01
+					1 = female_valyrian_high_noble_vestaments_01b
 				}
 			}
 			

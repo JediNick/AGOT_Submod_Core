@@ -960,11 +960,6 @@ blind = {
 			}
 			morph = {
 				mode = modify_multiply				
-				gene = gene_bs_cheek_forward
-				value = 0.0
-			}
-			morph = {
-				mode = modify_multiply				
 				gene = gene_bs_cheek_height
 				value = 0.0
 			}

@@ -3736,8 +3736,28 @@ pol_marshal_sword_left = {
 			boy = male
 			girl = female
 		}
-		asoiaf_artifact_weapon_ice = { #AGOT+ added
+		agot_artifact_weapon_dark_moon = {
 			index = 152
+			male = {
+				1 = dark_moon_artifact
+			}
+			female = {
+				1 = dark_moon_artifact
+			}
+		}
+		agot_artifact_weapon_emoBoy_sword = {
+			index = 153
+			male = {
+				1 = emoBoy_sword_artifact
+			}
+			female = {
+				1 = emoBoy_sword_artifact
+			}
+			boy = male
+			girl = female
+		}
+		asoiaf_artifact_weapon_ice = { #AGOT+ added
+			index = 154
 			male = {
 				1 = asoiaf_sword_ice_prop
 			}
