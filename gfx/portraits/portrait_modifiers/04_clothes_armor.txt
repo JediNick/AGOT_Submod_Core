@@ -3727,7 +3727,7 @@
 				mode = add
 				gene = legwear
 				template = tgc_pants_blackfyre
-                accessory = male_legwear_standardPants_blackfyre_01
+                range = { 0.33 0.66 }
 			}
 			morph = {
 				mode = modify_multiply
@@ -3762,7 +3762,7 @@
 				mode = add
 				gene = legwear
 				template = tgc_pants_blackfyre
-                accessory = male_legwear_standardPants_blackfyre_01
+                range = { 0.0 0.33 }
 			}
 			morph = {
 				mode = modify_multiply
