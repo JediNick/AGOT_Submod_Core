@@ -1657,8 +1657,8 @@ headgear_base = {
                     portrait_era4_trigger = yes  
                 }     
             }
-		}
-	}
+        }
+    }
 
 	byzantine_imperial = {
 		dna_modifiers = {
@@ -1701,13 +1701,13 @@ headgear_base = {
 					CULTURE_INPUT = byzantine 
 				}
 			}
-	#AGOT Disabled
-	# 		modifier = {
-	# 			factor = 0
-	# 			NOT = {
-	# 				has_title = title:e_byzantium
-	# 			}
-	# 		}
+			#AGOT Disabled
+			#modifier = {
+			#	factor = 0
+			#	NOT = {
+			#		has_title = title:e_byzantium
+			#	}
+			#}
 			modifier = {
 				factor = 0
 				NOT = {
@@ -3347,459 +3347,459 @@ fp3_turkic_high_nobles = {
 
 
 #AGOT Disabled
-# ######## Religious ##########
+######### Religious ##########
 
 
-# ## Orthodox ##
+### Orthodox ##
 
-# 	religious_orthodox_high = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = religious_orthodox_high
-# 				range = { 0 1 }
-# 			}
-# 		}
-# 		outfit_tags = { priest_outfit bishop_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 130
-# 				portrait_religious_orthodox_trigger = yes
-# 				portrait_religious_high_headgear_trigger = {
-# 					FAITH_INPUT = orthodox
-# 				}
-# 			}
-# 		}
-# 	}
+#	religious_orthodox_high = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = religious_orthodox_high
+#				range = { 0 1 }
+#			}
+#		}
+#		outfit_tags = { priest_outfit bishop_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 130
+#				portrait_religious_orthodox_trigger = yes
+#				portrait_religious_high_headgear_trigger = {
+#					FAITH_INPUT = orthodox
+#				}
+#			}
+#		}
+#	}
 
-# 	religious_orthodox_head = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = religious_orthodox_head
-# 				range = { 0 1 }
-# 			}
-# 		}
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 200
-# 				portrait_religious_head_trigger = yes
-# 				faith = faith:orthodox
-# 			}
-# 		}
-# 	}
-
-
-# ## Catholic ##
-
-# 	catholic_devoted = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = religious_catholic_devoted
-# 				range = { 0 1 } # For the randomness to work correctly
-# 			}
-# 		}
-# 		outfit_tags = { monk_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 100
-# 				portrait_religious_devoted_trigger = yes
-# 				portrait_religious_christian_trigger = yes
-# 			}
-# 		}
-# 	}
-
-# 	catholic_head = {
-# 		outfit_tags = { rank_headgear }
-# 		usage = game
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-
-# 				gene = headgear
-# 				template = catholic_head
-# 				range = { 0 1 }
-# 			}
-# 		}
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 120			
-# 				portrait_religious_head_trigger = yes
-# 				portrait_religious_catholic_trigger = yes	
-# 			}	
-# 		}
-# 	}
-
-# 	catholic_high = {
-# 		outfit_tags = { rank_headgear }
-# 		usage = game
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-
-# 				gene = headgear
-# 				template = catholic_high
-# 				range = { 0 1 }
-# 			}
-# 		}
-# 		outfit_tags = { priest_outfit bishop_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 120
-# 				portrait_religious_christian_trigger = yes
-# 				portrait_religious_high_trigger = yes
-# 			}
-# 		}
-# 	}
-
-# 	popes = {
-# 		outfit_tags = { rank_headgear }
-# 		usage = game
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-
-# 				gene = headgear
-# 				template = catholic_head
-# 				range = { 0 1 }
-# 			}
-# 		}
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 140
-# 				portrait_religious_head_popes_trigger = yes
-# 			}
-# 		}
-# 	}
-
-# ## Jewish ##
-
-# 	religious_jewish_high_headgear = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = religious_jewish_high
-# 				range = { 0 1 }
-# 			}
-# 		}
-# 		outfit_tags = { priest_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 100
-# 				portrait_religious_high_no_poverty_trigger = yes
-# 				OR = {
-# 					portrait_religious_jewish_trigger = yes
-# 					portrait_religious_hellenism_trigger = yes
-# 				}
-# 			}
-# 		}
-# 	}
-
-# 	religious_jewish_head = {
-# 		outfit_tags = { rank_headgear }
-# 		usage = game
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-
-# 				gene = headgear
-# 				template = religious_jewish_head
-# 				range = { 0 1 }
-# 			}
-# 		}
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 140
-# 				portrait_religious_head_no_poverty_trigger = yes
-# 				portrait_religious_jewish_trigger = yes
-# 			}
-# 		}
-# 	}
-
-# ## Muslim ##
-
-# 	religious_muslim_high_headgear = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = religious_muslim_high
-# 				range = { 0 1 }
-# 			}
-# 		}
-# 		outfit_tags = { priest_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 111
-# 				portrait_religious_high_no_poverty_trigger = yes
-# 				portrait_religious_muslim_trigger = yes
-# 			}
-# 		}
-# 	}
+#	religious_orthodox_head = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = religious_orthodox_head
+#				range = { 0 1 }
+#			}
+#		}
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 200
+#				portrait_religious_head_trigger = yes
+#				faith = faith:orthodox
+#			}
+#		}
+#	}
 
 
+### Catholic ##
 
-# ## Northern Pagan ##
+#	catholic_devoted = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = religious_catholic_devoted
+#				range = { 0 1 } # For the randomness to work correctly
+#			}
+#		}
+#		outfit_tags = { monk_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 100
+#				portrait_religious_devoted_trigger = yes
+#				portrait_religious_christian_trigger = yes
+#			}
+#		}
+#	}
 
-# 	religious_northern_high_headgear = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = religious_northern_high
-# 				range = { 0 1 }
-# 			}
-# 		}
-# 		outfit_tags = { priest_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 100
-# 				portrait_religious_high_no_poverty_trigger = yes
-# 				portrait_religious_norse_trigger = yes
-# 			}
-# 		}
-# 	}
+#	catholic_head = {
+#		outfit_tags = { rank_headgear }
+#		usage = game
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+
+#				gene = headgear
+#				template = catholic_head
+#				range = { 0 1 }
+#			}
+#		}
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 120			
+#				portrait_religious_head_trigger = yes
+#				portrait_religious_catholic_trigger = yes	
+#			}	
+#		}
+#	}
+
+#	catholic_high = {
+#		outfit_tags = { rank_headgear }
+#		usage = game
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+
+#				gene = headgear
+#				template = catholic_high
+#				range = { 0 1 }
+#			}
+#		}
+#		outfit_tags = { priest_outfit bishop_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 120
+#				portrait_religious_christian_trigger = yes
+#				portrait_religious_high_trigger = yes
+#			}
+#		}
+#	}
+
+#	popes = {
+#		outfit_tags = { rank_headgear }
+#		usage = game
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+
+#				gene = headgear
+#				template = catholic_head
+#				range = { 0 1 }
+#			}
+#		}
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 140
+#				portrait_religious_head_popes_trigger = yes
+#			}
+#		}
+#	}
+
+### Jewish ##
+
+#	religious_jewish_high_headgear = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = religious_jewish_high
+#				range = { 0 1 }
+#			}
+#		}
+#		outfit_tags = { priest_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 100
+#				portrait_religious_high_no_poverty_trigger = yes
+#				OR = {
+#					portrait_religious_jewish_trigger = yes
+#					portrait_religious_hellenism_trigger = yes
+#				}
+#			}
+#		}
+#	}
+
+#	religious_jewish_head = {
+#		outfit_tags = { rank_headgear }
+#		usage = game
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+
+#				gene = headgear
+#				template = religious_jewish_head
+#				range = { 0 1 }
+#			}
+#		}
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 140
+#				portrait_religious_head_no_poverty_trigger = yes
+#				portrait_religious_jewish_trigger = yes
+#			}
+#		}
+#	}
+
+### Muslim ##
+
+#	religious_muslim_high_headgear = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = religious_muslim_high
+#				range = { 0 1 }
+#			}
+#		}
+#		outfit_tags = { priest_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 111
+#				portrait_religious_high_no_poverty_trigger = yes
+#				portrait_religious_muslim_trigger = yes
+#			}
+#		}
+#	}
 
 
-# ## Steppe ##
 
-# 	religious_steppe_high_headgear = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = religious_steppe_high
-# 				range = { 0 1 }
-# 			}
-# 		}
-# 		outfit_tags = { priest_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 100
-# 				portrait_religious_high_no_poverty_trigger = yes
-# 				portrait_religious_steppe_trigger = yes
-# 			}
-# 		}
-# 	}
+### Northern Pagan ##
 
-# ## Buddhist ##
+#	religious_northern_high_headgear = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = religious_northern_high
+#				range = { 0 1 }
+#			}
+#		}
+#		outfit_tags = { priest_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 100
+#				portrait_religious_high_no_poverty_trigger = yes
+#				portrait_religious_norse_trigger = yes
+#			}
+#		}
+#	}
 
-# 	religious_buddhist_devoted_headgear = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = no_headgear
-# 				range = { 0 1 } # For the randomness to work correctly
-# 			}
-# 			accessory = {
-# 				mode = add
-# 				gene = hairstyles
-# 				template = no_hairstyles
-# 				range = { 0 1 } # For the randomness to work correctly
-# 			}
-# 		}
-# 		outfit_tags = { monk_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 100
-# 				portrait_has_trait_trigger = { TRAIT = devoted }
-# 				portrait_religious_buddhist_trigger = yes
-# 			}
-# 		}
-# 	}
 
-# 	religious_buddhist_high_headgear = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = no_headgear
-# 				range = { 0 1 } # For the randomness to work correctly
-# 			}
-# 			accessory = {
-# 				mode = add
-# 				gene = hairstyles
-# 				template = no_hairstyles
-# 				range = { 0 1 } # For the randomness to work correctly
-# 			}
-# 		}
-# 		outfit_tags = { priest_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 110
-# 				portrait_religious_high_no_poverty_trigger = yes
-# 				portrait_religious_buddhist_trigger = yes
-# 			}
-# 		}
-# 	}
+### Steppe ##
 
-# ## Hinduist ##
+#	religious_steppe_high_headgear = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = religious_steppe_high
+#				range = { 0 1 }
+#			}
+#		}
+#		outfit_tags = { priest_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 100
+#				portrait_religious_high_no_poverty_trigger = yes
+#				portrait_religious_steppe_trigger = yes
+#			}
+#		}
+#	}
 
-# 	religious_hindu_devoted_headgear = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = no_headgear
-# 				range = { 0 1 } # For the randomness to work correctly
-# 			}
-# 		}
-# 		outfit_tags = { monk_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 100
-# 				portrait_has_trait_trigger = { TRAIT = devoted }
-# 				portrait_religious_hindu_trigger = yes
-# 			}
-# 		}
-# 	}
+### Buddhist ##
 
-# 	religious_hindu_high_headgear = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = no_headgear
-# 				range = { 0 1 } # For the randomness to work correctly
-# 			}
-# 		}
-# 		outfit_tags = { priest_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 110
-# 				portrait_religious_high_no_poverty_trigger = yes
-# 				portrait_religious_hindu_trigger = yes
-# 			}
-# 		}
-# 	}
+#	religious_buddhist_devoted_headgear = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = no_headgear
+#				range = { 0 1 } # For the randomness to work correctly
+#			}
+#			accessory = {
+#				mode = add
+#				gene = hairstyles
+#				template = no_hairstyles
+#				range = { 0 1 } # For the randomness to work correctly
+#			}
+#		}
+#		outfit_tags = { monk_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 100
+#				portrait_has_trait_trigger = { TRAIT = devoted }
+#				portrait_religious_buddhist_trigger = yes
+#			}
+#		}
+#	}
 
-# ## Zoroastrian ##
+#	religious_buddhist_high_headgear = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = no_headgear
+#				range = { 0 1 } # For the randomness to work correctly
+#			}
+#			accessory = {
+#				mode = add
+#				gene = hairstyles
+#				template = no_hairstyles
+#				range = { 0 1 } # For the randomness to work correctly
+#			}
+#		}
+#		outfit_tags = { priest_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 110
+#				portrait_religious_high_no_poverty_trigger = yes
+#				portrait_religious_buddhist_trigger = yes
+#			}
+#		}
+#	}
 
-# 	religious_zoroastrian_high_headgear = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = religious_zoroastrian_high
-# 				range = { 0 1 }
-# 			}
-# 		}
-# 		outfit_tags = { priest_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 100
-# 				portrait_religious_high_no_poverty_trigger = yes
-# 				portrait_religious_zoroastrian_trigger = yes
-# 			}
-# 		}
-# 	}
+### Hinduist ##
 
-# ## Jain ##
+#	religious_hindu_devoted_headgear = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = no_headgear
+#				range = { 0 1 } # For the randomness to work correctly
+#			}
+#		}
+#		outfit_tags = { monk_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 100
+#				portrait_has_trait_trigger = { TRAIT = devoted }
+#				portrait_religious_hindu_trigger = yes
+#			}
+#		}
+#	}
 
-# 	religious_jain_devoted_headgear = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = no_headgear
-# 				range = { 0 1 } # For the randomness to work correctly
-# 			}
-# 		}
-# 		outfit_tags = { monk_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 100
-# 				portrait_has_trait_trigger = { TRAIT = devoted }
-# 				portrait_religious_jain_trigger = yes
-# 			}
-# 		}
-# 	}
+#	religious_hindu_high_headgear = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = no_headgear
+#				range = { 0 1 } # For the randomness to work correctly
+#			}
+#		}
+#		outfit_tags = { priest_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 110
+#				portrait_religious_high_no_poverty_trigger = yes
+#				portrait_religious_hindu_trigger = yes
+#			}
+#		}
+#	}
 
-# 	religious_jain_high_headgear = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = no_headgear
-# 				range = { 0 1 } # For the randomness to work correctly
-# 			}
-# 		}
-# 		outfit_tags = { priest_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 110
-# 				exists = this
-# 				portrait_religious_high_no_poverty_trigger = yes
-# 				portrait_religious_jain_trigger = yes
-# 			}
-# 		}
-# 	}
+### Zoroastrian ##
 
-# ## African Pagan ##
+#	religious_zoroastrian_high_headgear = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = religious_zoroastrian_high
+#				range = { 0 1 }
+#			}
+#		}
+#		outfit_tags = { priest_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 100
+#				portrait_religious_high_no_poverty_trigger = yes
+#				portrait_religious_zoroastrian_trigger = yes
+#			}
+#		}
+#	}
 
-# 	# religious_african_devoted_clothes = {
-# 	# 	dna_modifiers = {
-# 	# 		accessory = {
-# 	# 			mode = add
-# 	# 			gene = clothes
-# 	# 			template = mena_commoner_clothes
-# 	# 			range = { 0 1 } # For the randomness to work correctly
-# 	# 		}
-# 	# 	}
-# 	#	outfit_tags = { monk_outfit }
-# 	# 	weight = {
-# 	# 		base = 0
-# 	# 		modifier = {
-# 	# 			add = 100
-# 	# 			portrait_has_trait_trigger = { TRAIT = devoted }
-# 	# 			religion = religion:islam_religion
-# 	# 		}
-# 	# 	}
-# 	# }
+### Jain ##
 
-# 	religious_african_high_headgear = {
-# 		dna_modifiers = {
-# 			accessory = {
-# 				mode = add
-# 				gene = headgear
-# 				template = religious_african_high
-# 				range = { 0 1 }
-# 			}
-# 		}
-# 		outfit_tags = { priest_outfit }
-# 		weight = {
-# 			base = 0
-# 			modifier = {
-# 				add = 110
-# 				portrait_religious_high_no_poverty_trigger = yes
-# 				portrait_religious_african_trigger = yes
-# 			}
-# 		}
-# 	}
+#	religious_jain_devoted_headgear = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = no_headgear
+#				range = { 0 1 } # For the randomness to work correctly
+#			}
+#		}
+#		outfit_tags = { monk_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 100
+#				portrait_has_trait_trigger = { TRAIT = devoted }
+#				portrait_religious_jain_trigger = yes
+#			}
+#		}
+#	}
+
+#	religious_jain_high_headgear = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = no_headgear
+#				range = { 0 1 } # For the randomness to work correctly
+#			}
+#		}
+#		outfit_tags = { priest_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 110
+#				exists = this
+#				portrait_religious_high_no_poverty_trigger = yes
+#				portrait_religious_jain_trigger = yes
+#			}
+#		}
+#	}
+
+### African Pagan ##
+
+#	# religious_african_devoted_clothes = {
+#	# 	dna_modifiers = {
+#	# 		accessory = {
+#	# 			mode = add
+#	# 			gene = clothes
+#	# 			template = mena_commoner_clothes
+#	# 			range = { 0 1 } # For the randomness to work correctly
+#	# 		}
+#	# 	}
+#	#	outfit_tags = { monk_outfit }
+#	# 	weight = {
+#	# 		base = 0
+#	# 		modifier = {
+#	# 			add = 100
+#	# 			portrait_has_trait_trigger = { TRAIT = devoted }
+#	# 			religion = religion:islam_religion
+#	# 		}
+#	# 	}
+#	# }
+
+#	religious_african_high_headgear = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = add
+#				gene = headgear
+#				template = religious_african_high
+#				range = { 0 1 }
+#			}
+#		}
+#		outfit_tags = { priest_outfit }
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 110
+#				portrait_religious_high_no_poverty_trigger = yes
+#				portrait_religious_african_trigger = yes
+#			}
+#		}
+#	}
 
 	jester_headgear = {
 		dna_modifiers = {
@@ -4047,13 +4047,47 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_first_men_artifact }
-			}
-			modifier = {
 				add = 230
 				agot_default_wear_crown_trigger = yes
 				culture = { has_cultural_pillar = heritage_first_man }
+			}
+		}
+	}
+
+	agot_headgear_the_andals_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_the_andals
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 230
+				agot_default_wear_crown_trigger = yes
+				culture = { has_cultural_pillar = heritage_andal }
+			}
+		}
+	}
+
+	agot_headgear_the_andals_silver_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_the_andals_silver
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 230
+				agot_default_wear_crown_trigger = yes
+				culture = { has_cultural_pillar = heritage_andal }
 			}
 		}
 	}
@@ -4991,10 +5025,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = dornish_crown_artifact }
-			}
-			modifier = {
 				add = 250
 				exists = this
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = dornish_crown_artifact } }
@@ -5355,7 +5385,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-
 				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_tides_artifact } }
 				agot_default_wear_crown_trigger = yes
@@ -5611,37 +5640,192 @@ fp3_turkic_high_nobles = {
 			}
 		}
 	}
-	
-	########################################
-	### AGOT SUBMOD CORE MODIFIERS START ###
-	########################################
-	
-	agot_headgear_crown_of_castamere_crown = {
+
+	agot_headgear_crown_of_bear_island_crown = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = crowns_of_westeros
-				accessory = crown_of_castamere
+				template = agot_crowns
+				accessory = crown_of_bear_island
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 260
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_bear_island_artifact }}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Mormont
+			}
+		}
+	}
+
+	agot_headgear_crown_of_hearts_home_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_hearts_home
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
 				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_castamere_artifact }
-
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_hearts_home_artifact }}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Corbray
 			}
+		}
+	}
+
+	agot_headgear_crown_of_darklyn_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_darklyn
+			}
+		}
+		weight = {
+			base = 0
 			modifier = {
 				add = 260
-				is_crowns_westeros_loaded_trigger = yes
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_darklyn_artifact }}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Darklyn
+			}
+		}
+	}
+
+	agot_headgear_crown_of_dondarrion_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_dondarrion
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 260
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_dondarrion_artifact }}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Dondarrion
+			}
+		}
+	}
+
+	agot_headgear_crown_of_hellholt_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_hellholt
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_hellholt_artifact }}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Uller
+			}
+		}
+	}
+
+	agot_headgear_crown_of_castamere_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_castamere
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 260
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_castamere_artifact }}
 				agot_default_wear_crown_trigger = yes
 				dynasty ?= dynasty:dynn_Reyne
 			}
 		}
 	}
+
+	agot_headgear_crown_of_deep_den_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_deep_den
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 260
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_deep_den_artifact }}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Lydden
+			}
+		}
+	}
+
+	agot_headgear_crown_of_the_banefort_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_the_banefort
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 260
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_banefort_artifact }}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Banefort
+			}
+		}
+	}
+
+	agot_headgear_crown_of_crakehall_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_crakehall
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 260
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_crakehall_artifact }}
+				agot_default_wear_crown_trigger = yes
+				dynasty ?= dynasty:dynn_Crakehall
+			}
+		}
+	}
+
+
+	
+	########################################
+	### AGOT SUBMOD CORE MODIFIERS START ###
+	########################################
 
 	agot_headgear_crown_of_sharp_point_crown = {
 		dna_modifiers = {
@@ -5695,84 +5879,6 @@ fp3_turkic_high_nobles = {
 		}
 	}
 
-	agot_headgear_crown_of_deep_den_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = crown_of_deep_den
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_deep_den_artifact }
-			}
-			modifier = {
-				add = 260
-				is_crowns_westeros_loaded_trigger = yes
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_deep_den_artifact }}
-				agot_default_wear_crown_trigger = yes
-				dynasty ?= dynasty:dynn_Lydden
-			}
-		}
-	}
-
-	agot_headgear_crown_of_the_banefort_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = crown_of_the_banefort
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_banefort_artifact }
-			}
-			modifier = {
-				add = 260
-				is_crowns_westeros_loaded_trigger = yes
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_banefort_artifact }}
-				agot_default_wear_crown_trigger = yes
-				dynasty ?= dynasty:dynn_Banefort
-			}
-		}
-	}
-
-	agot_headgear_crown_of_crakehall_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = crown_of_crakehall
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_crakehall_artifact }
-			}
-			modifier = {
-				add = 260
-				is_crowns_westeros_loaded_trigger = yes
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_crakehall_artifact }}
-				agot_default_wear_crown_trigger = yes
-				dynasty ?= dynasty:dynn_Crakehall
-			}
-		}
-	}
-	
 	agot_headgear_crown_of_the_grey_king_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -5886,297 +5992,6 @@ fp3_turkic_high_nobles = {
 			}
 		}
 	}
-	
-	### Crowns of Westeros - Canon Crowns ###
-	
-	agot_headgear_stepstone_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = stepstone_crown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_stepstone_artifact }
-			}
-		}
-	}
-	
-### Crowns of Westeros - Show Crowns
-	
-	agot_headgear_showaerys_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = showaerys_crown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_showaerys_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_showrhaenyra_crown_01 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = showrhaenyra_crown_01
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = showrhaenyra_crown_01_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_showrhaenyra_crown_02 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = showrhaenyra_crown_02
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = showrhaenyra_crown_02_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_showaegon_crown_01 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = showaegon_crown_01
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = showaegon_crown_01_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_showaegon_crown_02 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = showaegon_crown_02
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = showaegon_crown_02_artifact }
-			}
-		}
-	}
-	
-### Crowns of Westeros - Variant Crowns ###
-
-	agot_headgear_showrhaenyra_crown_03 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = showrhaenyra_crown_03
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = showrhaenyra_crown_03_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_aegon_variant_1 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = aegon_variant_1
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegon_variant_1_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_aegon_variant_2 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = aegon_variant_2
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegon_variant_2_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_aegon_variant_3 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = aegon_variant_3
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegon_variant_3_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_aegon_variant_4 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = aegon_variant_4
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegon_variant_4_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_jaehaerys_valyrian_variant = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = jaehaerys_valyrian_variant
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = jaehaerys_valyrian_variant_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_jaehaerys_variant_1 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = jaehaerys_variant_1
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = jaehaerys_variant_1_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_jaehaerys_variant_2 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = jaehaerys_variant_2
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = jaehaerys_variant_2_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_cersei_red_tiara = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = cersei_red_tiara
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = cersei_red_tiara_artifact }
-			}
-		}
-	}
 
 ### Crowns of Westeros - Queen Crowns ###	
 
@@ -6191,11 +6006,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_rhaenatargaryen_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -6217,11 +6027,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_alyssavelaryon_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -6254,11 +6059,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_alicenthightower_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_alicenthightower_artifact }}
@@ -6284,11 +6084,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_daena_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_daena_artifact }}
@@ -6312,11 +6107,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_bethablackwood_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -6342,11 +6132,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_mariah_martell_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_mariah_martell_artifact }}
@@ -6367,11 +6152,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = cersei_tiara_artifact }
-			}
 			modifier = {
 				add = 270
 				is_crowns_westeros_loaded_trigger = yes
@@ -6395,11 +6175,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aliandra_martell_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -6431,11 +6206,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_mors_martell_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -6497,13 +6267,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				AND = {
-					is_crowns_westeros_loaded_trigger = yes
-					agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_alysanne_artifact }
-				}
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -6525,13 +6288,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				AND = {
-					is_crowns_westeros_loaded_trigger = yes
-					agot_has_artifact_equiped = { ARTIFACT_VARIABLE = bittersteel_crown_artifact }
-				}
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -6555,11 +6311,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = calla_blackfyre_circlet_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -6581,11 +6332,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = argella_crown_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -6609,11 +6355,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = myrcella_circlet_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -6636,11 +6377,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = sharra_arryn_crown_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -6662,11 +6398,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = roland_arryn_crown_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -6695,11 +6426,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_rhaegar_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -6709,83 +6435,7 @@ fp3_turkic_high_nobles = {
 			}
 		}
 	}
-	
-	agot_headgear_viserys_son_of_aenys = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = viserys_son_of_aenys
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_viserys_son_of_aenys_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_viserys_son_of_aenys_02 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = viserys_son_of_aenys_02
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_viserys_son_of_aenys_02_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_wolfswood_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = wolfswood_crown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = wolfswood_crown_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_bracken_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = bracken_crown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = bracken_crown_artifact }
-			}
-		}
-	}
-	
+
 	agot_headgear_massey_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -6798,35 +6448,11 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = massey_crown_artifact }
-			}
-			modifier = {
 				add = 260
 				is_crowns_westeros_loaded_trigger = yes
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = massey_crown_artifact }}
 				agot_default_wear_crown_trigger = yes
 				dynasty ?= dynasty:dynn_Massey
-			}
-		}
-	}
-	
-	agot_headgear_duskendale_crown_01 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = duskendale_crown_01
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = duskendale_crown_01_artifact }
 			}
 		}
 	}
@@ -6842,11 +6468,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aegonvi_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -6874,11 +6495,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_viserysiii_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -6900,11 +6516,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jonsnowtargaryen_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -6929,11 +6540,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_maesteraemon_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -6955,11 +6561,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aegontheuncrowned_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -6983,11 +6584,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_brightflame_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7009,11 +6605,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_baelon_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -7037,11 +6628,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_valarr_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7063,11 +6649,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aemonsonofjaehaerys_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -7091,11 +6672,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_baelorbreakspear_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7117,11 +6693,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_laenorvelaryon_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -7145,11 +6716,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jacaerysvelaryon_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7159,64 +6725,7 @@ fp3_turkic_high_nobles = {
 			}
 		}
 	}
-	
-	agot_headgear_seawyrm_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = seawyrm_crown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_seawyrm_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_greenpyre_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = greenpyre_crown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_greenpyre_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_goldfyre_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = goldfyre_crown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_goldfyre_artifact }
-			}
-		}
-	}
-	
+
 	agot_headgear_celtigar_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -7228,11 +6737,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_celtigar_artifact }
-			}
 			modifier = {
 				add = 260
 				is_crowns_westeros_loaded_trigger = yes
@@ -7255,11 +6759,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_duncandragonfly_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7269,26 +6768,7 @@ fp3_turkic_high_nobles = {
 			}
 		}
 	}
-	
-	agot_headgear_jonsnow_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = jonsnow_crown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jonsnow_artifact }
-			}
-		}
-	}
-	
+
 	agot_headgear_shieraseastar_crown_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -7300,12 +6780,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_shieraseastar_artifact }
-				agot_is_independent_ruler = yes
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -7330,11 +6804,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aereatargaryen_crown_01_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7356,11 +6825,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aereatargaryen_crown_02_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -7384,11 +6848,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = vaellatargaryen_crown_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7411,11 +6870,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_rhaenysvelaryon_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7437,11 +6891,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aegonblackfyre_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -7466,11 +6915,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_daemon_ii_blackfyre_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7492,11 +6936,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_haegonblackfyre_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -7523,11 +6962,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aenysblackfyre_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7549,11 +6983,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_maelysblackfyre_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -7577,11 +7006,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_orysbaratheon_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7604,11 +7028,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_robbstark_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7618,26 +7037,7 @@ fp3_turkic_high_nobles = {
 			}
 		}
 	}
-	
-	agot_headgear_branstark_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = branstark_crown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_branstark_artifact }
-			}
-		}
-	}
-	
+
 	agot_headgear_aegonsonofjaehaerys_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -7649,11 +7049,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aegonsonofjaehaerys_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -7678,11 +7073,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_vaegon_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7704,11 +7094,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aemond_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -7732,11 +7117,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = daenerys_daughterofjaehaerys_crown_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7758,11 +7138,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = garlandgardener_crown_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -7821,11 +7196,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = garthgoldhand_crown_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -7889,11 +7259,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_tyboltthunderbolt_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -7937,11 +7302,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_geroldlannister_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -7994,11 +7354,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_lancellannister_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -8055,11 +7410,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_margaerytyrell_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -8155,11 +7505,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_gardener_peace_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_gardener_peace_artifact } }
@@ -8218,11 +7563,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_gardener_war_artifact }
-			}
-			modifier = {
 				add = 265
 				is_crowns_westeros_loaded_trigger = yes
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_gardener_war_artifact }}
@@ -8268,122 +7608,8 @@ fp3_turkic_high_nobles = {
 			}
 		}
 	}
-	
-	agot_headgear_hugor_of_the_hill_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = hugor_of_the_hill_crown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_hugor_of_the_hill_artifact }
-			}
-		}
-	}
-	
+
 ### Crowns of Westeros - WW Crowns ###
-	
-	agot_headgear_crown_of_the_iron_throne_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = crown_of_the_iron_throne
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_iron_throne_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_crown_of_the_red_keep_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = crown_of_the_red_keep
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_red_keep_artifact }
-			}
-		}
-	}
-
-	agot_headgear_crown_of_oldtown_tall_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = crown_of_oldtown_tall
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_oldtown_tall_artifact }
-			}
-		}
-	}
-
-	agot_headgear_crown_of_oldtown_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = crown_of_oldtown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_oldtown_artifact }
-			}
-		}
-	}
-	
-	agot_headgear_crown_of_harrenhall_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = crown_of_harrenhall
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_harrenhall_artifact }
-			}
-		}
-	}
 
 	agot_headgear_crown_of_the_mountain_and_vale_crown = {
 		dna_modifiers = {
@@ -8397,13 +7623,9 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_mountain_and_vale_artifact }
-			}
-			modifier = {
 				add = 245
 				is_crowns_westeros_loaded_trigger = yes
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_mountain_and_vale_artifact }}
 				agot_default_wear_crown_trigger = yes
 				OR = {
 					culture = culture:moonman
@@ -8426,11 +7648,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_goldengrove_artifact }
-			}
-			modifier = {
 				add = 260
 				is_crowns_westeros_loaded_trigger = yes
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_goldengrove_artifact }}
@@ -8451,11 +7668,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_golden_tree_artifact }
-			}
 			modifier = {
 				add = 260
 				is_crowns_westeros_loaded_trigger = yes
@@ -8478,11 +7690,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_of_stark_artifact }
-			}
-			modifier = {
 				add = 265
 				is_crowns_westeros_loaded_trigger = yes
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_of_stark_artifact }}
@@ -8500,32 +7707,6 @@ fp3_turkic_high_nobles = {
 		}
 	}
 
-	agot_headgear_crown_of_bear_island_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = crown_of_bear_island
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_bear_island_artifact }
-			}
-			modifier = {
-				add = 260
-				is_crowns_westeros_loaded_trigger = yes
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_bear_island_artifact }}
-				agot_default_wear_crown_trigger = yes
-				dynasty ?= dynasty:dynn_Mormont
-			}
-		}
-	}
-
 	agot_headgear_crown_of_yronwood_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -8538,94 +7719,11 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 310
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_yronwood_artifact }
-			}
-			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_yronwood_artifact }}
 				agot_default_wear_crown_trigger = yes
 				dynasty ?= dynasty:dynn_Yronwood
-			}
-		}
-	}
-
-	agot_headgear_crown_of_hellholt_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = crown_of_hellholt
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 310
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_hellholt_artifact }
-			}
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_hellholt_artifact }}
-				agot_default_wear_crown_trigger = yes
-				dynasty ?= dynasty:dynn_Uller
-			}
-		}
-	}
-
-	agot_headgear_crown_of_hearts_home_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = crown_of_hearts_home
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 310
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_hearts_home_artifact }
-			}
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_hearts_home_artifact }}
-				agot_default_wear_crown_trigger = yes
-				dynasty ?= dynasty:dynn_Corbray
-			}
-		}
-	}
-
-	agot_headgear_crown_of_dondarrion_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = crown_of_dondarrion
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_dondarrion_artifact }
-			}
-			modifier = {
-				add = 260
-				is_crowns_westeros_loaded_trigger = yes
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_dondarrion_artifact }}
-				agot_default_wear_crown_trigger = yes
-				dynasty ?= dynasty:dynn_Dondarrion
 			}
 		}
 	}
@@ -8641,11 +7739,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_estermont_artifact }
-			}
 			modifier = {
 				add = 260
 				is_crowns_westeros_loaded_trigger = yes
@@ -8668,11 +7761,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_connington_artifact }
-			}
-			modifier = {
 				add = 260
 				is_crowns_westeros_loaded_trigger = yes
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_connington_artifact }}
@@ -8694,36 +7782,12 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_bloodraven_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_bloodraven_artifact }}
 				agot_default_wear_crown_trigger = yes
 				is_character_targaryen_96 = yes # Bloodraven
-			}
-		}
-	}
-
-		agot_headgear_circlet_of_seastar_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = circlet_of_seastar
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_of_seastar_artifact }
 			}
 		}
 	}
@@ -8739,11 +7803,6 @@ fp3_turkic_high_nobles = {
 		}
 		weight = {
 			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = mockingbird_circlet_artifact }
-			}
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
@@ -8767,11 +7826,6 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_sansa_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
@@ -8794,308 +7848,12 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_cersei_ruler_artifact }
-			}
-			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_cersei_ruler_artifact }}
 				primary_title = title:e_the_iron_throne
 				is_character_lannister_6 = yes # Cersei Lannister
-			}
-		}
-	}
-
-	agot_headgear_crown_of_robert_baratheon = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = crown_of_robert_baratheon
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_robert_baratheon_artifact }
-			}
-		}
-	}
-	
-	agot_valyrian_crown2_targaryen = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = valyrian_crown2_targaryen
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = valyrian_crown2_targaryen_artifact }
-			}
-		}
-	}
-	
-	agot_valyrian_crown2_blackfyre = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = valyrian_crown2_blackfyre
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = valyrian_crown2_blackfyre_artifact }
-			}
-		}
-	}
-
-	agot_headgear_westerosi_valyrian_crown2_blackfyre = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = westerosi_valyrian_crown2_blackfyre
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = westerosi_valyrian_crown2_blackfyre_artifact }
-			}
-		}
-	}
-
-	agot_headgear_westerlands2_historic_ntc_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = westerlands2crown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = westerlands2_crown_historic_artifact }
-			}
-		}
-	}
-
-	agot_headgear_stark_historic_ntc_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = crownofwinter
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_winter_historic_artifact }
-			}
-		}
-	}
-
-	agot_headgear_falcon_historic_ntc_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = falcon_crown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = falcon_crown_historic_artifact }
-			}
-		}
-	}
-
-	agot_headgear_stormlands_ntc_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = stormlandscrown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 300
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = stormlands_crown_historic_artifact }
-			}
-		}
-	}
-
-	# LOTD
-	aegon_headgear_01 = {
-		dna_modifiers = {
-			accessory = {
-			mode = add
-				gene = headgear
-				template = aegon_crown_gems
-				value = 1
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 30000
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegoncrown }
-			}
-			modifier = {
-				add = 60000
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegoncrown } }
-				has_game_rule = hotd_visuals
-				#primary_title = title:e_the_iron_throne
-				OR = {
-					is_character_targaryen_27 = yes # Aegon I
-					is_character_targaryen_31 = yes # Maegor I
-				}
-			}
-			modifier = {
-				factor = 0
-				any_equipped_character_artifact = {
-					artifact_slot_type = helmet
-						has_variable = aegoncrown_nogems
-					}
-			}
-			modifier = {
-				factor = 0
-				NOT =  { is_lotd_loaded_trigger = yes }
-			}
-		  }
-		}
-
-	# Crowns of the Iron Throne
-	aegon_headgear_02 = {
-		dna_modifiers = {
-			accessory = {
-			mode = add
-				gene = headgear
-				template = aegon_crown_no_gems
-				value = 1
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 30000
-				has_game_rule = hotd_visuals
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegoncrown }
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegoncrown_nogems }
-			}
-			modifier = {
-				add = 70000
-				has_game_rule = hotd_visuals
-				OR = {
-					is_character_targaryen_65 = yes # Aegon II
-					is_character_targaryen_81 = yes # Daeron I
-				}
-			}
-			modifier = {
-				factor = 0
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegoncrown }
-				any_equipped_character_artifact = {
-					artifact_slot_type = helmet
-						NOT = { has_variable = aegoncrown_nogems }
-					}
-				}
-				modifier = {
-					factor = 0
-					NOT =  { is_lotd_loaded_trigger = yes }
-				}
-				modifier = {
-					factor = 0
-					NOT = { has_game_rule = hotd_visuals }
-				}
-			}
-		}
-
-	viserys_mask = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = special_headgear_face_mask_viserys
-				template = face_mask
-				range = { 0 1 } # For the randomness to work correctly
-				}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 500
-				#primary_title = title:e_the_iron_throne
-				is_character_targaryen_60 = yes # Viserys I
-				is_alive = no
-			}
-			modifier = {
-				factor = 0
-				NOT =  { is_lotd_loaded_trigger = yes }
-			}
-		}
-	}
-
-	viserys_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = viserys_crown
-				value = 1
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 301
-				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact }
-			}
-			modifier = {
-				add = 500
-				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact } }
-				is_alive = no
-				OR = {
-					is_character_targaryen_35 = yes # Jaehaerys I
-					is_character_targaryen_60 = yes # Viserys I
-					is_character_targaryen_63 = yes # Rhaenyra
-				}
-			}
-			modifier = {
-				factor = 0
-				NOT =  { is_lotd_loaded_trigger = yes }
-			}
-			modifier = {
-				factor = 0
-				NOT =  { has_game_rule = hotd_visuals }
 			}
 		}
 	}

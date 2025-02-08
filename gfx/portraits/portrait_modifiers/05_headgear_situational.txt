@@ -191,6 +191,7 @@
 		}
 	}
 	
+
 	# BP2
 	university_teacher_headgear = {
 		dna_modifiers = {
@@ -213,28 +214,27 @@
 				}
 			}
 			#AGOT Disabled
-			# modifier = {
-			# 	add = 50
-			# 	learning >= high_skill_rating
+			#modifier = {
+			#	add = 50
+			#	learning >= high_skill_rating
 			#	age >= 25
 			#	is_ai = yes
 			#	static_group_filter = {
 			#		group = glasses
 			#		match = 0.25
 			#	}
-			# 	NOR = {
+			#	NOR = {
 			#		this = character:41702
-			# 		has_trait = blind
-			# 		has_trait = disfigured
-			# 	}
-			# 	OR = {
-			# 		has_realm_law_flag = nerd_camp_purpose
-			# 		host ?= { has_realm_law_flag = nerd_camp_purpose }
-			# 	}
+			#		has_trait = blind
+			#		has_trait = disfigured
+			#	}
+			#	OR = {
+			#		has_realm_law_flag = nerd_camp_purpose
+			#		host ?= { has_realm_law_flag = nerd_camp_purpose }
+			#	}
 			#}
 		}
 	}
-
 
 	#AGOT Added
 	agot_headgear_kingsguard = {
@@ -274,12 +274,12 @@
 			base = 0
 			modifier = {
 				add = 500
-					has_trait = kingsguard
-					portrait_wear_armor_trigger = yes
-					portrait_wear_helmet_trigger = yes
+				has_trait = kingsguard
+				portrait_wear_armor_trigger = yes
+				portrait_wear_helmet_trigger = yes
 				NOR = {
-						dynasty ?= dynasty:dynn_Targaryen
-						house = house:house_Blackfyre
+					dynasty ?= dynasty:dynn_Targaryen
+					house = house:house_Blackfyre
 					AND = {
 						exists = character:Targaryen_89
 						this = character:Targaryen_89
@@ -332,12 +332,12 @@
 			base = 0
 			modifier = {
 				add = 500
-					has_trait = kingsguard
-					portrait_wear_armor_trigger = yes
-					portrait_wear_helmet_trigger = yes
-					OR = {
-						dynasty ?= dynasty:dynn_Targaryen
-						house = house:house_Blackfyre
+				has_trait = kingsguard
+				portrait_wear_armor_trigger = yes
+				portrait_wear_helmet_trigger = yes
+				OR = {
+					dynasty ?= dynasty:dynn_Targaryen
+					house = house:house_Blackfyre
 					AND = {
 						exists = character:Targaryen_89
 						this = character:Targaryen_89
@@ -938,8 +938,7 @@
 			}
 		}
 	}
-	
-	
+
 	#AGOT ARTIFACT MODIFIERS - Necessary for artifacts to always appear when equipped versus scripted appearances.
 	agot_headgear_dany_crown = {
 		dna_modifiers = {
@@ -1934,6 +1933,169 @@
 		}
 	}
 
+	agot_headgear_crown_of_bear_island_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_bear_island
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_bear_island_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_hearts_home_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_hearts_home
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 310
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_hearts_home_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_darklyn_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_darklyn
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_darklyn_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_dondarrion_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_dondarrion
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_dondarrion_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_hellholt_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_hellholt
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 310
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_hellholt_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_castamere_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_castamere
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_castamere_artifact }
+
+			}
+		}
+	}
+
+	agot_headgear_crown_of_deep_den_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_deep_den
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_deep_den_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_the_banefort_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_the_banefort
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_banefort_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_crakehall_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_crakehall
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_crakehall_artifact }
+			}
+		}
+	}
+
 	agot_headgear_crown_of_the_grey_king_rusted_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -2243,6 +2405,118 @@
 		}
 	}
 
+	
+	agot_headgear_first_man_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_first_men
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_first_men_artifact }
+			}
+		}
+	}
+
+	agot_headgear_the_andals_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_the_andals
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_andals_artifact }
+			}
+		}
+	}
+
+	agot_headgear_the_andals_silver_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_the_andals_silver
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_andals_silver_artifact }
+			}
+		}
+	}
+
+	agot_headgear_mudd_coa_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_mudd_coa
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_mudd_coa_artifact }
+			}
+		}
+	}
+
+	agot_headgear_westerosi_diadem_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_westerosi_diadem
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_westerosi_diadem_artifact }
+			}
+		}
+	}
+
+	agot_headgear_westerosi_diadem_silver_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crown_of_westerosi_diadem_silver
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_westerosi_diadem_silver_artifact }
+			}
+		}
+	}
+
+	########################################
+	### AGOT SUBMOD CORE MODIFIERS START ###
+	########################################
 	
 	kingsguard_headgear_01 = {
 	    dna_modifiers = {
@@ -3118,6 +3392,2195 @@
 					should_be_naked_trigger = yes
 				}
 			}			
+		}
+	}
+
+	### Crowns of Westeros - Canon Crowns ###
+	
+	agot_headgear_stepstone_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = stepstone_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_stepstone_artifact }
+			}
+		}
+	}
+	
+### Crowns of Westeros - Show Crowns
+	
+	agot_headgear_showaerys_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = showaerys_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_showaerys_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_showrhaenyra_crown_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = showrhaenyra_crown_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = showrhaenyra_crown_01_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_showrhaenyra_crown_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = showrhaenyra_crown_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = showrhaenyra_crown_02_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_showaegon_crown_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = showaegon_crown_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = showaegon_crown_01_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_showaegon_crown_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = showaegon_crown_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = showaegon_crown_02_artifact }
+			}
+		}
+	}
+	
+### Crowns of Westeros - Variant Crowns ###
+
+	agot_headgear_showrhaenyra_crown_03 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = showrhaenyra_crown_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = showrhaenyra_crown_03_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aegon_variant_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aegon_variant_1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegon_variant_1_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aegon_variant_2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aegon_variant_2
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegon_variant_2_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aegon_variant_3 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aegon_variant_3
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegon_variant_3_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aegon_variant_4 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aegon_variant_4
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegon_variant_4_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_jaehaerys_valyrian_variant = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = jaehaerys_valyrian_variant
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = jaehaerys_valyrian_variant_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_jaehaerys_variant_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = jaehaerys_variant_1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = jaehaerys_variant_1_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_jaehaerys_variant_2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = jaehaerys_variant_2
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = jaehaerys_variant_2_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_cersei_red_tiara = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = cersei_red_tiara
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = cersei_red_tiara_artifact }
+			}
+		}
+	}
+
+### Crowns of Westeros - Queen Crowns ###	
+
+	agot_headgear_rhaenatargaryen_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = canon_queens
+				accessory = rhaenatargaryen_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_rhaenatargaryen_artifact }
+			}
+		}
+	}
+
+	agot_headgear_alyssavelaryon_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = canon_queens
+				accessory = alyssavelaryon_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_alyssavelaryon_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_alicenthightower_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = canon_queens
+				accessory = alicenthightower_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_alicenthightower_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_daena_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = canon_queens
+				accessory = daena_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_daena_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_bethablackwood_circlet = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = canon_queens
+				accessory = bethablackwood_circlet
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_bethablackwood_artifact }
+			}
+		}
+	}
+
+	agot_headgear_mariah_martell_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = canon_queens
+				accessory = mariah_martell_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_mariah_martell_artifact }
+			}
+		}
+	}
+
+	agot_headgear_cersei_tiara = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = canon_queens
+				accessory = cersei_tiara
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = cersei_tiara_artifact }
+			}
+		}
+	}
+
+### Crowns of Westeros - Main Nerdman Crowns ###
+	
+	agot_headgear_aliandra_martell_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aliandra_martell_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aliandra_martell_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_mors_martell_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = mors_martell_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_mors_martell_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_alysanne_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = alysannetargaryen_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				AND = {
+					is_crowns_westeros_loaded_trigger = yes
+					agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_alysanne_artifact }
+				}
+			}
+		}
+	}
+	
+	agot_headgear_bittersteel_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = bittersteel_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				AND = {
+					is_crowns_westeros_loaded_trigger = yes
+					agot_has_artifact_equiped = { ARTIFACT_VARIABLE = bittersteel_crown_artifact }
+				}
+			}
+		}
+	}
+	
+	agot_headgear_calla_blackfyre_circlet = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = calla_blackfyre_circlet
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = calla_blackfyre_circlet_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_argella_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = argella_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = argella_crown_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_myrcella_circlet = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = myrcella_circlet
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = myrcella_circlet_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_sharra_arryn_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = sharra_arryn_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = sharra_arryn_crown_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_roland_arryn_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = roland_arryn_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = roland_arryn_crown_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_rhaegar_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = rhaegar_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_rhaegar_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_viserys_son_of_aenys = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = viserys_son_of_aenys
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_viserys_son_of_aenys_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_viserys_son_of_aenys_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = viserys_son_of_aenys_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_viserys_son_of_aenys_02_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_wolfswood_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = wolfswood_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = wolfswood_crown_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_bracken_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = bracken_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = bracken_crown_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_massey_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = massey_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = massey_crown_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_duskendale_crown_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = duskendale_crown_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = duskendale_crown_01_artifact }
+			}
+		}
+	}
+
+	agot_headgear_aegonvi_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aegonvi_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aegonvi_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_viserysiii_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = viserysiii_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_viserysiii_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_jonsnowtargaryen_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = jonsnowtargaryen_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jonsnowtargaryen_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_maesteraemon_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = maesteraemon_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_maesteraemon_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aegontheuncrowned_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aegontheuncrowned_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aegontheuncrowned_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_brightflame_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = brightflame_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_brightflame_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_baelon_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = baelon_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_baelon_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_valarr_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = valarr_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_valarr_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aemonsonofjaehaerys_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aemonsonofjaehaerys_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aemonsonofjaehaerys_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_baelorbreakspear_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = baelorbreakspear_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_baelorbreakspear_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_laenorvelaryon_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = laenorvelaryon_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_laenorvelaryon_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_jacaerysvelaryon_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = jacaerysvelaryon_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jacaerysvelaryon_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_seawyrm_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = seawyrm_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_seawyrm_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_greenpyre_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = greenpyre_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_greenpyre_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_goldfyre_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = goldfyre_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_goldfyre_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_celtigar_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = celtigar_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_celtigar_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_duncandragonfly_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = duncandragonfly_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_duncandragonfly_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_jonsnow_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = jonsnow_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jonsnow_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_shieraseastar_crown_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = shieraseastar_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_shieraseastar_artifact }
+				agot_is_independent_ruler = yes
+			}
+		}
+	}
+	
+	
+	agot_headgear_aereatargaryen_crown_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aereatargaryen_crown_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aereatargaryen_crown_01_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aereatargaryen_crown_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aereatargaryen_crown_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aereatargaryen_crown_02_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_vaellatargaryen_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = vaellatargaryen_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = vaellatargaryen_crown_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_rhaenysvelaryon_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = rhaenysvelaryon_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_rhaenysvelaryon_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aegonblackfyre_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aegonblackfyre_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aegonblackfyre_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_daemon_ii_blackfyre_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = daemon_ii_blackfyre_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_daemon_ii_blackfyre_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_haegonblackfyre_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = haegonblackfyre_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_haegonblackfyre_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aenysblackfyre_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aenysblackfyre_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aenysblackfyre_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_maelysblackfyre_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = maelysblackfyre_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_maelysblackfyre_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_orysbaratheon_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = orysbaratheon_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_orysbaratheon_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_robbstark_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = robbstark_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_robbstark_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_branstark_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = branstark_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_branstark_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aegonsonofjaehaerys_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aegonsonofjaehaerys_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aegonsonofjaehaerys_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_vaegon_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = vaegon_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_vaegon_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_aemond_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aemond_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_aemond_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_daenerys_daughterofjaehaerys_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = daenerys_daughterofjaehaerys_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = daenerys_daughterofjaehaerys_crown_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_garlandgardener_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = garlandgardener_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = garlandgardener_crown_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_garthgoldhand_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = garthgoldhand_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = garthgoldhand_crown_artifact }
+			}
+		}
+	}	
+	
+	agot_headgear_tyboltthunderbolt_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = tyboltthunderbolt_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_tyboltthunderbolt_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_geroldlannister_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = geroldlannister_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_geroldlannister_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_lancellannister_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = lancellannister_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_lancellannister_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_margaerytyrell_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = margaerytyrell_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_margaerytyrell_artifact }
+			}
+		}
+	}
+
+	agot_headgear_gardener_peace_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = gardener_peace_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_gardener_peace_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_gardener_war_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = gardener_war_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_gardener_war_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_hugor_of_the_hill_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = hugor_of_the_hill_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_hugor_of_the_hill_artifact }
+			}
+		}
+	}
+	
+### Crowns of Westeros - WW Crowns ###
+	
+	agot_headgear_crown_of_the_iron_throne_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_the_iron_throne
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_iron_throne_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_crown_of_the_red_keep_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_the_red_keep
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_red_keep_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_oldtown_tall_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_oldtown_tall
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_oldtown_tall_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_oldtown_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_oldtown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_oldtown_artifact }
+			}
+		}
+	}
+	
+	agot_headgear_crown_of_harrenhall_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_harrenhall
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_harrenhall_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_the_mountain_and_vale_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_the_mountain_and_vale
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_mountain_and_vale_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_goldengrove_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_goldengrove
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_goldengrove_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_the_golden_tree_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_goldengrove
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_the_golden_tree_artifact }
+			}
+		}
+	}
+
+	agot_headgear_circlet_of_stark_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = circlet_of_stark
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_of_stark_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_yronwood_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_yronwood
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 310
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_yronwood_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_estermont_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_estermont
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_estermont_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_connington_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_connington
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_connington_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_bloodraven_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_bloodraven
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_bloodraven_artifact }
+			}
+		}
+	}
+
+		agot_headgear_circlet_of_seastar_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = circlet_of_seastar
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = circlet_of_seastar_artifact }
+			}
+		}
+	}
+
+	agot_headgear_mockingbird_circlet_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = mockingbird_circlet
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = mockingbird_circlet_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_sansa_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_sansa
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_sansa_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_cersei_ruler_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_cersei_ruler
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_cersei_ruler_artifact }
+			}
+		}
+	}
+
+	agot_headgear_crown_of_robert_baratheon = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_robert_baratheon
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_robert_baratheon_artifact }
+			}
+		}
+	}
+	
+	agot_valyrian_crown2_targaryen = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = valyrian_crown2_targaryen
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = valyrian_crown2_targaryen_artifact }
+			}
+		}
+	}
+	
+	agot_valyrian_crown2_blackfyre = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = valyrian_crown2_blackfyre
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = valyrian_crown2_blackfyre_artifact }
+			}
+		}
+	}
+
+	agot_headgear_westerosi_valyrian_crown2_blackfyre = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = westerosi_valyrian_crown2_blackfyre
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = westerosi_valyrian_crown2_blackfyre_artifact }
+			}
+		}
+	}
+
+	agot_headgear_westerlands2_historic_ntc_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = westerlands2crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = westerlands2_crown_historic_artifact }
+			}
+		}
+	}
+
+	agot_headgear_stark_historic_ntc_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = crownofwinter
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_of_winter_historic_artifact }
+			}
+		}
+	}
+
+	agot_headgear_falcon_historic_ntc_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = falcon_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = falcon_crown_historic_artifact }
+			}
+		}
+	}
+
+	agot_headgear_stormlands_ntc_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = stormlandscrown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = stormlands_crown_historic_artifact }
+			}
+		}
+	}
+	# LOTD
+	aegon_headgear_01 = {
+		dna_modifiers = {
+			accessory = {
+			mode = add
+				gene = headgear
+				template = aegon_crown_gems
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 30000
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegoncrown }
+			}
+			modifier = {
+				add = 60000
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegoncrown } }
+				has_game_rule = hotd_visuals
+				#primary_title = title:e_the_iron_throne
+				OR = {
+					is_character_targaryen_27 = yes # Aegon I
+					is_character_targaryen_31 = yes # Maegor I
+				}
+			}
+			modifier = {
+				factor = 0
+				any_equipped_character_artifact = {
+					artifact_slot_type = helmet
+						has_variable = aegoncrown_nogems
+					}
+			}
+			modifier = {
+				factor = 0
+				NOT =  { is_lotd_loaded_trigger = yes }
+			}
+		  }
+		}
+
+	# Crowns of the Iron Throne
+	aegon_headgear_02 = {
+		dna_modifiers = {
+			accessory = {
+			mode = add
+				gene = headgear
+				template = aegon_crown_no_gems
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 30000
+				has_game_rule = hotd_visuals
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegoncrown }
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegoncrown_nogems }
+			}
+			modifier = {
+				add = 70000
+				has_game_rule = hotd_visuals
+				OR = {
+					is_character_targaryen_65 = yes # Aegon II
+					is_character_targaryen_81 = yes # Daeron I
+				}
+			}
+			modifier = {
+				factor = 0
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = aegoncrown }
+				any_equipped_character_artifact = {
+					artifact_slot_type = helmet
+						NOT = { has_variable = aegoncrown_nogems }
+					}
+				}
+				modifier = {
+					factor = 0
+					NOT =  { is_lotd_loaded_trigger = yes }
+				}
+				modifier = {
+					factor = 0
+					NOT = { has_game_rule = hotd_visuals }
+				}
+			}
+		}
+
+	viserys_mask = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_viserys
+				template = face_mask
+				range = { 0 1 } # For the randomness to work correctly
+				}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				#primary_title = title:e_the_iron_throne
+				is_character_targaryen_60 = yes # Viserys I
+				is_alive = no
+			}
+			modifier = {
+				factor = 0
+				NOT =  { is_lotd_loaded_trigger = yes }
+			}
+		}
+	}
+
+	viserys_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = viserys_crown
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 301
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact }
+			}
+			modifier = {
+				add = 500
+				NOT = { agot_has_artifact_equiped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact } }
+				is_alive = no
+				OR = {
+					is_character_targaryen_35 = yes # Jaehaerys I
+					is_character_targaryen_60 = yes # Viserys I
+					is_character_targaryen_63 = yes # Rhaenyra
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT =  { is_lotd_loaded_trigger = yes }
+			}
+			modifier = {
+				factor = 0
+				NOT =  { has_game_rule = hotd_visuals }
+			}
 		}
 	}
 }
