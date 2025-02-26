@@ -423,6 +423,17 @@ one_handed_sword = {
 			culture = {
 				OR = {
 					has_cultural_pillar = heritage_rhoynish
+				}
+			}
+		}
+		animations_props = agot_artifact_weapon_dornish_sabre
+		animations = council_marshal_decal
+	}
+	portrait_modifier = {
+		trigger = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_rhoynish
 					has_cultural_pillar = heritage_summer_islander
 				}
 			}

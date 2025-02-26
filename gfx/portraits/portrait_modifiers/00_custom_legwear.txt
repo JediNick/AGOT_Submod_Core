@@ -13,6 +13,56 @@
 		template = agot_all_legwear
 	}
 
+	add_accessory_modifiers = {
+		gene = legwear
+		template = western_common_legwear
+	}
+	add_accessory_modifiers = {
+		gene = legwear
+		template = western_legwear
+	}
+	add_accessory_modifiers = {
+		gene = legwear
+		template = western_war_legwear
+	}
+	add_accessory_modifiers = {
+		gene = legwear
+		template = mena_common_legwear
+	}
+	add_accessory_modifiers = {
+		gene = legwear
+		template = mena_nobility_legwear
+	}
+	add_accessory_modifiers = {
+		gene = legwear
+		template = mena_war_legwear
+	}
+	add_accessory_modifiers = {
+		gene = legwear
+		is_valid_custom = {
+			has_fp1_dlc_trigger = yes
+		}
+		template = fp1_common_legwear
+	}
+
+	## CCP4 ##
+
+	add_accessory_modifiers = {
+		gene = legwear
+		is_valid_custom = {
+			has_cp4_dlc_trigger = yes
+		}
+		template = ccp4_sami_common_legwear
+	}
+
+	add_accessory_modifiers = {
+		gene = legwear
+		is_valid_custom = {
+			has_cp4_dlc_trigger = yes
+		}
+		template = ccp4_khanty_common_legwear
+	}
+
 	### AGOT Submod Core ###
 	add_accessory_modifiers = {
 		gene = legwear

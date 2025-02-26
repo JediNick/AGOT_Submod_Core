@@ -2496,6 +2496,17 @@
 		}
 	}
 
+	agot_artifact_weapon_skinpeeler = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_skinpeeler
+				value = 1.0
+			}
+		}
+	}
+
 	agot_artifact_weapon_skullcleaver = {
 		dna_modifiers = {
 			accessory = {
@@ -2981,7 +2992,16 @@
 		}
 	}
 	
-
+	agot_artifact_weapon_dornish_sabre = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_dornish_sabre
+				value = 1.0
+			}
+		}
+	}
 
 	agot_artifact_weapon_emoBoy_sword = {
 		dna_modifiers = {

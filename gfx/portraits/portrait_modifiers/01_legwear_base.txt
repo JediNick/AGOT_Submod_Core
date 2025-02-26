@@ -29,7 +29,7 @@
 
 ## No Leg wear for children under 4 ## 
 
-	children_no_headgear = {
+	children_no_legwear = {
 
 		dna_modifiers = {
 			accessory = {
@@ -449,6 +449,48 @@
 						CULTURE_INPUT = west_slavic
 					}
                 }
+			}
+		}
+	}
+	
+	## CCP4 SAMI ##
+	
+	ccp4_sami_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = ccp4_sami_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_sami_clothing_trigger = yes
+			}
+		}
+	}
+
+	## CCP4 KHANTY / UGRO-PERMIAN ##
+	
+	ccp4_ugro_permian_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = ccp4_khanty_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_ugro_permian_clothing_trigger = yes
 			}
 		}
 	}

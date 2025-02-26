@@ -209,35 +209,32 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-
-		#AGOT Added
-
-		kingsguard_war_01_legwear = {
+		
+		ccp4_sami_common_legwear = {
 			index = 15
 			male = {
-				1 = male_legwear_special_kingsguard_war_01
+				1 = m_legwear_sec_ccp4_sami_com_01
 			}
 			female = {
-				0 = female_legwear_secular_ep1_jester_01
+				1 = f_legwear_sec_ccp4_sami_com_01
 			}
 			boy = male
 			girl = female
 		}
 
-		westerlands_war_legwear = {
+		ccp4_khanty_common_legwear = {
 			index = 16
 			male = {
-				1 = male_legwear_secular_westerlands_war_02
-				1 = male_legwear_secular_westerlands_war_03
-				1 = male_legwear_secular_westerlands_lannister_war_03
+				1 = m_legwear_sec_ccp4_khanty_com_01
 			}
 			female = {
-				0 = female_legwear_secular_ep1_jester_01
-				0 = female_legwear_secular_ep1_jester_01
+				1 = f_legwear_sec_ccp4_khanty_com_01
 			}
 			boy = male
 			girl = female
 		}
+
+		#AGOT Added
 
 		ironborn_war_legwear = {
 			index = 17
@@ -617,6 +614,35 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
+		
+		kingsguard_war_01_legwear = {
+			index = 40
+			male = {
+				1 = male_legwear_special_kingsguard_war_01
+			}
+			female = {
+				0 = female_legwear_secular_ep1_jester_01
+			}
+			boy = male
+			girl = female
+		}
+
+		westerlands_war_legwear = {
+			index = 41
+			male = {
+				1 = male_legwear_secular_westerlands_war_02
+				1 = male_legwear_secular_westerlands_war_03
+				1 = male_legwear_secular_westerlands_lannister_war_03
+			}
+			female = {
+				0 = female_legwear_secular_ep1_jester_01
+				0 = female_legwear_secular_ep1_jester_01
+			}
+			boy = male
+			girl = female
+		}
+		
+		
 		##AGOT SUBMOD CORE ADDED		
 		kingsguard_legwear_01 = {
 			index = 90
@@ -1057,9 +1083,51 @@ accessory_genes = {
 			}
 		}
 
+		ccp4_sami_cloaks_com = {
+			index = 20
+			male = {
+				2 = empty
+				1 = m_cloaks_sec_ccp4_sami_com_01
+				1 = m_cloaks_sec_ccp4_sami_com_01b
+			}
+			female = {
+				1 = f_cloaks_sec_ccp4_sami_com_01
+			}
+			boy = male
+			girl = female
+		}
+		ccp4_sami_cloaks_lo_nob = {
+			index = 21
+			male = {
+				3 = empty
+				1 = m_cloaks_sec_ccp4_sami_lo_nob_01
+				1 = m_cloaks_sec_ccp4_sami_lo_nob_01b
+			}
+			female = {
+				1 = f_cloaks_sec_ccp4_sami_com_01
+				1 = f_cloaks_sec_ccp4_sami_lo_nob_01
+			}
+			boy = male
+			girl = female
+		}
+		ccp4_sami_cloaks_hi_nob = {
+			index = 22
+			male = {
+				3 = empty
+				1 = m_cloaks_sec_ccp4_sami_hi_nob_01
+				1 = m_cloaks_sec_ccp4_sami_hi_nob_01b
+			}
+			female = {
+				1 = f_cloaks_sec_ccp4_sami_com_01
+				1 = f_cloaks_sec_ccp4_sami_hi_nob_01
+			}
+			boy = male
+			girl = female
+		}
+
 		#AGOT Added
 		nw_fur_01 = {
-			index = 20
+			index = 23
 			male = {
 				1 = nw_male_clothes_furs_nw_01
 			}
@@ -1072,7 +1140,7 @@ accessory_genes = {
 
 
 		male_cloaks_secular_armorcape_01 = {
-			index = 21
+			index = 24
 			male = {
 				1 = male_cloaks_secular_armorcape_01
 			}
@@ -1084,7 +1152,7 @@ accessory_genes = {
 		}
 
 		male_cloaks_secular_halfcape_01 = {
-			index = 22
+			index = 25
 			male = {
 				1 = male_cloaks_secular_halfcape_01
 			}
@@ -1096,7 +1164,7 @@ accessory_genes = {
 		}
 
 		male_goldcloak_01 = {
-			index = 23
+			index = 26
 			male = {
 				1 = male_goldcloak_01
 			}
@@ -1108,7 +1176,7 @@ accessory_genes = {
 		}
 
 		agot_historic_capes = {
-			index = 24
+			index = 27
 			male = {
 				1 = unlikely_cape_02
 				1 = male_cloaks_secular_stormcloak_02
@@ -1125,7 +1193,7 @@ accessory_genes = {
 		}
 
 		agot_coa_cloaks_fp1 = {
-			index = 25
+			index = 28
 			male = {
 				1 = male_cloaks_secular_fp1_nobility_01_agot
 				1 = male_cloaks_secular_fp1_agot_northern_01
@@ -1137,7 +1205,7 @@ accessory_genes = {
 		}
 
 		agot_coa_cloaks_fp1_dynamic_low = {
-			index = 26
+			index = 29
 			male = {
 				3 = male_cloaks_secular_fp1_nobility_01
 				2 = male_cloaks_secular_north_high_winter_01
@@ -1153,7 +1221,7 @@ accessory_genes = {
 		}
 
 		agot_coa_cloaks_fp1_dynamic_high = {
-			index = 27
+			index = 30
 			male = {
 				4 = male_cloaks_secular_fp1_nobility_01_agot
 				2 = male_cloaks_secular_north_high_winter_01
@@ -1171,7 +1239,7 @@ accessory_genes = {
 		}
 
 		agot_coa_cloaks_fp1_dynamic_stark = {
-			index = 28
+			index = 31
 			male = {
 				2 = male_cloaks_secular_fp1_agot_northern_01
 				2 = male_cloaks_secular_north_high_winter_01
@@ -1187,7 +1255,7 @@ accessory_genes = {
 		}
 
 		agot_coa_cloaks_ep1 = {
-			index = 29
+			index = 32
 			male = {
 				1 = male_cloaks_secular_ep1_adventurer_01_agot
 			}
@@ -1197,7 +1265,7 @@ accessory_genes = {
 		}
 
 		agot_coa_cloaks_ep2 = {
-			index = 30
+			index = 33
 			male = {
 				1 = m_cloaks_sec_ep2_western_travel_01_agot
 			}
@@ -1209,7 +1277,7 @@ accessory_genes = {
 		}
 
 		agot_coa_cloaks_sp2 = {
-			index = 31
+			index = 34
 			male = {
 				1 = m_cloaks_sec_sp2_western_imp_01_agot
 			}
@@ -1221,7 +1289,7 @@ accessory_genes = {
 		}
 
 		agot_coa_cloaks_western_royalty = {
-			index = 32
+			index = 35
 			male = {
 				1 = male_cloaks_secular_western_royalty_01_agot
 			}
@@ -1233,7 +1301,7 @@ accessory_genes = {
 		}
 
 		male_cloaks_secular_shouldercape_coa_01 = {
-			index = 33
+			index = 36
 			male = {
 				1 = male_cloaks_secular_shouldercape_coa_01
 			}
@@ -1245,7 +1313,7 @@ accessory_genes = {
 		}
 
 		kingsguard_cloak = {
-			index = 34
+			index = 37
 			male = {
 				1 = kingsguard_cloak_01
 			}
@@ -1257,7 +1325,7 @@ accessory_genes = {
 		}
 
 		unlikely_cape_01 = {
-			index = 35
+			index = 38
 			male = {
 				1 = unlikely_cape_01
 			}
@@ -1269,7 +1337,7 @@ accessory_genes = {
 		}
 
 		male_cloaks_secular_shouldercape_01 = {
-			index = 36
+			index = 39
 			male = {
 				1 = male_cloaks_secular_shouldercape_01
 			}
@@ -1281,7 +1349,7 @@ accessory_genes = {
 		}
 
 		agot_coa_cloaks_fp1_dynamic_low_war = {
-			index = 37
+			index = 40
 			male = {
 				3 = male_cloaks_secular_fp1_nobility_01
 				2 = male_cloaks_secular_north_high_winter_01
@@ -1297,7 +1365,7 @@ accessory_genes = {
 		}
 
 		agot_coa_cloaks_fp1_dynamic_high_war = {
-			index = 38
+			index = 41
 			male = {
 				4 = male_cloaks_secular_fp1_nobility_01_agot
 				2 = male_cloaks_secular_north_high_winter_01
@@ -1314,7 +1382,7 @@ accessory_genes = {
 		}
 
 		agot_coa_cloaks_fp1_dynamic_stark_war = {
-			index = 39
+			index = 42
 			male = {
 				2 = male_cloaks_secular_fp1_agot_northern_01
 				2 = male_cloaks_secular_north_high_winter_01
@@ -1329,7 +1397,7 @@ accessory_genes = {
 		}
 
 		stormcloak_01 = {
-			index = 40
+			index = 43
 			male = {
 				2 = male_cloaks_secular_stormcloak_01
 				1 = male_cloaks_secular_stormcloak_coa_01
@@ -1343,7 +1411,7 @@ accessory_genes = {
 		}
 
 		north_high_winter_cloaks = {
-			index = 41
+			index = 44
 			male = {
 				1 = male_cloaks_secular_north_high_winter_01
 				1 = male_cloaks_secular_north_high_winter_dynastic_01
@@ -1357,7 +1425,7 @@ accessory_genes = {
 		}
 
 		agot_hidden_cloaks = {
-			index = 42
+			index = 45
 			male = {
 				1 = male_cloaks_secular_stormcloak_01
 				1 = male_cloaks_secular_stormcloak_coa_01
@@ -1371,7 +1439,7 @@ accessory_genes = {
 		}
 
 		agot_all_ep1_cloaks = {
-			index = 43
+			index = 46
 			male = {
 				1 = nw_male_clothes_furs_nw_01
 				1 = kingsguard_cloak_01
@@ -1389,7 +1457,7 @@ accessory_genes = {
 		}
 
 		agot_all_no_dlc_cloaks = {
-			index = 44
+			index = 47
 			male = {
 				1 = unlikely_cape_01
 				1 = male_cloaks_secular_stormcloak_01
@@ -1409,7 +1477,7 @@ accessory_genes = {
 		}
 
 		agot_skinchangers_second_pelt = {
-			index = 45
+			index = 48
 			male = {
 				1 = male_furs_secular_fp1_nobility_02
 			}
@@ -3753,11 +3821,44 @@ pol_marshal_sword_left = {
 			female = {
 				1 = emoBoy_sword_artifact
 			}
+		}
+		
+		agot_artifact_weapon_skinpeeler = {
+			index = 154
+			male = {
+				1 = skinpeeler_artifact
+			}
+			female = {
+				1 = skinpeeler_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_dornish_sabre = {
+			index = 155
+			male = {
+				1 = dornish_sabre_artifact
+			}
+			female = {
+				1 = dornish_sabre_artifact
+			}
+			boy = male
+			girl = female
+		}
+	
+		agot_artifact_weapon_dornish_sabre = {
+			index = 156
+			male = {
+				1 = dornish_sabre_artifact
+			}
+			female = {
+				1 = dornish_sabre_artifact
+			}
 			boy = male
 			girl = female
 		}
 		asoiaf_artifact_weapon_ice = { #AGOT+ added
-			index = 154
+			index = 157
 			male = {
 				1 = asoiaf_sword_ice_prop
 			}
