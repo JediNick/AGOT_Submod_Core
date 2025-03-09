@@ -6,32 +6,6 @@
 		gene = cloaks
 		template = no_cloak
 	}
-	
-	## CCP4 Sami ##
-
-	add_accessory_modifiers = {
-		gene = cloaks
-		template = ccp4_sami_cloaks_com
-		is_valid_custom = {
-			has_cp4_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = cloaks
-		template = ccp4_sami_cloaks_lo_nob
-		is_valid_custom = {
-			has_cp4_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = cloaks
-		template = ccp4_sami_cloaks_hi_nob
-		is_valid_custom = {
-			has_cp4_dlc_trigger = yes
-		}
-	}
 
 	#AGOT Added
 	add_accessory_modifiers = {
@@ -109,6 +83,32 @@
 			is_agot_plus_loaded_trigger = yes
 		}
 		template = asoiaf_kingsguard_default_cloak
+	}
+
+	## Vanilla Cloaks ##
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ccp4_sami_cloaks_com
+		is_valid_custom = {
+			has_cp4_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ccp4_sami_cloaks_lo_nob
+		is_valid_custom = {
+			has_cp4_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ccp4_sami_cloaks_hi_nob
+		is_valid_custom = {
+			has_cp4_dlc_trigger = yes
+		}
 	}
 
 	add_accessory_modifiers = {

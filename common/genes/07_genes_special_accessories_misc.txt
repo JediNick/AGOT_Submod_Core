@@ -1143,6 +1143,7 @@ accessory_genes = {
 			index = 24
 			male = {
 				1 = male_cloaks_secular_armorcape_01
+				1 = male_cloaks_secular_armorcape_01_dynastic
 			}
 			female = {
 				1 = empty
@@ -1155,6 +1156,7 @@ accessory_genes = {
 			index = 25
 			male = {
 				1 = male_cloaks_secular_halfcape_01
+				1 = male_cloaks_secular_halfcape_01_dynastic
 			}
 			female = {
 				1 = empty
@@ -1300,13 +1302,15 @@ accessory_genes = {
 			girl = female
 		}
 
-		male_cloaks_secular_shouldercape_coa_01 = {
+		male_cloaks_secular_shouldercape_dynastic = {
 			index = 36
 			male = {
-				1 = male_cloaks_secular_shouldercape_coa_01
+				1 = male_cloaks_secular_shouldercape_01_dynastic
+				1 = male_cloaks_secular_shouldercape_02_dynastic
 			}
 			female = {
-				1 = empty
+				1 = female_cloaks_secular_shouldercape_01_dynastic
+				1 = female_cloaks_secular_shouldercape_02_dynastic
 			}
 			boy = male
 			girl = female
@@ -1340,9 +1344,13 @@ accessory_genes = {
 			index = 39
 			male = {
 				1 = male_cloaks_secular_shouldercape_01
+				1 = male_cloaks_secular_shouldercape_01_dynastic
+				1 = male_cloaks_secular_shouldercape_02_dynastic
 			}
 			female = {
-				1 = empty
+				1 = female_cloaks_secular_shouldercape_01
+				1 = female_cloaks_secular_shouldercape_01_dynastic
+				1 = female_cloaks_secular_shouldercape_02_dynastic
 			}
 			boy = male
 			girl = female
@@ -1444,13 +1452,19 @@ accessory_genes = {
 				1 = nw_male_clothes_furs_nw_01
 				1 = kingsguard_cloak_01
 				1 = male_cloaks_secular_armorcape_01
+				1 = male_cloaks_secular_armorcape_01_dynastic
 				1 = male_goldcloak_01
 				1 = male_cloaks_secular_shouldercape_01
+				1 = male_cloaks_secular_shouldercape_01_dynastic
+				1 = male_cloaks_secular_shouldercape_02_dynastic
 				1 = male_cloaks_secular_halfcape_01
+				1 = male_cloaks_secular_halfcape_01_dynastic
 				1 = male_cloaks_secular_ep1_adventurer_01_agot
 			}
 			female = {
-				1 = empty
+				1 = female_cloaks_secular_shouldercape_01
+				1 = female_cloaks_secular_shouldercape_01_dynastic
+				1 = female_cloaks_secular_shouldercape_02_dynastic
 			}
 			boy = male
 			girl = female
@@ -1465,7 +1479,6 @@ accessory_genes = {
 				1 = male_cloaks_secular_north_high_winter_01
 				1 = male_cloaks_secular_north_high_winter_dynastic_01
 				1 = male_cloaks_secular_western_royalty_01_agot
-				1 = male_cloaks_secular_shouldercape_coa_01
 			}
 			female = {
 				1 = female_cloaks_secular_north_high_winter_01
@@ -1487,7 +1500,6 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
 		#AGOT Subdmod Core Added
 		kingsguard_cloak_aotk = {
 			index = 90

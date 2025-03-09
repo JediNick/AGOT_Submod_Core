@@ -3513,6 +3513,25 @@
 		}
 	}
 	
+	agot_headgear_joffrey_show_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = male_joffrey_show_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				agot_has_artifact_equiped = { ARTIFACT_VARIABLE = joffrey_show_crown_artifact }
+			}
+		}
+	}
+	
 ### Crowns of Westeros - Variant Crowns ###
 
 	agot_headgear_showrhaenyra_crown_03 = {
