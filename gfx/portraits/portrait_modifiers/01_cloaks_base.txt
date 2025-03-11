@@ -1470,7 +1470,7 @@ cloaks = {
 			accessory = {
 				mode = add
 				gene = cloaks
-				template = male_cloaks_secular_shouldercape_coa_01
+				template = male_cloaks_secular_shouldercape_dynastic
 				range = { 0 1 }
 			}
 		}

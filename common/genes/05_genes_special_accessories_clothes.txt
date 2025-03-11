@@ -4384,4 +4384,3 @@ special_genes = {
 		}
 	}	
  }
-}

@@ -133,24 +133,7 @@
 		}
 		template = golden_company_armor_blackfyre
 	}
-
-
-	add_accessory_modifiers = {
-		gene = clothes
-		template = sp3_western_royalty_clothes
-		is_valid_custom = {
-			has_dlc_feature = couture_of_the_capets
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = clothes
-		template = sp2_western_royalty_clothes
-		is_valid_custom = {
-			has_dlc_feature = elegance_of_the_empire
-		}
-	}	
-	
+		
 	## CCP4 Sami ##
 
 	add_accessory_modifiers = {
@@ -219,6 +202,22 @@
 		}	
 	}
 	
+	add_accessory_modifiers = {
+		gene = clothes
+		template = sp3_western_royalty_clothes
+		is_valid_custom = {
+			has_dlc_feature = couture_of_the_capets
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = sp2_western_royalty_clothes
+		is_valid_custom = {
+			has_dlc_feature = elegance_of_the_empire
+		}
+	}
+
 	## POL ##
 
 	add_accessory_modifiers = {

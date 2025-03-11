@@ -494,6 +494,7 @@ accessory_genes = {
 				1 = male_legwear_secular_vale_war_02
 				1 = male_legwear_secular_vale_war_dynastic_02
 				1 = male_legwear_secular_vale_war_03
+				1 = male_legwear_secular_lydden_war_01
 				1 = male_legwear_secular_lydden_war_dynastic_01
 				1 = male_legwear_secular_westerlands_war_02
 				1 = male_legwear_secular_westerlands_lannister_war_03
@@ -505,12 +506,15 @@ accessory_genes = {
 				1 = male_legwear_secular_reach_war_dynastic_02
 				1 = male_legwear_secular_reach_tyrell_war_03
 				1 = male_legwear_secular_reach_war_03
+				1 = male_legwear_secular_honeywiner_war_01
+				1 = male_legwear_secular_osgrey_war_01
 				1 = male_legwear_secular_stormlands_war_02
 				1 = male_legwear_secular_stormlands_war_dynastic_02
 				1 = male_legwear_secular_stormlands_baratheon_war_03
 				1 = male_legwear_secular_stormlands_war_03
 				1 = male_legwear_secular_dornish_war_03
 				1 = male_legwear_secular_dornish_martell_war_03
+				1 = male_legwear_secular_stone_dornish_war_03
 				1 = male_legwear_secular_valyrian_steel_armor_01
 				1 = male_legwear_secular_valyrian_war_05
 				1 = male_legwear_secular_valyrian_war_04
@@ -532,6 +536,7 @@ accessory_genes = {
 				1 = female_legwear_special_dragon_rider_dynastic_alt_01
 				1 = female_legwear_secular_dornish_war_03
 				1 = female_legwear_secular_dornish_martell_war_03
+				1 = female_legwear_secular_stone_dornish_war_03
 				1 = female_legwear_secular_valyrian_war_02
 				1 = female_legwear_secular_valyrian_war_blackfyre_02
 				1 = female_legwear_secular_valyrian_targaryen_war_03
@@ -641,7 +646,17 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
+		stone_dornish_war_legwear = {
+			index = 42
+			male = {
+				1 = male_legwear_secular_stone_dornish_war_03
+			}
+			female = {
+				1 = female_legwear_secular_stone_dornish_war_03
+			}
+			boy = male
+			girl = female
+		}
 		
 		##AGOT SUBMOD CORE ADDED		
 		kingsguard_legwear_01 = {

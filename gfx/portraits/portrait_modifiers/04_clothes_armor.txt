@@ -2209,6 +2209,128 @@
         }
     }
 
+    agot_clothing_osgrey_armor = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_all_armors
+                accessory = male_clothes_osgrey_war_01
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = agot_all_legwear
+                accessory = male_legwear_secular_osgrey_war_01
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_body_shape
+                value = 0.8
+                template = body_shape_average_clothed
+            }
+
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 260
+                is_male = yes
+                portrait_wear_armor_trigger = yes
+                dynasty ?= dynasty:dynn_Osgrey
+            }
+        }
+    }
+
+    agot_clothing_chequey_armor = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_all_armors
+                accessory = male_clothes_osgrey_war_dynastic_01
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = agot_all_legwear
+                accessory = male_legwear_secular_osgrey_war_01
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_body_shape
+                value = 0.8
+                template = body_shape_average_clothed
+            }
+
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 260
+                is_male = yes
+                portrait_wear_armor_trigger = yes
+                agot_chequey_house_armor = yes
+            }
+        }
+    }
+
+    agot_clothing_quartered_armor = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_all_armors
+                accessory = male_clothes_osgrey_war_dynastic_02
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = agot_all_legwear
+                accessory = male_legwear_secular_osgrey_war_01
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_body_shape
+                value = 0.8
+                template = body_shape_average_clothed
+            }
+
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 250
+                is_male = yes
+                portrait_wear_armor_trigger = yes
+                agot_portrait_high_armor_trigger = {
+                    CULTURE_INPUT = crownlander
+                }
+            }
+        }
+    }
+
     agot_clothing_rowan_armor = {
         dna_modifiers = {
             accessory = {
@@ -2953,7 +3075,166 @@
         }
     }
 
+    agot_clothing_hightower_armor = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_all_armors
+                accessory = male_clothes_honeywiner_war_01
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = agot_all_legwear
+                accessory = male_legwear_secular_honeywiner_war_01
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 145
+                exists = this
+                is_male = yes
+                OR = {
+                    agot_portrait_high_armor_trigger = {
+                        CULTURE_INPUT = honeywiner
+                    }
+                    agot_portrait_high_armor_trigger = {
+                        CULTURE_INPUT = vineman
+                    }
+                }
+                dynasty ?= dynasty:dynn_Hightower
+            }
+        }
+    }
+
+    agot_clothing_honeywiner_armor = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_all_armors
+                accessory = male_clothes_honeywiner_war_dynastic_01
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = agot_all_legwear
+                accessory = male_legwear_secular_honeywiner_war_01
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 140
+                exists = this
+                is_male = yes
+                OR = {
+                    agot_portrait_high_armor_trigger = {
+                        CULTURE_INPUT = honeywiner
+                    }
+                    agot_portrait_high_armor_trigger = {
+                        CULTURE_INPUT = vineman
+                    }
+                }
+            }
+        }
+    }
+
+    agot_clothing_honeywiner_armor_low = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = agot_all_armors
+                accessory = male_clothes_honeywiner_war_dynastic_01
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = agot_all_legwear
+                accessory = male_legwear_secular_honeywiner_war_01
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 130
+                exists = this
+                is_male = yes
+                OR = {
+                    agot_portrait_low_armor_trigger = {
+                        CULTURE_INPUT = honeywiner
+                    }
+                    agot_portrait_low_armor_trigger = {
+                        CULTURE_INPUT = vineman
+                    }
+                }
+            }
+        }
+    }
+
     agot_clothing_dornish_armor = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = stone_dornish_war_nobility_clothes
+                accessory = male_clothes_stone_dornish_war_dynastic_03
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = stone_dornish_war_legwear
+                accessory = male_legwear_secular_stone_dornish_war_03
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 135
+                OR = {
+                    agot_portrait_low_armor_trigger = {
+                        CULTURE_INPUT = stone_dornish
+                    }
+                    agot_portrait_high_armor_trigger = {
+                        CULTURE_INPUT = stone_dornish
+                    }
+                }
+            }
+        }
+    }
+
+    agot_clothing_dornish_iron_armor = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -2980,8 +3261,19 @@
             modifier = {
                 add = 135
                 exists = this
+                OR = {
+                    agot_portrait_low_armor_trigger = {
+                        CULTURE_INPUT = salt_dornish
+                    }
+                    agot_portrait_low_armor_trigger = {
+                        CULTURE_INPUT = sand_dornish
+                    }
                 agot_portrait_high_armor_trigger = {
-                    CULTURE_INPUT = stone_dornish
+                        CULTURE_INPUT = salt_dornish
+                    }
+                    agot_portrait_high_armor_trigger = {
+                        CULTURE_INPUT = sand_dornish
+                    }
                 }
             }
         }
@@ -3015,6 +3307,12 @@
                 add = 135
                 exists = this
                 OR = {
+                    agot_portrait_low_armor_trigger = {
+                        CULTURE_INPUT = salt_dornish
+                    }
+                    agot_portrait_low_armor_trigger = {
+                        CULTURE_INPUT = sand_dornish
+                    }
                     agot_portrait_high_armor_trigger = {
                         CULTURE_INPUT = salt_dornish
                     }

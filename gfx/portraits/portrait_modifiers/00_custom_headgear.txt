@@ -7,23 +7,6 @@
 		template = no_headgear
 	}
 	
-	#AGOT Added
-	add_accessory_modifiers = {
-		gene = headgear
-		template = agot_crowns
-	}
-
-	#AGOT Added
-	add_accessory_modifiers = {
-		gene = headgear
-		template = agot_qolab
-	}
-
-	#AGOT Added
-	add_accessory_modifiers = {
-		gene = headgear
-		template = agot_most_headgears
-	}
 
 	### AGOT Submod Core ###
 	##Crowns of Westeros
@@ -221,6 +204,25 @@
 			has_cp4_dlc_trigger = yes
 		}	
 	}
+	
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = headgear
+		template = agot_crowns
+	}
+
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = headgear
+		template = agot_qolab
+	}
+
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = headgear
+		template = agot_most_headgears
+	}
+
 	
 	## POL ##
 
