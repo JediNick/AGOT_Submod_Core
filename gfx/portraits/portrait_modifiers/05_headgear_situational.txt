@@ -212,6 +212,10 @@
 					has_character_flag = teacher_2
 					has_character_flag = has_reading_glasses
 				}
+				NOR = {
+					has_trait = blind
+					has_trait = one_eyed
+				}
 			}
 			#AGOT Disabled
 			#modifier = {
@@ -2825,57 +2829,6 @@
 			modifier = {
 				factor = 0
 				NOT =  { has_game_rule = hotd_visuals }
-			}
-		}
-	}
-
-	viserys_mask = {
-		dna_modifiers = {
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_forehead_brow_curve
-				value = 0.0
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_nose_forward
-				template = nose_forward_neg
-				value = 0.0
-			}
-			morph = {
-				mode = modify_multiply				
-				gene = gene_bs_forehead_brow_forward
-				value = 0.0
-			}
-			accessory = {
-				mode = add
-				gene = special_headgear_face_mask_viserys
-				template = face_mask
-				range = { 0 0 } # For the randomness to work correctly
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 500
-				AND = {
-					#primary_title = title:e_the_iron_throne
-					is_alive = no
-					OR = {
-						this = character:Targaryen_60 # Viserys I
-					}
-				}
-			}
-			modifier = {
-				add = 500
-				any_equipped_character_artifact = { 
-					artifact_slot_type = miscellaneous
-					has_variable = viserys_mask
-				}
-			}
-			modifier = {
-				factor = 0
-				NOT =  { is_lotd_loaded_trigger = yes }
 			}
 		}
 	}
@@ -5542,30 +5495,6 @@
 				}
 			}
 		}
-
-	viserys_mask = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = special_headgear_face_mask_viserys
-				template = face_mask
-				range = { 0 1 } # For the randomness to work correctly
-				}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 500
-				#primary_title = title:e_the_iron_throne
-				is_character_targaryen_60 = yes # Viserys I
-				is_alive = no
-			}
-			modifier = {
-				factor = 0
-				NOT =  { is_lotd_loaded_trigger = yes }
-			}
-		}
-	}
 
 	viserys_crown = {
 		dna_modifiers = {

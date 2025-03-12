@@ -21,6 +21,7 @@
             base = 0
             modifier = {
                 add = 60       # slightly stronger than western war
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = dde_hre
@@ -97,6 +98,7 @@
             base = 0
             modifier = {
                 add = 50
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = western
@@ -168,6 +170,9 @@
             base = 0
             modifier = {
                 add = 60
+                portrait_era1_armor_trigger = yes
+				portrait_armor_generic_trigger = yes
+                has_ep2_dlc_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = western
@@ -176,11 +181,11 @@
                         CULTURE_INPUT = western
                     }
                 }
-                has_ep2_dlc_trigger = yes
-                portrait_era1_armor_trigger = yes
             }
             modifier = {
                 add = 21
+                portrait_era1_armor_trigger = yes
+                has_ep2_dlc_trigger = yes
                 OR = {
                     portrait_commoner_armor_in_army_trigger = {
                         CULTURE_INPUT = western
@@ -189,8 +194,6 @@
                         CULTURE_INPUT = western
                     }
                 }
-                has_ep2_dlc_trigger = yes
-                portrait_era1_armor_trigger = yes
             }
         }
     }
@@ -238,6 +241,9 @@
             base = 0
             modifier = {
                 add = 60
+                portrait_era2_armor_trigger = yes
+				portrait_armor_generic_trigger = yes
+                has_ep2_dlc_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = western
@@ -246,11 +252,11 @@
                         CULTURE_INPUT = western
                     }
                 }
-                has_ep2_dlc_trigger = yes
-                portrait_era2_armor_trigger = yes
             }
             modifier = {
                 add = 21
+                portrait_era2_armor_trigger = yes
+                has_ep2_dlc_trigger = yes
                 OR = {
                     portrait_commoner_armor_in_army_trigger = {
                         CULTURE_INPUT = western
@@ -259,8 +265,6 @@
                         CULTURE_INPUT = western
                     }
                 }
-                has_ep2_dlc_trigger = yes
-                portrait_era2_armor_trigger = yes
             }
         }
     }
@@ -308,6 +312,9 @@
             base = 0
             modifier = {
                 add = 60
+                portrait_era3_armor_trigger = yes
+				portrait_armor_generic_trigger = yes
+                has_ep2_dlc_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = western
@@ -316,11 +323,11 @@
                         CULTURE_INPUT = western
                     }
                 }
-                has_ep2_dlc_trigger = yes
-                portrait_era3_armor_trigger = yes
             }
             modifier = {
                 add = 21
+                portrait_era3_armor_trigger = yes
+                has_ep2_dlc_trigger = yes
                 OR = {
                     portrait_commoner_armor_in_army_trigger = {
                         CULTURE_INPUT = western
@@ -329,8 +336,6 @@
                         CULTURE_INPUT = western
                     }
                 }
-                has_ep2_dlc_trigger = yes
-                portrait_era3_armor_trigger = yes
             }
         }
     }
@@ -378,6 +383,9 @@
             base = 0
             modifier = {
                 add = 60
+                portrait_era4_armor_trigger = yes
+				portrait_armor_generic_trigger = yes
+                has_ep2_dlc_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = western
@@ -386,8 +394,6 @@
                         CULTURE_INPUT = western
                     }
                 }
-                has_ep2_dlc_trigger = yes
-                portrait_era4_armor_trigger = yes
             }
             modifier = {
                 add = 21
@@ -482,6 +488,7 @@
             base = 0
             modifier = {
                 add = 50
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = byzantine
@@ -573,6 +580,7 @@
             base = 0
             modifier = {
                 add = 60
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = byzantine
@@ -641,6 +649,7 @@
             base = 0
             modifier = {
                 add = 60
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = byzantine
@@ -722,6 +731,7 @@
             base = 0
             modifier = {
                 add = 60
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = byzantine
@@ -808,6 +818,7 @@
             base = 0
             modifier = {
                 add = 50
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = indian
@@ -899,6 +910,7 @@
             base = 0
             modifier = {
                 add = 60
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = indian
@@ -969,6 +981,7 @@
             base = 0
             modifier = {
                 add = 50
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = dde_abbasid
@@ -1062,6 +1075,7 @@
             base = 0
             modifier = {
                 add = 50
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = mena
@@ -1126,6 +1140,7 @@
             base = 0
             modifier = {
                 add = 60
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = mena
@@ -1196,6 +1211,7 @@
             base = 0
             modifier = {
                 add = 50
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = steppe
@@ -1260,6 +1276,7 @@
             base = 0
             modifier = {
                 add = 60
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = steppe
@@ -1330,6 +1347,7 @@
             base = 0
             modifier = {
                 add = 50
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = northern
@@ -1417,6 +1435,7 @@
             base = 0
             modifier = {
                 add = 60 # slightly stronger than western war
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = fp2_iberian_christian
@@ -1495,6 +1514,7 @@
             base = 0
             modifier = {
                 add = 60 # slightly stronger than western war
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = fp2_iberian_muslim
@@ -1559,6 +1579,7 @@
             base = 0
             modifier = {
                 add = 60 # slightly stronger than northern war
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = fp1_norse
@@ -1604,6 +1625,7 @@
             base = 0
             modifier = {
                 add = 60       # slightly stronger than western war
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = african
@@ -1670,6 +1692,7 @@
             base = 0
             modifier = {
                 add = 100 # slightly stronger than mena war
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = { 
                         CULTURE_INPUT = afr_berber
@@ -1715,6 +1738,7 @@
             base = 0
             modifier = {
                 add = 101
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_commoner_armor_trigger = {
                         CULTURE_INPUT = west_slavic
@@ -1837,7 +1861,8 @@
                 }
             }
         }
-	}
+    }
+    
 
     ## FP3 Iranian ##
 
@@ -1854,6 +1879,7 @@
             base = 0
             modifier = {
                 add = 100 # slightly stronger than mena war
+				portrait_armor_generic_trigger = yes
                 OR = {
                     portrait_low_nobles_armor_trigger = {
                         CULTURE_INPUT = fp3_iranian

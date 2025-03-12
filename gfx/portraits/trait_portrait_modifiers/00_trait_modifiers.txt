@@ -800,7 +800,7 @@ wounded = {
 			}
 			accessory = {
 				mode = add
-				gene = special_headgear_head_bandage
+					gene = special_headgear_face_mask
 				template = head_bandage
 				value = 0.5
 			}
@@ -857,6 +857,7 @@ one_legged = {
 			# hunchbacked
 		# }
 		# dna_modifiers = {
+# 			human = {
 			# morph = {
 				# mode = add
 				# gene = gene_hunchbacked
@@ -865,6 +866,7 @@ one_legged = {
 			# }
 		# }
 	# }
+# }
 # }
 
 clubfooted = {
@@ -885,7 +887,7 @@ clubfooted = {
 }
 }
 
-blind = {
+disfigured = {
 	disfigured_ep3_golden_nose = {
 		traits = {
 			disfigured
@@ -1187,7 +1189,7 @@ blind = {
 			human = {
 			accessory = {
 				mode = add				
-				gene = headgear_fp3_iranian_face_mask
+					gene = special_headgear_face_mask
 				template = fp3_iranian_face_mask
 				value = 0.5
 			}
@@ -1407,6 +1409,87 @@ blind = {
 				gene = gene_bs_nose_tip_width
 				value = 0.0
 			}
+		}
+	}
+
+	##SUBMOD CORE ADDED
+	disfigured_valyrian_viserys = {
+		traits = {
+			disfigured
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				AND = {
+					is_lotd_loaded_trigger = yes
+					any_equipped_character_artifact = { 
+						artifact_slot_type = miscellaneous
+						has_variable = viserys_mask
+					}
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+			accessory = {
+				mode = add				
+				gene = special_headgear_face_mask_viserys
+				template = face_mask
+				value = 0.15
+			}
+
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_forward
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_height
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_cheek_width
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_jaw_def
+				value = 0.0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_nose_forward
+				value = 0.5
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_nose_length
+				value = 0.5
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = gene_bs_head_shape
+				value = 0
+			}
+			morph = {
+				mode = modify_multiply				
+				gene = face_detail_cheek_fat
+				value = 0.0
+			}	
+			morph = {
+				mode = modify_multiply				
+				gene = face_detail_cheek_def
+				value = 0.0
+			}
+			accessory = {
+				mode = add				
+				gene = beards
+				template = no_beard
+				value = 0.5
+			}
+		}
 		}
 	}
 	
@@ -1676,6 +1759,8 @@ blind = {
 			should_show_disturbing_portrait_modifiers = no
 		}
 	}
+
+blind = {
 	#AGOT Added
 	aged = {
 		traits = {
@@ -1705,7 +1790,7 @@ blind = {
 			human = {
 				accessory = {
 					mode = add
-					gene = special_headgear_blindfold
+					gene = special_headgear_spectacles
 					template = blindfold
 					value = 0.5
 				}
@@ -1748,7 +1833,7 @@ blind = {
 			human = {
 				accessory = {
 					mode = add
-					gene = special_headgear_eye_patch
+					gene = special_headgear_spectacles
 					template = eye_patch
 					value = 0.5
 				}

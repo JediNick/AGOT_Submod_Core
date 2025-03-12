@@ -2795,9 +2795,46 @@ special_genes = {
 				girl = female
 			}
 
+			sp4_western_royalty = {
+				index = 173
+				male = {
+					1 = m_headgear_sp4_western_roy_01
+				}
+				female = {
+					1 = f_headgear_sp4_western_roy_01
+				}
+				boy = male
+				girl = female
+			}
+
+
+			sp4_rus_royalty = {
+				index = 174
+				male = {
+					1 = m_headgear_sp4_rus_roy_01
+				}
+				female = {
+					1 = f_headgear_sp4_rus_roy_01
+				}
+				boy = male
+				girl = female
+			}
+
+			sp4_mena_royalty = {
+				index = 175
+				male = {
+					1 = m_headgear_sp4_mena_roy_01
+				}
+				female = {
+					1 = f_headgear_sp4_mena_roy_01
+				}
+				boy = male
+				girl = female
+			}
+
 			#AGOT Added
 			Dorne_Helm_3_Dynamic = {
-				index = 173
+				index = 176
 				male = {
 					1 = male_headgear_secular_dorne_war_03
 					1 = male_headgear_secular_dorne_war_04
@@ -2812,7 +2849,7 @@ special_genes = {
 
 			#AGOT Added
 			Dorne_Helm_3_Copper_Dynamic = {
-				index = 174
+				index = 177
 				male = {
 					1 = male_headgear_secular_dorne_copper_war_03
 					1 = male_headgear_secular_dorne_copper_war_04
@@ -2827,7 +2864,7 @@ special_genes = {
 
 			#AGOT Added
 			Dorne_Helm_3_Martell_Dynamic = {
-				index = 175
+				index = 178
 				male = {
 					1 = male_headgear_secular_dorne_martell_war_03
 					1 = male_headgear_secular_dorne_martell_war_04
@@ -2842,7 +2879,7 @@ special_genes = {
 			
 			#AGOT Added
 			Riverlands_Helm_3 = {
-				index = 176
+				index = 179
 				male = {
 					1 = male_headgear_secular_riverlands_war_03
 				}
@@ -2855,7 +2892,7 @@ special_genes = {
 
 			#AGOT Added
 			Vale_Helm_4 = {
-				index = 177
+				index = 180
 				male = {
 					1 = male_headgear_secular_vale_war_04
 				}
@@ -2868,7 +2905,7 @@ special_genes = {
 
 			#AGOT Added
 			Vale_Helm_3 = {
-				index = 178
+				index = 181
 				male = {
 					1 = male_headgear_secular_vale_war_03
 				}
@@ -2881,7 +2918,7 @@ special_genes = {
 
 			#AGOT Added
 			Reach_Helm_3 = {
-				index = 179
+				index = 182
 				male = {
 					1 = male_headgear_secular_reach_tyrell_war_03
 					1 = male_headgear_secular_reach_war_03
@@ -2895,7 +2932,7 @@ special_genes = {
 
 			#AGOT Added
 			Valyrian_Helm_4 = {
-				index = 180
+				index = 183
 				male = {
 					1 = male_headgear_secular_valyrian_war_04
 				}
@@ -2908,7 +2945,7 @@ special_genes = {
 
 			#AGOT Added
 			Kingsguard_Helm_1 = {
-				index = 181
+				index = 184
 				male = {
 					1 = male_headgear_secular_kingsguard_war_01
 					1 = male_headgear_secular_kingsguard_war_02
@@ -2922,7 +2959,7 @@ special_genes = {
 
 			#AGOT Added
 			Valyrian_Helm_3 = {
-				index = 182
+				index = 185
 				male = {
 					1 = male_headgear_secular_valyrian_targaryen_war_03
 					1 = male_headgear_secular_valyrian_blackfyre_war_03
@@ -2945,7 +2982,7 @@ special_genes = {
 
 			#AGOT Added
 			Stormlands_Helm_4= {
-				index = 183
+				index = 186
 				male = {
 					1 = male_headgear_secular_stormlands_war_04
 				}
@@ -2958,7 +2995,7 @@ special_genes = {
 
 			#AGOT Added
 			Stormlands_Helm_3= {
-				index = 184
+				index = 187
 				male = {
 					1 = male_headgear_secular_stormlands_war_03
 				}
@@ -2971,7 +3008,7 @@ special_genes = {
 
 			#AGOT Added
 			Dorne_Helm_3= {
-				index = 185
+				index = 188
 				male = {
 					1 = male_headgear_secular_dorne_martell_war_03
 					1 = male_headgear_secular_dorne_copper_war_03
@@ -2991,7 +3028,7 @@ special_genes = {
 			}
 
 			Royce_Helm_1= {
-				index = 186
+				index = 189
 				male = {
 					1 = male_headgear_secular_royce_war_03
 				}
@@ -3004,7 +3041,7 @@ special_genes = {
 
 			#AGOT Added
 			stepstones_pirate_hats = {
-				index = 187
+				index = 190
 				male = {
 					1 = saan_pirate_hat
 					1 = saan_pirate_hat_dynastic
@@ -3025,7 +3062,7 @@ special_genes = {
 
 			#AGOT Added
 			highsepton_1 = {
-				index = 188
+				index = 191
 				male = {
 					1 = highsepton_1
 				}
@@ -3038,7 +3075,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_crowns = {
-				index = 189
+				index = 192
 				male = {
 					1 = aegonIcrown
 					1 = rhaenys_circlet
@@ -3230,7 +3267,7 @@ special_genes = {
 			}
 
 			agot_bookmark_crowns = {
-				index = 190
+				index = 193
 				male = {
 					1 = aegonIcrown
 					1 = aenysIcrown
@@ -3289,7 +3326,7 @@ special_genes = {
 
 			#AGOT Added
 			iron_isles_crowns = {
-				index = 191
+				index = 194
 				male = {
 					1 = ironislescrown
 					1 = driftwoodcrown1
@@ -3304,7 +3341,7 @@ special_genes = {
 
 			#AGOT Added
 			westerlands_crowns = {
-				index = 192
+				index = 195
 				male = {
 					1 = westerlandscrown
 					1 = westerlands2crown
@@ -3319,7 +3356,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_qolab = {
-				index = 193
+				index = 196
 				male = {
 					1 = qolab_crown_01
 					1 = qolab_crown_02
@@ -3347,7 +3384,7 @@ special_genes = {
 			}
 
 			agot_most_headgears = {
-				index = 194
+				index = 197
 				male = {
 					1 = saan_pirate_hat
 					1 = saan_pirate_hat_dynastic
@@ -3418,7 +3455,7 @@ special_genes = {
 			
 			#AGOT Added
 			westerlands_war = {
-				index = 195
+				index = 198
 				male = {
 					1 = male_headgear_secular_westerlands_tywin_war
 					1 = male_headgear_secular_westerlands_jimothy_war
@@ -3924,17 +3961,6 @@ special_genes = {
 				girl = female
 			}
 
-			coa_crest = {
-				index = 4
-				male = {
-					1 = m_headgear_sec_ep2_western_war_nob_crest_01
-				}
-				female = {
-					1 = f_headgear_sec_ep2_western_war_nob_crest_01
-				}
-				boy = male
-				girl = female
-			}
 		}
 		
 		# Additive headgear are used in combination with other headgear. Usually crowns worn over veils, or crowns on helmets
@@ -3944,8 +3970,10 @@ special_genes = {
 			no_additive = {
 				index = 0
 				male = {
+					1 = empty
 				}
 				female = {
+					1 = empty
 				}
 				boy = male
 				girl = female
@@ -4061,9 +4089,22 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			coa_crest = {
+				index = 9
+				male = {
+					1 = m_headgear_sec_ep2_western_war_nob_crest_01
+				}
+				female = {
+					1 = f_headgear_sec_ep2_western_war_nob_crest_01
+				}
+				boy = male
+				girl = female
+
+			}
 
 			tgc_mask = {
-				index = 9
+				index = 10
 				male = {
 					10 = male_headgear_tgc_facemask_01
 					40 = empty				
@@ -4076,7 +4117,7 @@ special_genes = {
 			}
 
 			tgc_mask_black = {
-				index = 10
+				index = 11
 				male = {
 					10 = male_headgear_tgc_facemask_black_01
 					40 = empty				
@@ -4090,7 +4131,7 @@ special_genes = {
 
 
 			tgc_mask_blackfyre = {
-				index = 11
+				index = 12
 				male = {
 					10 = male_headgear_tgc_facemask_blackfyre_01
 					10 = male_headgear_tgc_facemask_blackfyreAlt_01
