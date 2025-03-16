@@ -3791,11 +3791,13 @@ special_genes = {
 					1 = male_headgear_secular_asoiaf_crown_aerys_II
 					1 = male_headgear_secular_asoiaf_crown_robert_I
 					1 = male_headgear_secular_asoiaf_crown_baratheon_tyrell
+					1 = male_headgear_secular_asoiaf_crown_joffrey_I
 				}
 				female = {
 					1 = female_headgear_secular_asoiaf_crown_aerys_II
 					1 = female_headgear_secular_asoiaf_crown_robert_I
 					1 = female_headgear_secular_asoiaf_crown_baratheon_tyrell
+					1 = female_headgear_secular_asoiaf_crown_joffrey_I
 				}
 				boy = male
 				girl = female
