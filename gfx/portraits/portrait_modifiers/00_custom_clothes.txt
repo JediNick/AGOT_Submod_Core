@@ -25,6 +25,22 @@
 		gene = clothes
 		template = agot_all_armors
 	}
+	
+	add_accessory_modifiers = {
+		gene = clothes
+		template = sp3_western_royalty_clothes
+		is_valid_custom = {
+			has_dlc_feature = couture_of_the_capets
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = sp2_western_royalty_clothes
+		is_valid_custom = {
+			has_dlc_feature = elegance_of_the_empire
+		}
+	}
 
 	### AGOT Submod Core ###
 	add_accessory_modifiers = {
@@ -313,6 +329,13 @@
 	add_accessory_modifiers = {
 		gene = clothes
 		template = ep3_byzantine_era2_high_nobility_clothes
+		is_valid_custom = {
+			has_ep3_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = clothes
+		template = ep3_byzantine_era2_royalty_clothes
 		is_valid_custom = {
 			has_ep3_dlc_trigger = yes
 		}
@@ -680,7 +703,7 @@ add_accessory_modifiers = {
 		# is_valid_custom = {
 		# 	highest_held_title_tier > tier_duchy
 		# }
-		template = western_royal_clothes
+		template = western_royalty_clothes
 	}
 
 	add_accessory_modifiers = {
@@ -944,12 +967,12 @@ add_accessory_modifiers = {
 	
 	add_accessory_modifiers = {
 		gene = clothes
-		template = religious_jain_devoted_clothes
+		template = religious_buddhist_high_clothes
 	}
 	
 	add_accessory_modifiers = {
 		gene = clothes
-		template = religious_buddhist_high_clothes
+		template = religious_jain_high_clothes
 	}
 	
 	add_accessory_modifiers = {

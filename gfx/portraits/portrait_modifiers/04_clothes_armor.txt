@@ -1931,7 +1931,7 @@
             base = 0
             modifier = {
                 add = 400
-                agot_has_artifact_equiped = { ARTIFACT_VARIABLE = valyrian_steel_armor_artifact }
+                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = valyrian_steel_armor_artifact }
             }
         }
     }
@@ -1962,7 +1962,7 @@
             base = 0
             modifier = {
                 add = 400
-                agot_has_artifact_equiped = { ARTIFACT_VARIABLE = maelys_armour_artifact }
+                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = maelys_armour_artifact }
             }
         }
     }
@@ -1993,7 +1993,7 @@
             base = 0
             modifier = {
                 add = 410
-                agot_has_artifact_equiped = { ARTIFACT_VARIABLE = maelys_armour_artifact }
+                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = maelys_armour_artifact }
                 OR = {
                     NOT = { exists = character:Blackfyre_14 }
                     is_character_blackfyre_14 = no
@@ -2061,7 +2061,6 @@
             modifier = {
                 add = 500
                 exists = this
-                is_male = yes
                 portrait_wear_robert_armor_trigger = yes
             }
         }
@@ -2100,7 +2099,6 @@
             base = 0
             modifier = {
                 add = 205
-                is_male = yes
                 portrait_wear_armor_trigger = yes
                 portrait_the_north_clothing_trigger = yes
                 portrait_wear_ned_stark_armor_trigger = yes
@@ -2240,13 +2238,13 @@
             accessory = {
                 mode = add
                 gene = clothes
-                template = agot_all_armors
+                template = special_war_nobility_clothes
                 accessory = male_clothes_osgrey_war_01
             }
             accessory = {
                 mode = add
                 gene = legwear
-                template = agot_all_legwear
+                template = special_war_01_legwear
                 accessory = male_legwear_secular_osgrey_war_01
             }
             morph = {
@@ -2268,7 +2266,6 @@
             base = 0
             modifier = {
                 add = 260
-                is_male = yes
                 portrait_wear_armor_trigger = yes
                 dynasty ?= dynasty:dynn_Osgrey
             }
@@ -2280,13 +2277,13 @@
             accessory = {
                 mode = add
                 gene = clothes
-                template = agot_all_armors
+                template = special_war_nobility_clothes
                 accessory = male_clothes_osgrey_war_dynastic_01
             }
             accessory = {
                 mode = add
                 gene = legwear
-                template = agot_all_legwear
+                template = special_war_01_legwear
                 accessory = male_legwear_secular_osgrey_war_01
             }
             morph = {
@@ -2308,7 +2305,6 @@
             base = 0
             modifier = {
                 add = 260
-                is_male = yes
                 portrait_wear_armor_trigger = yes
                 agot_chequey_house_armor = yes
             }
@@ -2320,13 +2316,13 @@
             accessory = {
                 mode = add
                 gene = clothes
-                template = agot_all_armors
+                template = special_war_nobility_clothes
                 accessory = male_clothes_osgrey_war_dynastic_02
             }
             accessory = {
                 mode = add
                 gene = legwear
-                template = agot_all_legwear
+                template = special_war_01_legwear
                 accessory = male_legwear_secular_osgrey_war_01
             }
             morph = {
@@ -2348,7 +2344,6 @@
             base = 0
             modifier = {
                 add = 250
-                is_male = yes
                 portrait_wear_armor_trigger = yes
                 agot_portrait_high_armor_trigger = {
                     CULTURE_INPUT = crownlander
@@ -2362,14 +2357,14 @@
             accessory = {
                 mode = add
                 gene = clothes
-                template = rowan_war_nobility_clothes
-                range = { 0 1 }
+                template = special_war_nobility_clothes
+                accessory = male_clothes_rowan_war_01
             }
             accessory = {
                 mode = add
                 gene = legwear
-                template = rowan_war_01_legwear
-                range = { 0 1 }
+                template = special_war_01_legwear
+                accessory = male_legwear_secular_rowan_war_01
             }
             morph = {
                 mode = modify_multiply
@@ -2424,7 +2419,6 @@
             modifier = {
                 add = 135
                 exists = this
-                is_male = yes
                 agot_portrait_high_armor_trigger = {
                     CULTURE_INPUT = stormlander
                 }
@@ -2459,7 +2453,6 @@
             modifier = {
                 add = 140
                 exists = this
-                is_male = yes
                 agot_portrait_high_armor_trigger = {
                     CULTURE_INPUT = stormlander
                 }
@@ -2495,7 +2488,6 @@
             modifier = {
                 add = 125
                 exists = this
-                is_male = yes
                 agot_portrait_low_armor_trigger = {
                     CULTURE_INPUT = stormlander
                 }
@@ -2530,7 +2522,6 @@
             modifier = {
                 add = 130
                 exists = this
-                is_male = yes
                 agot_portrait_low_armor_trigger = {
                     CULTURE_INPUT = stormlander
                 }
@@ -2566,7 +2557,6 @@
             modifier = {
                 add = 135
                 exists = this
-                is_male = yes
                 agot_portrait_high_armor_trigger = {
                     CULTURE_INPUT = westerman
                 }
@@ -2601,7 +2591,6 @@
             modifier = {
                 add = 140
                 exists = this
-                is_male = yes
                 agot_portrait_high_armor_trigger = {
                     CULTURE_INPUT = westerman
                 }
@@ -2622,7 +2611,7 @@
                 mode = add
                 gene = legwear
                 template = westerlands_war_legwear
-                accessory = male_legwear_secular_westerlands_lannister_war_03
+                accessory = male_legwear_secular_westerlands_tywin_war_03
             }
             morph = {
                 mode = modify_multiply
@@ -2648,7 +2637,6 @@
                         portrait_wear_armor_trigger = yes
                     }
                     AND = {
-                        is_male = yes
                         prestige_level > 3
                         has_title = title:c_casterly_rock
                         dynasty = dynasty:dynn_Lannister
@@ -2671,7 +2659,7 @@
                 mode = add
                 gene = legwear
                 template = westerlands_war_legwear
-                accessory = male_legwear_secular_westerlands_lannister_war_03
+                accessory = male_legwear_secular_westerlands_jimothy_war_03
             }
             morph = {
                 mode = modify_multiply
@@ -2794,7 +2782,6 @@
             modifier = {
                 add = 135
                 exists = this
-                is_male = yes
                 OR = {
                     agot_portrait_high_armor_trigger = {
                         CULTURE_INPUT = valeman
@@ -2915,7 +2902,6 @@
             modifier = {
                 add = 135
                 exists = this
-                is_male = yes
                 agot_portrait_high_armor_trigger = {
                     CULTURE_INPUT = riverlander
                 }
@@ -2950,7 +2936,6 @@
             modifier = {
                 add = 140
                 exists = this
-                is_male = yes
                 agot_portrait_high_armor_trigger = {
                     CULTURE_INPUT = riverlander
                 }
@@ -2986,7 +2971,6 @@
             modifier = {
                 add = 135
                 exists = this
-                is_male = yes
                 agot_portrait_high_armor_trigger = {
                     CULTURE_INPUT = reachman
                 }
@@ -3021,7 +3005,6 @@
             modifier = {
                 add = 140
                 exists = this
-                is_male = yes
                 agot_portrait_high_armor_trigger = {
                     CULTURE_INPUT = reachman
                 }
@@ -3106,13 +3089,13 @@
             accessory = {
                 mode = add
                 gene = clothes
-                template = agot_all_armors
+                template = special_war_nobility_clothes
                 accessory = male_clothes_honeywiner_war_01
             }
             accessory = {
                 mode = add
                 gene = legwear
-                template = agot_all_legwear
+                template = special_war_01_legwear
                 accessory = male_legwear_secular_honeywiner_war_01
             }
             morph = {
@@ -3128,7 +3111,6 @@
             modifier = {
                 add = 145
                 exists = this
-                is_male = yes
                 OR = {
                     agot_portrait_high_armor_trigger = {
                         CULTURE_INPUT = honeywiner
@@ -3147,13 +3129,13 @@
             accessory = {
                 mode = add
                 gene = clothes
-                template = agot_all_armors
+                template = special_war_nobility_clothes
                 accessory = male_clothes_honeywiner_war_dynastic_01
             }
             accessory = {
                 mode = add
                 gene = legwear
-                template = agot_all_legwear
+                template = special_war_01_legwear
                 accessory = male_legwear_secular_honeywiner_war_01
             }
             morph = {
@@ -3169,7 +3151,6 @@
             modifier = {
                 add = 140
                 exists = this
-                is_male = yes
                 OR = {
                     agot_portrait_high_armor_trigger = {
                         CULTURE_INPUT = honeywiner
@@ -3187,13 +3168,13 @@
             accessory = {
                 mode = add
                 gene = clothes
-                template = agot_all_armors
+                template = special_war_nobility_clothes
                 accessory = male_clothes_honeywiner_war_dynastic_01
             }
             accessory = {
                 mode = add
                 gene = legwear
-                template = agot_all_legwear
+                template = special_war_01_legwear
                 accessory = male_legwear_secular_honeywiner_war_01
             }
             morph = {
@@ -3209,7 +3190,6 @@
             modifier = {
                 add = 130
                 exists = this
-                is_male = yes
                 OR = {
                     agot_portrait_low_armor_trigger = {
                         CULTURE_INPUT = honeywiner

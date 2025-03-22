@@ -243,8 +243,8 @@ accessory_genes = {
 				1 = male_legwear_secular_ironborn_greyjoy_war_03
 			}
 			female = {
-				0 = female_legwear_secular_western_war_01
-				0 = female_legwear_secular_western_war_01
+				1 = female_legwear_secular_ironborn_war_03
+				1 = female_legwear_secular_ironborn_greyjoy_war_03
 			}
 			boy = male
 			girl = female
@@ -272,7 +272,9 @@ accessory_genes = {
 				1 = male_legwear_secular_vale_war_03
 			}
 			female = {
-				0 = female_legwear_secular_ep1_jester_01
+				1 = female_legwear_secular_vale_war_03 #
+				1 = female_legwear_secular_vale_war_03 #
+				1 = female_legwear_secular_vale_war_03
 			}
 			boy = male
 			girl = female
@@ -301,8 +303,10 @@ accessory_genes = {
 				1 = male_legwear_secular_stormlands_baratheon_war_03
 			}
 			female = {
-				0 = female_legwear_secular_ep1_jester_01
-				0 = female_legwear_secular_ep1_jester_01
+				1 = female_legwear_secular_stormlands_war_02
+				1 = female_legwear_secular_stormlands_war_dynastic_02
+				1 = female_legwear_secular_stormlands_war_03
+				1 = female_legwear_secular_stormlands_baratheon_war_03
 			}
 			boy = male
 			girl = female
@@ -334,7 +338,7 @@ accessory_genes = {
 				1 = male_legwear_secular_valyrian_war_04
 			}
 			female = {
-				0 = female_legwear_secular_western_war_01
+				1 = female_legwear_secular_valyrian_war_04
 			}
 			boy = male
 			girl = female
@@ -404,7 +408,7 @@ accessory_genes = {
 				1 = male_legwear_secular_stormlands_war_04
 			}
 			female = {
-				0 = female_legwear_secular_ep1_jester_01
+				1 = female_legwear_secular_stormlands_war_04
 			}
 			boy = male
 			girl = female
@@ -415,7 +419,7 @@ accessory_genes = {
 				1 = male_legwear_secular_valyrian_war_05
 			}
 			female = {
-				0 = female_legwear_secular_western_war_01
+				1 = female_legwear_secular_valyrian_war_05
 			}
 			boy = male
 			girl = female
@@ -437,7 +441,7 @@ accessory_genes = {
 				1 = male_legwear_secular_valyrian_steel_armor_01
 			}
 			female = {
-				0 = female_legwear_secular_western_war_01
+				1 = female_legwear_secular_valyrian_steel_armor_01
 			}
 			boy = male
 			girl = female
@@ -454,13 +458,17 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		rowan_war_01_legwear = {
+		special_war_01_legwear = {
 			index = 34
 			male = {
 				1 = male_legwear_secular_rowan_war_01
+				1 = male_legwear_secular_osgrey_war_01
+				1 = male_legwear_secular_honeywiner_war_01
 			}
 			female = {
-				0 = female_legwear_secular_ep1_jester_01
+				1 = female_legwear_secular_osgrey_war_01 #
+				1 = female_legwear_secular_osgrey_war_01
+				1 = female_legwear_secular_honeywiner_war_01
 			}
 			boy = male
 			girl = female
@@ -498,6 +506,8 @@ accessory_genes = {
 				1 = male_legwear_secular_lydden_war_dynastic_01
 				1 = male_legwear_secular_westerlands_war_02
 				1 = male_legwear_secular_westerlands_lannister_war_03
+				1 = male_legwear_secular_westerlands_tywin_war_03
+				1 = male_legwear_secular_westerlands_jimothy_war_03
 				1 = male_legwear_secular_westerlands_war_03
 				1 = male_legwear_secular_riverlands_war_03
 				1 = male_legwear_secular_ironborn_greyjoy_war_03
@@ -534,9 +544,6 @@ accessory_genes = {
 				1 = female_legwear_special_dragon_rider_01
 				1 = female_legwear_special_dragon_rider_dynastic_01
 				1 = female_legwear_special_dragon_rider_dynastic_alt_01
-				1 = female_legwear_secular_dornish_war_03
-				1 = female_legwear_secular_dornish_martell_war_03
-				1 = female_legwear_secular_stone_dornish_war_03
 				1 = female_legwear_secular_valyrian_war_02
 				1 = female_legwear_secular_valyrian_war_blackfyre_02
 				1 = female_legwear_secular_valyrian_targaryen_war_03
@@ -546,7 +553,31 @@ accessory_genes = {
 				1 = female_legwear_secular_valyrian_war_blackfyre_03_high
 				1 = female_legwear_secular_north_stark_war_03
 				1 = female_legwear_secular_north_war_03
+				1 = female_legwear_secular_vale_war_03
+				1 = female_legwear_secular_westerlands_lannister_war_03
+				1 = female_legwear_secular_westerlands_tywin_war_03
+				1 = female_legwear_secular_westerlands_jimothy_war_03
+				1 = female_legwear_secular_westerlands_war_03
+				1 = female_legwear_secular_riverlands_war_03
+				1 = female_legwear_secular_ironborn_greyjoy_war_03
+				1 = female_legwear_secular_ironborn_war_03
+				1 = female_legwear_secular_reach_tyrell_war_03
+				1 = female_legwear_secular_reach_war_03
+				1 = female_legwear_secular_honeywiner_war_01
+				1 = female_legwear_secular_osgrey_war_01
+				1 = female_legwear_secular_stormlands_war_02
+				1 = female_legwear_secular_stormlands_war_dynastic_02
+				1 = female_legwear_secular_stormlands_baratheon_war_03
+				1 = female_legwear_secular_stormlands_war_03
+				1 = female_legwear_secular_dornish_war_03
+				1 = female_legwear_secular_dornish_martell_war_03
+				1 = female_legwear_secular_stone_dornish_war_03
+				1 = female_legwear_secular_valyrian_steel_armor_01
+				1 = female_legwear_secular_valyrian_war_05
+				1 = female_legwear_secular_valyrian_war_04
+				1 = female_legwear_secular_stormlands_war_04
 				1 = female_legwear_special_royce_war_03
+				1 = female_legwear_special_kingsguard_war_01
 
 			}
 			boy = male
@@ -574,7 +605,7 @@ accessory_genes = {
 				1 = male_legwear_secular_riverlands_war_03
 			}
 			female = {
-				0 = female_legwear_secular_ep1_jester_01
+				1 = female_legwear_secular_riverlands_war_03
 			}
 			boy = male
 			girl = female
@@ -589,8 +620,10 @@ accessory_genes = {
 				1 = male_legwear_secular_reach_tyrell_war_03
 			}
 			female = {
-				0 = female_legwear_secular_ep1_jester_01
-				0 = female_legwear_secular_ep1_jester_01
+				1 = female_legwear_secular_reach_war_03 #
+				1 = female_legwear_secular_reach_war_03 #
+				1 = female_legwear_secular_reach_war_03
+				1 = female_legwear_secular_reach_tyrell_war_03
 			}
 			boy = male
 			girl = female
@@ -619,14 +652,14 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
+
 		kingsguard_war_01_legwear = {
 			index = 40
 			male = {
 				1 = male_legwear_special_kingsguard_war_01
 			}
 			female = {
-				0 = female_legwear_secular_ep1_jester_01
+				1 = female_legwear_special_kingsguard_war_01
 			}
 			boy = male
 			girl = female
@@ -638,14 +671,19 @@ accessory_genes = {
 				1 = male_legwear_secular_westerlands_war_02
 				1 = male_legwear_secular_westerlands_war_03
 				1 = male_legwear_secular_westerlands_lannister_war_03
+				1 = male_legwear_secular_westerlands_tywin_war_03
+				1 = male_legwear_secular_westerlands_jimothy_war_03
 			}
 			female = {
-				0 = female_legwear_secular_ep1_jester_01
-				0 = female_legwear_secular_ep1_jester_01
+				1 = female_legwear_secular_westerlands_war_03
+				1 = female_legwear_secular_westerlands_lannister_war_03
+				1 = female_legwear_secular_westerlands_tywin_war_03
+				1 = female_legwear_secular_westerlands_jimothy_war_03
 			}
 			boy = male
 			girl = female
 		}
+
 		stone_dornish_war_legwear = {
 			index = 42
 			male = {

@@ -936,7 +936,7 @@ disfigured = {
 						has_character_flag = wears_valyrian_mask_03
 						has_character_flag = wears_valyrian_mask_04  
 						has_character_flag = wears_valyrian_mask_05
-						agot_has_artifact_equiped = { ARTIFACT_VARIABLE = viserys_mask }
+						agot_has_artifact_equipped = { ARTIFACT_VARIABLE = viserys_mask }
 					}
 				}
 			}

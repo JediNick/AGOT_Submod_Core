@@ -2976,13 +2976,13 @@ special_genes = {
 					1 = male_clothes_valyrian_war_04
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_valyrian_war_04
 				}
 				boy = male
 				girl = female
 			}
 
-			#AGOT Added
+		#AGOT Added
 			kingsguard_war_nobility_clothes = {
 				index = 147
 
@@ -2990,7 +2990,7 @@ special_genes = {
 					1 = male_clothes_kingsguard_war_01
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_kingsguard_war_01
 				}
 				boy = male
 				girl = female
@@ -3018,7 +3018,7 @@ special_genes = {
 					1 = male_clothes_north_war_ned_coa_01
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_north_war_ned_coa_01
 				}
 				boy = male
 				girl = female
@@ -3032,7 +3032,7 @@ special_genes = {
 					1 = male_clothes_stormlands_coa_war_04
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_stormlands_coa_war_04
 				}
 				boy = male
 				girl = female
@@ -3139,8 +3139,12 @@ special_genes = {
 					1 = male_clothes_westerlands_jimothy_war
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_westerlands_war_03 # 
+					1 = female_clothes_westerlands_war_03 #
+					1 = female_clothes_westerlands_war_03
+					1 = female_clothes_westerlands_lannister_war_03
+					1 = female_clothes_westerlands_tywin_war
+					1 = female_clothes_westerlands_jimothy_war
 				}
 				boy = male
 				girl = female
@@ -3417,7 +3421,7 @@ special_genes = {
 					1 = male_clothes_secular_valyrian_war_06
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_secular_valyrian_war_06
 				}
 				boy = male
 				girl = female
@@ -3431,7 +3435,7 @@ special_genes = {
 					1 = male_clothes_secular_valyrian_steel_armor_01
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_secular_valyrian_steel_armor_01
 				}
 				boy = male
 				girl = female
@@ -3445,7 +3449,7 @@ special_genes = {
 					1 = male_clothes_stormlands_war_04
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_stormlands_war_04
 				}
 				boy = male
 				girl = female
@@ -3462,8 +3466,10 @@ special_genes = {
 					1 = male_clothes_reach_tyrell_war_03
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_reach_war_03 #
+					1 = female_clothes_reach_war_03 #
+					1 = female_clothes_reach_war_03
+					1 = female_clothes_reach_tyrell_war_03
 				}
 				boy = male
 				girl = female
@@ -3479,7 +3485,9 @@ special_genes = {
 					1 = male_clothes_vale_war_03
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_vale_war_03 #
+					1 = female_clothes_vale_war_03 #
+					1 = female_clothes_vale_war_03
 				}
 				boy = male
 				girl = female
@@ -3496,8 +3504,10 @@ special_genes = {
 					1 = male_clothes_stormlands_baratheon_war_03
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_stormlands_war_02
+					1 = female_clothes_stormlands_war_dynastic_02
+					1 = female_clothes_stormlands_war_03
+					1 = female_clothes_stormlands_baratheon_war_03
 				}
 				boy = male
 				girl = female
@@ -3541,7 +3551,7 @@ special_genes = {
 					1 = male_clothes_north_war_ned_01
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_north_war_ned_01
 				}
 				boy = male
 				girl = female
@@ -3572,8 +3582,8 @@ special_genes = {
 					1 = male_clothes_riverlands_tully_war_03
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_riverlands_war_03
+					1 = female_clothes_riverlands_tully_war_03
 				}
 				boy = male
 				girl = female
@@ -3609,14 +3619,26 @@ special_genes = {
 			}
 
 			#AGOT Added
-			rowan_war_nobility_clothes = {
+			special_war_nobility_clothes = {
 				index = 184
 
 				male = {
 					1 = male_clothes_rowan_war_01
+					1 = male_clothes_osgrey_war_01
+					1 = male_clothes_osgrey_war_dynastic_01
+					1 = male_clothes_osgrey_war_dynastic_02
+					1 = male_clothes_honeywiner_war_01
+					1 = male_clothes_honeywiner_war_dynastic_01
+					1 = male_clothes_honeywiner_war_dynastic_02
 				}
 				female = {
-					0 = f_clothes_sec_northern_war_nob_01_lo
+					1 = female_clothes_osgrey_war_dynastic_02 #
+					1 = female_clothes_osgrey_war_01
+					1 = female_clothes_osgrey_war_dynastic_01
+					1 = female_clothes_osgrey_war_dynastic_02
+					1 = female_clothes_honeywiner_war_01
+					1 = female_clothes_honeywiner_war_dynastic_01
+					1 = female_clothes_honeywiner_war_dynastic_02
 				}
 				boy = male
 				girl = female
@@ -4007,14 +4029,41 @@ special_genes = {
 					1 = female_clothes_valyrian_war_dynastic_03_high
 					1 = female_clothes_north_stark_war_03
 					1 = female_clothes_north_war_03
+					1 = female_clothes_vale_war_03
+					1 = female_clothes_westerlands_lannister_war_03
+					1 = female_clothes_westerlands_tywin_war
+					1 = female_clothes_westerlands_jimothy_war
+					1 = female_clothes_westerlands_war_03
+					1 = female_clothes_riverlands_tully_war_03
+					1 = female_clothes_riverlands_war_03
 					1 = female_clothes_ironborn_greyjoy_war_03
 					1 = female_clothes_ironborn_war_03
+					1 = female_clothes_reach_tyrell_war_03
+					1 = female_clothes_reach_war_03
+					1 = female_clothes_osgrey_war_01
+					1 = female_clothes_osgrey_war_dynastic_01
+					1 = female_clothes_osgrey_war_dynastic_02
+					1 = female_clothes_honeywiner_war_01
+					1 = female_clothes_honeywiner_war_dynastic_01
+					1 = female_clothes_honeywiner_war_dynastic_02
+					1 = female_clothes_stormlands_war_02
+					1 = female_clothes_stormlands_war_dynastic_02
+					1 = female_clothes_stormlands_baratheon_war_03
+					1 = female_clothes_stormlands_war_03
 					1 = female_clothes_dornish_martell_war_03
 					1 = female_clothes_dornish_copper_war_03
 					1 = female_clothes_dornish_war_03
 					1 = female_clothes_stone_dornish_war_03
 					1 = female_clothes_stone_dornish_war_dynastic_03
 					1 = female_clothes_royce_war_03
+					1 = female_clothes_kingsguard_war_01
+					1 = female_clothes_secular_valyrian_steel_armor_01
+					1 = female_clothes_secular_valyrian_war_06
+					1 = female_clothes_valyrian_war_04
+					1 = female_clothes_north_war_ned_01
+					1 = female_clothes_north_war_ned_coa_01
+					1 = female_clothes_stormlands_war_04
+					1 = female_clothes_stormlands_coa_war_04
 				}
 				boy = male
 				girl = female
