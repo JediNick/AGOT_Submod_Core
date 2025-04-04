@@ -1,0 +1,871 @@
+﻿equipped_showrhaenyra_crown_01_artifac = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_stepstone_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_showaerys_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_showrhaenyra_crown_01_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_showrhaenyra_crown_02_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_showaegon_crown_01_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_showaegon_crown_02_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_joffrey_show_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_showrhaenyra_crown_03_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_aegon_variant_1_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_aegon_variant_2_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_aegon_variant_3_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_aegon_variant_4_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_jaehaerys_valyrian_variant_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_jaehaerys_variant_1_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_jaehaerys_variant_2_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_cersei_red_tiara_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_rhaenatargaryen_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_alyssavelaryon_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_alicenthightower_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_daena_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_circlet_bethablackwood_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_mariah_martell_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_cersei_tiara_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_aliandra_martell_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_mors_martell_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_alysanne_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_bittersteel_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_calla_blackfyre_circlet_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_argella_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_myrcella_circlet_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_sharra_arryn_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_roland_arryn_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_rhaegar_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_viserys_son_of_aenys_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_viserys_son_of_aenys_02_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_wolfswood_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_bracken_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_massey_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_duskendale_crown_01_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_aegonvi_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_viserysiii_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_jonsnowtargaryen_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_maesteraemon_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_aegontheuncrowned_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_brightflame_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_baelon_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_valarr_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_aemonsonofjaehaerys_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_baelorbreakspear_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_laenorvelaryon_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_jacaerysvelaryon_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_seawyrm_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_greenpyre_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_goldfyre_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_celtigar_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_duncandragonfly_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_jonsnow_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_shieraseastar_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_aereatargaryen_crown_01_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_aereatargaryen_crown_02_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_vaellatargaryen_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_rhaenysvelaryon_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_aegonblackfyre_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_daemon_ii_blackfyre_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_haegonblackfyre_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_aenysblackfyre_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_maelysblackfyre_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_orysbaratheon_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_robbstark_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_branstark_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_aegonsonofjaehaerys_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_vaegon_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_aemond_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_daenerys_daughterofjaehaerys_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_garlandgardener_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_garthgoldhand_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_tyboltthunderbolt_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_geroldlannister_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_lancellannister_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_margaerytyrell_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_gardener_peace_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_gardener_war_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_hugor_of_the_hill_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_the_iron_throne_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_the_red_keep_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_oldtown_tall_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_oldtown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_harrenhall_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_the_mountain_and_vale_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_goldengrove_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_the_golden_tree_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_circlet_of_stark_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_yronwood_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_estermont_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_connington_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_bloodraven_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_circlet_of_seastar_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_mockingbird_circlet_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_sansa_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_cersei_ruler_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_robert_baratheon_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_valyrian_crown2_targaryen_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_valyrian_crown2_blackfyre_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_westerosi_valyrian_crown2_blackfyre_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_westerlands2_crown_historic_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_of_winter_historic_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_falcon_crown_historic_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_stormlands_crown_historic_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}

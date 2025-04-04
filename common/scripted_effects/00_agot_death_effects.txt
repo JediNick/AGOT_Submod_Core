@@ -1,0 +1,1256 @@
+﻿agot_apply_inactive_traits_on_death = {
+	if = {
+		limit = { vassal_contract_has_flag = has_palatinate_contract }
+		make_trait_inactive = had_palatinate_contract
+	}
+
+	if = {
+		limit = { has_character_flag = not_had_coronation }
+		make_trait_inactive = not_had_coronation
+	}
+
+	if = {
+		limit = {
+			any_equipped_character_artifact = {
+				artifact_slot_type = helmet
+			}
+		}
+		if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegon_i_artifact }
+			}
+			make_trait_inactive = equipped_crown_aegon_i_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aenys_artifact }
+			}
+			make_trait_inactive = equipped_crown_aenys_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact }
+			}
+			make_trait_inactive = equipped_crown_jaehaerys_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegon_iii_artifact }
+			}
+			make_trait_inactive = equipped_crown_aegon_iii_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegon_iv_artifact }
+			}
+			make_trait_inactive = equipped_crown_aegon_iv_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_baelor_artifact }
+			}
+			make_trait_inactive = equipped_crown_baelor_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_qolab_baelor_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_qolab_baelor_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_maekar_artifact }
+			}
+			make_trait_inactive = equipped_crown_maekar_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = robertI_crown_artifact }
+			}
+			make_trait_inactive = equipped_robertI_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = joffreyI_crown_artifact }
+			}
+			make_trait_inactive = equipped_joffreyI_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = daenerys_crown_artifact }
+			}
+			make_trait_inactive = equipped_daenerys_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = renly_crown_artifact }
+			}
+			make_trait_inactive = equipped_renly_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = stannis_crown_artifact }
+			}
+			make_trait_inactive = equipped_stannis_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = beyondthewall_crown_artifact }
+			}
+			make_trait_inactive = equipped_beyondthewall_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_winter_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_winter_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = bolton_crown_artifact }
+			}
+			make_trait_inactive = equipped_bolton_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = riverlands_crown_artifact }
+			}
+			make_trait_inactive = equipped_riverlands_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = iron_isles_crown_artifact }
+			}
+			make_trait_inactive = equipped_iron_isles_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = westerlander2_crown_artifact }
+			}
+			make_trait_inactive = equipped_westerlander2_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = westerlands_crown_artifact }
+			}
+			make_trait_inactive = equipped_westerlands_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = westerlands2_crown_artifact }
+			}
+			make_trait_inactive = equipped_westerlands2_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = stormlander_crown_artifact }
+			}
+			make_trait_inactive = equipped_stormlander_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = stormlands_crown_artifact }
+			}
+			make_trait_inactive = equipped_stormlands_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = valeman_crown_artifact }
+			}
+			make_trait_inactive = equipped_valeman_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = falcon_crown_artifact }
+			}
+			make_trait_inactive = equipped_falcon_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = reachman_crown_artifact }
+			}
+			make_trait_inactive = equipped_reachman_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = reach_crown_artifact }
+			}
+			make_trait_inactive = equipped_reach_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = tully_crown_artifact }
+			}
+			make_trait_inactive = equipped_tully_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = umber_crown_artifact }
+			}
+			make_trait_inactive = equipped_umber_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = dustin_crown_artifact }
+			}
+			make_trait_inactive = equipped_dustin_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = manderly_crown_artifact }
+			}
+			make_trait_inactive = equipped_manderly_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = royce_crown_artifact }
+			}
+			make_trait_inactive = equipped_royce_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = blackwood_crown_artifact }
+			}
+			make_trait_inactive = equipped_blackwood_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = frey_crown_artifact }
+			}
+			make_trait_inactive = equipped_frey_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = cargyll_crown_artifact }
+			}
+			make_trait_inactive = equipped_cargyll_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = redwyne_crown_artifact }
+			}
+			make_trait_inactive = equipped_redwyne_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = tarly_crown_artifact }
+			}
+			make_trait_inactive = equipped_tarly_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = hightower_crown_artifact }
+			}
+			make_trait_inactive = equipped_hightower_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = florent_crown_artifact }
+			}
+			make_trait_inactive = equipped_florent_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = greyjoy_crown_artifact }
+			}
+			make_trait_inactive = equipped_greyjoy_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = tarth_crown_artifact }
+			}
+			make_trait_inactive = equipped_tarth_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = swann_crown_artifact }
+			}
+			make_trait_inactive = equipped_swann_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = dornish_crown_artifact }
+			}
+			make_trait_inactive = equipped_dornish_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = dorne_crown_artifact }
+			}
+			make_trait_inactive = equipped_dorne_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = dayne_crown_artifact }
+			}
+			make_trait_inactive = equipped_dayne_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = reed_crown_artifact }
+			}
+			make_trait_inactive = equipped_reed_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = harlaw_crown_artifact }
+			}
+			make_trait_inactive = equipped_harlaw_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaella_artifact }
+			}
+			make_trait_inactive = equipped_crown_rhaella_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alysanne_artifact }
+			}
+			make_trait_inactive = equipped_crown_alysanne_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_visenya_artifact }
+			}
+			make_trait_inactive = equipped_circlet_visenya_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_rhaenys_artifact }
+			}
+			make_trait_inactive = equipped_circlet_rhaenys_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = daemon_stepstone_crown_artifact }
+			}
+			make_trait_inactive = equipped_daemon_stepstone_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = daemon_queen_stepstone_crown_artifact }
+			}
+			make_trait_inactive = equipped_daemon_queen_stepstone_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = driftwood_crown_1_artifact }
+			}
+			make_trait_inactive = equipped_driftwood_crown_1_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = valyrian_crown1_artifact }
+			}
+			make_trait_inactive = equipped_valyrian_crown1_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = valyrian_crown2_artifact }
+			}
+			make_trait_inactive = equipped_valyrian_crown2_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = westerosi_valyrian_crown1_artifact }
+			}
+			make_trait_inactive = equipped_westerosi_valyrian_crown1_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = westerosi_valyrian_crown2_artifact }
+			}
+			make_trait_inactive = equipped_westerosi_valyrian_crown2_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = iron_stag_crown_artifact }
+			}
+			make_trait_inactive = equipped_iron_stag_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_wall_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_the_wall_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_westerling_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_westerling_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_tides_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_the_tides_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_gardener_peace_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_gardener_peace_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_qolab_gardener_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_qolab_gardener_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_gardener_war_iron_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_gardener_war_iron_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_mudd_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_mudd_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_bear_island_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_bear_island_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_hearts_home_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_hearts_home_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_darklyn_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_darklyn_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_dondarrion_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_dondarrion_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_hellholt_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_hellholt_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_castamere_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_castamere_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_deep_den_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_deep_den_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_banefort_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_the_banefort_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_crakehall_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_crakehall_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_grey_king_rusted_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_the_grey_king_rusted_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_nights_king_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_the_nights_king_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_true_winter_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_true_winter_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_seven_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_the_seven_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_old_gods_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_the_old_gods_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_rhllor_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_rhllor_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_of_rhllor_artifact }
+			}
+			make_trait_inactive = equipped_circlet_of_rhllor_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_hugor_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_hugor_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_jeyne_westerling_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_jeyne_westerling_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_winter_roses_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_winter_roses_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_qolab_winter_roses_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_qolab_winter_roses_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_qolab_generic_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_qolab_generic_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_deep_winter_roses_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_deep_winter_roses_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = qolab_crown_03_artifact }
+			}
+			make_trait_inactive = equipped_qolab_crown_03_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = qolab_crown_04_artifact }
+			}
+			make_trait_inactive = equipped_qolab_crown_04_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = qolab_crown_05_artifact }
+			}
+			make_trait_inactive = equipped_qolab_crown_05_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = qolab_crown_06_artifact }
+			}
+			make_trait_inactive = equipped_qolab_crown_06_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_daemonblackfyre_artifact }
+			}
+			make_trait_inactive = equipped_crown_daemonblackfyre_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_first_men_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_first_men_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_andals_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_the_andals_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_andals_silver_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_the_andals_silver_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_mudd_coa_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_mudd_coa_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_westerosi_diadem_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_westerosi_diadem_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_westerosi_diadem_silver_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_westerosi_diadem_silver_artifact
+		}
+		# Crowns of Westeros
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_stepstone_artifact }
+			}
+			make_trait_inactive = equipped_crown_stepstone_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_showaerys_artifact }
+			}
+			make_trait_inactive = equipped_crown_showaerys_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showrhaenyra_crown_01_artifact }
+			}
+			make_trait_inactive = equipped_showrhaenyra_crown_01_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showrhaenyra_crown_02_artifact }
+			}
+			make_trait_inactive = equipped_showrhaenyra_crown_02_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showaegon_crown_01_artifact }
+			}
+			make_trait_inactive = equipped_showaegon_crown_01_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showaegon_crown_02_artifact }
+			}
+			make_trait_inactive = equipped_showaegon_crown_02_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = joffrey_show_crown_artifact }
+			}
+			make_trait_inactive = equipped_joffrey_show_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showrhaenyra_crown_03_artifact }
+			}
+			make_trait_inactive = equipped_showrhaenyra_crown_03_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegon_variant_1_artifact }
+			}
+			make_trait_inactive = equipped_aegon_variant_1_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegon_variant_2_artifact }
+			}
+			make_trait_inactive = equipped_aegon_variant_2_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegon_variant_3_artifact }
+			}
+			make_trait_inactive = equipped_aegon_variant_3_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegon_variant_4_artifact }
+			}
+			make_trait_inactive = equipped_aegon_variant_4_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = jaehaerys_valyrian_variant_artifact }
+			}
+			make_trait_inactive = equipped_jaehaerys_valyrian_variant_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = jaehaerys_variant_1_artifact }
+			}
+			make_trait_inactive = equipped_jaehaerys_variant_1_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = jaehaerys_variant_2_artifact }
+			}
+			make_trait_inactive = equipped_jaehaerys_variant_2_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = cersei_red_tiara_artifact }
+			}
+			make_trait_inactive = equipped_cersei_red_tiara_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaenatargaryen_artifact }
+			}
+			make_trait_inactive = equipped_crown_rhaenatargaryen_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alyssavelaryon_artifact }
+			}
+			make_trait_inactive = equipped_crown_alyssavelaryon_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alicenthightower_artifact }
+			}
+			make_trait_inactive = equipped_crown_alicenthightower_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_daena_artifact }
+			}
+			make_trait_inactive = equipped_crown_daena_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_bethablackwood_artifact }
+			}
+			make_trait_inactive = equipped_circlet_bethablackwood_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_mariah_martell_artifact }
+			}
+			make_trait_inactive = equipped_crown_mariah_martell_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = cersei_tiara_artifact }
+			}
+			make_trait_inactive = equipped_cersei_tiara_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aliandra_martell_artifact }
+			}
+			make_trait_inactive = equipped_crown_aliandra_martell_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_mors_martell_artifact }
+			}
+			make_trait_inactive = equipped_crown_mors_martell_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alysanne_artifact }
+			}
+			make_trait_inactive = equipped_crown_alysanne_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = bittersteel_crown_artifact }
+			}
+			make_trait_inactive = equipped_bittersteel_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = calla_blackfyre_circlet_artifact }
+			}
+			make_trait_inactive = equipped_calla_blackfyre_circlet_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = argella_crown_artifact }
+			}
+			make_trait_inactive = equipped_argella_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = myrcella_circlet_artifact }
+			}
+			make_trait_inactive = equipped_myrcella_circlet_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = sharra_arryn_crown_artifact }
+			}
+			make_trait_inactive = equipped_sharra_arryn_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = roland_arryn_crown_artifact }
+			}
+			make_trait_inactive = equipped_roland_arryn_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaegar_artifact }
+			}
+			make_trait_inactive = equipped_crown_rhaegar_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_viserys_son_of_aenys_artifact }
+			}
+			make_trait_inactive = equipped_crown_viserys_son_of_aenys_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_viserys_son_of_aenys_02_artifact }
+			}
+			make_trait_inactive = equipped_crown_viserys_son_of_aenys_02_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = wolfswood_crown_artifact }
+			}
+			make_trait_inactive = equipped_wolfswood_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = bracken_crown_artifact }
+			}
+			make_trait_inactive = equipped_bracken_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = massey_crown_artifact }
+			}
+			make_trait_inactive = equipped_massey_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = duskendale_crown_01_artifact }
+			}
+			make_trait_inactive = equipped_duskendale_crown_01_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegonvi_artifact }
+			}
+			make_trait_inactive = equipped_crown_aegonvi_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_viserysiii_artifact }
+			}
+			make_trait_inactive = equipped_crown_viserysiii_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jonsnowtargaryen_artifact }
+			}
+			make_trait_inactive = equipped_crown_jonsnowtargaryen_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_maesteraemon_artifact }
+			}
+			make_trait_inactive = equipped_crown_maesteraemon_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegontheuncrowned_artifact }
+			}
+			make_trait_inactive = equipped_crown_aegontheuncrowned_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_brightflame_artifact }
+			}
+			make_trait_inactive = equipped_crown_brightflame_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_baelon_artifact }
+			}
+			make_trait_inactive = equipped_crown_baelon_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_valarr_artifact }
+			}
+			make_trait_inactive = equipped_crown_valarr_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_baelorbreakspear_artifact }
+			}
+			make_trait_inactive = equipped_crown_baelorbreakspear_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_laenorvelaryon_artifact }
+			}
+			make_trait_inactive = equipped_crown_laenorvelaryon_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jacaerysvelaryon_artifact }
+			}
+			make_trait_inactive = equipped_crown_jacaerysvelaryon_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_seawyrm_artifact }
+			}
+			make_trait_inactive = equipped_crown_seawyrm_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_greenpyre_artifact }
+			}
+			make_trait_inactive = equipped_crown_greenpyre_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_goldfyre_artifact }
+			}
+			make_trait_inactive = equipped_crown_goldfyre_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_celtigar_artifact }
+			}
+			make_trait_inactive = equipped_crown_celtigar_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_duncandragonfly_artifact }
+			}
+			make_trait_inactive = equipped_crown_duncandragonfly_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jonsnow_artifact }
+			}
+			make_trait_inactive = equipped_crown_jonsnow_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_shieraseastar_artifact }
+			}
+			make_trait_inactive = equipped_crown_shieraseastar_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aereatargaryen_crown_01_artifact }
+			}
+			make_trait_inactive = equipped_aereatargaryen_crown_01_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aereatargaryen_crown_02_artifact }
+			}
+			make_trait_inactive = equipped_aereatargaryen_crown_02_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = vaellatargaryen_crown_artifact }
+			}
+			make_trait_inactive = equipped_vaellatargaryen_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaenysvelaryon_artifact }
+			}
+			make_trait_inactive = equipped_crown_rhaenysvelaryon_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegonblackfyre_artifact }
+			}
+			make_trait_inactive = equipped_crown_aegonblackfyre_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_daemon_ii_blackfyre_artifact }
+			}
+			make_trait_inactive = equipped_crown_daemon_ii_blackfyre_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_haegonblackfyre_artifact }
+			}
+			make_trait_inactive = equipped_crown_haegonblackfyre_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aenysblackfyre_artifact }
+			}
+			make_trait_inactive = equipped_crown_aenysblackfyre_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_maelysblackfyre_artifact }
+			}
+			make_trait_inactive = equipped_crown_maelysblackfyre_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_orysbaratheon_artifact }
+			}
+			make_trait_inactive = equipped_crown_orysbaratheon_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_robbstark_artifact }
+			}
+			make_trait_inactive = equipped_crown_robbstark_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_branstark_artifact }
+			}
+			make_trait_inactive = equipped_crown_branstark_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegonsonofjaehaerys_artifact }
+			}
+			make_trait_inactive = equipped_crown_aegonsonofjaehaerys_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_vaegon_artifact }
+			}
+			make_trait_inactive = equipped_crown_vaegon_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aemond_artifact }
+			}
+			make_trait_inactive = equipped_crown_aemond_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = daenerys_daughterofjaehaerys_crown_artifact }
+			}
+			make_trait_inactive = equipped_daenerys_daughterofjaehaerys_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = garlandgardener_crown_artifact }
+			}
+			make_trait_inactive = equipped_garlandgardener_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = garthgoldhand_crown_artifact }
+			}
+			make_trait_inactive = equipped_garthgoldhand_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_tyboltthunderbolt_artifact }
+			}
+			make_trait_inactive = equipped_crown_tyboltthunderbolt_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_geroldlannister_artifact }
+			}
+			make_trait_inactive = equipped_crown_geroldlannister_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_lancellannister_artifact }
+			}
+			make_trait_inactive = equipped_crown_lancellannister_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_margaerytyrell_artifact }
+			}
+			make_trait_inactive = equipped_crown_margaerytyrell_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_gardener_peace_artifact }
+			}
+			make_trait_inactive = equipped_crown_gardener_peace_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_gardener_war_artifact }
+			}
+			make_trait_inactive = equipped_crown_gardener_war_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_hugor_of_the_hill_artifact }
+			}
+			make_trait_inactive = equipped_crown_hugor_of_the_hill_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_iron_throne_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_the_iron_throne_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_red_keep_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_the_red_keep_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_oldtown_tall_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_oldtown_tall_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_oldtown_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_oldtown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_harrenhall_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_harrenhall_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_mountain_and_vale_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_the_mountain_and_vale_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_goldengrove_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_goldengrove_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_golden_tree_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_the_golden_tree_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_of_stark_artifact }
+			}
+			make_trait_inactive = equipped_circlet_of_stark_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_yronwood_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_yronwood_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_estermont_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_estermont_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_connington_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_connington_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_bloodraven_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_bloodraven_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_of_seastar_artifact }
+			}
+			make_trait_inactive = equipped_circlet_of_seastar_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = mockingbird_circlet_artifact }
+			}
+			make_trait_inactive = equipped_mockingbird_circlet_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_sansa_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_sansa_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_cersei_ruler_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_cersei_ruler_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_robert_baratheon_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_robert_baratheon_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = valyrian_crown2_targaryen_artifact }
+			}
+			make_trait_inactive = equipped_valyrian_crown2_targaryen_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = valyrian_crown2_blackfyre_artifact }
+			}
+			make_trait_inactive = equipped_valyrian_crown2_blackfyre_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = westerosi_valyrian_crown2_blackfyre_artifact }
+			}
+			make_trait_inactive = equipped_westerosi_valyrian_crown2_blackfyre_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = westerlands2_crown_historic_artifact }
+			}
+			make_trait_inactive = equipped_westerlands2_crown_historic_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_winter_historic_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_winter_historic_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = falcon_crown_historic_artifact }
+			}
+			make_trait_inactive = equipped_falcon_crown_historic_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = stormlands_crown_historic_artifact }
+			}
+			make_trait_inactive = equipped_stormlands_crown_historic_artifact
+		}
+	}
+}
