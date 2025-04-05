@@ -285,8 +285,8 @@ cloaks = {
 									government_has_flag = government_is_tribal
 									#AGOT Modified
 									# religion = religion:germanic_religion
-									religion = religion:drowned_god_religion
-									religion = religion:old_gods_religion
+									religion = religion:the_ways_religion
+									religion = religion:the_pact_religion
 								}
 							}
 						}

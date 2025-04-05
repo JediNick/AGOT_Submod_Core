@@ -497,6 +497,9 @@ accessory_genes = {
 				1 = male_legwear_secular_valyrian_war_03
 				1 = male_legwear_secular_valyrian_war_03_high
 				1 = male_legwear_secular_valyrian_war_blackfyre_03_high
+				1 = male_legwear_secular_braavos_war_01
+				1 = male_legwear_secular_braavos_war_dynastic_01
+				1 = male_legwear_secular_braavos_war_high_01
 				1 = male_legwear_secular_north_stark_war_03
 				1 = male_legwear_secular_north_war_03
 				1 = male_legwear_secular_vale_war_02
@@ -551,6 +554,9 @@ accessory_genes = {
 				1 = female_legwear_secular_valyrian_war_03
 				1 = female_legwear_secular_valyrian_war_03_high
 				1 = female_legwear_secular_valyrian_war_blackfyre_03_high
+				1 = female_legwear_secular_braavos_war_01
+				1 = female_legwear_secular_braavos_war_dynastic_01
+				1 = female_legwear_secular_braavos_war_high_01
 				1 = female_legwear_secular_north_stark_war_03
 				1 = female_legwear_secular_north_war_03
 				1 = female_legwear_secular_vale_war_03
@@ -696,6 +702,22 @@ accessory_genes = {
 			girl = female
 		}
 		
+		free_cities_war_legwear = {
+			index = 43
+			male = {
+				1 = male_legwear_secular_braavos_war_01
+				1 = male_legwear_secular_braavos_war_dynastic_01
+				1 = male_legwear_secular_braavos_war_high_01
+			}
+			female = {
+				1 = female_legwear_secular_braavos_war_01
+				1 = female_legwear_secular_braavos_war_dynastic_01
+				1 = female_legwear_secular_braavos_war_high_01
+			}
+			boy = male
+			girl = female
+		}
+	
 		##AGOT SUBMOD CORE ADDED		
 		kingsguard_legwear_01 = {
 			index = 90
@@ -705,7 +727,9 @@ accessory_genes = {
 				1 = male_legwear_KG_Blackfyre
 			}
 			female = {
-				1 = female_legwear_secular_fp1_common_01
+				1 = female_legwear_KG_01
+				1 = female_legwear_KG_03
+				1 = female_legwear_KG_Blackfyre
 			}
 			boy = male
 			girl = female

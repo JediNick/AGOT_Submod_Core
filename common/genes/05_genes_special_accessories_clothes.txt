@@ -3877,8 +3877,72 @@ special_genes = {
 			}
 
 			#AGOT Added
-			agot_house_clothes = {
+			free_cities_war_nobility_clothes = {
 				index = 200
+
+				male = {
+					1 = male_clothes_secular_braavos_war_01
+					1 = male_clothes_secular_braavos_war_dynastic_01
+					1 = male_clothes_secular_braavos_war_high_01
+					1 = male_clothes_secular_braavos_war_02
+					1 = male_clothes_secular_braavos_war_dynastic_02
+					1 = male_clothes_secular_braavos_war_high_02
+				}
+				female = {
+					1 = female_clothes_secular_braavos_war_02
+					1 = female_clothes_secular_braavos_war_dynastic_02
+					1 = female_clothes_secular_braavos_war_high_02
+					1 = female_clothes_secular_braavos_war_01
+					1 = female_clothes_secular_braavos_war_dynastic_01
+					1 = female_clothes_secular_braavos_war_high_01
+				}
+				boy = male
+				girl = {
+					1 = female_clothes_secular_braavos_war_02
+					1 = female_clothes_secular_braavos_war_dynastic_02
+					1 = female_clothes_secular_braavos_war_high_02
+					1 = female_clothes_secular_braavos_war_02
+					1 = female_clothes_secular_braavos_war_dynastic_02
+					1 = female_clothes_secular_braavos_war_high_02
+				}
+			}
+
+			#AGOT Added
+			free_cities_braavos_high_clothes = {
+				index = 201
+
+				male = {
+					1 = male_clothes_secular_unlikely_gown_braavos_01
+					1 = male_clothes_secular_free_cities_doublet_braavos_01
+					1 = male_clothes_secular_agot_myrish_clothes_braavos_01
+					1 = male_clothes_secular_agot_myrish_clothes_braavos_02
+					1 = male_clothes_secular_agot_myrish_clothes_braavos_03
+					1 = male_clothes_secular_agot_myrish_clothes_braavos_04
+				}
+				female = {
+					1 = female_clothes_secular_unlikely_gown_braavos_01
+					1 = female_clothes_secular_agot_free_cities_dress_braavos_01
+					1 = female_clothes_secular_free_cities_doublet_braavos_01
+					1 = female_clothes_secular_agot_myrish_clothes_braavos_01
+					1 = female_clothes_secular_agot_myrish_clothes_braavos_02
+					1 = female_clothes_secular_agot_myrish_clothes_braavos_03
+					1 = female_clothes_secular_agot_myrish_clothes_braavos_04
+				}
+				boy = male
+				girl = {
+					1 = female_clothes_secular_unlikely_gown_braavos_01
+					1 = female_clothes_secular_free_cities_doublet_braavos_01
+					1 = female_clothes_secular_free_cities_doublet_braavos_01
+					1 = female_clothes_secular_free_cities_doublet_braavos_01
+					1 = female_clothes_secular_agot_myrish_clothes_braavos_01
+					1 = female_clothes_secular_agot_myrish_clothes_braavos_03
+					1 = female_clothes_secular_agot_myrish_clothes_braavos_04
+				}
+			}
+
+			#AGOT Added
+			agot_house_clothes = {
+				index = 202
 
 				male = {
 					1 = male_clothes_dragonbane_doublet_02
@@ -3915,7 +3979,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_historic_characters = {
-				index = 201
+				index = 203
 
 				male = {
 					1 = male_clothes_dragonbane_doublet_02
@@ -3958,7 +4022,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_all_armors = {
-				index = 202
+				index = 204
 
 				male = {
 					1 = male_clothes_valyrian_war_02
@@ -3970,6 +4034,12 @@ special_genes = {
 					1 = male_clothes_valyrian_war_03_high
 					1 = male_clothes_valyrian_war_blackfyre_03_high
 					1 = male_clothes_valyrian_war_dynastic_03_high
+					1 = male_clothes_secular_braavos_war_01
+					1 = male_clothes_secular_braavos_war_dynastic_01
+					1 = male_clothes_secular_braavos_war_high_01
+					1 = male_clothes_secular_braavos_war_02
+					1 = male_clothes_secular_braavos_war_dynastic_02
+					1 = male_clothes_secular_braavos_war_high_02
 					1 = male_clothes_north_stark_war_03
 					1 = male_clothes_north_war_03
 					1 = male_clothes_vale_war_02
@@ -4027,6 +4097,12 @@ special_genes = {
 					1 = female_clothes_valyrian_war_03_high
 					1 = female_clothes_valyrian_war_blackfyre_03_high
 					1 = female_clothes_valyrian_war_dynastic_03_high
+					1 = female_clothes_secular_braavos_war_02
+					1 = female_clothes_secular_braavos_war_dynastic_02
+					1 = female_clothes_secular_braavos_war_high_02
+					1 = female_clothes_secular_braavos_war_01
+					1 = female_clothes_secular_braavos_war_dynastic_01
+					1 = female_clothes_secular_braavos_war_high_01
 					1 = female_clothes_north_stark_war_03
 					1 = female_clothes_north_war_03
 					1 = female_clothes_vale_war_03
@@ -4071,7 +4147,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_all_clothes = {
-				index = 203
+				index = 205
 
 				male = {
 					1 = male_clothes_secular_unlikely_gown_01
@@ -4257,7 +4333,7 @@ special_genes = {
 
 		#NOTAGOTADDED
 		kingsguard_armor_clothes = {
-			index = 204
+			index = 246
 
 			male = {
 				1 = male_clothes_secular_western_KG_armor_01
@@ -4275,14 +4351,25 @@ special_genes = {
 			}
 
 			female = {
-				0 = f_clothes_sec_northern_war_nob_01_lo	
+				1 = female_clothes_secular_western_KG_armor_01
+				1 = female_clothes_secular_western_KG_armorTarg_01
+				1 = female_clothes_secular_western_KG_armor_02
+				1 = female_clothes_secular_western_KG_armorTarg_02
+				1 = female_clothes_secular_western_KG_armor_03
+				1 = female_clothes_secular_western_KG_armorTarg_03
+				1 = female_clothes_secular_western_KG_armor_04
+				1 = female_clothes_secular_western_KG_armorTarg_04
+				1 = female_clothes_secular_western_KG_armor_05
+				1 = female_clothes_secular_western_KG_armorTarg_05
+				1 = female_clothes_secular_western_KG_armor_06
+				1 = female_clothes_secular_western_KG_armorTarg_06	
 			}
 			boy = male
 			girl = female
 		}
 
 		valyrian_nobility_clothing = {
-			index = 205
+			index = 247
 
 			male = {
 				1 = male_clothes_secular_valyrian_nobility_01_high
@@ -4300,7 +4387,7 @@ special_genes = {
 			girl = female
 		}
 		valyrian_nobility_clothing_generic = {
-			index = 206
+			index = 248
 
 			male = {
 				1 = male_clothes_secular_valyrian_nobility_01_generic_high
@@ -4319,7 +4406,7 @@ special_genes = {
 		}
 
 		asoiaf_north_war_clothes = { #AGOT+ Added
-			index = 207
+			index = 249
 
 			male = {
 				1 = male_clothes_secular_asoiaf_north_war_chainmail
@@ -4335,7 +4422,7 @@ special_genes = {
 		}
 		
 		asoiaf_lannister_war_clothes = { #AGOT+ Added
-			index = 208
+			index = 250
 
 			male = {
 				1 = male_clothes_secular_asoiaf_lannister_war_plate_2
@@ -4350,7 +4437,7 @@ special_genes = {
 		}
 
 		asoiaf_gold_cloak_clothes = { #AGOT+ Added
-			index = 209
+			index = 251
 
 			male = {
 				1 = male_clothes_asoiaf_crownlands_gold_cloak_chest
@@ -4363,7 +4450,7 @@ special_genes = {
 		}
 		
 		asoiaf_kingsguard_default_clothes = { #AGOT+ Added
-			index = 210
+			index = 252
 
 			male = {
 				1 = male_clothes_secular_asoiaf_kingsguard_default
@@ -4376,7 +4463,7 @@ special_genes = {
 		}
 		
 		golden_company_armor = { 
-			index = 211
+			index = 253
 
 			male = {
 				1 = male_clothes_platedVest_chains_01
@@ -4394,7 +4481,7 @@ special_genes = {
 		}
 
 		golden_company_armor_black = { 
-			index = 212
+			index = 254
 
 			male = {
 				1 = male_clothes_captainsArmor_black_01
@@ -4411,7 +4498,7 @@ special_genes = {
 		}
 
 		golden_company_armor_blackfyre = { 
-			index = 213
+			index = 255
 
 			male = {
 				1 = male_clothes_captainsArmor_blackfyre_01

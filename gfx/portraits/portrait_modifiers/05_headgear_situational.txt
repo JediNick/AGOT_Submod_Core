@@ -3266,10 +3266,18 @@
 			modifier = {
 				add = 301
 				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showrhaenyra_crown_01_artifact }
+					has_inactive_trait = showrhaenyra_crown_01_artifact
+				}
 			}
 			modifier = {
 				add = 50000
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact } }
+				OR =  { 
+					has_game_rule = hotd_visuals 
+					has_game_rule = crown_only_visuals 
+				}
 				is_alive = no
 				AND = {
 					OR = {
@@ -3285,7 +3293,10 @@
 			}
 			modifier = {
 				factor = 0
-				NOT =  { has_game_rule = hotd_visuals }
+				NOR =  {
+					has_game_rule = hotd_visuals
+					has_game_rule = crown_only_visuals 
+				}
 			}
 		}
 	}
@@ -3821,7 +3832,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_stepstone_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_stepstone_artifact }
+					has_inactive_trait = equipped_crown_stepstone_artifact
+				}
 			}
 		}
 	}
@@ -3842,7 +3856,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_showaerys_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_showaerys_artifact }
+					has_inactive_trait = equipped_crown_showaerys_artifact
+				}
 			}
 		}
 	}
@@ -3861,7 +3878,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showrhaenyra_crown_01_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showrhaenyra_crown_01_artifact }
+					has_inactive_trait = equipped_showrhaenyra_crown_01_artifact
+				}
 			}
 		}
 	}
@@ -3880,7 +3900,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showrhaenyra_crown_02_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showrhaenyra_crown_02_artifact }
+					has_inactive_trait = equipped_showrhaenyra_crown_02_artifact
+				}
 			}
 		}
 	}
@@ -3899,7 +3922,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showaegon_crown_01_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showaegon_crown_01_artifact }
+					has_inactive_trait = equipped_showaegon_crown_01_artifact
+				}
 			}
 		}
 	}
@@ -3918,7 +3944,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showaegon_crown_02_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showaegon_crown_02_artifact }
+					has_inactive_trait = equipped_showaegon_crown_02_artifact
+				}
 			}
 		}
 	}
@@ -3937,7 +3966,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = joffrey_show_crown_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = joffrey_show_crown_artifact }
+					has_inactive_trait = equipped_joffrey_show_crown_artifact
+				}
 			}
 		}
 	}
@@ -3958,7 +3990,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showrhaenyra_crown_03_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showrhaenyra_crown_03_artifact }
+					has_inactive_trait = equipped_showrhaenyra_crown_03_artifact
+				}
 			}
 		}
 	}
@@ -3977,7 +4012,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegon_variant_1_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegon_variant_1_artifact }
+					has_inactive_trait = equipped_aegon_variant_1_artifact
+				}
 			}
 		}
 	}
@@ -3996,7 +4034,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegon_variant_2_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegon_variant_2_artifact }
+					has_inactive_trait = equipped_aegon_variant_2_artifact
+				}
 			}
 		}
 	}
@@ -4015,7 +4056,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegon_variant_3_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegon_variant_3_artifact }
+					has_inactive_trait = equipped_aegon_variant_3_artifact
+				}
 			}
 		}
 	}
@@ -4034,7 +4078,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegon_variant_4_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegon_variant_4_artifact }
+					has_inactive_trait = equipped_aegon_variant_4_artifact
+				}
 			}
 		}
 	}
@@ -4053,7 +4100,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = jaehaerys_valyrian_variant_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = jaehaerys_valyrian_variant_artifact }
+					has_inactive_trait = equipped_jaehaerys_valyrian_variant_artifact
+				}
 			}
 		}
 	}
@@ -4072,7 +4122,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = jaehaerys_variant_1_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = jaehaerys_variant_1_artifact }
+					has_inactive_trait = equipped_jaehaerys_variant_1_artifact
+				}
 			}
 		}
 	}
@@ -4091,7 +4144,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = jaehaerys_variant_2_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = jaehaerys_variant_2_artifact }
+					has_inactive_trait = equipped_jaehaerys_variant_2_artifact
+				}
 			}
 		}
 	}
@@ -4110,7 +4166,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = cersei_red_tiara_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = cersei_red_tiara_artifact }
+					has_inactive_trait = equipped_cersei_red_tiara_artifact
+				}
 			}
 		}
 	}
@@ -4131,7 +4190,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaenatargaryen_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaenatargaryen_artifact }
+					has_inactive_trait = equipped_crown_rhaenatargaryen_artifact
+				}
 			}
 		}
 	}
@@ -4150,7 +4212,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alyssavelaryon_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alyssavelaryon_artifact }
+					has_inactive_trait = equipped_crown_alyssavelaryon_artifact
+				}
 			}
 		}
 	}
@@ -4169,7 +4234,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alicenthightower_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alicenthightower_artifact }
+					has_inactive_trait = equipped_crown_alicenthightower_artifact
+				}
 			}
 		}
 	}
@@ -4188,7 +4256,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_daena_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_daena_artifact }
+					has_inactive_trait = equipped_crown_daena_artifact
+				}
 			}
 		}
 	}
@@ -4207,7 +4278,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_bethablackwood_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_bethablackwood_artifact }
+					has_inactive_trait = equipped_circlet_bethablackwood_artifact
+				}
 			}
 		}
 	}
@@ -4226,7 +4300,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_mariah_martell_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_mariah_martell_artifact }
+					has_inactive_trait = equipped_crown_mariah_martell_artifact
+				}
 			}
 		}
 	}
@@ -4245,7 +4322,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = cersei_tiara_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = cersei_tiara_artifact }
+					has_inactive_trait = equipped_cersei_tiara_artifact
+				}
 			}
 		}
 	}
@@ -4266,7 +4346,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aliandra_martell_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aliandra_martell_artifact }
+					has_inactive_trait = equipped_crown_aliandra_martell_artifact
+				}
 			}
 		}
 	}
@@ -4285,7 +4368,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_mors_martell_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_mors_martell_artifact }
+					has_inactive_trait = equipped_crown_mors_martell_artifact
+				}
 			}
 		}
 	}
@@ -4305,7 +4391,10 @@
 				add = 300
 				AND = {
 					is_crowns_westeros_loaded_trigger = yes
-					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alysanne_artifact }
+					OR = {
+						agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alysanne_artifact }
+						has_inactive_trait = crown_alysanne_artifact
+					}
 				}
 			}
 		}
@@ -4326,7 +4415,10 @@
 				add = 300
 				AND = {
 					is_crowns_westeros_loaded_trigger = yes
-					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = bittersteel_crown_artifact }
+					OR = {
+						agot_has_artifact_equipped = { ARTIFACT_VARIABLE = bittersteel_crown_artifact }
+						has_inactive_trait = bittersteel_crown_artifact
+					}
 				}
 			}
 		}
@@ -4346,7 +4438,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = calla_blackfyre_circlet_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = calla_blackfyre_circlet_artifact }
+					has_inactive_trait = equipped_calla_blackfyre_circlet_artifact
+				}
 			}
 		}
 	}
@@ -4365,7 +4460,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = argella_crown_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = argella_crown_artifact }
+					has_inactive_trait = equipped_argella_crown_artifact
+				}
 			}
 		}
 	}
@@ -4384,7 +4482,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = myrcella_circlet_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = myrcella_circlet_artifact }
+					has_inactive_trait = equipped_myrcella_circlet_artifact
+				}
 			}
 		}
 	}
@@ -4403,7 +4504,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = sharra_arryn_crown_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = sharra_arryn_crown_artifact }
+					has_inactive_trait = equipped_sharra_arryn_crown_artifact
+				}
 			}
 		}
 	}
@@ -4421,8 +4525,10 @@
 			base = 0
 			modifier = {
 				add = 300
-				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = roland_arryn_crown_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = roland_arryn_crown_artifact }
+					has_inactive_trait = equipped_roland_arryn_crown_artifact
+				}
 			}
 		}
 	}
@@ -4441,7 +4547,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaegar_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaegar_artifact }
+					has_inactive_trait = equipped_crown_rhaegar_artifact
+				}
 			}
 		}
 	}
@@ -4460,7 +4569,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_viserys_son_of_aenys_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_viserys_son_of_aenys_artifact }
+					has_inactive_trait = equipped_crown_viserys_son_of_aenys_artifact
+				}
 			}
 		}
 	}
@@ -4479,7 +4591,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_viserys_son_of_aenys_02_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_viserys_son_of_aenys_02_artifact }
+					has_inactive_trait = equipped_crown_viserys_son_of_aenys_02_artifact
+				}
 			}
 		}
 	}
@@ -4498,7 +4613,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = wolfswood_crown_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = wolfswood_crown_artifact }
+					has_inactive_trait = equipped_wolfswood_crown_artifact
+				}
 			}
 		}
 	}
@@ -4517,7 +4635,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = bracken_crown_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = bracken_crown_artifact }
+					has_inactive_trait = equipped_bracken_crown_artifact
+				}
 			}
 		}
 	}
@@ -4536,7 +4657,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = massey_crown_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = massey_crown_artifact }
+					has_inactive_trait = equipped_massey_crown_artifact
+				}
 			}
 		}
 	}
@@ -4555,7 +4679,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = duskendale_crown_01_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = duskendale_crown_01_artifact }
+					has_inactive_trait = equipped_duskendale_crown_01_artifact
+				}
 			}
 		}
 	}
@@ -4574,7 +4701,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegonvi_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegonvi_artifact }
+					has_inactive_trait = equipped_crown_aegonvi_artifact
+				}
 			}
 		}
 	}
@@ -4593,7 +4723,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_viserysiii_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_viserysiii_artifact }
+					has_inactive_trait = equipped_crown_viserysiii_artifact
+				}
 			}
 		}
 	}
@@ -4612,7 +4745,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jonsnowtargaryen_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jonsnowtargaryen_artifact }
+					has_inactive_trait = equipped_crown_jonsnowtargaryen_artifact
+				}
 			}
 		}
 	}
@@ -4631,7 +4767,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_maesteraemon_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_maesteraemon_artifact }
+					has_inactive_trait = equipped_crown_maesteraemon_artifact
+				}
 			}
 		}
 	}
@@ -4650,7 +4789,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegontheuncrowned_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegontheuncrowned_artifact }
+					has_inactive_trait = equipped_crown_aegontheuncrowned_artifact
+				}
 			}
 		}
 	}
@@ -4669,7 +4811,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_brightflame_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_brightflame_artifact }
+					has_inactive_trait = equipped_crown_brightflame_artifact
+				}
 			}
 		}
 	}
@@ -4688,7 +4833,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_baelon_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_baelon_artifact }
+					has_inactive_trait = equipped_crown_baelon_artifact
+				}
 			}
 		}
 	}
@@ -4707,7 +4855,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_valarr_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_valarr_artifact }
+					has_inactive_trait = equipped_crown_valarr_artifact
+				}
 			}
 		}
 	}
@@ -4726,7 +4877,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aemonsonofjaehaerys_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aemonsonofjaehaerys_artifact }
+					has_inactive_trait = equipped_crown_aemonsonofjaehaerys_artifact
+				}
 			}
 		}
 	}
@@ -4745,7 +4899,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_baelorbreakspear_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_baelorbreakspear_artifact }
+					has_inactive_trait = equipped_crown_baelorbreakspear_artifact
+				}
 			}
 		}
 	}
@@ -4764,7 +4921,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_laenorvelaryon_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_laenorvelaryon_artifact }
+					has_inactive_trait = equipped_crown_laenorvelaryon_artifact
+				}
 			}
 		}
 	}
@@ -4783,7 +4943,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jacaerysvelaryon_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jacaerysvelaryon_artifact }
+					has_inactive_trait = equipped_crown_jacaerysvelaryon_artifact
+				}
 			}
 		}
 	}
@@ -4802,7 +4965,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_seawyrm_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_seawyrm_artifact }
+					has_inactive_trait = equipped_crown_seawyrm_artifact
+				}
 			}
 		}
 	}
@@ -4821,7 +4987,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_greenpyre_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_greenpyre_artifact }
+					has_inactive_trait = equipped_crown_greenpyre_artifact
+				}
 			}
 		}
 	}
@@ -4840,7 +5009,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_goldfyre_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_goldfyre_artifact }
+					has_inactive_trait = equipped_crown_goldfyre_artifact
+				}
 			}
 		}
 	}
@@ -4859,7 +5031,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_celtigar_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_celtigar_artifact }
+					has_inactive_trait = equipped_crown_celtigar_artifact
+				}
 			}
 		}
 	}
@@ -4878,7 +5053,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_duncandragonfly_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_duncandragonfly_artifact }
+					has_inactive_trait = equipped_crown_duncandragonfly_artifact
+				}
 			}
 		}
 	}
@@ -4897,7 +5075,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jonsnow_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jonsnow_artifact }
+					has_inactive_trait = equipped_crown_jonsnow_artifact
+				}
 			}
 		}
 	}
@@ -4916,8 +5097,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_shieraseastar_artifact }
-				agot_is_independent_ruler = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_shieraseastar_artifact }
+					has_inactive_trait = equipped_crown_shieraseastar_artifact
+				}
 			}
 		}
 	}
@@ -4937,7 +5120,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aereatargaryen_crown_01_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aereatargaryen_crown_01_artifact }
+					has_inactive_trait = equipped_aereatargaryen_crown_01_artifact
+				}
 			}
 		}
 	}
@@ -4956,7 +5142,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aereatargaryen_crown_02_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aereatargaryen_crown_02_artifact }
+					has_inactive_trait = equipped_aereatargaryen_crown_02_artifact
+				}
 			}
 		}
 	}
@@ -4975,7 +5164,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = vaellatargaryen_crown_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = vaellatargaryen_crown_artifact }
+					has_inactive_trait = equipped_vaellatargaryen_crown_artifact
+				}
 			}
 		}
 	}
@@ -4994,7 +5186,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaenysvelaryon_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaenysvelaryon_artifact }
+					has_inactive_trait = equipped_crown_rhaenysvelaryon_artifact
+				}
 			}
 		}
 	}
@@ -5013,7 +5208,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegonblackfyre_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegonblackfyre_artifact }
+					has_inactive_trait = equipped_crown_aegonblackfyre_artifact
+				}
 			}
 		}
 	}
@@ -5032,7 +5230,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_daemon_ii_blackfyre_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_daemon_ii_blackfyre_artifact }
+					has_inactive_trait = equipped_crown_daemon_ii_blackfyre_artifact
+				}
 			}
 		}
 	}
@@ -5051,7 +5252,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_haegonblackfyre_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_haegonblackfyre_artifact }
+					has_inactive_trait = equipped_crown_haegonblackfyre_artifact
+				}
 			}
 		}
 	}
@@ -5070,7 +5274,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aenysblackfyre_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aenysblackfyre_artifact }
+					has_inactive_trait = equipped_crown_aenysblackfyre_artifact
+				}
 			}
 		}
 	}
@@ -5089,7 +5296,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_maelysblackfyre_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_maelysblackfyre_artifact }
+					has_inactive_trait = equipped_crown_maelysblackfyre_artifact
+				}
 			}
 		}
 	}
@@ -5108,7 +5318,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_orysbaratheon_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_orysbaratheon_artifact }
+					has_inactive_trait = equipped_crown_orysbaratheon_artifact
+				}
 			}
 		}
 	}
@@ -5127,7 +5340,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_robbstark_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_robbstark_artifact }
+					has_inactive_trait = equipped_crown_robbstark_artifact
+				}
 			}
 		}
 	}
@@ -5146,7 +5362,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_branstark_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_branstark_artifact }
+					has_inactive_trait = equipped_crown_branstark_artifact
+				}
 			}
 		}
 	}
@@ -5165,7 +5384,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegonsonofjaehaerys_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegonsonofjaehaerys_artifact }
+					has_inactive_trait = equipped_crown_aegonsonofjaehaerys_artifact
+				}
 			}
 		}
 	}
@@ -5184,7 +5406,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_vaegon_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_vaegon_artifact }
+					has_inactive_trait = equipped_crown_vaegon_artifact
+				}
 			}
 		}
 	}
@@ -5203,7 +5428,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aemond_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aemond_artifact }
+					has_inactive_trait = equipped_crown_aemond_artifact
+				}
 			}
 		}
 	}
@@ -5222,7 +5450,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = daenerys_daughterofjaehaerys_crown_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = daenerys_daughterofjaehaerys_crown_artifact }
+					has_inactive_trait = equipped_daenerys_daughterofjaehaerys_crown_artifact
+				}
 			}
 		}
 	}
@@ -5241,7 +5472,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = garlandgardener_crown_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = garlandgardener_crown_artifact }
+					has_inactive_trait = equipped_garlandgardener_crown_artifact
+				}
 			}
 		}
 	}
@@ -5260,7 +5494,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = garthgoldhand_crown_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = garthgoldhand_crown_artifact }
+					has_inactive_trait = equipped_garthgoldhand_crown_artifact
+				}
 			}
 		}
 	}	
@@ -5279,7 +5516,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_tyboltthunderbolt_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_tyboltthunderbolt_artifact }
+					has_inactive_trait = equipped_crown_tyboltthunderbolt_artifact
+				}
 			}
 		}
 	}
@@ -5298,7 +5538,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_geroldlannister_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_geroldlannister_artifact }
+					has_inactive_trait = equipped_crown_geroldlannister_artifact
+				}
 			}
 		}
 	}
@@ -5317,7 +5560,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_lancellannister_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_lancellannister_artifact }
+					has_inactive_trait = equipped_crown_lancellannister_artifact
+				}
 			}
 		}
 	}
@@ -5336,7 +5582,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_margaerytyrell_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_margaerytyrell_artifact }
+					has_inactive_trait = equipped_crown_margaerytyrell_artifact
+				}
 			}
 		}
 	}
@@ -5355,7 +5604,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_gardener_peace_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_gardener_peace_artifact }
+					has_inactive_trait = equipped_crown_gardener_peace_artifact
+				}
 			}
 		}
 	}
@@ -5374,7 +5626,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_gardener_war_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_gardener_war_artifact }
+					has_inactive_trait = equipped_crown_gardener_war_artifact
+				}
 			}
 		}
 	}
@@ -5393,7 +5648,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_hugor_of_the_hill_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_hugor_of_the_hill_artifact }
+					has_inactive_trait = equipped_crown_hugor_of_the_hill_artifact
+				}
 			}
 		}
 	}
@@ -5414,7 +5672,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_iron_throne_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_iron_throne_artifact }
+					has_inactive_trait = equipped_crown_of_the_iron_throne_artifact
+				}
 			}
 		}
 	}
@@ -5433,7 +5694,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_red_keep_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_red_keep_artifact }
+					has_inactive_trait = equipped_crown_of_the_red_keep_artifact
+				}
 			}
 		}
 	}
@@ -5452,7 +5716,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_oldtown_tall_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_oldtown_tall_artifact }
+					has_inactive_trait = equipped_crown_of_oldtown_tall_artifact
+				}
 			}
 		}
 	}
@@ -5471,7 +5738,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_oldtown_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_oldtown_artifact }
+					has_inactive_trait = equipped_crown_of_oldtown_artifact
+				}
 			}
 		}
 	}
@@ -5490,7 +5760,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_harrenhall_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_harrenhall_artifact }
+					has_inactive_trait = equipped_crown_of_harrenhall_artifact
+				}
 			}
 		}
 	}
@@ -5509,7 +5782,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_mountain_and_vale_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_mountain_and_vale_artifact }
+					has_inactive_trait = equipped_crown_of_the_mountain_and_vale_artifact
+				}
 			}
 		}
 	}
@@ -5528,7 +5804,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_goldengrove_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_goldengrove_artifact }
+					has_inactive_trait = equipped_crown_of_goldengrove_artifact
+				}
 			}
 		}
 	}
@@ -5547,7 +5826,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_golden_tree_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_golden_tree_artifact }
+					has_inactive_trait = equipped_crown_of_the_golden_tree_artifact
+				}
 			}
 		}
 	}
@@ -5566,7 +5848,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_of_stark_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_of_stark_artifact }
+					has_inactive_trait = equipped_circlet_of_stark_artifact
+				}
 			}
 		}
 	}
@@ -5585,7 +5870,10 @@
 			modifier = {
 				add = 310
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_yronwood_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_yronwood_artifact }
+					has_inactive_trait = equipped_crown_of_yronwood_artifact
+				}
 			}
 		}
 	}
@@ -5604,7 +5892,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_estermont_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_estermont_artifact }
+					has_inactive_trait = equipped_crown_of_estermont_artifact
+				}
 			}
 		}
 	}
@@ -5623,7 +5914,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_connington_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_connington_artifact }
+					has_inactive_trait = equipped_crown_of_connington_artifact
+				}
 			}
 		}
 	}
@@ -5642,7 +5936,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_bloodraven_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_bloodraven_artifact }
+					has_inactive_trait = equipped_crown_of_bloodraven_artifact
+				}
 			}
 		}
 	}
@@ -5661,7 +5958,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_of_seastar_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_of_seastar_artifact }
+					has_inactive_trait = equipped_circlet_of_seastar_artifact
+				}
 			}
 		}
 	}
@@ -5680,7 +5980,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = mockingbird_circlet_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = mockingbird_circlet_artifact }
+					has_inactive_trait = equipped_mockingbird_circlet_artifact
+				}
 			}
 		}
 	}
@@ -5699,7 +6002,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_sansa_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_sansa_artifact }
+					has_inactive_trait = equipped_crown_of_sansa_artifact
+				}
 			}
 		}
 	}
@@ -5718,7 +6024,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_cersei_ruler_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_cersei_ruler_artifact }
+					has_inactive_trait = equipped_crown_of_cersei_ruler_artifact
+				}
 			}
 		}
 	}
@@ -5737,7 +6046,10 @@
 			modifier = {
 				add = 300
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_robert_baratheon_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_robert_baratheon_artifact }
+					has_inactive_trait = equipped_crown_of_robert_baratheon_artifact
+				}
 			}
 		}
 	}
@@ -5755,7 +6067,11 @@
 			base = 0
 			modifier = {
 				add = 300
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = valyrian_crown2_targaryen_artifact }
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = valyrian_crown2_targaryen_artifact }
+					has_inactive_trait = equipped_valyrian_crown2_targaryen_artifact
+				}
 			}
 		}
 	}
@@ -5773,7 +6089,11 @@
 			base = 0
 			modifier = {
 				add = 300
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = valyrian_crown2_blackfyre_artifact }
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = valyrian_crown2_blackfyre_artifact }
+					has_inactive_trait = equipped_valyrian_crown2_blackfyre_artifact
+				}
 			}
 		}
 	}
@@ -5792,7 +6112,11 @@
 			base = 0
 			modifier = {
 				add = 300
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = westerosi_valyrian_crown2_blackfyre_artifact }
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = westerosi_valyrian_crown2_blackfyre_artifact }
+					has_inactive_trait = equipped_westerosi_valyrian_crown2_blackfyre_artifact
+				}
 			}
 		}
 	}
@@ -5810,7 +6134,11 @@
 			base = 0
 			modifier = {
 				add = 300
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = westerlands2_crown_historic_artifact }
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = westerlands2_crown_historic_artifact }
+					has_inactive_trait = equipped_westerlands2_crown_historic_artifact
+				}
 			}
 		}
 	}
@@ -5828,7 +6156,11 @@
 			base = 0
 			modifier = {
 				add = 300
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_winter_historic_artifact }
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_winter_historic_artifact }
+					has_inactive_trait = equipped_crown_of_winter_historic_artifact
+				}
 			}
 		}
 	}
@@ -5846,7 +6178,11 @@
 			base = 0
 			modifier = {
 				add = 300
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = falcon_crown_historic_artifact }
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = falcon_crown_historic_artifact }
+					has_inactive_trait = equipped_falcon_crown_historic_artifact
+				}
 			}
 		}
 	}
@@ -5864,7 +6200,11 @@
 			base = 0
 			modifier = {
 				add = 300
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = stormlands_crown_historic_artifact }
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = stormlands_crown_historic_artifact }
+					has_inactive_trait = equipped_stormlands_crown_historic_artifact
+				}
 			}
 		}
 	}
@@ -5887,7 +6227,10 @@
 			modifier = {
 				add = 60000
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegoncrown } }
-				has_game_rule = hotd_visuals
+				OR = {
+					has_game_rule = hotd_visuals
+					has_game_rule = crown_only_visuals 
+				}
 				#primary_title = title:e_the_iron_throne
 				OR = {
 					is_character_targaryen_27 = yes # Aegon I
@@ -5922,13 +6265,19 @@
 			base = 0
 			modifier = {
 				add = 30000
-				has_game_rule = hotd_visuals
+				OR = {
+					has_game_rule = hotd_visuals
+					has_game_rule = crown_only_visuals 
+				}
 				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegoncrown }
 				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegoncrown_nogems }
 			}
 			modifier = {
 				add = 70000
-				has_game_rule = hotd_visuals
+				OR = {
+					has_game_rule = hotd_visuals
+					has_game_rule = crown_only_visuals 
+				}
 				OR = {
 					is_character_targaryen_65 = yes # Aegon II
 					is_character_targaryen_81 = yes # Daeron I
@@ -5948,7 +6297,11 @@
 				}
 				modifier = {
 					factor = 0
-					NOT = { has_game_rule = hotd_visuals }
+					
+					NOR = { 
+						has_game_rule = hotd_visuals
+						has_game_rule = crown_only_visuals 	 
+					}
 				}
 			}
 		}
@@ -5984,7 +6337,10 @@
 			}
 			modifier = {
 				factor = 0
-				NOT =  { has_game_rule = hotd_visuals }
+				NOR =  { 				
+					has_game_rule = hotd_visuals
+					has_game_rule = crown_only_visuals  
+				}
 			}
 		}
 	}

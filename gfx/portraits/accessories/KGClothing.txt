@@ -43,3 +43,40 @@ male_clothes_secular_western_KG_armor_06 = {
 male_clothes_secular_western_KG_armorTarg_06 = {
 	entity = { required_tags = ""			shared_pose_entity = torso		 }	
 }
+
+female_clothes_secular_western_KG_armor_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+female_clothes_secular_western_KG_armorTarg_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }	
+}
+female_clothes_secular_western_KG_armor_02 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+female_clothes_secular_western_KG_armorTarg_02 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+female_clothes_secular_western_KG_armor_03 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+female_clothes_secular_western_KG_armorTarg_03 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }	
+}
+female_clothes_secular_western_KG_armor_04 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+female_clothes_secular_western_KG_armorTarg_04 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }	
+}
+female_clothes_secular_western_KG_armor_05 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+female_clothes_secular_western_KG_armorTarg_05 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }	
+}
+female_clothes_secular_western_KG_armor_06 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }		
+}
+female_clothes_secular_western_KG_armorTarg_06 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		 }	
+}

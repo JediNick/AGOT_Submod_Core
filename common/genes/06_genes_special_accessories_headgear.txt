@@ -3386,6 +3386,15 @@ special_genes = {
 			agot_most_headgears = {
 				index = 197
 				male = {
+					1 = braavosi_hat_01_low
+					1 = braavosi_hat_01
+					1 = braavosi_hat_01_high
+					1 = braavosi_hat_02
+					1 = braavosi_hat_high_02
+					1 = braavosi_hat_dynastic_02
+					1 = braavosi_hat_03
+					1 = braavosi_hat_high_03
+					1 = braavosi_hat_dynastic_03
 					1 = saan_pirate_hat
 					1 = saan_pirate_hat_dynastic
 					1 = pirate_hat_01
@@ -3419,6 +3428,15 @@ special_genes = {
 					1 = male_headgear_secular_stormlands_war_04
 				}
 				female = {
+					1 = female_braavosi_hat_01_low
+					1 = female_braavosi_hat_01
+					1 = female_braavosi_hat_01_high
+					1 = female_braavosi_hat_02
+					1 = female_braavosi_hat_high_02
+					1 = female_braavosi_hat_dynastic_02
+					1 = female_braavosi_hat_03
+					1 = female_braavosi_hat_high_03
+					1 = female_braavosi_hat_dynastic_03
 					1 = female_saan_pirate_hat
 					1 = female_saan_pirate_hat_dynastic
 					1 = female_pirate_hat_01
@@ -3739,8 +3757,12 @@ special_genes = {
 					1 = male_headgear_secular_western_KG_helmet_06
 				}
 				female = {
-					1 = empty	
-							
+					1 = female_headgear_secular_western_KG_helmet_01
+					1 = female_headgear_secular_western_KG_helmet_02
+					1 = female_headgear_secular_western_KG_helmet_03
+					1 = female_headgear_secular_western_KG_helmet_04
+					1 = female_headgear_secular_western_KG_helmet_05
+					1 = female_headgear_secular_western_KG_helmet_06		
 				}
 				boy = male
 				girl = female

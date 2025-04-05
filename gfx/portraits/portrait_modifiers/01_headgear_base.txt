@@ -4690,7 +4690,7 @@ fp3_turkic_high_nobles = {
 				add = 275
 				agot_default_wear_crown_trigger = yes
 				is_character_baratheon_3 = yes
-				has_religion = religion:rhllor_religion
+				has_religion = religion:the_rhllor_religion
 			}
 		}
 	}
@@ -5608,10 +5608,6 @@ fp3_turkic_high_nobles = {
 					dynasty ?= dynasty:dynn_Essos
 					is_character_targaryen_11 = yes
 					AND = {
-						exists = var:faegon_main_character
-						var:faegon_main_character = flag:faegon
-					}
-					AND = {
 						is_character_stark_7 = yes
 						dynasty ?= dynasty:dynn_Targaryen
 						NOT = {
@@ -5622,7 +5618,7 @@ fp3_turkic_high_nobles = {
 						is_character_stark_7 = yes
 						dynasty ?= dynasty:dynn_Targaryen
 						NOT = {
-							religion = religion:old_gods_religion
+							religion = religion:the_pact_religion
 						}
 					}
 				}
@@ -5806,7 +5802,7 @@ fp3_turkic_high_nobles = {
 				add = 240
 				agot_default_wear_crown_trigger = yes
 				culture = { has_cultural_pillar = heritage_andal }
-				religion = religion:faith_of_the_seven_religion
+				religion = religion:the_seven_religion
 			}
 		}
 	}
@@ -5826,7 +5822,7 @@ fp3_turkic_high_nobles = {
 				add = 240
 				agot_default_wear_crown_trigger = yes
 				culture = { has_cultural_pillar = heritage_first_man }
-				religion = religion:old_gods_religion
+				religion = religion:the_pact_religion
 				NOT = { 
 					portrait_wildling_clothing_trigger = yes
 				}

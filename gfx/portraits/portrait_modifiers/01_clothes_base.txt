@@ -3059,6 +3059,26 @@ fp3_iranian_high_nobles = {
             }
         }
     }
+    
+    agot_braavos_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = free_cities_braavos_high_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = braavosi
+                }
+            }
+        }
+    }
 
 
     ##LOTD ADDED 

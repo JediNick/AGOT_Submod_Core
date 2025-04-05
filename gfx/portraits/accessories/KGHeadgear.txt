@@ -31,3 +31,29 @@ male_headgear_secular_western_KG_helmet_06 = {
 	set_tags = "no_hair"
 	entity = { required_tags = ""			shared_pose_entity = head		 	 }		
 }
+
+
+female_headgear_secular_western_KG_helmet_01 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		 	 }		
+}
+female_headgear_secular_western_KG_helmet_02 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		 	 }		
+}
+female_headgear_secular_western_KG_helmet_03 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		 	 }		
+}
+female_headgear_secular_western_KG_helmet_04 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		 	 }		
+}
+female_headgear_secular_western_KG_helmet_05 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		 	 }		
+}
+female_headgear_secular_western_KG_helmet_06 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		 	 }		
+}

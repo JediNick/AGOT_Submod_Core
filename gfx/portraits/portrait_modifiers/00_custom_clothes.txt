@@ -23,9 +23,14 @@
 	#AGOT Added
 	add_accessory_modifiers = {
 		gene = clothes
-		template = agot_all_armors
+		template = free_cities_braavos_high_clothes
 	}
 	
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = clothes
+		template = agot_all_armors
+	}
 	add_accessory_modifiers = {
 		gene = clothes
 		template = sp3_western_royalty_clothes

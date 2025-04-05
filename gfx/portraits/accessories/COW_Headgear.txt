@@ -1,0 +1,896 @@
+﻿rhaegar_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+viserys_son_of_aenys = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+viserys_son_of_aenys_02 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+aegonvi_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+viserysiii_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+jonsnowtargaryen_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+jonsnow_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+maesteraemon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = hea		}
+}
+
+aegonblackfyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+daemonblackfyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+aegontheuncrowned_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+stepstone_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+rhaenysvelaryon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_rhaenysvelaryon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_rhaenatargaryen_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+rhaenatargaryen_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+vaellatargaryen_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_vaellatargaryen_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+aereatargaryen_crown_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_aereatargaryen_crown_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+aereatargaryen_crown_02 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_aereatargaryen_crown_02 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+baelorbreakspear_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+goldfyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+greenpyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+brightflame_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+aenysblackfyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+maelysblackfyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+aemonsonofjaehaerys_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+duncandragonfly_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+seawyrm_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+baelon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_rhaegar_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_viserys_son_of_aenys = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_viserys_son_of_aenys_02 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_aegonvi_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_viserysiii_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_jonsnowtargaryen_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_jonsnow_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_maesteraemon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_aegonblackfyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_daemonblackfyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_aegontheuncrowned_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_stepstone_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_baelorbreakspear_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_goldfyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_greenpyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_brightflame_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_aenysblackfyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_maelysblackfyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_aemonsonofjaehaerys_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_duncandragonfly_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_seawyrm_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_baelon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+laenorvelaryon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_laenorvelaryon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+jacaerysvelaryon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_jacaerysvelaryon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+haegonblackfyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_haegonblackfyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+orysbaratheon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_orysbaratheon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+wolfswood_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_wolfswood_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+bracken_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_bracken_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+massey_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_massey_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+duskendale_crown_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_duskendale_crown_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+margaerytyrell_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_margaerytyrell_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+robbstark_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_robbstark_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+branstark_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_branstark_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+geroldlannister_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_geroldlannister_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+lancellannister_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_lancellannister_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+valarr_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_valarr_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+aegonsonofjaehaerys_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_aegonsonofjaehaerys_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+vaegon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_vaegon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+aemond_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_aemond_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+daenerys_daughterofjaehaerys_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_daenerys_daughterofjaehaerys_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+shieraseastar_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_shieraseastar_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+garlandgardener_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_garlandgardener_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+garthgoldhand_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_garthgoldhand_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+gardener_war_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_gardener_war_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+gardener_peace_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_gardener_peace_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_the_iron_throne = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_the_iron_throne = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_the_red_keep = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_the_red_keep = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_oldtown_tall = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_oldtown_tall = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_oldtown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_oldtown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_harrenhall = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_harrenhall = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_the_mountain_and_vale = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_the_mountain_and_vale = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_goldengrove = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_goldengrove = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+circlet_of_stark = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_circlet_of_stark = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_yronwood = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_yronwood = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_estermont = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_estermont = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_connington = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_connington = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_sharp_point = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_sharp_point = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_stone_hedge = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_stone_hedge = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_gardener_war_bronze = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_gardener_war_bronze = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_the_grey_king = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_the_grey_king = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_weirwood = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_weirwood = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+circlet_of_the_seven = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_circlet_of_the_seven = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_jon_north = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_jon_north = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_jon_icefire = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_jon_icefire = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_bloodraven = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_bloodraven = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+circlet_of_seastar = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_circlet_of_seastar = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+mockingbird_circlet = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_mockingbird_circlet = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_sansa = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_sansa = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_cersei_ruler = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_cersei_ruler = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+crown_of_robert_baratheon = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_robert_baratheon = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+valyrian_crown2_targaryen = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_valyrian_crown2_targaryen = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+valyrian_crown2_blackfyre = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_valyrian_crown2_blackfyre = {
+	entity = { required_tags = ""			shared_pose_entity = head		}	
+}
+
+westerosi_valyrian_crown2_blackfyre = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_westerosi_valyrian_crown2_blackfyre = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+celtigar_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_celtigar_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+hugor_of_the_hill_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_hugor_of_the_hill_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+alysannetargaryen_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_alysannetargaryen_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+argella_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_argella_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+bittersteel_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_bittersteel_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+calla_blackfyre_circlet = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_calla_blackfyre_circlet = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+sharra_arryn_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_sharra_arryn_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+roland_arryn_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_roland_arryn_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+tyboltthunderbolt_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_tyboltthunderbolt_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+bethablackwood_circlet = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_bethablackwood_circlet = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+daena_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_daena_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+alyssavelaryon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_alyssavelaryon_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+alicenthightower_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_alicenthightower_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+myrcella_circlet = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_myrcella_circlet = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+cersei_tiara = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_cersei_tiara = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+mariah_martell_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+mors_martell_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+aliandra_martell_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_mariah_martell_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_mors_martell_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_aliandra_martell_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+showaerys_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_showaerys_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+daemon_ii_blackfyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_daemon_ii_blackfyre_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+aegon_variant_1 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_aegon_variant_1 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+aegon_variant_2 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_aegon_variant_2 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+aegon_variant_3 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_aegon_variant_3 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+aegon_variant_4 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_aegon_variant_4 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+jaehaerys_valyrian_variant = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_jaehaerys_valyrian_variant = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+jaehaerys_variant_1 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_jaehaerys_variant_1 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+jaehaerys_variant_2 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_jaehaerys_variant_2 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+
+showrhaenyra_crown_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_showrhaenyra_crown_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+showrhaenyra_crown_02 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_showrhaenyra_crown_02 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+showrhaenyra_crown_03 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_showrhaenyra_crown_03 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+showaegon_crown_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_showaegon_crown_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+showaegon_crown_02 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_showaegon_crown_02 = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+cersei_red_tiara = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_cersei_red_tiara = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+male_joffrey_show_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_joffrey_show_crown = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}

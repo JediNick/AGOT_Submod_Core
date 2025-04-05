@@ -2143,7 +2143,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 205
+                add = 140
                 portrait_wear_armor_trigger = yes
                 dynasty ?= dynasty:dynn_Royce
             }
@@ -2182,7 +2182,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 205
+                add = 140
                 is_male = yes
                 portrait_wear_armor_trigger = yes
                 dynasty ?= dynasty:dynn_Lydden
@@ -2265,7 +2265,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 260
+                add = 140
                 portrait_wear_armor_trigger = yes
                 dynasty ?= dynasty:dynn_Osgrey
             }
@@ -2304,7 +2304,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 260
+                add = 140
                 portrait_wear_armor_trigger = yes
                 agot_chequey_house_armor = yes
             }
@@ -2343,7 +2343,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 250
+                add = 135
                 portrait_wear_armor_trigger = yes
                 agot_portrait_high_armor_trigger = {
                     CULTURE_INPUT = crownlander
@@ -2384,7 +2384,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 260
+                add = 140
                 is_male = yes
                 portrait_wear_armor_trigger = yes
                 dynasty ?= dynasty:dynn_Rowan
@@ -3109,7 +3109,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 145
+                add = 150
                 exists = this
                 OR = {
                     agot_portrait_high_armor_trigger = {
@@ -3149,7 +3149,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 140
+                add = 145
                 exists = this
                 OR = {
                     agot_portrait_high_armor_trigger = {
@@ -3188,7 +3188,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 130
+                add = 140
                 exists = this
                 OR = {
                     agot_portrait_low_armor_trigger = {
@@ -3197,6 +3197,74 @@
                     agot_portrait_low_armor_trigger = {
                         CULTURE_INPUT = vineman
                     }
+                }
+            }
+        }
+    }
+
+    agot_clothing_braavos_high_armor = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = free_cities_war_nobility_clothes
+                accessory = male_clothes_secular_braavos_war_high_01
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = free_cities_war_legwear
+                accessory = male_legwear_secular_braavos_war_high_01
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 145
+                exists = this
+                agot_portrait_high_armor_trigger = {
+                    CULTURE_INPUT = braavosi
+                }
+            }
+        }
+    }
+
+    agot_clothing_braavos_armor = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = free_cities_war_nobility_clothes
+                accessory = male_clothes_secular_braavos_war_01
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = free_cities_war_legwear
+                accessory = male_legwear_secular_braavos_war_01
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 145
+                exists = this
+                agot_portrait_low_armor_trigger = {
+                    CULTURE_INPUT = braavosi
                 }
             }
         }
@@ -3469,7 +3537,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 250
+                add = 140
                 exists = this
                 is_landed = yes
                 capital_county.title_province = { geographical_region = world_westeros }
@@ -3513,7 +3581,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 260
+                add = 145
                 exists = this
                 OR = {
                     AND = {
@@ -3556,7 +3624,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 270
+                add = 150
                 exists = this
                 OR = {
                     AND = {
@@ -3599,7 +3667,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 250
+                add = 140
                 exists = this
                 OR = {
                     AND = {
@@ -3614,7 +3682,7 @@
                 }
             }
             modifier = {
-                add = 250
+                add = 140
                 has_court_position = head_dragonkeeper_court_position
             }
         }
@@ -3645,7 +3713,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 260
+                add = 145
                 exists = this
                 OR = {
                     AND = {
@@ -3688,7 +3756,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 270
+                add = 150
                 exists = this
                 OR = {
                     AND = {
@@ -3802,7 +3870,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 130
+                add = 135
                 exists = this
                 agot_portrait_low_armor_trigger = {
                     CULTURE_INPUT = valyrian
@@ -3812,7 +3880,6 @@
             }
         }
     }
-
     agot_clothing_northern_armor = {
         dna_modifiers = {
             accessory = {
