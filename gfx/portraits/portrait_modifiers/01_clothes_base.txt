@@ -2822,6 +2822,15 @@ fp3_iranian_high_nobles = {
                 age >= 18
                 has_trait = fashionable
             }
+            modifier = {
+                add = 100
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = valyrian
+                }
+                is_female = yes
+                age >= 18
+                has_trait = fashionable
+            }
         }
     }
 
@@ -2838,7 +2847,7 @@ fp3_iranian_high_nobles = {
         weight = {
             base = 0
             modifier = {
-                add = 50
+                add = 75
                 court_fashion_level_5_trigger = {
                     CULTURE_INPUT = western
                 }
@@ -2847,7 +2856,7 @@ fp3_iranian_high_nobles = {
                 age >= 18
             }
             modifier = {
-                add = 50
+                add = 75
                 portrait_high_nobles_clothing_trigger = {
                     CULTURE_INPUT = western
                 }
@@ -3072,8 +3081,8 @@ fp3_iranian_high_nobles = {
         weight = {
             base = 0
             modifier = {
-                add = 55
-                portrait_high_nobles_clothing_trigger = {
+                add = 100
+                court_fashion_level_5_trigger = {
                     CULTURE_INPUT = braavosi
                 }
             }

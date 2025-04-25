@@ -50,6 +50,41 @@
 		template = agot_historic_capes
 	}
 
+	### AGOT Submod Core ###
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			is_aotk_loaded_trigger = yes
+			has_ep1_dlc_trigger = yes
+		}
+		template = kingsguard_cloak_aotk
+	}
+
+	add_accessory_modifiers = { #AGOT+
+		gene = cloaks
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_lannister_war_cloak
+	}
+
+	add_accessory_modifiers = { #AGOT+
+		gene = cloaks
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_gold_cloak_cloaks
+	}
+	
+	add_accessory_modifiers = { #AGOT+
+		gene = cloaks
+		is_valid_custom = {
+			exists = global_var:app_enabled
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_kingsguard_default_cloak
+	}
+
 	## CCP4 Sami ##
 
 	add_accessory_modifiers = {
@@ -114,41 +149,6 @@
 		is_valid_custom = {
 			has_ep3_dlc_trigger = yes
 		}
-	}
-
-	### AGOT Submod Core ###
-	add_accessory_modifiers = {
-		gene = cloaks
-		is_valid_custom = {
-			is_aotk_loaded_trigger = yes
-			has_ep1_dlc_trigger = yes
-		}
-		template = kingsguard_cloak_aotk
-	}
-
-	add_accessory_modifiers = { #AGOT+
-		gene = cloaks
-		is_valid_custom = {
-			is_agot_plus_loaded_trigger = yes
-		}
-		template = asoiaf_lannister_war_cloak
-	}
-
-	add_accessory_modifiers = { #AGOT+
-		gene = cloaks
-		is_valid_custom = {
-			is_agot_plus_loaded_trigger = yes
-		}
-		template = asoiaf_gold_cloak_cloaks
-	}
-	
-	add_accessory_modifiers = { #AGOT+
-		gene = cloaks
-		is_valid_custom = {
-			exists = global_var:app_enabled
-			is_agot_plus_loaded_trigger = yes
-		}
-		template = asoiaf_kingsguard_default_cloak
 	}
 
 	add_accessory_modifiers = {
@@ -235,5 +235,4 @@
 		}
 		template = afr_cloaks
 	}
-
 }

@@ -1936,6 +1936,37 @@
         }
     }
 
+    agot_clothing_decorated_dragon_plate_armor = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = valyrian_war_nobility_clothes
+                accessory = male_clothes_valyrian_war_03_high_decorated
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = valyrian_war_legwear
+                accessory = male_legwear_secular_valyrian_war_03_high_decorated
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = decorated_dragon_plate_armor_artifact }
+            }
+        }
+    }
+
     agot_clothing_maelys_blackfyre_armor = {
         dna_modifiers = {
             accessory = {
@@ -1962,7 +1993,7 @@
             base = 0
             modifier = {
                 add = 400
-                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = maelys_armour_artifact }
+                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = maelys_armor_artifact }
             }
         }
     }
@@ -1993,7 +2024,7 @@
             base = 0
             modifier = {
                 add = 410
-                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = maelys_armour_artifact }
+                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = maelys_armor_artifact }
                 OR = {
                     NOT = { exists = character:Blackfyre_14 }
                     is_character_blackfyre_14 = no
@@ -3227,7 +3258,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 145
+                add = 150
                 exists = this
                 agot_portrait_high_armor_trigger = {
                     CULTURE_INPUT = braavosi

@@ -869,3 +869,21 @@ equipped_stormlands_crown_historic_artifact = {
 	desc = trait_hidden_desc
 	icon = scholar.dds
 }
+
+# LOTD
+
+equipped_aegoncrown = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_aegoncrown_nogems = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}

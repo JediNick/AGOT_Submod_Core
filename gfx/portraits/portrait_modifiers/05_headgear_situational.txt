@@ -942,6 +942,25 @@
 			}
 		}
 	}
+
+	agot_headgear_archmaester_mask_random = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_face_mask_agot
+				template = agot_masks
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				has_character_flag = wearing_archmaester_mask
+			}
+		}
+	}
+
 #AGOT ARTIFACT MODIFIERS - Necessary for artifacts to always appear when equipped versus scripted appearances.
 	agot_headgear_aegon_i_crown = {
 		dna_modifiers = {
@@ -3265,10 +3284,9 @@
 			base = 0
 			modifier = {
 				add = 301
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact }
 				OR = {
-					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = showrhaenyra_crown_01_artifact }
-					has_inactive_trait = showrhaenyra_crown_01_artifact
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact }
+					has_inactive_trait = equipped_crown_jaehaerys_artifact
 				}
 			}
 			modifier = {
@@ -4393,7 +4411,7 @@
 					is_crowns_westeros_loaded_trigger = yes
 					OR = {
 						agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alysanne_artifact }
-						has_inactive_trait = crown_alysanne_artifact
+						has_inactive_trait = equipped_crown_alysanne_artifact
 					}
 				}
 			}
@@ -4417,7 +4435,7 @@
 					is_crowns_westeros_loaded_trigger = yes
 					OR = {
 						agot_has_artifact_equipped = { ARTIFACT_VARIABLE = bittersteel_crown_artifact }
-						has_inactive_trait = bittersteel_crown_artifact
+						has_inactive_trait = equipped_bittersteel_crown_artifact
 					}
 				}
 			}
@@ -6222,7 +6240,10 @@
 			base = 0
 			modifier = {
 				add = 30000
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegoncrown }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegoncrown }
+					has_inactive_trait = equipped_aegoncrown
+				}
 			}
 			modifier = {
 				add = 60000
@@ -6269,8 +6290,11 @@
 					has_game_rule = hotd_visuals
 					has_game_rule = crown_only_visuals 
 				}
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegoncrown }
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegoncrown_nogems }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegoncrown }
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aegoncrown_nogems }
+					has_inactive_trait = equipped_aegoncrown_nogems
+				}
 			}
 			modifier = {
 				add = 70000
@@ -6319,7 +6343,10 @@
 			base = 0
 			modifier = {
 				add = 301
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact }
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact }
+					has_inactive_trait = equipped_crown_jaehaerys_artifact
+				}
 			}
 			modifier = {
 				add = 500

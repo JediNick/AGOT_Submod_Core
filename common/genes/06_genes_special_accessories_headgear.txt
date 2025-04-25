@@ -3466,6 +3466,7 @@ special_genes = {
 					1 = female_reach_hood_02d
 					1 = female_reach_hood_02e
 					1 = female_reach_hood_02f
+					1 = female_reach_hood_02g
 				}
 				boy = male
 				girl = female
