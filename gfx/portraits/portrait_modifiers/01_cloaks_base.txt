@@ -1139,8 +1139,7 @@ cloaks = {
 	# 			#arrogant people just wanna show off...
 	# 			portrait_has_trait_trigger = { TRAIT = arrogant }
 	# 			OR = {
-	# 				highest_held_title_tier = tier_empire
-	# 				highest_held_title_tier = tier_kingdom
+	# 				highest_held_title_tier >= tier_kingdom
 	# 				AND = {
 	# 					#...and love acting above their station
 	# 					highest_held_title_tier = tier_duchy
@@ -1151,10 +1150,7 @@ cloaks = {
 	# 		modifier = {
 	# 			#kings and emperors will usually have to look fancy anyway
 	# 			add = 50
-	# 			OR = {
-	# 				highest_held_title_tier = tier_empire
-	# 				highest_held_title_tier = tier_kingdom
-	# 			}
+	# 			highest_held_title_tier >= tier_kingdom
 	# 		}
 	# 	}
 	# }	
@@ -1509,8 +1505,13 @@ cloaks = {
 				add = 240
 				has_ep1_dlc_trigger = yes
 				is_male = yes
-				portrait_high_nobles_armor_trigger = {
-					CULTURE_INPUT = valeman
+				OR = {
+					agot_portrait_high_armor_trigger = {
+						CULTURE_INPUT = valeman
+					}
+					agot_portrait_high_armor_trigger = {
+						CULTURE_INPUT = moonman
+					}
 				}
 				NOT = {
 					dynasty ?= dynasty:dynn_Royce
@@ -1518,7 +1519,6 @@ cloaks = {
 			}
 		}
 	}
-    
 	kingsguard_cloak_black = {
 	    dna_modifiers = {
 	        accessory = {

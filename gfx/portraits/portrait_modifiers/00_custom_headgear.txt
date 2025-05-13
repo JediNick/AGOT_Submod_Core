@@ -24,7 +24,47 @@
 		gene = headgear
 		template = agot_most_headgears
 	}
-	
+		### MPO - Khans of the Steppe ###
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = mpo_mongol_commoner
+		is_valid_custom = {
+			has_mpo_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = mpo_mongol_nobility
+		is_valid_custom = {
+			has_mpo_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = mpo_mongol_royalty
+		is_valid_custom = {
+			has_mpo_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = mpo_mongol_imperial
+		is_valid_custom = {
+			has_mpo_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = mpo_mongol_war_nobility
+		is_valid_custom = {
+			has_mpo_dlc_trigger = yes
+		}
+	}
 	### AGOT Submod Core ###
 	##Crowns of Westeros
 	add_accessory_modifiers = {
@@ -521,7 +561,10 @@
 		gene = headgear
 		template = fp3_iranian_imperial
 		is_valid_custom = {
+			OR = {
 			has_fp3_dlc_trigger = yes
+				has_mpo_dlc_trigger = yes
+			}
 		}
 	}
 
@@ -529,7 +572,10 @@
 		gene = headgear
 		template = fp3_iranian_royalty
 		is_valid_custom = {
+			OR = {
 			has_fp3_dlc_trigger = yes
+				has_mpo_dlc_trigger = yes
+			}
 		}
 	}
 
@@ -563,7 +609,10 @@
 		gene = headgear
 		template = fp3_turkic_low_nobility
 		is_valid_custom = {
+			OR = {
 			has_fp3_dlc_trigger = yes
+				has_mpo_dlc_trigger = yes
+			}
 		}
 	}
 
@@ -571,7 +620,10 @@
 		gene = headgear
 		template = fp3_turkic_nobility
 		is_valid_custom = {
+			OR = {
 			has_fp3_dlc_trigger = yes
+				has_mpo_dlc_trigger = yes
+			}
 		}
 	}
 	
@@ -838,7 +890,10 @@
 		gene = headgear
 		template = ep1_steppe_royalty
 		is_valid_custom = {
+			OR = {
 			has_ep1_dlc_trigger = yes
+				has_mpo_dlc_trigger = yes
+			}
 		}
 	}
 

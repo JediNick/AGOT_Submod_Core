@@ -16,6 +16,15 @@
 		template = agot_all_ep1_cloaks
 	}
 
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_fp1_dlc_trigger = yes
+		}
+		template = agot_all_fp1_cloaks
+	}
+
 	add_accessory_modifiers = {
 		gene = cloaks
 		template = agot_all_no_dlc_cloaks

@@ -288,7 +288,6 @@
 					portrait_mena_clothing_trigger = yes
 					portrait_indian_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
-					portrait_steppe_clothing_trigger = yes
 				}
 			}
 		}
@@ -325,7 +324,6 @@
 								portrait_mena_clothing_trigger = yes
 								portrait_indian_clothing_trigger = yes
 								portrait_african_clothing_trigger = yes
-								portrait_steppe_clothing_trigger = yes
 							}
 						}
 						AND = {
@@ -347,7 +345,6 @@
 									portrait_mena_clothing_spouse_trigger = yes
 									portrait_indian_clothing_spouse_trigger = yes
 									portrait_african_clothing_spouse_trigger = yes
-									portrait_steppe_clothing_spouse_trigger = yes
 								}
 							}
 						}
@@ -359,7 +356,6 @@
 						portrait_mena_clothing_trigger = yes
 						portrait_indian_clothing_trigger = yes
 						portrait_african_clothing_trigger = yes
-						portrait_steppe_clothing_trigger = yes
 					}
 				}
 			}
@@ -388,6 +384,10 @@
 					portrait_african_clothing_trigger = yes
 					portrait_steppe_clothing_trigger = yes
 				}
+			}
+			modifier = {
+				add = 101
+				portrait_steppe_clothing_trigger = yes
 			}
 		}
 	}

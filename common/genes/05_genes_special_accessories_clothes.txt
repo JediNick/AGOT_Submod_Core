@@ -202,6 +202,13 @@ special_genes = {
 					1 = m_clothes_sec_ep3_byzantine_era2_nob_03_lo
 					1 = m_clothes_sec_ep3_byzantine_era2_nob_03_hi
 
+					# ce2 #---------------------------------------------------------------------------------------
+					1 = m_clothes_sec_mpo_mongol_nob_01_lo
+					1 = m_clothes_sec_mpo_mongol_nob_01_hi
+					1 = m_clothes_sec_mpo_mongol_roy_01
+					1 = m_clothes_sec_mpo_mongol_imp_01
+					1 = m_clothes_sec_mpo_mongol_war_01
+					
 					# POl
 					1 = m_clothes_sec_pol_common_01
 					1 = m_clothes_sec_pol_common_02
@@ -397,6 +404,14 @@ special_genes = {
 					1 = f_clothes_sec_pol_high_nob_02
 					1 = f_clothes_sec_pol_imperial_01
 					1 = f_clothes_sec_pol_war_nob_01
+
+					# ce2 #---------------------------------------------------------------------------------------
+					1 = f_clothes_sec_mpo_mongol_nob_01_lo
+					1 = f_clothes_sec_mpo_mongol_nob_01_hi
+					1 = f_clothes_sec_mpo_mongol_roy_01
+					1 = f_clothes_sec_mpo_mongol_imp_01
+					1 = f_clothes_sec_mpo_mongol_war_01
+
 
 				}
 				
@@ -2968,91 +2983,86 @@ special_genes = {
 				girl = female				
 			}
 
-			#AGOT Added
-			rhaegar_targaryen_nobility_clothes = {
+		### MPO - Khans of the Steppe ###
+				
+			mpo_mongol_commoner_clothes = {
 				index = 146
 
 				male = {
-					1 = male_clothes_valyrian_war_04
+					1 = m_clothes_sec_mpo_mongol_com_01
+
 				}
 				female = {
-					1 = female_clothes_valyrian_war_04
+					1 = f_clothes_sec_mpo_mongol_com_01
 				}
 				boy = male
-				girl = female
+				girl = female				
 			}
 
-		#AGOT Added
-			kingsguard_war_nobility_clothes = {
+			mpo_mongol_low_nobility_clothes = {
 				index = 147
-
 				male = {
-					1 = male_clothes_kingsguard_war_01
+					1 = m_clothes_sec_mpo_mongol_nob_01_lo
+
 				}
 				female = {
-					1 = female_clothes_kingsguard_war_01
+					1 = f_clothes_sec_mpo_mongol_nob_01_lo
 				}
 				boy = male
-				girl = female
+				girl = female				
 			}
 
-			#AGOT Added
-			valyrian_nobility_clothes = {
+			mpo_mongol_high_nobility_clothes = {
 				index = 148
 
 				male = {
-					0 = male_clothes_secular_western_nobility_01_high
+					1 = m_clothes_sec_mpo_mongol_nob_01_hi
 				}
 				female = {
-					1 = female_clothes_secular_valyrian_nobility_01
+					1 = f_clothes_sec_mpo_mongol_nob_01_hi
 				}
 				boy = male
 				girl = female
 			}
 
-			#AGOT Added
-			north_war_ned_coa_nobility_clothes = {
+			mpo_mongol_royalty_clothes = {
 				index = 149
 
 				male = {
-					1 = male_clothes_north_war_ned_coa_01
+					1 = m_clothes_sec_mpo_mongol_roy_01
 				}
 				female = {
-					1 = female_clothes_north_war_ned_coa_01
+					1 = f_clothes_sec_mpo_mongol_roy_01
 				}
 				boy = male
 				girl = female
 			}
 
-			#AGOT Added
-			robert_baratheon_war_coa_clothes = {
+			mpo_mongol_imperial_clothes = {
 				index = 150
-
 				male = {
-					1 = male_clothes_stormlands_coa_war_04
+					1 = m_clothes_sec_mpo_mongol_imp_01
 				}
 				female = {
-					1 = female_clothes_stormlands_coa_war_04
+					1 = f_clothes_sec_mpo_mongol_imp_01
 				}
 				boy = male
 				girl = female
 			}
 
-			#AGOT Added
-			agot_royal_doublet_clothes = {
+			mpo_mongol_war_nobility_clothes = {
 				index = 151
 
 				male = {
-					1 = male_clothes_secular_agot_royal_doublet_01
-					1 = male_clothes_secular_agot_royal_doublet_dynastic_01
+					1 = m_clothes_sec_mpo_mongol_war_01
 				}
 				female = {
-					1 = female_clothes_secular_agot_royal_doublet_01
-					1 = female_clothes_secular_agot_royal_doublet_dynastic_01
+					1 = f_clothes_sec_mpo_mongol_war_01
 				}
 				boy = male
 				girl = female
-			}
+			}	
+
 
 			#AGOT Added
 			mourning_dress = {
@@ -3951,10 +3961,95 @@ special_genes = {
 					1 = female_clothes_secular_agot_myrish_clothes_braavos_04
 				}
 			}
+	#AGOT Added
+			rhaegar_targaryen_nobility_clothes = {
+				index = 202
+
+				male = {
+					1 = male_clothes_valyrian_war_04
+				}
+				female = {
+					1 = female_clothes_valyrian_war_04
+				}
+				boy = male
+				girl = female
+			}
+
+			#AGOT Added
+			kingsguard_war_nobility_clothes = {
+				index = 203
+
+				male = {
+					1 = male_clothes_kingsguard_war_01
+				}
+				female = {
+					1 = female_clothes_kingsguard_war_01
+				}
+				boy = male
+				girl = female
+			}
+
+			#AGOT Added
+			valyrian_nobility_clothes = {
+				index = 204
+
+				male = {
+					0 = male_clothes_secular_western_nobility_01_high
+				}
+				female = {
+					1 = female_clothes_secular_valyrian_nobility_01
+				}
+				boy = male
+				girl = female
+			}
+
+			#AGOT Added
+			north_war_ned_coa_nobility_clothes = {
+				index = 205
+
+				male = {
+					1 = male_clothes_north_war_ned_coa_01
+				}
+				female = {
+					1 = female_clothes_north_war_ned_coa_01
+				}
+				boy = male
+				girl = female
+			}
+
+			#AGOT Added
+			robert_baratheon_war_coa_clothes = {
+				index = 206
+
+				male = {
+					1 = male_clothes_stormlands_coa_war_04
+				}
+				female = {
+					1 = female_clothes_stormlands_coa_war_04
+				}
+				boy = male
+				girl = female
+			}
+
+			#AGOT Added
+			agot_royal_doublet_clothes = {
+				index = 207
+
+				male = {
+					1 = male_clothes_secular_agot_royal_doublet_01
+					1 = male_clothes_secular_agot_royal_doublet_dynastic_01
+				}
+				female = {
+					1 = female_clothes_secular_agot_royal_doublet_01
+					1 = female_clothes_secular_agot_royal_doublet_dynastic_01
+				}
+				boy = male
+				girl = female
+			}
 
 			#AGOT Added
 			agot_house_clothes = {
-				index = 202
+				index = 208
 
 				male = {
 					1 = male_clothes_dragonbane_doublet_02
@@ -3965,6 +4060,8 @@ special_genes = {
 					1 = male_clothes_stormland_undercoat_05 #Tyrell Variant
 					1 = male_clothes_westerland_doublet_no_cloak_03 #Targaryen Variant
 					1 = male_clothes_westerland_doublet_no_cloak_04 #Blackfyre Variant
+					1 = male_clothes_stormland_overcoat_velaryon #Overcoat Velaryon Variant
+					1 = male_clothes_stormland_undercoat_velaryon #Undercoat Velaryon Variant
 				}
 				female = {
 					1 = female_clothes_secular_agot_summer_dress_06 # Tyrell Summer
@@ -3991,7 +4088,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_historic_characters = {
-				index = 203
+				index = 209
 
 				male = {
 					1 = male_clothes_dragonbane_doublet_02
@@ -4017,6 +4114,7 @@ special_genes = {
 					1 = female_clothes_secular_rhaenyra_dress_vis_01 #Princess Viserra's Dress
 					1 = female_clothes_secular_agot_myrish_clothes_03_jedi
 					1 = female_clothes_reach_hightower_green_dress_01 #Alicent Dress Temp
+					1 = shiera_dress_01
 				}
 				boy = male
 				girl = {
@@ -4029,12 +4127,13 @@ special_genes = {
 					1 = female_clothes_secular_crownlands_dress_01_dynastic #Princess Viserra's Dress
 					1 = female_clothes_secular_agot_myrish_clothes_03_jedi
 					1 = female_clothes_reach_hightower_green_dress_01 #Alicent Dress Temp
+					1 = female_clothes_secular_agot_dany_dress_01 #Shiera_Dress_temp
 				}
 			}
 
 			#AGOT Added
 			agot_all_armors = {
-				index = 204
+				index = 210
 
 				male = {
 					1 = male_clothes_valyrian_war_02
@@ -4161,7 +4260,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_all_clothes = {
-				index = 205
+				index = 211
 
 				male = {
 					1 = male_clothes_secular_unlikely_gown_01
@@ -4240,6 +4339,8 @@ special_genes = {
 					1 = female_clothes_mourning_dress_02
 					1 = female_clothes_secular_agot_royal_doublet_01
 					1 = female_clothes_secular_agot_royal_doublet_dynastic_01
+					1 = female_clothes_northern_dress_01
+					1 = female_clothes_northern_dress_01_dynastic
 					1 = female_clothes_secular_north_high_winter_01
 					1 = female_clothes_secular_north_high_winter_dynastic_01
 					1 = female_clothes_secular_north_high_winter_02
@@ -4251,6 +4352,8 @@ special_genes = {
 					1 = female_clothes_secular_agot_free_cities_dress_04 #Low variant
 					1 = female_clothes_lyseni_noblewoman_01
 					1 = female_clothes_lyseni_noblewoman_01_dynamic
+					1 = shiera_dress_02
+					1 = shiera_dress_03
 					1 = female_clothes_secular_free_cities_doublet_01
 					1 = female_clothes_secular_free_cities_doublet_02
 					1 = female_clothes_secular_free_cities_doublet_03
@@ -4304,6 +4407,8 @@ special_genes = {
 					1 = female_clothes_mourning_dress_02
 					1 = female_clothes_secular_agot_royal_doublet_01
 					1 = female_clothes_secular_agot_royal_doublet_dynastic_01
+					1 = female_clothes_northern_dress_01
+					1 = female_clothes_northern_dress_01_dynastic
 					1 = female_clothes_secular_north_high_winter_01
 					1 = female_clothes_secular_north_high_winter_dynastic_01
 					1 = female_clothes_secular_north_high_winter_02
@@ -4313,6 +4418,8 @@ special_genes = {
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_agot_free_cities_dress_01
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_agot_free_cities_dress_02 #Dynastic variant
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_secular_agot_free_cities_dress_04 #Low variant
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder shiera_dress_02
+					1 = female_clothes_secular_agot_summer_dress_01 #placeholder shiera_dress_03
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_lyseni_noblewoman_01
 					1 = female_clothes_secular_agot_summer_dress_01 #placeholder female_clothes_lyseni_noblewoman_01_dynamic
 					1 = female_clothes_secular_free_cities_doublet_01
@@ -4344,6 +4451,51 @@ special_genes = {
 					1 = female_valyrian_high_noble_vestaments_01b
 				}
 			}
+			
+			#AGOT Added
+			agot_the_blacks_faction = {
+				index = 212
+
+				male = {
+					1 = male_clothes_westerland_doublet_no_cloak_blacks
+					1 = male_clothes_crownlands_surcoat_blacks
+					1 = male_clothes_secular_stormland_overcoat_blacks
+					1 = male_clothes_secular_stormland_undercoat_blacks
+				}
+				female = {
+					1 = female_clothes_secular_rhaenyra_dress_blacks
+					1 = female_clothes_secular_crownlands_dress_01_blacks
+					1 = female_clothes_secular_agot_summer_dress_05 # Elaena
+				}
+				boy = male
+				girl = {
+					1 = female_clothes_secular_crownlands_dress_01_blacks
+					1 = female_clothes_secular_crownlands_dress_01_blacks
+					1 = female_clothes_secular_agot_summer_dress_05 # Elaena
+				}
+			}
+			
+			#AGOT Added
+			agot_the_greens_faction = {
+				index = 213
+
+				male = {
+					1 = male_clothes_westerland_doublet_no_cloak_greens
+					1 = male_clothes_crownlands_surcoat_greens
+					1 = male_clothes_secular_stormland_overcoat_greens
+					1 = male_clothes_secular_stormland_undercoat_greens
+				}
+				female = {
+					1 = female_clothes_secular_rhaenyra_dress_greens
+					1 = female_clothes_secular_crownlands_dress_01_greens
+				}
+				boy = male
+				girl = {
+					1 = female_clothes_secular_crownlands_dress_01_greens
+					1 = female_clothes_secular_crownlands_dress_01_greens
+				}
+			}
+
 
 		#NOTAGOTADDED
 		kingsguard_armor_clothes = {

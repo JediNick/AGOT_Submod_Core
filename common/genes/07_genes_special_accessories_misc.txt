@@ -1513,8 +1513,20 @@ accessory_genes = {
 			girl = female
 		}
 
-		agot_hidden_cloaks = {
+		agot_skinchangers_second_pelt = {
 			index = 45
+			male = {
+				1 = male_furs_secular_fp1_nobility_02
+			}
+			female = {
+				1 = female_furs_secular_fp1_nobility_02
+			}
+			boy = male
+			girl = female
+		}
+
+		agot_hidden_cloaks = {
+			index = 46
 			male = {
 				1 = male_cloaks_secular_stormcloak_01
 				1 = male_cloaks_secular_stormcloak_coa_01
@@ -1528,7 +1540,7 @@ accessory_genes = {
 		}
 
 		agot_all_ep1_cloaks = {
-			index = 46
+			index = 47
 			male = {
 				1 = nw_male_clothes_furs_nw_01
 				1 = kingsguard_cloak_01
@@ -1546,13 +1558,27 @@ accessory_genes = {
 				1 = female_cloaks_secular_shouldercape_01
 				1 = female_cloaks_secular_shouldercape_01_dynastic
 				1 = female_cloaks_secular_shouldercape_02_dynastic
+				1 = female_cloaks_secular_ep1_adventurer_01
+				1 = female_cloaks_secular_ep1_adventurer_01_dynastic
+			}
+			boy = male
+			girl = female
+		}
+		
+		agot_all_fp1_cloaks = {
+			index = 48
+			male = {
+				1 = empty
+			}
+			female = {
+				1 = female_northern_fur_coat_01
 			}
 			boy = male
 			girl = female
 		}
 
 		agot_all_no_dlc_cloaks = {
-			index = 47
+			index = 49
 			male = {
 				1 = unlikely_cape_01
 				1 = male_cloaks_secular_stormcloak_01
@@ -1570,17 +1596,6 @@ accessory_genes = {
 			girl = female
 		}
 
-		agot_skinchangers_second_pelt = {
-			index = 48
-			male = {
-				1 = male_furs_secular_fp1_nobility_02
-			}
-			female = {
-				1 = female_furs_secular_fp1_nobility_02
-			}
-			boy = male
-			girl = female
-		}
 		#AGOT Subdmod Core Added
 		kingsguard_cloak_aotk = {
 			index = 90
@@ -2181,9 +2196,64 @@ pol_marshal_sword_left = {
 		boy = male
 		girl = female
 	}
+	mediterranean_bow_01 = {
+		index = 56
+		male = {
+			1 = mediterranean_bow
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	indian_bow_01 = {
+		index = 57
+		male = {
+			1 = indian_bow
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	long_bow_01 = {
+		index = 58
+		male = {
+			1 = long_bow
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	short_bow_01 = {
+		index = 59
+		male = {
+			1 = short_bow_a
+			1 = short_bow_b
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	african_bow_01 = {
+		index = 60
+		male = {
+			1 = african_bow
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	steppe_bow_01 = {
+		index = 61
+		male = {
+			1 = steppe_bow
+		}
+		female = male
+		boy = male
+		girl = female
+	}
 	#AGOT Added
 	agot_weirwood_longbow_left = {
-		index = 56
+		index = 62
 		male = {
 			1 = agot_weirwood_longbow_left_hand
 		}
@@ -2192,7 +2262,7 @@ pol_marshal_sword_left = {
 		girl = female
 	}
 	agot_weirwood_longbow_drawn_left = {
-		index = 57
+		index = 63
 		male = {
 			1 = agot_weirwood_longbow_drawn_left_hand
 		}
@@ -2201,7 +2271,7 @@ pol_marshal_sword_left = {
 		girl = female
 	}
 	agot_dragonbone_longbow_left = {
-		index = 58
+		index = 64
 		male = {
 			1 = agot_dragonbone_longbow_left_hand
 		}
@@ -2210,7 +2280,7 @@ pol_marshal_sword_left = {
 		girl = female
 	}
 	agot_dragonbone_longbow_drawn_left = {
-		index = 59
+		index = 65
 		male = {
 			1 = agot_dragonbone_longbow_drawn_left_hand
 		}
@@ -2219,7 +2289,7 @@ pol_marshal_sword_left = {
 		girl = female
 	}
 	agot_gold_mirror = {
-		index = 60
+		index = 66
 		male = {
 			1 = mirror_gold
 		}
@@ -2228,7 +2298,7 @@ pol_marshal_sword_left = {
 		girl = female
 	}
 	agot_silver_mirror = {
-		index = 61
+		index = 67
 		male = {
 			1 = mirror_silver
 		}
@@ -2237,7 +2307,7 @@ pol_marshal_sword_left = {
 		girl = female
 	}
 	agot_valyrian_mirror = {
-		index = 62
+		index = 68
 		male = {
 			1 = mirror_valyrian
 		}
@@ -3022,70 +3092,59 @@ pol_marshal_sword_left = {
 			boy = male
 			girl = female
 		}
-		#AGOT ADDED
-		agot_artifact_weapon_dancer = {
+		
+		skull_goblet_right = {
 			index = 81
 			male = {
-				1 = dancer_artifact
+				1 = skull_goblet
 			}
-			female = {
-				1 = dancer_artifact
-			}
+			female = male
 			boy = male
 			girl = female
 		}
-		agot_artifact_weapon_dark_sister = {
+		ep1_indian_goblet_basic_01_a = {
 			index = 82
 			male = {
-				1 = dark_sister_artifact
+				1 = ep1_indian_goblet_basic_01_a_prop
 			}
-			female = {
-				1 = dark_sister_artifact
-			}
+			female = male
 			boy = male
 			girl = female
 		}
-		agot_artifact_weapon_iron_will = {
+		ep1_mediterranean_goblet_basic_01_a = {
 			index = 83
 			male = {
-				1 = iron_will_artifact
+				1 = ep1_mediterranean_goblet_basic_01_a_prop
 			}
-			female = {
-				1 = iron_will_artifact
-			}
+			female = male
 			boy = male
 			girl = female
 		}
-		agot_artifact_weapon_heartsbane = {
+		ep1_mena_goblet_basic_01_a = {
 			index = 84
 			male = {
-				1 = heartsbane_artifact
+				1 = ep1_mena_goblet_basic_01_a_prop
 			}
-			female = {
-				1 = heartsbane_artifact
-			}
+			female = male
 			boy = male
 			girl = female
 		}
-		agot_artifact_weapon_ice = {
+		ep1_western_goblet_basic_01_a = {
 			index = 85
 			male = {
-				1 = ice_artifact
+				1 = ep1_western_goblet_basic_01_a_prop
 			}
-			female = {
-				1 = ice_artifact
-			}
+			female = male
 			boy = male
 			girl = female
 		}
-		agot_artifact_weapon_darktalon = {
+		bp3_walking_stick_01_right = {
 			index = 86
 			male = {
-				1 = darktalon_artifact
+				1 = bp3_walking_stick_01_a_right
+				1 = bp3_walking_stick_01_b_right
 			}
-			female = {
-				1 = darktalon_artifact
-			}
+			female = male
 			boy = male
 			girl = female
 		}
@@ -3938,30 +3997,108 @@ pol_marshal_sword_left = {
 			boy = male
 			girl = female
 		}
-	
-		agot_artifact_weapon_dornish_sabre = {
+		#AGOT Added
+		agot_artifact_weapon_dancer = {
 			index = 156
 			male = {
-				1 = dornish_sabre_artifact
+				1 = dancer_artifact
 			}
 			female = {
-				1 = dornish_sabre_artifact
+				1 = dancer_artifact
 			}
 			boy = male
 			girl = female
 		}
-		asoiaf_artifact_weapon_ice = { #AGOT+ added
+		agot_artifact_weapon_dark_sister = {
 			index = 157
 			male = {
-				1 = asoiaf_sword_ice_prop
+				1 = dark_sister_artifact
 			}
 			female = {
-				1 = asoiaf_sword_ice_prop
+				1 = dark_sister_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_iron_will = {
+			index = 158
+			male = {
+				1 = iron_will_artifact
+			}
+			female = {
+				1 = iron_will_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_heartsbane = {
+			index = 159
+			male = {
+				1 = heartsbane_artifact
+			}
+			female = {
+				1 = heartsbane_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_ice = {
+			index = 160
+			male = {
+				1 = ice_artifact
+			}
+			female = {
+				1 = ice_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_darktalon = {
+			index = 161
+			male = {
+				1 = darktalon_artifact
+			}
+			female = {
+				1 = darktalon_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_iron_price = {
+			index = 162
+			male = {
+				1 = iron_price_artifact
+			}
+			female = {
+				1 = iron_price_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_unkindness = {
+			index = 163
+			male = {
+				1 = unkindness_artifact
+			}
+			female = {
+				1 = unkindness_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_swansong = {
+			index = 164
+			male = {
+				1 = swansong_artifact
+			}
+			female = {
+				1 = swansong_artifact
 			}
 			boy = male
 			girl = female
 		}
 	}
+	
 	#####################################
 	#									#
 	# 		   Animated props		    #
@@ -4237,6 +4374,37 @@ pol_marshal_sword_left = {
 				female = male
 				boy = male
 				girl = male
+			}
+			# CE2 aka MPO
+			mpo_sheep = {
+				index = 21
+				male = {
+					1 = mpo_sheep_female_01
+					1 = mpo_sheep_female_02
+					1 = mpo_sheep_male_01
+					1 = mpo_sheep_male_02
+				}
+				female = male
+				boy = {
+					1 = mpo_sheep_female_01_character_view
+					1 = mpo_sheep_female_02_character_view
+				}
+				girl = boy
+			}
+			mpo_sheep_character_view = {
+				index = 22
+				male = {
+					1 = mpo_sheep_female_01_character_view
+					1 = mpo_sheep_female_02_character_view
+					1 = mpo_sheep_male_01_character_view
+					1 = mpo_sheep_male_02_character_view
+				}
+				female = male
+				boy = {
+					1 = mpo_sheep_female_01_character_view
+					1 = mpo_sheep_female_02_character_view
+				}
+				girl = boy
 			}
 	}
 }
