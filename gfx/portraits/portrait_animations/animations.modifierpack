@@ -2389,20 +2389,18 @@ throneRoom_two_handed_passive_1 = {
 }
 
 throneRoom_two_handed_passive_shield = {
-    portrait_modifier = { # Hunting
-        trigger = {
-            involved_activity ?= { has_activity_type = activity_hunt }
-        }
-        animations_props = ep2_boar_spear_left_attachment
-        animations = council_marshal_decal
-        animations = fat_additive
-        animations = dwarf_additive
-        animations = female_prop_fix_additive
-		animations_props = ep1_western_shield_right
-    }
-}
 
-throneRoom_two_handed_passive_shield = {
+	portrait_modifier = { # Hunting
+			trigger = {
+				involved_activity ?= { has_activity_type = activity_hunt }
+			}
+			animations_props = ep2_boar_spear_left_attachment
+			animations = council_marshal_decal
+			animations = fat_additive
+			animations = dwarf_additive
+			animations = female_prop_fix_additive
+			animations_props = ep1_western_shield_right
+		}
 
 	##TGC ADDED START ##
 	portrait_modifier = { # Equipped
