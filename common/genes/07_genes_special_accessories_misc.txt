@@ -1552,6 +1552,7 @@ accessory_genes = {
 				1 = male_cloaks_secular_shouldercape_02_dynastic
 				1 = male_cloaks_secular_halfcape_01
 				1 = male_cloaks_secular_halfcape_01_dynastic
+				1 = male_cloaks_secular_halfcape_02
 				1 = male_cloaks_secular_ep1_adventurer_01_agot
 			}
 			female = {
