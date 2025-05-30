@@ -587,6 +587,12 @@
                 template = kingsguard_war_01_legwear
                 accessory = male_legwear_special_kingsguard_war_01
             }
+            accessory = {
+                mode = add
+                gene = cloaks
+                template = kingsguard_cloak
+                value = 1
+            }
             morph = {
                 mode = modify_multiply
                 gene = gene_bs_bust
@@ -599,6 +605,7 @@
             modifier = {
                 add = 1000
                 has_trait = kingsguard
+                has_ep1_dlc_trigger = yes
                 NOT = { has_character_flag = use_stealth_clothes }
 
             }
@@ -607,6 +614,45 @@
                 factor = 0
                 is_aotk_loaded_trigger = yes
 				has_game_rule = show_armor_enabled
+            }
+        }
+    }
+    
+     #AGOT Added
+    agot_clothing_kingsguard_iron_throne_no_dlc = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = kingsguard_war_nobility_clothes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = kingsguard_war_01_legwear
+                accessory = male_legwear_special_kingsguard_war_01
+            }
+            accessory = {
+                mode = add
+                gene = cloaks
+                template = no_cloak
+                value = 1
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                has_trait = kingsguard
+                has_ep1_dlc_trigger = no
+                NOT = { has_character_flag = use_stealth_clothes }
             }
         }
     }

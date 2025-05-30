@@ -1656,7 +1656,7 @@ accessory_genes = {
 				2 = male_furs_secular_fp1_nobility_01
 				4 = male_furs_secular_fp1_nobility_02
 				1 = male_furs_secular_fp1_nobility_03
-				1 = empty
+				2 = empty
 			}
 			female = {
 				2 = female_cloaks_secular_fp1_agot_northern_01
@@ -1665,7 +1665,8 @@ accessory_genes = {
 				4 = female_furs_secular_fp1_nobility_01
 				4 = female_furs_secular_fp1_nobility_02
 				1 = female_furs_secular_fp1_nobility_03
-				1 = empty
+				1 = female_northern_fur_coat_01
+				2 = empty
 			}
 			boy = male
 			girl = female

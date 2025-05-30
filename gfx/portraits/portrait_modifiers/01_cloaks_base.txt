@@ -1519,6 +1519,27 @@ cloaks = {
 			}
 		}
 	}
+	
+	agot_clothing_raven_feather_cloak_artifact = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = agot_all_fp1_cloaks
+				accessory = m_cloaks_secular_fp1_agot_northern_nw_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				has_fp1_dlc_trigger = yes
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = raven_feather_cloak_artifact }
+			}
+		}
+	}
+	
+	##SMC Added
 	kingsguard_cloak_black = {
 	    dna_modifiers = {
 	        accessory = {

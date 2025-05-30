@@ -2281,6 +2281,45 @@
         }
     }
 
+    agot_clothing_royce_armor_artifact = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = royce_war_nobility_clothes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = royce_war_03_legwear
+                range = { 0 1 }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_body_shape
+                value = 0.8
+                template = body_shape_average_clothed
+            }
+
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = royce_runic_armor_artifact }
+                portrait_wear_armor_trigger = yes
+            }
+        }
+    }
+
     agot_clothing_lydden_armor = {
         dna_modifiers = {
             accessory = {

@@ -35,7 +35,7 @@
 		is_valid_custom = {
 			has_fp1_dlc_trigger = yes
 		}
-		template = agot_coa_cloaks_fp1
+		template = agot_all_fp1_cloaks
 	}
 
 	add_accessory_modifiers = {

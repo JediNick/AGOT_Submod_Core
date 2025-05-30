@@ -4673,7 +4673,7 @@ fp3_turkic_high_nobles = {
 				is_character_targaryen_82 = yes
 			}
 			modifier = {
-				add = 400
+				add = 800
 				is_character_targaryen_hh_10 = yes
 			}
 		}

@@ -29,6 +29,12 @@
 	#AGOT Added
 	add_accessory_modifiers = {
 		gene = clothes
+		template = free_cities_braavos_high_clothes_barbershop_only
+	}
+
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = clothes
 		template = agot_all_armors
 	}
 	#AGOT Added
