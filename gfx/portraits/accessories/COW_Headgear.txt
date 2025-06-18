@@ -598,6 +598,14 @@ female_crown_of_robert_baratheon = {
 	entity = { required_tags = ""			shared_pose_entity = head		}
 }
 
+crown_of_renly_baratheon = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
+female_crown_of_renly_baratheon = {
+	entity = { required_tags = ""			shared_pose_entity = head		}
+}
+
 valyrian_crown2_targaryen = {
 	entity = { required_tags = ""			shared_pose_entity = head		}
 }

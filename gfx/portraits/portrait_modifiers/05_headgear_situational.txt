@@ -6072,6 +6072,28 @@
 			}
 		}
 	}
+
+	agot_headgear_crown_of_renly_baratheon = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = crown_of_renly_baratheon
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_renly_baratheon_artifact }
+					has_inactive_trait = equipped_crown_of_renly_baratheon_artifact
+				}
+			}
+		}
+	}
 	
 	agot_valyrian_crown2_targaryen = {
 		dna_modifiers = {

@@ -2003,7 +2003,7 @@
         }
     }
 
-    #AGOT Added
+    #AGOT Added, keep in sync with headgear_armor
 
     agot_clothing_valyrian_steel_armor = {
         dna_modifiers = {

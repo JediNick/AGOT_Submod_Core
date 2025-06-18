@@ -184,7 +184,6 @@ special_genes = {
 					1 = m_headgear_sec_pol_era1_war_nob_01
 					1 = m_headgear_sec_pol_era3_war_nob_01
 					1 = m_headgear_sec_pol_era4_war_nob_01
-					
 				}
 
 				female = {
@@ -2622,6 +2621,7 @@ special_genes = {
 				}
 				female = {
 					1 = f_headgear_sec_pol_low_nob_01
+
 				}
 				boy = male
 				girl = female
@@ -2638,7 +2638,6 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-
 			pol_royalty = {
 				index = 162
 				male = {
@@ -2695,6 +2694,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
 
 			ccp4_sami_low_nobility = {
 				index = 166
@@ -2924,6 +2924,7 @@ special_genes = {
 				male = {
 					1 = male_headgear_secular_reach_tyrell_war_03
 					1 = male_headgear_secular_reach_war_03
+					1 = male_headgear_secular_reach_rowan_war_03
 				}
 				female = {
 					0 = empty
@@ -3659,6 +3660,7 @@ special_genes = {
 					1 = crown_of_jon_north
 					1 = crown_of_jon_icefire
 					1 = crown_of_robert_baratheon
+					1 = crown_of_renly_baratheon
 					1 = male_joffrey_show_crown
 					1 = margaerytyrell_crown
 					1 = crown_of_cersei_ruler
@@ -3773,6 +3775,7 @@ special_genes = {
 					1 = female_crown_of_jon_north
 					1 = female_crown_of_jon_icefire
 					1 = female_crown_of_robert_baratheon
+					1 = female_crown_of_renly_baratheon
 					1 = female_joffrey_show_crown
 					1 = female_margaerytyrell_crown
 					1 = female_crown_of_cersei_ruler
@@ -4063,6 +4066,7 @@ special_genes = {
 
 		}
 		
+
 		# Additive headgear are used in combination with other headgear. Usually crowns worn over veils, or crowns on helmets
 
 		additive_headgear = {
@@ -4190,6 +4194,7 @@ special_genes = {
 				girl = female
 			}
 			
+
 			coa_crest = {
 				index = 9
 				male = {

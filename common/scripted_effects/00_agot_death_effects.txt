@@ -1212,6 +1212,12 @@
 		}
 		else_if = {
 			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_renly_baratheon_artifact }
+			}
+			make_trait_inactive = equipped_crown_of_renly_baratheon_artifact
+		}
+		else_if = {
+			limit = {
 				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = valyrian_crown2_targaryen_artifact }
 			}
 			make_trait_inactive = equipped_valyrian_crown2_targaryen_artifact

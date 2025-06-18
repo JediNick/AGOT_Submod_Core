@@ -814,6 +814,14 @@ equipped_crown_of_robert_baratheon_artifact = {
 	icon = scholar.dds
 }
 
+equipped_crown_of_renly_baratheon_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
 equipped_valyrian_crown2_targaryen_artifact = {
 	physical = no
 	shown_in_ruler_designer = no
