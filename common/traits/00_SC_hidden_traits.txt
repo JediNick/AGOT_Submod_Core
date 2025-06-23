@@ -166,6 +166,78 @@ equipped_crown_daena_artifact = {
 	icon = scholar.dds
 }
 
+equipped_jaehaera_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_maegor_brightflame_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_daeron_the_daring_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_seven_dragon_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_aemon_blackfyre_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_elaena_crown_default_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_elaena_crown_red_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_elaena_crown_black_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_elaena_crown_red_and_black_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
 equipped_circlet_bethablackwood_artifact = {
 	physical = no
 	shown_in_ruler_designer = no

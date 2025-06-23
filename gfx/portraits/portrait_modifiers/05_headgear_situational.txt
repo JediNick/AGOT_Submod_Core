@@ -4261,6 +4261,28 @@
 		}
 	}
 	
+	agot_headgear_jaehaera_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = canon_queens
+				accessory = jaehaera_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = jaehaera_crown_artifact }
+					has_inactive_trait = equipped_jaehaera_crown_artifact
+				}
+			}
+		}
+	}
+	
 	agot_headgear_daena_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -4438,6 +4460,182 @@
 						agot_has_artifact_equipped = { ARTIFACT_VARIABLE = bittersteel_crown_artifact }
 						has_inactive_trait = equipped_bittersteel_crown_artifact
 					}
+				}
+			}
+		}
+	}
+	
+	agot_headgear_maegor_brightflame_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = maegor_brightflame_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = maegor_brightflame_crown_artifact }
+					has_inactive_trait = equipped_maegor_brightflame_crown_artifact
+				}
+			}
+		}
+	}
+	
+	agot_headgear_seven_dragon_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = seven_dragon_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = seven_dragon_crown_artifact }
+					has_inactive_trait = equipped_seven_dragon_crown_artifact
+				}
+			}
+		}
+	}
+	
+	agot_headgear_daeron_the_daring_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = daeron_the_daring_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = daeron_the_daring_crown_artifact }
+					has_inactive_trait = equipped_daeron_the_daring_crown_artifact
+				}
+			}
+		}
+	}
+	
+	agot_headgear_elaena_crown_default = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = elaena_crown_default
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = elaena_crown_default_artifact }
+					has_inactive_trait = equipped_elaena_crown_default_artifact
+				}
+			}
+		}
+	}
+	
+	agot_headgear_elaena_crown_red_and_black = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = elaena_crown_red_and_black
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = elaena_crown_red_and_black_artifact }
+					has_inactive_trait = equipped_elaena_crown_red_and_black_artifact
+				}
+			}
+		}
+	}
+	
+	agot_headgear_elaena_crown_red = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = elaena_crown_red
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = elaena_crown_red_artifact }
+					has_inactive_trait = equipped_elaena_crown_red_artifact
+				}
+			}
+		}
+	}
+	
+	agot_headgear_elaena_crown_black = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = elaena_crown_black
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = elaena_crown_black_artifact }
+					has_inactive_trait = equipped_elaena_crown_black_artifact
+				}
+			}
+		}
+	}
+	
+	agot_headgear_aemon_blackfyre_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aemon_blackfyre_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				is_crowns_westeros_loaded_trigger = yes
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aemon_blackfyre_crown_artifact }
+					has_inactive_trait = equipped_aemon_blackfyre_crown_artifact
 				}
 			}
 		}

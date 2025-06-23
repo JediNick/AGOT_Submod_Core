@@ -6464,8 +6464,32 @@ fp3_turkic_high_nobles = {
 				agot_default_wear_crown_trigger = yes
 				OR = {
 					is_character_hightower_97 = yes # Alicent Hightower
-					is_character_targaryen_66 = yes # Helaena Targaryen
 					is_character_penrose_35 = yes # # Aelinor Penrose
+				}
+			}
+		}
+	}
+	
+	agot_headgear_jaehaera_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = canon_queens
+				accessory = jaehaera_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 275
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = jaehaera_crown_artifact }}
+				agot_default_wear_crown_trigger = yes
+				OR = {
+					is_character_targaryen_66 = yes  # Helaena
+					is_character_targaryen_71 = yes  # Jaehaera Targaryen
 				}
 			}
 		}
@@ -6694,6 +6718,161 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = bittersteel_crown_artifact }}
 				agot_default_wear_crown_trigger = yes
 				is_character_targaryen_95 = yes  # Aegor 'Bittersteel' Rivers
+			}
+		}
+	}
+	
+	agot_headgear_daeron_the_daring_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = daeron_the_daring_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 275
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = daeron_the_daring_crown_artifact }}
+				agot_default_wear_crown_trigger = yes
+				is_character_targaryen_68 = yes  # Daeron the Daring 
+			}
+		}
+	}
+	
+	agot_headgear_maegor_brightflame_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = maegor_brightflame_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 275
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = maegor_brightflame_crown_artifact }}
+				agot_default_wear_crown_trigger = yes
+				is_character_targaryen_125 = yes  # Maegor Brightflame
+			}
+		}
+	}
+	
+	agot_headgear_seven_dragon_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = seven_dragon_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 275
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = seven_dragon_crown_artifact }}
+				agot_default_wear_crown_trigger = yes
+				is_character_targaryen_84 = yes  # Rhaena Targaryen
+			}
+		}
+	}
+	
+	agot_headgear_elaena_crown_default = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = elaena_crown_default
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 275
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = elaena_crown_default_artifact }}
+				agot_default_wear_crown_trigger = yes
+				is_character_targaryen_85 = yes  # Elaena Targaryen
+			}
+		}
+	}
+	
+	agot_headgear_elaena_crown_red = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = elaena_crown_red
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 275
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = elaena_crown_red_artifact }}
+				agot_default_wear_crown_trigger = yes
+				is_character_targaryen_115 = yes  # Aelor Targaryen
+				is_character_targaryen_116 = yes  # Aelora Targaryen
+			}
+		}
+	}
+	
+	agot_headgear_elaena_crown_black = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = elaena_crown_black
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 275
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = elaena_crown_black_artifact }}
+				agot_default_wear_crown_trigger = yes
+				is_character_blackfyre_1 = yes  # Aegon Blackfyre
+			}
+		}
+	}
+	
+	agot_headgear_aemon_blackfyre_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = aemon_blackfyre_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 275
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aemon_blackfyre_crown_artifact }}
+				agot_default_wear_crown_trigger = yes
+				is_character_blackfyre_2 = yes  # Aemon Blackfyre
 			}
 		}
 	}

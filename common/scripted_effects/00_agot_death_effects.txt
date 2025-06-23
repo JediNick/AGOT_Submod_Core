@@ -732,6 +732,60 @@
 		}
 		else_if = {
 			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = maegor_brightflame_crown_artifact }
+			}
+			make_trait_inactive = equipped_maegor_brightflame_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = daeron_the_daring_crown_artifact }
+			}
+			make_trait_inactive = equipped_daeron_the_daring_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = jaehaera_crown_artifact }
+			}
+			make_trait_inactive = equipped_jaehaera_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aemon_blackfyre_crown_artifact }
+			}
+			make_trait_inactive = equipped_aemon_blackfyre_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = seven_dragon_crown_artifact }
+			}
+			make_trait_inactive = equipped_seven_dragon_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = elaena_crown_default_artifact }
+			}
+			make_trait_inactive = equipped_elaena_crown_default_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = elaena_crown_red_artifact }
+			}
+			make_trait_inactive = equipped_elaena_crown_red_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = elaena_crown_black_artifact }
+			}
+			make_trait_inactive = equipped_elaena_crown_black_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = elaena_crown_red_and_black_artifact }
+			}
+			make_trait_inactive = equipped_elaena_crown_red_and_black_artifact
+		}
+		else_if = {
+			limit = {
 				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_bethablackwood_artifact }
 			}
 			make_trait_inactive = equipped_circlet_bethablackwood_artifact
