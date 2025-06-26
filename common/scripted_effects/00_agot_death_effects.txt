@@ -816,9 +816,9 @@
 		}
 		else_if = {
 			limit = {
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alysanne_artifact }
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_matarys_artifact }
 			}
-			make_trait_inactive = equipped_crown_alysanne_artifact
+			make_trait_inactive = equipped_crown_matarys_artifact
 		}
 		else_if = {
 			limit = {

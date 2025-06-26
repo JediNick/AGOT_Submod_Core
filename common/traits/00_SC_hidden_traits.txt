@@ -278,7 +278,7 @@ equipped_crown_mors_martell_artifact = {
 	icon = scholar.dds
 }
 
-equipped_crown_alysanne_artifact = {
+equipped_crown_matarys_artifact = {
 	physical = no
 	shown_in_ruler_designer = no
 	name = trait_hidden

@@ -4417,13 +4417,13 @@
 		}
 	}
 	
-	agot_headgear_alysanne_crown = {
+	agot_headgear_matarys_crown = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
 				template = crowns_of_westeros
-				accessory = alysannetargaryen_crown
+				accessory = matarys_crown
 			}
 		}
 		weight = {
@@ -4433,8 +4433,8 @@
 				AND = {
 					is_crowns_westeros_loaded_trigger = yes
 					OR = {
-						agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alysanne_artifact }
-						has_inactive_trait = equipped_crown_alysanne_artifact
+						agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_matarys_artifact }
+						has_inactive_trait = equipped_crown_matarys_artifact
 					}
 				}
 			}

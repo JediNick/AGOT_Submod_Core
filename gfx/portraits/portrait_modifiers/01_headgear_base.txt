@@ -6678,13 +6678,13 @@ fp3_turkic_high_nobles = {
 		}
 	}
 	
-	agot_headgear_alysanne_crown = {
+	agot_headgear_matarys_crown = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
 				template = crowns_of_westeros
-				accessory = alysannetargaryen_crown
+				accessory = matarys_crown
 			}
 		}
 		weight = {
@@ -6693,9 +6693,9 @@ fp3_turkic_high_nobles = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
-				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alysanne_artifact }}
+				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_matarys_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_42 = yes  # Rhaella Targaryen (Daughter of Rhaena)
+				is_character_targaryen_112 = yes # Matarys Targaryen
 			}
 		}
 	}
