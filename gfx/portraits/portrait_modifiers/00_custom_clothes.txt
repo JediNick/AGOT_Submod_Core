@@ -130,7 +130,15 @@
 			exists = global_var:app_enabled
 			is_agot_plus_loaded_trigger = yes
 		}
-		template = asoiaf_kingsguard_default_clothes
+		template = asoiaf_kingsguard_clothes
+	}
+
+	add_accessory_modifiers = { #AGOT+
+		gene = clothes
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_unique_clothes
 	}
 
 	add_accessory_modifiers = { #TGC added

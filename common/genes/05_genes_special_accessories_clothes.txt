@@ -4627,7 +4627,7 @@ special_genes = {
 			girl = female
 		}
 		
-		asoiaf_kingsguard_default_clothes = { #AGOT+ Added
+		asoiaf_kingsguard_clothes = { #AGOT+ Added
 			index = 252
 
 			male = {
@@ -4639,9 +4639,24 @@ special_genes = {
 			boy = male
 			girl = female
 		}
+
+		asoiaf_unique_clothes = { #AGOT+ Added
+			index = 253
+
+			male = {
+				1 = male_clothes_asoiaf_stormlands_stannis_clothes_1
+				1 = male_clothes_asoiaf_vale_baelish_tunic_1
+				1 = male_clothes_asoiaf_vale_baelish_tunic_1_sigil
+			}
+			female = {
+				1 = female_clothes_asoiaf_westerlands_mourning_1
+			}
+			boy = male
+			girl = female
+		}
 		
 		golden_company_armor = { 
-			index = 253
+			index = 254
 
 			male = {
 				1 = male_clothes_platedVest_chains_01
@@ -4659,7 +4674,7 @@ special_genes = {
 		}
 
 		golden_company_armor_black = { 
-			index = 254
+			index = 255
 
 			male = {
 				1 = male_clothes_captainsArmor_black_01
@@ -4676,7 +4691,7 @@ special_genes = {
 		}
 
 		golden_company_armor_blackfyre = { 
-			index = 255
+			index = 256
 
 			male = {
 				1 = male_clothes_captainsArmor_blackfyre_01

@@ -3965,7 +3965,7 @@ special_genes = {
 				girl = female
 			}
 			
-			asoiaf_kingsguard_default_helm = { #AGOT+ added
+			asoiaf_kingsguard_headgears = { #AGOT+ added
 				index = 232
 				male = {
 					1 = male_headgear_secular_asoiaf_kingsguard_default_helm
