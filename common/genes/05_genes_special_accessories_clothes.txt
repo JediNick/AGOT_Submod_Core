@@ -4511,7 +4511,7 @@ special_genes = {
 
 		#NOTAGOTADDED
 		kingsguard_armor_clothes = {
-			index = 246
+			index = 245
 
 			male = {
 				1 = male_clothes_secular_western_KG_armor_01
@@ -4547,7 +4547,7 @@ special_genes = {
 		}
 
 		valyrian_nobility_clothing = {
-			index = 247
+			index = 246
 
 			male = {
 				1 = male_clothes_secular_valyrian_nobility_01_high
@@ -4565,7 +4565,7 @@ special_genes = {
 			girl = female
 		}
 		valyrian_nobility_clothing_generic = {
-			index = 248
+			index = 247
 
 			male = {
 				1 = male_clothes_secular_valyrian_nobility_01_generic_high
@@ -4584,7 +4584,7 @@ special_genes = {
 		}
 
 		asoiaf_north_war_clothes = { #AGOT+ Added
-			index = 249
+			index = 248
 
 			male = {
 				1 = male_clothes_secular_asoiaf_north_war_chainmail
@@ -4600,7 +4600,7 @@ special_genes = {
 		}
 		
 		asoiaf_lannister_war_clothes = { #AGOT+ Added
-			index = 250
+			index = 249
 
 			male = {
 				1 = male_clothes_secular_asoiaf_lannister_war_plate_2
@@ -4615,7 +4615,7 @@ special_genes = {
 		}
 
 		asoiaf_gold_cloak_clothes = { #AGOT+ Added
-			index = 251
+			index = 250
 
 			male = {
 				1 = male_clothes_asoiaf_crownlands_gold_cloak_chest
@@ -4628,7 +4628,7 @@ special_genes = {
 		}
 		
 		asoiaf_kingsguard_clothes = { #AGOT+ Added
-			index = 252
+			index = 251
 
 			male = {
 				1 = male_clothes_secular_asoiaf_kingsguard_default
@@ -4641,7 +4641,7 @@ special_genes = {
 		}
 
 		asoiaf_unique_clothes = { #AGOT+ Added
-			index = 253
+			index = 252
 
 			male = {
 				1 = male_clothes_asoiaf_stormlands_stannis_clothes_1
@@ -4656,7 +4656,7 @@ special_genes = {
 		}
 		
 		golden_company_armor = { 
-			index = 254
+			index = 253
 
 			male = {
 				1 = male_clothes_platedVest_chains_01
@@ -4674,7 +4674,7 @@ special_genes = {
 		}
 
 		golden_company_armor_black = { 
-			index = 255
+			index = 254
 
 			male = {
 				1 = male_clothes_captainsArmor_black_01
@@ -4691,7 +4691,7 @@ special_genes = {
 		}
 
 		golden_company_armor_blackfyre = { 
-			index = 256
+			index = 255
 
 			male = {
 				1 = male_clothes_captainsArmor_blackfyre_01
