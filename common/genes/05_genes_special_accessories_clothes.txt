@@ -4510,6 +4510,20 @@ special_genes = {
 
 
 		#NOTAGOTADDED
+		brightboar_swordsman_armour = {
+			index = 244
+
+			male = {
+				1 = male_clothes_secular_brightboar_swordsman
+			}
+			
+			female = {
+				1 = female_clothes_secular_brightboar_swordsman
+			}
+			
+			boy = male
+			girl = female
+		}
 		kingsguard_armor_clothes = {
 			index = 245
 
@@ -4598,27 +4612,20 @@ special_genes = {
 			boy = male
 			girl = female
 		}
-		
-		asoiaf_lannister_war_clothes = { #AGOT+ Added
+
+		asoiaf_all_armours = { #AGOT+ Added
 			index = 249
 
 			male = {
+				1 = male_clothes_secular_asoiaf_kingsguard_default
+				1 = male_clothes_asoiaf_crownlands_gold_cloak_chest
 				1 = male_clothes_secular_asoiaf_lannister_war_plate_2
 				1 = male_clothes_secular_asoiaf_lannister_war_plate_2_sash
 				1 = male_clothes_secular_asoiaf_lannister_war_plate_2_sash_ceremonial
-			}
-			female = {
-				1 = f_clothes_sec_northern_war_nob_01_lo
-			}
-			boy = male
-			girl = female
-		}
-
-		asoiaf_gold_cloak_clothes = { #AGOT+ Added
-			index = 250
-
-			male = {
-				1 = male_clothes_asoiaf_crownlands_gold_cloak_chest
+				1 = male_clothes_secular_asoiaf_north_war_chainmail
+				1 = male_clothes_secular_asoiaf_north_war_padding
+				1 = male_clothes_secular_asoiaf_north_war_plate
+				1 = male_clothes_secular_asoiaf_north_war_plate_stark
 			}
 			female = {
 				1 = f_clothes_sec_northern_war_nob_01_lo #female_clothes_asoiaf_crownlands_gold_cloak_chest
@@ -4626,22 +4633,9 @@ special_genes = {
 			boy = male
 			girl = female
 		}
-		
-		asoiaf_kingsguard_clothes = { #AGOT+ Added
-			index = 251
-
-			male = {
-				1 = male_clothes_secular_asoiaf_kingsguard_default
-			}
-			female = {
-				1 = f_clothes_sec_northern_war_nob_01_lo
-			}
-			boy = male
-			girl = female
-		}
 
 		asoiaf_unique_clothes = { #AGOT+ Added
-			index = 252
+			index = 250
 
 			male = {
 				1 = male_clothes_asoiaf_stormlands_stannis_clothes_1
@@ -4650,6 +4644,38 @@ special_genes = {
 			}
 			female = {
 				1 = female_clothes_asoiaf_westerlands_mourning_1
+			}
+			boy = male
+			girl = female
+		}
+
+		asoiaf_maester_clothes = { #AGOT+ Added
+			index = 251
+
+			male = {
+				1 = male_clothes_asoiaf_maester_robes_black
+				1 = male_clothes_asoiaf_maester_robes_tan
+				1 = male_clothes_asoiaf_maester_robes_brown
+				1 = male_clothes_asoiaf_maester_robes_pale_blue
+				1 = male_clothes_asoiaf_maester_robes_pale_green
+				1 = male_clothes_asoiaf_maester_robes_grey
+			}
+			female = {
+				1 = female_clothes_religious_catholic_devoted_01_common
+			}
+			boy = male
+			girl = female
+		}
+
+		asoiaf_fots_religious_clothes = { #AGOT+ Added
+			index = 252
+
+			male = {
+				1 = male_clothes_asoiaf_septon_robes_1
+				1 = male_clothes_asoiaf_septon_robes_2
+			}
+			female = {
+				1 = female_clothes_religious_catholic_devoted_01_common
 			}
 			boy = male
 			girl = female

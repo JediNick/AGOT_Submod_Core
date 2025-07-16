@@ -752,8 +752,25 @@ accessory_genes = {
 			girl = female
 		}
 
-		asoiaf_north_war_legs = { #AGOT+ added
+		asoiaf_all_legwears = { #AGOT+ added
 			index = 92
+			male = {
+				1 = male_legwear_asoiaf_slippers_1
+				1 = male_legwear_secular_asoiaf_kingsguard_default_legs
+				1 = male_legwear_secular_asoiaf_north_war_plate_legs
+				1 = male_legwear_secular_asoiaf_lannister_war_plate_2_legs
+				1 = male_legwear_asoiaf_crownlands_gold_cloak_legs
+				1 = male_legwear_secular_asoiaf_kingsguard_default_legs
+			}
+			female = {
+				1 = female_legwear_secular_fp1_common_01
+			}
+			boy = male
+			girl = female
+		}
+
+		asoiaf_north_war_legs = { #AGOT+ added
+			index = 93
 			male = {
 				1 = male_legwear_secular_asoiaf_kingsguard_default_legs
 				1 = male_legwear_secular_asoiaf_north_war_plate_legs
@@ -766,7 +783,7 @@ accessory_genes = {
 		}
 
 		asoiaf_lannister_war_legs = { #AGOT+ added
-			index = 93
+			index = 94
 			male = {
 				1 = male_legwear_secular_asoiaf_lannister_war_plate_2_legs
 			}
@@ -778,7 +795,7 @@ accessory_genes = {
 		}
 
 		asoiaf_gold_cloak_legs = { #AGOT+ added
-			index = 94
+			index = 95
 			male = {
 				1 = male_legwear_asoiaf_crownlands_gold_cloak_legs
 			}
@@ -790,7 +807,7 @@ accessory_genes = {
 		}
 
 		asoiaf_kingsguard_default_legs = { #AGOT+ added
-			index = 95
+			index = 96
 			male = {
 				1 = male_legwear_secular_asoiaf_kingsguard_default_legs
 			}
@@ -803,7 +820,7 @@ accessory_genes = {
 		
 		##TGC ADDED		
 		tgc_pants = {
-			index = 96
+			index = 97
 			male = {
 				1 = male_legwear_captainsPants_01
 				1 = male_legwear_standardPants_01
@@ -818,7 +835,7 @@ accessory_genes = {
 		}
 
 		tgc_pants_black = {
-			index = 97
+			index = 98
 			male = {
 				1 = male_legwear_captainsPants_black_01
 				1 = male_legwear_standardPants_black_01
@@ -831,7 +848,7 @@ accessory_genes = {
 			girl = female
 		}
 		tgc_pants_blackfyre = {
-			index = 98
+			index = 99
 			male = {
 				1 = male_legwear_captainsPants_blackfyre_01
 				1 = male_legwear_captainsPants_blackfyreAlt_01
