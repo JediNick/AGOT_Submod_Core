@@ -8,7 +8,7 @@ The intention for this mod is to be a center piece for submods that interact wit
 
 Please follow the load order below when using this mod.
 
-![Load Order](https://i.imgur.com/8CW03Ar.png)
+![Load Order](https://i.imgur.com/gYVl5QT.png)
 
 ### Supported Mods
 - [Crowns of Westeros](https://steamcommunity.com/workshop/filedetails/?id=2995674648)
@@ -17,6 +17,7 @@ Please follow the load order below when using this mod.
 - [Valyrian Steel](https://github.com/JediNick/Valyrian_Steel)
 - [AGOT+](https://steamcommunity.com/sharedfiles/filedetails/?id=2950245430)
 - [The Golden Company](https://github.com/JediNick/The-Golden-Company)
+- [AGOT: Brightboar - Westerosi House Flavor](https://steamcommunity.com/sharedfiles/filedetails/?id=3459939229)
 
 ### Mod Compatability
 
