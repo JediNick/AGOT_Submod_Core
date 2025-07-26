@@ -126,15 +126,7 @@
 		is_valid_custom = {
 			is_agot_plus_loaded_trigger = yes
 		}
-		template = asoiaf_north_plate_helm
-	}
-	
-	add_accessory_modifiers = { #AGOT+
-		gene = headgear
-		is_valid_custom = {
-			is_agot_plus_loaded_trigger = yes
-		}
-		template = asoiaf_lannister_plate_helm
+		template = asoiaf_all_helms
 	}
 
 	add_accessory_modifiers = { #AGOT+
@@ -142,16 +134,15 @@
 		is_valid_custom = {
 			is_agot_plus_loaded_trigger = yes
 		}
-		template = asoiaf_gold_cloak_helms
+		template = asoiaf_unique_headgears
 	}
-	
+
 	add_accessory_modifiers = { #AGOT+
 		gene = headgear
 		is_valid_custom = {
-			exists = global_var:app_enabled
 			is_agot_plus_loaded_trigger = yes
 		}
-		template = asoiaf_kingsguard_headgears
+		template = asoiaf_fots_religious_headgears
 	}
 
 	### MPO - Khans of the Steppe ###

@@ -105,32 +105,7 @@
 		is_valid_custom = {
 			is_agot_plus_loaded_trigger = yes
 		}
-		template = asoiaf_north_war_clothes
-	}
-	
-	add_accessory_modifiers = { #AGOT+
-		gene = clothes
-		is_valid_custom = {
-			is_agot_plus_loaded_trigger = yes
-		}
-		template = asoiaf_lannister_war_clothes
-	}
-
-	add_accessory_modifiers = { #AGOT+
-		gene = clothes
-		is_valid_custom = {
-			is_agot_plus_loaded_trigger = yes
-		}
-		template = asoiaf_gold_cloak_clothes
-	}
-	
-	add_accessory_modifiers = { #AGOT+
-		gene = clothes
-		is_valid_custom = {
-			exists = global_var:app_enabled
-			is_agot_plus_loaded_trigger = yes
-		}
-		template = asoiaf_kingsguard_clothes
+		template = asoiaf_all_armours
 	}
 
 	add_accessory_modifiers = { #AGOT+
@@ -139,6 +114,22 @@
 			is_agot_plus_loaded_trigger = yes
 		}
 		template = asoiaf_unique_clothes
+	}
+
+	add_accessory_modifiers = { #AGOT+
+		gene = clothes
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_maester_clothes
+	}
+
+	add_accessory_modifiers = { #AGOT+
+		gene = clothes
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_fots_religious_clothes
 	}
 
 	add_accessory_modifiers = { #TGC added

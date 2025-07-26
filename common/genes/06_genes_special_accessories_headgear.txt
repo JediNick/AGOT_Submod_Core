@@ -3030,13 +3030,15 @@ special_genes = {
 				girl = female
 			}
 
-			Royce_Helm_1= {
+			Special_Helms_1 = {
 				index = 189
 				male = {
 					1 = male_headgear_secular_royce_war_03
+					1 = male_headgear_secular_bolton_war_01
 				}
 				female = {
 					1 = female_headgear_secular_royce_war_03
+					1 = female_headgear_secular_bolton_war_01
 				}
 				boy = male
 				girl = female
@@ -3425,6 +3427,7 @@ special_genes = {
 					1 = male_headgear_secular_dorne_martell_war_04
 					1 = male_headgear_secular_dorne_war_04
 					1 = male_headgear_secular_royce_war_03
+					1 = male_headgear_secular_bolton_war_01
 					1 = male_headgear_secular_kingsguard_war_01
 					1 = male_headgear_secular_kingsguard_war_02
 					1 = male_headgear_secular_valyrian_war_04
@@ -3457,6 +3460,7 @@ special_genes = {
 					1 = female_headgear_secular_dorne_martell_war_04
 					1 = female_headgear_secular_dorne_war_04
 					1 = female_headgear_secular_royce_war_03
+					1 = female_headgear_secular_bolton_war_01
 					1 = female_reach_hood_01
 					1 = female_reach_hood_01b
 					1 = female_reach_hood_01c
@@ -3925,10 +3929,17 @@ special_genes = {
 				girl = female
 			}
 			
-			asoiaf_north_plate_helm = { #AGOT+ added
+			asoiaf_all_helms = { #AGOT+ added
 				index = 229
 				male = {
 					1 = male_headgear_secular_asoiaf_north_plate_helm
+					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm
+					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm_open
+					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm_closed
+					1 = male_headgear_asoiaf_crownlands_gold_cloak_helm_1
+					1 = male_headgear_asoiaf_crownlands_gold_cloak_helm_2
+					1 = male_headgear_secular_asoiaf_kingsguard_default_helm
+					1 = male_headgear_asoiaf_tyrell_helm_dynast
 				}
 				female = {
 					1 = f_headgear_sec_northern_war_nob_01_lo	
@@ -3964,21 +3975,33 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
-			asoiaf_kingsguard_headgears = { #AGOT+ added
+
+			asoiaf_unique_headgears = { #AGOT+ added
 				index = 232
 				male = {
-					1 = male_headgear_secular_asoiaf_kingsguard_default_helm
+					1 = empty
 				}
 				female = {
-					1 = f_headgear_sec_northern_war_nob_01_lo	
+					1 = female_headgear_asoiaf_reach_headdress_1
+				}
+				boy = male
+				girl = female
+			}
+
+			asoiaf_fots_religious_headgears = { #AGOT+ added
+				index = 233
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_headgear_asoiaf_silent_sister_hood
 				}
 				boy = male
 				girl = female
 			}
 
 			tgc_helmets = { #TGC Added
-				index = 233
+				index = 234
 				male = {
 					3 = male_headgear_tgc_helm_01
 					3 = male_headgear_tgc_helm_02
@@ -3992,7 +4015,7 @@ special_genes = {
 			}
 
 			tgc_helmets_black = { #TGC Added
-				index = 234
+				index = 235
 				male = {
 					3 = male_headgear_tgc_helm_black_01
 					3 = male_headgear_tgc_helm_black_02
@@ -4007,7 +4030,7 @@ special_genes = {
 
 			
 			tgc_helmets_blackfyre = { #TGC Added
-				index = 235
+				index = 236
 				male = {
 					3 = male_headgear_tgc_helm_blackfyre_01
 					3 = male_headgear_tgc_helm_blackfyreAlt_01
@@ -4024,7 +4047,7 @@ special_genes = {
 			}
 
 			tgc_helmets_chains = {
-				index = 236
+				index = 237
 				male = {
 					1 = male_headgear_chains_headgear
 				}

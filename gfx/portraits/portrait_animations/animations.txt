@@ -627,37 +627,24 @@ idle = {
 				base = 0
 				modifier = {
 					add = 100
-					AND = {
-						any_equipped_character_artifact = {
-							has_variable = dragon_egg
-						}
-						NOT = { has_trait = dragonwidowed }
-						NOT = { has_character_modifier = agot_dragon_disinterest }
-						NOT = {
+					age >= 10
+					NOR = {
+						has_trait = dragonwidowed
+						has_character_modifier = agot_dragon_disinterest
 							any_relation = {
 								type = agot_dragon
 							}
 						}
-						OR = {
-							AND = {
-								any_equipped_character_artifact = {
-									has_variable = cradled_egg
-									NOT = {
-										has_variable = dud_egg
-									}
-									#exists = var:cradled_egg_year
-									#var:cradled_egg_year < current_year
-								}
-							}
 							any_equipped_character_artifact = {
+						has_variable = dragon_egg
+						NOT = { has_variable = dud_egg }
 								OR = {
 									has_variable = selected_egg_for_hatching
 									has_variable = egg_status
 									has_variable = selected_artifact
 									has_variable = agot_artifact_cannot_gift
 									has_variable = selected_egg
-								}
-							}
+							has_variable = cradled_egg
 						}
 					}
 				}
@@ -1601,8 +1588,11 @@ idle = {
 						OR = {
 							should_use_fat_pregnant_animation = yes
 							should_use_fat_dwarf_pregnant_animation = yes
-							portrait_wear_armor_trigger = yes
+							#AGOT Disabled, Vanilla Fix
+							#portrait_wear_armor_trigger = yes
 						}
+						#AGOT Added, Vanilla Fix
+						portrait_wear_armor_trigger = yes
 						OR = {
 							has_trait = greedy
 							has_trait = arbitrary
@@ -1642,8 +1632,11 @@ idle = {
 					OR = {
 						should_use_fat_pregnant_animation = yes
 						should_use_fat_dwarf_pregnant_animation = yes
-						portrait_wear_armor_trigger = yes
+						#AGOT Disabled, Vanilla Fix
+						#portrait_wear_armor_trigger = yes
 					}
+					#AGOT Added, Vanilla Fix
+					portrait_wear_armor_trigger = yes
 				}
 			}
 		}

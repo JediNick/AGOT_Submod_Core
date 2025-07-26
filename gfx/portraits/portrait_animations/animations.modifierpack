@@ -188,7 +188,7 @@ one_handed_mace = {
 	}
 }
 
-##AGOT ADDED, keep this in sync with any changes to one_handed_mace
+##AGOT Added, keep this in sync with any changes to one_handed_mace
 one_handed_mace_shield = {
 
 	portrait_modifier = { # Equipped
@@ -1971,7 +1971,7 @@ throneRoom_one_handed_passive_1 = {
 		animations = dwarf_additive
 	}
 
-	##AGOT ADDED
+	##AGOT Added
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = hammer }
@@ -1982,7 +1982,7 @@ throneRoom_one_handed_passive_1 = {
 		animations = dwarf_additive
 	}
 
-	##AGOT ADDED
+	##AGOT Added
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = mace }
@@ -1993,7 +1993,7 @@ throneRoom_one_handed_passive_1 = {
 		animations = dwarf_additive
 	}
 
-	##AGOT ADDED
+	##AGOT Added
 	portrait_modifier = {
 		trigger = {
 			culture = {
@@ -2179,8 +2179,7 @@ throneRoom_one_handed_passive_2 = {
 		animations = female_prop_fix_additive
 	}
 	
-
-	##AGOT ADDED
+	##AGOT Added
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = axe }
@@ -2191,7 +2190,7 @@ throneRoom_one_handed_passive_2 = {
 		animations = dwarf_additive
 	}
 
-	##AGOT ADDED
+	##AGOT Added
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = hammer }
@@ -2202,7 +2201,7 @@ throneRoom_one_handed_passive_2 = {
 		animations = dwarf_additive
 	}
 
-	##AGOT ADDED
+	##AGOT Added
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = mace }
@@ -2213,7 +2212,7 @@ throneRoom_one_handed_passive_2 = {
 		animations = dwarf_additive
 	}
     
-	##AGOT ADDED
+	##AGOT Added
 	portrait_modifier = {
 		trigger = {
 			culture = {

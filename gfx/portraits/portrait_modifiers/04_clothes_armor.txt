@@ -2559,6 +2559,12 @@
                 portrait_wear_armor_trigger = yes
                 dynasty ?= dynasty:dynn_Rowan
             }
+            ##SUB MOD CORE
+			modifier = {
+                add = 10000
+                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = rowan_armor_artifact }
+				is_brightboar_loaded_trigger = yes
+            }
         }
     }
 
@@ -2850,6 +2856,41 @@
                         portrait_wear_armor_trigger = yes
                     }
                 }
+            }
+        }
+    }
+
+    agot_clothing_westerlander_reyne_armor = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = westerlands_war_nobility_clothes
+                accessory = male_clothes_westerlands_reyne_war_03
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = westerlands_war_legwear
+                accessory = male_legwear_secular_westerlands_reyne_war_03
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 140
+                exists = this
+                agot_portrait_high_armor_trigger = {
+                    CULTURE_INPUT = westerman
+                }
+                dynasty ?= dynasty:dynn_Reyne
             }
         }
     }
@@ -4050,6 +4091,41 @@
             }
         }
     }
+
+    agot_clothing_bolton_armor = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = special_war_nobility_clothes
+                accessory = male_clothes_bolton_war_01
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = special_war_01_legwear
+                accessory = male_legwear_secular_bolton_war_01
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 140
+                agot_portrait_high_armor_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+                dynasty ?= dynasty:dynn_Bolton
+            }
+        }
+    }
+
     agot_clothing_northern_armor = {
         dna_modifiers = {
             accessory = {
@@ -4480,4 +4556,30 @@
 			}			
 		}
 	}
+	
+	agot_brightboar_swordman_armor = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = brightboar_swordsman_armour
+                accessory = male_clothes_secular_brightboar_swordsman
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+			modifier = {
+                add = 1000
+                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = swordman_armor_artifact }
+				is_brightboar_loaded_trigger = yes
+            }
+        }
+    }
 }

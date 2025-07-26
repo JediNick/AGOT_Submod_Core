@@ -96,6 +96,29 @@ clothes = { # Special group for the ruler designer only. The game expects this t
             modifier = {
                 add = 100
                 portrait_ruler_designer_trigger = yes
+                # AGOT Added
+                NOT = {
+                    has_global_variable = character_undress
+                }
+            }
+        }
+    }
+    # AGOT Added    
+    ruler_designer_nude = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = no_clothes
+                range = { 0 1 }
+            }  
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                portrait_ruler_designer_trigger = yes
+				has_global_variable = character_undress
             }
         }
     }    

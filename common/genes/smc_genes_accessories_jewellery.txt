@@ -280,8 +280,20 @@
 			}
 
 			##AGOT SUBMOD CORE ADDED
-			asoiaf_fots_religious_jewellery = { #AGOT+ Added
+			asoiaf_generic_jewellery = { #AGOT+ Added
 				index = 23
+				male = {
+					1 = male_jewellery_asoiaf_shark_tooth_necklace
+				}
+				female = {
+					1 = female_jewellery_asoiaf_shark_tooth_necklace
+				}
+				boy = male
+				girl = female
+			}
+			
+			asoiaf_fots_religious_jewellery = { #AGOT+ Added
+				index = 24
 				male = {
 					1 = male_jewellery_asoiaf_septon_necklace_1
 				}
