@@ -124,6 +124,14 @@
 		is_valid_custom = {
 			is_agot_plus_loaded_trigger = yes
 		}
+		template = asoiaf_unique_jewellery
+	}
+
+	add_accessory_modifiers = { #AGOT+
+		gene = special_accessories_jewelry
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
 		template = asoiaf_generic_jewellery
 	}
 	
@@ -135,3 +143,4 @@
 		template = asoiaf_fots_religious_jewellery
 	}
 }
+

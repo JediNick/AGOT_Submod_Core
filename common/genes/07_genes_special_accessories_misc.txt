@@ -767,7 +767,9 @@ accessory_genes = {
 				1 = male_legwear_asoiaf_slippers_1
 				1 = male_legwear_asoiaf_leather_boots_1
 				1 = male_legwear_asoiaf_leather_boots_2
-				1 = male_legwear_secular_asoiaf_kingsguard_default_legs
+				1 = male_legwear_secular_asoiaf_kingsguard_default_legs #Riding Boots
+				1 = male_legwear_asoiaf_kingsguard_legs_1
+				1 = male_legwear_asoiaf_kingsguard_legs_2
 				1 = male_legwear_secular_asoiaf_north_war_plate_legs
 				1 = male_legwear_secular_asoiaf_lannister_war_plate_2_legs
 				1 = male_legwear_asoiaf_crownlands_gold_cloak_legs
@@ -818,22 +820,10 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-
-		asoiaf_kingsguard_default_legs = { #AGOT+ added
-			index = 96
-			male = {
-				1 = male_legwear_secular_asoiaf_kingsguard_default_legs
-			}
-			female = {
-				1 = female_legwear_secular_fp1_common_01
-			}
-			boy = male
-			girl = female
-		}
 		
 		##TGC ADDED		
 		tgc_pants = {
-			index = 97
+			index = 96
 			male = {
 				1 = male_legwear_captainsPants_01
 				1 = male_legwear_standardPants_01
@@ -848,7 +838,7 @@ accessory_genes = {
 		}
 
 		tgc_pants_black = {
-			index = 98
+			index = 97
 			male = {
 				1 = male_legwear_captainsPants_black_01
 				1 = male_legwear_standardPants_black_01
@@ -861,7 +851,7 @@ accessory_genes = {
 			girl = female
 		}
 		tgc_pants_blackfyre = {
-			index = 99
+			index = 98
 			male = {
 				1 = male_legwear_captainsPants_blackfyre_01
 				1 = male_legwear_captainsPants_blackfyreAlt_01

@@ -4750,7 +4750,7 @@ special_genes = {
 			index = 249
 
 			male = {
-				1 = male_clothes_secular_asoiaf_kingsguard_default
+				1 = male_clothes_asoiaf_kingsguard_armour_default
 				1 = male_clothes_asoiaf_crownlands_gold_cloak_chest
 				1 = male_clothes_secular_asoiaf_lannister_war_plate_2
 				1 = male_clothes_secular_asoiaf_lannister_war_plate_2_sash
@@ -4760,6 +4760,7 @@ special_genes = {
 				1 = male_clothes_secular_asoiaf_north_war_plate
 				1 = male_clothes_secular_asoiaf_north_war_plate_stark
 				1 = male_clothes_asoiaf_tyrell_armour_dynast
+				1 = male_clothes_asoiaf_tyrell_armour_high
 			}
 			female = {
 				1 = f_clothes_sec_northern_war_nob_01_lo #female_clothes_asoiaf_crownlands_gold_cloak_chest
@@ -4777,10 +4778,12 @@ special_genes = {
 				1 = male_clothes_asoiaf_vale_baelish_tunic_1_sigil
 				1 = male_clothes_asoiaf_stepstones_pirate_prince_tunic
 				1 = male_clothes_asoiaf_westerlands_tywin_tunic_1
+				1 = male_clothes_asoiaf_kingsguard_tunic
 			}
 			female = {
 				1 = female_clothes_asoiaf_westerlands_mourning_1
 				1 = female_clothes_asoiaf_reach_gown_1
+				1 = female_clothes_asoiaf_handmaiden_dress_1
 			}
 			boy = male
 			girl = female
