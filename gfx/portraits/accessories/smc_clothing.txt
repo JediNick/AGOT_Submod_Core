@@ -1,0 +1,29 @@
+﻿## these assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+#set_tags = "shrink_arms,shrink_chest,shrink_belly"
+#############################################
+#											#
+# 			Submod Core  Clothes			#
+#											#
+#############################################
+
+## Alicent Hightower Pious Dress ##
+female_clothes_smc_alicent_dress_01 = { #CHAIN
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,shrink_legs"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = smc_alicent_dress_01_entity }
+}
+female_clothes_smc_alicent_dress_02 = { #CHAIN
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,shrink_legs"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = smc_alicent_dress_02_entity }
+}
+female_clothes_smc_alicent_dress_01_dark = { #CHAIN
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,shrink_legs"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = smc_alicent_dress_01_dark_entity }
+}
+female_clothes_smc_alicent_dress_03 = { #NO CHAIN
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,shrink_legs"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = smc_alicent_dress_03_entity }
+}
+female_clothes_smc_alicent_dress_04 = { #NO CHAIN
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,shrink_legs"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = smc_alicent_dress_04_entity }
+}

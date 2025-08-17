@@ -1,0 +1,18 @@
+﻿texticon = {
+	icon = lotd_icon
+	iconsize = {
+		texture = "gfx/interface/icons/text_icons/lotd_icon.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = asoiaf_icon
+	iconsize = {
+		texture = "gfx/interface/icons/text_icons/asoiaf_icon.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

@@ -4643,6 +4643,25 @@ special_genes = {
 
 
 		#NOTAGOTADDED
+		smc_lotd_or_agotplus_clothes = { #for shared clothes between LOTD and AGOT+
+			index = 243
+
+			#male = {
+			#	1 = empty
+			#}
+			
+			female = {
+				1 = female_clothes_smc_alicent_dress_01
+				1 = female_clothes_smc_alicent_dress_02
+				1 = female_clothes_smc_alicent_dress_01_dark
+				#1 = female_clothes_smc_alicent_dress_03 #MESH MISSING; un-comment once it's added
+				#1 = female_clothes_smc_alicent_dress_04
+			}
+			
+			boy = male
+			girl = female
+		}
+
 		brightboar_swordsman_armour = {
 			index = 244
 
@@ -4761,6 +4780,10 @@ special_genes = {
 				1 = male_clothes_secular_asoiaf_north_war_plate_stark
 				1 = male_clothes_asoiaf_tyrell_armour_dynast
 				1 = male_clothes_asoiaf_tyrell_armour_high
+				1 = male_clothes_asoiaf_greyjoy_armour_dynast
+				1 = male_clothes_asoiaf_greyjoy_armour_high
+				1 = male_clothes_asoiaf_ironborn_armour_dynast_coa
+				1 = male_clothes_asoiaf_ironborn_armour_high_coa
 			}
 			female = {
 				1 = f_clothes_sec_northern_war_nob_01_lo #female_clothes_asoiaf_crownlands_gold_cloak_chest
@@ -4779,11 +4802,15 @@ special_genes = {
 				1 = male_clothes_asoiaf_stepstones_pirate_prince_tunic
 				1 = male_clothes_asoiaf_westerlands_tywin_tunic_1
 				1 = male_clothes_asoiaf_kingsguard_tunic
+				1 = male_clothes_asoiaf_reach_tunic_1_high
+				1 = male_clothes_asoiaf_reach_tunic_1_low
+				1 = male_clothes_asoiaf_reach_tunic_1_coa
 			}
 			female = {
 				1 = female_clothes_asoiaf_westerlands_mourning_1
 				1 = female_clothes_asoiaf_reach_gown_1
 				1 = female_clothes_asoiaf_handmaiden_dress_1
+				1 = female_clothes_asoiaf_handmaiden_dress_2
 			}
 			boy = male
 			girl = female
@@ -4807,14 +4834,17 @@ special_genes = {
 			girl = female
 		}
 
-		asoiaf_fots_religious_clothes = { #AGOT+ Added
+		asoiaf_religious_clothes = { #AGOT+ Added
 			index = 252
 
 			male = {
 				1 = male_clothes_asoiaf_septon_robes_1
 				1 = male_clothes_asoiaf_septon_robes_2
+				1 = male_clothes_asoiaf_drowned_man_robes_low
+				1 = male_clothes_asoiaf_drowned_man_robes_high
 			}
 			female = {
+				1 = female_clothes_asoiaf_septa_robes
 				1 = female_clothes_asoiaf_silent_sister_robes
 			}
 			boy = male

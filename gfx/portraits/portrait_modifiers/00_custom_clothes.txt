@@ -57,6 +57,15 @@
 		}
 		template = kingsguard_armor_clothes
 	}
+	
+	#AGOT Submod Core
+	add_accessory_modifiers = {
+		gene = clothes
+		is_valid_custom = {
+			is_brightboar_loaded_trigger = yes
+		}
+		template = brightboar_swordsman_armour
+	}
 
 	#AGOT Submod Core
 	add_accessory_modifiers = {
@@ -100,6 +109,17 @@
 		template = valyrian_nobility_clothing_generic
 	}
 
+	add_accessory_modifiers = { #AGOT+ & LOTD
+		gene = clothes
+		is_valid_custom = {
+			#OR = {
+				is_agot_plus_loaded_trigger = yes
+				#is_lotd_loaded_trigger = yes
+			#}
+		}
+		template = smc_lotd_or_agotplus_clothes
+	}
+
 	add_accessory_modifiers = { #AGOT+
 		gene = clothes
 		is_valid_custom = {
@@ -129,7 +149,7 @@
 		is_valid_custom = {
 			is_agot_plus_loaded_trigger = yes
 		}
-		template = asoiaf_fots_religious_clothes
+		template = asoiaf_religious_clothes
 	}
 
 	add_accessory_modifiers = { #TGC added

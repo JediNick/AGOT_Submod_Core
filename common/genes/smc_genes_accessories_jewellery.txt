@@ -283,7 +283,11 @@
 			asoiaf_unique_jewellery = { #AGOT+ Added
 				index = 23
 				male = {
-					1 = empty
+					1 = male_jewellery_asoiaf_maester_chain_1
+					1 = male_jewellery_asoiaf_maester_chain_2
+					1 = male_jewellery_asoiaf_maester_chain_3
+					1 = male_jewellery_asoiaf_maester_chain_4
+					1 = male_jewellery_asoiaf_maester_chain_5
 				}
 				female = {
 					1 = female_jewellery_asoiaf_lion_necklace_gold
@@ -320,4 +324,5 @@
 
 	}
 }
+
 

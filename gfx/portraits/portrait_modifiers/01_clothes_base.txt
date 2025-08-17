@@ -3392,4 +3392,216 @@ agot_braavos_high_nobles = {
             }
         }
     }
+
+	##AGOT+ ADDED
+    #Reach Generic Clothes
+    asoiaf_handmaiden_dress_2 = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = female_clothes_asoiaf_handmaiden_dress_2
+				type = female
+			}
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_bust
+                value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+                template = bust_clothes
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = reachman } 
+            modifier = {
+                add = 10
+                portrait_imperial_trigger = { 
+                    CULTURE_INPUT = reachman
+                } 
+            }
+            modifier = {
+                add = 15
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = reachman
+                } 
+            }
+            modifier = {
+                add = 20
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = reachman
+                } 
+            }
+            modifier = {
+                add = 25
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = reachman
+                } 
+            }  
+            modifier = {
+				factor = 0
+				NOT =  { is_agot_plus_loaded_trigger = yes }
+			}
+			modifier = {
+				factor = 0
+				is_male = yes #women only
+			}
+        }
+    }
+	asoiaf_reach_tunic_1_high = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_reach_tunic_1_high
+			}
+            accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = male_legwear_asoiaf_leather_boots_4
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = western } 
+            modifier = {
+                add = 25
+                portrait_imperial_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 20
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 15
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 5
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }  
+            modifier = {
+				factor = 0
+				NOT =  { is_agot_plus_loaded_trigger = yes }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+        }
+    }
+    asoiaf_reach_tunic_1_low = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_reach_tunic_1_low
+			}
+            accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = male_legwear_asoiaf_leather_boots_4
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = western } 
+            modifier = {
+                add = 5
+                portrait_imperial_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 10
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 15
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 25
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }  
+            modifier = {
+				factor = 0
+				NOT =  { is_agot_plus_loaded_trigger = yes }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+        }
+    }
+	asoiaf_reach_tunic_1_coa = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_reach_tunic_1_coa
+			}
+            accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = male_legwear_asoiaf_leather_boots_4
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = western } 
+            modifier = {
+                add = 25
+                portrait_imperial_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 20
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 15
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 10
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }  
+            modifier = {
+				factor = 0
+				NOT =  { is_agot_plus_loaded_trigger = yes }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+        }
+    }
 }
