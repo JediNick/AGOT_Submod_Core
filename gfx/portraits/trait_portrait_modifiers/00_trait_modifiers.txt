@@ -1430,6 +1430,14 @@ disfigured = {
 				}
 				root = {
 					agot_visible_disfigurement_bandages_trigger = yes
+					NOR = {
+						has_character_flag = wears_valyrian_mask_01
+						has_character_flag = wears_valyrian_mask_02 
+						has_character_flag = wears_valyrian_mask_03
+						has_character_flag = wears_valyrian_mask_04  
+						has_character_flag = wears_valyrian_mask_05
+						agot_has_artifact_equipped = { ARTIFACT_VARIABLE = viserys_mask }
+					}
 				}
 			}
 		}
@@ -1466,6 +1474,14 @@ disfigured = {
 						should_show_disturbing_portrait_modifiers = no
 						agot_visible_disfigurement_partially_masked_trigger = yes
 					}
+					NOR = {
+						has_character_flag = wears_valyrian_mask_01
+						has_character_flag = wears_valyrian_mask_02 
+						has_character_flag = wears_valyrian_mask_03
+						has_character_flag = wears_valyrian_mask_04  
+						has_character_flag = wears_valyrian_mask_05
+						agot_has_artifact_equipped = { ARTIFACT_VARIABLE = viserys_mask }
+					}
 				}
 			}
 		}
@@ -1500,6 +1516,14 @@ disfigured = {
 						should_show_disturbing_portrait_modifiers = no
 						agot_visible_disfigurement_partially_masked_trigger = yes
 					}
+					NOR = {
+						has_character_flag = wears_valyrian_mask_01
+						has_character_flag = wears_valyrian_mask_02 
+						has_character_flag = wears_valyrian_mask_03
+						has_character_flag = wears_valyrian_mask_04  
+						has_character_flag = wears_valyrian_mask_05
+						agot_has_artifact_equipped = { ARTIFACT_VARIABLE = viserys_mask }
+					}
 				}
 			}
 		}
@@ -1529,6 +1553,14 @@ disfigured = {
 					OR = {
 						should_show_disturbing_portrait_modifiers = no
 						agot_visible_disfigurement_partially_masked_trigger = yes
+					}
+					NOR = {
+						has_character_flag = wears_valyrian_mask_01
+						has_character_flag = wears_valyrian_mask_02 
+						has_character_flag = wears_valyrian_mask_03
+						has_character_flag = wears_valyrian_mask_04  
+						has_character_flag = wears_valyrian_mask_05
+						agot_has_artifact_equipped = { ARTIFACT_VARIABLE = viserys_mask }
 					}
 				}
 			}
