@@ -4769,6 +4769,7 @@ special_genes = {
 			index = 249
 
 			male = {
+				1 = male_clothes_asoiaf_nights_watch_leather
 				1 = male_clothes_asoiaf_kingsguard_armour_default
 				1 = male_clothes_asoiaf_crownlands_gold_cloak_chest
 				1 = male_clothes_secular_asoiaf_lannister_war_plate_2
@@ -4805,6 +4806,16 @@ special_genes = {
 				1 = male_clothes_asoiaf_reach_tunic_1_high
 				1 = male_clothes_asoiaf_reach_tunic_1_low
 				1 = male_clothes_asoiaf_reach_tunic_1_coa
+				1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_sash
+				1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_no_clasps
+				1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_mourning
+				1 = male_clothes_asoiaf_crownlands_tunic_1_tommen
+				1 = male_clothes_asoiaf_crownlands_tunic_1_high_sash
+				1 = male_clothes_asoiaf_crownlands_tunic_1_high
+				1 = male_clothes_asoiaf_crownlands_tunic_1_low_sash
+				1 = male_clothes_asoiaf_crownlands_tunic_1_low
+				1 = male_clothes_asoiaf_crownlands_tunic_1_coa_sash
+				1 = male_clothes_asoiaf_crownlands_tunic_1_coa
 			}
 			female = {
 				1 = female_clothes_asoiaf_westerlands_mourning_1

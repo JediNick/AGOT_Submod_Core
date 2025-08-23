@@ -3932,6 +3932,8 @@ special_genes = {
 			asoiaf_all_helms = { #AGOT+ added
 				index = 229
 				male = {
+					1 = male_headgear_asoiaf_nights_watch_hood
+					1 = male_headgear_asoiaf_nights_watch_coif
 					1 = male_headgear_asoiaf_kingsguard_helm_default
 					1 = male_headgear_secular_asoiaf_north_plate_helm
 					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm
@@ -4003,8 +4005,22 @@ special_genes = {
 				girl = female
 			}
 
-			tgc_helmets = { #TGC Added
+			asoiaf_nights_watch_headgears = { #AGOT+ added
 				index = 234
+				male = {
+					3 = empty
+					2 = male_headgear_asoiaf_nights_watch_hood
+					1 = male_headgear_asoiaf_nights_watch_coif
+				}
+				#female = {
+				#	1 = empty
+				#}
+				boy = male
+				girl = female
+			}
+
+			tgc_helmets = { #TGC Added
+				index = 235
 				male = {
 					3 = male_headgear_tgc_helm_01
 					3 = male_headgear_tgc_helm_02
@@ -4018,7 +4034,7 @@ special_genes = {
 			}
 
 			tgc_helmets_black = { #TGC Added
-				index = 235
+				index = 236
 				male = {
 					3 = male_headgear_tgc_helm_black_01
 					3 = male_headgear_tgc_helm_black_02
@@ -4033,7 +4049,7 @@ special_genes = {
 
 			
 			tgc_helmets_blackfyre = { #TGC Added
-				index = 236
+				index = 237
 				male = {
 					3 = male_headgear_tgc_helm_blackfyre_01
 					3 = male_headgear_tgc_helm_blackfyreAlt_01
@@ -4050,7 +4066,7 @@ special_genes = {
 			}
 
 			tgc_helmets_chains = {
-				index = 237
+				index = 238
 				male = {
 					1 = male_headgear_chains_headgear
 				}

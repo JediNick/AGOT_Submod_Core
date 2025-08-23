@@ -2031,6 +2031,7 @@
             base = 0
             modifier = {
                 add = 400
+                portrait_wear_armor_trigger = yes
                 agot_has_artifact_equipped = { ARTIFACT_VARIABLE = valyrian_steel_armor_artifact }
             }
         }
@@ -2062,6 +2063,7 @@
             base = 0
             modifier = {
                 add = 400
+                portrait_wear_armor_trigger = yes
                 agot_has_artifact_equipped = { ARTIFACT_VARIABLE = decorated_dragon_plate_armor_artifact }
             }
         }
@@ -2124,6 +2126,7 @@
             base = 0
             modifier = {
                 add = 410
+                portrait_wear_armor_trigger = yes
                 agot_has_artifact_equipped = { ARTIFACT_VARIABLE = maelys_armor_artifact }
                 OR = {
                     NOT = { exists = character:Blackfyre_14 }
@@ -2160,7 +2163,8 @@
             modifier = {
                 add = 400
                 exists = this
-                portrait_wear_rhaegar_armor_trigger = yes
+                portrait_wear_armor_trigger = yes
+                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = rhaegar_armor }
             }
         }
     }
@@ -2192,7 +2196,8 @@
             modifier = {
                 add = 500
                 exists = this
-                portrait_wear_robert_armor_trigger = yes
+                portrait_wear_armor_trigger = yes
+                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = robert_armor }
             }
         }
     }
@@ -2231,12 +2236,10 @@
             modifier = {
                 add = 205
                 portrait_wear_armor_trigger = yes
-                portrait_the_north_clothing_trigger = yes
-                portrait_wear_ned_stark_armor_trigger = yes
+                dynasty ?= dynasty:dynn_Stark
             }
             modifier = {
                 add = 207
-                portrait_the_north_clothing_trigger = yes
                 has_character_flag = needs_ned_armor
             }
         }
@@ -4278,7 +4281,7 @@
             modifier = {
                 add = 400
                 exists = this
-                portrait_wear_skinchangers_second_pelt_trigger = yes
+                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = skinchangers_second_pelt }
             }
         }
     }
@@ -4309,8 +4312,8 @@
             modifier = {
                 add = 400
                 exists = this
-                portrait_wear_skinchangers_second_pelt_trigger = yes
                 portrait_wear_armor_trigger = yes
+                agot_has_artifact_equipped = { ARTIFACT_VARIABLE = skinchangers_second_pelt }
             }
         }
     }

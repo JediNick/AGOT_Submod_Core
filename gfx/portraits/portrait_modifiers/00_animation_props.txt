@@ -3815,6 +3815,17 @@
 		}	
 	}
 	
+		agot_dragon_doll_06 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = dragon_doll_prop_06
+				range = {0 1}
+			}
+		}
+	}
+
 	agot_mirror_01 = {
 		dna_modifiers = {
 			accessory = {
@@ -3823,9 +3834,9 @@
 				template = agot_gold_mirror
 				range = {0 1}
 			}
-		}	
+		}
 	}
-	
+
 	agot_mirror_02 = {
 		dna_modifiers = {
 			accessory = {
@@ -3834,9 +3845,9 @@
 				template = agot_silver_mirror
 				range = {0 1}
 			}
-		}	
+		}
 	}
-	
+
 	agot_mirror_03 = {
 		dna_modifiers = {
 			accessory = {
@@ -3845,7 +3856,7 @@
 				template = agot_valyrian_mirror
 				range = {0 1}
 			}
-		}	
+		}
 	}
 
 	##AGOT Submod Base entries

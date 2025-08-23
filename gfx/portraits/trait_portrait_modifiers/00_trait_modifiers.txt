@@ -904,6 +904,8 @@ disfigured = {
 					}
 				}
 			}
+			#AGOT Added
+			always = no
 		}
 		dna_modifiers = {
 			human = {
@@ -926,11 +928,13 @@ disfigured = {
 					exists = root
 				}
 				root = { 
+					#AGOT Added
+					agot_visible_disfigurement_fully_masked_trigger = yes
 					NOR = {
 						portrait_fp3_iranian_clothing_trigger = yes
 						portrait_fp3_turkic_clothing_trigger = yes
 						#AGOT Added
-						this = character:Blackfyre_14
+						is_character_blackfyre_14 = yes
 						has_character_flag = wears_valyrian_mask_01
 						has_character_flag = wears_valyrian_mask_02 
 						has_character_flag = wears_valyrian_mask_03
@@ -1177,6 +1181,8 @@ disfigured = {
 				limit = {
 					exists = root
 				}
+				#AGOT Added
+				agot_visible_disfigurement_fully_masked_trigger = yes
 				root = {
 					OR = {
 						portrait_fp3_iranian_clothing_trigger = yes
@@ -1411,6 +1417,167 @@ disfigured = {
 			}
 		}
 	}
+	}
+	#AGOT Added
+	disfigured_bandage = {
+		traits = {
+			disfigured
+		}
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = root
+				}
+				root = {
+					agot_visible_disfigurement_bandages_trigger = yes
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				accessory = {
+					mode = add
+					gene = special_headgear_face_mask_agot
+					template = agot_disfigured_bandage
+					value = 1
+				}
+				accessory = {
+					mode = add
+					gene = headgear
+					template = no_headgear
+					range = { 0 1 }
+				}
+			}
+		}
+	}
+	#AGOT Added
+	agot_disfigured_1_mask = {
+		traits = {
+			disfigured
+		}
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = root
+				}
+				root = {
+					has_inactive_trait = visible_disfigurement_1
+					OR = {
+						should_show_disturbing_portrait_modifiers = no
+						agot_visible_disfigurement_partially_masked_trigger = yes
+					}
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				accessory = {
+					mode = add
+					gene = special_headgear_face_mask_agot
+					template = agot_disfigured_mask_1
+					value = 1
+				}
+			}
+		}
+	}
+	#Disfigured 2 Handled in disfigured_ep3_golden_nose
+	#AGOT Added
+	agot_disfigured_3_mask = {
+		traits = {
+			disfigured
+		}
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = root
+				}
+				root = {
+					OR = {
+						has_inactive_trait = visible_disfigurement_2
+						has_inactive_trait = visible_disfigurement_3
+					}
+					OR = {
+						should_show_disturbing_portrait_modifiers = no
+						agot_visible_disfigurement_partially_masked_trigger = yes
+					}
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				accessory = {
+					mode = add
+					gene = special_headgear_face_mask_agot
+					template = agot_disfigured_mask_3
+					value = 1
+				}
+			}
+		}
+	}
+	#AGOT Added
+	agot_disfigured_4_mask = {
+		traits = {
+			disfigured
+		}
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = root
+				}
+				root = {
+					has_inactive_trait = visible_disfigurement_4
+					OR = {
+						should_show_disturbing_portrait_modifiers = no
+						agot_visible_disfigurement_partially_masked_trigger = yes
+					}
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				accessory = {
+					mode = add
+					gene = special_headgear_face_mask_agot
+					template = agot_disfigured_mask_4
+					value = 1
+				}
+			}
+		}
+	}
+	#AGOT Added
+	disfigured_unmasked = {
+		traits = {
+			disfigured
+		}
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = root
+				}
+				root = {
+					agot_has_visible_disfigurement_trigger = yes
+					should_show_disturbing_portrait_modifiers = yes
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				accessory = {
+					mode = add
+					gene = special_headgear_face_mask_agot
+					template = agot_disfigured_no_mask
+					value = 1
+				}
+				accessory = {
+					mode = add
+					gene = beards
+					template = no_beard
+					value = 0.5
+				}
+			}
+		}
+	}
+
 
 	##SUBMOD CORE ADDED
 	disfigured_valyrian_viserys = {
@@ -1745,7 +1912,7 @@ disfigured = {
 			}
 		}
 	 }
-}
+  }
 
 
 	
@@ -1817,15 +1984,7 @@ blind = {
 					OR = {
 						#AGOT Added
 						is_character_targaryen_96 = yes # Bloodraven
-						has_character_flag = has_eyegem_red
-						has_character_flag = has_eyegem_saphire
-						has_character_flag = has_eyegem_white
-						has_character_flag = has_eyegem_blue
-						has_character_flag = has_eyegem_green
-						has_character_flag = has_eyegem_black
-						has_character_flag = has_eyegem_yellow
-						has_character_flag = has_eyegem_orange
-						has_character_flag = has_eyegem_purple
+						agot_has_any_eye_gem_trigger = yes
 					}
 				}
 			}
@@ -1850,7 +2009,10 @@ blind = {
 		trigger = {
 			trigger_if = {
 				limit = { exists = root }
-				has_character_flag = has_eyegem_red
+				OR = {
+					has_character_flag = eye_gem_red
+					has_inactive_trait = eye_gem_red
+				}
 			}
 		}
 		dna_modifiers = {
@@ -1870,14 +2032,17 @@ blind = {
 			}
 		}
 	}
-	one_eyed_blue = {
+	one_eyed_dark_blue = {
 		traits = {
 			one_eyed
 		}
 		trigger = {
 			trigger_if = {
 				limit = { exists = root }
-				has_character_flag = has_eyegem_blue
+				OR = {
+					has_character_flag = eye_gem_dark_blue
+					has_inactive_trait = eye_gem_dark_blue
+				}
 			}
 		}
 		dna_modifiers = {
@@ -1904,7 +2069,10 @@ blind = {
 		trigger = {
 			trigger_if = {
 				limit = { exists = root }
-				has_character_flag = has_eyegem_green
+				OR = {
+					has_character_flag = eye_gem_green
+					has_inactive_trait = eye_gem_green
+				}
 			}
 		}
 		dna_modifiers = {
@@ -1931,7 +2099,10 @@ blind = {
 		trigger = {
 			trigger_if = {
 				limit = { exists = root }
-				has_character_flag = has_eyegem_white
+				OR = {
+					has_character_flag = eye_gem_white
+					has_inactive_trait = eye_gem_white
+				}
 			}
 		}
 		dna_modifiers = {
@@ -1958,7 +2129,10 @@ blind = {
 		trigger = {
 			trigger_if = {
 				limit = { exists = root }
-				has_character_flag = has_eyegem_black
+				OR = {
+					has_character_flag = eye_gem_black
+					has_inactive_trait = eye_gem_black
+				}
 			}
 		}
 		dna_modifiers = {
@@ -1985,7 +2159,10 @@ blind = {
 		trigger = {
 			trigger_if = {
 				limit = { exists = root }
-				has_character_flag = has_eyegem_purple
+				OR = {
+					has_character_flag = eye_gem_purple
+					has_inactive_trait = eye_gem_purple
+				}
 			}
 		}
 		dna_modifiers = {
@@ -2012,7 +2189,10 @@ blind = {
 		trigger = {
 			trigger_if = {
 				limit = { exists = root }
-				has_character_flag = has_eyegem_orange
+				OR = {
+					has_character_flag = eye_gem_orange
+					has_inactive_trait = eye_gem_orange
+				}
 			}
 		}
 		dna_modifiers = {
@@ -2032,14 +2212,17 @@ blind = {
 			}
 		}
 	}
-	one_eyed_saphire = {
+	one_eyed_blue = {
 		traits = {
 			one_eyed
 		}
 		trigger = {
 			trigger_if = {
 				limit = { exists = root }
-				has_character_flag = has_eyegem_saphire
+				OR = {
+					has_character_flag = eye_gem_blue
+					has_inactive_trait = eye_gem_blue
+				}
 			}
 		}
 		dna_modifiers = {
@@ -2053,7 +2236,7 @@ blind = {
 				accessory = {
 					mode = add
 					gene = eye_accessory_gem
-					template = one_eyed_gem_saphire
+					template = one_eyed_gem_light_blue
 					value = 1.0
 				}
 			}
@@ -2066,7 +2249,10 @@ blind = {
 		trigger = {
 			trigger_if = {
 				limit = { exists = root }
-				has_character_flag = has_eyegem_yellow
+				OR = {
+					has_character_flag = eye_gem_yellow
+					has_inactive_trait = eye_gem_yellow
+				}
 			}
 		}
 		dna_modifiers = {

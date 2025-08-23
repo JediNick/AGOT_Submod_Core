@@ -1,4 +1,10 @@
 ﻿agot_apply_inactive_traits_on_death = {
+	agot_hair_dye_death_effect = yes
+
+	agot_eye_gem_death_effect = yes
+
+	agot_visible_disfigurement_death_effect = yes
+
 	if = {
 		limit = { vassal_contract_has_flag = has_palatinate_contract }
 		make_trait_inactive = had_palatinate_contract

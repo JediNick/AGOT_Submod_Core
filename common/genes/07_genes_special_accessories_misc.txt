@@ -769,6 +769,7 @@ accessory_genes = {
 				1 = male_legwear_asoiaf_leather_boots_2
 				1 = male_legwear_asoiaf_leather_boots_3
 				1 = male_legwear_asoiaf_leather_boots_4
+				1 = male_legwear_asoiaf_leather_boots_5
 				1 = male_legwear_secular_asoiaf_kingsguard_default_legs #Riding Boots
 				1 = male_legwear_asoiaf_kingsguard_legs_1
 				1 = male_legwear_asoiaf_kingsguard_legs_2
@@ -778,6 +779,7 @@ accessory_genes = {
 				1 = male_legwear_asoiaf_tyrell_legs
 				1 = male_legwear_asoiaf_greyjoy_legs
 				1 = male_legwear_asoiaf_ironborn_legs_coa
+				1 = male_legwear_asoiaf_nights_watch_legs
 			}
 			female = {
 				1 = female_legwear_asoiaf_leather_boots_1
@@ -4006,8 +4008,17 @@ props_left = {
 			boy = male
 			girl = female
 		}
-		agot_artifact_weapon_maekarmace = {
+		dragon_doll_prop_06 = {
 			index = 151
+			male = {
+				1 = dragon_doll_06
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_maekarmace = {
+			index = 152
 			male = {
 				1 = maekar_mace_artifact
 			}
@@ -4018,7 +4029,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_dark_moon = {
-			index = 152
+			index = 153
 			male = {
 				1 = dark_moon_artifact
 			}
@@ -4027,7 +4038,7 @@ props_left = {
 			}
 		}
 		agot_artifact_weapon_emoBoy_sword = {
-			index = 153
+			index = 154
 			male = {
 				1 = emoBoy_sword_artifact
 			}
@@ -4036,7 +4047,7 @@ props_left = {
 			}
 		}
 		agot_artifact_weapon_skinpeeler = {
-			index = 154
+			index = 155
 			male = {
 				1 = skinpeeler_artifact
 			}
@@ -4047,7 +4058,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_dornish_sabre = {
-			index = 155
+			index = 156
 			male = {
 				1 = dornish_sabre_artifact
 			}
@@ -4059,7 +4070,7 @@ props_left = {
 		}
 		#AGOT Added
 		agot_artifact_weapon_dancer = {
-			index = 156
+			index = 157
 			male = {
 				1 = dancer_artifact
 			}
@@ -4070,7 +4081,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_dark_sister = {
-			index = 157
+			index = 158
 			male = {
 				1 = dark_sister_artifact
 			}
@@ -4081,7 +4092,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_iron_will = {
-			index = 158
+			index = 159
 			male = {
 				1 = iron_will_artifact
 			}
@@ -4092,7 +4103,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_heartsbane = {
-			index = 159
+			index = 160
 			male = {
 				1 = heartsbane_artifact
 			}
@@ -4103,7 +4114,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_ice = {
-			index = 160
+			index = 161
 			male = {
 				1 = ice_artifact
 			}
@@ -4114,7 +4125,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_darktalon = {
-			index = 161
+			index = 162
 			male = {
 				1 = darktalon_artifact
 			}
@@ -4125,7 +4136,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_iron_price = {
-			index = 162
+			index = 163
 			male = {
 				1 = iron_price_artifact
 			}
@@ -4136,7 +4147,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_unkindness = {
-			index = 163
+			index = 164
 			male = {
 				1 = unkindness_artifact
 			}
@@ -4147,7 +4158,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_swansong = {
-			index = 164
+			index = 165
 			male = {
 				1 = swansong_artifact
 			}

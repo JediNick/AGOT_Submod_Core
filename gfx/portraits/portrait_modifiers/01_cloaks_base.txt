@@ -1178,6 +1178,12 @@ cloaks = {
 					has_ep1_dlc_trigger = no
 					has_trait = kingsguard
 				}
+			#Ned's Armor
+			modifier = {
+				add = 500
+				portrait_wear_armor_trigger = yes
+				dynasty ?= dynasty:dynn_Stark
+			}
 			}
 		}
 
@@ -1313,9 +1319,6 @@ cloaks = {
 						CULTURE_INPUT = the_north
 					}
 				}
-				NOT = {
-					portrait_wear_ned_stark_armor_trigger = yes
-				}
 			}
 		}
 	}
@@ -1342,9 +1345,6 @@ cloaks = {
 						CULTURE_INPUT = the_north
 					}
 				}
-				NOT = {
-					portrait_wear_ned_stark_armor_trigger = yes
-				}
 			}
 		}
 	}
@@ -1370,9 +1370,6 @@ cloaks = {
 					portrait_high_nobles_armor_trigger = {
 						CULTURE_INPUT = the_north
 					}
-				}
-				NOT = {
-					portrait_wear_ned_stark_armor_trigger = yes
 				}
 				dynasty ?= dynasty:dynn_Stark
 			}
@@ -1401,9 +1398,6 @@ cloaks = {
 						CULTURE_INPUT = the_north
 					}
 				}
-				NOT = {
-					portrait_wear_ned_stark_armor_trigger = yes
-				}
 				is_character_stark_66 = yes
 			}
 		}
@@ -1431,9 +1425,6 @@ cloaks = {
 						CULTURE_INPUT = the_north
 					}
 				}
-				NOT = {
-					portrait_wear_ned_stark_armor_trigger = yes
-				}
 				is_character_stark_3 = yes
 			}
 		}
@@ -1460,9 +1451,6 @@ cloaks = {
 					portrait_high_nobles_armor_trigger = {
 						CULTURE_INPUT = the_north
 					}
-				}
-				NOT = {
-					portrait_wear_ned_stark_armor_trigger = yes
 				}
 				is_character_stark_3 = yes
 			}
