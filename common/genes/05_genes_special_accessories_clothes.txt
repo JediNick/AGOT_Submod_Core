@@ -4086,8 +4086,23 @@ special_genes = {
 			}
 
 			#AGOT Added
-			dornish_fashion = {
+			agot_northern_high_nobility = {
 				index = 209
+
+				male = {
+					1 = male_clothes_secular_western_nobility_01_high
+				}
+				female = {
+					1 = female_clothes_northern_dress_01
+					1 = female_clothes_northern_dress_01_dynastic
+				}
+				boy = male
+				girl = female
+			}
+
+			#AGOT Added
+			agot_dornish_high_nobility = {
+				index = 210
 
 				male = {
 					1 = tyroshi_scoundrel_03
@@ -4107,8 +4122,44 @@ special_genes = {
 			}
 			
 			#AGOT Added
-			fashionable_clothes = {
-				index = 210
+			agot_faith_of_the_seven_high_nobility = {
+				index = 211
+
+				male = {
+					1 = male_clothes_secular_western_nobility_01_high
+				}
+				female = {
+					1 = pious_dress_03
+					1 = pious_dress_03_dynastic
+				}
+				boy = male
+				girl = {
+					1 = pious_dress_07 #placeholder pious_dress_03
+					1 = pious_dress_07_dynastic #placeholder pious_dress_03_dynastic
+				}
+			}
+
+			#AGOT Added
+			agot_faith_of_the_seven_fashionable = {
+				index = 212
+
+				male = {
+					1 = male_clothes_secular_western_nobility_01_high
+				}
+				female = {
+					1 = pious_dress_05
+					1 = pious_dress_05_dynastic
+				}
+				boy = male
+				girl = {
+					1 = pious_dress_07 #placeholder pious_dress_03
+					1 = pious_dress_07_dynastic #placeholder pious_dress_03_dynastic
+				}
+			}
+
+			#AGOT Added
+			agot_western_fashionable = {
+				index = 213
 
 				male = {
 					0 = male_clothes_secular_western_nobility_01_high
@@ -4146,7 +4197,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_house_clothes = {
-				index = 211
+				index = 214
 
 				male = {
 					1 = male_clothes_dragonbane_doublet_02
@@ -4189,7 +4240,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_historic_characters = {
-				index = 212
+				index = 215
 
 				male = {
 					1 = male_clothes_dragonbane_doublet_02
@@ -4238,7 +4289,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_all_armors = {
-				index = 213
+				index = 216
 
 				male = {
 					1 = male_clothes_valyrian_war_02
@@ -4369,7 +4420,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_all_clothes = {
-				index = 214
+				index = 217
 
 				male = {
 					1 = male_clothes_secular_unlikely_gown_01
@@ -4595,7 +4646,7 @@ special_genes = {
 			
 			#AGOT Added
 			agot_the_blacks_faction = {
-				index = 215
+				index = 218
 
 				male = {
 					1 = male_clothes_westerland_doublet_no_cloak_blacks
@@ -4620,7 +4671,7 @@ special_genes = {
 			
 			#AGOT Added
 			agot_the_greens_faction = {
-				index = 216
+				index = 219
 
 				male = {
 					1 = male_clothes_westerland_doublet_no_cloak_greens
