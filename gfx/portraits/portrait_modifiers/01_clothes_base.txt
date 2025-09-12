@@ -3440,7 +3440,10 @@ agot_braavos_high_nobles = {
             }  
             modifier = {
 				factor = 0
-				NOT =  { is_agot_plus_loaded_trigger = yes }
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_reach_rule_on
+                }
 			}
 			modifier = {
 				factor = 0
@@ -3492,7 +3495,10 @@ agot_braavos_high_nobles = {
             }  
             modifier = {
 				factor = 0
-				NOT =  { is_agot_plus_loaded_trigger = yes }
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_reach_rule_on
+                }
 			}
 			modifier = {
 				factor = 0
@@ -3538,7 +3544,10 @@ agot_braavos_high_nobles = {
             }  
             modifier = {
 				factor = 0
-				NOT =  { is_agot_plus_loaded_trigger = yes }
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_reach_rule_on
+                }
 			}
 			modifier = {
 				factor = 0
@@ -3590,7 +3599,10 @@ agot_braavos_high_nobles = {
             }  
             modifier = {
 				factor = 0
-				NOT =  { is_agot_plus_loaded_trigger = yes }
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_reach_rule_on
+                }
 			}
 			modifier = {
 				factor = 0
@@ -3600,6 +3612,61 @@ agot_braavos_high_nobles = {
     }
 
     ## Crownlands Generic Clothes
+    asoiaf_crownlands_tunic_1_necklace = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_crownlands_tunic_1_necklace
+            }
+			accessory = {
+				mode = add
+				gene = legwear
+				template = asoiaf_all_legwears
+				accessory = male_legwear_asoiaf_leather_boots_5
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = western } 
+            modifier = {
+                add = 25
+                portrait_imperial_trigger = { 
+                    CULTURE_INPUT = western
+                }
+                highest_held_title_tier >= tier_empire #intentionally not as specific as below so it shows on death portrait
+            }
+            modifier = {
+                add = 15
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = western
+                }
+                OR = {
+					AND = { #independent king
+						highest_held_title_tier >= tier_kingdom
+						agot_is_independent_ruler = yes
+					}
+					AND = { #vassal of a higher liege, but a king via contract
+						highest_held_title_tier >= tier_kingdom
+						exists = liege
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+            }
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_crownlands_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+        }
+    }
     asoiaf_crownlands_tunic_1_high_sash = {
         dna_modifiers = {
             accessory = {
@@ -3638,7 +3705,10 @@ agot_braavos_high_nobles = {
             } 
             modifier = {
 				factor = 0
-				NOT =  { is_agot_plus_loaded_trigger = yes }
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_crownlands_rule_on
+                }
 			}
 			modifier = {
 				factor = 0
@@ -3690,7 +3760,10 @@ agot_braavos_high_nobles = {
             }  
             modifier = {
 				factor = 0
-				NOT =  { is_agot_plus_loaded_trigger = yes }
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_crownlands_rule_on
+                }
 			}
 			modifier = {
 				factor = 0
@@ -3730,7 +3803,10 @@ agot_braavos_high_nobles = {
             }
             modifier = {
 				factor = 0
-				NOT =  { is_agot_plus_loaded_trigger = yes }
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_crownlands_rule_on
+                }
 			}
 			modifier = {
 				factor = 0
@@ -3776,7 +3852,10 @@ agot_braavos_high_nobles = {
             }
             modifier = {
 				factor = 0
-				NOT =  { is_agot_plus_loaded_trigger = yes }
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_crownlands_rule_on
+                }
 			}
 			modifier = {
 				factor = 0
@@ -3822,7 +3901,10 @@ agot_braavos_high_nobles = {
             } 
             modifier = {
 				factor = 0
-				NOT =  { is_agot_plus_loaded_trigger = yes }
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_crownlands_rule_on
+                }
 			}
 			modifier = {
 				factor = 0
@@ -3874,7 +3956,171 @@ agot_braavos_high_nobles = {
             }  
             modifier = {
 				factor = 0
-				NOT =  { is_agot_plus_loaded_trigger = yes }
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_crownlands_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+        }
+    }
+
+    ## Stormlands generic clothes
+    asoiaf_stormlands_overcoat_1_high = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_stormlands_overcoat_1_high
+			}
+            accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = male_legwear_asoiaf_leather_boots_6
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = stormlander } 
+            modifier = {
+                add = 25
+                portrait_imperial_trigger = { 
+                    CULTURE_INPUT = stormlander
+                } 
+            }
+            modifier = {
+                add = 15
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = stormlander
+                } 
+            }
+            modifier = {
+                add = 10
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = stormlander
+                } 
+            }
+            modifier = {
+                add = 5
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = stormlander
+                } 
+            }  
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_stormlands_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+        }
+    }
+    asoiaf_stormlands_overcoat_1_low = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_stormlands_overcoat_1_low
+			}
+            accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = male_legwear_asoiaf_leather_boots_6
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = stormlander } 
+            modifier = {
+                add = 5
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = stormlander
+                } 
+            }
+            modifier = {
+                add = 15
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = stormlander
+                } 
+            }
+            modifier = {
+                add = 25
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = stormlander
+                } 
+            }  
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_stormlands_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+        }
+    }
+	asoiaf_stormlands_overcoat_1_coa = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_stormlands_overcoat_1_coa
+			}
+            accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = male_legwear_asoiaf_leather_boots_6
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = stormlander } 
+            modifier = {
+                add = 25
+                portrait_imperial_trigger = { 
+                    CULTURE_INPUT = stormlander
+                } 
+            }
+            modifier = {
+                add = 15
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = stormlander
+                } 
+            }
+            modifier = {
+                add = 15
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = stormlander
+                } 
+            }
+            modifier = {
+                add = 5
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = stormlander
+                } 
+            }  
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_stormlands_rule_on
+                }
 			}
 			modifier = {
 				factor = 0

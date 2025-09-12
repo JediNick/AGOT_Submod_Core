@@ -770,6 +770,7 @@ accessory_genes = {
 				1 = male_legwear_asoiaf_leather_boots_3
 				1 = male_legwear_asoiaf_leather_boots_4
 				1 = male_legwear_asoiaf_leather_boots_5
+				1 = male_legwear_asoiaf_leather_boots_6
 				1 = male_legwear_secular_asoiaf_kingsguard_default_legs #Riding Boots
 				1 = male_legwear_asoiaf_kingsguard_legs_1
 				1 = male_legwear_asoiaf_kingsguard_legs_2

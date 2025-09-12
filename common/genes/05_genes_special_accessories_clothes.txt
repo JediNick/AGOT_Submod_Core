@@ -4849,6 +4849,9 @@ special_genes = {
 
 			male = {
 				1 = male_clothes_asoiaf_stormlands_stannis_clothes_1
+				1 = male_clothes_asoiaf_stormlands_overcoat_1_high
+				1 = male_clothes_asoiaf_stormlands_overcoat_1_low
+				1 = male_clothes_asoiaf_stormlands_overcoat_1_coa
 				1 = male_clothes_asoiaf_vale_baelish_tunic_1
 				1 = male_clothes_asoiaf_vale_baelish_tunic_1_sigil
 				1 = male_clothes_asoiaf_stepstones_pirate_prince_tunic
