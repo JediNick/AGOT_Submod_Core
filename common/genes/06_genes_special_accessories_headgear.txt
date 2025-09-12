@@ -3935,7 +3935,9 @@ special_genes = {
 					1 = male_headgear_asoiaf_nights_watch_hood
 					1 = male_headgear_asoiaf_nights_watch_coif
 					1 = male_headgear_asoiaf_kingsguard_helm_default
+					1 = male_headgear_asoiaf_dragonstone_helm
 					1 = male_headgear_secular_asoiaf_north_plate_helm
+					1 = male_headgear_asoiaf_bolton_helm_low
 					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm
 					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm_open
 					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm_closed
@@ -3946,7 +3948,8 @@ special_genes = {
 					1 = male_headgear_asoiaf_tyrell_helm_low
 				}
 				female = {
-					1 = f_headgear_sec_northern_war_nob_01_lo	
+					1 = female_headgear_asoiaf_dragonstone_helm
+					1 = female_headgear_asoiaf_bolton_helm_low
 				}
 				boy = male
 				girl = female
