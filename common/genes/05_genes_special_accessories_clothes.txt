@@ -4869,6 +4869,7 @@ special_genes = {
 				1 = male_clothes_asoiaf_reach_tunic_1_coa
 				1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_sash
 				1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_no_clasps
+				1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_no_clasps_leather
 				1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_mourning
 				1 = male_clothes_asoiaf_crownlands_tunic_1_tommen
 				1 = male_clothes_asoiaf_crownlands_tunic_1_tommen_necklace
@@ -4881,6 +4882,9 @@ special_genes = {
 				1 = male_clothes_asoiaf_crownlands_tunic_1_coa
 			}
 			female = {
+				1 = female_clothes_asoiaf_westeros_dress_1_high
+				1 = female_clothes_asoiaf_westeros_dress_1_low
+				1 = female_clothes_asoiaf_westeros_dress_1_coa
 				1 = female_clothes_asoiaf_westerlands_mourning_1
 				1 = female_clothes_asoiaf_reach_gown_1
 				1 = female_clothes_asoiaf_handmaiden_dress_1

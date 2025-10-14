@@ -3968,6 +3968,205 @@ agot_braavos_high_nobles = {
         }
     }
 
+	asoiaf_westeros_dress_1_high = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = female_clothes_asoiaf_westeros_dress_1_high
+                type = female
+            }
+			accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = female_legwear_asoiaf_shoes_1
+				type = female
+            }
+            accessory = {
+                mode = add
+                gene = special_accessories_jewelry
+                template = asoiaf_generic_jewellery
+                accessory = female_jewellery_asoiaf_emerald_necklace
+				type = female
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = western } 
+            modifier = {
+                add = 15
+                portrait_imperial_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 15
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 15
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 10
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }  
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_crownlands_rule_on
+                }
+			}
+            modifier = {
+				factor = 0
+				has_character_flag = tomboy #tomboys don't wear feminine dresses
+			}
+			modifier = {
+				factor = 0
+				is_female = no #women only
+			}
+        }
+    }
+    asoiaf_westeros_dress_1_low = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = female_clothes_asoiaf_westeros_dress_1_low
+                type = female
+            }
+			accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = female_legwear_asoiaf_shoes_1
+				type = female
+            }
+            accessory = {
+                mode = add
+                gene = special_accessories_jewelry
+                template = asoiaf_generic_jewellery
+                accessory = female_jewellery_asoiaf_emerald_necklace
+				type = female
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = western } 
+            modifier = {
+                add = 5
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 10
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 20
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_crownlands_rule_on
+                }
+			}
+            modifier = {
+				factor = 0
+				has_character_flag = tomboy #tomboys don't wear feminine dresses
+			}
+			modifier = {
+				factor = 0
+				is_female = no #women only
+			}
+        }
+    }
+    asoiaf_westeros_dress_1_coa = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = female_clothes_asoiaf_westeros_dress_1_coa
+                type = female
+            }
+			accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = female_legwear_asoiaf_shoes_1
+				type = female
+            }
+            accessory = {
+                mode = add
+                gene = special_accessories_jewelry
+                template = asoiaf_generic_jewellery
+                accessory = female_jewellery_asoiaf_emerald_necklace
+				type = female
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = western } 
+            modifier = {
+                add = 15
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 15
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 15
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                } 
+            }
+            modifier = {
+                add = 10
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                } 
+            }  
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_crownlands_rule_on
+                }
+			}
+            modifier = {
+				factor = 0
+				has_character_flag = tomboy #tomboys don't wear feminine dresses
+			}
+			modifier = {
+				factor = 0
+				is_female = no #women only
+			}
+        }
+    }
+
     ## Stormlands generic clothes
     asoiaf_stormlands_overcoat_1_high = {
         dna_modifiers = {
@@ -3983,7 +4182,7 @@ agot_braavos_high_nobles = {
                 template = asoiaf_all_legwears
                 accessory = male_legwear_asoiaf_leather_boots_6
             }
-        }       
+        }
         weight = {
             base = 0
             #court_fashion_level_5_modifier = { INPUT_PARAMETER = stormlander } 
@@ -3991,26 +4190,53 @@ agot_braavos_high_nobles = {
                 add = 25
                 portrait_imperial_trigger = { 
                     CULTURE_INPUT = stormlander
-                } 
+                }
             }
             modifier = {
-                add = 15
+                add = 25
+                portrait_imperial_trigger = { 
+                    CULTURE_INPUT = riverlander
+                }
+            }
+            #
+            modifier = {
+                add = 25
                 portrait_royalty_trigger = { 
                     CULTURE_INPUT = stormlander
                 } 
             }
             modifier = {
-                add = 10
+                add = 20
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = riverlander
+                } 
+            }
+            #
+            modifier = {
+                add = 25
                 portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = stormlander
+                } 
+            }
+            modifier = {
+                add = 15
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = riverlander
+                } 
+            }
+            #
+            modifier = {
+                add = 5
+                portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = stormlander
                 } 
             }
             modifier = {
                 add = 5
                 portrait_low_nobles_clothing_trigger = { 
-                    CULTURE_INPUT = stormlander
+                    CULTURE_INPUT = riverlander
                 } 
-            }  
+            }
             modifier = {
 				factor = 0
 				NAND =  {
@@ -4049,17 +4275,37 @@ agot_braavos_high_nobles = {
                 } 
             }
             modifier = {
+                add = 5
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = riverlander
+                } 
+            }
+            #
+            modifier = {
                 add = 15
                 portrait_high_nobles_clothing_trigger = { 
                     CULTURE_INPUT = stormlander
                 } 
             }
             modifier = {
-                add = 25
+                add = 15
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = riverlander
+                }
+            }
+            #
+            modifier = {
+                add = 30
                 portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = stormlander
                 } 
-            }  
+            }
+            modifier = {
+                add = 20
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = riverlander
+                }
+            }
             modifier = {
 				factor = 0
 				NAND =  {
@@ -4098,23 +4344,50 @@ agot_braavos_high_nobles = {
                 } 
             }
             modifier = {
-                add = 15
+                add = 25
+                portrait_imperial_trigger = { 
+                    CULTURE_INPUT = riverlander
+                } 
+            }
+            #
+            modifier = {
+                add = 25
                 portrait_royalty_trigger = { 
+                    CULTURE_INPUT = stormlander
+                } 
+            }
+            modifier = {
+                add = 20
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = riverlander
+                } 
+            }
+            #
+            modifier = {
+                add = 25
+                portrait_high_nobles_clothing_trigger = { 
                     CULTURE_INPUT = stormlander
                 } 
             }
             modifier = {
                 add = 15
                 portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = riverlander
+                } 
+            }
+            #
+            modifier = {
+                add = 5
+                portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = stormlander
                 } 
             }
             modifier = {
                 add = 5
                 portrait_low_nobles_clothing_trigger = { 
-                    CULTURE_INPUT = stormlander
+                    CULTURE_INPUT = riverlander
                 } 
-            }  
+            }
             modifier = {
 				factor = 0
 				NAND =  {

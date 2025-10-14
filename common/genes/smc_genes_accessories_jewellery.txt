@@ -304,6 +304,7 @@
 				}
 				female = {
 					1 = female_jewellery_asoiaf_shark_tooth_necklace
+					1 = female_jewellery_asoiaf_emerald_necklace
 				}
 				boy = male
 				girl = female
@@ -324,5 +325,6 @@
 
 	}
 }
+
 
 
