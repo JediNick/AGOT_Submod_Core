@@ -47,9 +47,14 @@
 	
 	add_accessory_modifiers = {
 		gene = cloaks
+		template = andal_wedding_cloak
+	}
+	
+	add_accessory_modifiers = {
+		gene = cloaks
 		template = agot_historic_capes
 	}
-
+	
 	### AGOT Submod Core ###
 	add_accessory_modifiers = {
 		gene = cloaks

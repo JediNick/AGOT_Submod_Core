@@ -258,7 +258,7 @@
         }
     }
 
-    # Hajj / Ihram
+	# # Hajj / Ihram
     #AGOT Disabled
     # ep2_religious_muslim_hajj_clothes = {
     #     dna_modifiers = {
@@ -312,7 +312,7 @@
     # }
 
     #AGOT Disabled
-    # Pope/Cardinal Larper event
+	# # Pope/Cardinal Larper event
     # pope_larper = {
     #     dna_modifiers = {
     #         accessory = {

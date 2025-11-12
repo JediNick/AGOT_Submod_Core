@@ -150,6 +150,11 @@ custom_special_masks = {
 		template = agot_disfigured_bandage
 	}
 	
+#	add_accessory_modifiers = {
+#		gene = special_headgear_face_mask
+#		template = tgp_chinese_face_mask
+#	}
+	
 	#SUBMOD CORE ##
 	add_accessory_modifiers = {
 		gene = special_headgear_face_mask_viserys

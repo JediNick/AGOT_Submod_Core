@@ -25,6 +25,7 @@ special_genes = {
 			all_headgear = {
 				index = 1
 				male = {
+					1 = m_headgear_sec_tgp_chinese_nob_01
 					1 = m_headgear_sec_ep3_byzantine_era1_nob_01
 					1 = male_headgear_secular_western_common_01
 					1 = male_headgear_secular_western_common_02
@@ -184,6 +185,19 @@ special_genes = {
 					1 = m_headgear_sec_pol_era1_war_nob_01
 					1 = m_headgear_sec_pol_era3_war_nob_01
 					1 = m_headgear_sec_pol_era4_war_nob_01
+					# TGP #
+					1 = m_headgear_sec_tgp_chinese_war_nob_02
+					1 = m_headgear_sec_tgp_chinese_com_01
+					1 = m_headgear_sec_tgp_chinese_com_02
+					1 = m_headgear_sec_tgp_japanese_roy_01
+					1 = m_headgear_sec_tgp_japanese_imp_01
+					1 = m_headgear_sec_tgp_japanese_nob_01
+					1 = m_headgear_sec_tgp_japanese_war_nob_01
+					1 = m_headgear_rel_tgp_shinto_priest
+					1 = m_headgear_sec_tgp_southeast_nob_01
+					1 = m_headgear_sec_tgp_korean_imp_01
+
+
 				}
 
 				female = {
@@ -345,6 +359,15 @@ special_genes = {
 					1 = f_headgear_sec_mpo_mongol_nob_01
 					1 = f_headgear_sec_mpo_mongol_nob_02
 					1 = f_headgear_sec_mpo_mongol_war_nob_01
+
+					#TGP
+					1 = f_headgear_sec_tgp_chinese_hi_nob_01
+					1 = f_headgear_sec_tgp_chinese_hi_nob_02
+					1 = f_headgear_sec_tgp_chinese_roy_01
+					1 = f_headgear_sec_tgp_chinese_war_nob_02
+					1 = f_headgear_sec_tgp_chinese_imp_01
+					1 = f_headgear_sec_tgp_southeast_nob_01
+
 
 				}
 
@@ -2904,10 +2927,337 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			## TGP ##
+
+			tgp_chinese_imperial = {
+				index = 183
+				male = {
+				    1 = m_headgear_sec_tgp_chinese_imp_02
+				}
+				female = {
+					1 = f_headgear_sec_tgp_chinese_imp_01
+				}
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_era2_imperial = { # Tongtianguan crown of Song era
+				index = 184
+				male = {
+					1 = m_headgear_sec_tgp_chinese_imp_01
+				}
+				female = {
+					1 = f_headgear_sec_tgp_chinese_imp_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			tgp_chinese_era1_war_nobility = {
+				index = 185
+				male = {
+				    1 = m_headgear_sec_tgp_chinese_war_nob_01_lo
+				    1 = m_headgear_sec_tgp_chinese_war_nob_01_hi
+				}
+				female = {
+					1 = f_headgear_sec_tgp_chinese_war_nob_01_lo
+				    1 = f_headgear_sec_tgp_chinese_war_nob_01_hi
+				}
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_era2_war_nobility = {
+				index = 186
+				male = {
+				    2 = m_headgear_sec_tgp_chinese_war_nob_02
+				    1 = m_headgear_sec_tgp_chinese_war_nob_02_mask
+				}
+				female = {
+					2 = f_headgear_sec_tgp_chinese_war_nob_02
+				}
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_era1_nobility = { # Tang Dynasty
+				index = 187
+				male = {
+					1 = m_headgear_sec_tgp_chinese_hi_nob_01
+				}
+				female = {
+
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_era2_nobility = { # Song Dynasty
+				index = 188
+				male = {
+					1 = m_headgear_sec_tgp_chinese_nob_01
+					1 = m_headgear_sec_tgp_chinese_nob_02
+				}
+				female = {
+
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_high_nobility = {
+				index = 189
+				male = {
+					1 = m_headgear_sec_tgp_chinese_nob_01
+					1 = m_headgear_sec_tgp_chinese_nob_02
+				}
+				female = {
+					1 = f_headgear_sec_tgp_chinese_hi_nob_01
+					1 = f_headgear_sec_tgp_chinese_hi_nob_02
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_commoner = {
+				index = 190
+				male = {
+					1 = m_headgear_sec_tgp_chinese_com_01
+					1 = m_headgear_sec_tgp_chinese_com_02
+				}
+				female = {
+
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_chinese_royalty = {
+				index = 191
+				male = {
+					1 = m_headgear_sec_tgp_chinese_roy_01
+				}
+				female = {
+					1 = f_headgear_sec_tgp_chinese_roy_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_royalty = {
+				index = 192
+				male = {
+					1 = m_headgear_sec_tgp_japanese_roy_01
+				}
+				female = {
+				#	1 = f_headgear_sec_tgp_chinese_roy_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_imperial = {
+				index = 193
+				male = {
+					#1 = m_headgear_sec_tgp_japanese_imp_01
+					1 = m_headgear_sec_tgp_japanese_imp_02
+				}
+				female = {
+				#	1 = f_headgear_sec_tgp_japanese_imp_01
+				}
+
+				boy = male
+				girl = female
+
+			}	
+
+			tgp_shinto_priest = {
+				index = 194
+				male = {
+					1 = m_headgear_rel_tgp_shinto_priest
+				}
+				female = {
+					1 = f_headgear_rel_tgp_shinto_priest
+				}
+
+				boy = male
+				girl = female
+			
+			}
+
+			tgp_japanese_war_nobility = {
+				index = 195
+				male = {
+					1 = m_headgear_sec_tgp_japanese_war_nob_01
+					1 = m_headgear_sec_tgp_japanese_war_nob_02_lo
+				}
+				female = {
+					1 = f_headgear_sec_tgp_japanese_war_nob_01
+					1 = f_headgear_sec_tgp_japanese_war_nob_02_lo
+
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_war_high_nobility = {
+				index = 196
+				male = {
+					1 = m_headgear_sec_tgp_japanese_war_nob_02_hi
+				}
+				female = {
+					1 = f_headgear_sec_tgp_japanese_war_nob_02_hi
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_high_nobility = {
+				index = 197
+				male = {
+					1 = m_headgear_sec_tgp_japanese_nob_01
+				}
+				female = {
+					#1 = f_headgear_sec_tgp_japanese_nob_01
+
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_nobility = {
+				index = 198
+				male = {
+					1 = m_headgear_sec_tgp_japanese_war_nob_01
+				}
+				female = {
+				#	1 = m_headgear_sec_tgp_japanese_war_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_commoner = {
+				index = 199
+				male = {
+					1 = m_headgear_sec_tgp_japanese_com_01
+				}
+				female = {
+				#	1 = f_headgear_sec_tgp_japanese_com_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_southeast_nobility = {
+				index = 200
+				male = {
+					1 = m_headgear_sec_tgp_southeast_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_tgp_southeast_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_korean_imperial = {
+				index = 201
+				male = {
+					1 = m_headgear_sec_tgp_korean_imp_01
+				}
+				female = {
+				#	1 = f_headgear_sec_tgp_southeast_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_japanese_shogun = {
+				index = 202
+				male = {
+					1 = m_headgear_sec_tgp_japanese_imp_01
+				}
+				female = {
+				#	1 = f_headgear_sec_tgp_japanese_imp_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_korean_nobility = {
+				index = 203
+				male = {
+					1 = m_headgear_sec_tgp_korean_nob_01
+				}
+				female = {
+				#	1 = f_headgear_sec_tgp_southeast_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_southeast_royal = {
+				index = 204
+				male = {
+					1 = male_headgear_secular_ep1_indian_royalty_01
+				}
+				female = {
+					1 = f_headgear_sec_tgp_southeast_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_southeast_imperial = {
+				index = 205
+				male = {
+					1 = male_headgear_secular_ep1_diamond_crown
+				}
+				female = {
+					1 = f_headgear_sec_tgp_southeast_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			tgp_ainu_commoner = {
+				index = 206
+				male = {
+					2 = empty
+					1 = m_headgear_sec_tgp_chinese_com_01
+					1 = male_headgear_secular_fp1_common_02
+				}
+				female = {
+					1 = empty
+					1 = female_headgear_secular_fp1_common_01
+					1 = female_headgear_secular_northern_common_01
+				}
+
+				boy = male
+				girl = female
+			}
 
 			#AGOT Added
 			Vale_Helm_3 = {
-				index = 181
+				index = 207
 				male = {
 					1 = male_headgear_secular_vale_war_03
 				}
@@ -2920,7 +3270,7 @@ special_genes = {
 
 			#AGOT Added
 			Reach_Helm_3 = {
-				index = 182
+				index = 208
 				male = {
 					1 = male_headgear_secular_reach_tyrell_war_03
 					1 = male_headgear_secular_reach_war_03
@@ -2935,7 +3285,7 @@ special_genes = {
 
 			#AGOT Added
 			Valyrian_Helm_4 = {
-				index = 183
+				index = 209
 				male = {
 					1 = male_headgear_secular_valyrian_war_04
 				}
@@ -2948,7 +3298,7 @@ special_genes = {
 
 			#AGOT Added
 			Kingsguard_Helm_1 = {
-				index = 184
+				index = 210
 				male = {
 					1 = male_headgear_secular_kingsguard_war_01
 					1 = male_headgear_secular_kingsguard_war_02
@@ -2962,7 +3312,7 @@ special_genes = {
 
 			#AGOT Added
 			Valyrian_Helm_3 = {
-				index = 185
+				index = 211
 				male = {
 					1 = male_headgear_secular_valyrian_targaryen_war_03
 					1 = male_headgear_secular_valyrian_blackfyre_war_03
@@ -2985,7 +3335,7 @@ special_genes = {
 
 			#AGOT Added
 			Stormlands_Helm_4= {
-				index = 186
+				index = 212
 				male = {
 					1 = male_headgear_secular_stormlands_war_04
 				}
@@ -2998,7 +3348,7 @@ special_genes = {
 
 			#AGOT Added
 			Stormlands_Helm_3= {
-				index = 187
+				index = 213
 				male = {
 					1 = male_headgear_secular_stormlands_war_03
 				}
@@ -3011,7 +3361,7 @@ special_genes = {
 
 			#AGOT Added
 			Dorne_Helm_3= {
-				index = 188
+				index = 214
 				male = {
 					1 = male_headgear_secular_dorne_martell_war_03
 					1 = male_headgear_secular_dorne_copper_war_03
@@ -3031,7 +3381,7 @@ special_genes = {
 			}
 
 			Special_Helms_1 = {
-				index = 189
+				index = 215
 				male = {
 					1 = male_headgear_secular_royce_war_03
 					1 = male_headgear_secular_bolton_war_01
@@ -3046,7 +3396,7 @@ special_genes = {
 
 			#AGOT Added
 			stepstones_pirate_hats = {
-				index = 190
+				index = 216
 				male = {
 					1 = saan_pirate_hat
 					1 = saan_pirate_hat_dynastic
@@ -3067,7 +3417,7 @@ special_genes = {
 
 			#AGOT Added
 			highsepton_1 = {
-				index = 191
+				index = 217
 				male = {
 					1 = highsepton_1
 				}
@@ -3080,7 +3430,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_crowns = {
-				index = 192
+				index = 218
 				male = {
 					1 = aegonIcrown
 					1 = rhaenys_circlet
@@ -3272,7 +3622,7 @@ special_genes = {
 			}
 
 			agot_bookmark_crowns = {
-				index = 193
+				index = 219
 				male = {
 					1 = aegonIcrown
 					1 = aenysIcrown
@@ -3331,7 +3681,7 @@ special_genes = {
 
 			#AGOT Added
 			iron_isles_crowns = {
-				index = 194
+				index = 220
 				male = {
 					1 = ironislescrown
 					1 = driftwoodcrown1
@@ -3346,7 +3696,7 @@ special_genes = {
 
 			#AGOT Added
 			westerlands_crowns = {
-				index = 195
+				index = 221
 				male = {
 					1 = westerlandscrown
 					1 = westerlands2crown
@@ -3361,7 +3711,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_qolab = {
-				index = 196
+				index = 222
 				male = {
 					1 = qolab_crown_01
 					1 = qolab_crown_02
@@ -3389,7 +3739,7 @@ special_genes = {
 			}
 
 			agot_most_headgears = {
-				index = 197
+				index = 223
 				male = {
 					1 = braavosi_hat_01_low
 					1 = braavosi_hat_01
@@ -3474,14 +3824,17 @@ special_genes = {
 					1 = female_reach_hood_02e
 					1 = female_reach_hood_02f
 					1 = female_reach_hood_02g
+					1 = naerys_hood_01
+					1 = naerys_hood_02
+					1 = naerys_hood_03
 				}
 				boy = male
 				girl = female
 			}
-			
+
 			#AGOT Added
 			westerlands_war = {
-				index = 198
+				index = 224
 				male = {
 					1 = male_headgear_secular_westerlands_tywin_war
 					1 = male_headgear_secular_westerlands_jimothy_war
@@ -3494,10 +3847,10 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			#AGOT Added
 			Dorne_Helm_3_Dynamic = {
-				index = 199
+				index = 225
 				male = {
 					1 = male_headgear_secular_dorne_war_03
 					1 = male_headgear_secular_dorne_war_04
@@ -3512,7 +3865,7 @@ special_genes = {
 
 			#AGOT Added
 			Dorne_Helm_3_Copper_Dynamic = {
-				index = 200
+				index = 226
 				male = {
 					1 = male_headgear_secular_dorne_copper_war_03
 					1 = male_headgear_secular_dorne_copper_war_04
@@ -3527,7 +3880,7 @@ special_genes = {
 
 			#AGOT Added
 			Dorne_Helm_3_Martell_Dynamic = {
-				index = 201
+				index = 227
 				male = {
 					1 = male_headgear_secular_dorne_martell_war_03
 					1 = male_headgear_secular_dorne_martell_war_04
@@ -3539,10 +3892,10 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			#AGOT Added
 			Riverlands_Helm_3 = {
-				index = 202
+				index = 228
 				male = {
 					1 = male_headgear_secular_riverlands_war_03
 				}
@@ -3555,7 +3908,7 @@ special_genes = {
 
 			#AGOT Added
 			Vale_Helm_4 = {
-				index = 203
+				index = 229
 				male = {
 					1 = male_headgear_secular_vale_war_04
 				}
@@ -3566,10 +3919,11 @@ special_genes = {
 				girl = female
 			}
 
+
 			##ADD ALL SUBMOD CORE BELOW THIS POINT!!!!
 			#New Westeros Crowns
 			crowns_of_westeros = {
-				index = 222
+				index = 239
 				male = {
 					1 = crown_of_goldengrove
 					1 = crown_of_stone_hedge
@@ -3823,7 +4177,7 @@ special_genes = {
 			}			
 			
 			canon_queens = {
-				index = 223
+				index = 240
 				male = {
 					1 = alyssavelaryon_crown
 					1 = rhaenatargaryen_crown
@@ -3849,7 +4203,7 @@ special_genes = {
 			}
 
 			KG_war_common = {
-				index = 224
+				index = 241
 				male = {
 					1 = male_headgear_secular_western_KG_helmet_01
 					1 = male_headgear_secular_western_KG_helmet_02
@@ -3871,7 +4225,7 @@ special_genes = {
 			}
 			
 			aegon_crown_gems = { # For commoners to use, non-gilded version only
-				index = 225
+				index = 242
 				male = {
 					1 = male_aegoncrown_01
 				}
@@ -3884,7 +4238,7 @@ special_genes = {
 			}
 
 			aegon_crown_no_gems = { # For commoners to use, non-gilded version only
-				index = 226
+				index = 243
 				male = {
 					1 = male_aegoncrown_02
 				}
@@ -3897,7 +4251,7 @@ special_genes = {
 			}
 
 			viserys_crown = {
-				index = 227
+				index = 244
 				male = {
 					1 = male_viserys_crown_01
 				}
@@ -3910,7 +4264,7 @@ special_genes = {
 			}
 
 			asoiaf_crowns = { #AGOT+ added
-				index = 228
+				index = 245
 				male = {
 					1 = male_headgear_secular_asoiaf_crown_aerys_II
 					1 = male_headgear_secular_asoiaf_crown_robert_I
@@ -3930,7 +4284,7 @@ special_genes = {
 			}
 			
 			asoiaf_all_helms = { #AGOT+ added
-				index = 229
+				index = 246
 				male = {
 					1 = male_headgear_asoiaf_nights_watch_hood
 					1 = male_headgear_asoiaf_nights_watch_coif
@@ -3956,7 +4310,7 @@ special_genes = {
 			}
 			
 			asoiaf_lannister_plate_helm = { #AGOT+ added
-				index = 230
+				index = 247
 				male = {
 					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm
 					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm_open
@@ -3970,7 +4324,7 @@ special_genes = {
 			}
 
 			asoiaf_gold_cloak_helms = { #AGOT+ added
-				index = 231
+				index = 248
 				male = {
 					1 = male_headgear_asoiaf_crownlands_gold_cloak_helm_1
 					1 = male_headgear_asoiaf_crownlands_gold_cloak_helm_2
@@ -3984,7 +4338,7 @@ special_genes = {
 			}
 
 			asoiaf_unique_headgears = { #AGOT+ added
-				index = 232
+				index = 249
 				male = {
 					1 = empty
 				}
@@ -3996,7 +4350,7 @@ special_genes = {
 			}
 
 			asoiaf_fots_religious_headgears = { #AGOT+ added
-				index = 233
+				index = 250
 				male = {
 					1 = empty
 				}
@@ -4009,7 +4363,7 @@ special_genes = {
 			}
 
 			asoiaf_nights_watch_headgears = { #AGOT+ added
-				index = 234
+				index = 251
 				male = {
 					3 = empty
 					2 = male_headgear_asoiaf_nights_watch_hood
@@ -4023,7 +4377,7 @@ special_genes = {
 			}
 
 			tgc_helmets = { #TGC Added
-				index = 235
+				index = 252
 				male = {
 					3 = male_headgear_tgc_helm_01
 					3 = male_headgear_tgc_helm_02
@@ -4037,7 +4391,7 @@ special_genes = {
 			}
 
 			tgc_helmets_black = { #TGC Added
-				index = 236
+				index = 253
 				male = {
 					3 = male_headgear_tgc_helm_black_01
 					3 = male_headgear_tgc_helm_black_02
@@ -4052,7 +4406,7 @@ special_genes = {
 
 			
 			tgc_helmets_blackfyre = { #TGC Added
-				index = 237
+				index = 254
 				male = {
 					3 = male_headgear_tgc_helm_blackfyre_01
 					3 = male_headgear_tgc_helm_blackfyreAlt_01
@@ -4069,7 +4423,7 @@ special_genes = {
 			}
 
 			tgc_helmets_chains = {
-				index = 238
+				index = 255
 				male = {
 					1 = male_headgear_chains_headgear
 				}

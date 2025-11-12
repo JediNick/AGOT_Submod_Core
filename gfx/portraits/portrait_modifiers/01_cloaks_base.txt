@@ -1182,7 +1182,7 @@ cloaks = {
 			modifier = {
 				add = 500
 				portrait_wear_armor_trigger = yes
-				dynasty ?= dynasty:dynn_Stark
+				house ?= dynasty:dynn_Stark.dynasty_founder.house
 			}
 			}
 		}
@@ -1371,7 +1371,7 @@ cloaks = {
 						CULTURE_INPUT = the_north
 					}
 				}
-				dynasty ?= dynasty:dynn_Stark
+				house ?= dynasty:dynn_Stark.dynasty_founder.house
 			}
 		}
 	}

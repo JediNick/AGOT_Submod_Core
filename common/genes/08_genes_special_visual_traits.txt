@@ -1569,6 +1569,46 @@ special_genes = {
 				boy = male
 				girl = male
 			}
+			agot_disfigured_5 = {
+				index = 4
+				male = {
+					setting = {
+						attribute = "bs_head_disfigured_5"
+						value = 1
+					}
+					decal = {
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/visual_traits/disfigured_decals/male_disfigured_2_decals/male_head_disfigured_2_diffuse.dds"
+							normal = "gfx/models/portraits/decals/visual_traits/disfigured_decals/male_disfigured_2_decals/male_head_disfigured_2_normal.dds"
+							properties = "gfx/models/portraits/decals/visual_traits/disfigured_decals/male_disfigured_2_decals/male_head_disfigured_2_properties.dds"
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = replace						normal = overlay
+						properties = multiply
+						}
+						# age = {
+						# 	mode = multiply
+						# 	curve = {
+						# 		{ 0.0 0.0 }
+						# 		{ 0.38 0.0 }
+						# 		{ 0.7 0.8 }
+						# 	}
+						# }
+						priority = 13
+						decal_apply_order = pre_skin_color # pre_skin_color | post_skin_color
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 0.1  0.9 }
+							{ 1.0  1.0 }
+						}
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
 		}
 
 		pose = { # Keeping this gene because the game expects it to be there
@@ -1691,6 +1731,17 @@ special_genes = {
 				girl = female
 			}
 
+			tgp_chinese_face_mask = {
+				index = 6
+				male = {
+					1 = m_headgear_sec_tgp_chinese_face_mask
+				}
+				female = {
+					100 = female_headgear_special_face_mask_01
+				}
+				boy = male
+				girl = female
+			}
 		}
 
 		special_headgear_spectacles = {

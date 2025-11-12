@@ -22,6 +22,13 @@ accessory_genes = {
 				1 = m_legwear_sec_ep2_western_era4_war_nob_02
 				1 = m_legwear_sec_afr_common_01
 				1 = m_legwear_sec_pol_common_01
+				1 = m_legwear_sec_tgp_chinese_com_01
+				1 = m_legwear_sec_tgp_chinese_war_nob_02
+				1 = m_legwear_sec_tgp_japanese_com_01
+				1 = m_legwear_sec_tgp_japanese_war_nob_01
+				1 = m_legwear_sec_tgp_japanese_imp_01
+
+
 			}
 			female = {
 				1 = female_legwear_secular_western_common_01
@@ -34,6 +41,8 @@ accessory_genes = {
 				1 = f_legwear_sec_ep2_western_era4_war_nob_02
 				1 = f_legwear_sec_afr_common_01
 				1 = f_legwear_sec_pol_common_01
+				1 = f_legwear_sec_tgp_chinese_war_nob_02
+				1 = f_legwear_sec_tgp_japanese_war_nob_01
 			}
 			boy = male
 			girl = female
@@ -234,10 +243,88 @@ accessory_genes = {
 			girl = female
 		}
 
-		#AGOT Added
-
-		ironborn_war_legwear = {
+		tgp_chinese_war_legwear = {
 			index = 17
+			male = {
+				1 = m_legwear_sec_tgp_chinese_war_nob_01
+				1 = m_legwear_sec_tgp_chinese_war_nob_02
+			}
+			female = {
+				1 = f_legwear_sec_tgp_chinese_war_nob_01
+				1 = f_legwear_sec_tgp_chinese_war_nob_02
+			}
+			boy = male
+			girl = female
+		}
+
+		tgp_chinese_commoner_legwear = {
+			index = 18
+			male = {
+				1 = m_legwear_sec_tgp_chinese_com_01
+			}
+			female = {
+				1 = f_legwear_sec_tgp_chinese_com_01
+			}
+			boy = male
+			girl = female
+
+		}
+
+		tgp_chinese_nobility_legwear = {
+			index = 19
+			male = {
+				1 = m_legwear_sec_tgp_chinese_nob_01
+				1 = m_legwear_sec_tgp_chinese_nob_02
+			}
+			female = {
+				1 = f_legwear_sec_tgp_chinese_nob_01
+				1 = f_legwear_sec_tgp_chinese_nob_02
+			}
+			boy = male
+			girl = female
+
+		}
+
+		tgp_japanese_commoner_legwear = {
+			index = 20
+			male = {
+				1 = m_legwear_sec_tgp_japanese_com_01
+			}
+			female = {
+				1 = f_legwear_sec_tgp_japanese_com_01
+			}
+			boy = male
+			girl = female
+
+		}
+
+		tgp_japanese_war_legwear = {
+			index = 21
+			male = {
+				1 = m_legwear_sec_tgp_japanese_war_nob_01
+			}
+			female = {
+				1 = f_legwear_sec_tgp_japanese_war_nob_01
+			}
+			boy = male
+			girl = female
+		}
+
+		tgp_japanese_imperial_legwear = {
+			index = 22
+			male = {
+				1 = m_legwear_sec_tgp_japanese_imp_01
+			}
+			female = {
+			#	1 = f_legwear_sec_tgp_chinese_war_nob_01
+			}
+			boy = male
+			girl = female
+		}
+
+		#AGOT Added
+		ironborn_war_legwear = {
+			index = 23
 			male = {
 				1 = male_legwear_secular_ironborn_war_03
 				1 = male_legwear_secular_ironborn_greyjoy_war_03
@@ -251,7 +338,7 @@ accessory_genes = {
 		}
 
 		dornish_war_legwear = {
-			index = 18
+			index = 24
 			male = {
 				1 = male_legwear_secular_dornish_war_03
 				1 = male_legwear_secular_dornish_martell_war_03
@@ -265,7 +352,7 @@ accessory_genes = {
 		}
 
 		vale_war_legwear = {
-			index = 19
+			index = 25
 			male = {
 				1 = male_legwear_secular_vale_war_02
 				1 = male_legwear_secular_vale_war_dynastic_02
@@ -281,7 +368,7 @@ accessory_genes = {
 		}
 
 		north_war_legwear = {
-			index = 20
+			index = 26
 			male = {
 				1 = male_legwear_secular_north_war_03
 				1 = male_legwear_secular_north_stark_war_03
@@ -295,7 +382,7 @@ accessory_genes = {
 		}
 
 		stormlands_war_legwear = {
-			index = 21
+			index = 27
 			male = {
 				1 = male_legwear_secular_stormlands_war_02
 				1 = male_legwear_secular_stormlands_war_dynastic_02
@@ -313,7 +400,7 @@ accessory_genes = {
 		}
 
 		female_legwear_secular_fp1_common_edited_01 = {
-			index = 22
+			index = 28
 			male = {
 				1 = empty
 			}
@@ -322,7 +409,7 @@ accessory_genes = {
 			}
 		}
 		royce_war_03_legwear = {
-			index = 23
+			index = 29
 			male = {
 				1 = male_legwear_special_royce_war_03
 			}
@@ -333,7 +420,7 @@ accessory_genes = {
 			girl = female
 		}
 		high_valyrian_war_legwear = {
-			index = 24
+			index = 30
 			male = {
 				1 = male_legwear_secular_valyrian_war_04
 			}
@@ -344,7 +431,7 @@ accessory_genes = {
 			girl = female
 		}
 		maester_legwear = {
-			index = 25
+			index = 31
 			male = {
 				1 = male_legwear_maester_skirt_01
 				1 = male_legwear_northernmaester_skirt_01
@@ -358,7 +445,7 @@ accessory_genes = {
 			girl = female
 		}
 		dragon_prince_legwear = {
-			index = 26
+			index = 32
 			male = {
 				1 = male_legwear_dragon_prince01
 				1 = male_legwear_dragon_prince02
@@ -373,7 +460,7 @@ accessory_genes = {
 			girl = female
 		}
 		agot_boots_legwear = {
-			index = 27
+			index = 33
 			male = {
 				1 = male_legwear_dragon_prince02
 				1 = male_legwear_stormlander_boots_01
@@ -388,7 +475,7 @@ accessory_genes = {
 			girl = female
 		}
 		agot_trousers = {
-			index = 28
+			index = 34
 			male = {
 				1 = male_legwear_secular_agot_trousers_01
 				1 = male_legwear_secular_agot_trousers_black_01
@@ -403,7 +490,7 @@ accessory_genes = {
 			girl = female
 		}
 		stormlands_war_04_legwear = {
-			index = 29
+			index = 35
 			male = {
 				1 = male_legwear_secular_stormlands_war_04
 			}
@@ -414,7 +501,7 @@ accessory_genes = {
 			girl = female
 		}
 		maelys_war_legwear = {
-			index = 30
+			index = 36
 			male = {
 				1 = male_legwear_secular_valyrian_war_05
 			}
@@ -425,18 +512,19 @@ accessory_genes = {
 			girl = female
 		}
 		free_city_sandals = {
-			index = 31
+			index = 37
 			male = {
 				1 = male_essosi_sandals
 			}
 			female = {
 				1 = female_legwear_sandals
+				1 = female_essosi_sandals
 			}
 			boy = male
 			girl = female
 		}
 		valyrian_steel_armor_legwear = {
-			index = 32
+			index = 38
 			male = {
 				1 = male_legwear_secular_valyrian_steel_armor_01
 			}
@@ -447,7 +535,7 @@ accessory_genes = {
 			girl = female
 		}
 		lydden_war_01_legwear = {
-			index = 33
+			index = 39
 			male = {
 				1 = male_legwear_secular_lydden_war_01
 				1 = male_legwear_secular_lydden_war_dynastic_01
@@ -459,7 +547,7 @@ accessory_genes = {
 			girl = female
 		}
 		special_war_01_legwear = {
-			index = 34
+			index = 40
 			male = {
 				1 = male_legwear_secular_rowan_war_01
 				1 = male_legwear_secular_osgrey_war_01
@@ -476,7 +564,7 @@ accessory_genes = {
 			girl = female
 		}
 		agot_all_legwear = {
-			index = 35
+			index = 41
 			male = {
 				1 = male_legwear_dragon_prince01
 				1 = male_legwear_dragon_prince03
@@ -550,6 +638,7 @@ accessory_genes = {
 				1 = female_legwear_secular_agot_trousers_black_01
 				1 = female_legwear_secular_agot_trousers_dynastic_01
 				1 = female_legwear_sandals
+				1 = female_essosi_sandals
 				1 = female_legwear_special_dragon_rider_01
 				1 = female_legwear_special_dragon_rider_dynastic_01
 				1 = female_legwear_special_dragon_rider_dynastic_alt_01
@@ -599,7 +688,7 @@ accessory_genes = {
 			girl = female
 		}
 		dragon_rider_legwear = {
-			index = 36
+			index = 42
 			male = {
 				1 = male_legwear_special_dragon_rider_01
 				1 = male_legwear_special_dragon_rider_dynastic_01
@@ -615,7 +704,7 @@ accessory_genes = {
 		}
 
 		riverlands_war_legwear = {
-			index = 37
+			index = 43
 			male = {
 				1 = male_legwear_secular_riverlands_war_03
 			}
@@ -627,7 +716,7 @@ accessory_genes = {
 		}
 
 		reach_war_legwear = {
-			index = 38
+			index = 44
 			male = {
 				1 = male_legwear_secular_reach_war_02
 				1 = male_legwear_secular_reach_war_dynastic_02
@@ -645,7 +734,7 @@ accessory_genes = {
 		}
 
 		valyrian_war_legwear = {
-			index = 39
+			index = 45
 			male = {
 				1 = male_legwear_secular_valyrian_war_02
 				1 = male_legwear_secular_valyrian_war_blackfyre_02
@@ -671,7 +760,7 @@ accessory_genes = {
 		}
 
 		kingsguard_war_01_legwear = {
-			index = 40
+			index = 46
 			male = {
 				1 = male_legwear_special_kingsguard_war_01
 			}
@@ -683,7 +772,7 @@ accessory_genes = {
 		}
 
 		westerlands_war_legwear = {
-			index = 41
+			index = 47
 			male = {
 				1 = male_legwear_secular_westerlands_war_02
 				1 = male_legwear_secular_westerlands_war_03
@@ -704,7 +793,7 @@ accessory_genes = {
 		}
 
 		stone_dornish_war_legwear = {
-			index = 42
+			index = 48
 			male = {
 				1 = male_legwear_secular_stone_dornish_war_03
 			}
@@ -716,7 +805,7 @@ accessory_genes = {
 		}
 		
 		free_cities_war_legwear = {
-			index = 43
+			index = 49
 			male = {
 				1 = male_legwear_secular_braavos_war_01
 				1 = male_legwear_secular_braavos_war_dynastic_01
@@ -778,7 +867,7 @@ accessory_genes = {
 				1 = male_legwear_secular_asoiaf_north_war_plate_legs
 				1 = male_legwear_asoiaf_bolton_legs
 				1 = male_legwear_secular_asoiaf_lannister_war_plate_2_legs
-				1 = male_legwear_asoiaf_crownlands_gold_cloak_legs
+				1 = male_legwear_asoiaf_gold_cloak_legs
 				1 = male_legwear_asoiaf_tyrell_legs
 				1 = male_legwear_asoiaf_greyjoy_legs
 				1 = male_legwear_asoiaf_ironborn_legs_coa
@@ -789,6 +878,7 @@ accessory_genes = {
 				1 = female_legwear_asoiaf_shoes_1
 				1 = female_legwear_asoiaf_dragonstone_legs
 				1 = female_legwear_asoiaf_bolton_legs
+				1 = female_legwear_asoiaf_gold_cloak_legs
 			}
 			boy = male
 			girl = female
@@ -818,22 +908,10 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-
-		asoiaf_gold_cloak_legs = { #AGOT+ added
-			index = 95
-			male = {
-				1 = male_legwear_asoiaf_crownlands_gold_cloak_legs
-			}
-			female = {
-				1 = female_legwear_secular_fp1_common_01 #female_legwear_asoiaf_crownlands_gold_cloak_legs
-			}
-			boy = male
-			girl = female
-		}
 		
 		##TGC ADDED		
 		tgc_pants = {
-			index = 96
+			index = 95
 			male = {
 				1 = male_legwear_captainsPants_01
 				1 = male_legwear_standardPants_01
@@ -848,7 +926,7 @@ accessory_genes = {
 		}
 
 		tgc_pants_black = {
-			index = 97
+			index = 96
 			male = {
 				1 = male_legwear_captainsPants_black_01
 				1 = male_legwear_standardPants_black_01
@@ -861,7 +939,7 @@ accessory_genes = {
 			girl = female
 		}
 		tgc_pants_blackfyre = {
-			index = 98
+			index = 97
 			male = {
 				1 = male_legwear_captainsPants_blackfyre_01
 				1 = male_legwear_captainsPants_blackfyreAlt_01
@@ -1585,8 +1663,22 @@ accessory_genes = {
 			girl = female
 		}
 
-		agot_all_fp1_cloaks = {
+		andal_wedding_cloak = {
 			index = 48
+			male = {
+				0 = empty
+			}
+			female = {
+				1 = andal_wedding_cloak
+			}
+			boy = male
+			girl = {
+				0 = empty
+			}
+		}
+
+		agot_all_fp1_cloaks = {
+			index = 49
 			male = {
 				1 = m_cloaks_secular_fp1_agot_northern_nw_01
 				1 = m_cloaks_secular_fp1_agot_northern_nw_02
@@ -1608,7 +1700,7 @@ accessory_genes = {
 		}
 
 		agot_all_ep1_cloaks = {
-			index = 49
+			index = 50
 			male = {
 				1 = kingsguard_cloak_01
 				1 = male_cloaks_secular_armorcape_01
@@ -1677,21 +1769,9 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-
-		asoiaf_gold_cloak_cloaks = { #AGOT+ Added
-			index = 92
-			male = {
-				1 = male_cloak_asoiaf_crownlands_gold_cloak_cloak
-			}
-			female = {
-				0 = empty #female_cloak_asoiaf_crownlands_gold_cloak_cloak
-			}
-			boy = male
-			girl = female
-		}
 		
 		asoiaf_kingsguard_cloaks = { #AGOT+ Added
-			index = 93
+			index = 92
 			male = {
 				1 = male_cloak_secular_asoiaf_kingsguard_default_cloak
 			}
@@ -1703,20 +1783,22 @@ accessory_genes = {
 		}
 
 		asoiaf_unique_cloaks = { #AGOT+ Added
-			index = 94
+			index = 93
 			male = {
 				1 = male_cloak_asoiaf_stormlands_stannis_cloak_1
 				1 = male_cloak_asoiaf_nights_watch_cloak_1
+				1 = male_cloak_asoiaf_gold_cloak_cloak
 			}
 			female = {
 				1 = female_cloak_asoiaf_nights_watch_cloak_1
+				1 = female_cloak_asoiaf_gold_cloak_cloak
 			}
 			boy = male
 			girl = female
 		}
 		
 		asoiaf_northern_cloaks = { #AGOT+ Added
-			index = 95
+			index = 94
 			male = {
 				4 = male_cloaks_secular_fp1_agot_northern_01
 				2 = male_cloaks_secular_north_high_winter_01
@@ -2537,9 +2619,133 @@ props_left = {
 		boy = male
 		girl = female
 	}
-	#AGOT Added
-	agot_weirwood_longbow_left = {
+	tgp_fan_01_a = {
 		index = 86
+		male = {
+			1 = tgp_fan_01_a_portrait
+			1 = tgp_fan_01_b_portrait
+			1 = tgp_fan_01_c_portrait
+			1 = tgp_fan_01_d_portrait
+			1 = tgp_fan_01_e_portrait
+			1 = tgp_fan_01_f_portrait
+			1 = tgp_fan_01_g_portrait
+			1 = tgp_fan_01_h_portrait
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_chinese_polearm_01_left = {
+		index = 87
+		male = {
+			1 = tgp_chinese_polearm_01_portrait_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_scrolls_bundle = {
+		index = 88
+		male = {
+			1 = tgp_scrolls_bundle_01
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_chinese_book_left = {
+		index = 89
+		male = {
+			1 = tgp_chinese_book_01_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_brush_left = {
+		index = 90
+		male = {
+			1 = tgp_brush_01_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_tray_01 = {
+		index = 91
+		male = {
+			1 = tgp_tray_01_a
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_japanese_shield_01_a = {
+		index = 92
+		male = {
+			1 = tgp_japanese_shield_01_a_portrait
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_sea_shield_01_a = {
+		index = 93
+		male = {
+			1 = tgp_sea_shield_01_a_portrait
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_chinese_shield_01_a = {
+		index = 94
+		male = {
+			1 = tgp_chinese_shield_01_a_portrait
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_japanese_ceremonial_sword_01_a_left = {
+		index = 95
+		male = {
+			1 = tgp_japanese_ceremonial_sword_01_a_portrait_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_japanese_sword_01_a_left = {
+		index = 96
+		male = {
+			1 = tgp_japanese_sword_01_a_portrait_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_sword_of_goujian_01_a_left = {
+		index = 97
+		male = {
+			1 = tgp_sword_of_goujian_01_a_portrait_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_chinese_sword_01_a_left = {
+		index = 98
+		male = {
+			1 = tgp_chinese_sword_01_a_portrait_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+#AGOT Added
+	agot_weirwood_longbow_left = {
+		index = 99
 		male = {
 			1 = agot_weirwood_longbow_left_hand
 		}
@@ -2548,7 +2754,7 @@ props_left = {
 		girl = female
 	}
 	agot_weirwood_longbow_drawn_left = {
-		index = 87
+		index = 100
 		male = {
 			1 = agot_weirwood_longbow_drawn_left_hand
 		}
@@ -2557,7 +2763,7 @@ props_left = {
 		girl = female
 	}
 	agot_dragonbone_longbow_left = {
-		index = 88
+		index = 101
 		male = {
 			1 = agot_dragonbone_longbow_left_hand
 		}
@@ -2566,7 +2772,7 @@ props_left = {
 		girl = female
 	}
 	agot_dragonbone_longbow_drawn_left = {
-		index = 89
+		index = 102
 		male = {
 			1 = agot_dragonbone_longbow_drawn_left_hand
 		}
@@ -2575,7 +2781,7 @@ props_left = {
 		girl = female
 	}
 	agot_gold_mirror = {
-		index = 90
+		index = 103
 		male = {
 			1 = mirror_gold
 		}
@@ -2584,7 +2790,7 @@ props_left = {
 		girl = female
 	}
 	agot_silver_mirror = {
-		index = 91
+		index = 104
 		male = {
 			1 = mirror_silver
 		}
@@ -2593,10 +2799,19 @@ props_left = {
 		girl = female
 	}
 	agot_valyrian_mirror = {
-		index = 92
+		index = 105
 		male = {
 			1 = mirror_valyrian
 		}
+		female = male
+		boy = male
+		girl = female
+	}
+	agot_dragonbinder_horn = {
+		index = 106
+		male = {
+			1 = horn_dragonbinder
+}
 		female = male
 		boy = male
 		girl = female
@@ -3282,7 +3497,9 @@ props_left = {
 			male = {
 				1 = fp4_qanun_01_a
 			}
-			female = male
+			female = {
+				1 = f_fp4_qanun_01_a
+			}
 			boy = male
 			girl = female
 		}
@@ -3433,8 +3650,244 @@ props_left = {
 			boy = male
 			girl = female
 		}
-		agot_artifact_weapon_lady_forlorn = {
+tgp_guqin_01_a = {
 			index = 87
+			male = {
+				1 = tgp_guqin_01_a_portrait
+			}
+			female = {
+				1 = f_tgp_guqin_01_a_portrait
+			}
+			boy = male
+			girl = female
+		}
+		tgp_gunbai_01_a = {
+			index = 88
+			male = {
+				1 = tgp_gunbai_01_a_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_hu_01_a = {
+			index = 89
+			male = {
+				1 = tgp_hu_01_a_portrait
+				1 = tgp_hu_01_b_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_chinese_polearm_01_right = {
+			index = 90
+			male = {
+				1 = tgp_chinese_polearm_01_portrait_right
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_bottle = {
+			index = 91
+			male = {
+				1 = tgp_bottle_prop
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_scroll = {
+			index = 92
+			male = {
+				1 = tgp_scroll_01
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		ep1_mediterranean_book_big = {
+			index = 93
+			male = {
+				1 = ep1_mediterranean_book_big_01
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		ep1_indian_book_big = {
+			index = 94
+			male = {
+				1 = ep1_indian_book_big_01
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_chinese_book_right = {
+			index = 95
+			male = {
+				1 = tgp_chinese_book_01_right
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_chinese_book = {
+			index = 96
+			male = {
+				1 = tgp_chinese_book_01
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_brush_right = {
+			index = 97
+			male = {
+				1 = tgp_brush_01_right
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		suzu_prop = {
+			index = 98
+			male = {
+				1 = suzu_prop_01
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_gui_01_a = {
+			index = 99
+			male = {
+				1 = tgp_gui_01_a_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_japanese_ceremonial_sword_01_a = {
+			index = 100
+			male = {
+				1 = tgp_japanese_ceremonial_sword_01_a_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_japanese_dagger_01_a = {
+			index = 101
+			male = {
+				1 = tgp_japanese_dagger_01_a_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_japanese_sword_01_a = {
+			index = 102
+			male = {
+				1 = tgp_japanese_sword_01_a_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_sword_of_goujian_01_a = {
+			index = 103
+			male = {
+				1 = tgp_sword_of_goujian_01_a_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_chinese_axe_01_a = {
+			index = 104
+			male = {
+				1 = tgp_chinese_axe_01_a_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_chinese_dagger_01_a = {
+			index = 105
+			male = {
+				1 = tgp_chinese_dagger_01_a_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_chinese_goblet_01_a = {
+			index = 106
+			male = {
+				1 = tgp_chinese_goblet_01_a_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_gyerim_ro_dagger_01_a = {
+			index = 107
+			male = {
+				1 = tgp_gyerim_ro_dagger_01_a_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_japanese_shield_01_a_right = {
+			index = 108
+			male = {
+				1 = tgp_japanese_shield_01_a_portrait_right
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_sea_shield_01_a_right = {
+			index = 109
+			male = {
+				1 = tgp_sea_shield_01_a_portrait_right
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_chinese_shield_01_a_right = {
+			index = 110
+			male = {
+				1 = tgp_chinese_shield_01_a_portrait_right
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_chinese_sword_01_a = {
+			index = 111
+			male = {
+				1 = tgp_chinese_sword_01_a_portrait
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		tgp_japanese_cup_01 = {
+			index = 112
+			male = {
+				1 = tgp_japanese_cup_01_a
+			}
+			female = male
+			boy = male
+			girl = female
+		}		agot_artifact_weapon_lady_forlorn = {
+			index = 113
 			male = {
 				1 = lady_forlorn_artifact
 			}
@@ -3445,7 +3898,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_lamentation = {
-			index = 88
+			index = 114
 			male = {
 				1 = lamentation_artifact
 			}
@@ -3456,7 +3909,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_longclaw = {
-			index = 89
+			index = 115
 			male = {
 				1 = longclaw_artifact
 			}
@@ -3467,7 +3920,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_nightfall = {
-			index = 90
+			index = 116
 			male = {
 				1 = nightfall_artifact
 			}
@@ -3478,7 +3931,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_dawn = {
-			index = 91
+			index = 117
 			male = {
 				1 = dawn_artifact
 			}
@@ -3489,7 +3942,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_orphan_maker = {
-			index = 92
+			index = 118
 			male = {
 				1 = orphan_maker_artifact
 			}
@@ -3500,7 +3953,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_pincer = {
-			index = 93
+			index = 119
 			male = {
 				1 = pincer_artifact
 			}
@@ -3511,7 +3964,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_pride = {
-			index = 94
+			index = 120
 			male = {
 				1 = pride_artifact
 			}
@@ -3522,7 +3975,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_red_rain = {
-			index = 95
+			index = 121
 			male = {
 				1 = red_rain_artifact
 			}
@@ -3533,7 +3986,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_seafoam = {
-			index = 96
+			index = 122
 			male = {
 				1 = seafoam_artifact
 			}
@@ -3544,7 +3997,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_skullcleaver = {
-			index = 97
+			index = 123
 			male = {
 				1 = skullcleaver_artifact
 			}
@@ -3555,7 +4008,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_defiance = {
-			index = 98
+			index = 124
 			male = {
 				1 = defiance_artifact
 			}
@@ -3566,7 +4019,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_stalwart = {
-			index = 99
+			index = 125
 			male = {
 				1 = stalwart_artifact
 			}
@@ -3577,7 +4030,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_strangers_touch = {
-			index = 100
+			index = 126
 			male = {
 				1 = strangers_touch_artifact
 			}
@@ -3588,7 +4041,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_supremacy = {
-			index = 101
+			index = 127
 			male = {
 				1 = supremacy_artifact
 			}
@@ -3599,7 +4052,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_swordfish = {
-			index = 102
+			index = 128
 			male = {
 				1 = swordfish_artifact
 			}
@@ -3610,7 +4063,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_dragonbane = {
-			index = 103
+			index = 129
 			male = {
 				1 = dragonbane_artifact
 			}
@@ -3621,7 +4074,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_tranquility = {
-			index = 104
+			index = 130
 			male = {
 				1 = tranquility_artifact
 			}
@@ -3632,7 +4085,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_vigilance = {
-			index = 105
+			index = 131
 			male = {
 				1 = vigilance_artifact
 			}
@@ -3643,7 +4096,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_widestripe = {
-			index = 106
+			index = 132
 			male = {
 				1 = widestripe_artifact
 			}
@@ -3654,7 +4107,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_widows_wail = {
-			index = 107
+			index = 133
 			male = {
 				1 = widows_wail_artifact
 			}
@@ -3665,7 +4118,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_wyrmfang = {
-			index = 108
+			index = 134
 			male = {
 				1 = wyrmfang_artifact
 			}
@@ -3676,7 +4129,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_evergold = {
-			index = 109
+			index = 135
 			male = {
 				1 = evergold_artifact
 			}
@@ -3687,7 +4140,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_disputant = {
-			index = 110
+			index = 136
 			male = {
 				1 = disputant_artifact
 			}
@@ -3698,7 +4151,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_truth = {
-			index = 111
+			index = 137
 			male = {
 				1 = truth_artifact
 			}
@@ -3709,7 +4162,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_brightroar = {
-			index = 112
+			index = 138
 			male = {
 				1 = brightroar_artifact
 			}
@@ -3720,7 +4173,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_dragonglass_dagger = {
-			index = 113
+			index = 139
 			male = {
 				20 = fp1_spymasters_dagger_01
 				1 = dragon_glass_dagger_01_artifact
@@ -3739,7 +4192,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_dragonglass_sword = {
-			index = 114
+			index = 140
 			male = {
 				9 = fp1_marshal_sword_01
 				1 = dragon_glass_sword_artifact
@@ -3752,7 +4205,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_remige = {
-			index = 115
+			index = 141
 			male = {
 				1 = remige_artifact
 			}
@@ -3763,7 +4216,7 @@ props_left = {
 			girl = female
 		}
 		agot_dragon_egg_prop = {
-			index = 116
+			index = 142
 			male = {
 				1 = dragon_egg_black_prop_01
 				1 = dragon_egg_blackdarkred_prop_01
@@ -3811,6 +4264,17 @@ props_left = {
 				1 = dragon_egg_yellowgreen_prop_01
 				1 = dragon_egg_silver_prop_01
 				1 = dragon_egg_icefire_prop_01
+				1 = dragon_egg_america_prop_01
+				1 = dragon_egg_greyBlue_prop_01
+				1 = dragon_egg_redGreen_prop_01
+				1 = dragon_egg_lightBrown_prop_01
+				1 = dragon_egg_redYellow_prop_01
+				1 = dragon_egg_blackWhite_prop_01
+				1 = dragon_egg_spotPurple_prop_01
+				1 = dragon_egg_teal_prop_01
+				1 = dragon_egg_tealSpot_prop_01
+				1 = dragon_egg_weirwood_prop_01
+				1 = dragon_egg_lime_prop_01
 			}
 			female = {
 				1 = dragon_egg_black_prop_01
@@ -3859,12 +4323,24 @@ props_left = {
 				1 = dragon_egg_yellowgreen_prop_01
 				1 = dragon_egg_silver_prop_01
 				1 = dragon_egg_icefire_prop_01
+				1 = dragon_egg_america_prop_01
+				1 = dragon_egg_greyBlue_prop_01
+				1 = dragon_egg_redGreen_prop_01
+				1 = dragon_egg_lightBrown_prop_01
+				1 = dragon_egg_redYellow_prop_01
+				1 = dragon_egg_blackWhite_prop_01
+				1 = dragon_egg_spotPurple_prop_01
+				1 = dragon_egg_teal_prop_01
+				1 = dragon_egg_tealSpot_prop_01
+				1 = dragon_egg_weirwood_prop_01
+				1 = dragon_egg_lime_prop_01
 			}
 			boy = male
 			girl = female
 		}
+
 		agot_artifact_weapon_bobbyhammer = {
-			index = 117
+			index = 143
 			male = {
 				1 = bobby_hammer_artifact
 			}
@@ -3875,7 +4351,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_high_septon_staff = {
-			index = 118
+			index = 144
 			male = {
 				1 = high_septon_accessory
 			}
@@ -3886,7 +4362,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_orb_and_star_prop = {
-			index = 119
+			index = 145
 			male = {
 				1 = orb_and_star_prop_01
 			}
@@ -3897,7 +4373,7 @@ props_left = {
 			girl = female
 		}
 		dornish_spear_prop = {
-			index = 120
+			index = 146
 			male = {
 				1 = dornish_spear_prop
 				1 = dornish_spear_equipped_prop
@@ -3910,7 +4386,7 @@ props_left = {
 			girl = female
 		}
 		blackfyre_sword = {
-			index = 121
+			index = 147
 			male = {
 				1 = blackfyre_artifact
 			}
@@ -3921,7 +4397,7 @@ props_left = {
 			girl = female
 		}
 		darksister_sword = {
-			index = 122
+			index = 148
 			male = {
 				1 = dark_sister_artifact
 			}
@@ -3932,7 +4408,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_black_death = {
-			index = 123
+			index = 149
 			male = {
 				1 = black_death_artifact
 			}
@@ -3943,7 +4419,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_mothers_grief = {
-			index = 124
+			index = 150
 			male = {
 				1 = mothers_grief_artifact
 			}
@@ -3954,7 +4430,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_talon = {
-			index = 125
+			index = 151
 			male = {
 				1 = talon_artifact
 			}
@@ -3965,7 +4441,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_andal_armingsword_gold = {
-			index = 126
+			index = 152
 			male = {
 				1 = andal_armingsword_gold_artifact
 			}
@@ -3976,7 +4452,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_andal_armingsword_silver = {
-			index = 127
+			index = 153
 			male = {
 				1 = andal_armingsword_silver_artifact
 			}
@@ -3987,7 +4463,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_andal_longsword_gold = {
-			index = 128
+			index = 154
 			male = {
 				1 = andal_longsword_gold_artifact
 			}
@@ -3998,7 +4474,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_andal_longsword_silver = {
-			index = 129
+			index = 155
 			male = {
 				1 = andal_longsword_silver_artifact
 			}
@@ -4009,7 +4485,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_firstman_armingsword_gold = {
-			index = 130
+			index = 156
 			male = {
 				1 = firstman_armingsword_gold_artifact
 			}
@@ -4020,7 +4496,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_firstman_armingsword_silver = {
-			index = 131
+			index = 157
 			male = {
 				1 = firstman_armingsword_silver_artifact
 			}
@@ -4031,7 +4507,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_firstman_armingsword_bronze = {
-			index = 132
+			index = 158
 			male = {
 				1 = firstman_armingsword_bronze_artifact
 			}
@@ -4042,7 +4518,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_firstman_longsword_gold = {
-			index = 133
+			index = 159
 			male = {
 				1 = firstman_longsword_gold_artifact
 			}
@@ -4053,7 +4529,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_firstman_longsword_silver = {
-			index = 134
+			index = 160
 			male = {
 				1 = firstman_longsword_silver_artifact
 			}
@@ -4064,7 +4540,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_firstman_longsword_bronze = {
-			index = 135
+			index = 161
 			male = {
 				1 = firstman_longsword_bronze_artifact
 			}
@@ -4075,7 +4551,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_valyrian_armingsword_gold = {
-			index = 136
+			index = 162
 			male = {
 				1 = valyrian_armingsword_gold_artifact
 			}
@@ -4086,7 +4562,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_valyrian_armingsword_silver = {
-			index = 137
+			index = 163
 			male = {
 				1 = valyrian_armingsword_silver_artifact
 			}
@@ -4097,7 +4573,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_valyrian_longsword_gold = {
-			index = 138
+			index = 164
 			male = {
 				1 = valyrian_longsword_gold_artifact
 			}
@@ -4108,7 +4584,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_valyrian_longsword_silver = {
-			index = 139
+			index = 165
 			male = {
 				1 = valyrian_longsword_silver_artifact
 			}
@@ -4119,7 +4595,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_cloudbreak = {
-			index = 140
+			index = 166
 			male = {
 				1 = cloudbreak_artifact
 			}
@@ -4130,7 +4606,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_glory = {
-			index = 141
+			index = 167
 			male = {
 				1 = glory_artifact
 			}
@@ -4141,7 +4617,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_stormy_nights = {
-			index = 142
+			index = 168
 			male = {
 				1 = stormy_nights_artifact
 			}
@@ -4152,7 +4628,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_pincer = {
-			index = 143
+			index = 169
 			male = {
 				1 = pincer_artifact
 			}
@@ -4163,7 +4639,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_adders_fang = {
-			index = 144
+			index = 170
 			male = {
 				1 = adders_fang_artifact
 			}
@@ -4174,7 +4650,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_blackfyre = {
-			index = 145
+			index = 171
 			male = {
 				1 = blackfyre_artifact
 			}
@@ -4185,7 +4661,7 @@ props_left = {
 			girl = female
 		}
 		dragon_doll_prop_01 = {
-			index = 146
+			index = 172
 			male = {
 				1 = dragon_doll_01
 			}
@@ -4194,7 +4670,7 @@ props_left = {
 			girl = female
 		}
 		dragon_doll_prop_02 = {
-			index = 147
+			index = 173
 			male = {
 				1 = dragon_doll_02
 			}
@@ -4203,7 +4679,7 @@ props_left = {
 			girl = female
 		}
 		dragon_doll_prop_03 = {
-			index = 148
+			index = 174
 			male = {
 				1 = dragon_doll_03
 			}
@@ -4212,7 +4688,7 @@ props_left = {
 			girl = female
 		}
 		dragon_doll_prop_04 = {
-			index = 149
+			index = 175
 			male = {
 				1 = dragon_doll_04
 			}
@@ -4221,7 +4697,7 @@ props_left = {
 			girl = female
 		}
 		dragon_doll_prop_05 = {
-			index = 150
+			index = 176
 			male = {
 				1 = dragon_doll_05
 			}
@@ -4230,7 +4706,7 @@ props_left = {
 			girl = female
 		}
 		dragon_doll_prop_06 = {
-			index = 151
+			index = 177
 			male = {
 				1 = dragon_doll_06
 			}
@@ -4239,7 +4715,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_maekarmace = {
-			index = 152
+			index = 178
 			male = {
 				1 = maekar_mace_artifact
 			}
@@ -4250,25 +4726,29 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_dark_moon = {
-			index = 153
+			index = 179
 			male = {
 				1 = dark_moon_artifact
 			}
 			female = {
 				1 = dark_moon_artifact
 			}
+			boy = male
+			girl = female
 		}
 		agot_artifact_weapon_emoBoy_sword = {
-			index = 154
+			index = 180
 			male = {
 				1 = emoBoy_sword_artifact
 			}
 			female = {
 				1 = emoBoy_sword_artifact
 			}
+			boy = male
+			girl = female
 		}
 		agot_artifact_weapon_skinpeeler = {
-			index = 155
+			index = 181
 			male = {
 				1 = skinpeeler_artifact
 			}
@@ -4279,7 +4759,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_dornish_sabre = {
-			index = 156
+			index = 182
 			male = {
 				1 = dornish_sabre_artifact
 			}
@@ -4289,9 +4769,8 @@ props_left = {
 			boy = male
 			girl = female
 		}
-		#AGOT Added
 		agot_artifact_weapon_dancer = {
-			index = 157
+			index = 183
 			male = {
 				1 = dancer_artifact
 			}
@@ -4302,7 +4781,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_dark_sister = {
-			index = 158
+			index = 184
 			male = {
 				1 = dark_sister_artifact
 			}
@@ -4313,7 +4792,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_iron_will = {
-			index = 159
+			index = 185
 			male = {
 				1 = iron_will_artifact
 			}
@@ -4324,7 +4803,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_heartsbane = {
-			index = 160
+			index = 186
 			male = {
 				1 = heartsbane_artifact
 			}
@@ -4335,7 +4814,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_ice = {
-			index = 161
+			index = 187
 			male = {
 				1 = ice_artifact
 			}
@@ -4346,7 +4825,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_darktalon = {
-			index = 162
+			index = 188
 			male = {
 				1 = darktalon_artifact
 			}
@@ -4357,7 +4836,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_iron_price = {
-			index = 163
+			index = 189
 			male = {
 				1 = iron_price_artifact
 			}
@@ -4368,7 +4847,7 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_unkindness = {
-			index = 164
+			index = 190
 			male = {
 				1 = unkindness_artifact
 			}
@@ -4379,12 +4858,34 @@ props_left = {
 			girl = female
 		}
 		agot_artifact_weapon_swansong = {
-			index = 165
+			index = 191
 			male = {
 				1 = swansong_artifact
 			}
 			female = {
 				1 = swansong_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_bumblin = {
+			index = 192
+			male = {
+				1 = bumblin_artifact
+			}
+			female = {
+				1 = bumblin_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_sting = {
+			index = 193
+			male = {
+				1 = sting_artifact
+			}
+			female = {
+				1 = sting_artifact
 			}
 			boy = male
 			girl = female
@@ -4698,6 +5199,15 @@ props_left = {
 				}
 				girl = boy
 			}
-	}
+			tgp_paged_chinese_book = {
+				index = 23
+				male = {
+					1 = tgp_paged_chinese_book_01
+				}
+				female = male
+				boy = male
+				girl = female
+			}
+	    }
 	}
 }

@@ -76,9 +76,26 @@ one_handed_axe = {
 
 	portrait_modifier = { # Indian
 		trigger = {
+			OR = {
 			culture = { has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
 		}
 		animations_props = artisan_axe_indian_prop
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Chinese
+		trigger = {
+			OR = {
+				culture = { has_clothing_gfx = chinese_clothing_gfx }
+				culture = { has_unit_gfx = japanese_unit_gfx }
+			}
+		}
+		animations_props = tgp_chinese_axe_01
 		animations = council_marshal_decal
 		animations = fat_additive
 		animations = dwarf_additive
@@ -170,7 +187,10 @@ one_handed_mace = {
 
 	portrait_modifier = { # Indian
 		trigger = {
+			OR = {
 			culture = { has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
 		}
 		animations_props = artisan_mace_indian_prop
 		animations = council_marshal_decal
@@ -188,7 +208,7 @@ one_handed_mace = {
 	}
 }
 
-##AGOT Added, keep this in sync with any changes to one_handed_mace
+#AGOT Added, keep this in sync with any changes to one_handed_mace
 one_handed_mace_shield = {
 
 	portrait_modifier = { # Equipped
@@ -355,7 +375,10 @@ one_handed_mace_no_additives = {
 
 	portrait_modifier = { # Indian
 		trigger = {
+			OR = {
 			culture = { has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
 		}
 		animations_props = artisan_mace_indian_prop
 		animations = council_marshal_decal
@@ -371,7 +394,7 @@ one_handed_mace_no_additives = {
 
 one_handed_sword = {
 
-	##AGOT Note- Dont put any culture/generic modifiers above this entry.
+	#AGOT Note- Dont put any culture/generic modifiers above this entry.
 	##This needs to be top level ( below specific items) to allow artifacts to be auto loaded by the game
 	portrait_modifier = { # Equipped
 		trigger = {
@@ -395,7 +418,7 @@ one_handed_sword = {
 		animations = female_prop_fix_additive
 	}
 
-	##AGOT Added
+	#AGOT Added
 	portrait_modifier = {
 		trigger = {
 			culture = {
@@ -406,7 +429,7 @@ one_handed_sword = {
 		animations = council_marshal_decal
 	}
 
-	##AGOT Added
+	#AGOT Added
 	portrait_modifier = {
 		trigger = {
 			culture = {
@@ -417,7 +440,7 @@ one_handed_sword = {
 		animations = council_marshal_decal
 	}
 
-	##AGOT Added
+	#AGOT Added
 	portrait_modifier = {
 		trigger = {
 			culture = {
@@ -430,7 +453,7 @@ one_handed_sword = {
 		animations = council_marshal_decal
 	}
 
-	##AGOT Added
+	#AGOT Added
 	portrait_modifier = {
 		trigger = {
 			culture = {
@@ -444,7 +467,7 @@ one_handed_sword = {
 		animations = council_marshal_decal
 	}
 
-	##AGOT Added
+	#AGOT Added
 	portrait_modifier = {
 		trigger = {
 			culture = {
@@ -538,9 +561,34 @@ one_handed_sword = {
 
 	portrait_modifier = { # Indian
 		trigger = {
+			OR = {
 			culture = { has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
 		}
 		animations_props = artisan_sword_indian_prop
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = { has_clothing_gfx = chinese_clothing_gfx }
+		}
+		animations_props = tgp_chinese_sword_01
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Japanese
+		trigger = {
+			culture = { has_unit_gfx = japanese_unit_gfx }
+		}
+		animations_props = tgp_japanese_sword_01
 		animations = council_marshal_decal
 		animations = fat_additive
 		animations = dwarf_additive
@@ -623,6 +671,17 @@ one_handed_dagger = {
 		animations = AI_vengeful_decal
 	}
 
+	portrait_modifier = { # Hunt
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = dagger } }
+			involved_activity ?= { has_activity_type = activity_hunt }
+			#AGOT Disabled
+			# location = { geographical_region = world_europe }
+		}
+		animations_props = ep2_hunting_knife_right_attachment
+		animations = AI_vengeful_decal
+	}
+
 	portrait_modifier = { # Berber
 		trigger = {
 			culture = { has_clothing_gfx = afr_berber_clothing_gfx }
@@ -669,6 +728,28 @@ one_handed_dagger = {
 		animations = female_prop_fix_additive
 	}
 
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = { has_clothing_gfx = chinese_clothing_gfx }
+		}
+		animations_props = tgp_chinese_dagger_01
+		animations = AI_vengeful_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Japanese
+		trigger = {
+			culture = { has_unit_gfx = japanese_unit_gfx }
+		}
+		animations_props = tgp_japanese_dagger_01
+		animations = AI_vengeful_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
 	portrait_modifier = { # Indian
 		trigger = {
 			culture = {
@@ -676,6 +757,7 @@ one_handed_dagger = {
 					has_clothing_gfx = african_clothing_gfx
 					has_clothing_gfx = indian_clothing_gfx
 					has_clothing_gfx = mongol_clothing_gfx
+					has_clothing_gfx = southeast_asian_clothing_gfx
 				}
 			}
 		}
@@ -726,9 +808,22 @@ two_handed_spear = {
 		animations = council_marshal_decal
 	}
 
+	portrait_modifier = { # Hunting
+		trigger = {
+			NOT = { any_equipped_character_artifact = { artifact_type = spear } }
+			involved_activity ?= { has_activity_type = activity_hunt }
+			spear_unique_gfx_trigger = no
+		}
+		animations_props = ep2_boar_spear_right_attachment
+		animations = AI_vengeful_decal
+	}
+
 	portrait_modifier = { # Indian
 		trigger = {
+			OR = {
 			culture = { has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
 		}
 		animations_props = artisan_indian_spear_prop_right_hand
 		animations = AI_vengeful_decal
@@ -757,13 +852,16 @@ two_handed_spear = {
 		animations = AI_vengeful_decal
 	}
 
-	portrait_modifier = { # Hunting
+	portrait_modifier = { # Chinese
 		trigger = {
-			NOT = { any_equipped_character_artifact = { artifact_type = spear } }
-			involved_activity ?= { has_activity_type = activity_hunt }
-			spear_unique_gfx_trigger = no
+			culture = {
+				OR = {
+					has_clothing_gfx = chinese_clothing_gfx
+					has_unit_gfx = japanese_unit_gfx
+				}
+			}
 		}
-		animations_props = ep2_boar_spear_right_attachment
+		animations_props = tgp_chinese_polearm_01_right
 		animations = AI_vengeful_decal
 	}
 
@@ -896,9 +994,34 @@ lefthanded_one_handed_sword = {
 
 	portrait_modifier = { # Indian
 		trigger = {
+			OR = {
 			culture = { has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
 		}
 		animations_props = artisan_sword_indian_prop_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = { has_clothing_gfx = chinese_clothing_gfx }
+		}
+		animations_props = tgp_chinese_sword_01_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Japanese
+		trigger = {
+			culture = { has_unit_gfx = japanese_unit_gfx }
+		}
+		animations_props = tgp_japanese_sword_01_left
 		animations = council_marshal_decal
 		animations = fat_additive
 		animations = dwarf_additive
@@ -954,10 +1077,27 @@ horse_sword_shield = {
 		animations = female_prop_fix_additive
 	}
 
+	portrait_modifier = { # SEA shield with artifact sword
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+			culture = {
+				has_unit_gfx = southeast_asian_unit_gfx
+			}
+		}
+		animations_props = ep2_horse_01_cgallop
+		animations_props = artifact_sword_equipped_prop
+		animations_props = tgp_sea_shield_01
+		animations = council_marshal_decal
+		animations = no_cloak
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
 	portrait_modifier = { # Indian shield with artifact sword
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = sword }
-			has_clothing_gfx = indian_clothing_gfx
+			culture = { has_clothing_gfx = indian_clothing_gfx }
 		}
 		animations_props = ep2_horse_01_cgallop
 		animations_props = artifact_sword_equipped_prop
@@ -969,10 +1109,42 @@ horse_sword_shield = {
 		animations = female_prop_fix_additive
 	}
 
+	portrait_modifier = { # Chinese shield with artifact sword
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+			has_clothing_gfx = chinese_clothing_gfx
+		}
+		animations_props = ep2_horse_01_cgallop
+		animations_props = artifact_sword_equipped_prop
+		animations_props = tgp_chinese_shield_01
+		animations = council_marshal_decal
+		animations = no_cloak
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Japanese shield with artifact sword
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+			has_unit_gfx = japanese_unit_gfx
+		}
+		animations_props = ep2_horse_01_cgallop
+		animations_props = artifact_sword_equipped_prop
+		animations_props = tgp_japanese_shield_01
+		animations = council_marshal_decal
+		animations = no_cloak
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
 	portrait_modifier = { # Mediterranean shield with artifact sword
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = sword }
+			culture = {
 			has_clothing_gfx = byzantine_clothing_gfx
+		}
 		}
 		animations_props = ep2_horse_01_cgallop
 		animations_props = artifact_sword_equipped_prop
@@ -987,7 +1159,9 @@ horse_sword_shield = {
 	portrait_modifier = { # Jousting shield with artifact sword
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = sword }
+			culture = {
 			has_clothing_gfx = iberian_christian_clothing_gfx
+		}
 		}
 		animations_props = ep2_horse_01_cgallop
 		animations_props = artifact_sword_equipped_prop
@@ -1100,7 +1274,7 @@ horse_sword_shield = {
 		animations = female_prop_fix_additive
 	}
 
-	portrait_modifier = { # Norse
+	portrait_modifier = { # Northern
 		trigger = {
 			culture = { has_clothing_gfx = northern_clothing_gfx }
 		}
@@ -1170,6 +1344,20 @@ horse_sword_shield = {
 		animations = female_prop_fix_additive
 	}
 
+	portrait_modifier = { # SEA
+		trigger = {
+			culture = { has_unit_gfx = southeast_asian_unit_gfx }
+		}
+		animations_props = ep2_horse_01_cgallop
+		animations_props = artisan_sword_indian_prop
+		animations_props = tgp_sea_shield_01
+		animations = council_marshal_decal
+		animations = no_cloak
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
 	portrait_modifier = { # Indian
 		trigger = {
 			culture = { has_clothing_gfx = indian_clothing_gfx }
@@ -1177,6 +1365,34 @@ horse_sword_shield = {
 		animations_props = ep2_horse_01_cgallop
 		animations_props = artisan_sword_indian_prop
 		animations_props = ep1_indian_shield
+		animations = council_marshal_decal
+		animations = no_cloak
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = { has_clothing_gfx = chinese_clothing_gfx }
+		}
+		animations_props = ep2_horse_01_cgallop
+		animations_props = tgp_chinese_sword_01
+		animations_props = tgp_chinese_shield_01
+		animations = council_marshal_decal
+		animations = no_cloak
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Japanese
+		trigger = {
+			culture = { has_unit_gfx = japanese_unit_gfx }
+		}
+		animations_props = ep2_horse_01_cgallop
+		animations_props = tgp_japanese_sword_01
+		animations_props = tgp_japanese_shield_01
 		animations = council_marshal_decal
 		animations = no_cloak
 		animations = fat_additive
@@ -1211,6 +1427,46 @@ horse_sword_shield = {
 		animations = no_cloak
 		animations = fat_additive
 		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+}
+
+long_swords = {
+
+	portrait_modifier = { # Equipped
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+		}
+		animations_props = artifact_sword_equipped_prop
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Tachi Japan
+		trigger = {
+			culture = {
+				has_unit_gfx = japanese_unit_gfx
+			}
+		}
+		animations_props = tgp_japanese_sword_01
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Longsword
+		trigger = {
+			culture = {
+				has_unit_gfx = western_unit_gfx
+			}
+		}
+		animations_props = ep2_western_long_sword_right_attachment
+		animations = council_marshal_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Tachi
+		animations_props = tgp_japanese_sword_01
+		animations = council_marshal_decal
 		animations = female_prop_fix_additive
 	}
 }
@@ -1268,6 +1524,24 @@ council_spymaster = {
 		animations = female_prop_fix_additive
 	}
 
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = { has_clothing_gfx = chinese_clothing_gfx }
+		}
+		animations_props = tgp_chinese_dagger_01
+		animations = AI_vengeful_decal
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Japanese
+		trigger = {
+			culture = { has_unit_gfx = japanese_unit_gfx }
+		}
+		animations_props = tgp_japanese_dagger_01
+		animations = AI_vengeful_decal
+		animations = female_prop_fix_additive
+	}
+
 	portrait_modifier = { # Indian
 		trigger = {
 			culture = {
@@ -1275,6 +1549,7 @@ council_spymaster = {
 					has_clothing_gfx = african_clothing_gfx
 					has_clothing_gfx = indian_clothing_gfx
 					has_clothing_gfx = mongol_clothing_gfx
+					has_clothing_gfx = southeast_asian_clothing_gfx
 				}
 			}
 		}
@@ -1439,9 +1714,34 @@ council_marshal = {
 
 	portrait_modifier = { # Indian
 		trigger = {
+			OR = {
 			culture = { has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
 		}
 		animations_props = artisan_sword_indian_prop
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = { has_clothing_gfx = chinese_clothing_gfx }
+		}
+		animations_props = tgp_chinese_sword_01
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Japanese
+		trigger = {
+			culture = { has_unit_gfx = japanese_unit_gfx }
+		}
+		animations_props = tgp_japanese_sword_01
 		animations = council_marshal_decal
 		animations = fat_additive
 		animations = dwarf_additive
@@ -1646,8 +1946,6 @@ council_marshal_shield = {
 	portrait_modifier = { # Indian shield with artifact sword
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = sword }
-			#AGOT Modified
-			#has_clothing_gfx = indian_clothing_gfx
 			culture = { has_clothing_gfx = indian_clothing_gfx }
 		}
 		animations_props = artifact_sword_equipped_prop
@@ -1660,9 +1958,9 @@ council_marshal_shield = {
 	portrait_modifier = { # Mediterranean shield with artifact sword
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = sword }
-			#AGOT Modified
-			#has_clothing_gfx = byzantine_clothing_gfx
-			culture = { has_clothing_gfx = byzantine_clothing_gfx }
+			culture = {
+				has_clothing_gfx = byzantine_clothing_gfx
+			}
 		}
 		animations_props = artifact_sword_equipped_prop
 		animations_props = ep1_mediterranean_shield
@@ -1674,9 +1972,9 @@ council_marshal_shield = {
 	portrait_modifier = { # Jousting shield with artifact sword
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = sword }
-			#AGOT Modified
-			#has_clothing_gfx = iberian_christian_clothing_gfx
-			culture = { has_clothing_gfx = iberian_christian_clothing_gfx }
+			culture = {
+				has_clothing_gfx = iberian_christian_clothing_gfx
+			}
 		}
 		animations_props = artifact_sword_equipped_prop
 		animations_props = ep2_western_jousting_shield
@@ -1685,6 +1983,33 @@ council_marshal_shield = {
 		animations = dwarf_additive
 	}
 
+	portrait_modifier = { # Chinese shield with artifact sword
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+			culture = {
+				has_clothing_gfx = chinese_clothing_gfx
+			}
+		}
+		animations_props = artifact_sword_equipped_prop
+		animations_props = tgp_chinese_shield_01
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # Japanese shield with artifact sword
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+			culture = {
+				has_clothing_gfx = chinese_clothing_gfx
+			}
+		}
+		animations_props = artifact_sword_equipped_prop
+		animations_props = tgp_japanese_shield_01
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = sword }
@@ -1702,6 +2027,17 @@ council_marshal_shield = {
 		}
 		animations_props = ep2_hunting_sword_right_attachment
 		animations_props = ep2_western_jousting_shield
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # SEA
+		trigger = {
+			culture = { has_unit_gfx = southeast_asian_unit_gfx }
+		}
+		animations_props = artisan_sword_indian_prop
+		animations_props = tgp_sea_shield_01
 		animations = council_marshal_decal
 		animations = fat_additive
 		animations = dwarf_additive
@@ -1884,6 +2220,28 @@ council_marshal_shield = {
 		animations = dwarf_additive
 	}
 
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = { has_clothing_gfx = chinese_clothing_gfx }
+		}
+		animations_props = tgp_chinese_sword_01
+		animations_props = tgp_chinese_shield_01
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # Japanese
+		trigger = {
+			culture = { has_unit_gfx = japanese_unit_gfx }
+		}
+		animations_props = tgp_japanese_sword_01
+		animations_props = tgp_japanese_shield_01
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
 	portrait_modifier = { # African / MENA
 		trigger = {
 			culture = {
@@ -1960,7 +2318,7 @@ throneRoom_one_handed_passive_1 = {
 	}
 	##TGC ADDED END ##
 
-	##AGOT ADDED
+	#AGOT Added
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = axe }
@@ -1971,7 +2329,7 @@ throneRoom_one_handed_passive_1 = {
 		animations = dwarf_additive
 	}
 
-	##AGOT Added
+	#AGOT Added
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = hammer }
@@ -1982,7 +2340,7 @@ throneRoom_one_handed_passive_1 = {
 		animations = dwarf_additive
 	}
 
-	##AGOT Added
+	#AGOT Added
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = mace }
@@ -1993,7 +2351,7 @@ throneRoom_one_handed_passive_1 = {
 		animations = dwarf_additive
 	}
 
-	##AGOT Added
+	#AGOT Added
 	portrait_modifier = {
 		trigger = {
 			culture = {
@@ -2082,9 +2440,34 @@ throneRoom_one_handed_passive_1 = {
 
 	portrait_modifier = { # Indian
 		trigger = {
+			OR = {
 			culture = { has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
 		}
 		animations_props = artisan_sword_indian_prop
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = { has_clothing_gfx = chinese_clothing_gfx }
+		}
+		animations_props = tgp_chinese_sword_01
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Japanese
+		trigger = {
+			culture = { has_unit_gfx = japanese_unit_gfx }
+		}
+		animations_props = tgp_japanese_sword_01
 		animations = council_marshal_decal
 		animations = fat_additive
 		animations = dwarf_additive
@@ -2179,7 +2562,7 @@ throneRoom_one_handed_passive_2 = {
 		animations = female_prop_fix_additive
 	}
 	
-	##AGOT Added
+	#AGOT Added
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = axe }
@@ -2190,7 +2573,7 @@ throneRoom_one_handed_passive_2 = {
 		animations = dwarf_additive
 	}
 
-	##AGOT Added
+	#AGOT Added
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = hammer }
@@ -2201,7 +2584,7 @@ throneRoom_one_handed_passive_2 = {
 		animations = dwarf_additive
 	}
 
-	##AGOT Added
+	#AGOT Added
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = mace }
@@ -2212,7 +2595,7 @@ throneRoom_one_handed_passive_2 = {
 		animations = dwarf_additive
 	}
     
-	##AGOT Added
+	#AGOT Added
 	portrait_modifier = {
 		trigger = {
 			culture = {
@@ -2286,9 +2669,26 @@ throneRoom_one_handed_passive_2 = {
 
 	portrait_modifier = { # Indian
 		trigger = {
+			OR = {
 			culture = { has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
 		}
 		animations_props = artisan_axe_indian_prop
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Chinese
+		trigger = {
+			OR = {
+				culture = { has_clothing_gfx = chinese_clothing_gfx }
+				culture = { has_unit_gfx = japanese_unit_gfx }
+			}
+		}
+		animations_props = tgp_chinese_axe_01
 		animations = council_marshal_decal
 		animations = fat_additive
 		animations = dwarf_additive
@@ -2340,7 +2740,10 @@ throneRoom_two_handed_passive_1 = {
 
 	portrait_modifier = { # Indian
 		trigger = {
+			OR = {
 			culture = { has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
 		}
 		animations_props = artisan_indian_spear_prop_left_hand
 		animations = council_marshal_decal
@@ -2377,6 +2780,22 @@ throneRoom_two_handed_passive_1 = {
         animations = dwarf_additive
         animations = female_prop_fix_additive
     }
+
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = {
+				OR = {
+					has_clothing_gfx = chinese_clothing_gfx
+					has_unit_gfx = japanese_unit_gfx
+				}
+			}
+		}
+		animations_props = tgp_chinese_polearm_01_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+	}
 
 	portrait_modifier = { # Western / any
         animations_props = artisan_spear_prop_left_hand
@@ -2485,6 +2904,20 @@ throneRoom_two_handed_passive_shield = {
 	}
 	##TGC ADDED END ##
 	
+	portrait_modifier = { # SEA shield with artifact spear
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = spear }
+			culture = {
+				has_unit_gfx = southeast_asian_unit_gfx
+			}
+		}
+		animations_props = artifact_spear_equipped_prop_left
+		animations_props = tgp_sea_shield_01_right
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
 	portrait_modifier = { # MENA shield with artifact spear
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = spear }
@@ -2528,6 +2961,29 @@ throneRoom_two_handed_passive_shield = {
 		animations = dwarf_additive
 	}
 
+	portrait_modifier = { # Chinese shield with artifact spear
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = spear }
+			has_clothing_gfx = chinese_clothing_gfx
+		}
+		animations_props = artifact_spear_equipped_prop_left
+		animations_props = tgp_chinese_shield_01_right
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # Japanese shield with artifact spear
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = spear }
+			has_unit_gfx = japanese_unit_gfx
+		}
+		animations_props = artifact_spear_equipped_prop_left
+		animations_props = tgp_japanese_shield_01_right
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
 
 	portrait_modifier = { # Equipped
 		trigger = {
@@ -2550,6 +3006,18 @@ throneRoom_two_handed_passive_shield = {
 		animations = fat_additive
 		animations = dwarf_additive
 		animations_props = ep1_mediterranean_shield_right
+	}
+
+	portrait_modifier = { # SEA
+		trigger = {
+			culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+		}
+		animations_props = artisan_indian_spear_prop_left_hand
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+		animations_props = tgp_sea_shield_01_right
 	}
 
 	portrait_modifier = { # Indian
@@ -2593,6 +3061,34 @@ throneRoom_two_handed_passive_shield = {
 		animations = dwarf_additive
 		animations = female_prop_fix_additive
 		animations_props = ep1_mena_shield_right
+	}
+
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = {
+				has_clothing_gfx = chinese_clothing_gfx
+			}
+		}
+		animations_props = tgp_chinese_polearm_01_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+		animations_props = tgp_chinese_shield_01_right
+	}
+
+	portrait_modifier = { # Japanese
+		trigger = {
+			culture = {
+				has_unit_gfx = japanese_unit_gfx
+			}
+		}
+		animations_props = tgp_chinese_polearm_01_left
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+		animations_props = tgp_japanese_shield_01_right
 	}
 
 	portrait_modifier = { # Western / any
@@ -2765,7 +3261,10 @@ hunting_longbow_rest_bluntarrow = {
 
     portrait_modifier = { # Indian
         trigger = {
+			OR = {
             culture = {	has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
         }
         animations_props = ep2_indian_bowBlunt_01_a_left_attachment
         animations = council_marshal_decal
@@ -2781,7 +3280,10 @@ hunting_longbow_rest_arrow = {
 
     portrait_modifier = { # Indian
         trigger = {
+			OR = {
             culture = {	has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
         }
         animations_props = ep2_indian_bow_01_a_left_attachment
         animations = council_marshal_decal
@@ -2797,7 +3299,10 @@ hunting_longbow_aim_arrow = {
 
     portrait_modifier = { # Indian
         trigger = {
+			OR = {
             culture = {	has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
         }
         animations_props = ep2_indian_bow_01_a_drawn_left_attachment
         animations = council_marshal_decal
@@ -2813,7 +3318,10 @@ hunting_longbow_aim_bluntarrow = {
 
     portrait_modifier = { # Indian
         trigger = {
+			OR = {
             culture = {	has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
         }
         animations_props = ep2_indian_bow_01_a_aimBlunt_left_attachment
         animations = council_marshal_decal
@@ -2931,9 +3439,26 @@ cultural_goblets = {
 
 	portrait_modifier = { # Indian
 		trigger = {
+			OR = {
 			culture = { has_clothing_gfx = indian_clothing_gfx }
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
 		}
 		animations_props = ep1_indian_goblet_basic
+	}
+
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = { has_clothing_gfx = chinese_clothing_gfx }
+		}
+		animations_props = tgp_chinese_goblet_01
+	}
+
+	portrait_modifier = { # Japanese
+		trigger = {
+			culture = { has_unit_gfx = japanese_unit_gfx }
+		}
+		animations_props = tgp_japanese_cup
 	}
 
 	portrait_modifier = { # Mediterranean
@@ -2968,7 +3493,743 @@ cultural_goblets = {
 		animations_props = goblet
 	}
 }
+### Coronation Crowns ###
 
+coronation_crowns = {
+
+	#More specific ones
+
+	#AGOT Disabled
+	# portrait_modifier = { # HRE
+	# 	trigger = {
+	# 		trigger_if = {
+	# 			limit = {
+	# 				exists = involved_activity
+	# 			}
+	# 			involved_activity.activity_host = {
+	# 				primary_title = title:e_hre
+	# 			}
+	# 		}
+	# 		trigger_else = {
+	# 			primary_title = title:e_hre
+	# 		}
+	# 	}
+	# 	animations_props = male_headgear_secular_western_imperial
+	# 	animations = female_prop_fix_additive
+	# }
+
+	portrait_modifier = { # Iranian
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					OR = {
+						culture = { has_clothing_gfx = iranian_clothing_gfx }
+						culture = { has_clothing_gfx = turkic_clothing_gfx }
+					}
+				}
+			}
+			trigger_else = {
+				OR = {
+					culture = { has_clothing_gfx = iranian_clothing_gfx }
+					culture = { has_clothing_gfx = turkic_clothing_gfx }
+				}
+			}
+		}
+		animations_props = m_headgear_sec_fp3_iranian_imp
+		animations = female_prop_fix_additive
+	}
+
+	#AGOT Disabled
+	# portrait_modifier = { # Italian
+	# 	trigger = {
+	# 		trigger_if = {
+	# 			limit = {
+	# 				exists = involved_activity
+	# 			}
+	# 			involved_activity.activity_host = {
+	# 				OR = {
+	# 					primary_title = title:k_italy
+	# 					primary_title = title:e_italy
+	# 				}
+	# 			}
+	# 		}
+	# 		trigger_else = {
+	# 			OR = {
+	# 				primary_title = title:k_italy
+	# 				primary_title = title:e_italy
+	# 			}
+	# 		}
+	# 	}
+	# 	animations_props = male_headgear_secular_ep1_crown_of_lombardy
+	# 	animations = female_prop_fix_additive
+	# }
+
+	# Female only
+
+	portrait_modifier = { # Western Female Early
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					is_female = yes
+					culture = {
+						has_clothing_gfx = western_clothing_gfx
+						NOT = {has_cultural_era_or_later = culture_era_high_medieval }
+					}
+				}
+			}
+			trigger_else = {
+				is_female = yes
+				culture = {
+					has_clothing_gfx = western_clothing_gfx
+					NOT = {has_cultural_era_or_later = culture_era_high_medieval }
+				}
+			}
+		}
+		animations_props = f_headgear_sec_sp2_western_imperial
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Rus Female
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					is_female = yes
+					culture = { has_clothing_gfx = east_slavic_clothing_gfx }
+				}
+			}
+			trigger_else = {
+				is_female = yes
+				culture = { has_clothing_gfx = east_slavic_clothing_gfx }
+			}
+		}
+		animations_props = f_headgear_sp4_rus_roy
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Byz Female
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					is_female = yes
+					culture = { has_clothing_gfx = byzantine_clothing_gfx }
+				}
+			}
+			trigger_else = {
+				is_female = yes
+				culture = { has_clothing_gfx = byzantine_clothing_gfx }
+			}
+		}
+		animations_props = f_headgear_sec_ep3_byzantine_era1_roy
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Mena Female
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					is_female = yes
+					culture = { has_clothing_gfx = mena_clothing_gfx }
+				}
+			}
+			trigger_else = {
+				is_female = yes
+				culture = { has_clothing_gfx = mena_clothing_gfx }
+			}
+		}
+		animations_props = f_headgear_sp4_mena_roy
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # High Western Female
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					is_female = yes
+					culture = {
+						has_cultural_era_or_later = culture_era_high_medieval
+						has_clothing_gfx = western_clothing_gfx
+					}
+				}
+			}
+			trigger_else = {
+				is_female = yes
+				culture = {
+					has_cultural_era_or_later = culture_era_high_medieval
+					has_clothing_gfx = western_clothing_gfx
+				}
+			}
+		}
+		animations_props = f_headgear_sp4_western_roy
+		animations = female_prop_fix_additive
+	}
+
+	# Male only
+
+	portrait_modifier = { # Rus Male
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					is_female = no
+					culture = { has_clothing_gfx = east_slavic_clothing_gfx }
+				}
+			}
+			trigger_else = {
+				is_female = no
+				culture = { has_clothing_gfx = east_slavic_clothing_gfx }
+			}
+		}
+		animations_props = m_headgear_sp4_rus_roy
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Early Western
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					culture = {
+						has_clothing_gfx = western_clothing_gfx
+						NOT = {
+							has_cultural_era_or_later = culture_era_high_medieval
+						}
+					}
+				}
+			}
+			trigger_else = {
+				culture = {
+					has_clothing_gfx = western_clothing_gfx
+					NOT = {
+						has_cultural_era_or_later = culture_era_high_medieval
+					}
+				}
+			}
+		}
+		animations_props = m_headgear_sec_ep2_western_era1_roy
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Mena Male
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					is_female = no
+					culture = { has_clothing_gfx = mena_clothing_gfx }
+				}
+			}
+			trigger_else = {
+				is_female = no
+				culture = { has_clothing_gfx = mena_clothing_gfx }
+			}
+		}
+		animations_props = male_headgear_secular_mena_royalty
+		animations = female_prop_fix_additive
+	}
+
+	# All
+
+	portrait_modifier = { # Iberian King
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					culture = { has_clothing_gfx = iberian_christian_clothing_gfx }
+				}
+			}
+			trigger_else = {
+				culture = { has_clothing_gfx = iberian_christian_clothing_gfx }
+			}
+		}
+		animations_props = male_headgear_secular_fp2_iberian_christian_royalty
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Byzantine King Tier
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					highest_held_title_tier = tier_kingdom
+					culture = { has_clothing_gfx = byzantine_clothing_gfx }
+				}
+			}
+			trigger_else = {
+				highest_held_title_tier = tier_kingdom
+				culture = { has_clothing_gfx = byzantine_clothing_gfx }
+			}
+		}
+		animations_props = male_headgear_secular_byzantine_royalty
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Byzantine
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					culture = { has_clothing_gfx = byzantine_clothing_gfx }
+				}
+			}
+			trigger_else = {
+				culture = { has_clothing_gfx = byzantine_clothing_gfx }
+			}
+		}
+		animations_props = male_headgear_secular_byzantine_imperial
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Northern
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					culture = { has_clothing_gfx = northern_clothing_gfx }
+				}
+			}
+			trigger_else = {
+				culture = { has_clothing_gfx = northern_clothing_gfx }
+			}
+		}
+		animations_props = male_headgear_secular_fp1_royalty
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Sub Saharan Imperial
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					culture = { has_clothing_gfx = african_clothing_gfx }
+					highest_held_title_tier >= tier_empire
+				}
+			}
+			trigger_else = {
+				culture = { has_clothing_gfx = african_clothing_gfx }
+				highest_held_title_tier >= tier_empire
+			}
+		}
+		animations_props = male_headgear_secular_sub_saharan_imperial
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Sub Saharan
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					culture = { has_clothing_gfx = african_clothing_gfx }
+				}
+			}
+			trigger_else = {
+				culture = { has_clothing_gfx = african_clothing_gfx }
+			}
+		}
+		animations_props = male_headgear_secular_sub_saharan_royalty
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Indian Imperial
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					culture = { has_clothing_gfx = indian_clothing_gfx }
+					highest_held_title_tier >= tier_empire
+				}
+			}
+			trigger_else = {
+				culture = { has_clothing_gfx = indian_clothing_gfx }
+				highest_held_title_tier >= tier_empire
+			}
+		}
+		animations_props = male_headgear_secular_indian_imperial
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Indian
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					culture = { has_clothing_gfx = indian_clothing_gfx }
+				}
+			}
+			trigger_else = {
+				culture = { has_clothing_gfx = indian_clothing_gfx }
+			}
+		}
+		animations_props = male_headgear_secular_indian_royalty
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Steppe Imperial
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					culture = { has_clothing_gfx = mongol_clothing_gfx }
+					highest_held_title_tier >= tier_empire
+				}
+			}
+			trigger_else = {
+				culture = { has_clothing_gfx = mongol_clothing_gfx }
+				highest_held_title_tier >= tier_empire
+			}
+		}
+		animations_props = m_headgear_sec_mpo_mongol_imp
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Steppe
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					culture = { has_clothing_gfx = mongol_clothing_gfx }
+				}
+			}
+			trigger_else = {
+				culture = { has_clothing_gfx = mongol_clothing_gfx }
+			}
+		}
+		animations_props = male_headgear_secular_steppe_royalty
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Western Imperial
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					highest_held_title_tier >= tier_empire
+					culture = {
+						has_clothing_gfx = western_clothing_gfx
+						NOT = { has_cultural_era_or_later = culture_era_high_medieval }
+					}
+				}
+			}
+			trigger_else = {
+				highest_held_title_tier >= tier_empire
+				culture = {
+					has_clothing_gfx = western_clothing_gfx
+					NOT = { has_cultural_era_or_later = culture_era_high_medieval }
+				}
+			}
+		}
+		animations_props = m_headgear_sec_ep2_western_era1_imp
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Western King
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					highest_held_title_tier = tier_kingdom
+					culture = {
+						has_clothing_gfx = western_clothing_gfx
+						has_cultural_era_or_later = culture_era_high_medieval
+					}
+				}
+			}
+			trigger_else = {
+				highest_held_title_tier = tier_kingdom
+				culture = {
+					has_clothing_gfx = western_clothing_gfx
+					has_cultural_era_or_later = culture_era_high_medieval
+				}
+			}
+		}
+		animations_props = male_headgear_secular_western_royalty
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Western
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				involved_activity.activity_host = {
+					culture = { has_clothing_gfx = western_clothing_gfx }
+				}
+			}
+			trigger_else = {
+				culture = { has_clothing_gfx = western_clothing_gfx }
+			}
+		}
+		##This headgear is misnamed and is generic western imperial
+		animations_props = male_headgear_secular_dde_hre_imperial
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = { # Any
+		animations_props = male_headgear_secular_steppe_royalty
+		animations = female_prop_fix_additive
+	}
+}
+
+### Hu ###
+
+hu = {
+	portrait_modifier = {
+		trigger = {
+			top_liege = this
+			government_has_flag = government_has_merit
+		}
+		animations = no_cloak
+		animations = female_prop_fix_additive
+		animations_props = tgp_gui_01_a
+	}
+	portrait_modifier = {
+		trigger = {
+			merit_level < 5
+		}
+		animations = no_cloak
+		animations = female_prop_fix_additive
+		animations_props = tgp_hu_01_a
+	}
+	portrait_modifier = {
+		trigger = {
+			merit_level >= 5
+		}
+		animations = no_cloak
+		animations = female_prop_fix_additive
+		animations_props = tgp_hu_01_b
+	}
+}
+### Cultural Books ###
+
+open_book = {
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = {
+				OR = {
+					has_clothing_gfx = chinese_clothing_gfx
+					has_unit_gfx = japanese_unit_gfx
+				}
+			}
+		}
+		animations_props = tgp_chinese_book_left
+	}
+	portrait_modifier = { # Western
+		animations_props = bp2_reading_book_prop
+	}
+}
+
+open_book_w_writing_tool_left = {
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = {
+				OR = {
+					has_clothing_gfx = chinese_clothing_gfx
+					has_unit_gfx = japanese_unit_gfx
+				}
+			}
+		}
+		animations_props = open_book_left_writing_chinese
+	}
+	portrait_modifier = { # Western
+		animations_props = open_book_left_writing
+	}
+}
+
+open_book_w_writing_tool_right = {
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = {
+				OR = {
+					has_clothing_gfx = chinese_clothing_gfx
+					has_unit_gfx = japanese_unit_gfx
+				}
+			}
+		}
+		animations_props = open_book_right_writing_chinese
+	}
+	portrait_modifier = { # Western
+		animations_props = open_book_right_writing
+	}
+}
+
+paged_book = {
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = {
+				OR = {
+					has_clothing_gfx = chinese_clothing_gfx
+					has_unit_gfx = japanese_unit_gfx
+				}
+			}
+		}
+		animations_props = tgp_paged_chinese_book
+		animations = female_prop_fix_additive
+	}
+	portrait_modifier = { # Western
+		animations_props = fp4_paged_book_prop
+		animations = female_prop_fix_additive
+	}
+}
+
+closed_book = {
+	portrait_modifier = { # MENA
+		trigger = {
+			culture = {
+				OR = {
+					has_clothing_gfx = mena_clothing_gfx
+					has_clothing_gfx = mongol_clothing_gfx
+					has_clothing_gfx = iberian_muslim_clothing_gfx
+				}
+			}
+		}
+		animations_props = ep1_mena_book
+		animations = female_prop_fix_additive
+	}
+	portrait_modifier = { # India
+		trigger = {
+			culture = {
+				OR = {
+					has_clothing_gfx = indian_clothing_gfx
+					has_clothing_gfx = southeast_asian_clothing_gfx
+				}
+			}
+		}
+		animations_props = ep1_indian_book
+		animations = female_prop_fix_additive
+	}
+	portrait_modifier = { # Mediterranean
+		trigger = {
+			culture = {
+				OR = {
+					has_clothing_gfx = iberian_christian_clothing_gfx
+					has_clothing_gfx = byzantine_clothing_gfx
+				}
+			}
+		}
+		animations_props = ep1_mediterranean_book
+		animations = female_prop_fix_additive
+	}
+	portrait_modifier = { # China
+		trigger = {
+			culture = {
+				OR = {
+					has_clothing_gfx = chinese_clothing_gfx
+					has_unit_gfx = japanese_unit_gfx
+				}
+			}
+		}
+		animations_props = tgp_chinese_book
+		animations = female_prop_fix_additive
+	}
+	portrait_modifier = { # Everything else - not great bc big cross
+		animations_props = ep1_western_book
+		animations = female_prop_fix_additive
+	}
+}
+
+closed_book_w_writing_tool = {
+	portrait_modifier = { # MENA
+		trigger = {
+			culture = {
+				OR = {
+					has_clothing_gfx = mena_clothing_gfx
+					has_clothing_gfx = mongol_clothing_gfx
+					has_clothing_gfx = iberian_muslim_clothing_gfx
+				}
+			}
+		}
+		animations_props = ep1_mena_book_writing
+		animations = female_prop_fix_additive
+	}
+	portrait_modifier = { # Indian
+		trigger = {
+			culture = {
+				OR = {
+					has_clothing_gfx = indian_clothing_gfx
+					has_clothing_gfx = southeast_asian_clothing_gfx
+				}
+			}
+		}
+		animations_props = ep1_indian_book_writing
+		animations = female_prop_fix_additive
+	}
+	portrait_modifier = { # Mediterranean
+		trigger = {
+			culture = {
+				OR = {
+					has_clothing_gfx = iberian_christian_clothing_gfx
+					has_clothing_gfx = byzantine_clothing_gfx
+				}
+			}
+		}
+		animations_props = ep1_mediterranean_book_writing
+		animations = female_prop_fix_additive
+	}
+	portrait_modifier = { # Chinese
+		trigger = {
+			culture = {
+				OR = {
+					has_clothing_gfx = chinese_clothing_gfx
+					has_unit_gfx = japanese_unit_gfx
+				}
+			}
+		}
+		animations_props = tgp_chinese_book_writing
+		animations = female_prop_fix_additive
+	}
+	portrait_modifier = { # Western
+		animations_props = ep1_western_book_writing
+		animations = female_prop_fix_additive
+	}
+}
 ##Submod Core added
 council_marshal_hammer = {
 	portrait_modifier = {
