@@ -4295,8 +4295,7 @@ special_genes = {
 					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm
 					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm_open
 					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm_closed
-					1 = male_headgear_asoiaf_crownlands_gold_cloak_helm_1
-					1 = male_headgear_asoiaf_crownlands_gold_cloak_helm_2
+					1 = male_headgear_asoiaf_gold_cloak_helm
 					1 = male_headgear_asoiaf_tyrell_helm_dynast
 					1 = male_headgear_asoiaf_tyrell_helm_high
 					1 = male_headgear_asoiaf_tyrell_helm_low
@@ -4304,6 +4303,7 @@ special_genes = {
 				female = {
 					1 = female_headgear_asoiaf_dragonstone_helm
 					1 = female_headgear_asoiaf_bolton_helm_low
+					1 = female_headgear_asoiaf_gold_cloak_helm
 				}
 				boy = male
 				girl = female
@@ -4323,22 +4323,8 @@ special_genes = {
 				girl = female
 			}
 
-			asoiaf_gold_cloak_helms = { #AGOT+ added
-				index = 248
-				male = {
-					1 = male_headgear_asoiaf_crownlands_gold_cloak_helm_1
-					1 = male_headgear_asoiaf_crownlands_gold_cloak_helm_2
-				}
-				female = {
-					1 = female_headgear_asoiaf_crownlands_gold_cloak_helm_1
-					1 = female_headgear_asoiaf_crownlands_gold_cloak_helm_2
-				}
-				boy = male
-				girl = female
-			}
-
 			asoiaf_unique_headgears = { #AGOT+ added
-				index = 249
+				index = 248
 				male = {
 					1 = empty
 				}
@@ -4350,7 +4336,7 @@ special_genes = {
 			}
 
 			asoiaf_fots_religious_headgears = { #AGOT+ added
-				index = 250
+				index = 249
 				male = {
 					1 = empty
 				}
@@ -4363,7 +4349,7 @@ special_genes = {
 			}
 
 			asoiaf_nights_watch_headgears = { #AGOT+ added
-				index = 251
+				index = 250
 				male = {
 					3 = empty
 					2 = male_headgear_asoiaf_nights_watch_hood
@@ -4377,7 +4363,7 @@ special_genes = {
 			}
 
 			tgc_helmets = { #TGC Added
-				index = 252
+				index = 251
 				male = {
 					3 = male_headgear_tgc_helm_01
 					3 = male_headgear_tgc_helm_02
@@ -4391,7 +4377,7 @@ special_genes = {
 			}
 
 			tgc_helmets_black = { #TGC Added
-				index = 253
+				index = 252
 				male = {
 					3 = male_headgear_tgc_helm_black_01
 					3 = male_headgear_tgc_helm_black_02
@@ -4406,7 +4392,7 @@ special_genes = {
 
 			
 			tgc_helmets_blackfyre = { #TGC Added
-				index = 254
+				index = 253
 				male = {
 					3 = male_headgear_tgc_helm_blackfyre_01
 					3 = male_headgear_tgc_helm_blackfyreAlt_01
@@ -4423,7 +4409,7 @@ special_genes = {
 			}
 
 			tgc_helmets_chains = {
-				index = 255
+				index = 254
 				male = {
 					1 = male_headgear_chains_headgear
 				}
