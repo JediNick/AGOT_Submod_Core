@@ -1014,6 +1014,23 @@
 		}	
 	}	
 
+	tgp_japanese_bow_blunt_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_japanese_bow_01_a
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrowBlunt_right
+				range = {0 1}
+			}
+		}
+	}
+
 #bow resting/closed normal arrows
 	ep2_steppe_bow_01_a_left_attachment = {
 		dna_modifiers = {
@@ -1118,6 +1135,23 @@
 		}	
 	}	
 
+	tgp_japanese_bow_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_japanese_bow_01_a
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrow_right
+				range = {0 1}
+			}
+		}
+	}
+
 	#bow aim Blunt arrows
 	ep2_steppe_bow_01_a_aimBlunt_left_attachment = {
 		dna_modifiers = {
@@ -1219,6 +1253,23 @@
 				range = {0 1}
 			}
 		}	
+	}
+
+	tgp_japanese_bow_01_blunt_drawn = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_japanese_bow_01_a_drawn
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrowBlunt_right
+				range = {0 1}
+			}
+		}
 	}
 
 	#bow aim normal arrows
@@ -1324,27 +1375,21 @@
 		}	
 	}
 
-#arrows  these aren't being used in game.  the arrows are being attached as an extra accessory in the bow props
-	ep2_arrow_a_right_hand_attachment = {
+	tgp_japanese_bow_01_drawn = {
 		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_japanese_bow_01_a_drawn
+				value = 1.0
+			}
 			accessory = {
 				mode = add
 				gene = props_right
 				template = ep2_arrow_right
 				range = {0 1}
 			}
-		}	
-	}
-
-	ep2_arrowBlunt_a_right_attachment = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_right
-				template = ep2_arrowBlunt_right
-				range = {0 1}
-			}
-		}	
+		}
 	}
 
 	ep2_marshal_hunting_prop = {
@@ -3616,6 +3661,29 @@
 		}	
 	}
 
+	japanese_bow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = japanese_bow_01
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ep2_arrow_right
+				range = {0 1}
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
 	steppe_bow_no_arrow = {
 		dna_modifiers = {
 			accessory = {
@@ -3719,6 +3787,23 @@
 		}	
 	}
 
+	japanese_bow_no_arrow = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tgp_japanese_bow_01_a
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = animated_props
+				template = ep2_horse_idle
+				range = {0 1}
+			}
+		}
+	}
+
 	skull_goblet = {
 		dna_modifiers = {
 			accessory = {
@@ -3818,12 +3903,13 @@
 			}
 		}
 	}
-suzu = {
+
+	tgp_suzu = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = props_right
-				template = suzu_prop
+				template = tgp_suzu_01
 				value = 1
 			}
 		}
@@ -4804,6 +4890,16 @@ suzu = {
 		}
 	}
 	
+	agot_dragonbinder = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = agot_dragonbinder_horn
+				range = {0 1}
+			}
+		}
+	}
 
 	##AGOT Submod Base entries
 	##If you want to add a prop, enter it below.

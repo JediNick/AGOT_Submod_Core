@@ -1445,7 +1445,7 @@ long_swords = {
 	portrait_modifier = { # Tachi Japan
 		trigger = {
 			culture = {
-				has_unit_gfx = japanese_unit_gfx
+				has_graphical_east_asia_culture_group_trigger = yes
 			}
 		}
 		animations_props = tgp_japanese_sword_01
@@ -1454,18 +1454,7 @@ long_swords = {
 	}
 
 	portrait_modifier = { # Longsword
-		trigger = {
-			culture = {
-				has_unit_gfx = western_unit_gfx
-			}
-		}
 		animations_props = ep2_western_long_sword_right_attachment
-		animations = council_marshal_decal
-		animations = female_prop_fix_additive
-	}
-
-	portrait_modifier = { # Tachi
-		animations_props = tgp_japanese_sword_01
 		animations = council_marshal_decal
 		animations = female_prop_fix_additive
 	}
@@ -3270,6 +3259,14 @@ hunting_longbow_rest_bluntarrow = {
         animations = council_marshal_decal
     }
 
+	portrait_modifier = { # Japan
+		trigger = {
+			culture = { has_clothing_gfx = japanese_clothing_gfx }
+		}
+		animations_props = tgp_japanese_bow_blunt_01
+		animations = council_marshal_decal
+	}
+
     portrait_modifier = { # Equipped
         animations_props = ep2_long_bowBlunt_01_a_left_attachment
         animations = council_marshal_decal
@@ -3289,6 +3286,14 @@ hunting_longbow_rest_arrow = {
         animations = council_marshal_decal
     }
     
+	portrait_modifier = { # Japan
+		trigger = {
+			culture = { has_clothing_gfx = japanese_clothing_gfx }
+		}
+		animations_props = tgp_japanese_bow_01
+		animations = council_marshal_decal
+	}
+
     portrait_modifier = { # Equipped
         animations_props = ep2_long_bow_01_a_left_attachment
         animations = council_marshal_decal
@@ -3308,6 +3313,14 @@ hunting_longbow_aim_arrow = {
         animations = council_marshal_decal
     }
     
+	portrait_modifier = { # Japan
+		trigger = {
+			culture = { has_clothing_gfx = japanese_clothing_gfx }
+		}
+		animations_props = tgp_japanese_bow_01_drawn
+		animations = council_marshal_decal
+	}
+
     portrait_modifier = { # Equipped
         animations_props = ep2_long_bow_01_a_drawn_left_attachment
         animations = council_marshal_decal
@@ -3327,6 +3340,14 @@ hunting_longbow_aim_bluntarrow = {
         animations = council_marshal_decal
     }
     
+	portrait_modifier = { # Japan
+		trigger = {
+			culture = { has_clothing_gfx = japanese_clothing_gfx }
+		}
+		animations_props = tgp_japanese_bow_01_blunt_drawn
+		animations = council_marshal_decal
+	}
+
     portrait_modifier = { # Equipped
         animations_props = ep2_long_bow_01_a_aimBlunt_left_attachment
         animations = council_marshal_decal
@@ -4026,7 +4047,6 @@ hu = {
 			top_liege = this
 			government_has_flag = government_has_merit
 		}
-		animations = no_cloak
 		animations = female_prop_fix_additive
 		animations_props = tgp_gui_01_a
 	}
@@ -4034,7 +4054,6 @@ hu = {
 		trigger = {
 			merit_level < 5
 		}
-		animations = no_cloak
 		animations = female_prop_fix_additive
 		animations_props = tgp_hu_01_a
 	}
@@ -4042,7 +4061,6 @@ hu = {
 		trigger = {
 			merit_level >= 5
 		}
-		animations = no_cloak
 		animations = female_prop_fix_additive
 		animations_props = tgp_hu_01_b
 	}

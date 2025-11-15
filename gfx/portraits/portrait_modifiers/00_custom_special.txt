@@ -139,6 +139,27 @@ custom_special_masks = {
 		template = head_bandage
 	}
 	
+	add_accessory_modifiers = {
+		gene = special_headgear_face_mask
+		template = tgp_chinese_face_mask
+	}
+
+	add_accessory_modifiers = {
+		gene = special_headgear_face_mask
+		template = tgp_japanese_face_mask
+	}
+
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = special_headgear_face_mask_agot
+		template = agot_masks
+	}
+
+	add_accessory_modifiers = {
+		gene = special_headgear_face_mask_agot
+		template = agot_disfigured_bandage
+	}
+	
 	#AGOT Added
 	add_accessory_modifiers = {
 		gene = special_headgear_face_mask_agot

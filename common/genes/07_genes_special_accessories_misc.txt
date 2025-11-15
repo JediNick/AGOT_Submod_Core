@@ -322,9 +322,33 @@ accessory_genes = {
 			girl = female
 		}
 
+		tgp_chinese_high_nobility_legwear = {
+			index = 23
+			male = {
+				1 = m_legwear_sec_tgp_chinese_hi_nob_01
+			}
+			female = {
+			#	1 = f_legwear_sec_tgp_chinese_war_nob_01
+			}
+			boy = male
+			girl = female
+		}
+
+		tgp_southeast_commoner_legwear = {
+			index = 24
+			male = {
+				1 = m_legwear_sec_tgp_southeast_com_01
+			}
+			female = {
+			#	1 = f_legwear_sec_tgp_chinese_war_nob_01
+			}
+			boy = male
+			girl = female
+		}
+
 		#AGOT Added
 		ironborn_war_legwear = {
-			index = 23
+				index = 25
 			male = {
 				1 = male_legwear_secular_ironborn_war_03
 				1 = male_legwear_secular_ironborn_greyjoy_war_03
@@ -338,7 +362,7 @@ accessory_genes = {
 		}
 
 		dornish_war_legwear = {
-			index = 24
+			index = 26
 			male = {
 				1 = male_legwear_secular_dornish_war_03
 				1 = male_legwear_secular_dornish_martell_war_03
@@ -352,7 +376,7 @@ accessory_genes = {
 		}
 
 		vale_war_legwear = {
-			index = 25
+			index = 27
 			male = {
 				1 = male_legwear_secular_vale_war_02
 				1 = male_legwear_secular_vale_war_dynastic_02
@@ -368,7 +392,7 @@ accessory_genes = {
 		}
 
 		north_war_legwear = {
-			index = 26
+			index = 28
 			male = {
 				1 = male_legwear_secular_north_war_03
 				1 = male_legwear_secular_north_stark_war_03
@@ -382,7 +406,7 @@ accessory_genes = {
 		}
 
 		stormlands_war_legwear = {
-			index = 27
+			index = 29
 			male = {
 				1 = male_legwear_secular_stormlands_war_02
 				1 = male_legwear_secular_stormlands_war_dynastic_02
@@ -400,7 +424,7 @@ accessory_genes = {
 		}
 
 		female_legwear_secular_fp1_common_edited_01 = {
-			index = 28
+			index = 30
 			male = {
 				1 = empty
 			}
@@ -409,7 +433,7 @@ accessory_genes = {
 			}
 		}
 		royce_war_03_legwear = {
-			index = 29
+			index = 31
 			male = {
 				1 = male_legwear_special_royce_war_03
 			}
@@ -420,7 +444,7 @@ accessory_genes = {
 			girl = female
 		}
 		high_valyrian_war_legwear = {
-			index = 30
+			index = 32
 			male = {
 				1 = male_legwear_secular_valyrian_war_04
 			}
@@ -431,7 +455,7 @@ accessory_genes = {
 			girl = female
 		}
 		maester_legwear = {
-			index = 31
+			index = 33
 			male = {
 				1 = male_legwear_maester_skirt_01
 				1 = male_legwear_northernmaester_skirt_01
@@ -445,7 +469,7 @@ accessory_genes = {
 			girl = female
 		}
 		dragon_prince_legwear = {
-			index = 32
+			index = 34
 			male = {
 				1 = male_legwear_dragon_prince01
 				1 = male_legwear_dragon_prince02
@@ -460,7 +484,7 @@ accessory_genes = {
 			girl = female
 		}
 		agot_boots_legwear = {
-			index = 33
+			index = 35
 			male = {
 				1 = male_legwear_dragon_prince02
 				1 = male_legwear_stormlander_boots_01
@@ -475,7 +499,7 @@ accessory_genes = {
 			girl = female
 		}
 		agot_trousers = {
-			index = 34
+			index = 36
 			male = {
 				1 = male_legwear_secular_agot_trousers_01
 				1 = male_legwear_secular_agot_trousers_black_01
@@ -490,7 +514,7 @@ accessory_genes = {
 			girl = female
 		}
 		stormlands_war_04_legwear = {
-			index = 35
+			index = 37
 			male = {
 				1 = male_legwear_secular_stormlands_war_04
 			}
@@ -501,7 +525,7 @@ accessory_genes = {
 			girl = female
 		}
 		maelys_war_legwear = {
-			index = 36
+			index = 38
 			male = {
 				1 = male_legwear_secular_valyrian_war_05
 			}
@@ -512,7 +536,7 @@ accessory_genes = {
 			girl = female
 		}
 		free_city_sandals = {
-			index = 37
+			index = 39
 			male = {
 				1 = male_essosi_sandals
 			}
@@ -524,7 +548,7 @@ accessory_genes = {
 			girl = female
 		}
 		valyrian_steel_armor_legwear = {
-			index = 38
+			index = 40
 			male = {
 				1 = male_legwear_secular_valyrian_steel_armor_01
 			}
@@ -535,7 +559,7 @@ accessory_genes = {
 			girl = female
 		}
 		lydden_war_01_legwear = {
-			index = 39
+			index = 41
 			male = {
 				1 = male_legwear_secular_lydden_war_01
 				1 = male_legwear_secular_lydden_war_dynastic_01
@@ -547,7 +571,7 @@ accessory_genes = {
 			girl = female
 		}
 		special_war_01_legwear = {
-			index = 40
+			index = 42
 			male = {
 				1 = male_legwear_secular_rowan_war_01
 				1 = male_legwear_secular_osgrey_war_01
@@ -564,7 +588,7 @@ accessory_genes = {
 			girl = female
 		}
 		agot_all_legwear = {
-			index = 41
+			index = 43
 			male = {
 				1 = male_legwear_dragon_prince01
 				1 = male_legwear_dragon_prince03
@@ -688,7 +712,7 @@ accessory_genes = {
 			girl = female
 		}
 		dragon_rider_legwear = {
-			index = 42
+			index = 44
 			male = {
 				1 = male_legwear_special_dragon_rider_01
 				1 = male_legwear_special_dragon_rider_dynastic_01
@@ -704,7 +728,7 @@ accessory_genes = {
 		}
 
 		riverlands_war_legwear = {
-			index = 43
+			index = 45
 			male = {
 				1 = male_legwear_secular_riverlands_war_03
 			}
@@ -716,7 +740,7 @@ accessory_genes = {
 		}
 
 		reach_war_legwear = {
-			index = 44
+			index = 46
 			male = {
 				1 = male_legwear_secular_reach_war_02
 				1 = male_legwear_secular_reach_war_dynastic_02
@@ -734,7 +758,7 @@ accessory_genes = {
 		}
 
 		valyrian_war_legwear = {
-			index = 45
+			index = 47
 			male = {
 				1 = male_legwear_secular_valyrian_war_02
 				1 = male_legwear_secular_valyrian_war_blackfyre_02
@@ -760,7 +784,7 @@ accessory_genes = {
 		}
 
 		kingsguard_war_01_legwear = {
-			index = 46
+			index = 48
 			male = {
 				1 = male_legwear_special_kingsguard_war_01
 			}
@@ -772,7 +796,7 @@ accessory_genes = {
 		}
 
 		westerlands_war_legwear = {
-			index = 47
+			index = 49
 			male = {
 				1 = male_legwear_secular_westerlands_war_02
 				1 = male_legwear_secular_westerlands_war_03
@@ -793,7 +817,7 @@ accessory_genes = {
 		}
 
 		stone_dornish_war_legwear = {
-			index = 48
+			index = 50
 			male = {
 				1 = male_legwear_secular_stone_dornish_war_03
 			}
@@ -805,7 +829,7 @@ accessory_genes = {
 		}
 		
 		free_cities_war_legwear = {
-			index = 49
+			index = 51
 			male = {
 				1 = male_legwear_secular_braavos_war_01
 				1 = male_legwear_secular_braavos_war_dynastic_01
@@ -1726,7 +1750,7 @@ accessory_genes = {
 		}
 
 		agot_all_no_dlc_cloaks = {
-			index = 50
+			index = 51
 			male = {
 				1 = unlikely_cape_01
 				1 = male_cloaks_secular_stormcloak_01
@@ -2334,6 +2358,7 @@ props_left = {
 			1 = ep2_long_bow_01_a_left_hand
 			1 = ep2_short_bow_01_a_left_hand
 			1 = ep2_short_bow_01_b_left_hand
+			1 = tgp_japanese_bow_01_a_portrait
 		}
 		female = male
 		boy = male
@@ -2743,9 +2768,36 @@ props_left = {
 		boy = male
 		girl = female
 	}
+	tgp_japanese_bow_01_a = {
+		index = 99
+		male = {
+			1 = tgp_japanese_bow_01_a_portrait
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	tgp_japanese_bow_01_a_drawn = {
+		index = 100
+		male = {
+			1 = tgp_japanese_bow_01_a_drawn_portrait
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	japanese_bow_01 = {
+		index = 101
+		male = {
+			1 = japanese_bow
+		}
+		female = male
+		boy = male
+		girl = female
+	}
 #AGOT Added
 	agot_weirwood_longbow_left = {
-		index = 99
+			index = 102
 		male = {
 			1 = agot_weirwood_longbow_left_hand
 		}
@@ -2754,7 +2806,7 @@ props_left = {
 		girl = female
 	}
 	agot_weirwood_longbow_drawn_left = {
-		index = 100
+		index = 103
 		male = {
 			1 = agot_weirwood_longbow_drawn_left_hand
 		}
@@ -2763,7 +2815,7 @@ props_left = {
 		girl = female
 	}
 	agot_dragonbone_longbow_left = {
-		index = 101
+		index = 104
 		male = {
 			1 = agot_dragonbone_longbow_left_hand
 		}
@@ -2772,7 +2824,7 @@ props_left = {
 		girl = female
 	}
 	agot_dragonbone_longbow_drawn_left = {
-		index = 102
+		index = 105
 		male = {
 			1 = agot_dragonbone_longbow_drawn_left_hand
 		}
@@ -2781,7 +2833,7 @@ props_left = {
 		girl = female
 	}
 	agot_gold_mirror = {
-		index = 103
+		index = 106
 		male = {
 			1 = mirror_gold
 		}
@@ -2790,7 +2842,7 @@ props_left = {
 		girl = female
 	}
 	agot_silver_mirror = {
-		index = 104
+		index = 107
 		male = {
 			1 = mirror_silver
 		}
@@ -2799,7 +2851,7 @@ props_left = {
 		girl = female
 	}
 	agot_valyrian_mirror = {
-		index = 105
+		index = 108
 		male = {
 			1 = mirror_valyrian
 		}
@@ -2808,7 +2860,7 @@ props_left = {
 		girl = female
 	}
 	agot_dragonbinder_horn = {
-		index = 106
+		index = 109
 		male = {
 			1 = horn_dragonbinder
 }
@@ -3752,10 +3804,10 @@ tgp_guqin_01_a = {
 			boy = male
 			girl = female
 		}
-		suzu_prop = {
+		tgp_suzu_01 = {
 			index = 98
 			male = {
-				1 = suzu_prop_01
+				1 = tgp_suzu_01_a
 			}
 			female = male
 			boy = male

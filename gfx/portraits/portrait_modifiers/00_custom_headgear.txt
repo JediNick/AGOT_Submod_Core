@@ -181,7 +181,7 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = tgp_korean_imperial
+		template = tgp_southeast_royal
 		is_valid_custom = {
 			has_tgp_dlc_trigger = yes
 		}
@@ -189,11 +189,20 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
+		template = tgp_korean_imperial
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
 		template = tgp_korean_nobility
 		is_valid_custom = {
 			has_tgp_dlc_trigger = yes
 		}
 	}
+	
 	### AGOT Submod Core ###
 	##Crowns of Westeros
 	add_accessory_modifiers = {
