@@ -510,6 +510,86 @@ equipped_crown_goldfyre_artifact = {
 	icon = scholar.dds
 }
 
+equipped_emberrose_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_snowflower_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_baldric_durrandon_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_winterrose_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_winterwing_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_reindeer_crown_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_aemma_tiara_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_aemma_tiara_generic_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_baelorbreakspear_generic_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
+equipped_crown_orysbaratheon_generic_artifact = {
+	physical = no
+	shown_in_ruler_designer = no
+	name = trait_hidden
+	desc = trait_hidden_desc
+	icon = scholar.dds
+}
+
 equipped_crown_celtigar_artifact = {
 	physical = no
 	shown_in_ruler_designer = no

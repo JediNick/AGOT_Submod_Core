@@ -990,6 +990,66 @@
 		}
 		else_if = {
 			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = baldric_durrandon_crown_artifact }
+			}
+			make_trait_inactive = equipped_baldric_durrandon_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = winterrose_crown_artifact }
+			}
+			make_trait_inactive = equipped_winterrose_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = emberrose_crown_artifact }
+			}
+			make_trait_inactive = equipped_emberrose_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = snowflower_crown_artifact }
+			}
+			make_trait_inactive = equipped_snowflower_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = winterwing_crown_artifact }
+			}
+			make_trait_inactive = equipped_winterwing_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = reindeer_crown_artifact }
+			}
+			make_trait_inactive = equipped_reindeer_crown_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aemma_tiara_artifact }
+			}
+			make_trait_inactive = equipped_aemma_tiara_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aemma_tiara_generic_artifact }
+			}
+			make_trait_inactive = equipped_aemma_tiara_generic_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_orysbaratheon_generic_artifact }
+			}
+			make_trait_inactive = equipped_crown_orysbaratheon_generic_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_baelorbreakspear_generic_artifact }
+			}
+			make_trait_inactive = equipped_crown_baelorbreakspear_generic_artifact
+		}
+		else_if = {
+			limit = {
 				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_celtigar_artifact }
 			}
 			make_trait_inactive = equipped_crown_celtigar_artifact

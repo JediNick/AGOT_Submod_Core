@@ -902,3 +902,73 @@ male_joffrey_show_crown = {
 female_joffrey_show_crown = {
 	entity = { required_tags = ""			shared_pose_entity = head		}
 }
+
+baldric_durrandon_crown = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head   	}
+}
+
+female_baldric_durrandon_crown = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head   	}
+}
+
+snowflower_crown = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head   	}
+}
+
+female_snowflower_crown = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head   	}
+}
+
+winterwing_crown = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head   	}
+}
+
+female_winterwing_crown = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head   	}
+}
+
+winterrose_crown = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head   	}
+}
+
+female_winterrose_crown = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head   	}
+}
+
+reindeer_crown = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head   	}
+}
+
+female_reindeer_crown = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head   	}
+}
+
+emberrose_crown = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head   	}
+}
+
+female_emberrose_crown = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head   	}
+}
+
+aemma_tiara = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head   	}
+}
+
+female_aemma_tiara = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head   	}
+}

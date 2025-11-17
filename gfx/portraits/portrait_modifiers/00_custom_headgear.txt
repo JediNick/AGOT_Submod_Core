@@ -25,7 +25,127 @@
 		template = agot_most_headgears
 	}
 	
-	## TGP Chinese ##
+	### AGOT Submod Core ###
+	##Crowns of Westeros
+	add_accessory_modifiers = {
+		gene = headgear
+		is_valid_custom = {
+			is_crowns_westeros_loaded_trigger = yes
+		}
+		template = crowns_of_westeros
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		is_valid_custom = {
+			is_crowns_westeros_loaded_trigger = yes
+		}
+		template = canon_queens
+	}
+
+	##Armor of the Kingsguard
+	add_accessory_modifiers = {
+		gene = headgear
+		is_valid_custom = {
+			is_aotk_loaded_trigger = yes
+		}
+		template = KG_war_common
+	}
+
+	##Golden Company
+	add_accessory_modifiers = {
+		gene = headgear
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+		template = tgc_helmets
+	}
+
+	##Golden Company
+	add_accessory_modifiers = {
+		gene = headgear
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+			has_ep2_dlc_trigger = yes
+		}
+		template = tgc_helmets_chains
+	}
+	
+	##Golden Company
+	add_accessory_modifiers = {
+		gene = headgear
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+		template = tgc_helmets_black
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		is_valid_custom = {
+			is_tgc_loaded_trigger = yes
+		}
+		template = tgc_helmets_blackfyre
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		is_valid_custom = {
+			is_lotd_loaded_trigger = yes
+		}
+		template = aegon_crown_gems
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		is_valid_custom = {
+			is_lotd_loaded_trigger = yes
+		}
+		template = aegon_crown_no_gems
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		is_valid_custom = {
+			is_lotd_loaded_trigger = yes
+		}
+		template = viserys_crown
+	}
+
+	##AGOT+
+	add_accessory_modifiers = { #AGOT+
+		gene = headgear
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_crowns
+	}
+	
+	add_accessory_modifiers = { #AGOT+
+		gene = headgear
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_all_helms
+	}
+
+	add_accessory_modifiers = { #AGOT+
+		gene = headgear
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_unique_headgears
+	}
+
+	add_accessory_modifiers = { #AGOT+
+		gene = headgear
+		is_valid_custom = {
+			is_agot_plus_loaded_trigger = yes
+		}
+		template = asoiaf_fots_religious_headgears
+	}
+
+		## TGP Chinese ##
 
 	add_accessory_modifiers = {
 		gene = headgear
@@ -203,126 +323,6 @@
 		}
 	}
 	
-	### AGOT Submod Core ###
-	##Crowns of Westeros
-	add_accessory_modifiers = {
-		gene = headgear
-		is_valid_custom = {
-			is_crowns_westeros_loaded_trigger = yes
-		}
-		template = crowns_of_westeros
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		is_valid_custom = {
-			is_crowns_westeros_loaded_trigger = yes
-		}
-		template = canon_queens
-	}
-
-	##Armor of the Kingsguard
-	add_accessory_modifiers = {
-		gene = headgear
-		is_valid_custom = {
-			is_aotk_loaded_trigger = yes
-		}
-		template = KG_war_common
-	}
-
-	##Golden Company
-	add_accessory_modifiers = {
-		gene = headgear
-		is_valid_custom = {
-			is_tgc_loaded_trigger = yes
-		}
-		template = tgc_helmets
-	}
-
-	##Golden Company
-	add_accessory_modifiers = {
-		gene = headgear
-		is_valid_custom = {
-			is_tgc_loaded_trigger = yes
-			has_ep2_dlc_trigger = yes
-		}
-		template = tgc_helmets_chains
-	}
-	
-	##Golden Company
-	add_accessory_modifiers = {
-		gene = headgear
-		is_valid_custom = {
-			is_tgc_loaded_trigger = yes
-		}
-		template = tgc_helmets_black
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		is_valid_custom = {
-			is_tgc_loaded_trigger = yes
-		}
-		template = tgc_helmets_blackfyre
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		is_valid_custom = {
-			is_lotd_loaded_trigger = yes
-		}
-		template = aegon_crown_gems
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		is_valid_custom = {
-			is_lotd_loaded_trigger = yes
-		}
-		template = aegon_crown_no_gems
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		is_valid_custom = {
-			is_lotd_loaded_trigger = yes
-		}
-		template = viserys_crown
-	}
-
-	##AGOT+
-	add_accessory_modifiers = { #AGOT+
-		gene = headgear
-		is_valid_custom = {
-			is_agot_plus_loaded_trigger = yes
-		}
-		template = asoiaf_crowns
-	}
-	
-	add_accessory_modifiers = { #AGOT+
-		gene = headgear
-		is_valid_custom = {
-			is_agot_plus_loaded_trigger = yes
-		}
-		template = asoiaf_all_helms
-	}
-
-	add_accessory_modifiers = { #AGOT+
-		gene = headgear
-		is_valid_custom = {
-			is_agot_plus_loaded_trigger = yes
-		}
-		template = asoiaf_unique_headgears
-	}
-
-	add_accessory_modifiers = { #AGOT+
-		gene = headgear
-		is_valid_custom = {
-			is_agot_plus_loaded_trigger = yes
-		}
-		template = asoiaf_fots_religious_headgears
-	}
-
 	### MPO - Khans of the Steppe ###
 
 	add_accessory_modifiers = {

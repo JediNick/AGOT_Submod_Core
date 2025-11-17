@@ -6716,7 +6716,10 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jonsnow_artifact }}
 				agot_default_wear_crown_trigger = yes
 				culture = culture:northman
-				is_character_stark_7 = yes  # Jon Snow (bastard son of Ned Stark)
+				AND = {
+					exists = character:Stark_7
+					this = character:Stark_7 = yes  # Jon Snow (bastard son of Ned Stark)
+				}
 			}
 		}
 	}
@@ -6743,12 +6746,22 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jonsnow_artifact }}
 				agot_default_wear_crown_trigger = yes
-				culture = culture:northman
-				is_character_stark_7 = yes  # Jon Snow (bastard son of Ned Stark)
-				knows_self_royal_bastard_secret = yes
+				OR = {
+					AND = {
+						culture = culture:northman
+						knows_self_royal_bastard_secret = yes
+					}
+					culture = culture:high_valyrian
+					dynasty ?= dynasty:dynn_Targaryen
+				}
+				AND = {
+					exists = character:Stark_7
+					this = character:Stark_7 = yes  # Jon Snow (bastard son of Ned Stark)
+				}
 			}
 		}
 	}
+
 
 ### Crowns of Westeros - Queen Crowns ###	
 
@@ -6766,9 +6779,12 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 275
 				is_crowns_westeros_loaded_trigger = yes
-				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaenatargaryen_artifact }
+				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaenatargaryen_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_32 = yes # Rhaena
+				AND = {
+					exists = character:Targaryen_32
+					this = character:Targaryen_32 = yes  # Rhaena
+				}
 			}
 		}
 	}
@@ -6790,15 +6806,39 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alyssavelaryon_artifact }}
 				agot_default_wear_crown_trigger = yes
 				OR = {
-					is_character_velaryon_24 = yes # Alyssa Velaryon
 					AND = {
-						exists = character:Hightower_66
-						this = character:Hightower_66 # Ceryse Hightower
+						exists = character:Velaryon_24 = yes # 
+						this = character:Velaryon_24 = yes # Alyssa Velaryon
 					}
-					is_character_velaryon_53 = yes # Daenaera
-					is_character_bracken_76 = yes # Barba Bracken
-					is_character_blackwood_81 = yes # Melissa Blackwood
-					is_character_bracken_75 = yes # # Bethany Bracken
+					AND = {
+						exists = character:Velaryon_53 = yes # 
+						this = character:Velaryon_53 = yes # Alyssa Velaryon
+					}
+				}
+			}
+		}
+	}
+	
+	agot_headgear_aemma_tiara = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = canon_queens
+				accessory = aemma_tiara
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 275
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aemma_tiara_artifact }}
+				agot_default_wear_crown_trigger = yes
+				AND = {
+					exists = character:Arryn_80
+					this = character:Arryn_80 # Aemma Arryn
 				}
 			}
 		}
@@ -6821,8 +6861,14 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alicenthightower_artifact }}
 				agot_default_wear_crown_trigger = yes
 				OR = {
-					is_character_hightower_97 = yes # Alicent Hightower
-					is_character_penrose_35 = yes # # Aelinor Penrose
+					AND = {
+						exists = character:Hightower_97
+						this = character:Hightower_97 = yes # Alicent Hightower
+					}
+					AND = {
+						exists = character:Penrose_35 = yes
+						this = character:Penrose_35 = yes # # Aelinor Penrose
+					}
 				}
 			}
 		}
@@ -6846,8 +6892,14 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = jaehaera_crown_artifact }}
 				agot_default_wear_crown_trigger = yes
 				OR = {
-					is_character_targaryen_66 = yes  # Helaena
-					is_character_targaryen_71 = yes  # Jaehaera Targaryen
+					AND = {
+						exists = character:Targaryen_66
+						this = character:Targaryen_66 = yes  # Helaena
+					}
+					AND = {
+						exists = character:Targaryen_71 = yes
+						this = character:Targaryen_71 = yes # Jaehaera
+					}
 				}
 			}
 		}
@@ -6870,8 +6922,14 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_daena_artifact }}
 				agot_default_wear_crown_trigger = yes
 				OR = {
-					is_character_targaryen_83 = yes # Daena The Defiant
-					is_character_atuhoris_26 = yes # Rohanne of Tyrosh
+					AND = {
+						exists = character:Targaryen_83
+						this = character:Targaryen_83 = yes  # Daena Targaryen
+					}
+					AND = {
+						exists = character:Atuhoris_26 = yes
+						this = character:Atuhoris_26 = yes # Rohanne of Tyrosh
+					}
 				}
 			}
 		}
@@ -6894,8 +6952,14 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_bethablackwood_artifact }}
 				agot_default_wear_crown_trigger = yes
 				OR = {
-					is_character_blackwood_87 = yes # Betha Blackwood
-					is_character_targaryen_128 = yes # Shaera Targaryen
+					AND = {
+						exists = character:Blackwood_87 = yes
+						this = character:Blackwood_87 = yes # Betha Blackwood
+					}
+					AND = {
+						exists = character:Targaryen_128
+						this = character:Targaryen_128 = yes  # Shaera Targaryen
+					}
 				}
 			}
 		}
@@ -6918,6 +6982,10 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_mariah_martell_artifact }}
 				agot_default_wear_crown_trigger = yes
 				is_character_martell_79 = yes  # Myriah
+				AND = {
+					exists = character:Martell_79
+					this = character:Martell_792 = yes  # Myriah
+				}
 			}
 		}
 	}
@@ -6939,6 +7007,10 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = cersei_tiara_artifact }}
 				agot_can_wear_crown_trigger = yes
 				is_character_lannister_6 = yes  # Cersei
+				AND = {
+					exists = character:Lannister_6
+					this = character:Lannister_6 = yes # Cersei
+				}
 			}
 		}
 	}
@@ -7030,7 +7102,10 @@ fp3_turkic_high_nobles = {
 						exists = character:Martell_86
 						this = character:Martell_86
 					}
-					is_character_martell_1 = yes  # Loreza
+					AND = {
+						exists = character:Martell_1
+						this = character:Martell_1 = yes  # Loreza
+					}
 				}
 			}
 		}
@@ -7053,7 +7128,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_matarys_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_112 = yes # Matarys Targaryen
+				AND = {
+					exists = character:Targaryen_112
+					this = character:Targaryen_112 = yes  # Matarys Targaryen
+				}
 			}
 		}
 	}
@@ -7075,7 +7153,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = bittersteel_crown_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_95 = yes  # Aegor 'Bittersteel' Rivers
+				AND = {
+					exists = character:Targaryen_95
+					this = character:Targaryen_95 = yes  # Aegor Bittersteel
+				}
 			}
 		}
 	}
@@ -7097,7 +7178,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = daeron_the_daring_crown_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_68 = yes  # Daeron the Daring 
+				AND = {
+					exists = character:Targaryen_68
+					this = character:Targaryen_68 = yes  # Daeron the Daring
+				}
 			}
 		}
 	}
@@ -7119,7 +7203,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = maegor_brightflame_crown_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_125 = yes  # Maegor Brightflame
+				AND = {
+					exists = character:Targaryen_125
+					this = character:Targaryen_125 = yes  # Maegor Brightflame
+				}
 			}
 		}
 	}
@@ -7141,7 +7228,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = seven_dragon_crown_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_84 = yes  # Rhaena Targaryen
+				AND = {
+					exists = character:Targaryen_84
+					this = character:Targaryen_84 = yes  # Rhaena Targaryen
+				}
 			}
 		}
 	}
@@ -7164,6 +7254,10 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = elaena_crown_default_artifact }}
 				agot_default_wear_crown_trigger = yes
 				is_character_targaryen_85 = yes  # Elaena Targaryen
+				AND = {
+					exists = character:Targaryen_85
+					this = character:Targaryen_85 = yes  # Elaena Targaryen
+				}
 			}
 		}
 	}
@@ -7187,6 +7281,16 @@ fp3_turkic_high_nobles = {
 				agot_default_wear_crown_trigger = yes
 				is_character_targaryen_115 = yes  # Aelor Targaryen
 				is_character_targaryen_116 = yes  # Aelora Targaryen
+				OR = {
+					AND = {
+						exists = character:Targaryen_115
+						this = character:Targaryen_115 = yes  # Aelor Targaryen
+					}
+					AND = {
+						exists = character:Targaryen_116
+						this = character:Targaryen_116 = yes  # Aelora Targaryen
+					}
+				}
 			}
 		}
 	}
@@ -7208,7 +7312,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = elaena_crown_black_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_blackfyre_1 = yes  # Aegon Blackfyre
+				AND = {
+					exists = character:Blackfyre_1
+					this = character:Blackfyre_1 = yes # Aegon Blackfyre
+				}
 			}
 		}
 	}
@@ -7230,7 +7337,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aemon_blackfyre_crown_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_blackfyre_2 = yes  # Aemon Blackfyre
+				AND = {
+					exists = character:Blackfyre_2
+					this = character:Blackfyre_2 = yes  # Calla Blackfyre
+				}
 			}
 		}
 	}
@@ -7252,7 +7362,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = calla_blackfyre_circlet_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_blackfyre_3 = yes  # Calla Blackfyre
+				AND = {
+					exists = character:Blackfyre_3
+					this = character:Blackfyre_3 = yes  # Calla Blackfyre
+				}
 			}
 		}
 	}
@@ -7274,7 +7387,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = argella_crown_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_durrandon_88 = yes  # Argella Durrandon
+				AND = {
+					exists = character:Durrandon_88
+					this = character:Durrandon_88 = yes  # Argella Durrandon
+				}
 			}
 		}
 	}
@@ -7296,7 +7412,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = myrcella_circlet_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_baratheon_6 = yes  # Myrcella
+				AND = {
+					exists = character:Baratheon_6
+					this = character:Baratheon_6 # Myrcella
+				}
 			}
 		}
 	}
@@ -7318,7 +7437,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = sharra_arryn_crown_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_arryn_58 = yes  # Sharra Arryn
+				AND = {
+					exists = character:Arryn_58
+					this = character:Arryn_58 # Sharra Arryn
+				}
 			}
 		}
 	}
@@ -7343,6 +7465,10 @@ fp3_turkic_high_nobles = {
 					AND = {
 						agot_default_wear_crown_trigger = yes
 						is_character_arryn_20 = yes  # Roland Arryn
+						AND = {
+							exists = character:Arryn_20
+							this = character:Arryn_20 # Roland Arryn
+						}
 					}
 					has_character_flag = roland_crown_bandit
 				}
@@ -7367,7 +7493,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaegar_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_3 = yes  # Rhaegar
+				AND = {
+					exists = character:Targaryen_3
+					this = character:Targaryen_3 # Rhaegar
+				}
 			}
 		}
 	}
@@ -7414,7 +7543,10 @@ fp3_turkic_high_nobles = {
 					dynasty ?= dynasty:dynn_Targaryen
 					dynasty ?= dynasty:dynn_Essos
 				}
-				is_character_targaryen_9 = yes  # Aegon VI
+				AND = {
+					exists = character:Targaryen_9
+					this = character:Targaryen_9 # Aegon VI
+				}
 			}
 		}
 	}
@@ -7436,30 +7568,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_viserysiii_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_8 = yes  # Viserys III
-			}
-		}
-	}
-	
-	agot_headgear_jonsnowtargaryen_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crowns_of_westeros
-				accessory = jonsnowtargaryen_crown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 275
-				is_crowns_westeros_loaded_trigger = yes
-				has_game_rule = show_dynamic_crowns_enabled
-				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jonsnowtargaryen_artifact }}
-				agot_default_wear_crown_trigger = yes
-				culture = culture:high_valyrian
-				is_character_stark_7 = yes  # Aemon Targaryen (Jon Snow)
+				AND = {
+					exists = character:Targaryen_8
+					this = character:Targaryen_8 # Viserys III
+				}
 			}
 		}
 	}
@@ -7482,6 +7594,10 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_maesteraemon_artifact }}
 				agot_default_wear_crown_trigger = yes
 				is_character_targaryen_120 = yes  # Aemon Targaryen (Maester)
+				AND = {
+					exists = character:Targaryen_120
+					this = character:Targaryen_120 # Maester Aemon
+				}
 			}
 		}
 	}
@@ -7504,6 +7620,10 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegontheuncrowned_artifact }}
 				agot_default_wear_crown_trigger = yes
 				is_character_targaryen_33 = yes  # Aegon the Uncrowned
+				AND = {
+					exists = character:Targaryen_33
+					this = character:Targaryen_33 # Aegon the Uncrowned
+				}
 			}
 		}
 	}
@@ -7525,7 +7645,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_brightflame_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_119 = yes  # Aerion Brightflame
+				AND = {
+					exists = character:Targaryen_119
+					this = character:Targaryen_119 # Aerion
+				}
 			}
 		}
 	}
@@ -7547,7 +7670,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_baelon_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_46 = yes  # Baelon Targaryen (son of Jaehaerys I)
+				AND = {
+					exists = character:Targaryen_46
+					this = character:Targaryen_46 # Baelon
+				}
 			}
 		}
 	}
@@ -7570,6 +7696,10 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_valarr_artifact }}
 				agot_default_wear_crown_trigger = yes
 				is_character_targaryen_111 = yes  # Valarr Targaryen
+				AND = {
+					exists = character:Targaryen_111
+					this = character:Targaryen_111 # Valarr
+				}
 			}
 		}
 	}
@@ -7592,6 +7722,10 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aemonsonofjaehaerys_artifact }}
 				agot_default_wear_crown_trigger = yes
 				is_character_targaryen_45 = yes  # Aemon son of Jahaerys I
+				AND = {
+					exists = character:Targaryen_45
+					this = character:Targaryen_45 # Aemon, son of Jae I
+				}
 			}
 		}
 	}
@@ -7614,6 +7748,10 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_baelorbreakspear_artifact }}
 				agot_default_wear_crown_trigger = yes
 				is_character_targaryen_107 = yes  # Baelor Breakspear
+				AND = {
+					exists = character:Targaryen_107
+					this = character:Targaryen_107 # Baelor Breakspear
+				}
 			}
 		}
 	}
@@ -7635,7 +7773,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_laenorvelaryon_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_velaryon_35 = yes  # Laenor Velaryon
+				AND = {
+					exists = character:Velaryon_35
+					this = character:Velaryon_35 # Laenor
+				}
 			}
 		}
 	}
@@ -7657,7 +7798,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jacaerysvelaryon_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_75 = yes  # Jacaerys Velaryon
+				AND = {
+					exists = character:Targaryen_75
+					this = character:Targaryen_75 # Jacaerys
+				}
 			}
 		}
 	}
@@ -7700,7 +7844,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_duncandragonfly_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_126 = yes  # Duncan the Small
+				AND = {
+					exists = character:Targaryen_126
+					this = character:Targaryen_126 # Duncan the Small
+				}
 			}
 		}
 	}
@@ -7722,12 +7869,14 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_shieraseastar_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_97 = yes  # Shiera Seastar
+				AND = {
+					exists = character:Targaryen_97
+					this = character:Targaryen_97 # Shiera Seastar
+				}
 			}
 		}
 	}
-	
-	
+		
 	agot_headgear_aereatargaryen_crown_01 = {
 		dna_modifiers = {
 			accessory = {
@@ -7745,7 +7894,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aereatargaryen_crown_01_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_41 = yes  # Aerea Targaryen
+				AND = {
+					exists = character:Targaryen_41
+					this = character:Targaryen_41 # Aerea
+				}
 			}
 		}
 	}
@@ -7767,7 +7919,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = aereatargaryen_crown_02_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_42 = yes  # Rhaella Targaryen, Daughter of Rhaena
+				AND = {
+					exists = character:Targaryen_42
+					this = character:Targaryen_42 # Rhaella, Daughter of Rhaena
+				}
 			}
 		}
 	}
@@ -7789,7 +7944,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = vaellatargaryen_crown_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_124 = yes  # Vaella Targaryen
+				AND = {
+					exists = character:Targaryen_124
+					this = character:Targaryen_124 # Vaella
+				}
 			}
 		}
 	}
@@ -7811,7 +7969,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaenysvelaryon_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_59 = yes  # Rhaenys (The Queen Who Never Was)
+				AND = {
+					exists = character:Targaryen_59
+					this = character:Targaryen_59 # Rhaenys (The Queen Who Never Was)
+				}
 			}
 		}
 	}
@@ -7834,7 +7995,10 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegonblackfyre_artifact }}
 				agot_default_wear_crown_trigger = yes
 				house = house:house_Blackfyre
-				is_character_targaryen_9 = yes  # Aegon Blackfyre
+				AND = {
+					exists = character:Blackfyre_9
+					this = character:Blackfyre_9 # Aegon_Blackfyre
+				}
 			}
 		}
 	}
@@ -7856,7 +8020,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_daemon_ii_blackfyre_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_blackfyre_5 = yes  # Daemon II Blackfyre
+				AND = {
+					exists = character:Blackfyre_5
+					this = character:Blackfyre_5 # Daemon II_Blackfyre
+				}
 			}
 		}
 	}
@@ -7879,8 +8046,14 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_haegonblackfyre_artifact }}
 				agot_default_wear_crown_trigger = yes
 				OR = {
-					is_character_blackfyre_6 = yes  # Haegon Blackfyre
-					is_character_blackfyre_11 = yes  # Daemon III Blackfyre
+					AND = {
+						exists = character:Blackfyre_6
+						this = character:Blackfyre_6 # Haegon Blackfyre
+					}
+					AND = {
+						exists = character:Blackfyre_11
+						this = character:Blackfyre_1 # Daemon III Blackfyre
+					}
 				}
 			}
 		}
@@ -7903,7 +8076,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aenysblackfyre_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_blackfyre_7 = yes  # Aenys Blackfyre
+				AND = {
+					exists = character:Blackfyre_7
+					this = character:Blackfyre_7 # Aenys_Blackfyre
+				}
 			}
 		}
 	}
@@ -7925,7 +8101,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_maelysblackfyre_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_blackfyre_14 = yes  # Maelys Blackfyre
+				AND = {
+					exists = character:Blackfyre_14
+					this = character:Blackfyre_14 # Maelys_Blackfyre
+				}
 			}
 		}
 	}
@@ -7947,7 +8126,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_orysbaratheon_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_baratheon_14 = yes  # Orys Baratheon
+				AND = {
+					exists = character:Baratheon_14
+					this = character:Baratheon_14 # Orys
+				}
 			}
 		}
 	}
@@ -7969,7 +8151,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_robbstark_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_stark_6 = yes  # Robb Stark
+				AND = {
+					exists = character:Stark_6
+					this = character:Stark_6 # Robb Stark
+				}
 			}
 		}
 	}
@@ -7991,8 +8176,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegonsonofjaehaerys_artifact }}
 				agot_default_wear_crown_trigger = yes
-				exists = character:Targaryen_43
-				this = character:Targaryen_43 # Aegon Son of Jaehaerys
+				AND = {
+					exists = character:Targaryen_43
+					this = character:Targaryen_43 # Unborn Egg
+				}
 			}
 		}
 	}
@@ -8014,7 +8201,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_vaegon_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_49 = yes  # Vaegon Targaryen
+				AND = {
+					exists = character:Targaryen_49
+					this = character:Targaryen_49 # Vaegon
+				}
 			}
 		}
 	}
@@ -8036,7 +8226,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aemond_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_67 = yes  # Aemond Targaryen
+				AND = {
+					exists = character:Targaryen_67
+					this = character:Targaryen_67 # Aemond
+				}
 			}
 		}
 	}
@@ -8058,7 +8251,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = daenerys_daughterofjaehaerys_crown_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_44 = yes  # Daenerys, Daughter of Jaehaerys I
+				AND = {
+					exists = character:Targaryen_44
+					this = character:Targaryen_44 # Daenerys, daughter of Jae I
+				}
 			}
 		}
 	}
@@ -8544,6 +8740,80 @@ fp3_turkic_high_nobles = {
 			}
 		}
 	}
+	
+	agot_headgear_winterrose_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = winterrose_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 275
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = winterrose_crown_artifact }}
+				agot_default_wear_crown_trigger = yes
+				AND = {
+					exists = character:Stark_5
+					this = character:Stark_5 # Lyanna Stark
+				}
+			}
+		}
+	}
+	
+	agot_headgear_baldric_durrandon_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = baldric_durrandon_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 275
+				is_crowns_westeros_loaded_trigger = yes
+				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = baldric_durrandon_crown_artifact }}
+				agot_default_wear_crown_trigger = yes
+				AND = {
+					exists = character:Durrandon_51
+					this = character:Durrandon_51 # Baldric the Cunning
+				}
+			}
+		}
+	}
+	
+	agot_headgear_winterrose_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = crowns_of_westeros
+				accessory = winterrose_crown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 275
+				is_crowns_westeros_loaded_trigger = yes
+				has_game_rule = show_dynamic_crowns_enabled
+				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = winterrose_crown_artifact }}
+				agot_default_wear_crown_trigger = yes
+				AND = {
+					exists = character:Stark_5
+					this = character:Stark_5 # Lyanna Stark
+				}
+			}
+		}
+	}
 
 ### Crowns of Westeros - WW Crowns ###
 
@@ -8723,7 +8993,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_bloodraven_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_96 = yes # Bloodraven
+				AND = {
+					exists = character:Targaryen_96
+					this = character:Targaryen_96 = yes # Bloodraven
+				}
 			}
 		}
 	}
@@ -8745,7 +9018,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = mockingbird_circlet_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_baelish_2 = yes # Petyr Baelish
+				AND = {
+					exists = character:Baelish_2
+					this = character:Baelish_2 = yes # Petyr Baelish
+				}
 			}
 		}
 	}
@@ -8767,7 +9043,10 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_sansa_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_character_stark_8 = yes # Sansa Stark
+				AND = {
+					exists = character:Stark_8
+					this = character:Stark_8 = yes # Sansa Stark
+				}
 			}
 		}
 	}
@@ -8790,6 +9069,10 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_cersei_ruler_artifact }}
 				primary_title = title:e_the_iron_throne
 				is_character_lannister_6 = yes # Cersei Lannister
+				AND = {
+					exists = character:Lannister_6
+					this = character:Lannister_6 = yes # Cersei Lannister
+				}
 			}
 		}
 	}
