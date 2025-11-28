@@ -578,13 +578,13 @@
             accessory = {
                 mode = add
                 gene = clothes
-                template = kingsguard_war_nobility_clothes
-                range = { 0 1 }
+                template = agot_all_armors
+                accessory = male_clothes_kingsguard_war_01
             }
             accessory = {
                 mode = add
                 gene = legwear
-                template = kingsguard_war_01_legwear
+                template = agot_all_legwear
                 accessory = male_legwear_special_kingsguard_war_01
             }
             accessory = {
@@ -624,13 +624,13 @@
             accessory = {
                 mode = add
                 gene = clothes
-                template = kingsguard_war_nobility_clothes
-                range = { 0 1 }
+                template = agot_all_armors
+                accessory = male_clothes_kingsguard_war_01
             }
             accessory = {
                 mode = add
                 gene = legwear
-                template = kingsguard_war_01_legwear
+                template = agot_all_legwear
                 accessory = male_legwear_special_kingsguard_war_01
             }
             accessory = {
@@ -721,7 +721,7 @@
             accessory = {
                 mode = add
                 gene = legwear
-                template = maester_legwear
+                template = agot_all_legwear
                 accessory = male_legwear_maester_skirt_01
             }
             morph = {
@@ -760,7 +760,7 @@
             accessory = {
                 mode = add
                 gene = legwear
-                template = maester_legwear
+                template = agot_all_legwear
                 accessory = male_legwear_northernmaester_skirt_01
             }
             morph = {
@@ -799,7 +799,7 @@
             accessory = {
                 mode = add
                 gene = legwear
-                template = maester_legwear
+                template = agot_all_legwear
                 accessory = male_legwear_maester_kw_skirt_01
             }
             morph = {
@@ -838,7 +838,7 @@
             accessory = {
                 mode = add
                 gene = legwear
-                template = maester_legwear
+                template = agot_all_legwear
                 accessory = male_legwear_grandmaester_skirt_01
             }
             morph = {
@@ -871,13 +871,13 @@
             accessory = {
                 mode = add
                 gene = clothes
-                template = maelys_blackfyre_nobility_clothes
+                template = agot_clothes_special
                 accessory = male_clothes_secular_valyrian_war_05
             }
             accessory = {
                 mode = add
                 gene = legwear
-                template = maelys_war_legwear
+                template = agot_all_legwear
                 accessory = male_legwear_secular_valyrian_war_05
             }
             accessory = {
@@ -910,13 +910,13 @@
             accessory = {
                 mode = add
                 gene = clothes
-                template = maelys_blackfyre_nobility_clothes
+                template = agot_clothes_special
                 accessory = male_clothes_secular_valyrian_war_05_black
             }
             accessory = {
                 mode = add
                 gene = legwear
-                template = maelys_war_legwear
+                template = agot_all_legwear
                 accessory = male_legwear_secular_valyrian_war_05
             }
             accessory = {
@@ -949,13 +949,13 @@
             accessory = {
                 mode = add
                 gene = clothes
-                template = north_war_nobility_clothes
+                template = agot_all_armors
                 accessory = male_clothes_north_war_03
             }
             accessory = {
                 mode = add
                 gene = legwear
-                template = north_war_legwear
+                template = agot_all_legwear
                 accessory = male_legwear_secular_north_war_03
             }
             accessory = {
@@ -1008,80 +1008,6 @@
         }
     }
     
-     #AGOT Added, Blame Vierwood
-    agot_Tall_1_adventurer = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = agot_all_armors
-				accessory = male_clothes_stormlands_war_03
-			}
-			accessory = {
-				mode = add
-				gene = legwear
-				template = stormlands_war_legwear
-				accessory = male_legwear_secular_stormlands_war_03
-			}
-			accessory = {
-				mode = add
-				gene = cloaks
-				template = no_cloak
-				value = 0
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				is_ruler = yes
-				government_has_flag = government_is_landless_adventurer
-				add = 101
-				age > 15
-				is_character_tall_1 = yes
-				is_male = yes
-			}
-		}
-	}
-    agot_Tall_1_adventurer_war = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = agot_all_armors
-				accessory = male_clothes_stormlands_war_03
-			}
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_most_headgears
-				accessory = male_headgear_secular_stormlands_war_03
-			}
-			accessory = {
-				mode = add
-				gene = legwear
-				template = stormlands_war_legwear
-				accessory = male_legwear_secular_stormlands_war_03
-			}
-			accessory = {
-				mode = add
-				gene = cloaks
-				template = no_cloak
-				value = 0
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				is_ruler = yes
-				is_at_war = yes
-				government_has_flag = government_is_landless_adventurer
-				add = 102
-				age > 15
-				is_character_tall_1 = yes
-				is_male = yes
-			}
-		}
-	}
 	Targaryen_95_house_armor = {
         dna_modifiers = {
             accessory = {
@@ -1117,7 +1043,7 @@
             accessory = {
                 mode = add
                 gene = legwear
-                template = north_war_legwear
+                template = agot_all_legwear
                 accessory = male_legwear_secular_north_stark_war_03
             }
         }

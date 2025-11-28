@@ -285,7 +285,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = Kingsguard_Helm_1
+				template = agot_most_headgears
 				accessory = male_headgear_secular_kingsguard_war_01
 			}
 			morph = {
@@ -329,7 +329,7 @@
 					}
 				}
 			}
-			##LOTD ADDED
+			##AOTK ADDED
 			modifier = {
                 factor = 0
                 is_aotk_loaded_trigger = yes
@@ -342,7 +342,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = Kingsguard_Helm_1
+				template = agot_most_headgears
 				accessory = male_headgear_secular_kingsguard_war_02
 			}
 			morph = {
@@ -386,7 +386,7 @@
 					}
 				}
 			}
-			##LOTD ADDED
+			##AOTK ADDED
 			modifier = {
                 factor = 0
                 is_aotk_loaded_trigger = yes

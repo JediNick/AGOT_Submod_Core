@@ -347,84 +347,152 @@ accessory_genes = {
 		}
 
 		#AGOT Added
-		ironborn_war_legwear = {
-				index = 25
+		agot_all_legwear = {
+			index = 25
 			male = {
-				1 = male_legwear_secular_ironborn_war_03
-				1 = male_legwear_secular_ironborn_greyjoy_war_03
-			}
-			female = {
-				1 = female_legwear_secular_ironborn_war_03
-				1 = female_legwear_secular_ironborn_greyjoy_war_03
-			}
-			boy = male
-			girl = female
-		}
+				1 = male_legwear_dragon_prince01 #1
+				1 = male_legwear_dragon_prince03 #2
+				1 = male_legwear_stormlander_boots_01 #3
+				1 = male_legwear_stormlander_boots_02 #4
+				1 = male_legwear_secular_agot_trousers_01 #5
+				1 = male_legwear_secular_agot_trousers_black_01 #6
+				1 = male_legwear_secular_agot_trousers_dynastic_01 #7
+				1 = male_legwear_maester_skirt_01 #8
+				1 = male_legwear_northernmaester_skirt_01 #9
+				1 = male_legwear_grandmaester_skirt_01 #10
+				1 = male_legwear_maester_kw_skirt_01 #11
+				1 = male_essosi_sandals #12
+				1 = male_legwear_special_dragon_rider_01 #13
+				1 = male_legwear_special_dragon_rider_dynastic_01 #14
+				1 = male_legwear_special_dragon_rider_dynastic_alt_01 #15
+				1 = male_legwear_secular_valyrian_war_02 #16
+				1 = male_legwear_secular_valyrian_war_blackfyre_02 #17
+				1 = male_legwear_secular_valyrian_targaryen_war_03 #18
+				1 = male_legwear_secular_valyrian_blackfyre_war_03 #19
+				1 = male_legwear_secular_valyrian_war_03 #20
+				1 = male_legwear_secular_valyrian_war_03_high #21
+				1 = male_legwear_secular_valyrian_war_03_high_decorated #22
+				1 = male_legwear_secular_valyrian_war_blackfyre_03_high #23
+				1 = male_legwear_secular_braavos_war_01 #24
+				1 = male_legwear_secular_braavos_war_dynastic_01 #25
+				1 = male_legwear_secular_braavos_war_high_01 #26
+				1 = male_legwear_secular_north_stark_war_03 #27
+				1 = male_legwear_secular_north_war_03 #28
+				1 = male_legwear_secular_vale_war_02 #29
+				1 = male_legwear_secular_vale_war_dynastic_02 #30
+				1 = male_legwear_secular_vale_war_03 #31
+				1 = male_legwear_secular_lydden_war_01 #32
+				1 = male_legwear_secular_lydden_war_dynastic_01 #33
+				1 = male_legwear_secular_westerlands_war_02 #34
+				1 = male_legwear_secular_westerlands_lannister_war_03 #35
+				1 = male_legwear_secular_westerlands_tywin_war_03 #36
+				1 = male_legwear_secular_westerlands_jimothy_war_03 #37
+				1 = male_legwear_secular_westerlands_reyne_war_03 #38
+				1 = male_legwear_secular_westerlands_war_03 #39
+				1 = male_legwear_secular_riverlands_war_03 #40
+				1 = male_legwear_secular_ironborn_greyjoy_war_03 #41
+				1 = male_legwear_secular_ironborn_war_03 #42
+				1 = male_legwear_secular_reach_war_02 #43
+				1 = male_legwear_secular_reach_war_dynastic_02 #44
+				1 = male_legwear_secular_reach_tyrell_war_03 #45
+				1 = male_legwear_secular_reach_war_03 #46
+				1 = male_legwear_secular_honeywiner_war_01 #47
+				1 = male_legwear_secular_osgrey_war_01 #48
+				1 = male_legwear_secular_stormlands_war_02 #49
+				1 = male_legwear_secular_stormlands_war_dynastic_02 #50
+				1 = male_legwear_secular_stormlands_baratheon_war_03 #51
+				1 = male_legwear_secular_stormlands_war_03 #52
+				1 = male_legwear_secular_dornish_war_03 #53
+				1 = male_legwear_secular_dornish_martell_war_03 #54
+				1 = male_legwear_secular_stone_dornish_war_03 #55
+				1 = male_legwear_secular_valyrian_steel_armor_01 #56
+				1 = male_legwear_secular_valyrian_war_05 #57
+				1 = male_legwear_secular_valyrian_war_04 #58
+				1 = male_legwear_secular_stormlands_war_04 #59
+				1 = male_legwear_special_royce_war_03 #60
+				1 = male_legwear_secular_rowan_war_01 #61
+				1 = male_legwear_secular_bolton_war_01 #62
+				1 = male_legwear_special_kingsguard_war_01 #63
+				1 = male_legwear_hedge_knight_war_01 #64
+				1 = male_legwear_hedge_knight_war_02 #65
+				1 = male_legwear_hedge_knight_war_03 #66
 
-		dornish_war_legwear = {
-			index = 26
-			male = {
-				1 = male_legwear_secular_dornish_war_03
-				1 = male_legwear_secular_dornish_martell_war_03
 			}
 			female = {
-				1 = female_legwear_secular_dornish_war_03
-				1 = female_legwear_secular_dornish_martell_war_03
-			}
-			boy = male
-			girl = female
-		}
+				1 = female_legwear_dragon_prince01 #1
+				1 = female_legwear_dragon_prince03 #2
+				1 = female_legwear_special_dragon_rider_01 #3 # female_legwear_stormlander_boots_01
+				1 = female_legwear_special_dragon_rider_01 #4 # female_legwear_stormlander_boots_02
+				1 = female_legwear_secular_agot_trousers_01 #5
+				1 = female_legwear_secular_agot_trousers_black_01 #6
+				1 = female_legwear_secular_agot_trousers_dynastic_01 #7
+				1 = female_legwear_sandals #8 # female_legwear_maester_skirt_01
+				1 = female_legwear_sandals #9 # female_legwear_northernmaester_skirt_01
+				1 = female_legwear_sandals #10 # female_legwear_grandmaester_skirt_01
+				1 = female_legwear_sandals #11 # female_legwear_maester_kw_skirt_01
+				1 = female_essosi_sandals #12
+				1 = female_legwear_special_dragon_rider_01 #13
+				1 = female_legwear_special_dragon_rider_dynastic_01 #14
+				1 = female_legwear_special_dragon_rider_dynastic_alt_01 #15
+				1 = female_legwear_secular_valyrian_war_02 #16
+				1 = female_legwear_secular_valyrian_war_blackfyre_02 #17
+				1 = female_legwear_secular_valyrian_targaryen_war_03 #18
+				1 = female_legwear_secular_valyrian_blackfyre_war_03 #19
+				1 = female_legwear_secular_valyrian_war_03 #20
+				1 = female_legwear_secular_valyrian_war_03_high #21
+				1 = female_legwear_secular_valyrian_war_03_high_decorated #22
+				1 = female_legwear_secular_valyrian_war_blackfyre_03_high #23
+				1 = female_legwear_secular_braavos_war_01 #24
+				1 = female_legwear_secular_braavos_war_dynastic_01 #25
+				1 = female_legwear_secular_braavos_war_high_01 #26
+				1 = female_legwear_secular_north_stark_war_03 #27
+				1 = female_legwear_secular_north_war_03 #28
+				1 = female_legwear_secular_vale_war_03 #29 # female_legwear_secular_vale_war_02
+				1 = female_legwear_secular_vale_war_03 #30 # female_legwear_secular_vale_war_dynastic_02
+				1 = female_legwear_secular_vale_war_03 #31
+				1 = female_legwear_secular_westerlands_war_03 #32 # female_legwear_secular_lydden_war_01
+				1 = female_legwear_secular_westerlands_war_03 #33 # female_legwear_secular_lydden_war_dynastic_01
+				1 = female_legwear_secular_westerlands_war_03 #34 # female_legwear_secular_westerlands_war_02
+				1 = female_legwear_secular_westerlands_lannister_war_03 #35
+				1 = female_legwear_secular_westerlands_tywin_war_03 #36
+				1 = female_legwear_secular_westerlands_jimothy_war_03 #37
+				1 = female_legwear_secular_westerlands_reyne_war_03 #38
+				1 = female_legwear_secular_westerlands_war_03 #39
+				1 = female_legwear_secular_riverlands_war_03 #40
+				1 = female_legwear_secular_ironborn_greyjoy_war_03 #41
+				1 = female_legwear_secular_ironborn_war_03 #42
+				1 = female_legwear_secular_reach_tyrell_war_03 #43 # female_legwear_secular_reach_war_02
+				1 = female_legwear_secular_reach_war_03 #44 # female_legwear_secular_reach_war_dynastic_02
+				1 = female_legwear_secular_reach_tyrell_war_03 #45
+				1 = female_legwear_secular_reach_war_03 #46
+				1 = female_legwear_secular_honeywiner_war_01 #47
+				1 = female_legwear_secular_osgrey_war_01 #48
+				1 = female_legwear_secular_stormlands_war_02 #49
+				1 = female_legwear_secular_stormlands_war_dynastic_02 #50
+				1 = female_legwear_secular_stormlands_baratheon_war_03 #51
+				1 = female_legwear_secular_stormlands_war_03 #52
+				1 = female_legwear_secular_dornish_war_03 #53
+				1 = female_legwear_secular_dornish_martell_war_03 #54
+				1 = female_legwear_secular_stone_dornish_war_03 #55
+				1 = female_legwear_secular_valyrian_steel_armor_01 #56
+				1 = female_legwear_secular_valyrian_war_05 #57
+				1 = female_legwear_secular_valyrian_war_04 #58
+				1 = female_legwear_secular_stormlands_war_04 #59
+				1 = female_legwear_special_royce_war_03 #60
+				1 = female_legwear_secular_reach_war_03 #61 # female_legwear_secular_rowan_war_01
+				1 = female_legwear_secular_bolton_war_01 #62
+				1 = female_legwear_special_kingsguard_war_01 #63
+				1 = female_legwear_hedge_knight_war_01 #64
+				1 = female_legwear_hedge_knight_war_02 #65
+				1 = female_legwear_hedge_knight_war_03 #66
 
-		vale_war_legwear = {
-			index = 27
-			male = {
-				1 = male_legwear_secular_vale_war_02
-				1 = male_legwear_secular_vale_war_dynastic_02
-				1 = male_legwear_secular_vale_war_03
-			}
-			female = {
-				1 = female_legwear_secular_vale_war_03 #
-				1 = female_legwear_secular_vale_war_03 #
-				1 = female_legwear_secular_vale_war_03
-			}
-			boy = male
-			girl = female
-		}
-
-		north_war_legwear = {
-			index = 28
-			male = {
-				1 = male_legwear_secular_north_war_03
-				1 = male_legwear_secular_north_stark_war_03
-			}
-			female = {
-				1 = female_legwear_secular_north_war_03
-				1 = female_legwear_secular_north_stark_war_03
-			}
-			boy = male
-			girl = female
-		}
-
-		stormlands_war_legwear = {
-			index = 29
-			male = {
-				1 = male_legwear_secular_stormlands_war_02
-				1 = male_legwear_secular_stormlands_war_dynastic_02
-				1 = male_legwear_secular_stormlands_war_03
-				1 = male_legwear_secular_stormlands_baratheon_war_03
-			}
-			female = {
-				1 = female_legwear_secular_stormlands_war_02
-				1 = female_legwear_secular_stormlands_war_dynastic_02
-				1 = female_legwear_secular_stormlands_war_03
-				1 = female_legwear_secular_stormlands_baratheon_war_03
 			}
 			boy = male
 			girl = female
 		}
 
 		female_legwear_secular_fp1_common_edited_01 = {
-			index = 30
+			index = 26
 			male = {
 				1 = empty
 			}
@@ -432,59 +500,9 @@ accessory_genes = {
 				1 = female_legwear_secular_fp1_common_edited_01
 			}
 		}
-		royce_war_03_legwear = {
-			index = 31
-			male = {
-				1 = male_legwear_special_royce_war_03
-			}
-			female = {
-				0 = female_legwear_special_royce_war_03
-			}
-			boy = male
-			girl = female
-		}
-		high_valyrian_war_legwear = {
-			index = 32
-			male = {
-				1 = male_legwear_secular_valyrian_war_04
-			}
-			female = {
-				1 = female_legwear_secular_valyrian_war_04
-			}
-			boy = male
-			girl = female
-		}
-		maester_legwear = {
-			index = 33
-			male = {
-				1 = male_legwear_maester_skirt_01
-				1 = male_legwear_northernmaester_skirt_01
-				1 = male_legwear_grandmaester_skirt_01
-				1 = male_legwear_maester_kw_skirt_01
-			}
-			female = {
-				1 = empty
-			}
-			boy = male
-			girl = female
-		}
-		dragon_prince_legwear = {
-			index = 34
-			male = {
-				1 = male_legwear_dragon_prince01
-				1 = male_legwear_dragon_prince02
-				1 = male_legwear_dragon_prince03
-			}
-			female = {
-				1 = female_legwear_dragon_prince01
-				1 = female_legwear_dragon_prince02
-				1 = female_legwear_dragon_prince03
-			}
-			boy = male
-			girl = female
-		}
+
 		agot_boots_legwear = {
-			index = 35
+			index = 27
 			male = {
 				1 = male_legwear_dragon_prince02
 				1 = male_legwear_stormlander_boots_01
@@ -498,45 +516,9 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		agot_trousers = {
-			index = 36
-			male = {
-				1 = male_legwear_secular_agot_trousers_01
-				1 = male_legwear_secular_agot_trousers_black_01
-				1 = male_legwear_secular_agot_trousers_dynastic_01
-			}
-			female = {
-				1 = female_legwear_secular_agot_trousers_01
-				1 = female_legwear_secular_agot_trousers_black_01
-				1 = female_legwear_secular_agot_trousers_dynastic_01
-			}
-			boy = male
-			girl = female
-		}
-		stormlands_war_04_legwear = {
-			index = 37
-			male = {
-				1 = male_legwear_secular_stormlands_war_04
-			}
-			female = {
-				1 = female_legwear_secular_stormlands_war_04
-			}
-			boy = male
-			girl = female
-		}
-		maelys_war_legwear = {
-			index = 38
-			male = {
-				1 = male_legwear_secular_valyrian_war_05
-			}
-			female = {
-				1 = female_legwear_secular_valyrian_war_05
-			}
-			boy = male
-			girl = female
-		}
+
 		free_city_sandals = {
-			index = 39
+			index = 28
 			male = {
 				1 = male_essosi_sandals
 			}
@@ -547,172 +529,9 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		valyrian_steel_armor_legwear = {
-			index = 40
-			male = {
-				1 = male_legwear_secular_valyrian_steel_armor_01
-			}
-			female = {
-				1 = female_legwear_secular_valyrian_steel_armor_01
-			}
-			boy = male
-			girl = female
-		}
-		lydden_war_01_legwear = {
-			index = 41
-			male = {
-				1 = male_legwear_secular_lydden_war_01
-				1 = male_legwear_secular_lydden_war_dynastic_01
-			}
-			female = {
-				0 = female_legwear_secular_ep1_jester_01
-			}
-			boy = male
-			girl = female
-		}
-		special_war_01_legwear = {
-			index = 42
-			male = {
-				1 = male_legwear_secular_rowan_war_01
-				1 = male_legwear_secular_osgrey_war_01
-				1 = male_legwear_secular_honeywiner_war_01
-				1 = male_legwear_secular_bolton_war_01
-			}
-			female = {
-				1 = female_legwear_secular_osgrey_war_01 #
-				1 = female_legwear_secular_osgrey_war_01
-				1 = female_legwear_secular_honeywiner_war_01
-				1 = female_legwear_secular_bolton_war_01
-			}
-			boy = male
-			girl = female
-		}
-		agot_all_legwear = {
-			index = 43
-			male = {
-				1 = male_legwear_dragon_prince01
-				1 = male_legwear_dragon_prince03
-				1 = male_legwear_stormlander_boots_01
-				1 = male_legwear_stormlander_boots_02
-				1 = male_legwear_secular_agot_trousers_01
-				1 = male_legwear_secular_agot_trousers_black_01
-				1 = male_legwear_secular_agot_trousers_dynastic_01
-				1 = male_legwear_maester_skirt_01
-				1 = male_legwear_northernmaester_skirt_01
-				1 = male_legwear_grandmaester_skirt_01
-				1 = male_legwear_maester_kw_skirt_01
-				1 = male_legwear_special_dragon_rider_01
-				1 = male_legwear_special_dragon_rider_dynastic_01
-				1 = male_legwear_special_dragon_rider_dynastic_alt_01
-				1 = male_legwear_secular_valyrian_war_02
-				1 = male_legwear_secular_valyrian_war_blackfyre_02
-				1 = male_legwear_secular_valyrian_targaryen_war_03
-				1 = male_legwear_secular_valyrian_blackfyre_war_03
-				1 = male_legwear_secular_valyrian_war_03
-				1 = male_legwear_secular_valyrian_war_03_high
-				1 = male_legwear_secular_valyrian_war_03_high_decorated
-				1 = male_legwear_secular_valyrian_war_blackfyre_03_high
-				1 = male_essosi_sandals
-				1 = male_legwear_secular_braavos_war_01
-				1 = male_legwear_secular_braavos_war_dynastic_01
-				1 = male_legwear_secular_braavos_war_high_01
-				1 = male_legwear_secular_north_stark_war_03
-				1 = male_legwear_secular_north_war_03
-				1 = male_legwear_secular_vale_war_02
-				1 = male_legwear_secular_vale_war_dynastic_02
-				1 = male_legwear_secular_vale_war_03
-				1 = male_legwear_secular_lydden_war_01
-				1 = male_legwear_secular_lydden_war_dynastic_01
-				1 = male_legwear_secular_westerlands_war_02
-				1 = male_legwear_secular_westerlands_lannister_war_03
-				1 = male_legwear_secular_westerlands_tywin_war_03
-				1 = male_legwear_secular_westerlands_jimothy_war_03
-				1 = male_legwear_secular_westerlands_reyne_war_03
-				1 = male_legwear_secular_westerlands_war_03
-				1 = male_legwear_secular_riverlands_war_03
-				1 = male_legwear_secular_ironborn_greyjoy_war_03
-				1 = male_legwear_secular_ironborn_war_03
-				1 = male_legwear_secular_reach_war_02
-				1 = male_legwear_secular_reach_war_dynastic_02
-				1 = male_legwear_secular_reach_tyrell_war_03
-				1 = male_legwear_secular_reach_war_03
-				1 = male_legwear_secular_honeywiner_war_01
-				1 = male_legwear_secular_osgrey_war_01
-				1 = male_legwear_secular_stormlands_war_02
-				1 = male_legwear_secular_stormlands_war_dynastic_02
-				1 = male_legwear_secular_stormlands_baratheon_war_03
-				1 = male_legwear_secular_stormlands_war_03
-				1 = male_legwear_secular_dornish_war_03
-				1 = male_legwear_secular_dornish_martell_war_03
-				1 = male_legwear_secular_stone_dornish_war_03
-				1 = male_legwear_secular_valyrian_steel_armor_01
-				1 = male_legwear_secular_valyrian_war_05
-				1 = male_legwear_secular_valyrian_war_04
-				1 = male_legwear_secular_stormlands_war_04
-				1 = male_legwear_special_royce_war_03
-				1 = male_legwear_secular_rowan_war_01
-				1 = male_legwear_secular_bolton_war_01
-				1 = male_legwear_special_kingsguard_war_01
 
-			}
-			female = {
-				1 = female_legwear_dragon_prince01
-				1 = female_legwear_dragon_prince03
-				1 = female_legwear_secular_agot_trousers_01
-				1 = female_legwear_secular_agot_trousers_black_01
-				1 = female_legwear_secular_agot_trousers_dynastic_01
-				1 = female_legwear_sandals
-				1 = female_essosi_sandals
-				1 = female_legwear_special_dragon_rider_01
-				1 = female_legwear_special_dragon_rider_dynastic_01
-				1 = female_legwear_special_dragon_rider_dynastic_alt_01
-				1 = female_legwear_secular_valyrian_war_02
-				1 = female_legwear_secular_valyrian_war_blackfyre_02
-				1 = female_legwear_secular_valyrian_targaryen_war_03
-				1 = female_legwear_secular_valyrian_blackfyre_war_03
-				1 = female_legwear_secular_valyrian_war_03
-				1 = female_legwear_secular_valyrian_war_03_high
-				1 = female_legwear_secular_valyrian_war_03_high_decorated
-				1 = female_legwear_secular_valyrian_war_blackfyre_03_high
-				1 = female_legwear_secular_braavos_war_01
-				1 = female_legwear_secular_braavos_war_dynastic_01
-				1 = female_legwear_secular_braavos_war_high_01
-				1 = female_legwear_secular_north_stark_war_03
-				1 = female_legwear_secular_north_war_03
-				1 = female_legwear_secular_vale_war_03
-				1 = female_legwear_secular_westerlands_lannister_war_03
-				1 = female_legwear_secular_westerlands_tywin_war_03
-				1 = female_legwear_secular_westerlands_jimothy_war_03
-				1 = female_legwear_secular_westerlands_reyne_war_03
-				1 = female_legwear_secular_westerlands_war_03
-				1 = female_legwear_secular_riverlands_war_03
-				1 = female_legwear_secular_ironborn_greyjoy_war_03
-				1 = female_legwear_secular_ironborn_war_03
-				1 = female_legwear_secular_reach_tyrell_war_03
-				1 = female_legwear_secular_reach_war_03
-				1 = female_legwear_secular_honeywiner_war_01
-				1 = female_legwear_secular_osgrey_war_01
-				1 = female_legwear_secular_stormlands_war_02
-				1 = female_legwear_secular_stormlands_war_dynastic_02
-				1 = female_legwear_secular_stormlands_baratheon_war_03
-				1 = female_legwear_secular_stormlands_war_03
-				1 = female_legwear_secular_dornish_war_03
-				1 = female_legwear_secular_dornish_martell_war_03
-				1 = female_legwear_secular_stone_dornish_war_03
-				1 = female_legwear_secular_valyrian_steel_armor_01
-				1 = female_legwear_secular_valyrian_war_05
-				1 = female_legwear_secular_valyrian_war_04
-				1 = female_legwear_secular_stormlands_war_04
-				1 = female_legwear_special_royce_war_03
-				1 = female_legwear_secular_bolton_war_01
-				1 = female_legwear_special_kingsguard_war_01
-
-			}
-			boy = male
-			girl = female
-		}
 		dragon_rider_legwear = {
-			index = 44
+			index = 29
 			male = {
 				1 = male_legwear_special_dragon_rider_01
 				1 = male_legwear_special_dragon_rider_dynastic_01
@@ -722,123 +541,6 @@ accessory_genes = {
 				1 = female_legwear_special_dragon_rider_01
 				1 = female_legwear_special_dragon_rider_dynastic_01
 				1 = female_legwear_special_dragon_rider_dynastic_alt_01
-			}
-			boy = male
-			girl = female
-		}
-
-		riverlands_war_legwear = {
-			index = 45
-			male = {
-				1 = male_legwear_secular_riverlands_war_03
-			}
-			female = {
-				1 = female_legwear_secular_riverlands_war_03
-			}
-			boy = male
-			girl = female
-		}
-
-		reach_war_legwear = {
-			index = 46
-			male = {
-				1 = male_legwear_secular_reach_war_02
-				1 = male_legwear_secular_reach_war_dynastic_02
-				1 = male_legwear_secular_reach_war_03
-				1 = male_legwear_secular_reach_tyrell_war_03
-			}
-			female = {
-				1 = female_legwear_secular_reach_war_03 #
-				1 = female_legwear_secular_reach_war_03 #
-				1 = female_legwear_secular_reach_war_03
-				1 = female_legwear_secular_reach_tyrell_war_03
-			}
-			boy = male
-			girl = female
-		}
-
-		valyrian_war_legwear = {
-			index = 47
-			male = {
-				1 = male_legwear_secular_valyrian_war_02
-				1 = male_legwear_secular_valyrian_war_blackfyre_02
-				1 = male_legwear_secular_valyrian_targaryen_war_03
-				1 = male_legwear_secular_valyrian_blackfyre_war_03
-				1 = male_legwear_secular_valyrian_war_03
-				1 = male_legwear_secular_valyrian_war_03_high
-				1 = male_legwear_secular_valyrian_war_03_high_decorated
-				1 = male_legwear_secular_valyrian_war_blackfyre_03_high
-			}
-			female = {
-				1 = female_legwear_secular_valyrian_war_02
-				1 = female_legwear_secular_valyrian_war_blackfyre_02
-				1 = female_legwear_secular_valyrian_targaryen_war_03
-				1 = female_legwear_secular_valyrian_blackfyre_war_03
-				1 = female_legwear_secular_valyrian_war_03
-				1 = female_legwear_secular_valyrian_war_03_high
-				1 = female_legwear_secular_valyrian_war_03_high_decorated
-				1 = female_legwear_secular_valyrian_war_blackfyre_03_high
-			}
-			boy = male
-			girl = female
-		}
-
-		kingsguard_war_01_legwear = {
-			index = 48
-			male = {
-				1 = male_legwear_special_kingsguard_war_01
-			}
-			female = {
-				1 = female_legwear_special_kingsguard_war_01
-			}
-			boy = male
-			girl = female
-		}
-
-		westerlands_war_legwear = {
-			index = 49
-			male = {
-				1 = male_legwear_secular_westerlands_war_02
-				1 = male_legwear_secular_westerlands_war_03
-				1 = male_legwear_secular_westerlands_lannister_war_03
-				1 = male_legwear_secular_westerlands_tywin_war_03
-				1 = male_legwear_secular_westerlands_jimothy_war_03
-				1 = male_legwear_secular_westerlands_reyne_war_03
-			}
-			female = {
-				1 = female_legwear_secular_westerlands_war_03
-				1 = female_legwear_secular_westerlands_lannister_war_03
-				1 = female_legwear_secular_westerlands_tywin_war_03
-				1 = female_legwear_secular_westerlands_jimothy_war_03
-				1 = female_legwear_secular_westerlands_reyne_war_03
-			}
-			boy = male
-			girl = female
-		}
-
-		stone_dornish_war_legwear = {
-			index = 50
-			male = {
-				1 = male_legwear_secular_stone_dornish_war_03
-			}
-			female = {
-				1 = female_legwear_secular_stone_dornish_war_03
-			}
-			boy = male
-			girl = female
-		}
-		
-		free_cities_war_legwear = {
-			index = 51
-			male = {
-				1 = male_legwear_secular_braavos_war_01
-				1 = male_legwear_secular_braavos_war_dynastic_01
-				1 = male_legwear_secular_braavos_war_high_01
-			}
-			female = {
-				1 = female_legwear_secular_braavos_war_01
-				1 = female_legwear_secular_braavos_war_dynastic_01
-				1 = female_legwear_secular_braavos_war_high_01
 			}
 			boy = male
 			girl = female
@@ -2358,7 +2060,6 @@ props_left = {
 			1 = ep2_long_bow_01_a_left_hand
 			1 = ep2_short_bow_01_a_left_hand
 			1 = ep2_short_bow_01_b_left_hand
-			1 = tgp_japanese_bow_01_a_portrait
 		}
 		female = male
 		boy = male

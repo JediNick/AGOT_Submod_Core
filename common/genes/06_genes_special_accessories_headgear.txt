@@ -3264,174 +3264,135 @@ special_genes = {
 				girl = female
 			}
 
-			#AGOT Added
-			Vale_Helm_3 = {
+			agot_most_headgears = {
 				index = 207
 				male = {
-					1 = male_headgear_secular_vale_war_03
+					1 = braavosi_hat_01_low #1
+					1 = braavosi_hat_01 #2
+					1 = braavosi_hat_01_high #3
+					1 = braavosi_hat_02 #4
+					1 = braavosi_hat_high_02 #5
+					1 = braavosi_hat_dynastic_02 #6
+					1 = braavosi_hat_03 #7
+					1 = braavosi_hat_high_03 #8
+					1 = braavosi_hat_dynastic_03 #9
+					1 = saan_pirate_hat #10
+					1 = saan_pirate_hat_dynastic #11
+					1 = pirate_hat_01 #12
+					1 = pirate_bandana_01 #13
+					1 = pirate_bandana_02 #14
+					1 = male_headgear_secular_valyrian_targaryen_war_03 #15
+					1 = male_headgear_secular_valyrian_blackfyre_war_03 #16
+					1 = male_headgear_secular_valyrian_war_03 #17
+					1 = male_headgear_secular_valyrian_war_03_high #18
+					1 = male_headgear_secular_valyrian_war_blackfyre_03_high #19
+					1 = male_headgear_secular_valyrian_war_dynastic_03_high #20
+					1 = male_headgear_secular_valyrian_war_05 #21
+					1 = male_headgear_secular_vale_war_03 #22
+					1 = male_headgear_secular_vale_war_04 #23
+					1 = male_headgear_secular_westerlands_tywin_war #24
+					1 = male_headgear_secular_westerlands_jimothy_war #25
+					1 = male_headgear_secular_westerlands_lannister_war_03 #26
+					1 = male_headgear_secular_westerlands_war_03 #27
+					1 = male_headgear_secular_riverlands_war_03 #28
+					1 = male_headgear_secular_reach_tyrell_war_03 #29
+					1 = male_headgear_secular_reach_war_03 #30
+					1 = male_headgear_secular_stormlands_war_03 #31
+					1 = male_headgear_secular_dorne_martell_war_03 #32
+					1 = male_headgear_secular_dorne_copper_war_03 #33
+					1 = male_headgear_secular_dorne_war_03 #34
+					1 = male_headgear_secular_dorne_martell_war_04 #35
+					1 = male_headgear_secular_dorne_war_04 #36
+					1 = male_headgear_secular_royce_war_03 #37
+					1 = male_headgear_secular_bolton_war_01 #38
+					1 = male_headgear_secular_kingsguard_war_01 #39
+					1 = male_headgear_secular_kingsguard_war_02 #40
+					1 = male_headgear_secular_valyrian_war_04 #41
+					1 = male_headgear_secular_stormlands_war_04 #42
+					1 = male_headgear_hedge_knight_war_01 #43
+					1 = male_headgear_kettle_hat_01 #44
+					1 = male_headgear_kettle_hat_02 #45
+					1 = male_headgear_kettle_hat_03 #46
+					1 = empty #47 # female_reach_hood_01
+					1 = empty #48 # female_reach_hood_01b
+					1 = empty #49 # female_reach_hood_01c
+					1 = empty #50 # female_reach_hood_01d
+					1 = empty #51 # female_reach_hood_01e
+					1 = empty #52 # female_reach_hood_01f
+					1 = empty #53 # female_reach_hood_02
+					1 = empty #54 # female_reach_hood_02b
+					1 = empty #55 # female_reach_hood_02c
+					1 = empty #56 # female_reach_hood_02d
+					1 = empty #57 # female_reach_hood_02e
+					1 = empty #58 # female_reach_hood_02f
+					1 = empty #59 # female_reach_hood_02g
+					1 = empty #60 # naerys_hood_01
+					1 = empty #61 # naerys_hood_02
+					1 = empty #62 # naerys_hood_03
 				}
 				female = {
-					0 = empty
-				}
-				boy = male
-				girl = female
-			}
-
-			#AGOT Added
-			Reach_Helm_3 = {
-				index = 208
-				male = {
-					1 = male_headgear_secular_reach_tyrell_war_03
-					1 = male_headgear_secular_reach_war_03
-					1 = male_headgear_secular_reach_rowan_war_03
-				}
-				female = {
-					0 = empty
-				}
-				boy = male
-				girl = female
-			}
-
-			#AGOT Added
-			Valyrian_Helm_4 = {
-				index = 209
-				male = {
-					1 = male_headgear_secular_valyrian_war_04
-				}
-				female = {
-					0 = empty
-				}
-				boy = male
-				girl = female
-			}
-
-			#AGOT Added
-			Kingsguard_Helm_1 = {
-				index = 210
-				male = {
-					1 = male_headgear_secular_kingsguard_war_01
-					1 = male_headgear_secular_kingsguard_war_02
-				}
-				female = {
-					0 = empty
-				}
-				boy = male
-				girl = female
-			}
-
-			#AGOT Added
-			Valyrian_Helm_3 = {
-				index = 211
-				male = {
-					1 = male_headgear_secular_valyrian_targaryen_war_03
-					1 = male_headgear_secular_valyrian_blackfyre_war_03
-					1 = male_headgear_secular_valyrian_war_03
-					1 = male_headgear_secular_valyrian_war_03_high
-					1 = male_headgear_secular_valyrian_war_blackfyre_03_high
-					1 = male_headgear_secular_valyrian_war_dynastic_03_high
-				}
-				female = {
-					1 = female_headgear_secular_valyrian_targaryen_war_03
-					1 = female_headgear_secular_valyrian_blackfyre_war_03
-					1 = female_headgear_secular_valyrian_war_03
-					1 = female_headgear_secular_valyrian_war_03_high
-					1 = female_headgear_secular_valyrian_war_blackfyre_03_high
-					1 = female_headgear_secular_valyrian_war_dynastic_03_high
-				}
-				boy = male
-				girl = female
-			}
-
-			#AGOT Added
-			Stormlands_Helm_4= {
-				index = 212
-				male = {
-					1 = male_headgear_secular_stormlands_war_04
-				}
-				female = {
-					0 = empty
-				}
-				boy = male
-				girl = female
-			}
-
-			#AGOT Added
-			Stormlands_Helm_3= {
-				index = 213
-				male = {
-					1 = male_headgear_secular_stormlands_war_03
-				}
-				female = {
-					0 = empty
-				}
-				boy = male
-				girl = female
-			}
-
-			#AGOT Added
-			Dorne_Helm_3= {
-				index = 214
-				male = {
-					1 = male_headgear_secular_dorne_martell_war_03
-					1 = male_headgear_secular_dorne_copper_war_03
-					1 = male_headgear_secular_dorne_war_03
-					1 = male_headgear_secular_dorne_martell_war_04
-					1 = male_headgear_secular_dorne_war_04
-				}
-				female = {
-					1 = female_headgear_secular_dorne_martell_war_03
-					1 = female_headgear_secular_dorne_copper_war_03
-					1 = female_headgear_secular_dorne_war_03
-					1 = female_headgear_secular_dorne_martell_war_04
-					1 = female_headgear_secular_dorne_war_04
-				}
-				boy = male
-				girl = female
-			}
-
-			Special_Helms_1 = {
-				index = 215
-				male = {
-					1 = male_headgear_secular_royce_war_03
-					1 = male_headgear_secular_bolton_war_01
-				}
-				female = {
-					1 = female_headgear_secular_royce_war_03
-					1 = female_headgear_secular_bolton_war_01
-				}
-				boy = male
-				girl = female
-			}
-
-			#AGOT Added
-			stepstones_pirate_hats = {
-				index = 216
-				male = {
-					1 = saan_pirate_hat
-					1 = saan_pirate_hat_dynastic
-					1 = pirate_hat_01
-					1 = pirate_bandana_01
-					1 = pirate_bandana_02
-				}
-				female = {
-					1 = female_saan_pirate_hat
-					1 = female_saan_pirate_hat_dynastic
-					1 = female_pirate_hat_01
-					1 = female_pirate_bandana_01
-					1 = female_pirate_bandana_02
-				}
-				boy = male
-				girl = female
-			}
-
-			#AGOT Added
-			highsepton_1 = {
-				index = 217
-				male = {
-					1 = highsepton_1
-				}
-				female = {
-					1 = female_highsepton_1
+					1 = female_braavosi_hat_01_low #1
+					1 = female_braavosi_hat_01 #2
+					1 = female_braavosi_hat_01_high #3
+					1 = female_braavosi_hat_02 #4
+					1 = female_braavosi_hat_high_02 #5
+					1 = female_braavosi_hat_dynastic_02 #6
+					1 = female_braavosi_hat_03 #7
+					1 = female_braavosi_hat_high_03 #8
+					1 = female_braavosi_hat_dynastic_03 #9
+					1 = female_saan_pirate_hat #10
+					1 = female_saan_pirate_hat_dynastic #11
+					1 = female_pirate_hat_01 #12
+					1 = female_pirate_bandana_01 #13
+					1 = female_pirate_bandana_02 #14
+					1 = female_headgear_secular_valyrian_targaryen_war_03 #15
+					1 = female_headgear_secular_valyrian_blackfyre_war_03 #16
+					1 = female_headgear_secular_valyrian_war_03 #17
+					1 = female_headgear_secular_valyrian_war_03_high #18
+					1 = female_headgear_secular_valyrian_war_blackfyre_03_high #19
+					1 = female_headgear_secular_valyrian_war_dynastic_03_high #20
+					1 = female_headgear_secular_valyrian_war_05 #21
+					1 = empty #22 # male_headgear_secular_vale_war_03
+					1 = empty #23 # male_headgear_secular_vale_war_04
+					1 = empty #24 # male_headgear_secular_westerlands_tywin_war
+					1 = empty #25 # male_headgear_secular_westerlands_jimothy_war
+					1 = empty #26 # male_headgear_secular_westerlands_lannister_war_03
+					1 = empty #27 # male_headgear_secular_westerlands_war_03
+					1 = empty #28 # male_headgear_secular_riverlands_war_03
+					1 = empty #29 # male_headgear_secular_reach_tyrell_war_03
+					1 = empty #30 # male_headgear_secular_reach_war_03
+					1 = empty #31 # male_headgear_secular_stormlands_war_03
+					1 = female_headgear_secular_dorne_martell_war_03 #32
+					1 = female_headgear_secular_dorne_copper_war_03 #33
+					1 = female_headgear_secular_dorne_war_03 #34
+					1 = female_headgear_secular_dorne_martell_war_04 #35
+					1 = female_headgear_secular_dorne_war_04 #36
+					1 = female_headgear_secular_royce_war_03 #37
+					1 = female_headgear_secular_bolton_war_01 #38
+					1 = empty #39 # male_headgear_secular_kingsguard_war_01
+					1 = empty #40 # male_headgear_secular_kingsguard_war_02
+					1 = empty #41 # male_headgear_secular_valyrian_war_04
+					1 = empty #42 # male_headgear_secular_stormlands_war_04
+					1 = female_headgear_hedge_knight_war_01 #43
+					1 = female_headgear_kettle_hat_01 #44
+					1 = female_headgear_kettle_hat_02 #45
+					1 = female_headgear_kettle_hat_03 #46
+					1 = female_reach_hood_01 #47
+					1 = female_reach_hood_01b #48
+					1 = female_reach_hood_01c #49
+					1 = female_reach_hood_01d #50
+					1 = female_reach_hood_01e #51
+					1 = female_reach_hood_01f #52
+					1 = female_reach_hood_02 #53
+					1 = female_reach_hood_02b #54
+					1 = female_reach_hood_02c #55
+					1 = female_reach_hood_02d #56
+					1 = female_reach_hood_02e #57
+					1 = female_reach_hood_02f #58
+					1 = female_reach_hood_02g #59
+					1 = naerys_hood_01 #60
+					1 = naerys_hood_02 #61
+					1 = naerys_hood_03 #62
 				}
 				boy = male
 				girl = female
@@ -3439,7 +3400,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_crowns = {
-				index = 218
+				index = 208
 				male = {
 					1 = aegonIcrown
 					1 = rhaenys_circlet
@@ -3630,67 +3591,9 @@ special_genes = {
 				girl = female
 			}
 
-			agot_bookmark_crowns = {
-				index = 219
-				male = {
-					1 = aegonIcrown
-					1 = aenysIcrown
-					1 = jaehaerysIcrown
-					1 = aegonIIIcrown
-					1 = florealcrown
-					1 = aegonIVcrown
-					1 = maekarIcrown
-					1 = daeneryscrown
-					1 = daemonblackfyre_crown
-					1 = robertIcrown
-					1 = joffreyIcrown
-					1 = stanniscrown
-					1 = renlycrown
-					1 = crownofwinter
-					1 = stormlandscrown
-					1 = westerlands2crown
-					1 = ironislescrown
-					1 = driftwoodcrown1
-					1 = dornecrown
-					1 = falcon_crown
-					1 = crown_of_gardener_peace
-					1 = crown_of_gardener_war_iron
-					1 = beyondthewallcrown
-					1 = westerosi_valyrian_crown2
-				}
-				female = {
-					1 = female_aegonIcrown
-					1 = female_aenysIcrown
-					1 = female_jaehaerysIcrown
-					1 = female_aegonIIIcrown
-					1 = female_florealcrown
-					1 = female_aegonIVcrown
-					1 = female_maekarIcrown
-					1 = female_daeneryscrown
-					1 = female_daemonblackfyre_crown
-					1 = female_robertIcrown
-					1 = female_joffreyIcrown
-					1 = female_stanniscrown
-					1 = female_renlycrown
-					1 = female_crownofwinter
-					1 = female_stormlandscrown
-					1 = female_westerlands2crown
-					1 = female_ironislescrown
-					1 = female_driftwoodcrown1
-					1 = female_dornecrown
-					1 = female_falcon_crown
-					1 = female_crown_of_gardener_peace
-					1 = female_crown_of_gardener_war_iron
-					1 = female_beyondthewallcrown
-					1 = female_westerosi_valyrian_crown2
-				}
-				boy = male
-				girl = female
-			}
-
 			#AGOT Added
 			iron_isles_crowns = {
-				index = 220
+				index = 209
 				male = {
 					1 = ironislescrown
 					1 = driftwoodcrown1
@@ -3705,7 +3608,7 @@ special_genes = {
 
 			#AGOT Added
 			westerlands_crowns = {
-				index = 221
+				index = 210
 				male = {
 					1 = westerlandscrown
 					1 = westerlands2crown
@@ -3720,7 +3623,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_qolab = {
-				index = 222
+				index = 211
 				male = {
 					1 = qolab_crown_01
 					1 = qolab_crown_02
@@ -3747,119 +3650,9 @@ special_genes = {
 				girl = female
 			}
 
-			agot_most_headgears = {
-				index = 223
-				male = {
-					1 = braavosi_hat_01_low
-					1 = braavosi_hat_01
-					1 = braavosi_hat_01_high
-					1 = braavosi_hat_02
-					1 = braavosi_hat_high_02
-					1 = braavosi_hat_dynastic_02
-					1 = braavosi_hat_03
-					1 = braavosi_hat_high_03
-					1 = braavosi_hat_dynastic_03
-					1 = saan_pirate_hat
-					1 = saan_pirate_hat_dynastic
-					1 = pirate_hat_01
-					1 = pirate_bandana_01
-					1 = pirate_bandana_02
-					1 = male_headgear_secular_valyrian_targaryen_war_03
-					1 = male_headgear_secular_valyrian_blackfyre_war_03
-					1 = male_headgear_secular_valyrian_war_03
-					1 = male_headgear_secular_valyrian_war_03_high
-					1 = male_headgear_secular_valyrian_war_blackfyre_03_high
-					1 = male_headgear_secular_valyrian_war_dynastic_03_high
-					1 = male_headgear_secular_vale_war_03
-					1 = male_headgear_secular_vale_war_04
-					1 = male_headgear_secular_westerlands_tywin_war
-					1 = male_headgear_secular_westerlands_jimothy_war
-					1 = male_headgear_secular_westerlands_lannister_war_03
-					1 = male_headgear_secular_westerlands_war_03
-					1 = male_headgear_secular_riverlands_war_03
-					1 = male_headgear_secular_reach_tyrell_war_03
-					1 = male_headgear_secular_reach_war_03
-					1 = male_headgear_secular_stormlands_war_03
-					1 = male_headgear_secular_dorne_martell_war_03
-					1 = male_headgear_secular_dorne_copper_war_03
-					1 = male_headgear_secular_dorne_war_03
-					1 = male_headgear_secular_dorne_martell_war_04
-					1 = male_headgear_secular_dorne_war_04
-					1 = male_headgear_secular_royce_war_03
-					1 = male_headgear_secular_bolton_war_01
-					1 = male_headgear_secular_kingsguard_war_01
-					1 = male_headgear_secular_kingsguard_war_02
-					1 = male_headgear_secular_valyrian_war_04
-					1 = male_headgear_secular_stormlands_war_04
-				}
-				female = {
-					1 = female_braavosi_hat_01_low
-					1 = female_braavosi_hat_01
-					1 = female_braavosi_hat_01_high
-					1 = female_braavosi_hat_02
-					1 = female_braavosi_hat_high_02
-					1 = female_braavosi_hat_dynastic_02
-					1 = female_braavosi_hat_03
-					1 = female_braavosi_hat_high_03
-					1 = female_braavosi_hat_dynastic_03
-					1 = female_saan_pirate_hat
-					1 = female_saan_pirate_hat_dynastic
-					1 = female_pirate_hat_01
-					1 = female_pirate_bandana_01
-					1 = female_pirate_bandana_02
-					1 = female_headgear_secular_valyrian_targaryen_war_03
-					1 = female_headgear_secular_valyrian_blackfyre_war_03
-					1 = female_headgear_secular_valyrian_war_03
-					1 = female_headgear_secular_valyrian_war_03_high
-					1 = female_headgear_secular_valyrian_war_blackfyre_03_high
-					1 = female_headgear_secular_valyrian_war_dynastic_03_high
-					1 = female_headgear_secular_dorne_martell_war_03
-					1 = female_headgear_secular_dorne_copper_war_03
-					1 = female_headgear_secular_dorne_war_03
-					1 = female_headgear_secular_dorne_martell_war_04
-					1 = female_headgear_secular_dorne_war_04
-					1 = female_headgear_secular_royce_war_03
-					1 = female_headgear_secular_bolton_war_01
-					1 = female_reach_hood_01
-					1 = female_reach_hood_01b
-					1 = female_reach_hood_01c
-					1 = female_reach_hood_01d
-					1 = female_reach_hood_01e
-					1 = female_reach_hood_01f
-					1 = female_reach_hood_02
-					1 = female_reach_hood_02b
-					1 = female_reach_hood_02c
-					1 = female_reach_hood_02d
-					1 = female_reach_hood_02e
-					1 = female_reach_hood_02f
-					1 = female_reach_hood_02g
-					1 = naerys_hood_01
-					1 = naerys_hood_02
-					1 = naerys_hood_03
-				}
-				boy = male
-				girl = female
-			}
-
-			#AGOT Added
-			westerlands_war = {
-				index = 224
-				male = {
-					1 = male_headgear_secular_westerlands_tywin_war
-					1 = male_headgear_secular_westerlands_jimothy_war
-					1 = male_headgear_secular_westerlands_lannister_war_03
-					1 = male_headgear_secular_westerlands_war_03
-				}
-				female = {
-					0 = empty
-				}
-				boy = male
-				girl = female
-			}
-
 			#AGOT Added
 			Dorne_Helm_3_Dynamic = {
-				index = 225
+				index = 212
 				male = {
 					1 = male_headgear_secular_dorne_war_03
 					1 = male_headgear_secular_dorne_war_04
@@ -3874,7 +3667,7 @@ special_genes = {
 
 			#AGOT Added
 			Dorne_Helm_3_Copper_Dynamic = {
-				index = 226
+				index = 213
 				male = {
 					1 = male_headgear_secular_dorne_copper_war_03
 					1 = male_headgear_secular_dorne_copper_war_04
@@ -3889,7 +3682,7 @@ special_genes = {
 
 			#AGOT Added
 			Dorne_Helm_3_Martell_Dynamic = {
-				index = 227
+				index = 214
 				male = {
 					1 = male_headgear_secular_dorne_martell_war_03
 					1 = male_headgear_secular_dorne_martell_war_04
@@ -3903,31 +3696,47 @@ special_genes = {
 			}
 
 			#AGOT Added
-			Riverlands_Helm_3 = {
-				index = 228
+			hedge_knight_dynamic_1 = {
+				index = 215
 				male = {
-					1 = male_headgear_secular_riverlands_war_03
+					1 = male_headgear_hedge_knight_war_01
+					1 = male_headgear_kettle_hat_01
 				}
 				female = {
-					0 = empty
+					1 = female_headgear_hedge_knight_war_01
+					1 = female_headgear_kettle_hat_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			#AGOT Added
+			hedge_knight_dynamic_2 = {
+				index = 216
+				male = {
+					1 = male_headgear_hedge_knight_war_01
+					1 = male_headgear_kettle_hat_02
+				}
+				female = {
+					1 = female_headgear_hedge_knight_war_01
+					1 = female_headgear_kettle_hat_02
 				}
 				boy = male
 				girl = female
 			}
 
 			#AGOT Added
-			Vale_Helm_4 = {
-				index = 229
+			agot_headgear_special = {
+				index = 217
 				male = {
-					1 = male_headgear_secular_vale_war_04
+					1 = male_headgear_secular_reach_rowan_war_03
 				}
 				female = {
-					0 = empty
+					0 = female_headgear_secular_western_high_nobility_01
 				}
 				boy = male
 				girl = female
 			}
-
 
 			##ADD ALL SUBMOD CORE BELOW THIS POINT!!!!
 			#New Westeros Crowns
