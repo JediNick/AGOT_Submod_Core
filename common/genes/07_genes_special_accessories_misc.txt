@@ -605,6 +605,8 @@ accessory_genes = {
 				1 = female_legwear_asoiaf_dragonstone_legs
 				1 = female_legwear_asoiaf_bolton_legs
 				1 = female_legwear_asoiaf_gold_cloak_legs
+				1 = female_legwear_asoiaf_greyjoy_legs
+				1 = female_legwear_asoiaf_ironborn_legs_coa
 			}
 			boy = male
 			girl = female
