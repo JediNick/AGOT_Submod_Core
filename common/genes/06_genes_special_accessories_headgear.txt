@@ -3211,6 +3211,7 @@ special_genes = {
 				index = 203
 				male = {
 					1 = m_headgear_sec_tgp_korean_nob_01
+					1 = m_headgear_sec_tgp_korean_nob_02
 				}
 				female = {
 				#	1 = f_headgear_sec_tgp_southeast_nob_01
@@ -3264,8 +3265,23 @@ special_genes = {
 				girl = female
 			}
 
-			agot_most_headgears = {
+			tgp_korean_commoner = {
 				index = 207
+				male = {
+					1 = m_headgear_sec_tgp_korean_com_01
+				}
+				female = {
+
+				}
+
+				boy = male
+				girl = female
+			
+			}
+
+			#AGOT Added
+			agot_most_headgears = {
+				index = 208
 				male = {
 					1 = braavosi_hat_01_low #1
 					1 = braavosi_hat_01 #2
@@ -3400,7 +3416,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_crowns = {
-				index = 208
+				index = 209
 				male = {
 					1 = aegonIcrown
 					1 = rhaenys_circlet
@@ -3593,7 +3609,7 @@ special_genes = {
 
 			#AGOT Added
 			iron_isles_crowns = {
-				index = 209
+				index = 210
 				male = {
 					1 = ironislescrown
 					1 = driftwoodcrown1
@@ -3608,7 +3624,7 @@ special_genes = {
 
 			#AGOT Added
 			westerlands_crowns = {
-				index = 210
+				index = 211
 				male = {
 					1 = westerlandscrown
 					1 = westerlands2crown
@@ -3623,7 +3639,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_qolab = {
-				index = 211
+				index = 212
 				male = {
 					1 = qolab_crown_01
 					1 = qolab_crown_02
@@ -3652,7 +3668,7 @@ special_genes = {
 
 			#AGOT Added
 			Dorne_Helm_3_Dynamic = {
-				index = 212
+				index = 213
 				male = {
 					1 = male_headgear_secular_dorne_war_03
 					1 = male_headgear_secular_dorne_war_04
@@ -3667,7 +3683,7 @@ special_genes = {
 
 			#AGOT Added
 			Dorne_Helm_3_Copper_Dynamic = {
-				index = 213
+				index = 214
 				male = {
 					1 = male_headgear_secular_dorne_copper_war_03
 					1 = male_headgear_secular_dorne_copper_war_04
@@ -3682,7 +3698,7 @@ special_genes = {
 
 			#AGOT Added
 			Dorne_Helm_3_Martell_Dynamic = {
-				index = 214
+				index = 215
 				male = {
 					1 = male_headgear_secular_dorne_martell_war_03
 					1 = male_headgear_secular_dorne_martell_war_04
@@ -3697,7 +3713,7 @@ special_genes = {
 
 			#AGOT Added
 			hedge_knight_dynamic_1 = {
-				index = 215
+				index = 216
 				male = {
 					1 = male_headgear_hedge_knight_war_01
 					1 = male_headgear_kettle_hat_01
@@ -3712,7 +3728,7 @@ special_genes = {
 			
 			#AGOT Added
 			hedge_knight_dynamic_2 = {
-				index = 216
+				index = 217
 				male = {
 					1 = male_headgear_hedge_knight_war_01
 					1 = male_headgear_kettle_hat_02
@@ -3727,7 +3743,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_headgear_special = {
-				index = 217
+				index = 218
 				male = {
 					1 = male_headgear_secular_reach_rowan_war_03
 				}

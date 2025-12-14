@@ -669,8 +669,8 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = kingsguard_war_01_legwear
-				value = 1
+				template = agot_all_legwear
+				accessory = male_legwear_special_kingsguard_war_01
 			}
 		}
 		weight = {

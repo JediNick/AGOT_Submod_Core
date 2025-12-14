@@ -186,6 +186,14 @@
 		}
 	}
 
+add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_korean_commoner_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
 		add_accessory_modifiers = {
 		gene = clothes
 		template = tgp_korean_era1_nobility_clothes
@@ -205,6 +213,14 @@
 	add_accessory_modifiers = {
 		gene = clothes
 		template = tgp_korean_imperial_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_southeast_commoner_clothes
 		is_valid_custom = {
 			has_tgp_dlc_trigger = yes
 		}
@@ -233,7 +249,7 @@
 			has_tgp_dlc_trigger = yes
 		}
 	}
-
+	
 	add_accessory_modifiers = {
 		gene = clothes
 		template = tgp_southeast_high_nobility_clothes
@@ -241,14 +257,7 @@
 			has_tgp_dlc_trigger = yes
 		}
 	}
-
-	add_accessory_modifiers = {
-		gene = clothes
-		template = tgp_southeast_commoner_clothes
-		is_valid_custom = {
-			has_tgp_dlc_trigger = yes
-		}
-	}
+	
 	### AGOT Submod Core ###
 	add_accessory_modifiers = {
 		gene = clothes
@@ -378,17 +387,17 @@
 	
 	add_accessory_modifiers = {
 		gene = clothes
-		template = sp3_western_royalty_clothes
+		template = tgp_southeast_royalty_clothes
 		is_valid_custom = {
-			has_dlc_feature = couture_of_the_capets
+			has_tgp_dlc_trigger = yes
 		}
 	}
 
 	add_accessory_modifiers = {
 		gene = clothes
-		template = sp2_western_royalty_clothes
+		template = tgp_southeast_commoner_clothes
 		is_valid_custom = {
-			has_dlc_feature = elegance_of_the_empire
+			has_tgp_dlc_trigger = yes
 		}
 	}
 

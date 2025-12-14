@@ -1,4 +1,14 @@
-﻿agot_apply_inactive_traits_on_death = {
+﻿agot_make_unpruneable = {
+	save_scope_as = new_unprunable
+	title:c_ruins.holder = {
+		trigger_event = {
+			id = agot_events_generic.0002
+			days = 1
+		}
+	}
+}
+
+agot_apply_inactive_traits_on_death = {
 	agot_hair_dye_death_effect = yes
 
 	agot_eye_gem_death_effect = yes
