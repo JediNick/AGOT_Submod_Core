@@ -4447,6 +4447,39 @@ agot_northern_high_nobles = {
 		}
 	}
 	
+	#Disabled until Celt can fix blendshapes
+	# agot_brindled_men_basic_clothes = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = religious_african_high_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = legwear
+	# 			template = free_city_sandals
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 	}
+	# 	weight = {
+	# 		base = 0
+	# 		court_fashion_level_5_modifier = { INPUT_PARAMETER = brindled_men }
+	# 		modifier = {
+	# 			add = 100
+	# 			OR = {
+	# 				portrait_low_nobles_clothing_trigger = {
+	# 					CULTURE_INPUT = brindled_men
+	# 				}
+	# 				portrait_commoner_clothing_trigger = {
+	# 					CULTURE_INPUT = brindled_men
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# }
+	
 
     ##LOTD ADDED 
     lotd_high_nobles_valyrian = {

@@ -3360,7 +3360,7 @@
 						CULTURE_INPUT = valeman
 					}
 					agot_portrait_high_armor_trigger = {
-						CULTURE_INPUT = moonman
+						CULTURE_INPUT = valeman_upper
 					}
 				}
 			}
@@ -3400,7 +3400,7 @@
 						CULTURE_INPUT = valeman
 					}
 					agot_portrait_low_armor_trigger = {
-						CULTURE_INPUT = moonman
+						CULTURE_INPUT = valeman_upper
 					}
 				}
 			}
@@ -3440,7 +3440,7 @@
 						CULTURE_INPUT = valeman
 					}
 					agot_portrait_low_armor_trigger = {
-						CULTURE_INPUT = moonman
+						CULTURE_INPUT = valeman_upper
 					}
 				}
 				dynasty ?= dynasty:dynn_Arryn

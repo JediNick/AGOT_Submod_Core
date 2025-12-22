@@ -5408,9 +5408,9 @@ fp3_turkic_high_nobles = {
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = valeman_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
 				OR = {
-					culture = culture:moonman
-					culture = culture:valeman
-					culture = culture:fingerman
+					culture = culture:valeman_upper
+					culture = culture:valeman_main
+					culture = culture:valeman_finger
 				}
 			}
 		}
@@ -5800,7 +5800,7 @@ fp3_turkic_high_nobles = {
 				culture = {
 					OR = {
 						this = culture:stone_dornish
-						has_cultural_pillar = heritage_rhoynish
+						has_cultural_pillar = heritage_rhoynar
 					}
 				}
 			}

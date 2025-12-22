@@ -445,7 +445,7 @@ one_handed_sword = {
 		trigger = {
 			culture = {
 				OR = {
-					has_cultural_pillar = heritage_rhoynish
+					has_cultural_pillar = heritage_rhoynar
 				}
 			}
 		}
@@ -458,8 +458,8 @@ one_handed_sword = {
 		trigger = {
 			culture = {
 				OR = {
-					has_cultural_pillar = heritage_rhoynish
-					has_cultural_pillar = heritage_summer_islander
+					has_cultural_pillar = heritage_rhoynar
+					has_cultural_pillar = heritage_summer
 				}
 			}
 		}
@@ -473,8 +473,8 @@ one_handed_sword = {
 			culture = {
 				NOR = {
 					has_clothing_gfx = valyrian_clothing_gfx
-					has_cultural_pillar = heritage_rhoynish
-					has_cultural_pillar = heritage_summer_islander
+					has_cultural_pillar = heritage_rhoynar
+					has_cultural_pillar = heritage_summer
 				}
 			}
 		}
@@ -802,7 +802,7 @@ two_handed_spear = {
 	#AGOT Added
 	portrait_modifier = {
 		trigger = {
-			culture = { has_cultural_pillar = heritage_rhoynish }
+			culture = { has_cultural_pillar = heritage_rhoynar }
 		}
 		animations_props = artifact_dornish_spear_equipped_prop
 		animations = council_marshal_decal
@@ -2721,7 +2721,7 @@ throneRoom_two_handed_passive_1 = {
 	#AGOT Added
 	portrait_modifier = {
 		trigger = {
-			culture = { has_cultural_pillar = heritage_rhoynish }
+			culture = { has_cultural_pillar = heritage_rhoynar }
 		}
 		animations_props = artifact_dornish_spear_prop
 		animations = council_marshal_decal

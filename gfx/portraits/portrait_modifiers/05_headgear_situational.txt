@@ -6732,8 +6732,14 @@
 				}
 				#primary_title = title:e_the_iron_throne
 				OR = {
-					is_character_targaryen_27 = yes # Aegon I
-					is_character_targaryen_31 = yes # Maegor I
+					AND = {
+						exists = character:Targaryen_27
+						this = character:Targaryen_27
+					}
+					AND = {
+						exists = character:Targaryen_31
+						this = character:Targaryen_31
+					}
 				}
 			}
 			modifier = {
@@ -6831,9 +6837,18 @@
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_jaehaerys_artifact } }
 				is_alive = no
 				OR = {
-					is_character_targaryen_35 = yes # Jaehaerys I
-					is_character_targaryen_60 = yes # Viserys I
-					is_character_targaryen_63 = yes # Rhaenyra
+					AND = {
+						exists = character:Targaryen_35
+						this = character:Targaryen_35
+					}
+					AND = {
+						exists = character:Targaryen_60
+						this = character:Targaryen_60
+					}
+					AND = {
+						exists = character:Targaryen_63
+						this = character:Targaryen_63
+					}
 				}
 			}
 			modifier = {

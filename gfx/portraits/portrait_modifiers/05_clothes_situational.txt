@@ -1052,7 +1052,7 @@
             modifier = {
                 add = 102
                 age > 18
-                has_character_flag = bittersteel_house
+                house = house:house_Bittersteel
                 is_character_targaryen_95 = yes
                 is_male = yes
             }
