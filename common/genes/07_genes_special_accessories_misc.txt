@@ -1497,25 +1497,14 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
-		asoiaf_kingsguard_cloaks = { #AGOT+ Added
-			index = 92
-			male = {
-				1 = male_cloak_secular_asoiaf_kingsguard_default_cloak
-			}
-			female = {
-				0 = empty
-			}
-			boy = male
-			girl = female
-		}
 
 		asoiaf_unique_cloaks = { #AGOT+ Added
-			index = 93
+			index = 92
 			male = {
 				1 = male_cloak_asoiaf_stormlands_stannis_cloak_1
 				1 = male_cloak_asoiaf_nights_watch_cloak_1
 				1 = male_cloak_asoiaf_gold_cloak_cloak
+				1 = male_cloak_asoiaf_kingsguard_cloak_default
 			}
 			female = {
 				1 = female_cloak_asoiaf_nights_watch_cloak_1
@@ -1526,7 +1515,7 @@ accessory_genes = {
 		}
 		
 		asoiaf_northern_cloaks = { #AGOT+ Added
-			index = 94
+			index = 93
 			male = {
 				4 = male_cloaks_secular_fp1_agot_northern_01
 				2 = male_cloaks_secular_north_high_winter_01
