@@ -56,6 +56,17 @@
 		}
 	}
 
+	marshal_ccp5_french_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = ccp5_french_marshal_sword
+				range = {0 1}
+			}
+		}
+	}
+
 	marshal_fp2_muslim_prop = {
 		dna_modifiers = {
 			accessory = {
@@ -3334,6 +3345,17 @@
 		}
 	}
 
+	marshal_ccp5_french_prop_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ccp5_french_marshal_sword_left
+				range = {0 1}
+			}
+		}
+	}
+
 	marshal_fp2_muslim_prop_left = {
 		dna_modifiers = {
 			accessory = {
@@ -5621,6 +5643,73 @@
 				gene = props_tgc
 				template = tgc_skullPike
 				range = {0.0 1.0}
+			}
+		}
+	}
+
+	hk_shield_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_hk
+				template = hk_shield
+				accessory = hedge_shield
+			}
+		}
+	}
+
+	
+	hk_shield_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_hk
+				template = hk_shield
+				accessory = hedge_shield_right
+			}
+		}
+	}
+
+	hk_arlanShield_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_hk
+				template = hk_shield
+				accessory = arlan_shield
+			}
+		}
+	}
+	
+	hk_arlanShield_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_hk
+				template = hk_shield
+				accessory = arlan_shield_right
+			}
+		}
+	}
+
+	hk_duncShield_left = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_hk
+				template = hk_shield
+				accessory = dunc_shield
+			}
+		}
+	}
+
+	hk_duncShield_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_hk
+				template = hk_shield
+				accessory = dunc_shield_right
 			}
 		}
 	}

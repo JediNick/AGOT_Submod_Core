@@ -1,0 +1,54 @@
+﻿special_genes = {
+
+
+	accessory_genes = {
+
+	#####################################
+	#									#
+	# 		  	   PROPS  		        #
+	#									#
+	#####################################
+
+
+
+	  props_hk = {
+		
+			no_props = {
+				index = 0
+				male = {
+				}
+				female = {
+				}
+				boy = {
+				}
+				girl = {
+				}
+			}
+
+	    grid = {
+			index = 1
+			male = {
+				1 = debug_grid_01
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	      
+		hk_shield = {
+			index = 2
+			male = {
+				1 = arlan_shield
+				1 = arlan_shield_right
+				1 = dunc_shield
+				1 = dunc_shield_right
+				1 = hedge_shield
+				1 = hedge_shield_right
+			}
+			female = male
+			boy = male
+			girl = female
+		}	   	
+	}
+  }
+}

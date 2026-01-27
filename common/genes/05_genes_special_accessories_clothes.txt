@@ -3556,9 +3556,115 @@ special_genes = {
 				girl = female
 			}
 
+			ccp5_german_era3_war_nobility_clothes = {
+				index = 183
+				male = {
+					10 = m_clothes_sec_ccp5_german_war_nob_01_low
+					8 = m_clothes_sec_ccp5_german_war_nob_01_hi
+					2 = m_clothes_sec_ccp5_german_war_nob_01_coa
+				}
+				female = {
+					10 = f_clothes_sec_ccp5_german_war_nob_01_low
+					8 = f_clothes_sec_ccp5_german_war_nob_01_hi
+					2 = f_clothes_sec_ccp5_german_war_nob_01_coa
+				}
+				boy = male
+				girl = female
+			}	
+
+			ccp5_french_era3_war_commoners_clothes = {
+				index = 184
+				male = {
+					1 = m_clothes_sec_ccp5_french_war_nob_01
+				}
+				female = {
+					1 = f_clothes_sec_ccp5_french_war_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp5_french_era3_war_nobility_clothes = {
+				index = 185
+				male = {
+					5 = m_clothes_sec_ccp5_english_war_nob_03_low
+					2 = m_clothes_sec_ccp5_english_war_nob_03_low_coa
+					3 = m_clothes_sec_ccp5_english_war_nob_03_high
+					2 = m_clothes_sec_ccp5_english_war_nob_03_coa
+
+				}
+				female = {
+					5 = f_clothes_sec_ccp5_english_war_nob_03_low
+					2 = f_clothes_sec_ccp5_english_war_nob_03_low_coa
+					3 = f_clothes_sec_ccp5_english_war_nob_03_high
+					2 = f_clothes_sec_ccp5_english_war_nob_03_coa
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp5_french_late_era3_war_nobility_clothes = {
+				index = 186
+				male = {
+					1 = m_clothes_sec_ccp5_english_war_nob_03_low
+					1 = m_clothes_sec_ccp5_english_war_nob_03_low_coa
+					2 = m_clothes_sec_ccp5_french_war_nob_02_low_coa
+					1 = m_clothes_sec_ccp5_english_war_nob_03_high
+					1 = m_clothes_sec_ccp5_english_war_nob_03_coa
+					2 = m_clothes_sec_ccp5_french_war_nob_02_coa
+
+				}
+				female = {
+					1 = f_clothes_sec_ccp5_english_war_nob_03_low
+					1 = f_clothes_sec_ccp5_english_war_nob_03_low_coa
+					2 = f_clothes_sec_ccp5_french_war_nob_02_low_coa
+					1 = f_clothes_sec_ccp5_english_war_nob_03_high
+					1 = f_clothes_sec_ccp5_english_war_nob_03_coa
+					2 = f_clothes_sec_ccp5_french_war_nob_02_coa
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp5_english_era3_war_nobility_clothes = {
+				index = 187
+				male = {
+					5 = m_clothes_sec_ccp5_english_war_nob_03_low
+					2 = m_clothes_sec_ccp5_english_war_nob_03_low_coa
+					3 = m_clothes_sec_ccp5_english_war_nob_03_high
+					2 = m_clothes_sec_ccp5_english_war_nob_03_coa
+				}
+				female = {
+					5 = f_clothes_sec_ccp5_english_war_nob_03_low
+					2 = f_clothes_sec_ccp5_english_war_nob_03_low_coa
+					3 = f_clothes_sec_ccp5_english_war_nob_03_high
+					2 = f_clothes_sec_ccp5_english_war_nob_03_coa
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp5_english_era4_war_nobility_clothes = {
+				index = 188
+				male = {
+					3 = m_clothes_sec_ccp5_english_war_nob_01_low
+					2 = m_clothes_sec_ccp5_english_war_nob_01_low_coa
+					3 = m_clothes_sec_ccp5_english_war_nob_01_high
+					2 = m_clothes_sec_ccp5_english_war_nob_01_coa
+				}
+				female = {
+					5 = f_clothes_sec_ccp5_english_war_nob_01_low
+					2 = f_clothes_sec_ccp5_english_war_nob_01_coa
+					3 = f_clothes_sec_ccp5_english_war_nob_01_high
+					2 = f_clothes_sec_ccp5_english_war_nob_01_coa
+				}
+				boy = male
+				girl = female
+			}
+
 			#AGOT Added
 			agot_historic_characters = {
-				index = 183
+				index = 189
 
 				male = {
 					1 = male_clothes_dragonbane_doublet_02
@@ -3610,7 +3716,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_all_armors = {
-				index = 184
+				index = 190
 
 				male = {
 					1 = male_clothes_valyrian_war_02 #1
@@ -3756,7 +3862,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_all_clothes = {
-				index = 185
+				index = 191
 
 				male = {
 					1 = male_clothes_secular_unlikely_gown_01 #1
@@ -4033,7 +4139,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_free_cities_01_clothes = {
-				index = 186
+				index = 192
 
 				male = {
 					1 = male_clothes_secular_free_cities_doublet_01
@@ -4080,7 +4186,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_free_cities_low_01_clothes = {
-				index = 187
+				index = 193
 
 				male = {
 					1 = male_clothes_secular_byzantine_nobility_02_low
@@ -4112,7 +4218,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_pirate_01_clothes = {
-				index = 188
+				index = 194
 
 				male = {
 					1 = male_clothes_secular_free_cities_doublet_03
@@ -4128,7 +4234,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_byzantine_high_nobility_clothes_male_pants = {
-				index = 189
+				index = 195
 
 				male = {
 					1 = male_clothes_dragonbane_doublet_no_necklace_01
@@ -4143,7 +4249,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_western_high_nobility_clothes_male_pants = {
-				index = 190
+				index = 196
 
 				male = {
 					1 = male_clothes_westerland_doublet_01
@@ -4162,7 +4268,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_stormlander_low_fabrics = {
-				index = 191
+				index = 197
 
 				male = {
 					2 = male_clothes_stormland_overcoat_01
@@ -4180,7 +4286,7 @@ special_genes = {
 
 			#AGOT Added
 			redpriestess_clothes = {
-				index = 192
+				index = 198
 
 				male = {
 					1 = male_clothes_religious_redpriest_01
@@ -4196,7 +4302,7 @@ special_genes = {
 
 			#AGOT Added
 			religious_fot7_high_clothes = {
-				index = 193
+				index = 199
 
 				male = {
 					1 = male_clothes_religious_orthodox_high_01
@@ -4209,7 +4315,7 @@ special_genes = {
 			}
 			#AGOT Added
 			agot_stormlander_high_fabrics = {
-				index = 194
+				index = 200
 
 				male = {
 					1 = male_clothes_stormland_overcoat_05
@@ -4225,7 +4331,7 @@ special_genes = {
 
 			#AGOT Added
 			dragon_rider_clothes = {
-				index = 195
+				index = 201
 
 				male = {
 					1 = male_clothes_special_dragon_rider_01
@@ -4243,7 +4349,7 @@ special_genes = {
 
 			#AGOT Added
 			north_high_winter_clothes = {
-				index = 196
+				index = 202
 
 				male = {
 					1 = male_clothes_secular_north_high_winter_01
@@ -4263,7 +4369,7 @@ special_genes = {
 
 			#AGOT Added
 			north_high_winter_high_clothes = {
-				index = 197
+				index = 203
 
 				male = {
 					1 = male_clothes_secular_north_high_winter_01
@@ -4281,7 +4387,7 @@ special_genes = {
 
 			#AGOT Added
 			north_high_winter_low_clothes = {
-				index = 198
+				index = 204
 
 				male = {
 					1 = male_clothes_secular_north_high_winter_01
@@ -4297,7 +4403,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_northern_high_nobility = {
-				index = 199
+				index = 205
 
 				male = {
 					1 = male_clothes_secular_western_nobility_01_high
@@ -4312,7 +4418,7 @@ special_genes = {
 
 			#AGOT Added
 			religious_fot7_low_clothes = {
-				index = 200
+				index = 206
 
 				male = {
 					1 = male_clothes_religious_zoroastrian_high_01
@@ -4326,7 +4432,7 @@ special_genes = {
 
 			#AGOT Added
 			religious_fot7_devoted_clothes = {
-				index = 201
+				index = 207
 
 				male = {
 					1 = male_clothes_religious_catholic_devoted_02_franciscan
@@ -4340,7 +4446,7 @@ special_genes = {
 
 			#AGOT Added
 			maester_clothes = {
-				index = 202
+				index = 208
 
 				male = {
 					1 = male_clothes_southern_maester_01
@@ -4357,7 +4463,7 @@ special_genes = {
 
 			#AGOT Added
 			silentsister_clothes = {
-				index = 203
+				index = 209
 
 				male = {
 					1 = male_clothes_religious_catholic_devoted_01_dominican
@@ -4372,7 +4478,7 @@ special_genes = {
 
 			#AGOT Added
 			free_cities_braavos_high_clothes = {
-				index = 204
+				index = 210
 
 				male = {
 					2 = male_clothes_secular_unlikely_gown_braavos_01
@@ -4411,7 +4517,7 @@ special_genes = {
 
 			#AGOT Added
 			free_cities_braavos_high_clothes_barbershop_only = {
-				index = 205
+				index = 211
 
 				male = {
 					1 = male_clothes_secular_unlikely_gown_braavos_01
@@ -4427,7 +4533,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_dornish_high_nobility = {
-				index = 206
+				index = 212
 
 				male = {
 					1 = tyroshi_scoundrel_03
@@ -4448,7 +4554,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_faith_of_the_seven_high_nobility = {
-				index = 207
+				index = 213
 
 				male = {
 					1 = male_clothes_secular_western_nobility_01_high
@@ -4466,7 +4572,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_faith_of_the_seven_fashionable = {
-				index = 208
+				index = 214
 
 				male = {
 					1 = male_clothes_secular_western_nobility_01_high
@@ -4484,7 +4590,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_western_fashionable = {
-				index = 209
+				index = 215
 
 				male = {
 					0 = male_clothes_secular_western_nobility_01_high
@@ -4522,7 +4628,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_house_clothes = {
-				index = 210
+				index = 216
 
 				male = {
 					1 = male_clothes_dragonbane_doublet_02
@@ -4565,7 +4671,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_the_blacks_faction = {
-				index = 211
+				index = 217
 
 				male = {
 					1 = male_clothes_westerland_doublet_no_cloak_blacks
@@ -4590,7 +4696,7 @@ special_genes = {
 
 			#AGOT Added
 			agot_the_greens_faction = {
-				index = 212
+				index = 218
 
 				male = {
 					1 = male_clothes_westerland_doublet_no_cloak_greens
@@ -4612,7 +4718,7 @@ special_genes = {
 			}
 
 			agot_clothes_special = {
-				index = 213
+				index = 219
 
 				male = {
 					1 = male_clothes_secular_valyrian_war_05
@@ -4624,10 +4730,10 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			#AGOT Added, Dragons
 			no_clothes_forced = {
-				index = 214
+				index = 220
 
 				male = {
 					1 = empty

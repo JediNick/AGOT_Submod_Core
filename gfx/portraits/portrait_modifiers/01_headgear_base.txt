@@ -4904,125 +4904,7 @@ fp3_turkic_high_nobles = {
 		}
 	}
 
-	# Crowns of the Iron Throne
-	agot_headgear_aegon_i_crown = {
-		dna_modifiers = {
-			accessory = {
-			mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = aegonIcrown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 275
-				agot_default_wear_crown_trigger = yes
-				OR = {
-					is_character_targaryen_27 = yes
-					#is_character_targaryen_30 = yes
-					is_character_targaryen_31 = yes
-					is_character_targaryen_65 = yes
-					is_character_targaryen_81 = yes
-				}
-			}
-		}
-	}
-
-	agot_headgear_aenys_i_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = aenysIcrown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 275
-				agot_default_wear_crown_trigger = yes
-				OR = {
-					is_character_targaryen_30 = yes
-					# is_character_targaryen_35 = yes
-				}
-			}
-		}
-	}
-
-	agot_headgear_jaehaerys_i_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = jaehaerysIcrown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 275
-				agot_default_wear_crown_trigger = yes
-				OR = {
-					is_character_targaryen_35 = yes
-					is_character_targaryen_60 = yes
-					is_character_targaryen_63 = yes
-				}
-			}
-		}
-	}
-
-	agot_headgear_aegon_iii_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = aegonIIIcrown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 275
-				agot_default_wear_crown_trigger = yes
-				OR = {
-					is_character_targaryen_78 = yes
-					is_character_targaryen_79 = yes
-					is_character_targaryen_122 = yes
-				}
-			}
-		}
-	}
-
-	agot_headgear_aegon_iv_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = aegonIVcrown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 275
-				agot_default_wear_crown_trigger = yes
-				OR = {
-					is_character_targaryen_88 = yes
-					is_character_targaryen_91 = yes
-					is_character_targaryen_108 = yes
-					is_character_targaryen_1 = yes
-				}
-			}
-		}
-	}
-
-	agot_headgear_baelor_i_crown = {
+	agot_headgear_flower_crown = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -5034,82 +4916,8 @@ fp3_turkic_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 275
-				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_82 = yes
-			}
-			modifier = {
 				add = 800
 				is_character_targaryen_hh_10 = yes
-			}
-		}
-	}
-
-	agot_headgear_maekar_i_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = maekarIcrown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 275
-				agot_default_wear_crown_trigger = yes
-				OR = {
-					is_character_targaryen_110 = yes
-					is_character_targaryen_127 = yes
-				}
-			}
-		}
-	}
-
-	agot_headgear_robert_i_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = robertIcrown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 275
-				agot_default_wear_crown_trigger = yes
-				is_character_baratheon_2 = yes
-			}
-		}
-	}
-
-	agot_headgear_joffrey_i_crown = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = joffreyIcrown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 275
-				agot_default_wear_crown_trigger = yes
-				dynasty ?= dynasty:dynn_Baratheon
-				OR = {
-					is_character_baratheon_5 = yes
-					is_character_baratheon_6 = yes
-					is_character_baratheon_7 = yes
-					AND = {
-						has_inactive_trait = gold_hair
-						has_inactive_trait = emerald_eyes
-					}
-				}
 			}
 		}
 	}
@@ -5117,25 +4925,6 @@ fp3_turkic_high_nobles = {
 ##########################
 ### AGOT CUSTOM CROWNS ###
 ##########################
-
-	agot_headgear_dany_crown = {
-		dna_modifiers = {
-			accessory = {
-			mode = add
-				gene = headgear
-				template = agot_crowns
-				accessory = daeneryscrown
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 275
-				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_9 = yes
-			}
-		}
-	}
 
 	agot_headgear_renly_crown = {
 		dna_modifiers = {
@@ -5261,7 +5050,7 @@ fp3_turkic_high_nobles = {
 				add = 250
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = riverlands_crown_artifact } }
 				agot_default_wear_crown_trigger = yes
-				culture = culture:riverlander
+				culture = culture:riverman_main
 			}
 		}
 	}
@@ -5322,7 +5111,7 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				agot_default_wear_crown_trigger = yes
-				culture = culture:westerman
+				culture = culture:westerman_main
 			}
 		}
 	}
@@ -5360,7 +5149,7 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				agot_default_wear_crown_trigger = yes
-				culture = culture:stormlander
+				culture = culture:stormlander_main
 			}
 		}
 	}

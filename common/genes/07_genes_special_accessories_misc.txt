@@ -2487,9 +2487,20 @@ props_left = {
 		boy = male
 		girl = female
 	}
+	ccp5_french_marshal_sword_left = {
+		index = 102
+		male = {
+			3 = ccp5_french_marshal_sword_01_left
+			3 = ccp5_french_marshal_sword_02_left
+			2 = western_sword_02_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
 #AGOT Added
 	agot_weirwood_longbow_left = {
-			index = 102
+			index = 103
 		male = {
 			1 = agot_weirwood_longbow_left_hand
 		}
@@ -2498,7 +2509,7 @@ props_left = {
 		girl = female
 	}
 	agot_weirwood_longbow_drawn_left = {
-		index = 103
+		index = 104
 		male = {
 			1 = agot_weirwood_longbow_drawn_left_hand
 		}
@@ -2507,7 +2518,7 @@ props_left = {
 		girl = female
 	}
 	agot_dragonbone_longbow_left = {
-		index = 104
+		index = 105
 		male = {
 			1 = agot_dragonbone_longbow_left_hand
 		}
@@ -2516,7 +2527,7 @@ props_left = {
 		girl = female
 	}
 	agot_dragonbone_longbow_drawn_left = {
-		index = 105
+		index = 106
 		male = {
 			1 = agot_dragonbone_longbow_drawn_left_hand
 		}
@@ -2525,7 +2536,7 @@ props_left = {
 		girl = female
 	}
 	agot_gold_mirror = {
-		index = 106
+		index = 107
 		male = {
 			1 = mirror_gold
 		}
@@ -2534,7 +2545,7 @@ props_left = {
 		girl = female
 	}
 	agot_silver_mirror = {
-		index = 107
+		index = 108
 		male = {
 			1 = mirror_silver
 		}
@@ -2543,7 +2554,7 @@ props_left = {
 		girl = female
 	}
 	agot_valyrian_mirror = {
-		index = 108
+		index = 109
 		male = {
 			1 = mirror_valyrian
 		}
@@ -2552,7 +2563,7 @@ props_left = {
 		girl = female
 	}
 	agot_dragonbinder_horn = {
-		index = 109
+		index = 110
 		male = {
 			1 = horn_dragonbinder
 }
@@ -3630,8 +3641,20 @@ tgp_guqin_01_a = {
 			female = male
 			boy = male
 			girl = female
-		}		agot_artifact_weapon_lady_forlorn = {
+		}
+		ccp5_french_marshal_sword = {
 			index = 113
+			male = {
+				3 = ccp5_french_marshal_sword_01
+				14 = ccp5_french_marshal_sword_02
+				2 = western_sword_02
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_lady_forlorn = {
+			index = 114
 			male = {
 				1 = lady_forlorn_artifact
 			}
@@ -3642,7 +3665,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_lamentation = {
-			index = 114
+				index = 115
 			male = {
 				1 = lamentation_artifact
 			}
@@ -3653,7 +3676,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_longclaw = {
-			index = 115
+			index = 116
 			male = {
 				1 = longclaw_artifact
 			}
@@ -3664,7 +3687,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_nightfall = {
-			index = 116
+			index = 117
 			male = {
 				1 = nightfall_artifact
 			}
@@ -3675,7 +3698,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_dawn = {
-			index = 117
+			index = 118
 			male = {
 				1 = dawn_artifact
 			}
@@ -3686,7 +3709,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_orphan_maker = {
-			index = 118
+			index = 119
 			male = {
 				1 = orphan_maker_artifact
 			}
@@ -3697,7 +3720,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_pincer = {
-			index = 119
+			index = 120
 			male = {
 				1 = pincer_artifact
 			}
@@ -3708,7 +3731,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_pride = {
-			index = 120
+			index = 121
 			male = {
 				1 = pride_artifact
 			}
@@ -3719,7 +3742,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_red_rain = {
-			index = 121
+			index = 122
 			male = {
 				1 = red_rain_artifact
 			}
@@ -3730,7 +3753,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_seafoam = {
-			index = 122
+			index = 123
 			male = {
 				1 = seafoam_artifact
 			}
@@ -3741,7 +3764,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_skullcleaver = {
-			index = 123
+			index = 124
 			male = {
 				1 = skullcleaver_artifact
 			}
@@ -3752,7 +3775,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_defiance = {
-			index = 124
+			index = 125
 			male = {
 				1 = defiance_artifact
 			}
@@ -3763,7 +3786,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_stalwart = {
-			index = 125
+			index = 126
 			male = {
 				1 = stalwart_artifact
 			}
@@ -3774,7 +3797,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_strangers_touch = {
-			index = 126
+			index = 127
 			male = {
 				1 = strangers_touch_artifact
 			}
@@ -3785,7 +3808,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_supremacy = {
-			index = 127
+			index = 128
 			male = {
 				1 = supremacy_artifact
 			}
@@ -3796,7 +3819,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_swordfish = {
-			index = 128
+			index = 129
 			male = {
 				1 = swordfish_artifact
 			}
@@ -3807,7 +3830,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_dragonbane = {
-			index = 129
+			index = 130
 			male = {
 				1 = dragonbane_artifact
 			}
@@ -3818,7 +3841,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_tranquility = {
-			index = 130
+			index = 131
 			male = {
 				1 = tranquility_artifact
 			}
@@ -3829,7 +3852,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_vigilance = {
-			index = 131
+			index = 132
 			male = {
 				1 = vigilance_artifact
 			}
@@ -3840,7 +3863,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_widestripe = {
-			index = 132
+			index = 133
 			male = {
 				1 = widestripe_artifact
 			}
@@ -3851,7 +3874,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_widows_wail = {
-			index = 133
+			index = 134
 			male = {
 				1 = widows_wail_artifact
 			}
@@ -3862,7 +3885,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_wyrmfang = {
-			index = 134
+			index = 135
 			male = {
 				1 = wyrmfang_artifact
 			}
@@ -3873,7 +3896,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_evergold = {
-			index = 135
+			index = 136
 			male = {
 				1 = evergold_artifact
 			}
@@ -3884,7 +3907,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_disputant = {
-			index = 136
+			index = 137
 			male = {
 				1 = disputant_artifact
 			}
@@ -3895,7 +3918,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_truth = {
-			index = 137
+			index = 138
 			male = {
 				1 = truth_artifact
 			}
@@ -3906,7 +3929,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_brightroar = {
-			index = 138
+			index = 139
 			male = {
 				1 = brightroar_artifact
 			}
@@ -3917,7 +3940,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_dragonglass_dagger = {
-			index = 139
+			index = 140
 			male = {
 				20 = fp1_spymasters_dagger_01
 				1 = dragon_glass_dagger_01_artifact
@@ -3936,7 +3959,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_dragonglass_sword = {
-			index = 140
+			index = 141
 			male = {
 				9 = fp1_marshal_sword_01
 				1 = dragon_glass_sword_artifact
@@ -3949,7 +3972,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_remige = {
-			index = 141
+			index = 142
 			male = {
 				1 = remige_artifact
 			}
@@ -3960,7 +3983,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_dragon_egg_prop = {
-			index = 142
+			index = 143
 			male = {
 				1 = dragon_egg_black_prop_01
 				1 = dragon_egg_blackdarkred_prop_01
@@ -4082,9 +4105,8 @@ tgp_guqin_01_a = {
 			boy = male
 			girl = female
 		}
-
 		agot_artifact_weapon_bobbyhammer = {
-			index = 143
+			index = 144
 			male = {
 				1 = bobby_hammer_artifact
 			}
@@ -4095,7 +4117,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_high_septon_staff = {
-			index = 144
+			index = 145
 			male = {
 				1 = high_septon_accessory
 			}
@@ -4106,7 +4128,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_orb_and_star_prop = {
-			index = 145
+			index = 146
 			male = {
 				1 = orb_and_star_prop_01
 			}
@@ -4117,7 +4139,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		dornish_spear_prop = {
-			index = 146
+			index = 147
 			male = {
 				1 = dornish_spear_prop
 				1 = dornish_spear_equipped_prop
@@ -4130,7 +4152,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		blackfyre_sword = {
-			index = 147
+			index = 148
 			male = {
 				1 = blackfyre_artifact
 			}
@@ -4141,7 +4163,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		darksister_sword = {
-			index = 148
+			index = 149
 			male = {
 				1 = dark_sister_artifact
 			}
@@ -4152,7 +4174,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_black_death = {
-			index = 149
+			index = 150
 			male = {
 				1 = black_death_artifact
 			}
@@ -4163,7 +4185,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_mothers_grief = {
-			index = 150
+			index = 151
 			male = {
 				1 = mothers_grief_artifact
 			}
@@ -4174,7 +4196,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_talon = {
-			index = 151
+			index = 152
 			male = {
 				1 = talon_artifact
 			}
@@ -4185,7 +4207,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_andal_armingsword_gold = {
-			index = 152
+			index = 153
 			male = {
 				1 = andal_armingsword_gold_artifact
 			}
@@ -4196,7 +4218,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_andal_armingsword_silver = {
-			index = 153
+			index = 154
 			male = {
 				1 = andal_armingsword_silver_artifact
 			}
@@ -4207,7 +4229,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_andal_longsword_gold = {
-			index = 154
+			index = 155
 			male = {
 				1 = andal_longsword_gold_artifact
 			}
@@ -4218,7 +4240,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_andal_longsword_silver = {
-			index = 155
+			index = 156
 			male = {
 				1 = andal_longsword_silver_artifact
 			}
@@ -4229,7 +4251,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_firstman_armingsword_gold = {
-			index = 156
+			index = 157
 			male = {
 				1 = firstman_armingsword_gold_artifact
 			}
@@ -4240,7 +4262,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_firstman_armingsword_silver = {
-			index = 157
+			index = 158
 			male = {
 				1 = firstman_armingsword_silver_artifact
 			}
@@ -4251,7 +4273,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_firstman_armingsword_bronze = {
-			index = 158
+			index = 159
 			male = {
 				1 = firstman_armingsword_bronze_artifact
 			}
@@ -4262,7 +4284,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_firstman_longsword_gold = {
-			index = 159
+			index = 160
 			male = {
 				1 = firstman_longsword_gold_artifact
 			}
@@ -4273,7 +4295,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_firstman_longsword_silver = {
-			index = 160
+			index = 161
 			male = {
 				1 = firstman_longsword_silver_artifact
 			}
@@ -4284,7 +4306,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_firstman_longsword_bronze = {
-			index = 161
+			index = 162
 			male = {
 				1 = firstman_longsword_bronze_artifact
 			}
@@ -4295,7 +4317,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_valyrian_armingsword_gold = {
-			index = 162
+			index = 163
 			male = {
 				1 = valyrian_armingsword_gold_artifact
 			}
@@ -4306,7 +4328,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_valyrian_armingsword_silver = {
-			index = 163
+			index = 164
 			male = {
 				1 = valyrian_armingsword_silver_artifact
 			}
@@ -4317,7 +4339,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_valyrian_longsword_gold = {
-			index = 164
+			index = 165
 			male = {
 				1 = valyrian_longsword_gold_artifact
 			}
@@ -4328,7 +4350,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_valyrian_longsword_silver = {
-			index = 165
+			index = 166
 			male = {
 				1 = valyrian_longsword_silver_artifact
 			}
@@ -4339,7 +4361,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_cloudbreak = {
-			index = 166
+			index = 167
 			male = {
 				1 = cloudbreak_artifact
 			}
@@ -4350,7 +4372,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_glory = {
-			index = 167
+			index = 168
 			male = {
 				1 = glory_artifact
 			}
@@ -4361,7 +4383,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_stormy_nights = {
-			index = 168
+			index = 169
 			male = {
 				1 = stormy_nights_artifact
 			}
@@ -4372,7 +4394,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_pincer = {
-			index = 169
+			index = 170
 			male = {
 				1 = pincer_artifact
 			}
@@ -4383,7 +4405,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_adders_fang = {
-			index = 170
+			index = 171
 			male = {
 				1 = adders_fang_artifact
 			}
@@ -4394,7 +4416,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_blackfyre = {
-			index = 171
+			index = 172
 			male = {
 				1 = blackfyre_artifact
 			}
@@ -4405,7 +4427,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		dragon_doll_prop_01 = {
-			index = 172
+			index = 173
 			male = {
 				1 = dragon_doll_01
 			}
@@ -4414,7 +4436,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		dragon_doll_prop_02 = {
-			index = 173
+			index = 174
 			male = {
 				1 = dragon_doll_02
 			}
@@ -4423,7 +4445,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		dragon_doll_prop_03 = {
-			index = 174
+			index = 175
 			male = {
 				1 = dragon_doll_03
 			}
@@ -4432,7 +4454,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		dragon_doll_prop_04 = {
-			index = 175
+			index = 176
 			male = {
 				1 = dragon_doll_04
 			}
@@ -4441,7 +4463,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		dragon_doll_prop_05 = {
-			index = 176
+			index = 177
 			male = {
 				1 = dragon_doll_05
 			}
@@ -4450,7 +4472,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		dragon_doll_prop_06 = {
-			index = 177
+			index = 178
 			male = {
 				1 = dragon_doll_06
 			}
@@ -4459,7 +4481,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_maekarmace = {
-			index = 178
+			index = 179
 			male = {
 				1 = maekar_mace_artifact
 			}
@@ -4470,7 +4492,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_dark_moon = {
-			index = 179
+			index = 180
 			male = {
 				1 = dark_moon_artifact
 			}
@@ -4481,7 +4503,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_emoBoy_sword = {
-			index = 180
+			index = 181
 			male = {
 				1 = emoBoy_sword_artifact
 			}
@@ -4492,7 +4514,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_skinpeeler = {
-			index = 181
+			index = 182
 			male = {
 				1 = skinpeeler_artifact
 			}
@@ -4503,7 +4525,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_dornish_sabre = {
-			index = 182
+			index = 183
 			male = {
 				1 = dornish_sabre_artifact
 			}
@@ -4514,7 +4536,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_dancer = {
-			index = 183
+			index = 184
 			male = {
 				1 = dancer_artifact
 			}
@@ -4525,7 +4547,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_dark_sister = {
-			index = 184
+			index = 185
 			male = {
 				1 = dark_sister_artifact
 			}
@@ -4536,7 +4558,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_iron_will = {
-			index = 185
+			index = 186
 			male = {
 				1 = iron_will_artifact
 			}
@@ -4547,7 +4569,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_heartsbane = {
-			index = 186
+			index = 187
 			male = {
 				1 = heartsbane_artifact
 			}
@@ -4558,7 +4580,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_ice = {
-			index = 187
+			index = 188
 			male = {
 				1 = ice_artifact
 			}
@@ -4569,7 +4591,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_darktalon = {
-			index = 188
+			index = 189
 			male = {
 				1 = darktalon_artifact
 			}
@@ -4580,7 +4602,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_iron_price = {
-			index = 189
+			index = 190
 			male = {
 				1 = iron_price_artifact
 			}
@@ -4591,7 +4613,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_unkindness = {
-			index = 190
+			index = 191
 			male = {
 				1 = unkindness_artifact
 			}
@@ -4602,7 +4624,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_swansong = {
-			index = 191
+			index = 192
 			male = {
 				1 = swansong_artifact
 			}
@@ -4613,7 +4635,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_bumblin = {
-			index = 192
+			index = 193
 			male = {
 				1 = bumblin_artifact
 			}
@@ -4624,7 +4646,7 @@ tgp_guqin_01_a = {
 			girl = female
 		}
 		agot_artifact_weapon_sting = {
-			index = 193
+			index = 194
 			male = {
 				1 = sting_artifact
 			}

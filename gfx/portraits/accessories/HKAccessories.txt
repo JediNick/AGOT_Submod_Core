@@ -1,0 +1,23 @@
+﻿arlan_shield = {
+	entity = {	required_tags = ""        node = "bn_l_prop"	 }	
+}
+
+arlan_shield_right = {
+	entity = {	required_tags = ""        node = "bn_r_prop"	 }	
+}
+
+dunc_shield = {
+	entity = {	required_tags = ""        node = "bn_l_prop"	 }	
+}
+
+dunc_shield_right = {
+	entity = {	required_tags = ""        node = "bn_r_prop"	 }	
+}
+
+hedge_shield = {
+	entity = {	required_tags = ""        node = "bn_l_prop"	 }	
+}
+
+hedge_shield_right = {
+	entity = {	required_tags = ""        node = "bn_r_prop"	 }	
+}
