@@ -9,15 +9,27 @@
 }
 
 agot_apply_inactive_traits_on_death = {
+	agot_scripted_hair_death_effect = yes
 	agot_hair_dye_death_effect = yes
+
+	agot_scripted_beard_death_effect = yes
 
 	agot_eye_gem_death_effect = yes
 
 	agot_visible_disfigurement_death_effect = yes
 
 	if = {
-		limit = { vassal_contract_has_flag = has_palatinate_contract }
+		limit = {
+			agot_flavour_palatinate_is_kingdom_trigger = { CHAR = this }
+		}
 		make_trait_inactive = had_palatinate_contract
+	}
+
+	if = { # Used to make a) characters show up as Lord instead of King/Emperor and b) make sure they don't get crowns if they shouldn't!
+		limit = {
+			agot_flavour_is_lord_in_westeros_trigger = { CHAR = this }
+		}
+		make_trait_inactive = agot_was_westerosi_lord
 	}
 
 	if = {

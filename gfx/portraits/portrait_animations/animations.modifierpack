@@ -482,28 +482,29 @@ one_handed_sword = {
 		animations = council_marshal_decal
 	}
 
-	portrait_modifier = {   # CCP5
-		trigger = {
-			AND = {
-				#has_dlc_feature = TODO
-				OR = {
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = french
-                    }
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = norman
-                    }
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = breton
-                    }
-                }
-				portrait_era3_trigger = yes
-			}
-		}
-		animations_props = marshal_ccp5_french_prop
-		animations = council_marshal_decal
-		animations = cloak_additive
-	}
+	#AGOT Disabled, Falchion
+	# portrait_modifier = {   # CCP5
+	# 	trigger = {
+	# 		AND = {
+	# 			#has_dlc_feature = TODO
+	# 			OR = {
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = french
+    #                 }
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = norman
+    #                 }
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = breton
+    #                 }
+    #             }
+	# 			portrait_era3_trigger = yes
+	# 		}
+	# 	}
+	# 	animations_props = marshal_ccp5_french_prop
+	# 	animations = council_marshal_decal
+	# 	animations = cloak_additive
+	# }
 
 	portrait_modifier = {   # POL
 		trigger = {
@@ -938,28 +939,29 @@ lefthanded_one_handed_sword = {
 		animations = female_prop_fix_additive
 	}
 
-	portrait_modifier = {   # CCP5
-		trigger = {
-			AND = {
-				#has_dlc_feature = TODO
-				OR = {
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = french
-                    }
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = norman
-                    }
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = breton
-                    }
-                }
-				portrait_era3_trigger = yes
-			}
-		}
-		animations_props = marshal_ccp5_french_prop_left
-		animations = council_marshal_decal
-		animations = cloak_additive
-	}
+	#AGOT Disabled, Falchion
+	# portrait_modifier = {   # CCP5
+	# 	trigger = {
+	# 		AND = {
+	# 			#has_dlc_feature = TODO
+	# 			OR = {
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = french
+    #                 }
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = norman
+    #                 }
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = breton
+    #                 }
+    #             }
+	# 			portrait_era3_trigger = yes
+	# 		}
+	# 	}
+	# 	animations_props = marshal_ccp5_french_prop_left
+	# 	animations = council_marshal_decal
+	# 	animations = cloak_additive
+	# }
 
 	portrait_modifier = {   # POL
 		trigger = {
@@ -1670,28 +1672,29 @@ council_marshal = {
 		animations = female_prop_fix_additive
 	}
 
-	portrait_modifier = {   # CCP5
-		trigger = {
-			AND = {
-				#has_dlc_feature = TODO
-				OR = {
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = french
-                    }
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = norman
-                    }
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = breton
-                    }
-                }
-				portrait_era3_trigger = yes
-			}
-		}
-		animations_props = marshal_ccp5_french_prop
-		animations = council_marshal_decal
-		animations = cloak_additive
-	}
+	#AGOT Disabled, Falchion
+	# portrait_modifier = {   # CCP5
+	# 	trigger = {
+	# 		AND = {
+	# 			#has_dlc_feature = TODO
+	# 			OR = {
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = french
+    #                 }
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = norman
+    #                 }
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = breton
+    #                 }
+    #             }
+	# 			portrait_era3_trigger = yes
+	# 		}
+	# 	}
+	# 	animations_props = marshal_ccp5_french_prop
+	# 	animations = council_marshal_decal
+	# 	animations = cloak_additive
+	# }
 	
 	portrait_modifier = {   # POL
 		trigger = {
@@ -2101,28 +2104,29 @@ council_marshal_shield = {
 		animations = dwarf_additive
 	}
 
-	portrait_modifier = {   # CCP5
-		trigger = {
-			AND = {
-				#has_dlc_feature = TODO
-				OR = {
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = french
-                    }
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = norman
-                    }
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = breton
-                    }
-                }
-				portrait_era3_trigger = yes
-			}
-		}
-		animations_props = marshal_ccp5_french_prop
-		animations = council_marshal_decal
-		animations = cloak_additive
-	}
+	#AGOT Disabled, Falchion
+	# portrait_modifier = {   # CCP5
+	# 	trigger = {
+	# 		AND = {
+	# 			#has_dlc_feature = TODO
+	# 			OR = {
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = french
+    #                 }
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = norman
+    #                 }
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = breton
+    #                 }
+    #             }
+	# 			portrait_era3_trigger = yes
+	# 		}
+	# 	}
+	# 	animations_props = marshal_ccp5_french_prop
+	# 	animations = council_marshal_decal
+	# 	animations = cloak_additive
+	# }
 
 	portrait_modifier = {   # POL
 		trigger = {
@@ -2454,28 +2458,29 @@ throneRoom_one_handed_passive_1 = {
 		animations = female_prop_fix_additive
 	}
 
-	portrait_modifier = {   # CCP5
-		trigger = {
-			AND = {
-				#has_dlc_feature = TODO
-				OR = {
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = french
-                    }
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = norman
-                    }
-                    portrait_commoner_armor_trigger = {
-                        CULTURE_INPUT = breton
-                    }
-                }
-				portrait_era3_trigger = yes
-			}
-		}
-		animations_props = marshal_ccp5_french_prop
-		animations = council_marshal_decal
-		animations = cloak_additive
-	}
+	#AGOT Disabled, Falchion
+	# portrait_modifier = {   # CCP5
+	# 	trigger = {
+	# 		AND = {
+	# 			#has_dlc_feature = TODO
+	# 			OR = {
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = french
+    #                 }
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = norman
+    #                 }
+    #                 portrait_commoner_armor_trigger = {
+    #                     CULTURE_INPUT = breton
+    #                 }
+    #             }
+	# 			portrait_era3_trigger = yes
+	# 		}
+	# 	}
+	# 	animations_props = marshal_ccp5_french_prop
+	# 	animations = council_marshal_decal
+	# 	animations = cloak_additive
+	# }
 
 	portrait_modifier = { # POL
 		trigger = {

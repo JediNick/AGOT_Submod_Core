@@ -4378,6 +4378,7 @@ special_genes = {
 					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm
 					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm_open
 					1 = male_headgear_secular_asoiaf_lannister_plate_2_helm_closed
+					1 = male_headgear_asoiaf_hound_helm
 					1 = male_headgear_asoiaf_gold_cloak_helm
 					1 = male_headgear_asoiaf_tyrell_helm_dynast
 					1 = male_headgear_asoiaf_tyrell_helm_high
@@ -4386,6 +4387,7 @@ special_genes = {
 				female = {
 					1 = female_headgear_asoiaf_dragonstone_helm
 					1 = female_headgear_asoiaf_bolton_helm_low
+					1 = female_headgear_asoiaf_hound_helm
 					1 = female_headgear_asoiaf_gold_cloak_helm
 				}
 				boy = male

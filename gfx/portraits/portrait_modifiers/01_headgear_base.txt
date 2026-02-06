@@ -4839,7 +4839,7 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 250
 				primary_spouse ?= {
-					primary_title.tier = tier_empire
+					primary_title.tier = tier_hegemony
 					dynasty ?= dynasty:dynn_Targaryen
 					culture = { has_cultural_pillar = heritage_valyrian }
 				}
@@ -5089,13 +5089,10 @@ fp3_turkic_high_nobles = {
 				add = 265
 				agot_default_wear_crown_trigger = yes
 				portrait_ironborn_clothing_trigger = yes
-				OR = {
-					primary_title = title:k_the_iron_islands
 					primary_title = title:e_the_iron_islands
 				}
 			}
 		}
-	}
 
 	agot_headgear_westerlander_crown = {
 		dna_modifiers = {
@@ -5173,10 +5170,6 @@ fp3_turkic_high_nobles = {
 					dynasty ?= dynasty:dynn_Durrandon
 					dynasty ?= dynasty:dynn_Baratheon
 				}
-			}
-			modifier = {
-				add = 500
-				has_character_flag = in_laughing_storm_story
 			}
 		}
 	}
@@ -5820,13 +5813,10 @@ fp3_turkic_high_nobles = {
 					is_character_greyjoy_5 = yes
 					is_character_greyjoy_6 = yes
 				}
-				OR = {
-					primary_title = title:k_the_iron_islands
 					primary_title = title:e_the_iron_islands
 				}
 			}
 		}
-	}
 
 	agot_headgear_valyrian_crown2 = {
 		dna_modifiers = {

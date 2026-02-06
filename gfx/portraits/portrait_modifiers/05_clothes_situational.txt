@@ -856,8 +856,8 @@
                 has_inactive_trait = grandmaester
                 OR = {
                 AND = {
-                    exists = title:e_the_iron_throne.holder
-                    employer ?= title:e_the_iron_throne.holder
+                        exists = title:h_the_iron_throne.holder
+                        employer ?= title:h_the_iron_throne.holder
                     has_court_position = maester_court_position
                 }
 					is_alive = no
