@@ -4743,307 +4743,308 @@ special_genes = {
 				girl = male
 			}
 
-		#NOTAGOTADDED
-		smc_lotd_or_agotplus_clothes = { #for shared clothes between LOTD and AGOT+
-			index = 243
+			#NOTAGOTADDED
+			smc_lotd_or_agotplus_clothes = { #for shared clothes between LOTD and AGOT+
+				index = 243
 
-			#male = {
-			#	1 = empty
-			#}
-			
-			female = {
-				1 = female_clothes_smc_alicent_dress_01
-				1 = female_clothes_smc_alicent_dress_02
-				1 = female_clothes_smc_alicent_dress_01_dark
-				#1 = female_clothes_smc_alicent_dress_03 #MESH MISSING; un-comment once it's added
-				#1 = female_clothes_smc_alicent_dress_04
+				#male = {
+				#	1 = empty
+				#}
+				
+				female = {
+					1 = female_clothes_smc_alicent_dress_01
+					1 = female_clothes_smc_alicent_dress_02
+					1 = female_clothes_smc_alicent_dress_01_dark
+					#1 = female_clothes_smc_alicent_dress_03 #MESH MISSING; un-comment once it's added
+					#1 = female_clothes_smc_alicent_dress_04
+				}
+				
+				boy = male
+				girl = female
+			}
+
+			brightboar_swordsman_armour = {
+				index = 244
+
+				male = {
+					1 = male_clothes_secular_brightboar_swordsman
+				}
+				
+				female = {
+					1 = female_clothes_secular_brightboar_swordsman
+				}
+				
+				boy = male
+				girl = female
 			}
 			
-			boy = male
-			girl = female
-		}
+			kingsguard_armor_clothes = {
+				index = 245
 
-		brightboar_swordsman_armour = {
-			index = 244
+				male = {
+					1 = male_clothes_secular_western_KG_armor_01
+					1 = male_clothes_secular_western_KG_armorTarg_01
+					1 = male_clothes_secular_western_KG_armor_02
+					1 = male_clothes_secular_western_KG_armorTarg_02
+					1 = male_clothes_secular_western_KG_armor_03
+					1 = male_clothes_secular_western_KG_armorTarg_03
+					1 = male_clothes_secular_western_KG_armor_04
+					1 = male_clothes_secular_western_KG_armorTarg_04
+					1 = male_clothes_secular_western_KG_armor_05
+					1 = male_clothes_secular_western_KG_armorTarg_05
+					1 = male_clothes_secular_western_KG_armor_06
+					1 = male_clothes_secular_western_KG_armorTarg_06
+				}
 
-			male = {
-				1 = male_clothes_secular_brightboar_swordsman
+				female = {
+					1 = female_clothes_secular_western_KG_armor_01
+					1 = female_clothes_secular_western_KG_armorTarg_01
+					1 = female_clothes_secular_western_KG_armor_02
+					1 = female_clothes_secular_western_KG_armorTarg_02
+					1 = female_clothes_secular_western_KG_armor_03
+					1 = female_clothes_secular_western_KG_armorTarg_03
+					1 = female_clothes_secular_western_KG_armor_04
+					1 = female_clothes_secular_western_KG_armorTarg_04
+					1 = female_clothes_secular_western_KG_armor_05
+					1 = female_clothes_secular_western_KG_armorTarg_05
+					1 = female_clothes_secular_western_KG_armor_06
+					1 = female_clothes_secular_western_KG_armorTarg_06	
+				}
+				boy = male
+				girl = female
+			}
+
+			valyrian_nobility_clothing = {
+				index = 246
+
+				male = {
+					1 = male_clothes_secular_valyrian_nobility_01_high
+					1 = male_clothes_secular_valyrian_robes_01_high
+					1 = male_clothes_secular_valyrian_robes_01_low
+					1 = male_clothes_secular_valyrian_robes_no_gloves_01_high
+					1 = male_clothes_secular_valyrian_robes_no_gloves_01_low
+				}
+
+				female = {
+					1 = female_clothes_secular_valyrian_dress_01_high
+				}
+
+				boy = male
+				girl = female
+			}
+			valyrian_nobility_clothing_generic = {
+				index = 247
+
+				male = {
+					1 = male_clothes_secular_valyrian_nobility_01_generic_high
+					1 = male_clothes_secular_valyrian_robes_01_generic_high
+					1 = male_clothes_secular_valyrian_robes_01_generic_low
+					1 = male_clothes_secular_valyrian_robes_no_gloves_01_generic_high
+					1 = male_clothes_secular_valyrian_robes_no_gloves_01_generic_low
+				}
+
+				female = {
+					1 = female_clothes_secular_valyrian_dress_01_generic_high
+				}
+
+				boy = male
+				girl = female
+			}
+
+			asoiaf_north_war_clothes = { #AGOT+ Added
+				index = 248
+
+				male = {
+					1 = male_clothes_secular_asoiaf_north_war_chainmail
+					1 = male_clothes_secular_asoiaf_north_war_padding
+					1 = male_clothes_secular_asoiaf_north_war_plate
+					1 = male_clothes_secular_asoiaf_north_war_plate_stark
+				}
+				female = {
+					1 = f_clothes_sec_northern_war_nob_01_lo
+				}
+				boy = male
+				girl = female
+			}
+
+			asoiaf_all_armours = { #AGOT+ Added
+				index = 249
+
+				male = {
+					1 = male_clothes_asoiaf_nights_watch_leather
+					1 = male_clothes_asoiaf_kingsguard_armour_default
+					1 = male_clothes_asoiaf_gold_cloak_armour
+					1 = male_clothes_asoiaf_dragonstone_armour_high
+					1 = male_clothes_asoiaf_dragonstone_armour_high_rhllor
+					1 = male_clothes_asoiaf_dragonstone_armour_low
+					1 = male_clothes_secular_asoiaf_lannister_war_plate_2
+					1 = male_clothes_secular_asoiaf_lannister_war_plate_2_sash
+					1 = male_clothes_secular_asoiaf_lannister_war_plate_2_sash_ceremonial
+					1 = male_clothes_asoiaf_hound_armour
+					1 = male_clothes_secular_asoiaf_north_war_chainmail
+					1 = male_clothes_secular_asoiaf_north_war_padding
+					1 = male_clothes_secular_asoiaf_north_war_plate
+					1 = male_clothes_secular_asoiaf_north_war_plate_stark
+					1 = male_clothes_asoiaf_bolton_armour_low
+					1 = male_clothes_asoiaf_tyrell_armour_dynast
+					1 = male_clothes_asoiaf_tyrell_armour_high
+					1 = male_clothes_asoiaf_greyjoy_armour_dynast
+					1 = male_clothes_asoiaf_greyjoy_armour_high
+					1 = male_clothes_asoiaf_ironborn_armour_dynast_coa
+					1 = male_clothes_asoiaf_ironborn_armour_high_coa
+				}
+				female = {
+					1 = female_clothes_asoiaf_gold_cloak_armour
+					1 = female_clothes_asoiaf_dragonstone_armour_high
+					1 = female_clothes_asoiaf_dragonstone_armour_high_rhllor
+					1 = female_clothes_asoiaf_dragonstone_armour_low
+					1 = female_clothes_asoiaf_hound_armour
+					1 = female_clothes_asoiaf_bolton_armour_low
+					1 = female_clothes_asoiaf_greyjoy_armour_dynast
+					1 = female_clothes_asoiaf_greyjoy_armour_high
+					1 = female_clothes_asoiaf_ironborn_armour_dynast_coa
+					1 = female_clothes_asoiaf_ironborn_armour_high_coa
+				}
+				boy = male
+				girl = female
+			}
+
+			asoiaf_unique_clothes = { #AGOT+ Added
+				index = 250
+
+				male = {
+					1 = male_clothes_asoiaf_stormlands_stannis_clothes_1
+					1 = male_clothes_asoiaf_stormlands_overcoat_1_high
+					1 = male_clothes_asoiaf_stormlands_overcoat_1_low
+					1 = male_clothes_asoiaf_stormlands_overcoat_1_coa
+					1 = male_clothes_asoiaf_vale_baelish_tunic_1
+					1 = male_clothes_asoiaf_vale_baelish_tunic_1_sigil
+					1 = male_clothes_asoiaf_stepstones_pirate_prince_tunic
+					1 = male_clothes_asoiaf_westerlands_tywin_tunic_1
+					1 = male_clothes_asoiaf_kingsguard_tunic
+					1 = male_clothes_asoiaf_reach_tunic_1_high
+					1 = male_clothes_asoiaf_reach_tunic_1_low
+					1 = male_clothes_asoiaf_reach_tunic_1_coa
+					1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_sash
+					1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_no_clasps
+					1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_no_clasps_leather
+					1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_mourning
+					1 = male_clothes_asoiaf_crownlands_tunic_1_tommen
+					1 = male_clothes_asoiaf_crownlands_tunic_1_tommen_necklace
+					1 = male_clothes_asoiaf_crownlands_tunic_1_necklace
+					1 = male_clothes_asoiaf_crownlands_tunic_1_high_sash
+					1 = male_clothes_asoiaf_crownlands_tunic_1_high
+					1 = male_clothes_asoiaf_crownlands_tunic_1_low_sash
+					1 = male_clothes_asoiaf_crownlands_tunic_1_low
+					1 = male_clothes_asoiaf_crownlands_tunic_1_coa_sash
+					1 = male_clothes_asoiaf_crownlands_tunic_1_coa
+					1 = male_clothes_asoiaf_blacksmith_apron
+				}
+				female = {
+					1 = female_clothes_asoiaf_westeros_dress_1_high
+					1 = female_clothes_asoiaf_westeros_dress_1_low
+					1 = female_clothes_asoiaf_westeros_dress_1_coa
+					1 = female_clothes_asoiaf_westerlands_mourning_1
+					1 = female_clothes_asoiaf_reach_gown_1
+					1 = female_clothes_asoiaf_handmaiden_dress_1
+					1 = female_clothes_asoiaf_handmaiden_dress_2
+					1 = female_clothes_asoiaf_blacksmith_apron
+				}
+				boy = male
+				girl = female
+			}
+
+			asoiaf_maester_clothes = { #AGOT+ Added
+				index = 251
+
+				male = {
+					1 = male_clothes_asoiaf_maester_robes_black
+					1 = male_clothes_asoiaf_maester_robes_tan
+					1 = male_clothes_asoiaf_maester_robes_brown
+					1 = male_clothes_asoiaf_maester_robes_pale_blue
+					1 = male_clothes_asoiaf_maester_robes_pale_green
+					1 = male_clothes_asoiaf_maester_robes_grey
+				}
+				female = {
+					1 = female_clothes_religious_catholic_devoted_01_common
+				}
+				boy = male
+				girl = female
+			}
+
+			asoiaf_religious_clothes = { #AGOT+ Added
+				index = 252
+
+				male = {
+					1 = male_clothes_asoiaf_septon_robes_1
+					1 = male_clothes_asoiaf_septon_robes_2
+					1 = male_clothes_asoiaf_drowned_man_robes_low
+					1 = male_clothes_asoiaf_drowned_man_robes_high
+				}
+				female = {
+					1 = female_clothes_asoiaf_septa_robes
+					1 = female_clothes_asoiaf_silent_sister_robes
+				}
+				boy = male
+				girl = female
 			}
 			
-			female = {
-				1 = female_clothes_secular_brightboar_swordsman
-			}
-			
-			boy = male
-			girl = female
-		}
-		
-		kingsguard_armor_clothes = {
-			index = 245
+			golden_company_armor = { 
+				index = 253
 
-			male = {
-				1 = male_clothes_secular_western_KG_armor_01
-				1 = male_clothes_secular_western_KG_armorTarg_01
-				1 = male_clothes_secular_western_KG_armor_02
-				1 = male_clothes_secular_western_KG_armorTarg_02
-				1 = male_clothes_secular_western_KG_armor_03
-				1 = male_clothes_secular_western_KG_armorTarg_03
-				1 = male_clothes_secular_western_KG_armor_04
-				1 = male_clothes_secular_western_KG_armorTarg_04
-				1 = male_clothes_secular_western_KG_armor_05
-				1 = male_clothes_secular_western_KG_armorTarg_05
-				1 = male_clothes_secular_western_KG_armor_06
-				1 = male_clothes_secular_western_KG_armorTarg_06
+				male = {
+					1 = male_clothes_platedVest_chains_01
+					1 = male_clothes_captainsArmor_01
+					1 = male_clothes_captainsArmorMetal_01
+					1 = male_clothes_ornateVest_01
+					1 = male_clothes_standardVest_01
+					1 = male_clothes_platedVest_01
+				}
+				female = {
+					1 = f_clothes_sec_northern_war_nob_01_lo
+				}
+				boy = male
+				girl = female
 			}
 
-			female = {
-				1 = female_clothes_secular_western_KG_armor_01
-				1 = female_clothes_secular_western_KG_armorTarg_01
-				1 = female_clothes_secular_western_KG_armor_02
-				1 = female_clothes_secular_western_KG_armorTarg_02
-				1 = female_clothes_secular_western_KG_armor_03
-				1 = female_clothes_secular_western_KG_armorTarg_03
-				1 = female_clothes_secular_western_KG_armor_04
-				1 = female_clothes_secular_western_KG_armorTarg_04
-				1 = female_clothes_secular_western_KG_armor_05
-				1 = female_clothes_secular_western_KG_armorTarg_05
-				1 = female_clothes_secular_western_KG_armor_06
-				1 = female_clothes_secular_western_KG_armorTarg_06	
-			}
-			boy = male
-			girl = female
-		}
+			golden_company_armor_black = { 
+				index = 254
 
-		valyrian_nobility_clothing = {
-			index = 246
-
-			male = {
-				1 = male_clothes_secular_valyrian_nobility_01_high
-				1 = male_clothes_secular_valyrian_robes_01_high
-				1 = male_clothes_secular_valyrian_robes_01_low
-				1 = male_clothes_secular_valyrian_robes_no_gloves_01_high
-				1 = male_clothes_secular_valyrian_robes_no_gloves_01_low
+				male = {
+					1 = male_clothes_captainsArmor_black_01
+					1 = male_clothes_captainsArmorMetal_black_01
+					1 = male_clothes_ornateVest_black_01
+					1 = male_clothes_standardVest_black_01
+					1 = male_clothes_platedVest_black_01
+				}
+				female = {
+					1 = f_clothes_sec_northern_war_nob_01_lo
+				}
+				boy = male
+				girl = female
 			}
 
-			female = {
-				1 = female_clothes_secular_valyrian_dress_01_high
-			}
+			golden_company_armor_blackfyre = { 
+				index = 255
 
-			boy = male
-			girl = female
-		}
-		valyrian_nobility_clothing_generic = {
-			index = 247
-
-			male = {
-				1 = male_clothes_secular_valyrian_nobility_01_generic_high
-				1 = male_clothes_secular_valyrian_robes_01_generic_high
-				1 = male_clothes_secular_valyrian_robes_01_generic_low
-				1 = male_clothes_secular_valyrian_robes_no_gloves_01_generic_high
-				1 = male_clothes_secular_valyrian_robes_no_gloves_01_generic_low
+				male = {
+					1 = male_clothes_captainsArmor_blackfyre_01
+					1 = male_clothes_captainsArmorMetal_blackfyre_01
+					1 = male_clothes_captainsArmor_blackfyreAlt_01
+					1 = male_clothes_captainsArmorMetal_blackfyreAlt_01
+					1 = male_clothes_ornateVest_blackfyre_01
+					1 = male_clothes_ornateVest_blackfyreAlt_01
+					1 = male_clothes_standardVest_blackfyre_01
+					1 = male_clothes_standardVest_blackfyreAlt_01
+					1 = male_clothes_platedVest_blackfyreAlt_01
+					1 = male_clothes_platedVest_blackfyre_01
+				}
+				female = {
+					1 = f_clothes_sec_northern_war_nob_01_lo
+				}
+				boy = male
+				girl = female
 			}
-
-			female = {
-				1 = female_clothes_secular_valyrian_dress_01_generic_high
-			}
-
-			boy = male
-			girl = female
-		}
-
-		asoiaf_north_war_clothes = { #AGOT+ Added
-			index = 248
-
-			male = {
-				1 = male_clothes_secular_asoiaf_north_war_chainmail
-				1 = male_clothes_secular_asoiaf_north_war_padding
-				1 = male_clothes_secular_asoiaf_north_war_plate
-				1 = male_clothes_secular_asoiaf_north_war_plate_stark
-			}
-			female = {
-				1 = f_clothes_sec_northern_war_nob_01_lo
-			}
-			boy = male
-			girl = female
-		}
-
-		asoiaf_all_armours = { #AGOT+ Added
-			index = 249
-
-			male = {
-				1 = male_clothes_asoiaf_nights_watch_leather
-				1 = male_clothes_asoiaf_kingsguard_armour_default
-				1 = male_clothes_asoiaf_gold_cloak_armour
-				1 = male_clothes_asoiaf_dragonstone_armour_high
-				1 = male_clothes_asoiaf_dragonstone_armour_high_rhllor
-				1 = male_clothes_asoiaf_dragonstone_armour_low
-				1 = male_clothes_secular_asoiaf_lannister_war_plate_2
-				1 = male_clothes_secular_asoiaf_lannister_war_plate_2_sash
-				1 = male_clothes_secular_asoiaf_lannister_war_plate_2_sash_ceremonial
-				1 = male_clothes_asoiaf_hound_armour
-				1 = male_clothes_secular_asoiaf_north_war_chainmail
-				1 = male_clothes_secular_asoiaf_north_war_padding
-				1 = male_clothes_secular_asoiaf_north_war_plate
-				1 = male_clothes_secular_asoiaf_north_war_plate_stark
-				1 = male_clothes_asoiaf_bolton_armour_low
-				1 = male_clothes_asoiaf_tyrell_armour_dynast
-				1 = male_clothes_asoiaf_tyrell_armour_high
-				1 = male_clothes_asoiaf_greyjoy_armour_dynast
-				1 = male_clothes_asoiaf_greyjoy_armour_high
-				1 = male_clothes_asoiaf_ironborn_armour_dynast_coa
-				1 = male_clothes_asoiaf_ironborn_armour_high_coa
-			}
-			female = {
-				1 = female_clothes_asoiaf_gold_cloak_armour
-				1 = female_clothes_asoiaf_dragonstone_armour_high
-				1 = female_clothes_asoiaf_dragonstone_armour_high_rhllor
-				1 = female_clothes_asoiaf_dragonstone_armour_low
-				1 = female_clothes_asoiaf_hound_armour
-				1 = female_clothes_asoiaf_bolton_armour_low
-				1 = female_clothes_asoiaf_greyjoy_armour_dynast
-				1 = female_clothes_asoiaf_greyjoy_armour_high
-				1 = female_clothes_asoiaf_ironborn_armour_dynast_coa
-				1 = female_clothes_asoiaf_ironborn_armour_high_coa
-			}
-			boy = male
-			girl = female
-		}
-
-		asoiaf_unique_clothes = { #AGOT+ Added
-			index = 250
-
-			male = {
-				1 = male_clothes_asoiaf_stormlands_stannis_clothes_1
-				1 = male_clothes_asoiaf_stormlands_overcoat_1_high
-				1 = male_clothes_asoiaf_stormlands_overcoat_1_low
-				1 = male_clothes_asoiaf_stormlands_overcoat_1_coa
-				1 = male_clothes_asoiaf_vale_baelish_tunic_1
-				1 = male_clothes_asoiaf_vale_baelish_tunic_1_sigil
-				1 = male_clothes_asoiaf_stepstones_pirate_prince_tunic
-				1 = male_clothes_asoiaf_westerlands_tywin_tunic_1
-				1 = male_clothes_asoiaf_kingsguard_tunic
-				1 = male_clothes_asoiaf_reach_tunic_1_high
-				1 = male_clothes_asoiaf_reach_tunic_1_low
-				1 = male_clothes_asoiaf_reach_tunic_1_coa
-				1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_sash
-				1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_no_clasps
-				1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_no_clasps_leather
-				1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_mourning
-				1 = male_clothes_asoiaf_crownlands_tunic_1_tommen
-				1 = male_clothes_asoiaf_crownlands_tunic_1_tommen_necklace
-				1 = male_clothes_asoiaf_crownlands_tunic_1_necklace
-				1 = male_clothes_asoiaf_crownlands_tunic_1_high_sash
-				1 = male_clothes_asoiaf_crownlands_tunic_1_high
-				1 = male_clothes_asoiaf_crownlands_tunic_1_low_sash
-				1 = male_clothes_asoiaf_crownlands_tunic_1_low
-				1 = male_clothes_asoiaf_crownlands_tunic_1_coa_sash
-				1 = male_clothes_asoiaf_crownlands_tunic_1_coa
-				1 = male_clothes_asoiaf_blacksmith_apron
-			}
-			female = {
-				1 = female_clothes_asoiaf_westeros_dress_1_high
-				1 = female_clothes_asoiaf_westeros_dress_1_low
-				1 = female_clothes_asoiaf_westeros_dress_1_coa
-				1 = female_clothes_asoiaf_westerlands_mourning_1
-				1 = female_clothes_asoiaf_reach_gown_1
-				1 = female_clothes_asoiaf_handmaiden_dress_1
-				1 = female_clothes_asoiaf_handmaiden_dress_2
-				1 = female_clothes_asoiaf_blacksmith_apron
-			}
-			boy = male
-			girl = female
-		}
-
-		asoiaf_maester_clothes = { #AGOT+ Added
-			index = 251
-
-			male = {
-				1 = male_clothes_asoiaf_maester_robes_black
-				1 = male_clothes_asoiaf_maester_robes_tan
-				1 = male_clothes_asoiaf_maester_robes_brown
-				1 = male_clothes_asoiaf_maester_robes_pale_blue
-				1 = male_clothes_asoiaf_maester_robes_pale_green
-				1 = male_clothes_asoiaf_maester_robes_grey
-			}
-			female = {
-				1 = female_clothes_religious_catholic_devoted_01_common
-			}
-			boy = male
-			girl = female
-		}
-
-		asoiaf_religious_clothes = { #AGOT+ Added
-			index = 252
-
-			male = {
-				1 = male_clothes_asoiaf_septon_robes_1
-				1 = male_clothes_asoiaf_septon_robes_2
-				1 = male_clothes_asoiaf_drowned_man_robes_low
-				1 = male_clothes_asoiaf_drowned_man_robes_high
-			}
-			female = {
-				1 = female_clothes_asoiaf_septa_robes
-				1 = female_clothes_asoiaf_silent_sister_robes
-			}
-			boy = male
-			girl = female
-		}
-		
-		golden_company_armor = { 
-			index = 253
-
-			male = {
-				1 = male_clothes_platedVest_chains_01
-				1 = male_clothes_captainsArmor_01
-				1 = male_clothes_captainsArmorMetal_01
-				1 = male_clothes_ornateVest_01
-				1 = male_clothes_standardVest_01
-				1 = male_clothes_platedVest_01
-			}
-			female = {
-				1 = f_clothes_sec_northern_war_nob_01_lo
-			}
-			boy = male
-			girl = female
-		}
-
-		golden_company_armor_black = { 
-			index = 254
-
-			male = {
-				1 = male_clothes_captainsArmor_black_01
-				1 = male_clothes_captainsArmorMetal_black_01
-				1 = male_clothes_ornateVest_black_01
-				1 = male_clothes_standardVest_black_01
-				1 = male_clothes_platedVest_black_01
-			}
-			female = {
-				1 = f_clothes_sec_northern_war_nob_01_lo
-			}
-			boy = male
-			girl = female
-		}
-
-		golden_company_armor_blackfyre = { 
-			index = 255
-
-			male = {
-				1 = male_clothes_captainsArmor_blackfyre_01
-				1 = male_clothes_captainsArmorMetal_blackfyre_01
-				1 = male_clothes_captainsArmor_blackfyreAlt_01
-				1 = male_clothes_captainsArmorMetal_blackfyreAlt_01
-				1 = male_clothes_ornateVest_blackfyre_01
-				1 = male_clothes_ornateVest_blackfyreAlt_01
-				1 = male_clothes_standardVest_blackfyre_01
-				1 = male_clothes_standardVest_blackfyreAlt_01
-				1 = male_clothes_platedVest_blackfyreAlt_01
-				1 = male_clothes_platedVest_blackfyre_01
-			}
-			female = {
-				1 = f_clothes_sec_northern_war_nob_01_lo
-			}
-			boy = male
-			girl = female
 		}
 	}	
  }
