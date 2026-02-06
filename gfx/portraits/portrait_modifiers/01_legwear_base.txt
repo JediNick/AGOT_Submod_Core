@@ -775,8 +775,8 @@
 				is_aotk_loaded_trigger = yes
 				has_game_rule = show_armor_enabled
 				has_trait = kingsguard
-				exists = title:e_the_iron_throne.holder
-				title:e_the_iron_throne.holder = {
+				exists = title:h_the_iron_throne.holder
+				title:h_the_iron_throne.holder = {
 						primary_title = { 
 							has_variable = kingsguard 
 							AND = {
@@ -814,8 +814,8 @@
 				is_aotk_loaded_trigger = yes
 				has_game_rule = show_armor_enabled
 				has_trait = kingsguard
-				exists = title:e_the_iron_throne.holder
-				title:e_the_iron_throne.holder = {
+				exists = title:h_the_iron_throne.holder
+				title:h_the_iron_throne.holder = {
 						primary_title = { 
 							has_variable = kingsguard 
 							AND = {

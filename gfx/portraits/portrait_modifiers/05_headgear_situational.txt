@@ -3061,8 +3061,8 @@
 				has_trait = kingsguard
 				#portrait_wear_armor_trigger = yes
 				has_game_rule = show_armor_enabled
-				exists = title:e_the_iron_throne.holder
-				title:e_the_iron_throne.holder = {
+				exists = title:h_the_iron_throne.holder
+				title:h_the_iron_throne.holder = {
 					primary_title = { 
 						has_variable = kingsguard 
 						OR = {
@@ -3108,8 +3108,8 @@
 				has_trait = kingsguard
 				#portrait_wear_armor_trigger = yes
 				has_game_rule = show_armor_enabled
-				exists = title:e_the_iron_throne.holder
-				title:e_the_iron_throne.holder = {
+				exists = title:h_the_iron_throne.holder
+				title:h_the_iron_throne.holder = {
 					primary_title = { 
 						has_variable = kingsguard 
 						AND = {
@@ -3156,8 +3156,8 @@
 				has_trait = kingsguard
 				#portrait_wear_armor_trigger = yes
 				has_game_rule = show_armor_enabled
-				exists = title:e_the_iron_throne.holder
-				title:e_the_iron_throne.holder = {
+				exists = title:h_the_iron_throne.holder
+				title:h_the_iron_throne.holder = {
 					primary_title = { 
 						has_variable = kingsguard 
 						AND = {
@@ -3200,8 +3200,8 @@
 				has_trait = kingsguard
 				#portrait_wear_armor_trigger = yes
 				has_game_rule = show_armor_enabled
-				exists = title:e_the_iron_throne.holder
-				title:e_the_iron_throne.holder = {
+				exists = title:h_the_iron_throne.holder
+				title:h_the_iron_throne.holder = {
 					primary_title = { 
 						has_variable = kingsguard 
 						AND = {
@@ -3244,8 +3244,8 @@
 				has_trait = kingsguard
 				#portrait_wear_armor_trigger = yes
 				has_game_rule = show_armor_enabled
-				exists = title:e_the_iron_throne.holder
-				title:e_the_iron_throne.holder = {
+				exists = title:h_the_iron_throne.holder
+				title:h_the_iron_throne.holder = {
 					primary_title = { 
 						has_variable = kingsguard 
 						AND = {
@@ -3289,8 +3289,8 @@
 				has_trait = kingsguard
 				#portrait_wear_armor_trigger = yes
 				has_game_rule = show_armor_enabled
-				exists = title:e_the_iron_throne.holder
-				title:e_the_iron_throne.holder = {
+				exists = title:h_the_iron_throne.holder
+				title:h_the_iron_throne.holder = {
 					primary_title = { 
 						has_variable = kingsguard 
 						AND = {
@@ -6732,7 +6732,7 @@
 					has_game_rule = hotd_visuals
 					has_game_rule = crown_only_visuals 
 				}
-				#primary_title = title:e_the_iron_throne
+				#primary_title = title:h_the_iron_throne
 				OR = {
 					AND = {
 						exists = character:Targaryen_27

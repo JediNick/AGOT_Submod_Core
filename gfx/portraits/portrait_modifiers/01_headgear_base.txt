@@ -8854,7 +8854,7 @@ fp3_turkic_high_nobles = {
 				is_crowns_westeros_loaded_trigger = yes
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_cersei_ruler_artifact }}
-				primary_title = title:e_the_iron_throne
+				primary_title = title:h_the_iron_throne
 				is_character_lannister_6 = yes # Cersei Lannister
 				AND = {
 					exists = character:Lannister_6
