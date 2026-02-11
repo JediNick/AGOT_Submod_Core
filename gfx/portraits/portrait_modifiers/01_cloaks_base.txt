@@ -1398,7 +1398,7 @@ cloaks = {
 						CULTURE_INPUT = the_north
 					}
 				}
-				is_character_stark_66 = yes
+				has_inactive_trait = is_Stark_66
 			}
 		}
 	}
@@ -1425,7 +1425,7 @@ cloaks = {
 						CULTURE_INPUT = the_north
 					}
 				}
-				is_character_stark_3 = yes
+				has_inactive_trait = is_Stark_3
 			}
 		}
 	}
@@ -1452,7 +1452,7 @@ cloaks = {
 						CULTURE_INPUT = the_north
 					}
 				}
-				is_character_stark_3 = yes
+				has_inactive_trait = is_Stark_3
 			}
 		}
 	}

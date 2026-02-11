@@ -741,7 +741,7 @@ idle = {
 					has_realm_law = camp_purpose_explorers
 					portrait_sickness_trigger = no
 					#AGOT Added, Blame Vierwood
-					NOT = { is_character_tall_1 = yes }
+					NOT = { has_character_flag = is_Tall_1 }
 				}
 			}
 		}

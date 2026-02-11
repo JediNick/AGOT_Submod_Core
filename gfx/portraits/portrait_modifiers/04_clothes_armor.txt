@@ -3013,7 +3013,7 @@
 			modifier = {
 				add = agot_artifact_portrait_modifier
 				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = maelys_armor_artifact }
-				is_character_blackfyre_14 = yes
+				has_character_flag = is_Blackfyre_14
 			}
 		}
 	}
@@ -3046,10 +3046,7 @@
 				add = agot_artifact_portrait_modifier
 				portrait_wear_armor_trigger = yes
 				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = maelys_armor_artifact }
-				OR = {
-					NOT = { exists = character:Blackfyre_14 }
-					is_character_blackfyre_14 = no
-				}
+				NOT = { has_character_flag = is_Blackfyre_14 }
 			}
 		}
 	}
@@ -3686,12 +3683,12 @@
 				OR = {
 					AND = {
 						exists = this
-						is_character_lannister_1 = yes
+						has_character_flag = is_Lannister_1
 						portrait_wear_armor_trigger = yes
 					}
 					AND = {
 						exists = this
-						is_character_lannister_120 = yes
+						has_character_flag = is_Lannister_120
 						portrait_wear_armor_trigger = yes
 					}
 					AND = {
@@ -3734,7 +3731,7 @@
 				OR = {
 					AND = {
 						exists = this
-						is_character_lannister_7 = yes
+						has_character_flag = is_Lannister_7
 						portrait_wear_armor_trigger = yes
 					}
 				}

@@ -540,7 +540,7 @@ scarred = {
 		trigger = {
 			scarred_trait_activation_1 = yes
 			#AGOT Added
-			is_character_baelish_2 = no
+			NOT = { has_inactive_trait = body_scarred }
 		}
 		traits = {
 			scarred
@@ -2505,7 +2505,7 @@ blind = {
 				NOT = {
 					OR = {
 						#AGOT Added
-						is_character_targaryen_96 = yes # Bloodraven
+						has_inactive_trait = is_Targaryen_96
 						agot_has_any_eye_gem_trigger = yes
 					}
 				}

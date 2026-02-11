@@ -4917,7 +4917,7 @@ fp3_turkic_high_nobles = {
 			base = 0
 			modifier = {
 				add = 800
-				is_character_targaryen_hh_10 = yes
+				has_inactive_trait = is_Targaryen_hh_10
 			}
 		}
 	}
@@ -4940,7 +4940,7 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 275
 				agot_default_wear_crown_trigger = yes
-				is_character_baratheon_4 = yes # Renly Baratheon
+				has_inactive_trait = is_Baratheon_4 # Renly Baratheon
 				OR = {
 					AND = {
 						exists = character:Tyrell_13
@@ -4969,7 +4969,7 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 275
 				agot_default_wear_crown_trigger = yes
-				is_character_baratheon_3 = yes
+				has_inactive_trait = is_Baratheon_3
 				has_religion = religion:the_rhllor_religion
 			}
 		}
@@ -5688,7 +5688,7 @@ fp3_turkic_high_nobles = {
 				add = 275
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_rhaella_artifact } }
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_2 = yes
+				has_inactive_trait = is_Targaryen_2
 			}
 		}
 	}
@@ -5708,7 +5708,7 @@ fp3_turkic_high_nobles = {
 				add = 275
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_alysanne_artifact } }
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_36 = yes
+				has_inactive_trait = is_Targaryen_36
 			}
 		}
 	}
@@ -5728,7 +5728,7 @@ fp3_turkic_high_nobles = {
 				add = 275
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_visenya_artifact } }
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_28 = yes
+				has_inactive_trait = is_Targaryen_28
 			}
 		}
 	}
@@ -5748,7 +5748,7 @@ fp3_turkic_high_nobles = {
 				add = 275
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = circlet_rhaenys_artifact } }
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_29 = yes
+				has_inactive_trait = is_Targaryen_29
 			}
 		}
 	}
@@ -5767,7 +5767,7 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 275
 				agot_default_wear_crown_trigger = yes
-				is_character_targaryen_61 = yes
+				has_inactive_trait = is_Targaryen_61
 				has_title = title:k_the_stepstones
 			}
 		}
@@ -5788,7 +5788,7 @@ fp3_turkic_high_nobles = {
 				add = 265
 				agot_default_wear_crown_trigger = yes
 				primary_spouse ?= {
-					is_character_targaryen_61 = yes
+					has_inactive_trait = is_Targaryen_61
 					has_title = title:k_the_stepstones
 				}
 			}
@@ -5810,13 +5810,13 @@ fp3_turkic_high_nobles = {
 				add = 270
 				agot_default_wear_crown_trigger = yes
 				OR = {
-					is_character_greyjoy_5 = yes
-					is_character_greyjoy_6 = yes
+					has_inactive_trait = is_Greyjoy_5
+					has_inactive_trait = is_Greyjoy_6
 				}
-					primary_title = title:e_the_iron_islands
-				}
+				primary_title = title:e_the_iron_islands
 			}
 		}
+	}
 
 	agot_headgear_valyrian_crown2 = {
 		dna_modifiers = {
@@ -5876,16 +5876,16 @@ fp3_turkic_high_nobles = {
 				}
 				OR = {
 					dynasty ?= dynasty:dynn_Essos
-					is_character_targaryen_11 = yes
+					has_inactive_trait = is_Targaryen_11
 					AND = {
-						is_character_stark_7 = yes
+						has_inactive_trait = is_Stark_7
 						dynasty ?= dynasty:dynn_Targaryen
 						NOT = {
 							culture = culture:northman
 						}
 					}
 					AND = {
-						is_character_stark_7 = yes
+						has_inactive_trait = is_Stark_7
 						dynasty ?= dynasty:dynn_Targaryen
 						NOT = {
 							religion = religion:the_pact_religion
@@ -6052,7 +6052,7 @@ fp3_turkic_high_nobles = {
 			modifier = {
 				add = 290
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_nights_king_artifact } }
-				is_character_stark_13 = yes
+				has_inactive_trait = is_Stark_13
 			}
 		}
 	}
@@ -6093,7 +6093,7 @@ fp3_turkic_high_nobles = {
 				agot_default_wear_crown_trigger = yes
 				culture = { has_cultural_pillar = heritage_first_man }
 				religion = religion:the_pact_religion
-				NOT = { 
+				NOT = {
 					portrait_wildling_clothing_trigger = yes
 				}
 			}
@@ -6115,7 +6115,7 @@ fp3_turkic_high_nobles = {
 				add = 275
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_jeyne_westerling_artifact } }
 				agot_default_wear_crown_trigger = yes
-				is_character_westerling_2 = yes
+				has_inactive_trait = is_Westerling_2
 				primary_spouse ?= {
 					house ?= dynasty:dynn_Stark.dynasty_founder.house
 				}
