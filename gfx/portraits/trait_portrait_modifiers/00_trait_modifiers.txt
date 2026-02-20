@@ -1423,7 +1423,7 @@ disfigured = {
 						portrait_fp3_iranian_clothing_trigger = yes
 						portrait_fp3_turkic_clothing_trigger = yes
 						#AGOT Added
-						is_character_blackfyre_14 = yes
+						has_inactive_trait = is_Blackfyre_14
 						##SMC added
 						has_character_flag = wears_valyrian_mask_01
 						has_character_flag = wears_valyrian_mask_02 
@@ -2100,6 +2100,602 @@ disfigured = {
 		}
 	}
 
+	disfigured_replace_disturbing = {
+		base = disfigured
+		traits = {
+			leper
+			scaly
+		}
+		trigger = {
+			should_show_disturbing_portrait_modifiers = no
+		}
+	}
+}
+
+blind = {
+	#AGOT Added
+	aged = {
+		traits = {
+			aged
+		}
+		dna_modifiers = {
+			human = {
+				accessory = {
+					mode = replace
+					gene = eye_accessory
+					template = blind_eyes
+					value = 0.5
+				}
+			}
+		}
+	}
+	blind = {
+		traits = {
+			blind
+		}
+		#AGOT Added
+		trigger = {
+			exists = root
+			agot_blind = yes
+		}
+		dna_modifiers = {
+			human = {
+				accessory = {
+					mode = add
+					gene = special_headgear_spectacles
+					template = blindfold
+					value = 0.5
+				}
+			}
+		}
+	}
+	temporarily_blind = {
+		base = blind
+		trigger = {
+			exists = root
+			has_character_flag = temporarily_blinded
+		}
+	}
+	one_eyed = {
+		traits = {
+			one_eyed
+		}
+		#AGOT Added
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				NOR = {
+					agot_has_any_eye_gem_trigger = yes
+					agot_has_any_eye_patch_trigger = yes
+					has_character_flag = no_eyepatch
+					has_inactive_trait = no_eyepatch
+				}
+			}
+		}
+
+		dna_modifiers = {
+			human = {
+				#AGOT Modified
+				# accessory = {
+				# 	mode = add
+				# 	gene = special_headgear_spectacles
+				# 	template = eye_patch
+				# 	value = 0.5
+				# }
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = special_headgear_spectacles
+					template = eye_bandage
+					value = 1.0
+				}
+			}
+		}
+	}
+	temporarily_one_eyed = {
+		base = one_eyed
+		trigger = {
+			exists = root
+			has_character_flag = wears_fake_eye_patch
+		}
+	}
+
+	#AGOT Added RED
+	one_eyed_red = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = eye_gem_red
+					has_inactive_trait = eye_gem_red
+				}
+				agot_has_any_eye_patch_trigger = no
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_red
+					value = 1.0
+				}
+			}
+		}
+	}
+	one_eyed_dark_blue = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = eye_gem_dark_blue
+					has_inactive_trait = eye_gem_dark_blue
+				}
+				agot_has_any_eye_patch_trigger = no
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_blue
+					value = 1.0
+				}
+			}
+		}
+	}
+	one_eyed_green = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = eye_gem_green
+					has_inactive_trait = eye_gem_green
+				}
+				agot_has_any_eye_patch_trigger = no
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_green
+					value = 1.0
+				}
+			}
+		}
+	}
+	one_eyed_white = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = eye_gem_white
+					has_inactive_trait = eye_gem_white
+				}
+				agot_has_any_eye_patch_trigger = no
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_white
+					value = 1.0
+				}
+			}
+		}
+	}
+	one_eyed_black = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = eye_gem_black
+					has_inactive_trait = eye_gem_black
+				}
+				agot_has_any_eye_patch_trigger = no
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_black
+					value = 1.0
+				}
+			}
+		}
+	}
+	one_eyed_purple = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = eye_gem_purple
+					has_inactive_trait = eye_gem_purple
+				}
+				agot_has_any_eye_patch_trigger = no
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_purple
+					value = 1.0
+				}
+			}
+		}
+	}
+	one_eyed_orange = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = eye_gem_orange
+					has_inactive_trait = eye_gem_orange
+				}
+				agot_has_any_eye_patch_trigger = no
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_orange
+					value = 1.0
+				}
+			}
+		}
+	}
+	one_eyed_blue = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = eye_gem_blue
+					has_inactive_trait = eye_gem_blue
+				}
+				agot_has_any_eye_patch_trigger = no
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_light_blue
+					value = 1.0
+				}
+			}
+		}
+	}
+	one_eyed_yellow = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = eye_gem_yellow
+					has_inactive_trait = eye_gem_yellow
+				}
+				agot_has_any_eye_patch_trigger = no
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = eye_accessory_gem
+					template = one_eyed_gem_yellow
+					value = 1.0
+				}
+			}
+		}
+	}
+	beric_eyepatch = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = beric_eyepatch
+					has_inactive_trait = beric_eyepatch
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = special_headgear_spectacles
+					template = beric_eyepatch
+					value = 1.0
+				}
+			}
+		}
+	}
+	decorated_eyepatch = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = decorated_eyepatch
+					has_inactive_trait = decorated_eyepatch
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = special_headgear_spectacles
+					template = decorated_eyepatch
+					value = 1.0
+				}
+			}
+		}
+	}
+	standard_eyepatch = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = standard_eyepatch
+					has_inactive_trait = standard_eyepatch
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = special_headgear_spectacles
+					template = eye_patch
+					value = 0.5
+				}
+			}
+		}
+	}
+	round_eyepatch = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = round_eyepatch
+					has_inactive_trait = round_eyepatch
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = special_headgear_spectacles
+					template = round_eyepatch
+					value = 1.0
+				}
+			}
+		}
+	}
+	eye_bandage_clean = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = eye_bandage_clean
+					has_inactive_trait = eye_bandage_clean
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = special_headgear_spectacles
+					template = eye_bandage_clean
+					value = 1.0
+				}
+			}
+		}
+	}
+	triangle_eyepatch = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				OR = {
+					has_character_flag = triangle_eyepatch
+					has_inactive_trait = triangle_eyepatch
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = special_headgear_spectacles
+					template = triangle_eyepatch
+					value = 1.0
+				}
+			}
+		}
+	}
+	empty_socket = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				agot_has_any_eye_gem_trigger = no
+				OR = {
+					has_character_flag = no_eyepatch
+					has_inactive_trait = no_eyepatch
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_scars_eye
+					value = 1.0
+					template = scars_eye
+				}
+				accessory = {
+					mode = add
+					gene = heterochromia_eye
+					template = heterochromia_eye_bloodraven
+					accessory = heterochromia_bloodraven
+				}
+			}
+		}
+	}
 
 	##SUBMOD CORE ADDED
 	disfigured_valyrian_viserys = {
@@ -2436,372 +3032,6 @@ disfigured = {
 	 }
   }
 
-
-	
-	disfigured_replace_disturbing = {
-		base = disfigured
-		traits = {
-			leper
-			scaly
-		}
-		trigger = {
-			should_show_disturbing_portrait_modifiers = no
-		}
-	}
-}
-
-blind = {
-	#AGOT Added
-	aged = {
-		traits = {
-			aged
-		}
-		dna_modifiers = {
-			human = {
-				accessory = {
-					mode = replace
-					gene = eye_accessory
-					template = blind_eyes
-					value = 0.5
-				}
-			}
-		}
-	}
-	blind = {
-		traits = {
-			blind
-		}
-		#AGOT Added
-		trigger = {
-			exists = root
-			agot_blind = yes
-		}
-		dna_modifiers = {
-			human = {
-				accessory = {
-					mode = add
-					gene = special_headgear_spectacles
-					template = blindfold
-					value = 0.5
-				}
-			}
-		}
-	}
-	temporarily_blind = {
-		base = blind
-		trigger = {
-			exists = root
-			has_character_flag = temporarily_blinded
-		}
-	}
-	one_eyed = {
-		traits = {
-			one_eyed
-		}
-		#AGOT Added
-		trigger = {
-			trigger_if = {
-				limit = { exists = root }
-				NOT = {
-					OR = {
-						#AGOT Added
-						has_inactive_trait = is_Targaryen_96
-						agot_has_any_eye_gem_trigger = yes
-					}
-				}
-			}
-		}
-		dna_modifiers = {
-			human = {
-				accessory = {
-					mode = add
-					gene = special_headgear_spectacles
-					template = eye_patch
-					value = 0.5
-				}
-			}
-		}
-	}
-
-	#AGOT Added
-	one_eyed_red = {
-		traits = {
-			one_eyed
-		}
-		trigger = {
-			trigger_if = {
-				limit = { exists = root }
-				OR = {
-					has_character_flag = eye_gem_red
-					has_inactive_trait = eye_gem_red
-				}
-			}
-		}
-		dna_modifiers = {
-			human = {
-				morph = {
-					mode = add
-					gene = gene_scars_eye
-					value = 1.0
-					template = scars_eye
-				}
-				accessory = {
-					mode = add
-					gene = eye_accessory_gem
-					template = one_eyed_gem_red
-					value = 1.0
-				}
-			}
-		}
-	}
-	one_eyed_dark_blue = {
-		traits = {
-			one_eyed
-		}
-		trigger = {
-			trigger_if = {
-				limit = { exists = root }
-				OR = {
-					has_character_flag = eye_gem_dark_blue
-					has_inactive_trait = eye_gem_dark_blue
-				}
-			}
-		}
-		dna_modifiers = {
-			human = {
-				morph = {
-					mode = add
-					gene = gene_scars_eye
-					value = 1.0
-					template = scars_eye
-				}
-				accessory = {
-					mode = add
-					gene = eye_accessory_gem
-					template = one_eyed_gem_blue
-					value = 1.0
-				}
-			}
-		}
-	}
-	one_eyed_green = {
-		traits = {
-			one_eyed
-		}
-		trigger = {
-			trigger_if = {
-				limit = { exists = root }
-				OR = {
-					has_character_flag = eye_gem_green
-					has_inactive_trait = eye_gem_green
-				}
-			}
-		}
-		dna_modifiers = {
-			human = {
-				morph = {
-					mode = add
-					gene = gene_scars_eye
-					value = 1.0
-					template = scars_eye
-				}
-				accessory = {
-					mode = add
-					gene = eye_accessory_gem
-					template = one_eyed_gem_green
-					value = 1.0
-				}
-			}
-		}
-	}
-	one_eyed_white = {
-		traits = {
-			one_eyed
-		}
-		trigger = {
-			trigger_if = {
-				limit = { exists = root }
-				OR = {
-					has_character_flag = eye_gem_white
-					has_inactive_trait = eye_gem_white
-				}
-			}
-		}
-		dna_modifiers = {
-			human = {
-				morph = {
-					mode = add
-					gene = gene_scars_eye
-					value = 1.0
-					template = scars_eye
-				}
-				accessory = {
-					mode = add
-					gene = eye_accessory_gem
-					template = one_eyed_gem_white
-					value = 1.0
-				}
-			}
-		}
-	}
-	one_eyed_black = {
-		traits = {
-			one_eyed
-		}
-		trigger = {
-			trigger_if = {
-				limit = { exists = root }
-				OR = {
-					has_character_flag = eye_gem_black
-					has_inactive_trait = eye_gem_black
-				}
-			}
-		}
-		dna_modifiers = {
-			human = {
-				morph = {
-					mode = add
-					gene = gene_scars_eye
-					value = 1.0
-					template = scars_eye
-				}
-				accessory = {
-					mode = add
-					gene = eye_accessory_gem
-					template = one_eyed_gem_black
-					value = 1.0
-				}
-			}
-		}
-	}
-	one_eyed_purple = {
-		traits = {
-			one_eyed
-		}
-		trigger = {
-			trigger_if = {
-				limit = { exists = root }
-				OR = {
-					has_character_flag = eye_gem_purple
-					has_inactive_trait = eye_gem_purple
-				}
-			}
-		}
-		dna_modifiers = {
-			human = {
-				morph = {
-					mode = add
-					gene = gene_scars_eye
-					value = 1.0
-					template = scars_eye
-				}
-				accessory = {
-					mode = add
-					gene = eye_accessory_gem
-					template = one_eyed_gem_purple
-					value = 1.0
-				}
-			}
-		}
-	}
-	one_eyed_orange = {
-		traits = {
-			one_eyed
-		}
-		trigger = {
-			trigger_if = {
-				limit = { exists = root }
-				OR = {
-					has_character_flag = eye_gem_orange
-					has_inactive_trait = eye_gem_orange
-				}
-			}
-		}
-		dna_modifiers = {
-			human = {
-				morph = {
-					mode = add
-					gene = gene_scars_eye
-					value = 1.0
-					template = scars_eye
-				}
-				accessory = {
-					mode = add
-					gene = eye_accessory_gem
-					template = one_eyed_gem_orange
-					value = 1.0
-				}
-			}
-		}
-	}
-	one_eyed_blue = {
-		traits = {
-			one_eyed
-		}
-		trigger = {
-			trigger_if = {
-				limit = { exists = root }
-				OR = {
-					has_character_flag = eye_gem_blue
-					has_inactive_trait = eye_gem_blue
-				}
-			}
-		}
-		dna_modifiers = {
-			human = {
-				morph = {
-					mode = add
-					gene = gene_scars_eye
-					value = 1.0
-					template = scars_eye
-				}
-				accessory = {
-					mode = add
-					gene = eye_accessory_gem
-					template = one_eyed_gem_light_blue
-					value = 1.0
-				}
-			}
-		}
-	}
-	one_eyed_yellow = {
-		traits = {
-			one_eyed
-		}
-		trigger = {
-			trigger_if = {
-				limit = { exists = root }
-				OR = {
-					has_character_flag = eye_gem_yellow
-					has_inactive_trait = eye_gem_yellow
-				}
-			}
-		}
-		dna_modifiers = {
-			human = {
-				morph = {
-					mode = add
-					gene = gene_scars_eye
-					value = 1.0
-					template = scars_eye
-				}
-				accessory = {
-					mode = add
-					gene = eye_accessory_gem
-					template = one_eyed_gem_yellow
-					value = 1.0
-				}
-			}
-		}
-	}
-	temporarily_one_eyed = {
-		base = one_eyed
-		trigger = {
-			exists = root
-			has_character_flag = wears_fake_eye_patch
-		}
-	}
-}
 
 spindly = {
 	spindly = {

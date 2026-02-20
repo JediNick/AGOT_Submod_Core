@@ -3883,7 +3883,7 @@ special_genes = {
 					1 = male_clothes_stormland_undercoat_02 #16
 					1 = male_clothes_stormland_undercoat_04 #17
 					1 = male_essosi_spider_01 #18
-					1 = male_essosi_spider_01 #19 #Filler
+					1 = male_pirate_nocorset #19
 					1 = tyroshi_scoundrel_01 #20
 					1 = tyroshi_scoundrel_02 #21
 					1 = tyroshi_scoundrel_03 #22
@@ -4223,6 +4223,7 @@ special_genes = {
 				male = {
 					1 = male_clothes_secular_free_cities_doublet_03
 					1 = male_clothes_secular_free_cities_doublet_04
+					1 = male_pirate_nocorset
 				}
 				female = {
 					1 = female_clothes_secular_free_cities_doublet_03
@@ -4913,6 +4914,8 @@ special_genes = {
 				index = 250
 
 				male = {
+					1 = male_clothes_asoiaf_bolton_tunic
+					1 = male_clothes_asoiaf_bolton_tunic_roose
 					1 = male_clothes_asoiaf_stormlands_stannis_clothes_1
 					1 = male_clothes_asoiaf_stormlands_overcoat_1_high
 					1 = male_clothes_asoiaf_stormlands_overcoat_1_low

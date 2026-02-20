@@ -3117,6 +3117,44 @@
 		}
 	}
 
+	agot_clothing_bittersteel_armor = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = agot_all_armors
+				accessory = male_clothes_north_war_ned_coa_01
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = agot_all_legwear
+				accessory = male_legwear_secular_north_stark_war_03
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 0.8
+				template = body_shape_average_clothed
+			}
+
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = agot_character_portrait_modifier
+				has_character_flag = is_Targaryen_95
+			}
+		}
+	}
+
 	agot_clothing_northern_ned_armor = {
 		dna_modifiers = {
 			accessory = {

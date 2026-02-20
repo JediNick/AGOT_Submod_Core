@@ -1036,6 +1036,11 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     portrait_era4_trigger = yes  
                 }     
             }
+			#AGOT Modified, Royal Roukhon
+			modifier = {
+				factor = 0
+				is_male = yes
+			}
         }
     }
 
@@ -4351,14 +4356,14 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
                 court_fashion_level_5_trigger = {
                     CULTURE_INPUT = essosi_valyrian
                 }
-                has_government = pirate_government
+				government_has_flag = government_is_pirate_trigger_check
             }
             modifier = {
                 add = 50
                 portrait_high_nobles_clothing_trigger = {
                     CULTURE_INPUT = essosi_valyrian
                 }
-                has_government = pirate_government
+				government_has_flag = government_is_pirate_trigger_check
             }
         }
     }
@@ -5582,4 +5587,198 @@ agot_northern_high_nobles = {
 			}
         }
     }
+
+	#Bolton tunics
+    asoiaf_bolton_tunic_roose = { #ROOSE VERSION
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_bolton_tunic_roose
+            }
+			accessory = {
+				mode = add
+				gene = legwear
+				template = asoiaf_all_legwears
+				accessory = male_legwear_asoiaf_nights_watch_legs
+            }
+			morph = { #so that the neck doesn't clip through the collar
+                mode = replace
+                gene = gene_neck_width
+                value = 0.35
+                template = neck_width_neg
+            }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 25
+                OR = {
+                    portrait_imperial_trigger = {
+                        CULTURE_INPUT = the_north
+                    }
+                    portrait_imperial_trigger = {
+                        CULTURE_INPUT = western
+                    }
+                    portrait_imperial_trigger = {
+                        CULTURE_INPUT = ironborn
+                    }
+                }
+				dynasty = dynasty:dynn_Bolton
+			}
+            modifier = {
+				add = 25
+                OR = {
+                    portrait_royalty_trigger = {
+                        CULTURE_INPUT = the_north
+                    }
+                    portrait_royalty_trigger = {
+                        CULTURE_INPUT = western
+                    }
+                    portrait_royalty_trigger = {
+                        CULTURE_INPUT = ironborn
+                    }
+                }
+				dynasty = dynasty:dynn_Bolton
+			}
+            modifier = {
+				add = 25
+                OR = {
+                    portrait_high_nobles_clothing_trigger = {
+                        CULTURE_INPUT = the_north
+                    }
+                    portrait_high_nobles_clothing_trigger = {
+                        CULTURE_INPUT = western
+                    }
+                    portrait_high_nobles_clothing_trigger = {
+                        CULTURE_INPUT = ironborn
+                    }
+                }
+				dynasty = dynasty:dynn_Bolton
+			}
+			modifier = {
+				add = 25
+                OR = {
+                    portrait_low_nobles_clothing_trigger = {
+                        CULTURE_INPUT = the_north
+                    }
+                    portrait_low_nobles_clothing_trigger = {
+                        CULTURE_INPUT = western
+                    }
+                    portrait_low_nobles_clothing_trigger = {
+                        CULTURE_INPUT = ironborn
+                    }
+                }
+				dynasty = dynasty:dynn_Bolton
+			}
+			modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_north_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+		}
+	}
+    asoiaf_bolton_tunic = { #GENERIC VERSION
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_bolton_tunic
+            }
+			accessory = {
+				mode = add
+				gene = legwear
+				template = asoiaf_all_legwears
+				accessory = male_legwear_asoiaf_nights_watch_legs
+            }
+			morph = { #so that the neck doesn't clip through the collar
+                mode = replace
+                gene = gene_neck_width
+                value = 0.35
+                template = neck_width_neg
+            }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 40
+                OR = {
+                    portrait_imperial_trigger = {
+                        CULTURE_INPUT = the_north
+                    }
+                    portrait_imperial_trigger = {
+                        CULTURE_INPUT = western
+                    }
+                    portrait_imperial_trigger = {
+                        CULTURE_INPUT = ironborn
+                    }
+                }
+				dynasty = dynasty:dynn_Bolton
+			}
+            modifier = {
+				add = 40
+                OR = {
+                    portrait_royalty_trigger = {
+                        CULTURE_INPUT = the_north
+                    }
+                    portrait_royalty_trigger = {
+                        CULTURE_INPUT = western
+                    }
+                    portrait_royalty_trigger = {
+                        CULTURE_INPUT = ironborn
+                    }
+                }
+				dynasty = dynasty:dynn_Bolton
+			}
+            modifier = {
+				add = 40
+                OR = {
+                    portrait_high_nobles_clothing_trigger = {
+                        CULTURE_INPUT = the_north
+                    }
+                    portrait_high_nobles_clothing_trigger = {
+                        CULTURE_INPUT = western
+                    }
+                    portrait_high_nobles_clothing_trigger = {
+                        CULTURE_INPUT = ironborn
+                    }
+                }
+				dynasty = dynasty:dynn_Bolton
+			}
+			modifier = {
+				add = 40
+                OR = {
+                    portrait_low_nobles_clothing_trigger = {
+                        CULTURE_INPUT = the_north
+                    }
+                    portrait_low_nobles_clothing_trigger = {
+                        CULTURE_INPUT = western
+                    }
+                    portrait_low_nobles_clothing_trigger = {
+                        CULTURE_INPUT = ironborn
+                    }
+                }
+				dynasty = dynasty:dynn_Bolton
+			}
+			modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_north_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+		}
+	}
 }

@@ -1803,7 +1803,73 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-
+			#AGOT Added
+			eye_bandage = {
+				index = 4
+				male = {
+					100 = male_headgear_special_eyepatch_bandage
+				}
+				female = {
+					100 = female_headgear_special_eyepatch_bandage
+				}
+				boy = male
+				girl = female
+			}
+			beric_eyepatch = {
+				index = 5
+				male = {
+					100 = male_headgear_special_beric_eyepatch
+				}
+				female = {
+					100 = female_headgear_special_beric_eyepatch
+				}
+				boy = male
+				girl = female
+			}
+			triangle_eyepatch = {
+				index = 6
+				male = {
+					100 = male_headgear_special_triangle_eyepatch
+				}
+				female = {
+					100 = female_headgear_special_triangle_eyepatch
+				}
+				boy = male
+				girl = female
+			}
+			decorated_eyepatch = {
+				index = 7
+				male = {
+					100 = male_headgear_special_decorated_eyepatch
+				}
+				female = {
+					100 = female_headgear_special_decorated_eyepatch
+				}
+				boy = male
+				girl = female
+			}
+			round_eyepatch = {
+				index = 8
+				male = {
+					100 = male_headgear_special_round_eyepatch
+				}
+				female = {
+					100 = female_headgear_special_round_eyepatch
+				}
+				boy = male
+				girl = female
+			}
+			eye_bandage_clean = {
+				index = 9
+				male = {
+					100 = male_headgear_special_eyepatch_bandage_clean
+				}
+				female = {
+					100 = female_headgear_special_eyepatch_bandage_clean
+				}
+				boy = male
+				girl = female
+			}
 		}
 
 		
@@ -2254,7 +2320,7 @@ special_genes = {
 					1 = heterochromia_bloodraven
 				}
 				female = {
-					1 = female_heterochromia_eye_blind
+					1 = female_heterochromia_bloodraven
 				}
 				boy = male
 				girl = female

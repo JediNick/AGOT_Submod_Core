@@ -1822,6 +1822,11 @@ headgear_base = {
                     portrait_era4_trigger = yes  
                 }     
             }
+			#AGOT Modified, Holy Crown of Hungary
+			modifier = {
+				factor = 0
+				is_male = yes
+			}
         }
     }
 

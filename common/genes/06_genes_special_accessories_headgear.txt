@@ -4383,12 +4383,16 @@ special_genes = {
 					1 = male_headgear_asoiaf_tyrell_helm_dynast
 					1 = male_headgear_asoiaf_tyrell_helm_high
 					1 = male_headgear_asoiaf_tyrell_helm_low
+					1 = male_headgear_asoiaf_greyjoy_helm_high
+					1 = male_headgear_asoiaf_ironborn_helm_high_coa
 				}
 				female = {
 					1 = female_headgear_asoiaf_dragonstone_helm
 					1 = female_headgear_asoiaf_bolton_helm_low
 					1 = female_headgear_asoiaf_hound_helm
 					1 = female_headgear_asoiaf_gold_cloak_helm
+					1 = female_headgear_asoiaf_greyjoy_helm_high
+					1 = female_headgear_asoiaf_ironborn_helm_high_coa
 				}
 				boy = male
 				girl = female
