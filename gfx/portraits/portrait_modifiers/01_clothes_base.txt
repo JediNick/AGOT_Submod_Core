@@ -4498,29 +4498,29 @@ agot_northern_high_nobles = {
         }       
         weight = {
             base = 0
-            court_fashion_level_5_modifier = { INPUT_PARAMETER = byzantine } 
+            court_fashion_level_5_modifier = { INPUT_PARAMETER = valyrian } 
             modifier = {
                 add = 35
                 portrait_high_nobles_clothing_trigger = { 
-                    CULTURE_INPUT = byzantine
+                    CULTURE_INPUT = valyrian
                 } 
             }
             modifier = {
                 add = 75
                 portrait_imperial_trigger = { 
-                    CULTURE_INPUT = byzantine
+                    CULTURE_INPUT = valyrian
                 } 
             }
             modifier = {
                 add = 45
                 portrait_royalty_trigger = { 
-                    CULTURE_INPUT = byzantine
+                    CULTURE_INPUT = valyrian
                 } 
             } 
             modifier = {
-                add = 25
+                add = 35
                 portrait_low_nobles_clothing_trigger = { 
-                    CULTURE_INPUT = byzantine
+                    CULTURE_INPUT = valyrian
                 } 
             } 
             modifier = {
