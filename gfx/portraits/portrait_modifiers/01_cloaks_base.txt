@@ -1495,7 +1495,7 @@ cloaks = {
 				is_male = yes
 				OR = {
 					agot_portrait_high_armor_trigger = {
-						CULTURE_INPUT = valeman
+						CULTURE_INPUT = valeman_main
 					}
 					agot_portrait_high_armor_trigger = {
 						CULTURE_INPUT = valeman_upper

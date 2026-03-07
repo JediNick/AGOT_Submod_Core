@@ -3193,6 +3193,11 @@
 			}
 			modifier = {
 				add = agot_character_portrait_modifier
+				portrait_wear_armor_trigger = yes
+				has_character_flag = is_Stark_3
+			}
+			modifier = {
+				add = agot_character_portrait_modifier
 				has_character_flag = needs_ned_armor
 			}
 		}
@@ -4030,11 +4035,16 @@
 			modifier = {
 				add = agot_culture_portrait_modifer
 				exists = this
+				OR = {
+					agot_portrait_low_armor_trigger = {
+						CULTURE_INPUT = riverlander
+					}
 				agot_portrait_high_armor_trigger = {
 					CULTURE_INPUT = riverlander
 				}
 			}
 		}
+	}
 	}
 
 	agot_clothing_riverman_tully_armor = {
@@ -4068,6 +4078,107 @@
 					CULTURE_INPUT = riverlander
 				}
 				dynasty ?= dynasty:dynn_Tully
+			}
+		}
+	}
+
+	agot_clothing_riverlord_armor = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = agot_riverlord_war_04
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = agot_all_legwear
+				accessory = male_legwear_secular_riverlands_war_04
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = agot_culture_portrait_modifer
+				exists = this
+				agot_portrait_high_armor_trigger = {
+					CULTURE_INPUT = riverlander
+				}
+			}
+		}
+	}
+
+	agot_clothing_riverlord_tully_armor = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = agot_all_armors
+				accessory = male_clothes_riverlands_war_04_b
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = agot_all_legwear
+				accessory = male_legwear_secular_riverlands_war_04
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = agot_dynasty_portrait_modifier
+				exists = this
+				agot_portrait_high_armor_trigger = {
+					CULTURE_INPUT = riverlander
+				}
+				dynasty ?= dynasty:dynn_Tully
+			}
+		}
+	}
+
+	agot_clothing_riverlord_blackfish_armor = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = agot_all_armors
+				accessory = male_clothes_riverlands_war_04_c
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = agot_all_legwear
+				accessory = male_legwear_secular_riverlands_war_04_c
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = agot_character_portrait_modifier
+				exists = this
+				has_nickname = nick_agot_historical_blackfish
 			}
 		}
 	}
@@ -4355,7 +4466,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = agot_culture_portrait_modifer
+				add = agot_culture_priority_portrait_modifer
 				exists = this
 				agot_portrait_high_armor_trigger = {
 					CULTURE_INPUT = braavosi
@@ -4389,7 +4500,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = agot_culture_portrait_modifer
+				add = agot_culture_priority_portrait_modifer
 				exists = this
 				agot_portrait_low_armor_trigger = {
 					CULTURE_INPUT = braavosi
@@ -4795,7 +4906,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = agot_culture_portrait_modifer
+				add = agot_heritage_portrait_modifer
 				exists = this
 				OR = {
 					AND = {
@@ -4927,7 +5038,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = agot_culture_portrait_modifer
+				add = agot_heritage_portrait_modifer
 				exists = this
 				agot_portrait_low_armor_trigger = {
 					CULTURE_INPUT = valyrian
@@ -5305,6 +5416,83 @@
 				OR = {
 					is_landless_adventurer = yes
 					liege ?= { highest_held_title_tier = tier_county }
+				}
+			}
+		}
+	}
+	
+	agot_clothing_triarchy_armor_low = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = agot_all_armors
+				accessory = male_clothes_triarchy_low_03
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = agot_all_legwear
+				accessory = male_legwear_secular_triarchy_low_03
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = agot_culture_portrait_modifer
+				exists = this
+				agot_portrait_low_armor_trigger = {
+					CULTURE_INPUT = essosi_valyrian
+				}
+				martial < high_skill_rating
+			}
+		}
+	}
+
+	agot_clothing_triarchy_armor_high = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = agot_all_armors
+				accessory = male_clothes_triarchy_03
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = agot_all_legwear
+				accessory = male_legwear_secular_triarchy_03
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+		}
+		outfit_tags = { military_outfit valyrian_armor }
+		weight = {
+			base = 0
+			modifier = {
+				add = agot_culture_portrait_modifer
+				exists = this
+				OR = {
+					AND = {
+						agot_portrait_low_armor_trigger = {
+							CULTURE_INPUT = essosi_valyrian
+						}
+						martial >= high_skill_rating
+					}
+					agot_portrait_high_armor_trigger = {
+						CULTURE_INPUT = essosi_valyrian
+					}
 				}
 			}
 		}

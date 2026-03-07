@@ -5533,6 +5533,427 @@ agot_northern_high_nobles = {
         }
     }
 
+	#Knight's Jerkin
+    asoiaf_knights_jerkin_high = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_knights_jerkin_high
+            }
+			accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = male_legwear_asoiaf_leather_boots_6
+            }
+			morph = { #so that the neck doesn't clip through the collar
+                mode = replace
+                gene = gene_neck_width
+                value = 0.55
+                template = neck_width_neg
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = western }
+            modifier = {
+                add = 25
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = 20
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = 15
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = 10
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+            }  
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_crownlands_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+        }
+    }
+    asoiaf_knights_jerkin_low = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_knights_jerkin_low
+            }
+			accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = male_legwear_asoiaf_leather_boots_6
+            }
+			morph = { #so that the neck doesn't clip through the collar
+                mode = replace
+                gene = gene_neck_width
+                value = 0.55
+                template = neck_width_neg
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = western }
+            modifier = {
+                add = 10
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = 20
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = 30
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+            }  
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_crownlands_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+        }
+    }
+	asoiaf_knights_jerkin_coa = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_knights_jerkin_coa
+            }
+			accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = male_legwear_asoiaf_leather_boots_6
+            }
+			morph = { #so that the neck doesn't clip through the collar
+                mode = replace
+                gene = gene_neck_width
+                value = 0.55
+                template = neck_width_neg
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = western }
+            modifier = {
+                add = 30
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = 20
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = 20
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = 15
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+            }  
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_crownlands_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+        }
+    }
+    asoiaf_knights_jerkin_lancel = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_knights_jerkin_lancel
+            }
+			accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = male_legwear_asoiaf_leather_boots_6
+            }
+			morph = { #so that the neck doesn't clip through the collar
+                mode = replace
+                gene = gene_neck_width
+                value = 0.55
+                template = neck_width_neg
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = western }
+            modifier = {
+                add = 15
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+                OR = {
+                    house ?= dynasty:dynn_Lannister.dynasty_founder.house
+                    house ?= house:house_BaratheonKL
+                }
+            }
+            modifier = {
+                add = 15
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+                OR = {
+                    house ?= dynasty:dynn_Lannister.dynasty_founder.house
+                    house ?= house:house_BaratheonKL
+                }
+            }
+            modifier = {
+                add = 15
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+                OR = {
+                    house ?= dynasty:dynn_Lannister.dynasty_founder.house
+                    house ?= house:house_BaratheonKL
+                }
+            }
+            modifier = {
+                add = 15
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+                OR = {
+                    has_trait = knight #historical version
+                    AND = {
+                        has_trait = squire #dynamic version
+                        has_trait_xp = {
+                            trait = squire
+                            track = knight
+                            value >= 100
+                        }
+                    }
+                }
+                OR = {
+                    house ?= dynasty:dynn_Lannister.dynasty_founder.house
+                    house ?= house:house_BaratheonKL
+                }
+            }  
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_westerlands_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+        }
+    }
+
     ## Stormlands generic clothes
     asoiaf_stormlands_overcoat_1_high = {
         dna_modifiers = {

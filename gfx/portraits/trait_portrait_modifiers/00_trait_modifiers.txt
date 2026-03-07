@@ -2205,7 +2205,7 @@ blind = {
 		}
 	}
 
-	#AGOT Added RED
+	#AGOT Added
 	one_eyed_red = {
 		traits = {
 			one_eyed
