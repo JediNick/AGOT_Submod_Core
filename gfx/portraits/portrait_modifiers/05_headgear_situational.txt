@@ -3316,8 +3316,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = viserys_crown
-				value = 1
+				template = lotd_unique_crowns
+				accessory = male_viserys_crown_01
 			}
 		}
 		weight = {
@@ -6712,8 +6712,8 @@
 			accessory = {
 			mode = add
 				gene = headgear
-				template = aegon_crown_gems
-				value = 1
+				template = lotd_unique_crowns
+				accessory = male_aegoncrown_01
 			}
 		}
 		weight = {
@@ -6764,8 +6764,8 @@
 			accessory = {
 			mode = add
 				gene = headgear
-				template = aegon_crown_no_gems
-				value = 1
+				template = lotd_unique_crowns
+				accessory = male_aegoncrown_02
 			}
 		}
 		weight = {
@@ -6821,8 +6821,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = viserys_crown
-				value = 1
+				template = lotd_unique_crowns
+				accessory = male_viserys_crown_01
 			}
 		}
 		weight = {

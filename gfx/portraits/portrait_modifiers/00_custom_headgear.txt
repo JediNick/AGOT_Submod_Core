@@ -93,23 +93,7 @@
 		is_valid_custom = {
 			is_lotd_loaded_trigger = yes
 		}
-		template = aegon_crown_gems
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		is_valid_custom = {
-			is_lotd_loaded_trigger = yes
-		}
-		template = aegon_crown_no_gems
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		is_valid_custom = {
-			is_lotd_loaded_trigger = yes
-		}
-		template = viserys_crown
+		template = lotd_unique_crowns
 	}
 
 	##AGOT+

@@ -4316,39 +4316,18 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
-			aegon_crown_gems = { # For commoners to use, non-gilded version only
+
+			lotd_unique_crowns = {
 				index = 242
 				male = {
 					1 = male_aegoncrown_01
-				}
-				female = {
-					1 = female_aegoncrown_01	
-				}
-
-				boy = male
-				girl = female
-			}
-
-			aegon_crown_no_gems = { # For commoners to use, non-gilded version only
-				index = 243
-				male = {
 					1 = male_aegoncrown_02
-				}
-				female = {
-					1 = female_aegoncrown_02	
-				}
-
-				boy = male
-				girl = female
-			}
-
-			viserys_crown = {
-				index = 244
-				male = {
 					1 = male_viserys_crown_01
+
 				}
 				female = {
+					1 = female_aegoncrown_01
+					1 = female_aegoncrown_02	
 					1 = female_viserys_crown_01	
 				}
 
