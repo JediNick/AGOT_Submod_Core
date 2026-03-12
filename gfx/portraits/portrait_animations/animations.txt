@@ -28,7 +28,7 @@ idle = {
 						current_weight < 40
 						NOT = { has_trait = dwarf }
 						NOT = { has_trait = pregnant }
-						primary_title = title:k_the_most_devout
+						agot_is_high_septon = yes
 						
 					}
 				}

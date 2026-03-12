@@ -88,7 +88,13 @@
 }
 
 agot_default_wear_crown_trigger = {
-	trigger_if = { #To ensure if crown is stolen, ruler will not wear crown unless manually equipped.
+	trigger_if = {
+		limit = {
+			agot_is_high_septon = yes
+		}
+		always = yes
+	}
+	trigger_else_if = { #To ensure if crown is stolen, ruler will not wear crown unless manually equipped.
 		limit = {
 			involved_activity ?= {
 				has_activity_type = activity_agot_coronation

@@ -141,6 +141,12 @@ agot_apply_inactive_traits_on_death = {
 		}
 		else_if = {
 			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = bolton_skin_crown_artifact }
+			}
+			make_trait_inactive = equipped_bolton_skin_crown_artifact
+		}
+		else_if = {
+			limit = {
 				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = riverlands_crown_artifact }
 			}
 			make_trait_inactive = equipped_riverlands_crown_artifact
@@ -498,6 +504,12 @@ agot_apply_inactive_traits_on_death = {
 				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_the_grey_king_rusted_artifact }
 			}
 			make_trait_inactive = equipped_crown_of_the_grey_king_rusted_artifact
+		}
+		else_if = {
+			limit = {
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = cannibal_crown_artifact }
+			}
+			make_trait_inactive = equipped_cannibal_crown_artifact
 		}
 		else_if = {
 			limit = {

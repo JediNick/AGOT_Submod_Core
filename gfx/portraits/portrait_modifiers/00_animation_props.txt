@@ -4922,6 +4922,1085 @@
 			}
 		}
 	}
+	
+	#AGOT Crowns
+	aegonI_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = aegonI_crown
+				value = 1
+			}
+		}
+	}
+
+	aegonIII_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = aegonIII_crown
+				value = 1
+			}
+		}
+	}
+
+	aegonIV_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = aegonIV_crown
+				value = 1
+			}
+		}
+	}
+
+	aenysI_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = aenysI_crown
+				value = 1
+			}
+		}
+	}
+
+	alysanne_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = alysanne_crown
+				value = 1
+			}
+		}
+	}
+
+	beyondthewall_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = beyondthewall_crown
+				value = 1
+			}
+		}
+	}
+
+	blackwood_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = blackwood_crown
+				value = 1
+			}
+		}
+	}
+
+	bolton_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = bolton_crown
+				value = 1
+			}
+		}
+	}
+
+	boltonskin_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = boltonskin_crown
+				value = 1
+			}
+		}
+	}
+
+	cannibal_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = cannibal_crown
+				value = 1
+			}
+		}
+	}
+
+	cargyll_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = cargyll_crown
+				value = 1
+			}
+		}
+	}
+
+	circlet_of_rhllor = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = circlet_of_rhllor
+				value = 1
+			}
+		}
+	}
+
+	crown_of_bear_island = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_bear_island
+				value = 1
+			}
+		}
+	}
+
+	crown_of_castamere = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_castamere
+				value = 1
+			}
+		}
+	}
+
+	crown_of_crakehall = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_crakehall
+				value = 1
+			}
+		}
+	}
+
+	crown_of_darklyn = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_darklyn
+				value = 1
+			}
+		}
+	}
+
+	crown_of_deep_den = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_deep_den
+				value = 1
+			}
+		}
+	}
+
+	crown_of_deep_winter_roses = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_deep_winter_roses
+				value = 1
+			}
+		}
+	}
+
+	crown_of_dondarrion = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_dondarrion
+				value = 1
+			}
+		}
+	}
+
+	crown_of_first_men = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_first_men
+				value = 1
+			}
+		}
+	}
+
+	crown_of_gardener_peace = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_gardener_peace
+				value = 1
+			}
+		}
+	}
+
+	crown_of_gardener_war_iron = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_gardener_war_iron
+				value = 1
+			}
+		}
+	}
+
+	crown_of_hearts_home = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_hearts_home
+				value = 1
+			}
+		}
+	}
+
+	crown_of_hellholt = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_hellholt
+				value = 1
+			}
+		}
+	}
+
+	crown_of_jeyne_westerling = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_jeyne_westerling
+				value = 1
+			}
+		}
+	}
+
+	crown_of_mudd_coa = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_mudd_coa
+				value = 1
+			}
+		}
+	}
+
+	crown_of_mudd = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_mudd
+				value = 1
+			}
+		}
+	}
+
+	crown_of_rhllor = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_rhllor
+				value = 1
+			}
+		}
+	}
+
+	crown_of_the_andals = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_the_andals
+				value = 1
+			}
+		}
+	}
+
+	crown_of_the_andals_silver = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_the_andals_silver
+				value = 1
+			}
+		}
+	}
+
+	crown_of_the_banefort = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_the_banefort
+				value = 1
+			}
+		}
+	}
+
+	crown_of_the_grey_king_rusted = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_the_grey_king_rusted
+				value = 1
+			}
+		}
+	}
+
+	crown_of_the_nights_king = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_the_nights_king
+				value = 1
+			}
+		}
+	}
+
+	crown_of_the_old_gods = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_the_old_gods
+				value = 1
+			}
+		}
+	}
+
+	crown_of_the_seven = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_the_seven
+				value = 1
+			}
+		}
+	}
+
+	crown_of_the_tides = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_the_tides
+				value = 1
+			}
+		}
+	}
+
+	crown_of_the_wall = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_the_wall
+				value = 1
+			}
+		}
+	}
+
+	crown_of_true_winter = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_true_winter
+				value = 1
+			}
+		}
+	}
+
+	crown_of_westerling = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_westerling
+				value = 1
+			}
+		}
+	}
+
+	crown_of_westerosi_diadem = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_westerosi_diadem
+				value = 1
+			}
+		}
+	}
+
+	crown_of_westerosi_diadem_silver = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_westerosi_diadem_silver
+				value = 1
+			}
+		}
+	}
+
+	crown_of_winter_roses = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crown_of_winter_roses
+				value = 1
+			}
+		}
+	}
+
+	crownofhugor = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crownofhugor
+				value = 1
+			}
+		}
+	}
+
+	crownofwinter = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = crownofwinter
+				value = 1
+			}
+		}
+	}
+
+	daemon_queen_stepstone_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = daemon_queen_stepstone_crown
+				value = 1
+			}
+		}
+	}
+
+	daemon_stepstone_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = daemon_stepstone_crown
+				value = 1
+			}
+		}
+	}
+
+	daemonblackfyre_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = daemonblackfyre_crown
+				value = 1
+			}
+		}
+	}
+
+	daenerys_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = daenerys_crown
+				value = 1
+			}
+		}
+	}
+
+	dayne_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = dayne_crown
+				value = 1
+			}
+		}
+	}
+
+	dorne_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = dorne_crown
+				value = 1
+			}
+		}
+	}
+
+	dornish_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = dornish_crown
+				value = 1
+			}
+		}
+	}
+
+	driftwood_crown1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = driftwood_crown1
+				value = 1
+			}
+		}
+	}
+
+	dustin_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = dustin_crown
+				value = 1
+			}
+		}
+	}
+
+	falcon_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = falcon_crown
+				value = 1
+			}
+		}
+	}
+
+	floreal_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = floreal_crown
+				value = 1
+			}
+		}
+	}
+
+	florent_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = florent_crown
+				value = 1
+			}
+		}
+	}
+
+	frey_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = frey_crown
+				value = 1
+			}
+		}
+	}
+
+	greyjoy_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = greyjoy_crown
+				value = 1
+			}
+		}
+	}
+
+	harlaw_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = harlaw_crown
+				value = 1
+			}
+		}
+	}
+
+	hightower_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = hightower_crown
+				value = 1
+			}
+		}
+	}
+
+	ironisles_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ironisles_crown
+				value = 1
+			}
+		}
+	}
+
+	ironstag_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = ironstag_crown
+				value = 1
+			}
+		}
+	}
+
+	jaehaerysI_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = jaehaerysI_crown
+				value = 1
+			}
+		}
+	}
+
+	joffreyI_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = joffreyI_crown
+				value = 1
+			}
+		}
+	}
+
+	maekarI_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = maekarI_crown
+				value = 1
+			}
+		}
+	}
+
+	manderly_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = manderly_crown
+				value = 1
+			}
+		}
+	}
+
+	queen_of_love_and_beauty_rose_crown_generic = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = queen_of_love_and_beauty_rose_crown_generic
+				value = 1
+			}
+		}
+	}
+
+	queen_of_love_and_beauty_rose_crown_03 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = queen_of_love_and_beauty_rose_crown_03
+				value = 1
+			}
+		}
+	}
+
+	queen_of_love_and_beauty_rose_crown_04 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = queen_of_love_and_beauty_rose_crown_04
+				value = 1
+			}
+		}
+	}
+
+	queen_of_love_and_beauty_rose_crown_05 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = queen_of_love_and_beauty_rose_crown_05
+				value = 1
+			}
+		}
+	}
+
+	queen_of_love_and_beauty_rose_crown_06 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = queen_of_love_and_beauty_rose_crown_06
+				value = 1
+			}
+		}
+	}
+
+	reach_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = reach_crown
+				value = 1
+			}
+		}
+	}
+
+	reachman_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = reachman_crown
+				value = 1
+			}
+		}
+	}
+
+	redwyne_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = redwyne_crown
+				value = 1
+			}
+		}
+	}
+
+	reed_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = reed_crown
+				value = 1
+			}
+		}
+	}
+
+	renly_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = renly_crown
+				value = 1
+			}
+		}
+	}
+
+	rhaella_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = rhaella_crown
+				value = 1
+			}
+		}
+	}
+
+	rhaenys_circlet = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = rhaenys_circlet
+				value = 1
+			}
+		}
+	}
+
+	riverlands_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = riverlands_crown
+				value = 1
+			}
+		}
+	}
+
+	robertI_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = robertI_crown
+				value = 1
+			}
+		}
+	}
+
+	royce_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = royce_crown
+				value = 1
+			}
+		}
+	}
+
+	stannis_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = stannis_crown
+				value = 1
+			}
+		}
+	}
+
+	stormlands_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = stormlands_crown
+				value = 1
+			}
+		}
+	}
+
+	stormlander_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = stormlander_crown
+				value = 1
+			}
+		}
+	}
+
+	swann_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = swann_crown
+				value = 1
+			}
+		}
+	}
+
+	tarly_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tarly_crown
+				value = 1
+			}
+		}
+	}
+
+	tarth_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tarth_crown
+				value = 1
+			}
+		}
+	}
+
+	tully_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = tully_crown
+				value = 1
+			}
+		}
+	}
+
+	umber_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = umber_crown
+				value = 1
+			}
+		}
+	}
+
+	valeman_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = valeman_crown
+				value = 1
+			}
+		}
+	}
+
+	valyrian_crown1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = valyrian_crown1
+				value = 1
+			}
+		}
+	}
+
+	valyrian_crown2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = valyrian_crown2
+				value = 1
+			}
+		}
+	}
+
+	visenya_circlet = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = visenya_circlet
+				value = 1
+			}
+		}
+	}
+
+	westerlands2_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = westerlands2_crown
+				value = 1
+			}
+		}
+	}
+
+	westerlander2_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = westerlander2_crown
+				value = 1
+			}
+		}
+	}
+
+	westerlands_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = westerlands_crown
+				value = 1
+			}
+		}
+	}
+
+	westerosi_valyrian_crown1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = westerosi_valyrian_crown1
+				value = 1
+			}
+		}
+	}
+
+	westerosi_valyrian_crown2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = westerosi_valyrian_crown2
+				value = 1
+			}
+		}
+	}
 
 	##AGOT Submod Base entries
 	##If you want to add a prop, enter it below.

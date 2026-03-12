@@ -55,6 +55,16 @@
 		template = agot_historic_capes
 	}
 	
+	## CCP7 ##
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = ccp7_mino_com_01
+		is_valid_custom = {
+			has_cp7_dlc_trigger = yes
+		}
+	}
+	
 	### AGOT Submod Core ###
 	add_accessory_modifiers = {
 		gene = cloaks

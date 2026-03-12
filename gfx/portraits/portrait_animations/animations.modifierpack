@@ -486,7 +486,7 @@ one_handed_sword = {
 	# portrait_modifier = {   # CCP5
 	# 	trigger = {
 	# 		AND = {
-	# 			#has_dlc_feature = TODO
+	# 			has_dlc_feature = high_medieval_warfare_attire
 	# 			OR = {
     #                 portrait_commoner_armor_trigger = {
     #                     CULTURE_INPUT = french
@@ -943,7 +943,7 @@ lefthanded_one_handed_sword = {
 	# portrait_modifier = {   # CCP5
 	# 	trigger = {
 	# 		AND = {
-	# 			#has_dlc_feature = TODO
+	# 			has_dlc_feature = high_medieval_warfare_attire
 	# 			OR = {
     #                 portrait_commoner_armor_trigger = {
     #                     CULTURE_INPUT = french
@@ -1676,7 +1676,7 @@ council_marshal = {
 	# portrait_modifier = {   # CCP5
 	# 	trigger = {
 	# 		AND = {
-	# 			#has_dlc_feature = TODO
+	# 			has_dlc_feature = high_medieval_warfare_attire
 	# 			OR = {
     #                 portrait_commoner_armor_trigger = {
     #                     CULTURE_INPUT = french
@@ -2108,7 +2108,7 @@ council_marshal_shield = {
 	# portrait_modifier = {   # CCP5
 	# 	trigger = {
 	# 		AND = {
-	# 			#has_dlc_feature = TODO
+	# 			has_dlc_feature = high_medieval_warfare_attire
 	# 			OR = {
     #                 portrait_commoner_armor_trigger = {
     #                     CULTURE_INPUT = french
@@ -2462,7 +2462,7 @@ throneRoom_one_handed_passive_1 = {
 	# portrait_modifier = {   # CCP5
 	# 	trigger = {
 	# 		AND = {
-	# 			#has_dlc_feature = TODO
+	# 			has_dlc_feature = high_medieval_warfare_attire
 	# 			OR = {
     #                 portrait_commoner_armor_trigger = {
     #                     CULTURE_INPUT = french
@@ -3637,6 +3637,1192 @@ cultural_goblets = {
 ### Coronation Crowns ###
 
 coronation_crowns = {
+
+	#AGOT Added
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_aegon_i_artifact
+			}
+		}
+		animations_props = aegonI_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_aegon_iii_artifact
+			}
+		}
+		animations_props = aegonIII_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_aegon_iv_artifact
+			}
+		}
+		animations_props = aegonIV_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_aenys_artifact
+			}
+		}
+		animations_props = aenysI_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_alysanne_artifact
+			}
+		}
+		animations_props = alysanne_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = beyondthewall_crown_artifact
+			}
+		}
+		animations_props = beyondthewall_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = blackwood_crown_artifact
+			}
+		}
+		animations_props = blackwood_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = bolton_crown_artifact
+			}
+		}
+		animations_props = bolton_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = bolton_skin_crown_artifact
+			}
+		}
+		animations_props = boltonskin_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = cannibal_crown_artifact
+			}
+		}
+		animations_props = cannibal_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = cargyll_crown_artifact
+			}
+		}
+		animations_props = cargyll_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = circlet_of_rhllor_artifact
+			}
+		}
+		animations_props = circlet_of_rhllor
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_bear_island_artifact
+			}
+		}
+		animations_props = crown_of_bear_island
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_castamere_artifact
+			}
+		}
+		animations_props = crown_of_castamere
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_crakehall_artifact
+			}
+		}
+		animations_props = crown_of_crakehall
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_darklyn_artifact
+			}
+		}
+		animations_props = crown_of_darklyn
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_deep_den_artifact
+			}
+		}
+		animations_props = crown_of_deep_den
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_deep_winter_roses_artifact
+			}
+		}
+		animations_props = crown_of_deep_winter_roses
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_dondarrion_artifact
+			}
+		}
+		animations_props = crown_of_dondarrion
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_first_men_artifact
+			}
+		}
+		animations_props = crown_of_first_men
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				OR = {
+					has_variable = crown_of_gardener_peace_artifact
+					has_variable = crown_of_qolab_gardener_artifact
+				}
+			}
+		}
+		animations_props = crown_of_gardener_peace
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_gardener_war_iron_artifact
+			}
+		}
+		animations_props = crown_of_gardener_war_iron
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_hearts_home_artifact
+			}
+		}
+		animations_props = crown_of_hearts_home
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_hellholt_artifact
+			}
+		}
+		animations_props = crown_of_hellholt
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_jeyne_westerling_artifact
+			}
+		}
+		animations_props = crown_of_jeyne_westerling
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_mudd_coa_artifact
+			}
+		}
+		animations_props = crown_of_mudd_coa
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_mudd_artifact
+			}
+		}
+		animations_props = crown_of_mudd
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_rhllor_artifact
+			}
+		}
+		animations_props = crown_of_rhllor
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_the_andals_artifact
+			}
+		}
+		animations_props = crown_of_the_andals
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_the_andals_silver_artifact
+			}
+		}
+		animations_props = crown_of_the_andals_silver
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_the_banefort_artifact
+			}
+		}
+		animations_props = crown_of_the_banefort
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_the_grey_king_rusted_artifact
+			}
+		}
+		animations_props = crown_of_the_grey_king_rusted
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_the_nights_king_artifact
+			}
+		}
+		animations_props = crown_of_the_nights_king
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_the_old_gods_artifact
+			}
+		}
+		animations_props = crown_of_the_old_gods
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_the_seven_artifact
+			}
+		}
+		animations_props = crown_of_the_seven
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_the_tides_artifact
+			}
+		}
+		animations_props = crown_of_the_tides
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_the_wall_artifact
+			}
+		}
+		animations_props = crown_of_the_wall
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_true_winter_artifact
+			}
+		}
+		animations_props = crown_of_true_winter
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_westerling_artifact
+			}
+		}
+		animations_props = crown_of_westerling
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_westerosi_diadem_artifact
+			}
+		}
+		animations_props = crown_of_westerosi_diadem
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_westerosi_diadem_silver_artifact
+			}
+		}
+		animations_props = crown_of_westerosi_diadem_silver
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				OR = {
+					has_variable = crown_of_winter_roses_artifact
+					has_variable = crown_of_qolab_winter_roses_artifact
+				}
+			}
+		}
+		animations_props = crown_of_winter_roses
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_hugor_artifact
+			}
+		}
+		animations_props = crownofhugor
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_winter_artifact
+			}
+		}
+		animations_props = crownofwinter
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = daemon_queen_stepstone_crown_artifact
+			}
+		}
+		animations_props = daemon_queen_stepstone_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = daemon_stepstone_crown_artifact
+			}
+		}
+		animations_props = daemon_stepstone_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_daemonblackfyre_artifact
+			}
+		}
+		animations_props = daemonblackfyre_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = daenerys_crown_artifact
+			}
+		}
+		animations_props = daenerys_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = dayne_crown_artifact
+			}
+		}
+		animations_props = dayne_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = dorne_crown_artifact
+			}
+		}
+		animations_props = dorne_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = dornish_crown_artifact
+			}
+		}
+		animations_props = dornish_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = driftwood_crown_1_artifact
+			}
+		}
+		animations_props = driftwood_crown1
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = dustin_crown_artifact
+			}
+		}
+		animations_props = dustin_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = falcon_crown_artifact
+			}
+		}
+		animations_props = falcon_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				OR = {
+					has_variable = crown_baelor_artifact
+					has_variable = crown_of_qolab_baelor_artifact
+				}
+			}
+		}
+		animations_props = floreal_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = florent_crown_artifact
+			}
+		}
+		animations_props = florent_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = frey_crown_artifact
+			}
+		}
+		animations_props = frey_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = greyjoy_crown_artifact
+			}
+		}
+		animations_props = greyjoy_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = harlaw_crown_artifact
+			}
+		}
+		animations_props = harlaw_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = hightower_crown_artifact
+			}
+		}
+		animations_props = hightower_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = iron_isles_crown_artifact
+			}
+		}
+		animations_props = ironisles_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = iron_stag_crown_artifact
+			}
+		}
+		animations_props = ironstag_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_jaehaerys_artifact
+			}
+		}
+		animations_props = jaehaerysI_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = joffreyI_crown_artifact
+			}
+		}
+		animations_props = joffreyI_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_maekar_artifact
+			}
+		}
+		animations_props = maekarI_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = manderly_crown_artifact
+			}
+		}
+		animations_props = manderly_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_of_qolab_generic_artifact
+			}
+		}
+		animations_props = queen_of_love_and_beauty_rose_crown_generic
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = qolab_crown_03_artifact
+			}
+		}
+		animations_props = queen_of_love_and_beauty_rose_crown_03
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = qolab_crown_04_artifact
+			}
+		}
+		animations_props = queen_of_love_and_beauty_rose_crown_04
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = qolab_crown_05_artifact
+			}
+		}
+		animations_props = queen_of_love_and_beauty_rose_crown_05
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = qolab_crown_06_artifact
+			}
+		}
+		animations_props = queen_of_love_and_beauty_rose_crown_06
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = reach_crown_artifact
+			}
+		}
+		animations_props = reach_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = reachman_crown_artifact
+			}
+		}
+		animations_props = reachman_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = redwyne_crown_artifact
+			}
+		}
+		animations_props = redwyne_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = reed_crown_artifact
+			}
+		}
+		animations_props = reed_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = renly_crown_artifact
+			}
+		}
+		animations_props = renly_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = crown_rhaella_artifact
+			}
+		}
+		animations_props = rhaella_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = circlet_rhaenys_artifact
+			}
+		}
+		animations_props = rhaenys_circlet
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = riverlands_crown_artifact
+			}
+		}
+		animations_props = riverlands_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = robertI_crown_artifact
+			}
+		}
+		animations_props = robertI_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = royce_crown_artifact
+			}
+		}
+		animations_props = royce_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = stannis_crown_artifact
+			}
+		}
+		animations_props = stannis_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = stormlands_crown_artifact
+			}
+		}
+		animations_props = stormlands_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = stormlander_crown_artifact
+			}
+		}
+		animations_props = stormlander_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = swann_crown_artifact
+			}
+		}
+		animations_props = swann_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = tarly_crown_artifact
+			}
+		}
+		animations_props = tarly_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = tarth_crown_artifact
+			}
+		}
+		animations_props = tarth_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = tully_crown_artifact
+			}
+		}
+		animations_props = tully_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = umber_crown_artifact
+			}
+		}
+		animations_props = umber_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = valeman_crown_artifact
+			}
+		}
+		animations_props = valeman_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = valyrian_crown1_artifact
+			}
+		}
+		animations_props = valyrian_crown1
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = valyrian_crown2_artifact
+			}
+		}
+		animations_props = valyrian_crown2
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = circlet_visenya_artifact
+			}
+		}
+		animations_props = visenya_circlet
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = westerlands2_crown_artifact
+			}
+		}
+		animations_props = westerlands2_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = westerlander2_crown_artifact
+			}
+		}
+		animations_props = westerlander2_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = westerlands_crown_artifact
+			}
+		}
+		animations_props = westerlands_crown
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = westerosi_valyrian_crown1_artifact
+			}
+		}
+		animations_props = westerosi_valyrian_crown1
+		animations = female_prop_fix_additive
+	}
+
+	portrait_modifier = {
+		trigger = {
+			exists = involved_activity
+			exists = involved_activity.activity_host.var:crowning_artifact
+			involved_activity.activity_host.var:crowning_artifact = {
+				has_variable = westerosi_valyrian_crown2_artifact
+			}
+		}
+		animations_props = westerosi_valyrian_crown2
+		animations = female_prop_fix_additive
+	}
 
 	#More specific ones
 

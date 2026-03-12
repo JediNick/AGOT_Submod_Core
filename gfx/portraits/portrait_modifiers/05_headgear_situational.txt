@@ -1298,7 +1298,7 @@
 		}
 	}
 
-	agot_headgear_bolton_skin_crown = {
+	agot_headgear_bolton_crown = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -1314,6 +1314,27 @@
 				OR = {
 					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = bolton_crown_artifact }
 					has_inactive_trait = equipped_bolton_crown_artifact
+				}
+			}
+		}
+	}
+
+	agot_headgear_bolton_skin_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = boltonskincrown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = bolton_skin_crown_artifact }
+					has_inactive_trait = equipped_bolton_skin_crown_artifact
 				}
 			}
 		}
@@ -2565,6 +2586,27 @@
 		}
 	}
 
+	agot_headgear_cannibal_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = agot_crowns
+				accessory = cannibalcrown
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				OR = {
+					agot_has_artifact_equipped = { ARTIFACT_VARIABLE = cannibal_crown_artifact }
+					has_inactive_trait = equipped_cannibal_crown_artifact
+				}
+			}
+		}
+	}
+
 	agot_headgear_crown_of_the_nights_king_crown = {
 		dna_modifiers = {
 			accessory = {
@@ -3365,7 +3407,7 @@
 				mode = add
 				gene = headgear
 				template = tgc_helmets
-                range = { 0.33 1.00 }
+                range = { 0.083333 0.250000 }
 			}
 			accessory = {
 				mode = add
@@ -3446,7 +3488,7 @@
 				mode = add
 				gene = headgear
 				template = tgc_helmets
-                range = { 0.0 0.33 }
+                range = { 0.0 0.0 }
 			}
 			accessory = {
 				mode = add
@@ -3520,39 +3562,39 @@
 		}
 	}
 
-	goldenCompany_chains = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = tgc_helmets_chains
-                range = { 0.0 1.0 }
-			}
-		}	
-		weight = {
-			base = -100
-			modifier = {
-				add = 3003
-				portrait_wear_helmet_trigger = yes
-                tgc_standard_equipment_trigger = yes
-				tgc_chains_trigger = yes
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					is_adult = no
-					should_be_naked_trigger = yes
-				}
-			}			
-		}
-	}
+	# goldenCompany_chains = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = headgear
+	# 			template = tgc_helmets_chains
+    #             range = { 0.0 1.0 }
+	# 		}
+	# 	}	
+	# 	weight = {
+	# 		base = -100
+	# 		modifier = {
+	# 			add = 3003
+	# 			portrait_wear_helmet_trigger = yes
+    #             tgc_standard_equipment_trigger = yes
+	# 			tgc_chains_trigger = yes
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			OR = {
+	# 				is_adult = no
+	# 				should_be_naked_trigger = yes
+	# 			}
+	# 		}			
+	# 	}
+	# }
 
 	goldenCompany_normal_black = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = tgc_helmets_black
+				template = tgc_helmets
                 accessory = male_headgear_tgc_helm_black_02
 			}
 			accessory = {
@@ -3606,8 +3648,6 @@
 				gene = face_detail_cheek_def
 				value = 0.0
 			}
-
-			
 		}	
 		weight = {
 			base = -100
@@ -3633,7 +3673,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = tgc_helmets_black
+				template = tgc_helmets
                 accessory = male_headgear_tgc_helm_black_01
 			}
 			accessory = {
@@ -3712,8 +3752,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = tgc_helmets_blackfyre
-                range = { 0.31 1.00 }
+				template = tgc_helmets
+                range = { 0.666667 1.0 }
 			}
 			accessory = {
 				mode = add
@@ -3796,8 +3836,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = tgc_helmets_blackfyre
-                range = { 0.0 0.3 }
+				template = tgc_helmets
+                range = { 0.5 0.666667 }
 			}
 			accessory = {
 				mode = add
@@ -4239,7 +4279,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = canon_queens
+				template = crowns_of_westeros
 				accessory = rhaenatargaryen_crown
 			}
 		}
@@ -4261,7 +4301,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = canon_queens
+				template = crowns_of_westeros
 				accessory = alyssavelaryon_crown
 			}
 		}
@@ -4283,7 +4323,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = canon_queens
+				template = crowns_of_westeros
 				accessory = alicenthightower_crown
 			}
 		}
@@ -4305,7 +4345,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = canon_queens
+				template = crowns_of_westeros
 				accessory = jaehaera_crown
 			}
 		}
@@ -4327,7 +4367,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = canon_queens
+				template = crowns_of_westeros
 				accessory = daena_crown
 			}
 		}
@@ -4349,7 +4389,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = canon_queens
+				template = crowns_of_westeros
 				accessory = bethablackwood_circlet
 			}
 		}
@@ -4371,7 +4411,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = canon_queens
+				template = crowns_of_westeros
 				accessory = mariah_martell_crown
 			}
 		}
@@ -4393,7 +4433,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = canon_queens
+				template = crowns_of_westeros
 				accessory = cersei_tiara
 			}
 		}
@@ -5432,7 +5472,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = canon_queens
+				template = crowns_of_westeros
 				accessory = aemma_tiara
 			}
 		}
@@ -5454,7 +5494,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = canon_queens
+				template = crowns_of_westeros
 				accessory = aemma_tiara
 			}
 		}
