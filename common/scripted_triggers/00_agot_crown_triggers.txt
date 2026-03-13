@@ -88,13 +88,7 @@
 }
 
 agot_default_wear_crown_trigger = {
-	trigger_if = {
-		limit = {
-			agot_is_high_septon = yes
-		}
-		always = yes
-	}
-	trigger_else_if = { #To ensure if crown is stolen, ruler will not wear crown unless manually equipped.
+	trigger_if = { #To ensure if crown is stolen, ruler will not wear crown unless manually equipped.
 		limit = {
 			involved_activity ?= {
 				has_activity_type = activity_agot_coronation
@@ -183,19 +177,13 @@ agot_default_wear_crown_trigger = {
 			}
 			#Crowns Of Westeros
 			AND = {
-				OR = {
-					primary_title.tier = tier_empire
-					primary_title.tier = tier_hegemony
-				}
+				agot_is_independent_ruler = yes
 				has_game_rule = show_crowns_without_coronation_enabled
 			}
 			#Crowns Of Westeros
 			any_spouse = {
 				even_if_dead = yes
-				OR = {
-					primary_title.tier = tier_empire
-					primary_title.tier = tier_hegemony
-				}
+				agot_is_independent_ruler = yes
 				has_game_rule = show_crowns_without_coronation_enabled
 			}
 		}

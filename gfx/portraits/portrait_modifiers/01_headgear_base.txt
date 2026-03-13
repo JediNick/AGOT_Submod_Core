@@ -7453,7 +7453,7 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_matarys_artifact }}
 				agot_default_wear_crown_trigger = yes
-				is_lannister_6 = is_Targaryen_112  # Matarys Targaryen
+				has_character_flag = is_Targaryen_112  # Matarys Targaryen
 			}
 		}
 	}
@@ -7684,7 +7684,7 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = argella_crown_artifact }}
 				agot_default_wear_crown_trigger = yes
-				has_character_flagt = is_Durrandon_88  # Argella Durrandon
+				has_character_flag = is_Durrandon_88  # Argella Durrandon
 			}
 		}
 	}

@@ -5800,6 +5800,12 @@ agot_northern_high_nobles = {
                     CULTURE_INPUT = western
                 } 
             }
+			modifier = {
+                add = 15
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+            }
             modifier = {
 				factor = 0
 				NAND =  {
@@ -6728,4 +6734,193 @@ agot_northern_high_nobles = {
 			}
 		}
 	}
+
+	## Northern Dress 1
+    asoiaf_north_dress_1_high = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = female_clothes_asoiaf_north_dress_1_high
+                type = female
+            }
+			accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = female_legwear_asoiaf_shoes_1
+				type = female
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = the_north } 
+            modifier = {
+                add = 20
+                portrait_imperial_trigger = { 
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 20
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 20
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 5
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = the_north
+                } 
+            }  
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_north_rule_on
+                }
+			}
+            modifier = {
+				factor = 0
+				has_character_modifier = agot_tomboy_modifier #tomboys don't wear feminine dresses
+			}
+			modifier = {
+				factor = 0
+				is_female = no #women only
+			}
+        }
+    }
+    asoiaf_north_dress_1_low = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = female_clothes_asoiaf_north_dress_1_low
+                type = female
+            }
+			accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = female_legwear_asoiaf_shoes_1
+				type = female
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = the_north } 
+            modifier = {
+                add = 10
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 10
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 20
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 10
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+            }
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_north_rule_on
+                }
+			}
+            modifier = {
+				factor = 0
+				has_character_modifier = agot_tomboy_modifier #tomboys don't wear feminine dresses
+			}
+			modifier = {
+				factor = 0
+				is_female = no #women only
+			}
+        }
+    }
+
+    #Simple Northen Dress
+    asoiaf_north_dress_2 = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = female_clothes_asoiaf_north_dress_2
+                type = female
+            }
+			accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = female_legwear_asoiaf_leather_boots_1
+				type = female
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = the_north }
+            modifier = {
+                add = 5
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+            }
+            modifier = {
+                add = 10
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 10
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 20
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 30
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+            }
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_north_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_female = no #women only
+			}
+        }
+    }
 }

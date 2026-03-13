@@ -221,14 +221,6 @@
 		is_valid_custom = {
 			is_agot_plus_loaded_trigger = yes
 		}
-		template = asoiaf_crowns
-	}
-	
-	add_accessory_modifiers = { #AGOT+
-		gene = headgear
-		is_valid_custom = {
-			is_agot_plus_loaded_trigger = yes
-		}
 		template = asoiaf_all_helms
 	}
 
@@ -238,14 +230,6 @@
 			is_agot_plus_loaded_trigger = yes
 		}
 		template = asoiaf_unique_headgears
-	}
-
-	add_accessory_modifiers = { #AGOT+
-		gene = headgear
-		is_valid_custom = {
-			is_agot_plus_loaded_trigger = yes
-		}
-		template = asoiaf_fots_religious_headgears
 	}
 
 		## TGP Chinese ##
