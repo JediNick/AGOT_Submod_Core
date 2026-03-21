@@ -13,6 +13,24 @@
 		template = agot_all_legwear
 	}
 	
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = legwear
+		template = ccp4_wildling_legwear
+		is_valid_custom = {
+			has_cp4_dlc_trigger = yes
+		}
+	}
+
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = legwear
+		template = ccp7_wildling_legwear
+		is_valid_custom = {
+			has_cp7_dlc_trigger = yes
+		}
+	}
+
 	## CCP7 Emishi Ainu Nivkh ##
 
 	add_accessory_modifiers = {

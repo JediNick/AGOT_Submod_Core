@@ -7314,7 +7314,7 @@ fp3_turkic_high_nobles = {
 				is_crowns_westeros_loaded_trigger = yes
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_mariah_martell_artifact }}
 				agot_default_wear_crown_trigger = yes
-				has_character_flag = is_martell_79  # Myriah
+				has_character_flag = is_Martell_79  # Myriah
 			}
 		}
 	}
@@ -7662,7 +7662,7 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = calla_blackfyre_circlet_artifact }}
 				agot_default_wear_crown_trigger = yes
-				has_character_flag = is_Blackfyre_3  # Calla Blackfyre
+				has_inactive_trait = is_Blackfyre_3  # Calla Blackfyre
 			}
 		}
 	}
@@ -7755,13 +7755,13 @@ fp3_turkic_high_nobles = {
 				OR = {
 					AND = {
 						agot_default_wear_crown_trigger = yes
-						has_character_flag = is_arryn_20  # Roland Arryn
+						has_character_flag = is_Arryn_20  # Roland Arryn
 						AND = {
 							exists = character:Arryn_20
 							this = character:Arryn_20 # Roland Arryn
 						}
 					}
-					has_inactive_trait = roland_crown_bandit
+					has_character_flag = roland_crown_bandit
 				}
 			}
 		}
@@ -7875,7 +7875,7 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_maesteraemon_artifact }}
 				agot_default_wear_crown_trigger = yes
-				has_character_flag = is_targaryen_120  # Aemon Targaryen (Maester)
+				has_character_flag = is_Targaryen_120  # Aemon Targaryen (Maester)
 			}
 		}
 	}
@@ -7897,7 +7897,7 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_aegontheuncrowned_artifact }}
 				agot_default_wear_crown_trigger = yes
-				has_character_flag = is_targaryen_33  # Aegon the Uncrowned
+				has_character_flag = is_Targaryen_33  # Aegon the Uncrowned
 			}
 		}
 	}
@@ -7963,7 +7963,7 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_valarr_artifact }}
 				agot_default_wear_crown_trigger = yes
-				has_character_flag = is_targaryen_111  # Valarr Targaryen
+				has_character_flag = is_Targaryen_111  # Valarr Targaryen
 			}
 		}
 	}
@@ -8924,7 +8924,10 @@ fp3_turkic_high_nobles = {
 				is_crowns_westeros_loaded_trigger = yes
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = baldric_durrandon_crown_artifact }}
 				agot_default_wear_crown_trigger = yes
-				has_character_flag = is_Durrandon_51 # Baldric the Cunning
+				AND = {
+					exists = character:Durrandon_51
+					this = character:Durrandon_51 # Baldric the Cunning
+				}
 			}
 		}
 	}
@@ -9129,7 +9132,7 @@ fp3_turkic_high_nobles = {
 				has_game_rule = show_dynamic_crowns_enabled
 				NOT = { agot_has_artifact_equipped = { ARTIFACT_VARIABLE = crown_of_bloodraven_artifact }}
 				agot_default_wear_crown_trigger = yes
-				has_character_flag = is_Targaryen_96c # Bloodraven
+				has_inactive_trait = is_Targaryen_96 # Bloodraven
 			}
 		}
 	}

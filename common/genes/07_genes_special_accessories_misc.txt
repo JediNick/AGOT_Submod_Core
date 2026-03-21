@@ -610,7 +610,35 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-	
+		
+		ccp4_wildling_legwear = {
+			index = 34
+			male = {
+				1 = m_legwear_sec_ccp4_wildling_com_01
+				1 = m_legwear_sec_ccp4_wildling_com_02
+			}
+			female = {
+				1 = f_legwear_sec_ccp4_wildling_com_01
+				1 = f_legwear_sec_ccp4_wildling_com_02
+			}
+			boy = male
+			girl = female
+		}
+
+		ccp7_wildling_legwear = {
+			index = 35
+			male = {
+				1 = m_legwear_sec_ccp7_wildling_com_01
+				1 = m_legwear_sec_ccp7_wildling_com_02
+			}
+			female = {
+				1 = f_legwear_sec_ccp7_wildling_com_01
+				1 = f_legwear_sec_ccp7_wildling_com_02
+			}
+			boy = male
+			girl = female
+		}
+		
 		##AGOT SUBMOD CORE ADDED		
 		kingsguard_legwear_01 = {
 			index = 90

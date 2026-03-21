@@ -4928,9 +4928,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = aegonI_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = aegonIcrown_prop
 			}
 		}
 	}
@@ -4939,9 +4939,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = aegonIII_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = aegonIIIcrown_prop
 			}
 		}
 	}
@@ -4950,9 +4950,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = aegonIV_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = aegonIVcrown_prop
 			}
 		}
 	}
@@ -4961,9 +4961,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = aenysI_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = aenysIcrown_prop
 			}
 		}
 	}
@@ -4972,9 +4972,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = alysanne_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = alysannecrown_prop
 			}
 		}
 	}
@@ -4983,9 +4983,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = beyondthewall_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = beyondthewallcrown_prop
 			}
 		}
 	}
@@ -4994,9 +4994,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = blackwood_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = blackwood_crown_prop
 			}
 		}
 	}
@@ -5005,9 +5005,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = bolton_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = bolton_crown_prop
 			}
 		}
 	}
@@ -5016,9 +5016,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = boltonskin_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = boltonskincrown_prop
 			}
 		}
 	}
@@ -5027,9 +5027,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = cannibal_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = cannibalcrown_prop
 			}
 		}
 	}
@@ -5038,9 +5038,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = cargyll_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = cargyll_crown_prop
 			}
 		}
 	}
@@ -5049,9 +5049,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = circlet_of_rhllor
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = circlet_of_rhllor_prop
 			}
 		}
 	}
@@ -5060,9 +5060,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = crown_of_bear_island
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_bear_island_prop
 			}
 		}
 	}
@@ -5071,9 +5071,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = crown_of_castamere
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_castamere_prop
 			}
 		}
 	}
@@ -5082,9 +5082,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = crown_of_crakehall
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_crakehall_prop
 			}
 		}
 	}
@@ -5093,9 +5093,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = crown_of_darklyn
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_darklyn_prop
 			}
 		}
 	}
@@ -5104,9 +5104,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = crown_of_deep_den
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_deep_den_prop
 			}
 		}
 	}
@@ -5115,9 +5115,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = crown_of_deep_winter_roses
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_deep_winter_roses_prop
 			}
 		}
 	}
@@ -5126,273 +5126,21 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = crown_of_dondarrion
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_dondarrion_prop
 			}
 		}
 	}
 
-	crown_of_first_men = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_first_men
-				value = 1
-			}
-		}
-	}
-
-	crown_of_gardener_peace = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_gardener_peace
-				value = 1
-			}
-		}
-	}
-
-	crown_of_gardener_war_iron = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_gardener_war_iron
-				value = 1
-			}
-		}
-	}
-
-	crown_of_hearts_home = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_hearts_home
-				value = 1
-			}
-		}
-	}
-
-	crown_of_hellholt = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_hellholt
-				value = 1
-			}
-		}
-	}
-
-	crown_of_jeyne_westerling = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_jeyne_westerling
-				value = 1
-			}
-		}
-	}
-
-	crown_of_mudd_coa = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_mudd_coa
-				value = 1
-			}
-		}
-	}
-
-	crown_of_mudd = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_mudd
-				value = 1
-			}
-		}
-	}
-
-	crown_of_rhllor = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_rhllor
-				value = 1
-			}
-		}
-	}
-
-	crown_of_the_andals = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_the_andals
-				value = 1
-			}
-		}
-	}
-
-	crown_of_the_andals_silver = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_the_andals_silver
-				value = 1
-			}
-		}
-	}
-
-	crown_of_the_banefort = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_the_banefort
-				value = 1
-			}
-		}
-	}
-
-	crown_of_the_grey_king_rusted = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_the_grey_king_rusted
-				value = 1
-			}
-		}
-	}
-
-	crown_of_the_nights_king = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_the_nights_king
-				value = 1
-			}
-		}
-	}
-
-	crown_of_the_old_gods = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_the_old_gods
-				value = 1
-			}
-		}
-	}
-
-	crown_of_the_seven = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_the_seven
-				value = 1
-			}
-		}
-	}
-
-	crown_of_the_tides = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_the_tides
-				value = 1
-			}
-		}
-	}
-
-	crown_of_the_wall = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_the_wall
-				value = 1
-			}
-		}
-	}
-
-	crown_of_true_winter = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_true_winter
-				value = 1
-			}
-		}
-	}
-
-	crown_of_westerling = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_westerling
-				value = 1
-			}
-		}
-	}
-
-	crown_of_westerosi_diadem = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_westerosi_diadem
-				value = 1
-			}
-		}
-	}
-
-	crown_of_westerosi_diadem_silver = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_westerosi_diadem_silver
-				value = 1
-			}
-		}
-	}
-
-	crown_of_winter_roses = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = props_left
-				template = crown_of_winter_roses
-				value = 1
-			}
-		}
-	}
-
+		
 	crownofhugor = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = crownofhugor
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crownofhugor_prop
 			}
 		}
 	}
@@ -5401,9 +5149,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = crownofwinter
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crownofwinter_prop
 			}
 		}
 	}
@@ -5412,9 +5160,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = daemon_queen_stepstone_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = daemon_queen_stepstone_crown_prop
 			}
 		}
 	}
@@ -5423,9 +5171,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = daemon_stepstone_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = daemon_stepstone_crown_prop
 			}
 		}
 	}
@@ -5434,9 +5182,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = daemonblackfyre_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = daemonblackfyre_crown_prop
 			}
 		}
 	}
@@ -5445,9 +5193,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = daenerys_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = daeneryscrown_prop
 			}
 		}
 	}
@@ -5456,9 +5204,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = dayne_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = dayne_crown_prop
 			}
 		}
 	}
@@ -5467,9 +5215,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = dorne_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = dornecrown_prop
 			}
 		}
 	}
@@ -5478,9 +5226,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = dornish_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = dornish_crown_prop
 			}
 		}
 	}
@@ -5489,9 +5237,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = driftwood_crown1
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = driftwoodcrown1_prop
 			}
 		}
 	}
@@ -5500,9 +5248,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = dustin_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = dustin_crown_prop
 			}
 		}
 	}
@@ -5511,9 +5259,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = falcon_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = falcon_crown_prop
 			}
 		}
 	}
@@ -5522,9 +5270,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = floreal_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = florealcrown_prop
 			}
 		}
 	}
@@ -5533,9 +5281,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = florent_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = florent_crown_prop
 			}
 		}
 	}
@@ -5544,9 +5292,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = frey_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = frey_crown_prop
 			}
 		}
 	}
@@ -5555,9 +5303,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = greyjoy_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = greyjoy_crown_prop
 			}
 		}
 	}
@@ -5566,9 +5314,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = harlaw_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = harlaw_crown_prop
 			}
 		}
 	}
@@ -5577,9 +5325,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = hightower_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = hightower_crown_prop
 			}
 		}
 	}
@@ -5588,9 +5336,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = ironisles_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = ironislescrown_prop
 			}
 		}
 	}
@@ -5599,9 +5347,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = ironstag_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = ironstagcrown_prop
 			}
 		}
 	}
@@ -5610,9 +5358,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = jaehaerysI_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = jaehaerysIcrown_prop
 			}
 		}
 	}
@@ -5621,9 +5369,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = joffreyI_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = joffreyIcrown_prop
 			}
 		}
 	}
@@ -5632,9 +5380,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = maekarI_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = maekarIcrown_prop
 			}
 		}
 	}
@@ -5643,20 +5391,20 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = manderly_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = manderly_crown_prop
 			}
 		}
 	}
 
-	queen_of_love_and_beauty_rose_crown_generic = {
+		queen_of_love_and_beauty_rose_crown_generic = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = queen_of_love_and_beauty_rose_crown_generic
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = queen_of_love_and_beauty_rose_crown_generic_prop
 			}
 		}
 	}
@@ -5665,9 +5413,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = queen_of_love_and_beauty_rose_crown_03
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = queen_of_love_and_beauty_rose_crown_03_prop
 			}
 		}
 	}
@@ -5676,9 +5424,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = queen_of_love_and_beauty_rose_crown_04
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = queen_of_love_and_beauty_rose_crown_04_prop
 			}
 		}
 	}
@@ -5687,9 +5435,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = queen_of_love_and_beauty_rose_crown_05
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = queen_of_love_and_beauty_rose_crown_05_prop
 			}
 		}
 	}
@@ -5698,9 +5446,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = queen_of_love_and_beauty_rose_crown_06
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = queen_of_love_and_beauty_rose_crown_06_prop
 			}
 		}
 	}
@@ -5709,9 +5457,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = reach_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = reach_crown_prop
 			}
 		}
 	}
@@ -5720,9 +5468,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = reachman_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = reachman_crown_prop
 			}
 		}
 	}
@@ -5731,9 +5479,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = redwyne_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = redwyne_crown_prop
 			}
 		}
 	}
@@ -5742,9 +5490,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = reed_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = reed_crown_prop
 			}
 		}
 	}
@@ -5753,9 +5501,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = renly_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = renlycrown_prop
 			}
 		}
 	}
@@ -5764,9 +5512,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = rhaella_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = rhaellacrown_prop
 			}
 		}
 	}
@@ -5775,9 +5523,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = rhaenys_circlet
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = rhaenys_circlet_prop
 			}
 		}
 	}
@@ -5786,9 +5534,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = riverlands_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = riverlandscrown_prop
 			}
 		}
 	}
@@ -5797,9 +5545,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = robertI_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = robertIcrown_prop
 			}
 		}
 	}
@@ -5808,9 +5556,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = royce_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = royce_crown_prop
 			}
 		}
 	}
@@ -5819,9 +5567,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = stannis_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = stanniscrown_prop
 			}
 		}
 	}
@@ -5830,9 +5578,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = stormlands_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = stormlandscrown_prop
 			}
 		}
 	}
@@ -5841,9 +5589,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = stormlander_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = stormlander_crown_prop
 			}
 		}
 	}
@@ -5852,9 +5600,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = swann_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = swann_crown_prop
 			}
 		}
 	}
@@ -5863,9 +5611,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = tarly_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = tarly_crown_prop
 			}
 		}
 	}
@@ -5874,9 +5622,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = tarth_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = tarth_crown_prop
 			}
 		}
 	}
@@ -5885,9 +5633,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = tully_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = tully_crown_prop
 			}
 		}
 	}
@@ -5896,9 +5644,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = umber_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = umber_crown_prop
 			}
 		}
 	}
@@ -5907,9 +5655,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = valeman_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = valeman_crown_prop
 			}
 		}
 	}
@@ -5918,9 +5666,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = valyrian_crown1
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = valyriancrown1_prop
 			}
 		}
 	}
@@ -5929,9 +5677,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = valyrian_crown2
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = valyrian_crown2_prop
 			}
 		}
 	}
@@ -5940,9 +5688,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = visenya_circlet
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = visenya_circlet_prop
 			}
 		}
 	}
@@ -5951,9 +5699,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = westerlands2_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = westerlands2crown_prop
 			}
 		}
 	}
@@ -5962,9 +5710,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = westerlander2_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = westerlander2_crown_prop
 			}
 		}
 	}
@@ -5973,9 +5721,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = westerlands_crown
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = westerlandscrown_prop
 			}
 		}
 	}
@@ -5984,9 +5732,9 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = westerosi_valyrian_crown1
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = westerosi_valyrian_crown1_prop
 			}
 		}
 	}
@@ -5995,9 +5743,262 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = props_left
-				template = westerosi_valyrian_crown2
-				value = 1
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = westerosi_valyrian_crown2_prop
+			}
+		}
+	}
+
+	crown_of_first_men = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_first_men_prop
+			}
+		}
+	}
+	
+	crown_of_gardener_peace = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_gardener_peace_prop
+			}
+		}
+	}
+	
+	crown_of_gardener_war_iron = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_gardener_war_iron_prop
+			}
+		}
+	}
+	
+	crown_of_hearts_home = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_hearts_home_prop
+			}
+		}
+	}
+	
+	crown_of_hellholt = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_hellholt_prop
+			}
+		}
+	}
+	
+	crown_of_jeyne_westerling = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_jeyne_westerling_prop
+			}
+		}
+	}
+	
+	crown_of_mudd_coa = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_mudd_coa_prop
+			}
+		}
+	}
+	
+	crown_of_mudd = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_mudd_prop
+			}
+		}
+	}
+	
+	crown_of_rhllor = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_rhllor_prop
+			}
+		}
+	}
+	
+	crown_of_the_andals = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_the_andals_prop
+			}
+		}
+	}
+	
+	crown_of_the_andals_silver = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_the_andals_silver_prop
+			}
+		}
+	}
+	
+	crown_of_the_banefort = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_the_banefort_prop
+			}
+		}
+	}
+	
+	crown_of_the_grey_king_rusted = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_the_grey_king_rusted_prop
+			}
+		}
+	}
+	
+	crown_of_the_nights_king = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_the_nights_king_prop
+			}
+		}
+	}
+	
+	crown_of_the_old_gods = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_the_old_gods_prop
+			}
+		}
+	}
+	
+	crown_of_the_seven = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_the_seven_prop
+			}
+		}
+	}
+	
+	crown_of_the_tides = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_the_tides_prop
+			}
+		}
+	}
+	
+	crown_of_the_wall = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_the_wall_prop
+			}
+		}
+	}
+	
+	crown_of_true_winter = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_true_winter_prop
+			}
+		}
+	}
+	
+	crown_of_westerling = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_westerling_prop
+			}
+		}
+	}
+	
+	crown_of_westerosi_diadem = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_westerosi_diadem_prop
+			}
+		}
+	}
+	
+	crown_of_westerosi_diadem_silver = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_westerosi_diadem_silver_prop
+			}
+		}
+	}
+	
+	crown_of_winter_roses = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left_crowns
+				template = agot_crowns
+				accessory = crown_of_winter_roses_prop
 			}
 		}
 	}

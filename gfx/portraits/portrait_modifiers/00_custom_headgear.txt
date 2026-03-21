@@ -25,6 +25,18 @@
 		template = agot_most_headgears
 	}
 	
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = headgear
+		template = agot_wildling_dlc
+		is_valid_custom = {
+			OR = {
+				has_cp4_dlc_trigger = yes
+				has_cp7_dlc_trigger = yes
+			}
+		}
+	}
+
 	##ccp9
 
     add_accessory_modifiers = {

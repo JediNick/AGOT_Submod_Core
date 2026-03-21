@@ -1275,7 +1275,7 @@ cloaks = {
 				mode = add
 				gene = cloaks
 				template = nw_fur_01
-				value = 1
+				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
 		weight = {
@@ -1286,6 +1286,7 @@ cloaks = {
 					has_trait = nightswatch
 					has_trait = nightswatch_temp
 					has_trait = nightswatch_historical
+					has_character_flag = post_nw_reclaim_quest
 				}
 			}
 		}

@@ -3898,6 +3898,7 @@ special_genes = {
 					1 = empty #65 # naerys_hood_01
 					1 = empty #66 # naerys_hood_02
 					1 = empty #67 # naerys_hood_03
+					1 = male_headgear_secular_reach_rowan_war_03 #68
 				}
 				female = {
 					1 = female_braavosi_hat_01_low #1
@@ -3967,6 +3968,7 @@ special_genes = {
 					1 = naerys_hood_01 #65
 					1 = naerys_hood_02 #66
 					1 = naerys_hood_03 #67
+					1 = empty  #68 # male_headgear_secular_reach_rowan_war_03
 				}
 				boy = male
 				girl = female
@@ -4247,23 +4249,12 @@ special_genes = {
 				male = {
 					1 = male_headgear_secular_dorne_war_03
 					1 = male_headgear_secular_dorne_war_04
-				}
-				female = {
-					1 = female_headgear_secular_dorne_war_03
-					1 = female_headgear_secular_dorne_war_04
-				}
-				boy = male
-				girl = female
-			}
-
-			#AGOT Added
-			Dorne_Helm_3_Copper_Dynamic = {
-				index = 244
-				male = {
 					1 = male_headgear_secular_dorne_copper_war_03
 					1 = male_headgear_secular_dorne_copper_war_04
 				}
 				female = {
+					1 = female_headgear_secular_dorne_war_03
+					1 = female_headgear_secular_dorne_war_04
 					1 = female_headgear_secular_dorne_copper_war_03
 					1 = female_headgear_secular_dorne_copper_war_04
 				}
@@ -4273,7 +4264,7 @@ special_genes = {
 
 			#AGOT Added
 			Dorne_Helm_3_Martell_Dynamic = {
-				index = 245
+				index = 244
 				male = {
 					1 = male_headgear_secular_dorne_martell_war_03
 					1 = male_headgear_secular_dorne_martell_war_04
@@ -4285,45 +4276,38 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-
 			#AGOT Added
-			hedge_knight_dynamic_1 = {
-				index = 246
+			##0 - 0.5 for hedge_knight_dynamic_1
+			##0.5 - 1.0 for hedge_knight_dynamic_2
+			hedge_knight_dynamic = {
+				index = 245
 				male = {
 					1 = male_headgear_hedge_knight_war_01
 					1 = male_headgear_kettle_hat_01
-				}
-				female = {
-					1 = female_headgear_hedge_knight_war_01
-					1 = female_headgear_kettle_hat_01
-				}
-				boy = male
-				girl = female
-			}
-
-			#AGOT Added
-			hedge_knight_dynamic_2 = {
-				index = 247
-				male = {
 					1 = male_headgear_hedge_knight_war_01
 					1 = male_headgear_kettle_hat_02
 				}
 				female = {
 					1 = female_headgear_hedge_knight_war_01
+					1 = female_headgear_kettle_hat_01
+					1 = female_headgear_hedge_knight_war_01
 					1 = female_headgear_kettle_hat_02
 				}
 				boy = male
 				girl = female
-			}
+			}	
 
-			#AGOT Added
-			agot_headgear_special = {
-				index = 248
+		agot_wildling_dlc = {
+				index = 246
 				male = {
-					1 = male_headgear_secular_reach_rowan_war_03
+					1 = empty
+					1 = male_headgear_secular_wildling_common_01
+					1 = male_headgear_secular_wildling_common_02
+					1 = m_headgear_sec_ccp4_wildling_hood_01
 				}
 				female = {
-					0 = female_headgear_secular_western_high_nobility_01
+					2 = empty
+					1 = female_headgear_secular_wildling_common_01
 				}
 				boy = male
 				girl = female

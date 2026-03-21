@@ -6907,7 +6907,7 @@ agot_northern_high_nobles = {
             modifier = {
                 add = 30
                 portrait_commoner_clothing_trigger = {
-                    CULTURE_INPUT = western
+                    CULTURE_INPUT = the_north
                 }
             }
             modifier = {
@@ -6920,6 +6920,242 @@ agot_northern_high_nobles = {
 			modifier = {
 				factor = 0
 				is_female = no #women only
+			}
+        }
+    }
+
+	#Simple Northern Jerkin
+    asoiaf_north_jerkin_1 = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_north_jerkin_1
+            }
+			accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = male_legwear_asoiaf_leather_boots_4
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = the_north }
+            modifier = {
+                add = 5
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+            }
+            modifier = {
+                add = 5
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 10
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 20
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 30
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+            }
+            modifier = {
+                add = 10
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = western
+                }
+            }
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_north_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+        }
+    }
+
+	#Fur-Collared Northern Jerkin
+    asoiaf_north_jerkin_2_high = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_north_jerkin_2_high
+            }
+			accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = male_legwear_asoiaf_leather_boots_6
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = the_north }
+            modifier = {
+                add = 15
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+            }
+            modifier = {
+                add = 15
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+            }
+            modifier = {
+                add = 15
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+            }
+            modifier = {
+                add = 5
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+            }
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_north_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+        }
+    }
+    asoiaf_north_jerkin_2_low = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_north_jerkin_2_low
+            }
+			accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = male_legwear_asoiaf_leather_boots_6
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = the_north }
+            modifier = {
+                add = 10
+                portrait_royalty_trigger = { 
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 10
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 15
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = the_north
+                } 
+            }
+            modifier = {
+                add = 10
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+            }
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_north_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
+			}
+        }
+    }
+    asoiaf_north_jerkin_2_coa = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = asoiaf_unique_clothes
+				accessory = male_clothes_asoiaf_north_jerkin_2_coa
+            }
+			accessory = {
+                mode = add
+                gene = legwear
+                template = asoiaf_all_legwears
+                accessory = male_legwear_asoiaf_leather_boots_6
+            }
+        }       
+        weight = {
+            base = 0
+            #court_fashion_level_5_modifier = { INPUT_PARAMETER = the_north }
+            modifier = {
+                add = 15
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+            }
+            modifier = {
+                add = 15
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+            }
+            modifier = {
+                add = 15
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+            }
+            modifier = {
+                add = 5
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = the_north
+                }
+            }
+            modifier = {
+				factor = 0
+				NAND =  {
+                    is_agot_plus_loaded_trigger = yes
+                    has_game_rule = asoiaf_new_clothes_north_rule_on
+                }
+			}
+			modifier = {
+				factor = 0
+				is_male = no #men only
 			}
         }
     }

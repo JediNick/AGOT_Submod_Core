@@ -18,6 +18,8 @@ agot_apply_inactive_traits_on_death = {
 
 	agot_one_eyed_death_effect = yes
 
+	agot_government_type_death_effect = yes
+
 	if = {
 		limit = {
 			agot_flavour_palatinate_is_kingdom_trigger = { CHAR = this }
