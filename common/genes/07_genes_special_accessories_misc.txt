@@ -692,7 +692,9 @@ accessory_genes = {
 				1 = male_legwear_asoiaf_leather_boots_4
 				1 = male_legwear_asoiaf_leather_boots_5
 				1 = male_legwear_asoiaf_leather_boots_6
+				1 = male_legwear_asoiaf_leather_boots_7
 				1 = male_legwear_asoiaf_blacksmith_legs
+				1 = male_legwear_asoiaf_huntsman_legs
 			}
 			female = {
 				1 = female_legwear_asoiaf_dragonstone_legs
@@ -704,6 +706,7 @@ accessory_genes = {
 				1 = female_legwear_asoiaf_leather_boots_1
 				1 = female_legwear_asoiaf_shoes_1
 				1 = female_legwear_asoiaf_blacksmith_legs
+				1 = female_legwear_asoiaf_huntsman_legs
 			}
 			boy = male
 			girl = female

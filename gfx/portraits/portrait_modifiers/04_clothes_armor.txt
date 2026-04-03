@@ -5256,11 +5256,6 @@
 					CULTURE_INPUT = the_north
 				}
 			}
-			modifier = {
-				add = agot_character_portrait_modifier        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
-				portrait_the_north_clothing_trigger = yes
-				portrait_wear_armor_currently_in_army_trigger = yes
-			}
 		}
 	}
 
@@ -5305,12 +5300,6 @@
 					}
 				}
 				house ?= dynasty:dynn_Stark.dynasty_founder.house
-			}
-			modifier = {
-				add = agot_character_portrait_modifier        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
-				portrait_the_north_clothing_trigger = yes
-				house ?= dynasty:dynn_Stark.dynasty_founder.house
-				portrait_wear_armor_currently_in_army_trigger = yes
 			}
 		}
 	}
@@ -5868,7 +5857,7 @@
 				mode = add
 				gene = clothes
 				template = agot_all_armors
-				accessory = male_clothes_north_war_ned_01
+				accessory = male_clothes_north_war_ned_coa_01
 			}
 			accessory = {
 				mode = add
