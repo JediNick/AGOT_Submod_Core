@@ -5293,6 +5293,7 @@ special_genes = {
 					1 = female_clothes_asoiaf_north_dress_1_low
 					1 = female_clothes_asoiaf_north_dress_1_catelyn
 					1 = female_clothes_asoiaf_north_dress_1_catelyn_ceremonial
+					1 = female_clothes_asoiaf_north_dress_1_sansa
 					1 = female_clothes_asoiaf_north_dress_2
 					1 = female_clothes_asoiaf_westerlands_mourning_1
 					1 = female_clothes_asoiaf_reach_gown_1
