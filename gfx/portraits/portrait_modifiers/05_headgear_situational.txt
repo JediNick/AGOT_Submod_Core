@@ -6829,8 +6829,14 @@
 					has_game_rule = crown_only_visuals 
 				}
 				OR = {
-					is_character_targaryen_65 = yes # Aegon II
-					is_character_targaryen_81 = yes # Daeron I
+					AND = {
+						exists = character:Targaryen_65
+						this = character:Targaryen_65
+					}
+					AND = {
+						exists = character:Targaryen_81
+						this = character:Targaryen_81
+					}
 				}
 			}
 			modifier = {

@@ -5340,11 +5340,6 @@
 					CULTURE_INPUT = the_north
 				}
 			}
-			modifier = {
-				add = agot_character_portrait_modifier        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
-				portrait_the_north_clothing_trigger = yes
-				portrait_wear_armor_currently_in_army_trigger = yes
-			}
 		}
 	}
 

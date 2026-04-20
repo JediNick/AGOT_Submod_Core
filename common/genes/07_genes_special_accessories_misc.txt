@@ -678,6 +678,8 @@ accessory_genes = {
 				1 = male_legwear_asoiaf_dragonstone_legs
 				1 = male_legwear_secular_asoiaf_north_war_plate_legs
 				1 = male_legwear_asoiaf_bolton_legs
+				1 = male_legwear_asoiaf_umber_legs
+				1 = male_legwear_asoiaf_umber_legs_coa
 				1 = male_legwear_secular_asoiaf_lannister_war_plate_2_legs
 				1 = male_legwear_asoiaf_hound_legs
 				1 = male_legwear_asoiaf_gold_cloak_legs
@@ -699,6 +701,8 @@ accessory_genes = {
 			female = {
 				1 = female_legwear_asoiaf_dragonstone_legs
 				1 = female_legwear_asoiaf_bolton_legs
+				1 = female_legwear_asoiaf_umber_legs
+				1 = female_legwear_asoiaf_umber_legs_coa
 				1 = female_legwear_asoiaf_hound_legs
 				1 = female_legwear_asoiaf_gold_cloak_legs
 				1 = female_legwear_asoiaf_greyjoy_legs
@@ -839,7 +843,8 @@ accessory_genes = {
 				1 = m_cloaks_sec_ep2_western_travel_01
 				1 = m_cloaks_sec_ep2_mena_travel_01
 				1 = m_cloaks_sec_fp4_western_era3_nob_01
-				1 = m_cloaks_sec_fp4_western_era3_nob_02
+				1 = m_cloaks_sec_fp4_western_era3_nob_02_a
+				1 = m_cloaks_sec_fp4_western_era3_nob_02_b
 				1 = m_cloaks_sec_ep3_byzantine_era2_imp_01_loros
 				1 = m_cloaks_sec_sp3_western_roy_01
 				1 = m_cloaks_ep3_byzantine_era1_nob_01
@@ -861,7 +866,8 @@ accessory_genes = {
 				1 = f_cloaks_sec_ep2_western_travel_01
 				1 = f_cloaks_sec_ep2_mena_travel_01
 				1 = f_cloaks_sec_fp4_western_era3_nob_01
-				1 = f_cloaks_sec_fp4_western_era3_nob_02
+				1 = f_cloaks_sec_fp4_western_era3_nob_02_a
+				1 = f_cloaks_sec_fp4_western_era3_nob_02_b
 				1 = f_cloaks_sec_afr_common_01
 				1 = f_cloaks_sec_afr_low_nob_01
 				1 = f_cloaks_sec_afr_high_nob_01
@@ -1018,11 +1024,13 @@ accessory_genes = {
 				index = 13
 				male = {
 					1 = m_cloaks_sec_fp4_western_era3_nob_01
-					1 = m_cloaks_sec_fp4_western_era3_nob_02
+					1 = m_cloaks_sec_fp4_western_era3_nob_02_a
+					1 = m_cloaks_sec_fp4_western_era3_nob_02_b
 				}
 				female = {
 					1 = f_cloaks_sec_fp4_western_era3_nob_01
-					1 = f_cloaks_sec_fp4_western_era3_nob_02
+					1 = f_cloaks_sec_fp4_western_era3_nob_02_a
+					1 = f_cloaks_sec_fp4_western_era3_nob_02_b
 				}
 				boy = male
 				girl = female
@@ -2613,9 +2621,18 @@ props_left = {
 		boy = male
 		girl = female
 	}
+	pdt_crutch_01_a = {
+		index = 103
+		male = {
+			1 = pdt_crutch_01_a_portrait
+		}
+		female = male
+		boy = male
+		girl = female
+	}
 #AGOT Added
 	agot_weirwood_longbow_left = {
-			index = 103
+		index = 104
 		male = {
 			1 = agot_weirwood_longbow_left_hand
 		}
@@ -2624,7 +2641,7 @@ props_left = {
 		girl = female
 	}
 	agot_weirwood_longbow_drawn_left = {
-		index = 104
+		index = 105
 		male = {
 			1 = agot_weirwood_longbow_drawn_left_hand
 		}
@@ -2633,7 +2650,7 @@ props_left = {
 		girl = female
 	}
 	agot_dragonbone_longbow_left = {
-		index = 105
+		index = 106
 		male = {
 			1 = agot_dragonbone_longbow_left_hand
 		}
@@ -2642,7 +2659,7 @@ props_left = {
 		girl = female
 	}
 	agot_dragonbone_longbow_drawn_left = {
-		index = 106
+		index = 107
 		male = {
 			1 = agot_dragonbone_longbow_drawn_left_hand
 		}
@@ -2651,7 +2668,7 @@ props_left = {
 		girl = female
 	}
 	agot_gold_mirror = {
-		index = 107
+		index = 108
 		male = {
 			1 = mirror_gold
 		}
@@ -2660,7 +2677,7 @@ props_left = {
 		girl = female
 	}
 	agot_silver_mirror = {
-		index = 108
+		index = 109
 		male = {
 			1 = mirror_silver
 		}
@@ -2669,7 +2686,7 @@ props_left = {
 		girl = female
 	}
 	agot_valyrian_mirror = {
-		index = 109
+		index = 110
 		male = {
 			1 = mirror_valyrian
 		}
@@ -2678,991 +2695,10 @@ props_left = {
 		girl = female
 	}
 	agot_dragonbinder_horn = {
-		index = 110
+		index = 111
 		male = {
 			1 = horn_dragonbinder
 }
-		female = male
-		boy = male
-		girl = female
-	}
-
-	#AGOT Crowns
-	aegonI_crown = {
-		index = 111
-		male = {
-			1 = aegonIcrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	aegonIII_crown = {
-		index = 112
-		male = {
-			1 = aegonIIIcrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	aegonIV_crown = {
-		index = 113
-		male = {
-			1 = aegonIVcrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	aenysI_crown = {
-		index = 114
-		male = {
-			1 = aenysIcrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	alysanne_crown = {
-		index = 115
-		male = {
-			1 = alysannecrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	beyondthewall_crown = {
-		index = 116
-		male = {
-			1 = beyondthewallcrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	blackwood_crown = {
-		index = 117
-		male = {
-			1 = blackwood_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	bolton_crown = {
-		index = 118
-		male = {
-			1 = bolton_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	boltonskin_crown = {
-		index = 119
-		male = {
-			1 = boltonskincrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	cannibal_crown = {
-		index = 120
-		male = {
-			1 = cannibalcrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	cargyll_crown = {
-		index = 121
-		male = {
-			1 = cargyll_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	circlet_of_rhllor = {
-		index = 122
-		male = {
-			1 = circlet_of_rhllor_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_bear_island = {
-		index = 123
-		male = {
-			1 = crown_of_bear_island_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_castamere = {
-		index = 124
-		male = {
-			1 = crown_of_castamere_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_crakehall = {
-		index = 125
-		male = {
-			1 = crown_of_crakehall_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_darklyn = {
-		index = 126
-		male = {
-			1 = crown_of_darklyn_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_deep_den = {
-		index = 127
-		male = {
-			1 = crown_of_deep_den_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_deep_winter_roses = {
-		index = 128
-		male = {
-			1 = crown_of_deep_winter_roses_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_dondarrion = {
-		index = 129
-		male = {
-			1 = crown_of_dondarrion_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_first_men = {
-		index = 130
-		male = {
-			1 = crown_of_first_men_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_gardener_peace = {
-		index = 131
-		male = {
-			1 = crown_of_gardener_peace_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_gardener_war_iron = {
-		index = 132
-		male = {
-			1 = crown_of_gardener_war_iron_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_hearts_home = {
-		index = 133
-		male = {
-			1 = crown_of_hearts_home_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_hellholt = {
-		index = 134
-		male = {
-			1 = crown_of_hellholt_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_jeyne_westerling = {
-		index = 135
-		male = {
-			1 = crown_of_jeyne_westerling_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_mudd_coa = {
-		index = 136
-		male = {
-			1 = crown_of_mudd_coa_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_mudd = {
-		index = 137
-		male = {
-			1 = crown_of_mudd_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_rhllor = {
-		index = 138
-		male = {
-			1 = crown_of_rhllor_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_the_andals = {
-		index = 139
-		male = {
-			1 = crown_of_the_andals_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_the_andals_silver = {
-		index = 140
-		male = {
-			1 = crown_of_the_andals_silver_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_the_banefort = {
-		index = 141
-		male = {
-			1 = crown_of_the_banefort_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_the_grey_king_rusted = {
-		index = 142
-		male = {
-			1 = crown_of_the_grey_king_rusted_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_the_nights_king = {
-		index = 143
-		male = {
-			1 = crown_of_the_nights_king_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_the_old_gods = {
-		index = 144
-		male = {
-			1 = crown_of_the_old_gods_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_the_seven = {
-		index = 145
-		male = {
-			1 = crown_of_the_seven_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_the_tides = {
-		index = 146
-		male = {
-			1 = crown_of_the_tides_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_the_wall = {
-		index = 147
-		male = {
-			1 = crown_of_the_wall_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_true_winter = {
-		index = 148
-		male = {
-			1 = crown_of_true_winter_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_westerling = {
-		index = 149
-		male = {
-			1 = crown_of_westerling_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_westerosi_diadem = {
-		index = 150
-		male = {
-			1 = crown_of_westerosi_diadem_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_westerosi_diadem_silver = {
-		index = 151
-		male = {
-			1 = crown_of_westerosi_diadem_silver_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crown_of_winter_roses = {
-		index = 152
-		male = {
-			1 = crown_of_winter_roses_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crownofhugor = {
-		index = 153
-		male = {
-			1 = crownofhugor_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	crownofwinter = {
-		index = 154
-		male = {
-			1 = crownofwinter_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	daemon_queen_stepstone_crown = {
-		index = 155
-		male = {
-			1 = daemon_queen_stepstone_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	daemon_stepstone_crown = {
-		index = 156
-		male = {
-			1 = daemon_stepstone_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	daemonblackfyre_crown = {
-		index = 157
-		male = {
-			1 = daemonblackfyre_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	daenerys_crown = {
-		index = 158
-		male = {
-			1 = daeneryscrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	dayne_crown = {
-		index = 159
-		male = {
-			1 = dayne_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	dorne_crown = {
-		index = 160
-		male = {
-			1 = dornecrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	dornish_crown = {
-		index = 161
-		male = {
-			1 = dornish_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	driftwood_crown1 = {
-		index = 162
-		male = {
-			1 = driftwoodcrown1_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	dustin_crown = {
-		index = 163
-		male = {
-			1 = dustin_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	falcon_crown = {
-		index = 164
-		male = {
-			1 = falcon_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	floreal_crown = {
-		index = 165
-		male = {
-			1 = florealcrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	florent_crown = {
-		index = 166
-		male = {
-			1 = florent_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	frey_crown = {
-		index = 167
-		male = {
-			1 = frey_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	greyjoy_crown = {
-		index = 168
-		male = {
-			1 = greyjoy_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	harlaw_crown = {
-		index = 169
-		male = {
-			1 = harlaw_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	hightower_crown = {
-		index = 170
-		male = {
-			1 = hightower_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	ironisles_crown = {
-		index = 171
-		male = {
-			1 = ironislescrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	ironstag_crown = {
-		index = 172
-		male = {
-			1 = ironstagcrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	jaehaerysI_crown = {
-		index = 173
-		male = {
-			1 = jaehaerysIcrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	joffreyI_crown = {
-		index = 174
-		male = {
-			1 = joffreyIcrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	maekarI_crown = {
-		index = 175
-		male = {
-			1 = maekarIcrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	manderly_crown = {
-		index = 176
-		male = {
-			1 = manderly_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	queen_of_love_and_beauty_rose_crown_generic = {
-		index = 177
-		male = {
-			1 = queen_of_love_and_beauty_rose_crown_generic_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	queen_of_love_and_beauty_rose_crown_03 = {
-		index = 178
-		male = {
-			1 = queen_of_love_and_beauty_rose_crown_03_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	queen_of_love_and_beauty_rose_crown_04 = {
-		index = 179
-		male = {
-			1 = queen_of_love_and_beauty_rose_crown_04_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	queen_of_love_and_beauty_rose_crown_05 = {
-		index = 180
-		male = {
-			1 = queen_of_love_and_beauty_rose_crown_05_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	queen_of_love_and_beauty_rose_crown_06 = {
-		index = 181
-		male = {
-			1 = queen_of_love_and_beauty_rose_crown_06_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	reach_crown = {
-		index = 182
-		male = {
-			1 = reach_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	reachman_crown = {
-		index = 183
-		male = {
-			1 = reachman_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	redwyne_crown = {
-		index = 184
-		male = {
-			1 = redwyne_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	reed_crown = {
-		index = 185
-		male = {
-			1 = reed_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	renly_crown = {
-		index = 186
-		male = {
-			1 = renlycrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	rhaella_crown = {
-		index = 187
-		male = {
-			1 = rhaellacrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	rhaenys_circlet = {
-		index = 188
-		male = {
-			1 = rhaenys_circlet_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	riverlands_crown = {
-		index = 189
-		male = {
-			1 = riverlandscrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	robertI_crown = {
-		index = 190
-		male = {
-			1 = robertIcrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	royce_crown = {
-		index = 191
-		male = {
-			1 = royce_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	stannis_crown = {
-		index = 192
-		male = {
-			1 = stanniscrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	stormlands_crown = {
-		index = 193
-		male = {
-			1 = stormlandscrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	stormlander_crown = {
-		index = 194
-		male = {
-			1 = stormlander_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	swann_crown = {
-		index = 195
-		male = {
-			1 = swann_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	tarly_crown = {
-		index = 196
-		male = {
-			1 = tarly_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	tarth_crown = {
-		index = 197
-		male = {
-			1 = tarth_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	tully_crown = {
-		index = 198
-		male = {
-			1 = tully_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	umber_crown = {
-		index = 199
-		male = {
-			1 = umber_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	valeman_crown = {
-		index = 200
-		male = {
-			1 = valeman_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	valyrian_crown2 = {
-		index = 201
-		male = {
-			1 = valyrian_crown2_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	valyrian_crown1 = {
-		index = 202
-		male = {
-			1 = valyriancrown1_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	visenya_circlet = {
-		index = 203
-		male = {
-			1 = visenya_circlet_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	westerlander2_crown = {
-		index = 204
-		male = {
-			1 = westerlander2_crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	westerlands2_crown = {
-		index = 205
-		male = {
-			1 = westerlands2crown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	westerlands_crown = {
-		index = 206
-		male = {
-			1 = westerlandscrown_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	westerosi_valyrian_crown1 = {
-		index = 207
-		male = {
-			1 = westerosi_valyrian_crown1_prop
-		}
-		female = male
-		boy = male
-		girl = female
-	}
-
-	westerosi_valyrian_crown2 = {
-		index = 208
-		male = {
-			1 = westerosi_valyrian_crown2_prop
-		}
 		female = male
 		boy = male
 		girl = female

@@ -1,4 +1,4 @@
-pattern_textures = {
+﻿pattern_textures = {
 	name = "diamond_chesterfield"
 	colormask	= "gfx/portraits/accessory_variations/textures/smc_diamond_chesterfield_masks.dds"
 	normal		= "gfx/portraits/accessory_variations/textures/smc_diamond_chesterfield_normal.dds"

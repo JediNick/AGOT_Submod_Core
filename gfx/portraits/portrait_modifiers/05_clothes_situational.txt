@@ -1053,7 +1053,10 @@
                 add = 102
                 age > 18
                 house = house:house_Bittersteel
-                is_character_targaryen_95 = yes
+                AND = {
+                    exists = character:Targaryen_95
+                    this = character:Targaryen_95
+                }
                 is_male = yes
             }
         }

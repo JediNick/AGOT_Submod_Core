@@ -2525,6 +2525,24 @@ fp3_iranian_high_nobles = {
 				}
 				has_tgp_dlc_trigger = yes
 			}
+			modifier = {
+				add = 120
+				OR = {
+					portrait_high_nobles_clothing_trigger = {
+						CULTURE_INPUT = chinese
+					}
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = chinese
+					}
+				}
+				NOT = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = chinese
+					}
+				}
+				is_female = yes
+				has_tgp_dlc_trigger = yes
+			}
 		}
 	}
 
@@ -2878,9 +2896,7 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 				}
 				has_tgp_dlc_trigger = yes
 				merit_level <= 2
-				culture = {
-					has_cultural_era_or_later = culture_era_late_medieval
-				}
+					portrait_era4_trigger = yes
 			}
 		}
 	}
@@ -2914,9 +2930,7 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 					merit_level = 4
 					merit_level = 3
 				}
-				culture = {
-					has_cultural_era_or_later = culture_era_late_medieval
-				}
+				portrait_era4_trigger = yes
 			}
 		}
 	}
@@ -2950,9 +2964,7 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 					merit_level = 6
 					merit_level = 5
 				}
-				culture = {
-					has_cultural_era_or_later = culture_era_late_medieval
-				}
+				portrait_era4_trigger = yes
 			}
 		}
 	}
@@ -2983,9 +2995,7 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 				}
 				has_tgp_dlc_trigger = yes
 				merit_level >= 7
-				culture = {
-					has_cultural_era_or_later = culture_era_late_medieval
-				}
+				portrait_era4_trigger = yes
 			}
 		}
 	}
@@ -3006,6 +3016,23 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 				is_independent_ruler = no
 				portrait_royalty_trigger = {
 					CULTURE_INPUT = chinese
+				}
+				has_tgp_dlc_trigger = yes
+			}
+			modifier = {
+				add = 120
+				is_female = yes
+				is_concubine = yes
+				OR = {
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = chinese
+					}
+					portrait_high_nobles_clothing_trigger = {
+						CULTURE_INPUT = chinese
+					}
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = chinese
+					}
 				}
 				has_tgp_dlc_trigger = yes
 			}
@@ -3032,7 +3059,7 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 			}
 		}
 	}
-	
+
 	chinese_imperial_clothes_tang = { # Intentionally included as free content
 		dna_modifiers = {
 			accessory = {
@@ -3076,9 +3103,44 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 			# 	has_tgp_dlc_trigger = yes
 			# 	exists = global_var:chinese_fashion_change
 			# }
+			modifier = {
+				add = 130
+				has_tgp_dlc_trigger = yes
+				OR = {
+					portrait_royalty_clothing_trigger = {
+						CULTURE_INPUT = tangut
+					}
+					portrait_imperial_clothing_trigger = {
+						CULTURE_INPUT = jurchen
+					}
+				}
+				government_has_flag = government_has_merit
+				is_independent_ruler = yes
+			}
 		}
 	}
-
+	chinese_imperial_clothes_tang_informal = { # ##The Tang dynasty emperor's informal court robes and uyghur iduqut
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_chinese_ministers
+				accessory = m_clothes_sec_tgp_chinese_nob_01_m6
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 150
+				has_tgp_dlc_trigger = yes
+				has_cp9_dlc_trigger = yes
+				highest_held_title_tier >= tier_kingdom
+				portrait_royalty_clothing_trigger = {
+					CULTURE_INPUT = uyghur
+				}
+			}
+		}
+	}
 	## TGP - Japanese ##
 
 	japanese_commoner_clothes = {
@@ -3350,7 +3412,28 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 			}
 		}
 	}
-	
+
+	khmer_royalty_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_southeast_royalty_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = southeast_asian
+				}
+				has_tgp_dlc_trigger = yes
+			}
+		}
+	}
+
 	## TGP - Ainu ##
 
 	ainu_commoner_clothes = {
@@ -3396,10 +3479,10 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 				OR = {
 					portrait_low_nobles_trigger = {
 						CULTURE_INPUT = ainu
-					}	
+					}
 					portrait_high_nobles_trigger = {
 						CULTURE_INPUT = ainu
-					}				
+					}
 				}
 				has_tgp_dlc_trigger = yes
 				has_cp7_dlc_trigger = no
@@ -3544,17 +3627,17 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 				OR = {
 					portrait_low_nobles_clothing_trigger = {
 						CULTURE_INPUT = nivkh
-					}	
+					}
 					#portrait_high_nobles_clothing_trigger = {
 					#	CULTURE_INPUT = nivkh
-					#}				
+					#}
 				}
-	#			has_cp7_dlc_trigger = yes
+				#			has_cp7_dlc_trigger = yes
 			}
 		}
 	}
 
-## CCP9 ##
+	## CCP9 ##
 
 	ccp9_liao_clothes = {
 		dna_modifiers = {
@@ -3622,7 +3705,7 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 			base = 0
 			modifier = {
 				add = 90
-				OR={
+				OR = {
 					portrait_high_nobles_clothing_trigger = {
 						CULTURE_INPUT = uyghur
 					}
@@ -3649,8 +3732,13 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 			base = 0
 			modifier = {
 				add = 120
-				portrait_royalty_clothing_trigger = {
-					CULTURE_INPUT = uyghur
+				OR = {
+					portrait_royalty_clothing_trigger = {
+						CULTURE_INPUT = uyghur
+					}
+					portrait_imperial_clothing_trigger = {
+						CULTURE_INPUT = uyghur
+					}
 				}
 				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones
 				has_cp9_dlc_trigger = yes
@@ -3670,7 +3758,7 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 		weight = {
 			base = 0
 			modifier = {
-				add = 80
+				add = 140
 				portrait_high_nobles_clothing_trigger = {
 					CULTURE_INPUT = tangut
 				}
@@ -3691,9 +3779,9 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 		weight = {
 			base = 0
 			modifier = {
-				add = 130
-				OR={
-					portrait_high_nobles_clothing_trigger = {
+				add = 150
+				OR = {
+					portrait_royalty_clothing_trigger = {
 						CULTURE_INPUT = tangut
 					}
 					portrait_imperial_clothing_trigger = {
@@ -3701,15 +3789,6 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 					}
 				}
 				has_cp9_dlc_trigger = yes
-				is_female = yes
-			}
-			modifier = {
-				add = 130
-				portrait_high_nobles_clothing_trigger = {
-					CULTURE_INPUT = tangut
-				}
-				has_cp9_dlc_trigger = yes
-				highest_held_title_tier < tier_empire
 			}
 		}
 	}
@@ -3733,6 +3812,11 @@ NOT = { has_clothing_gfx = korean_clothing_gfx }
 						CULTURE_INPUT = chinese
 					}
 					portrait_royalty_clothing_trigger = {
+						CULTURE_INPUT = chinese
+					}
+				}
+				NOT = {
+					portrait_imperial_clothing_trigger = {
 						CULTURE_INPUT = chinese
 					}
 				}
