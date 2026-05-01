@@ -2756,6 +2756,17 @@
 		}
 	}
 
+	agot_artifact_weapon_longthorn = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_longthorn
+				value = 1.0
+			}
+		}
+	}
+
 	agot_artifact_weapon_black_death = {
 		dna_modifiers = {
 			accessory = {

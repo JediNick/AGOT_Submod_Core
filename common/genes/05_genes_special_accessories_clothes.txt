@@ -5170,24 +5170,8 @@ special_genes = {
 				girl = female
 			}
 
-			asoiaf_north_war_clothes = { #AGOT+ Added
-				index = 248
-
-				male = {
-					1 = male_clothes_secular_asoiaf_north_war_chainmail
-					1 = male_clothes_secular_asoiaf_north_war_padding
-					1 = male_clothes_secular_asoiaf_north_war_plate
-					1 = male_clothes_secular_asoiaf_north_war_plate_stark
-				}
-				female = {
-					1 = f_clothes_sec_northern_war_nob_01_lo
-				}
-				boy = male
-				girl = female
-			}
-
 			asoiaf_all_armours = { #AGOT+ Added
-				index = 249
+				index = 248
 
 				male = {
 					1 = male_clothes_asoiaf_nights_watch_leather
@@ -5200,10 +5184,8 @@ special_genes = {
 					1 = male_clothes_secular_asoiaf_lannister_war_plate_2_sash
 					1 = male_clothes_secular_asoiaf_lannister_war_plate_2_sash_ceremonial
 					1 = male_clothes_asoiaf_hound_armour
-					1 = male_clothes_secular_asoiaf_north_war_chainmail
-					1 = male_clothes_secular_asoiaf_north_war_padding
-					1 = male_clothes_secular_asoiaf_north_war_plate
-					1 = male_clothes_secular_asoiaf_north_war_plate_stark
+					1 = male_clothes_asoiaf_north_armour_low
+					1 = male_clothes_asoiaf_stark_armour_low
 					1 = male_clothes_asoiaf_bolton_armour_dynast
 					1 = male_clothes_asoiaf_bolton_armour_high
 					1 = male_clothes_asoiaf_bolton_armour_low
@@ -5224,6 +5206,8 @@ special_genes = {
 					1 = female_clothes_asoiaf_dragonstone_armour_high_rhllor
 					1 = female_clothes_asoiaf_dragonstone_armour_low
 					1 = female_clothes_asoiaf_hound_armour
+					1 = female_clothes_asoiaf_north_armour_low
+					1 = female_clothes_asoiaf_stark_armour_low
 					1 = female_clothes_asoiaf_bolton_armour_dynast
 					1 = female_clothes_asoiaf_bolton_armour_high
 					1 = female_clothes_asoiaf_bolton_armour_low
@@ -5241,7 +5225,7 @@ special_genes = {
 			}
 
 			asoiaf_unique_clothes = { #AGOT+ Added
-				index = 250
+				index = 249
 
 				male = {
 					1 = male_clothes_asoiaf_bolton_tunic
@@ -5319,7 +5303,7 @@ special_genes = {
 			}
 
 			asoiaf_maester_clothes = { #AGOT+ Added
-				index = 251
+				index = 250
 
 				male = {
 					1 = male_clothes_asoiaf_maester_robes_black
@@ -5337,7 +5321,7 @@ special_genes = {
 			}
 
 			asoiaf_religious_clothes = { #AGOT+ Added
-				index = 252
+				index = 251
 
 				male = {
 					1 = male_clothes_asoiaf_septon_robes_1
@@ -5354,7 +5338,7 @@ special_genes = {
 			}
 			
 			golden_company_armor = { 
-				index = 253
+				index = 252
 
 				male = {
 					1 = male_clothes_platedVest_chains_01
@@ -5372,7 +5356,7 @@ special_genes = {
 			}
 
 			golden_company_armor_black = { 
-				index = 254
+				index = 253
 
 				male = {
 					1 = male_clothes_captainsArmor_black_01
@@ -5389,7 +5373,7 @@ special_genes = {
 			}
 
 			golden_company_armor_blackfyre = { 
-				index = 255
+				index = 254
 
 				male = {
 					1 = male_clothes_captainsArmor_blackfyre_01
