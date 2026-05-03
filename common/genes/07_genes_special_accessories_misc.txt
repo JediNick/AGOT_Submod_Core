@@ -2689,7 +2689,7 @@ props_left = {
 		index = 111
 		male = {
 			1 = horn_dragonbinder
-}
+		}
 		female = male
 		boy = male
 		girl = female
@@ -4779,7 +4779,11 @@ tgp_guqin_01_a = {
 			boy = male
 			girl = female
 		}
-	}
+		agot_artifact_weapon_longthorn = {
+			index = 195
+			male = {
+				1 = longthorn_artifact
+			}
 			female = {
 				1 = longthorn_artifact
 			}
