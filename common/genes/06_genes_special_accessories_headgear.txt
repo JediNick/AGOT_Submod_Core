@@ -4656,6 +4656,8 @@ fp4_western_era3_common = {
 					1 = male_headgear_secular_asoiaf_crown_renly
 					1 = male_headgear_secular_asoiaf_crown_baratheon_tyrell
 					1 = male_headgear_secular_asoiaf_crown_joffrey_I
+					1 = male_headgear_asoiaf_crown_of_winter
+					1 = male_headgear_asoiaf_sansa_crown
 				}
 				female = {
 					1 = female_headgear_secular_asoiaf_crown_aerys_II
@@ -4663,6 +4665,8 @@ fp4_western_era3_common = {
 					1 = female_headgear_secular_asoiaf_crown_renly
 					1 = female_headgear_secular_asoiaf_crown_baratheon_tyrell
 					1 = female_headgear_secular_asoiaf_crown_joffrey_I
+					1 = female_headgear_asoiaf_crown_of_winter
+					1 = female_headgear_asoiaf_sansa_crown
 					1 = female_headgear_asoiaf_reach_headdress_1
 					1 = female_headgear_asoiaf_septa_wimple
 					1 = female_headgear_asoiaf_silent_sister_hood
