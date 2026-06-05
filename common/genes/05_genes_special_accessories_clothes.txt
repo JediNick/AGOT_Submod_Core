@@ -5289,6 +5289,7 @@ special_genes = {
 					1 = male_clothes_asoiaf_leather_jerkin_1_jon
 					1 = male_clothes_asoiaf_blacksmith_apron
 					1 = male_clothes_asoiaf_huntsman_jerkin
+					1 = male_clothes_asoiaf_executioner_jerkin
 				}
 				female = {
 					1 = female_clothes_asoiaf_westeros_dress_1_high
@@ -5309,6 +5310,7 @@ special_genes = {
 					1 = female_clothes_asoiaf_handmaiden_dress_2
 					1 = female_clothes_asoiaf_blacksmith_apron
 					1 = female_clothes_asoiaf_huntsman_jerkin
+					1 = female_clothes_asoiaf_executioner_jerkin
 				}
 				boy = male
 				girl = female

@@ -698,6 +698,7 @@ accessory_genes = {
 				1 = male_legwear_asoiaf_leather_boots_7
 				1 = male_legwear_asoiaf_blacksmith_legs
 				1 = male_legwear_asoiaf_huntsman_legs
+				1 = male_legwear_asoiaf_executioner_legs
 			}
 			female = {
 				1 = female_legwear_asoiaf_dragonstone_legs
@@ -715,6 +716,7 @@ accessory_genes = {
 				1 = female_legwear_asoiaf_shoes_1
 				1 = female_legwear_asoiaf_blacksmith_legs
 				1 = female_legwear_asoiaf_huntsman_legs
+				1 = female_legwear_asoiaf_executioner_legs
 			}
 			boy = male
 			girl = female
@@ -4790,6 +4792,61 @@ tgp_guqin_01_a = {
 			}
 			female = {
 				1 = longthorn_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_oathkeeper = {
+			index = 196
+			male = {
+				1 = oathkeeper_artifact
+			}
+			female = {
+				1 = oathkeeper_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_black_blood = {
+			index = 197
+			male = {
+				1 = black_blood_artifact
+			}
+			female = {
+				1 = black_blood_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_ironborn_greataxe = {
+			index = 198
+			male = {
+				1 = ironborn_greataxe_artifact
+			}
+			female = {
+				1 = ironborn_greataxe_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_dennecent_axe = {
+			index = 199
+			male = {
+				1 = dennecent_axe_artifact
+			}
+			female = {
+				1 = dennecent_axe_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_eleneis_grace = {
+			index = 200
+			male = {
+				1 = eleneis_grace_artifact
+			}
+			female = {
+				1 = eleneis_grace_artifact
 			}
 			boy = male
 			girl = female
