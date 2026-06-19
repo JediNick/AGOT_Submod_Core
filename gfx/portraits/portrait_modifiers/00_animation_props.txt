@@ -2327,6 +2327,61 @@
 		}
 	}
 
+	agot_artifact_weapon_black_blood = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_black_blood
+				value = 1.0
+			}
+		}
+	}
+
+	agot_artifact_weapon_ironborn_greataxe = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_ironborn_greataxe
+				value = 1.0
+			}
+		}
+	}
+
+	agot_artifact_weapon_dennecent_axe = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_dennecent_axe
+				value = 1.0
+			}
+		}
+	}
+
+	agot_artifact_weapon_eleneis_grace = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_eleneis_grace
+				value = 1.0
+			}
+		}
+	}
+
+	agot_artifact_weapon_sg_lizard_lion = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_sg_lizard_lion
+				value = 1.0
+			}
+		}
+	}
+
 	agot_artifact_weapon_brightroar = {
 		dna_modifiers = {
 			accessory = {
@@ -2729,6 +2784,17 @@
 				mode = add
 				gene = props_right
 				template = agot_artifact_weapon_widows_wail
+				value = 1.0
+			}
+		}
+	}
+
+	agot_artifact_weapon_oathkeeper = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_oathkeeper
 				value = 1.0
 			}
 		}

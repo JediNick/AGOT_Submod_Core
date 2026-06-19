@@ -413,6 +413,28 @@
 			}
 		}
 	}
+
+	agot_headgear_maester = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					has_trait = maester
+					has_trait = maester_historical
+				}
+			}
+		}
+	}
+
 	agot_headgear_archmaester_mask_silver = {
 		dna_modifiers = {
 			accessory = {

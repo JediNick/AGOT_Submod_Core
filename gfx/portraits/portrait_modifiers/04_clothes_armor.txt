@@ -3069,6 +3069,38 @@
 		}
 	}
 
+	agot_clothing_brightflame_armor = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = agot_all_armors
+				accessory = male_clothes_valyrian_war_03_high_decorated
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = agot_all_legwear
+				accessory = male_legwear_secular_valyrian_war_03_high_decorated
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = agot_artifact_portrait_modifier
+				portrait_wear_armor_trigger = yes
+				agot_has_artifact_equipped = { ARTIFACT_VARIABLE = brightflame_armor_artifact }
+			}
+		}
+	}
+
 	agot_clothing_maelys_blackfyre_armor = {
 		dna_modifiers = {
 			accessory = {
@@ -3282,6 +3314,38 @@
 			modifier = {
 				add = agot_character_portrait_modifier
 				has_character_flag = needs_ned_armor
+			}
+		}
+	}
+
+	agot_clothing_beesbury_armor = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = agot_all_armors
+				accessory = male_clothes_honeywiner_war_dynastic_01
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = agot_all_legwear
+				accessory = male_legwear_secular_honeywiner_war_01
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = agot_dynasty_portrait_modifier
+				portrait_wear_armor_trigger = yes
+				dynasty ?= dynasty:dynn_Beesbury
 			}
 		}
 	}
@@ -5220,7 +5284,7 @@
 		}
 	}
 
-	agot_clothing_northern_armor = {
+	agot_clothing_northern_high_armor = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -5310,13 +5374,52 @@
 				mode = add
 				gene = clothes
 				template = agot_all_armors
-				accessory = male_clothes_north_war_03
+				accessory = male_clothes_north_war_coa_02
 			}
 			accessory = {
 				mode = add
 				gene = legwear
 				template = agot_all_legwear
-				accessory = male_legwear_secular_north_war_03
+				accessory = male_legwear_north_war_02
+			}
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = agot_coa_cloaks_fp1_dynamic_low_war
+				range = { 0 1 }
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = agot_culture_portrait_modifer
+				agot_portrait_low_armor_trigger = {
+					CULTURE_INPUT = the_north
+				}
+			}
+		}
+	}
+
+	agot_clothing_northern_armor_low_b = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = agot_all_armors
+				accessory = male_clothes_north_war_coa_02_b
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = agot_all_legwear
+				accessory = male_legwear_north_war_02_b
 			}
 			accessory = {
 				mode = add
