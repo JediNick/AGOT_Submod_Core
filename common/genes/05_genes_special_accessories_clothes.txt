@@ -5274,6 +5274,7 @@ special_genes = {
 					1 = male_clothes_asoiaf_reach_tunic_1_high
 					1 = male_clothes_asoiaf_reach_tunic_1_low
 					1 = male_clothes_asoiaf_reach_tunic_1_coa
+					1 = male_clothes_asoiaf_reach_tunic_1_tyrion
 					1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_sash
 					1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_no_clasps
 					1 = male_clothes_asoiaf_crownlands_tunic_1_joffrey_no_clasps_leather
