@@ -232,6 +232,25 @@ idle = {
 					agot_should_be_knight_idle_trigger = yes
 					any_equipped_character_artifact = { 	
 						artifact_type = axe  	
+						agot_artifact_is_long_axe = no
+					}
+				}
+			}
+			portrait_modifier_pack = one_handed_axe
+		}
+
+		#AGOT Added, gives idle poses for axes if at war and or if you're a knight of a person at war
+		hold_long_axe_idle = {
+			animation = { head = "council_marshal" torso = "council_marshal" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 12000
+					agot_should_be_knight_idle_trigger = yes
+					any_equipped_character_artifact = {
+						agot_artifact_is_long_axe = yes
 					}
 				}
 			}

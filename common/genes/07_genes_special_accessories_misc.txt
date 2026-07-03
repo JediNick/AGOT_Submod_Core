@@ -690,6 +690,7 @@ accessory_genes = {
 				1 = male_legwear_asoiaf_hound_legs
 				1 = male_legwear_asoiaf_gold_cloak_legs
 				1 = male_legwear_asoiaf_tyrell_legs
+				1 = male_legwear_asoiaf_beaked_shoes
 				1 = male_legwear_asoiaf_greyjoy_legs
 				1 = male_legwear_asoiaf_ironborn_legs_coa
 				1 = male_legwear_asoiaf_nights_watch_legs
@@ -717,6 +718,7 @@ accessory_genes = {
 				1 = female_legwear_asoiaf_lannister_legs_light
 				1 = female_legwear_asoiaf_hound_legs
 				1 = female_legwear_asoiaf_gold_cloak_legs
+				1 = female_legwear_asoiaf_dorne_sandals
 				1 = female_legwear_asoiaf_greyjoy_legs
 				1 = female_legwear_asoiaf_ironborn_legs_coa
 				1 = female_legwear_asoiaf_leather_boots_1
@@ -2692,6 +2694,15 @@ props_left = {
 		index = 111
 		male = {
 			1 = horn_dragonbinder
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	agot_shield_nights_watch = {
+		index = 112
+		male = {
+			1 = ep1_western_shield_nightswatch_portrait
 		}
 		female = male
 		boy = male
@@ -4856,6 +4867,15 @@ tgp_guqin_01_a = {
 			female = {
 				1 = sg_lizard_lion_artifact
 			}
+			boy = male
+			girl = female
+		}
+		agot_shield_nights_watch = {
+			index = 202
+			male = {
+				1 = ep1_western_shield_nightswatch_portrait_right
+			}
+			female = male
 			boy = male
 			girl = female
 		}

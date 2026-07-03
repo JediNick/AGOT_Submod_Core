@@ -211,6 +211,29 @@ one_handed_mace = {
 #AGOT Added, keep this in sync with any changes to one_handed_mace
 one_handed_mace_shield = {
 
+	portrait_modifier = { # Night's Watch with artifact mace
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = mace }
+			has_trait = nightswatch
+		}
+		animations_props = artifact_mace_equipped_prop
+		animations_props = agot_shield_nights_watch
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # Night's Watch
+		trigger = {
+			has_trait = nightswatch
+		}
+		animations_props = artisan_mace_western_prop
+		animations_props = agot_shield_nights_watch
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
 	portrait_modifier = { # Equipped
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = mace }
@@ -1103,6 +1126,33 @@ lefthanded_one_handed_sword = {
 
 horse_sword_shield = {
 
+	#AGOT Added
+	portrait_modifier = { # Night's Watch with artifact sword
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+			has_trait = nightswatch
+		}
+		animations_props = ep2_horse_01_cgallop
+		animations_props = artifact_sword_equipped_prop
+		animations_props = agot_shield_nights_watch
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	#AGOT Added
+	portrait_modifier = { # Night's Watch
+		trigger = {
+			has_trait = nightswatch
+		}
+		animations_props = ep2_horse_01_cgallop
+		animations_props = marshal_prop
+		animations_props = agot_shield_nights_watch
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
 	portrait_modifier = { # MENA shield with artifact sword
 		trigger = {
 			any_equipped_character_artifact = { artifact_type = sword }
@@ -1910,6 +1960,31 @@ council_chancellor = {
 }
 council_marshal_shield = {
 
+	#AGOT Added
+	portrait_modifier = { # Night's Watch with artifact sword
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = sword }
+			has_trait = nightswatch
+		}
+		animations_props = artifact_sword_equipped_prop
+		animations_props = agot_shield_nights_watch
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	#AGOT Added
+	portrait_modifier = { # Night's Watch
+		trigger = {
+			has_trait = nightswatch
+		}
+		animations_props = marshal_prop
+		animations_props = agot_shield_nights_watch
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+	
 	##TGC ADDED START #
 	portrait_modifier = { # Equipped
 		trigger = {
@@ -2917,17 +2992,55 @@ throneRoom_two_handed_passive_1 = {
 
 throneRoom_two_handed_passive_shield = {
 
-	portrait_modifier = { # Hunting
-			trigger = {
-				involved_activity ?= { has_activity_type = activity_hunt }
-			}
-			animations_props = ep2_boar_spear_left_attachment
-			animations = council_marshal_decal
-			animations = fat_additive
-			animations = dwarf_additive
-			animations = female_prop_fix_additive
-			animations_props = ep1_western_shield_right
+	#AGOT Added
+	portrait_modifier = { # Night's Watch hunting
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_hunt }
+			has_trait = nightswatch
 		}
+		animations_props = ep2_boar_spear_left_attachment
+		animations_props = agot_shield_nights_watch_right
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	#AGOT Added
+	portrait_modifier = { # Night's Watch with artifact spear
+		trigger = {
+			any_equipped_character_artifact = { artifact_type = spear }
+			has_trait = nightswatch
+		}
+		animations_props = artifact_spear_equipped_prop_left
+		animations_props = agot_shield_nights_watch_right
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	#AGOT Added
+	portrait_modifier = { # Night's Watch
+		trigger = {
+			has_trait = nightswatch
+		}
+		animations_props = artisan_spear_prop_left_hand
+		animations_props = agot_shield_nights_watch
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+	}
+
+	portrait_modifier = { # Hunting
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_hunt }
+		}
+		animations_props = ep2_boar_spear_left_attachment
+		animations = council_marshal_decal
+		animations = fat_additive
+		animations = dwarf_additive
+		animations = female_prop_fix_additive
+		animations_props = ep1_western_shield_right
+	}
 
 	##TGC ADDED START ##
 	portrait_modifier = { # Equipped

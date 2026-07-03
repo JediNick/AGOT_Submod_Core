@@ -5011,6 +5011,28 @@
 		}
 	}
 	
+	agot_shield_nights_watch = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_left
+				template = agot_shield_nights_watch
+				range = {0 1}
+			}
+		}
+	}
+
+	agot_shield_nights_watch_right = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_shield_nights_watch
+				range = {0 1}
+			}
+		}
+	}
+
 	#AGOT Crowns
 	aegonI_crown = {
 		dna_modifiers = {
