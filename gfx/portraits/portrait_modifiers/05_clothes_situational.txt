@@ -1008,60 +1008,31 @@
         }
     }
     
-	Targaryen_95_house_armor = {
+    agot_dothraki_commander = {
         dna_modifiers = {
             accessory = {
                 mode = add
-                gene = hairstyles
-                template = all_hairstyles
-                accessory = male_hair_fp1_02
-            }
-            accessory = {
-                mode = add
-                gene = secondary_headgears
-                template = no_headgear
-                value = 0
-            }
-            accessory = {
-                mode = add
-                gene = beards
-                template = no_beard
-                value = 0
-            }
-            accessory = {
-                mode = add
-                gene = cloaks
-                template = no_cloak
-                value = 0
-            }
-            accessory = {
-                mode = add
                 gene = clothes
-                template = agot_all_armors
-                accessory = male_clothes_north_war_ned_coa_01
+                template = indian_war_nobility_clothes
+                accessory = m_clothes_sec_indian_war_nob_01_lo
             }
             accessory = {
                 mode = add
                 gene = legwear
-                template = agot_all_legwear
-                accessory = male_legwear_secular_north_stark_war_03
+                template = mena_war_legwear
+                accessory = male_legwear_secular_mena_war_nobility_01
             }
         }
+
         weight = {
             base = 0
+
             modifier = {
-                add = 102
-                age > 18
-                house = house:house_Bittersteel
-                AND = {
-                    exists = character:Targaryen_95
-                    this = character:Targaryen_95
-                }
-                is_male = yes
+                add = 1000
+                has_character_flag = dothraki_commander
             }
         }
     }
-    
     ##
     ##AGOT Submod Core added
 	##

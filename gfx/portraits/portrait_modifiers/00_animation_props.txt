@@ -2327,6 +2327,28 @@
 		}
 	}
 
+	agot_artifact_weapon_blood_moon = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_blood_moon
+				value = 1.0
+			}
+		}
+	}
+
+	agot_artifact_weapon_elegance = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_elegance
+				value = 1.0
+			}
+		}
+	}
+
 	agot_artifact_weapon_black_blood = {
 		dna_modifiers = {
 			accessory = {
@@ -2454,6 +2476,17 @@
 				mode = add
 				gene = props_right
 				template = agot_artifact_weapon_dawn
+				value = 1.0
+			}
+		}
+	}
+
+	agot_artifact_weapon_dusk = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_dusk
 				value = 1.0
 			}
 		}
@@ -2833,6 +2866,50 @@
 		}
 	}
 
+	agot_artifact_weapon_boartusk = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_boartusk
+				accessory = boartusk_artifact
+			}
+		}
+	}
+
+	agot_artifact_weapon_boartusk_equipped = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_boartusk
+				accessory = boartusk_equipped_artifact
+			}
+		}
+	}
+
+	agot_artifact_weapon_ascendant = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_ascendant
+				accessory = ascendant_artifact
+			}
+		}
+	}
+
+	agot_artifact_weapon_ascendant_equipped = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_ascendant
+				accessory = ascendant_equipped_artifact
+			}
+		}
+	}
+
 	agot_artifact_weapon_black_death = {
 		dna_modifiers = {
 			accessory = {
@@ -2894,6 +2971,28 @@
 				mode = add
 				gene = props_right
 				template = agot_artifact_weapon_unkindness
+				value = 1.0
+			}
+		}
+	}
+
+	agot_artifact_weapon_guardian = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_guardian
+				value = 1.0
+			}
+		}
+	}
+
+	agot_artifact_weapon_fortitude = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_fortitude
 				value = 1.0
 			}
 		}
@@ -3060,6 +3159,17 @@
 				gene = props_right
 				template = dornish_spear_prop
 				value = 0.7
+			}
+		}
+	}
+
+	agot_heartbreaker_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_heartbreaker
+				range = {0.0 1.0}
 			}
 		}
 	}
