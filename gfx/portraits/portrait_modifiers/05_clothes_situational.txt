@@ -681,6 +681,7 @@
                     has_trait = nightswatch
                     has_trait = nightswatch_temp
                     has_trait = nightswatch_historical
+					has_character_flag = post_nw_reclaim_quest
                 }
                 NOR = { 
                     has_trait = maester 

@@ -1871,6 +1871,11 @@ headgear_base = {
 				has_ep3_dlc_trigger = yes
 				portrait_era1_trigger = yes
 			}
+			#AGOT Added, Kaisarikion Coronet
+			modifier = {
+				factor = 0
+				is_male = yes
+			}
 		}
 	}
 
@@ -1896,6 +1901,11 @@ headgear_base = {
 					portrait_era3_trigger = yes
 					portrait_era4_trigger = yes
 				}
+			}
+			#AGOT Added, Holy Crown of Hungary
+			modifier = {
+				factor = 0
+				is_male = yes
 			}
 		}
 	}

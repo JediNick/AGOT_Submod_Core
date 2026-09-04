@@ -4886,13 +4886,13 @@ tgp_guqin_01_a = {
 			boy = male
 			girl = female
 		}
-		agot_artifact_weapon_deftpaw = {
+		agot_artifact_weapon_guile = {
 			index = 202
 			male = {
-				1 = deftpaw_artifact
+				1 = guile_artifact
 			}
 			female = {
-				1 = deftpaw_artifact
+				1 = guile_artifact
 			}
 			boy = male
 			girl = female
@@ -5141,6 +5141,29 @@ tgp_guqin_01_a = {
 			boy = male
 			girl = female
 		}
+		agot_artifact_weapon_darkflame = {
+			index = 225
+			male = {
+				1 = darkflame_artifact
+			}
+			female = {
+				1 = darkflame_artifact
+			}
+			boy = male
+			girl = female
+		}
+		agot_artifact_weapon_duskmaiden = {
+			index = 226
+			male = {
+				1 = duskmaiden_artifact
+			}
+			female = {
+				1 = duskmaiden_artifact
+			}
+			boy = male
+			girl = female
+		}
+
 	}
 
 	

@@ -2976,6 +2976,28 @@
 		}
 	}
 
+	agot_artifact_weapon_darkflame = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_darkflame
+				value = 1.0
+			}
+		}
+	}
+
+	agot_artifact_weapon_duskmaiden = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_duskmaiden
+				value = 1.0
+			}
+		}
+	}
+
 	agot_artifact_weapon_guardian = {
 		dna_modifiers = {
 			accessory = {
@@ -3169,6 +3191,17 @@
 				mode = add
 				gene = props_right
 				template = agot_artifact_weapon_heartbreaker
+				range = {0.0 1.0}
+			}
+		}
+	}
+
+	agot_guile_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props_right
+				template = agot_artifact_weapon_guile
 				range = {0.0 1.0}
 			}
 		}
